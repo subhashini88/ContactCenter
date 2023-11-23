@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B1F3-F475B7383161">
+	<DocumentID>F8E4E399-CF40-A1ED-B1F3-F475B737F161</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B1F3-F475B737F161</Name>
+	<Description>AllStatesRequestAssignmentsList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-21T10:07:07.858</CreationDate>
+	<Notes/>
+	<Text>AllStatesRequestAssignmentsList</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B1F3-F475B7377161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

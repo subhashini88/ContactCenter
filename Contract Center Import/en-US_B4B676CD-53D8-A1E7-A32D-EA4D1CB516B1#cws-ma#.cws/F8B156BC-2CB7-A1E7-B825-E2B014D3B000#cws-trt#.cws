@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-B825-E2B014D3F000">
+	<DocumentID>F8B156BC-2CB7-A1E7-B825-E2B014D3B000</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-B825-E2B014D3B000</Name>
+	<Description>Biller period ID</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-12-14T07:42:04.132</CreationDate>
+	<Notes/>
+	<Text>Biller period ID</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-B825-E2B014D33000"
+		/>
+	</TextIdentifier>
+</TranslatedText>

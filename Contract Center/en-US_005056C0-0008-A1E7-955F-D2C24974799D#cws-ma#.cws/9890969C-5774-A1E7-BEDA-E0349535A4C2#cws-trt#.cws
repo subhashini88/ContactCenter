@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-BEDA-E0349535E4C2">
+	<DocumentID>9890969C-5774-A1E7-BEDA-E0349535A4C2</DocumentID>
+	<Name>9890969C-5774-A1E7-BEDA-E0349535A4C2</Name>
+	<Description>Renewal date</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-01-17T09:50:10.528</CreationDate>
+	<Notes/>
+	<Text>Renewal date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-BEDA-E034953524C2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

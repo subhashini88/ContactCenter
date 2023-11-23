@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B473-BA7D59E00889">
+	<DocumentID>F8B156D6-337A-A1E8-B473-BA7D59DFC889</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B473-BA7D59DFC889</Name>
+	<Description>On request rejected</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-17T05:56:15.931</CreationDate>
+	<Notes/>
+	<Text>On request rejected</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B473-BA7D59DF4889"
+		/>
+	</TextIdentifier>
+</TranslatedText>

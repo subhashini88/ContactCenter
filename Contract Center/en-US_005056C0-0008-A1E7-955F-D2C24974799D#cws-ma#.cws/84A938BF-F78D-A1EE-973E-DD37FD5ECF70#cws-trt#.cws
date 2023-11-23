@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-973E-DD37FD5F0F70">
+	<DocumentID>84A938BF-F78D-A1EE-973E-DD37FD5ECF70</DocumentID>
+	<Name>84A938BF-F78D-A1EE-973E-DD37FD5ECF70</Name>
+	<Description>Met - Success - In Recurrence</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-27T06:15:26.315</CreationDate>
+	<Notes/>
+	<Text>Met - Success - In Recurrence</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-973E-DD37FD5E4F70"
+		/>
+	</TextIdentifier>
+</TranslatedText>

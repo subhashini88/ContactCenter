@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9BEA-B839C78A24DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9BEA-B839C789E4DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9BEA-B839C789E4DE</Name>
+	<Description>Types and subtypes</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-14T08:16:40.521</CreationDate>
+	<Notes/>
+	<Text>Types and subtypes</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BEA-B839C78964DE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

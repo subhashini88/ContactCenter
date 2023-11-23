@@ -1,0 +1,53 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="00505601-F229-A1EE-99BD-E1BB89167B63">
+	<DocumentID>00505601-F229-A1EE-99BD-E1BB8916BB63</DocumentID>
+	<Name>OnTaskInProgress</Name>
+	<Description>OnTaskInProgress</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-09T23:01:59.735</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>{User.Properties.FullName} has started progress on the task&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/perform/item/[@TaskItemId@]/F8B156BC2CB7A1EAA8618E2DF11AB077&quot;&gt;[@TaskSubject@]&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;for the contract initiation request&amp;nbsp;&lt;a href=&quot;http://{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Identity.ItemId}/F8B156D6337AA1E8AC4038ADD5510882&quot;&gt;{item.Properties.ContractName}&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>[@TaskSubject@]: {User.Properties.FullName} has started progress on the task</Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="F8B156D6-337A-A1E8-B44C-78CAF1AA4889"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="00505601-F229-A1EE-99BD-E1BB89143B63">
+			<DocumentID>00505601-F229-A1EE-99BD-E1BB8913FB63</DocumentID>
+			<Name>00505601-F229-A1EE-99BD-E1BB8913FB63</Name>
+			<Description>00505601-F229-A1EE-99BD-E1BB8913FB63</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-10-09T23:01:59.734</CreationDate>
+			<Notes/>
+			<DeveloperText>Task progress started</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-F229-A1EE-99BD-E1BB89147B63"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole/>
+	<TypeDefinition/>
+</EmailTemplate>

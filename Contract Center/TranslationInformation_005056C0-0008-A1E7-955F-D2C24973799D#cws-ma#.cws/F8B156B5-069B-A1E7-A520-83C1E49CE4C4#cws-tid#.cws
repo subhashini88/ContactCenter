@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A520-83C1E49D24C4">
+	<DocumentID>F8B156B5-069B-A1E7-A520-83C1E49CE4C4</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A520-83C1E49CE4C4</Name>
+	<Description>in moths in days</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-08T11:02:39.131</CreationDate>
+	<Notes/>
+	<DefaultText>in moths in days</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156B5-069B-A1E7-A520-83C1E49D64C4"
+		/>
+	</Translations>
+</TextIdentifier>

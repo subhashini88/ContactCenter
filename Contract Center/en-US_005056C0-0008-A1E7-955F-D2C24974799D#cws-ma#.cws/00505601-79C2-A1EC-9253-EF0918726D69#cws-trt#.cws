@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-9253-EF091872AD69">
+	<DocumentID>00505601-79C2-A1EC-9253-EF0918726D69</DocumentID>
+	<Name>00505601-79C2-A1EC-9253-EF0918726D69</Name>
+	<Description>Latest activity list instance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-19T16:29:37.288</CreationDate>
+	<Notes/>
+	<Text>Latest activity list instance</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-9253-EF091871ED69"
+		/>
+	</TextIdentifier>
+</TranslatedText>

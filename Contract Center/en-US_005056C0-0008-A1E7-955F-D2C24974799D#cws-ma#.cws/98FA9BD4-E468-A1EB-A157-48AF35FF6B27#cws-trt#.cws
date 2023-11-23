@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A157-48AF35FFAB27">
+	<DocumentID>98FA9BD4-E468-A1EB-A157-48AF35FF6B27</DocumentID>
+	<Name>98FA9BD4-E468-A1EB-A157-48AF35FF6B27</Name>
+	<Description>ReadGCOrganizationOuter</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-15T07:11:16.531</CreationDate>
+	<Notes/>
+	<Text>ReadGCOrganizationOuter</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1EB-A157-48AF35FEEB27"
+		/>
+	</TextIdentifier>
+</TranslatedText>

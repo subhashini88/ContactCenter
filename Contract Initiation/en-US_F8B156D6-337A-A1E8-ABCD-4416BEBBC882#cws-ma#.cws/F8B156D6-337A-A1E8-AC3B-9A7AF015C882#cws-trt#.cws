@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC3B-9A7AF0160882">
+	<DocumentID>F8B156D6-337A-A1E8-AC3B-9A7AF015C882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC3B-9A7AF015C882</Name>
+	<Description>Instance status</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T09:36:09.405</CreationDate>
+	<Notes/>
+	<Text>Instance status</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3B-9A7AF0154882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-B3DE-D6777EDFA167">
+	<DocumentID>E86A64E0-AE43-A1EC-B3DE-D6777EDF6167</DocumentID>
+	<Name>HideExternalParty</Name>
+	<Description>HideExternalParty</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-09T09:59:01.442</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="C4D98747-A6D9-A1E8-AC98-AF019F4B886E"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

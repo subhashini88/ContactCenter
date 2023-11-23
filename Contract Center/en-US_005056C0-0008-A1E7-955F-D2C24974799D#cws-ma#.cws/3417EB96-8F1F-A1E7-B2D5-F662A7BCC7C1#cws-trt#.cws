@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-B2D5-F662A7BD07C1">
+	<DocumentID>3417EB96-8F1F-A1E7-B2D5-F662A7BCC7C1</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-B2D5-F662A7BCC7C1</Name>
+	<Description>months</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2017-11-17T05:35:35.989</CreationDate>
+	<Notes/>
+	<Text>months</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-B2D5-F662A7BC47C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

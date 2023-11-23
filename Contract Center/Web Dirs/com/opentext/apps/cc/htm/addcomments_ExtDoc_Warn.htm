@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title data-translatable="true">Add comments</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css"></link>
+	<link rel="stylesheet" href="../css/appscommon.css"></link>
+	<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+	<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	<style>
+		.comments-frame-area {
+			height: 100vh;
+			padding: 0;
+			border-left: 1px solid #efefef;
+		}
+
+		.comments-frame {
+			height: 99%;
+			width: 100%;
+			border: 0;
+		}
+
+		.docUploadWarning {
+			font-family: 'Lato', 'Helvetica', 'Segoe UI', 'Tahoma', 'Arial', 'sans-serif';
+			font-size: 1em;
+			font-weight: 500;
+			color: #333333;
+		}
+	</style>
+	<script type="text/javascript">
+		$.cordys.json.defaults.removeNamespacePrefix = true;
+		const BUSINESS_WORKSPACE = "BUSINESS_WORKSPACE";
+		function translatePlaceHolders(){
+	        var msg = getTranslationMessage("Review the negotiation closure request status for the displayed participants. Click {{0}} to close the negotiation and proceed.", getTranslationMessage("Continue"));
+	            
+	        var replaced = msg.replace(/\{(.*)\}/, function(text, grp) {
+	        	return '<a style="cursor: pointer" onclick="proccedtoSendForReview()"><span>'.concat(grp,'</span></a>');
+				    });
+			$("#proceedToNegotiation_msg").html(replaced);
+
+			var elems = window.parent.parent.document.getElementsByClassName("btn-translate");
+            if(elems){
+            	for(var ind = 0; ind < elems.length; ind++){
+                        elems[ind].innerHTML = getTranslationMessage(elems[ind].innerHTML);
+                    }
+            }
+
+    }
+
+		var WarningFlagsModel = function(){
+			var self = this;
+			self.showWorkFlowWarning = ko.observable(false);
+			self.showDivNoInternalPartyWarning = ko.observable(false);
+			self.showDivNoExternalPartyWarning = ko.observable(false);
+			self.showDivNoAccountsWarning = ko.observable(false);
+			self.showDivNoDocWarning = ko.observable(false);
+			self.showDivNoTemplateDocWarning = ko.observable(false);
+			self.showUploadDocWarning = ko.observable(false);
+			self.showUploadTemplateDocWarning = ko.observable(false);
+			self.showActiveToDraftWarning = ko.observable(false);
+			self.repositoryType = ko.observable("");
+		}
+		var showTaskListWarning = true;
+
+		var CommentsDataModel = function () {
+			var self = this;
+			self.comments = ko.observable();
+			self.contractID = ko.observable();
+		}
+		var commentsModel = new CommentsDataModel();
+		var UserModel = function () {
+			this.ID = ko.observable();
+			this.userid = ko.observable();
+			this.username = ko.observable();
+			this.status = ko.observable();
+		}
+		var SharedUsersModel = function () {
+			this.usersList = ko.observableArray([]);
+		}
+		var l_shared_users_model = new SharedUsersModel();
+		var l_warningFlagsModel = new WarningFlagsModel();
+
+
+		$(function () {
+			ko.applyBindings(l_warningFlagsModel, document.getElementById("warningDivs"));
+			var i_locale = getlocale();
+			translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale, true);
+			var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+			loadRTLIfRequired(i_locale,rtl_css);
+
+			$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("250px");
+			$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).parent().css('overflow', 'hidden');
+			cInstanceId = getUrlParameterValue("instanceId", null, true);
+			currentState = getUrlParameterValue("currentState", null, true);
+			currentActivityInstanceState = getUrlParameterValue("currentActivityInstanceState", null, true);
+			checkCurrentContractStateandProceed(currentState);
+			ko.applyBindings(l_shared_users_model, document.getElementById("div_SharedUserList"));
+			if(currentActivityInstanceState!="" && !currentState == "Active"){
+				if(currentActivityInstanceState!="Completed"){
+					l_warningFlagsModel.showWorkFlowWarning(true);
+				}
+			}
+
+			window.parent.$("button:contains('OK')").filter(function () {
+				return $(this).text() === "OK";
+			}).click(function () {
+				if (window.parent.parent) {
+					contractauthoringFrame = $('[src*="contractauthoring.htm"]', window.parent.document)[0];
+					if (contractauthoringFrame) {
+						contractauthoringFrame.contentWindow.makeItReadOnly();
+					}
+				}
+			});
+
+		});
+		function proccedtoSendForReview() {
+			$('ai-dialog-footer .btn-primary:contains("OK")', window.parent.document).show();
+			$('ai-dialog-footer .btn:contains("Cancel")', window.parent.document).text("Cancel");
+			$('#div_SharedUserList').css('display', 'none');
+			$('#commentsDiv').css('display', 'block');
+			getContractComments();
+		}
+		function checkCurrentContractStateandProceed() {
+			if (currentState == "Negotiation") {
+				readContractNegotiationStatus();
+			} else if (currentState == "Active") {
+				l_warningFlagsModel.showActiveToDraftWarning(true);
+				getContractComments();
+			} else {
+				getContractComments();
+			}
+		}
+		function readContractNegotiationStatus() {
+			$.cordys.ajax(
+				{
+					method: "GetCurrentContentByContractID",
+					namespace: "http://schemas.opentext.com/apps/ContractNegotiation/19.4",
+					parameters: {
+						"contractID": cInstanceId.substring(cInstanceId.indexOf(".") + 1)
+					},
+				}).done(function (data) {
+					if (data.Output) {
+						if (data.Output.FindZ_INT_RelatedContractContentListResponse.RelatedContractContent.Status != "CLOSED") {
+							$('ai-dialog-footer .btn-primary:contains("OK")', window.parent.document).hide();
+							var cancelBtn = $('ai-dialog-footer .btn:contains("Cancel")', window.parent.document);
+							cancelBtn.text("Close");
+							cancelBtn.addClass(cancelBtn.attr('class') + " btn-translate");
+
+							$('#div_SharedUserList').css('display', 'block');
+							$('#commentsDiv').css('display', 'none');
+							loadSharedUsersList(data.Output.FindZ_INT_RelatedContractContentListResponse.RelatedContractContent["RelatedContractContent-id"].ItemId1);
+						}
+						else {
+							$('#div_SharedUserList').css('display', 'none');
+							$('#commentsDiv').css('display', 'block');
+							getContractComments();
+						}
+					}
+					else {
+						$('#div_SharedUserList').css('display', 'none');
+						$('#commentsDiv').css('display', 'block');
+						getContractComments();
+					}
+				}).fail(function (error) {
+					
+				})
+		}
+		function loadSharedUsersList(relatedContentItemID) {
+			if (l_shared_users_model.usersList().length > 0)
+				return true;
+			parameters = {};
+			parameters.contentItemID = relatedContentItemID;
+			$.cordys.ajax(
+				{
+					namespace: "http://schemas.opentext.com/apps/ContractNegotiation/19.4",
+					method: "GetMappedExtContactsByContentItemId",
+					parameters: parameters,
+					success: function (data) {
+						if (data) {
+							$('#div_SharedUserList').css('display', 'block');
+							$('#loadingMsg').css('display', 'none');
+							sharedUsers = [];
+							sharedUsers = data.data.FindZ_INT_RelatedExternalContactsListResponse.RelatedContentAndContactsMapping;
+							if (sharedUsers) {
+								l_shared_users_model.usersList.removeAll();
+								if (sharedUsers.length) {
+									for (var i = 0; i < sharedUsers.length; i++) {
+										var user = new UserModel();
+										user.ID(getTextValue(sharedUsers[i]['RelatedContentAndContactsMapping-id'].Id1));
+										user.userid(getTextValue(sharedUsers[i].RelatedExternalContact.ExternalUserID));
+										user.username(getTextValue(sharedUsers[i].RelatedExternalContact.ExternalUserName));
+										user.status(getUserStatus(getTextValue(sharedUsers[i].Status)));
+										l_shared_users_model.usersList.push(user);
+									}
+								} else {
+									var user = new UserModel();
+									user.ID(getTextValue(sharedUsers['RelatedContentAndContactsMapping-id'].Id1));
+									user.userid(getTextValue(sharedUsers.RelatedExternalContact.ExternalUserID));
+									user.username(getTextValue(sharedUsers.RelatedExternalContact.ExternalUserName));
+									user.status(getUserStatus(getTextValue(sharedUsers.Status)));
+									l_shared_users_model.usersList.push(user);
+								}
+							}
+							else {
+								l_shared_users_model.usersList.removeAll();
+							}
+						}
+									if(mBundle){
+					mBundle.translate();
+			}
+					},
+					error: function (responseFailure) {
+						return false;
+					}
+				});
+
+		}
+		function getUserStatus(iStatus) {
+			var lStatus;
+			switch (iStatus) {
+				case 'OPEN':
+					lStatus = "Open";
+					break;
+				case 'APPROVED':
+					lStatus = "Approved";
+					break;
+				case 'REJECTED':
+					lStatus = "Rejected";
+					break;
+				case 'DL_ABSOLUTE':
+					lStatus = "Closed";
+					break;
+				case 'SR_ABSOLUTE':
+					lStatus = "Closed";
+					break;
+				case 'SN_ABSOLUTE':
+					lStatus = "Closed";
+					break;
+			}
+			return getTranslationMessage(lStatus);
+		}
+		function getContractComments() {
+			CommentsDataModel = $.cordys.ajax(
+				{
+					namespace: "http://schemas/OpenTextContractCenter/Contract/operations",
+					method: "ReadContract",
+					parameters:
+					{
+						"Contract-id":
+						{
+							"ItemId": cInstanceId
+						}
+					},
+					success: function (data) {
+						if (data) {
+							if (data.Contract.Lifecycle.CurrentState!="Active" && ( data.Contract.IsExecuted == "true" || data.Contract.ContractDocumentType == "EXTERNALDOCUMENT")) {
+								documentsExists(data.Contract["Contract-id"].Id,data);
+							}
+							else if (data.Contract.Lifecycle.CurrentState!="Active" && (data.Contract.TemplateType == "Internal party document" || data.Contract.TemplateType == "External party document") && data.Contract.RelatedTemplate != undefined) {
+								templateDocumentsExists(data.Contract["Contract-id"].Id,data);
+							}
+							else if (data.Contract.Lifecycle.CurrentState!="Active" && data.Contract.TemplateType == "Internal template") {
+								accountsExists(data.Contract["Contract-id"].Id);
+							}
+							commentsModel.comments = data.Contract.Comments;
+							commentsModel.contractID = data.Contract["Contract-id"].Id;
+							ko.applyBindings(commentsModel, document.getElementById("commentsDiv"));
+						}
+					}
+				});
+		}
+
+		function accountsExists(contractID) {
+			isAccountsExists(contractID);
+		}
+
+		function isAccountsExists(contractID) {
+
+			$.cordys.ajax(
+				{
+					namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+					method: "CheckPartiesExists",
+					parameters:
+					{
+						"ContractID" : contractID
+					},
+					success: function (data) {
+						var warningMessage;
+						if(data.IsInternalPartyExisting.text=="No"){
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showDivNoInternalPartyWarning(true);
+							warningMessage="No Internal account added";
+						}
+						if(data.IsExternalPartyExisting.text=="No"){
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showDivNoExternalPartyWarning(true);
+							warningMessage="No External account added";
+						}
+						if(data.IsAccountsExisting.text=="No"){
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showDivNoAccountsWarning(true);
+							warningMessage="No accounts added";
+						}
+						if (l_warningFlagsModel.showDivNoInternalPartyWarning() || l_warningFlagsModel.showDivNoExternalPartyWarning() || l_warningFlagsModel.showDivNoAccountsWarning()) {
+							$("div.addAccountWarning").text(warningMessage);
+							$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height($('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height()+20);
+							if($("img").parent().siblings(".docUploadWarning").length){
+								$("img").css('margin-top', '+=10px');
+								$("img").css('margin-bottom', '+=10px');
+							}
+						} 
+						translatePage();
+					}
+				});
+
+		}
+
+		function documentsExists(contractID, contractData) {
+			getRepositoryType(function(){
+				if(!isXECM()){
+					documentsContentServerExists(contractID,accountsExists);
+				}else{
+					documentsxECMExists(contractData.Contract.BusinessWorkspace.BusinessWorkspaceId,contractID,accountsExists);
+				}
+			});
+		}
+
+		function documentsContentServerExists(contractID,isAccExists) {
+
+			CommentsDataModel = $.cordys.ajax(
+				{
+					namespace: "http://schemas/OpenTextContractCenter/Contract.Contents/operations",
+					method: "getDocsbyContractID",
+					parameters:
+					{
+						"contractID": contractID
+					},
+					success: function (data) {
+						if (data.Contents) {
+							if (data.Contents.length || data.Contents.ContentTemplate.ContentType == "FILE") {
+								l_warningFlagsModel.showWorkFlowWarning(false);
+								l_warningFlagsModel.showUploadDocWarning(true);
+								$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("280px");
+							} 
+						} else {
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showDivNoDocWarning(true);
+							$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("295px");
+						}
+						isAccExists(contractID);
+						translatePage();
+					}
+				});
+
+		}
+		function documentsxECMExists(businessWorkspaceId,contractID,isAccExists) {
+
+			CommentsDataModel = $.cordys.ajax(
+				{
+					namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+					method: "getAllBWSDocs",
+					parameters:
+					{
+						"businessWorkspaceId": businessWorkspaceId
+					},
+					success: function (data) {
+						if (!data.documentList) {
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showDivNoDocWarning(true);
+							$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("295px");
+						}else{
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showUploadDocWarning(true);
+							$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("280px");
+						}
+						isAccExists(contractID);
+						translatePage();
+					}
+				});
+
+		}
+		
+		function templateDocumentsExists(contractID, contractData) {
+			getRepositoryType(function(){
+				if(!isXECM()){
+					templateDocumentsContentServerExists(contractData.Contract["Contract-id"].ItemId,contractID,accountsExists);
+				}else{
+					templateDocumentsxECMExists(contractData.Contract.BusinessWorkspace.BusinessWorkspaceId,contractID,accountsExists);
+				}
+			});
+		}
+
+		function templateDocumentsContentServerExists(contractItemID,contractID,isAccExists) {
+			CommentsDataModel = $.cordys.ajax(
+				{
+					namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+					method: "getCBBDocs",
+					parameters:
+					{
+						"ItemId":contractItemID,
+						"FolderPath" : "Contract documents",
+						"GetAllChildrenRecursively" : "true"
+					},
+					success: function (data) {
+						if (data.getCBBDocs) {
+							if (data.getCBBDocs.Contents.length || data.getCBBDocs.Contents.ContentTemplate.ContentType == "FILE"){
+								l_warningFlagsModel.showWorkFlowWarning(false);
+								l_warningFlagsModel.showUploadTemplateDocWarning(true);
+								$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("315px");
+							}
+						} else {
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showDivNoTemplateDocWarning(true);
+							$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("330px");
+						}
+						isAccExists(contractID);
+						translatePage();
+					}
+				});
+
+		}
+		function templateDocumentsxECMExists(businessWorkspaceId,contractID,isAccExists) {
+
+			CommentsDataModel = $.cordys.ajax(
+				{
+					namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+					method: "getAllBWSDocs",
+					parameters:
+					{
+						"businessWorkspaceId": businessWorkspaceId
+					},
+					success: function (data) {
+						if (!data.documentList) {
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showDivNoTemplateDocWarning(true);
+							$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("330px");
+						}else if(data.documentList.Node.length){
+							data.documentList.Node.some(function(eachNode, index) {
+								l_warningFlagsModel.showWorkFlowWarning(false);
+								l_warningFlagsModel.showDivNoTemplateDocWarning(true);
+								$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("330px");
+								if(eachNode.FolderPath == "/Contract documents/"){
+									l_warningFlagsModel.showWorkFlowWarning(false);
+									l_warningFlagsModel.showDivNoTemplateDocWarning(false);
+									l_warningFlagsModel.showUploadTemplateDocWarning(true);
+									$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("315px");
+									return true;
+								}
+							
+							});
+							
+						}
+						else if(data.documentList.Node.FolderPath == "/Contract documents/" ){
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showUploadTemplateDocWarning(true);
+							$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("315px");
+						}
+						else{
+							l_warningFlagsModel.showWorkFlowWarning(false);
+							l_warningFlagsModel.showDivNoTemplateDocWarning(true);
+							$('[src*="addcomments_ExtDoc_Warn.htm"]', window.parent.document).height("330px");
+						}
+						isAccExists(contractID);
+						translatePage();
+					}
+				});
+
+		}
+		
+		function updateCommentsValue(val) {
+			if (val != "") {
+				return val;
+			}
+			else {
+				return { '@xsi:nil': 'true' };
+			}
+		}
+
+		function updateComments(value) {
+			$.cordys.ajax(
+				{
+					method: "UpdateContract",
+					namespace: "http://schemas/OpenTextContractCenter/Contract/operations",
+					parameters:
+					{
+						"Contract-id": {
+							"Id": commentsModel.contractID
+						},
+						"Contract-update": {
+							"@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+							"Comments": updateCommentsValue(value)
+						}
+					},
+				}).done(function (data) {
+					// reloadFrame();
+					
+				}).fail(function (error) {
+					
+				})
+		}
+
+		$(window).on("unload", function(e) {
+			// reloadFrame();
+		});
+		function reloadFrame() {
+			if (isIE()) {
+				var caFrameElement = window.frameElement.ownerDocument.getElementsByTagName('iFrame');
+				for (var i = 0; i < caFrameElement.length; i++) {
+					if ((caFrameElement[i].src).indexOf("contractauthoring.htm") > -1) {
+						caFrameElement[i].src = caFrameElement[i].src;
+					}
+				}
+			}
+			else {
+				var source = $('[src*="contractauthoring.htm"]', window.parent.document).attr('src');
+				$('[src*="contractauthoring.htm"]', window.parent.document).attr('src', source);
+			}
+		}
+		function getTextValue(obj) {
+			if (obj) {
+				if (obj.text) {
+					return obj.text;
+				} else {
+					return obj;
+				}
+			}
+			else {
+				return "";
+			}
+		}
+
+		function translatePage(){
+			if(mBundle){
+				mBundle.translate();
+			}
+		}
+
+		function isXECM() {
+			return (l_warningFlagsModel.repositoryType() && l_warningFlagsModel.repositoryType() === BUSINESS_WORKSPACE);
+		}
+
+		function getRepositoryType(callBackFunc) {
+			if (!l_warningFlagsModel.repositoryType()) {
+				$.cordys.ajax({
+					method: "GetPropertyByName",
+					namespace: "http://schemas/OpenTextBasicComponents/GCProperties/operations",
+					parameters: {
+						Name: "DOCUMENT_REPOSITORY"
+					}
+				}).done(function (data) {
+					var repoType =  (data.GCProperties && data.GCProperties.value===BUSINESS_WORKSPACE)?  BUSINESS_WORKSPACE: "" ;
+					l_warningFlagsModel.repositoryType(repoType);
+					callBackFunc();
+				}).fail(function (error) { });
+			} else {
+				callBackFunc();
+			}
+		}
+
+
+	</script>
+</head>
+
+<body class="cc-ltr">
+	<div id="warningDivs">
+	
+		<span data-bind="if:((l_warningFlagsModel.showDivNoInternalPartyWarning() || l_warningFlagsModel.showDivNoExternalPartyWarning() ||l_warningFlagsModel.showDivNoAccountsWarning()) && !(l_warningFlagsModel.showUploadDocWarning() || l_warningFlagsModel.showUploadTemplateDocWarning() || l_warningFlagsModel.showDivNoDocWarning() || l_warningFlagsModel.showDivNoTemplateDocWarning()))">
+			<div id="addAccountWarningDiv" class="col-lg-12" style="overflow: auto;padding: 15px 15px 0px 15px;display: block;">
+				<span><img class="rtl-float-right" style="float: left; margin: -5px 5px 5px 5px;" src="../img/exclamationNew.png"></span>
+				<div class="addAccountWarning" data-translatable="true"></div>
+			</div>
+		</span>
+		<!--ko if:showUploadDocWarning -->
+		<div id="uploadWarningDiv" class="col-lg-12" style="overflow: auto;padding: 15px;display: block;">
+			<span><img class="rtl-float-right" style="float: left; margin: 5px 5px 5px 5px;" src="../img/exclamationNew.png"></span>
+			<div class="addAccountWarning" data-translatable="true"></div>
+			<div class="docUploadWarning" data-translatable="true">Ensure that a contract document is uploaded for the executed or external contract. An executed or external contract without a document cannot be activated.</div>
+		</div>
+		<!--/ko-->
+		<!--ko if:showUploadTemplateDocWarning -->
+		<div id="uploadWarningDiv" class="col-lg-12" style="overflow: auto;padding: 15px;display: block;">
+			<span><img class="rtl-float-right"style="float: left; margin: 15px 5px 15px 5px;" src="../img/exclamationNew.png"></span>
+			<div class="addAccountWarning" data-translatable="true"></div>
+			<div class="docUploadWarning" data-translatable="true">Templates of the type Internal party document or External party document cannot be activated without uploading a contract document.Ensure that a document is uploaded to the Contract documents folder under the Documents tab.</div>
+		</div>
+		<!--/ko-->
+		<!--ko if:showWorkFlowWarning-->
+		<div id="warningDiv_WorkFlowTasks" class="col-lg-12" style="overflow: auto;padding: 15px;display: block;">
+			<span><img class="rtl-float-right" style="float: left; margin: 5px 5px 5px 5px;" src="../img/exclamationNew.png"></span>
+			<div class="docUploadWarning"  data-translatable="true">This action will render all the configured workflow tasks obsolete.</div>
+		</div>
+		<!--/ko-->
+		<!--ko if:showDivNoDocWarning-->
+		<div id="warningDivNoDoc" class="col-lg-12" style="overflow: auto;padding: 15px;display: block;">
+			<span><img class="rtl-float-right" style="float: left; margin: 5px 5px 5px 5px;" src="../img/exclamationNew.png"></span>
+			<div class="addAccountWarning" data-translatable="true"></div>
+			<div class="docUploadWarning" data-translatable="true">Contract document is not uploaded.</div>
+			<div class="docUploadWarning" data-translatable="true">Ensure that a contract document is uploaded for the executed or external contract. An executed or external contract without a document cannot be activated.</div>
+		</div>
+		<!--/ko-->
+		<!--ko if:showDivNoTemplateDocWarning-->
+		<div id="warningDivNoDoc" class="col-lg-12" style="overflow: auto;padding: 15px 15px 10px 15px;display: block;">
+			<span><img class="rtl-float-right" style="float: left; margin: 25px 5px 25px 5px;" src="../img/exclamationNew.png"></span>
+			<div class="addAccountWarning" data-translatable="true"></div>
+			<div class="docUploadWarning" data-translatable="true">No contract document uploaded</div>
+			<div class="docUploadWarning" data-translatable="true">Templates of the type Internal party document or External party document cannot be activated without uploading a contract document.Ensure that a document is uploaded to the Contract documents folder under the Documents tab.</div>
+		</div>
+		<!--/ko-->
+		<!--ko if:showActiveToDraftWarning-->
+		<div id="warningDiv_ActiveToDraft" class="col-lg-12" style="overflow: auto;padding: 15px 15px 2px 15px;display: block;">
+			<span><img class="rtl-float-right" style="float: left; margin: -5px 5px 5px 5px;" src="../img/exclamationNew.png"></span>
+			<div class="docUploadWarning"  data-translatable="true">This action will inactivate the contract.</div>
+		</div>
+		<!--/ko-->
+	</div>
+
+	<div id="commentsDiv" class="form-group col-lg-12 cc-formgroup-no-float" style="padding: 10px 40px 0px 40px;">
+		<label class="label-no-bold" style="color: #757575;" data-translatable="true">Comments</label>
+		<div>
+			<textarea class="apps-contentDiv" data-bind="html:comments" onchange="updateComments(this.value)" rows="7"
+				style="resize: none;"></textarea>
+		</div>
+	</div>
+	<div id="div_SharedUserList" style="display: none;">
+		<!-- ko if: usersList().length <=0 -->
+		<div style="display: none; height: 70%; text-align: center; font-style: italic;"
+			id="div_noSharedUsers">
+			<p class="defaultInfo" data-translatable="true">This contract is not shared with any user.</p>
+		</div>
+		<!-- /ko -->
+		<div style="width :100%;height: 70%; text-align: center; font-style: italic;" id="div_proceedToNegotiation">
+			<p class="defaultInfo" style="font-size: 1.25em;padding: 0px;"><span id = "proceedToNegotiation_msg"></span>
+				<span style='margin-right:-0.59em; display:inline-block;'>&nbsp;</span>
+			</p>
+		</div>
+		<!-- ko if: usersList().length > 0 -->
+		<div class="row" id="div_SharedUserResults" style="margin-left: 5px;margin-right: 5px;margin-top: 35px;">
+			<div>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th scope="col" data-translatable="true">#</th>
+							<th scope="col" data-translatable="true">User ID</th>
+							<th scope="col" data-translatable="true">User name</th>
+							<th scope="col" data-translatable="true">Status</th>
+						</tr>
+					</thead>
+					<tbody data-bind="foreach:usersList">
+						<tr>
+							<th data-bind="text:$index()+1" scope="row"></th>
+							<td data-bind="text:userid"></td>
+							<td data-bind="text:username"></td>
+							<td data-bind="text:status"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!-- /ko -->
+	</div>
+</body>
+
+</html>

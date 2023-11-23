@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E8-AC63-23E4CDA1250B">
+	<DocumentID>484D7EEB-7112-A1E8-AC63-23E4CDA0E50B</DocumentID>
+	<Name>484D7EEB-7112-A1E8-AC63-23E4CDA0E50B</Name>
+	<Description>Notice period (in days)</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2018-09-06T04:50:04.757</CreationDate>
+	<Notes/>
+	<Text>Notice period (in days)</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E8-AC63-23E4CDA0650B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

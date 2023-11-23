@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EB-A657-E040139A66EA">
+	<DocumentID>8C1645B9-0967-A1EB-A657-E040139A26EA</DocumentID>
+	<Name>8C1645B9-0967-A1EB-A657-E040139A26EA</Name>
+	<Description>InvokeDeleteNotificationBPM</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-09T18:15:19.305</CreationDate>
+	<Notes/>
+	<Text>InvokeDeleteNotificationBPM</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EB-A657-E0401399A6EA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

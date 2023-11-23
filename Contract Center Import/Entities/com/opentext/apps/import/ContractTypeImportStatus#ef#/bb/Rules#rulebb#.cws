@@ -1,0 +1,20 @@
+
+<RuleBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.rule.RuleBuildingBlock"
+	typeVersion="97F537DA-34AE-40AD-AFC4-48BC832037C3"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A05A-AF1A29D8043E">
+	<DocumentID>98FA9B1A-7A8B-A1EB-A05A-AF1A29D7C43E</DocumentID>
+	<Name>Rules</Name>
+	<Description>Rules</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-10T07:22:35.686</CreationDate>
+	<Notes/>
+	<Entity>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-A05A-AF1A29DC443E"
+		/>
+	</Entity>
+	<OwnedActions/>
+	<Rules/>
+</RuleBuildingBlock>

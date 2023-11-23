@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-9F5F-63D359B66B20">
+	<DocumentID>50EB711A-AD5A-A1EB-9F5F-63D359B62B20</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-9F5F-63D359B62B20</Name>
+	<Description>GetZ_INT_RelatedDepartments</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-05T06:54:29.584</CreationDate>
+	<Notes/>
+	<Text>GetZ_INT_RelatedDepartments</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EB-9F5F-63D359B5AB20"
+		/>
+	</TextIdentifier>
+</TranslatedText>

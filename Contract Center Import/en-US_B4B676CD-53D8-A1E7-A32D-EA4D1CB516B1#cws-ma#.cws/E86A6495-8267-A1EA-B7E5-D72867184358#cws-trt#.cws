@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A6495-8267-A1EA-B7E5-D72867188358">
+	<DocumentID>E86A6495-8267-A1EA-B7E5-D72867184358</DocumentID>
+	<Name>E86A6495-8267-A1EA-B7E5-D72867184358</Name>
+	<Description>CreateRuleInstance</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2020-08-16T08:23:12.965</CreationDate>
+	<Notes/>
+	<Text>CreateRuleInstance</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A6495-8267-A1EA-B7E5-D7286717C358"
+		/>
+	</TextIdentifier>
+</TranslatedText>

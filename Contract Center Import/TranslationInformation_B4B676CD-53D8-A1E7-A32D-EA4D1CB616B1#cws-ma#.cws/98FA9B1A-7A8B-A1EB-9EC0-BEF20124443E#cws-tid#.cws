@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9EC0-BEF20124843E">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9EC0-BEF20124443E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9EC0-BEF20124443E</Name>
+	<Description>BatchNumber</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-02T02:59:06.799</CreationDate>
+	<Notes/>
+	<DefaultText>BatchNumber</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9EC0-BEF20124C43E"
+		/>
+	</Translations>
+</TextIdentifier>

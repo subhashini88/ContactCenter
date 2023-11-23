@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-BADA-BDFA0FDB4351">
+	<DocumentID>3C6AA735-2F3B-A1E9-BADA-BDFA0FDB0351</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-BADA-BDFA0FDB0351</Name>
+	<Description>Documentation</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-10-10T15:17:51.935</CreationDate>
+	<Notes/>
+	<DefaultText>Documentation</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1E9-BADA-BDFA0FDB8351"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-26809ABB7068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-26809AB9F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-26809AB8B068"
+		/>
+	</Translations>
+</TextIdentifier>

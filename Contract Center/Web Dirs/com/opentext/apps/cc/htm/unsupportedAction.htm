@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title data-translatable="true">Unsupported action</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/appscommon.css"></link>
+	<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css"></link>
+	<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	   <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+      <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+      <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+      <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+      <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+      <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+      <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+      <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	<style>
+		.unsupportedActionWarning {
+			font-family: 'Lato', 'Helvetica', 'Segoe UI', 'Tahoma', 'Arial', 'sans-serif';
+			font-size: 18px;
+			font-weight: 600;
+			color: #333333;
+		}
+	</style>
+	<script type="text/javascript">
+		$.cordys.json.defaults.removeNamespacePrefix = true;
+		$(function () {
+			var i_locale = getlocale();
+			translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale);
+			var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+			loadRTLIfRequired(i_locale,rtl_css);
+		});
+
+		function loadMessage() {
+
+			var ownerDocumentFrames = getFrameBySource("unsupportedAction.htm", window.frameElement.ownerDocument);
+			if (ownerDocumentFrames != null) {
+				ownerDocumentFrames.style.height = "100px";
+			}
+
+			var okButtonClasses = getButtonByInnerText('au-target btn btn-primary', "OK", ownerDocumentFrames.ownerDocument);
+			if (okButtonClasses != null) {
+				okButtonClasses.style.display = 'none';
+			}
+
+			var action = getUrlParameterValue("action", null, true);
+			var actionObj = {
+				"Terminate": "Cannot terminate contract because child contract exists.",
+				"Archive": "Cannot archive contract because child contract exists."
+			};
+			if (actionObj[action]) {
+				document.getElementById("errorMessage").innerHTML = actionObj[action];
+				document.getElementById("errorMessage").style.display = 'inline-block';
+			}
+		}
+
+        function translatePlaceHolders(){
+            var elems = document.getElementsByClassName("text-translate");
+             if(elems)
+                for(var ind = 0; ind < elems.length; ind++){
+                    elems[ind].innerHTML = getTranslationMessage(elems[ind].innerHTML);
+                }
+        }
+
+	</script>
+</head>
+
+<body onload="loadMessage()" class="cc-ltr">
+	<div id="mainWarningDiv">
+		<div id="warningDiv" style="padding: 20px;">
+			<div id="imagesource" class="image"><img style="float: left; margin: 5px 5px 5px 5px;"
+					src="../img/exclamationNew.png"></div>
+			<div id="errorMessage" class="unsupportedActionWarning text-translate" style="margin:10px 10px 10px 5px;display:none" data-translatable = "true">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

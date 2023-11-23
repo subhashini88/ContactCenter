@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-852E-39F7A33D2509">
+	<DocumentID>484D7EEB-71EF-A1E9-852E-39F7A33CE509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-852E-39F7A33CE509</Name>
+	<Description>Send email about renewal</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-10T09:20:43.555</CreationDate>
+	<Notes/>
+	<Text>Send email about renewal</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-852E-39F7A33C6509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

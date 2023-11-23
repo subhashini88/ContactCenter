@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-AEC1-E60D82AF1196">
+	<DocumentID>3417EB96-8F1F-A1E7-AEC1-E60D82AED196</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-AEC1-E60D82AED196</Name>
+	<Description>Zip Name</Description>
+	<CreatedBy>tntadmin@strs.role</CreatedBy>
+	<CreationDate>2017-10-27T11:17:12.279</CreationDate>
+	<Notes/>
+	<Text>Zip Name</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-AEC1-E60D82AE5196"
+		/>
+	</TextIdentifier>
+</TranslatedText>

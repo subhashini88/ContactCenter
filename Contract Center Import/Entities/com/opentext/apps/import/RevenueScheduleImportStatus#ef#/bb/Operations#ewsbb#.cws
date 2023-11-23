@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-AB92-F6C6E86AAFEC">
+	<DocumentID>F8B156BC-2CB7-A1E7-AB92-F6C6E86A6FEC</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-11T09:52:36.768</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E7-AB92-F6C6E869EFEC">
+			<DocumentID>F8B156BC-2CB7-A1E7-AB92-F6C6E869AFEC</DocumentID>
+			<Name>CreateRevenueScheduleImportStatus</Name>
+			<Description>Create RevenueScheduleImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2017-10-11T09:52:36.784</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E7-AB6C-7E46DB016FEC"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E7-AB92-F6C6E8676FEC">
+			<DocumentID>F8B156BC-2CB7-A1E7-AB92-F6C6E8672FEC</DocumentID>
+			<Name>DeleteRevenueScheduleImportStatus</Name>
+			<Description>Delete RevenueScheduleImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2017-10-11T09:52:36.815</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E7-AB6C-7E46DB016FEC"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156BC-2CB7-A1E7-AB6C-7E46DB016FEC"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E7-AB92-F6C6E8696FEC">
+			<DocumentID>F8B156BC-2CB7-A1E7-AB92-F6C6E8692FEC</DocumentID>
+			<Name>ReadRevenueScheduleImportStatus</Name>
+			<Description>Read RevenueScheduleImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2017-10-11T09:52:36.768</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E7-AB6C-7E46DB016FEC"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E7-AB92-F6C6E867EFEC">
+			<DocumentID>F8B156BC-2CB7-A1E7-AB92-F6C6E867AFEC</DocumentID>
+			<Name>UpdateRevenueScheduleImportStatus</Name>
+			<Description>Update RevenueScheduleImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2017-10-11T09:52:36.815</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E7-AB6C-7E46DB016FEC"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,49 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-AD95-0B821D9A24F4">
+	<DocumentID>484D7EE5-DBB0-A1E8-AD95-0B821D99E4F4</DocumentID>
+	<Name>OnPublish</Name>
+	<Description>OnPublish</Description>
+	<CreatedBy>Harley</CreatedBy>
+	<CreationDate>2018-09-12T09:24:18.774</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>{User.Properties.FullName} has performed the publish action on the clause &lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Identity.ItemId}/F8B156BC2CB7A1E8B02C7BB5968E3033&quot;&gt;{item.Properties.Name}&lt;/a&gt;&lt;/strong&gt; and the clause has been moved to the Active state.&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Clause {item.Properties.Name} published by {User.Properties.FullName}</Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="484D7EE5-DBB0-A1E8-AD95-05E51FDBA4F4"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="484D7EE5-DBB0-A1E8-AD95-0B821D97A4F4">
+			<DocumentID>484D7EE5-DBB0-A1E8-AD95-0B821D9764F4</DocumentID>
+			<Name>484D7EE5-DBB0-A1E8-AD95-0B821D9764F4</Name>
+			<Description>484D7EE5-DBB0-A1E8-AD95-0B821D9764F4</Description>
+			<CreatedBy>Harley</CreatedBy>
+			<CreationDate>2018-09-12T09:24:18.774</CreationDate>
+			<Notes/>
+			<DeveloperText>On publish</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole/>
+	<TypeDefinition/>
+</EmailTemplate>

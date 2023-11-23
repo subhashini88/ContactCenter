@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BF44-799E03E7FAA3">
+	<DocumentID>98FA9B81-5041-A1EC-BF44-799E03E7BAA3</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BF44-799E03E7BAA3</Name>
+	<Description>GetAccDataforNego</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-07-06T10:10:35.646</CreationDate>
+	<Notes/>
+	<Text>GetAccDataforNego</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-BF44-799E03E73AA3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

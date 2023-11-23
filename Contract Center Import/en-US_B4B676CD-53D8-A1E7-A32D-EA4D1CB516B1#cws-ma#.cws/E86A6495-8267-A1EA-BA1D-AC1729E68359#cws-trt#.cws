@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A6495-8267-A1EA-BA1D-AC1729E6C359">
+	<DocumentID>E86A6495-8267-A1EA-BA1D-AC1729E68359</DocumentID>
+	<Name>E86A6495-8267-A1EA-BA1D-AC1729E68359</Name>
+	<Description>OrganizationCode</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2020-08-27T15:12:25.615</CreationDate>
+	<Notes/>
+	<Text>OrganizationCode</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A6495-8267-A1EA-BA1D-AC1729E60359"
+		/>
+	</TextIdentifier>
+</TranslatedText>

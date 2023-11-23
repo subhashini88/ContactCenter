@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-AA34-5C60EE54AFEA">
+	<DocumentID>F8B156BC-2CB7-A1E7-AA34-5C60EE546FEA</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-AA34-5C60EE546FEA</Name>
+	<Description>Fail</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-04T08:43:44.028</CreationDate>
+	<Notes/>
+	<DefaultText>Fail</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E7-AA34-5C60EE54EFEA"
+		/>
+	</Translations>
+</TextIdentifier>

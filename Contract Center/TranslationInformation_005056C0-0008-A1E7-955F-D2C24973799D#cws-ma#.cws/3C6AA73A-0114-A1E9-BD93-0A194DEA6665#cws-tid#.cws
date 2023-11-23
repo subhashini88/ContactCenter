@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD93-0A194DEAA665">
+	<DocumentID>3C6AA73A-0114-A1E9-BD93-0A194DEA6665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD93-0A194DEA6665</Name>
+	<Description>Activate Contract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-24T10:54:02.884</CreationDate>
+	<Notes/>
+	<DefaultText>Activate Contract</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD93-0A194DEAE665"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A8E3-18066A15E4BE">
+	<DocumentID>F8B156D5-AA46-A1E7-A8E3-18066A15A4BE</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A8E3-18066A15A4BE</Name>
+	<Description>Pending activation list</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-27T14:07:59.611</CreationDate>
+	<Notes/>
+	<DefaultText>Pending activation list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-A8E3-18066A1624BE"
+		/>
+	</Translations>
+</TextIdentifier>

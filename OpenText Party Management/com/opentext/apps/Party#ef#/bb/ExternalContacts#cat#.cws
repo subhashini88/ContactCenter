@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="005056C0-0008-A1E7-ACFA-E35AF89E12CE">
+	<DocumentID>005056C0-0008-A1E7-ACFA-E35AF89DD2CE</DocumentID>
+	<Name>ExternalContacts</Name>
+	<Description>ExternalContacts</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-18T10:35:42.034</CreationDate>
+	<Notes/>
+	<referenceCount>4</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D5-AA46-A1E7-A610-3D9F234F24BC"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

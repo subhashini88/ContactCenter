@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A09-7FA012622B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A09-7FA01261EB9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A09-7FA01261EB9A</Name>
+	<Description>UpdateGCClause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-30T05:47:54.245</CreationDate>
+	<Notes/>
+	<Text>UpdateGCClause</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A09-7FA012616B9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

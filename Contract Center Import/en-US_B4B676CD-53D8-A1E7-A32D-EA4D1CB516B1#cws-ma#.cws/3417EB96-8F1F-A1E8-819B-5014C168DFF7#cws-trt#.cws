@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-819B-5014C1691FF7">
+	<DocumentID>3417EB96-8F1F-A1E8-819B-5014C168DFF7</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-819B-5014C168DFF7</Name>
+	<Description>Is Manager Exists and Inactive</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-01-31T10:10:12.54</CreationDate>
+	<Notes/>
+	<Text>Is Manager Exists and Inactive</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-819B-5014C1685FF7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

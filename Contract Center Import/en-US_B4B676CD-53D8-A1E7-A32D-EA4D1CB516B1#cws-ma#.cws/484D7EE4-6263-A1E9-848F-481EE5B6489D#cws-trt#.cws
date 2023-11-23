@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-848F-481EE5B6889D">
+	<DocumentID>484D7EE4-6263-A1E9-848F-481EE5B6489D</DocumentID>
+	<Name>484D7EE4-6263-A1E9-848F-481EE5B6489D</Name>
+	<Description>AddressImportLayout</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-07T05:36:54.898</CreationDate>
+	<Notes/>
+	<Text>AddressImportLayout</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE4-6263-A1E9-848F-481EE5B5C89D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,49 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B4A6-C40CBCA76501">
+	<DocumentID>484D7EE5-DBB0-A1E8-B4A6-C40CBCA72501</DocumentID>
+	<Name>OnArchive</Name>
+	<Description>OnArchive</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-10-18T08:45:06.695</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>{User.Properties.FullName} has performed the archive action on the clause &lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Identity.ItemId}/F8B156BC2CB7A1E8B02C7BB5968E3033&quot;&gt;{item.Properties.Name}&lt;/a&gt;&lt;/strong&gt; and the clause has been moved to the Archived state.&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Archive action performed on the clause {item.Properties.Name} by {User.Properties.FullName}</Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="484D7EE5-DBB0-A1E8-AD95-05E51FDBA4F4"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="484D7EE5-DBB0-A1E8-B4A6-C40CBCA6E501">
+			<DocumentID>484D7EE5-DBB0-A1E8-B4A6-C40CBCA6A501</DocumentID>
+			<Name>484D7EE5-DBB0-A1E8-B4A6-C40CBCA6A501</Name>
+			<Description>484D7EE5-DBB0-A1E8-B4A6-C40CBCA6A501</Description>
+			<CreatedBy>harley</CreatedBy>
+			<CreationDate>2018-10-18T08:45:06.695</CreationDate>
+			<Notes/>
+			<DeveloperText>On archive</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole/>
+	<TypeDefinition/>
+</EmailTemplate>

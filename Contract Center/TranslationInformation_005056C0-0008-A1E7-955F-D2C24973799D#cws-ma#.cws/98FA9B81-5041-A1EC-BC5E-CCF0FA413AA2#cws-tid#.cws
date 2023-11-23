@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BC5E-CCF0FA417AA2">
+	<DocumentID>98FA9B81-5041-A1EC-BC5E-CCF0FA413AA2</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BC5E-CCF0FA413AA2</Name>
+	<Description>concact internal parties</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-21T16:15:33.232</CreationDate>
+	<Notes/>
+	<DefaultText>concact internal parties</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EC-BC5E-CCF0FA41BAA2"
+		/>
+	</Translations>
+</TextIdentifier>

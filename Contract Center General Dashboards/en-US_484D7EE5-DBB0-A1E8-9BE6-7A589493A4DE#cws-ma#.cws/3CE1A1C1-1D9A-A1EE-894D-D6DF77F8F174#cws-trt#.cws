@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3CE1A1C1-1D9A-A1EE-894D-78C17174B174">
+	<DocumentID>3CE1A1C1-1D9A-A1EE-894D-D6DF77F8F174</DocumentID>
+	<Name>3CE1A1C1-1D9A-A1EE-894D-D6DF77F8F174</Name>
+	<Description>Upcoming Auto Renewals Within 3 Months</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-18T06:50:33.577</CreationDate>
+	<Notes/>
+	<Text>Upcoming Auto Renewals Within 3 Months</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3CE1A1C1-1D9A-A1EE-894D-D6DF77F87174"
+		/>
+	</TextIdentifier>
+</TranslatedText>

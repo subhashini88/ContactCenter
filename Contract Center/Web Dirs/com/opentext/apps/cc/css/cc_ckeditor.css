@@ -1,0 +1,304 @@
+
+DIV[class*='-numbering'] + DIV OL:not([class*='cc-ol']){
+	list-style-type:decimal ;
+	counter-reset: listCounterDecimal;
+}
+
+DIV[class*='-numbering'] + DIV OL:not([class*='cc-ol'])>LI{
+	display: block;
+}
+
+DIV[class*='-numbering'] + DIV OL:not([class*='cc-ol'])>LI:before{
+	content: counter(listCounterDecimal, decimal) ". " ;
+	counter-increment: listCounterDecimal;
+}
+
+.decimal-numbering-ol-li + div[cascade='ON'] > OL:not([class*='cc-ol'])>LI:before, .decimal-numbering + div[cascade='ON'] > OL:not([class*='cc-ol'])>LI:before{
+	content:  counters(item1, ".", decimal) "."  counter(listCounterDecimal,decimal) ". " ;
+} 
+.lower-alpha-numbering + div[cascade='ON'] > OL:not([class*='cc-ol'])>LI:before{
+	content:  counters(item1, ".", lower-alpha) "."  counter(listCounterDecimal,decimal) ". " ;
+} 
+.upper-alpha-numbering + div[cascade='ON'] > OL:not([class*='cc-ol'])>LI:before{
+	content:  counters(item1, ".", upper-alpha) "."  counter(listCounterDecimal,decimal) ". " ;
+} 
+.lower-roman-numbering + div[cascade='ON'] > OL:not([class*='cc-ol'])>LI:before{
+	content:  counters(item1, ".", lower-roman) "."  counter(listCounterDecimal,decimal) ". " ;
+} 
+.upper-roman-numbering + div[cascade='ON'] > OL:not([class*='cc-ol'])>LI:before{
+	content:  counters(item1, ".", upper-roman) "."  counter(listCounterDecimal,decimal) ". " ;
+} 
+
+.cc-ol-decimal,.cc-ol-lower-alpha ,.cc-ol-upper-alpha,.cc-ol-lower-roman,.cc-ol-upper-roman {
+	counter-reset: defaultListCounter;
+}
+
+.cc-ol-decimal {
+	list-style-type: decimal;
+}
+
+
+.cc-ol-lower-alpha {
+	list-style-type: lower-alpha;
+}
+
+.cc-ol-upper-alpha {
+	list-style-type: upper-alpha;
+}
+
+.cc-ol-lower-roman {
+	list-style-type: lower-roman;
+}
+
+.cc-ol-upper-roman {
+	list-style-type: upper-roman;
+}
+
+.cc-ol-decimal>LI,.cc-ol-lower-alpha>LI ,.cc-ol-upper-alpha>LI,.cc-ol-lower-roman>LI,.cc-ol-upper-roman>LI {
+	display: block;
+}
+.cc-ol-decimal>LI:before,.cc-ol-lower-alpha>LI:before ,.cc-ol-upper-alpha>LI:before,.cc-ol-lower-roman>LI:before,.cc-ol-upper-roman>LI:before {
+	counter-increment: defaultListCounter;
+}
+
+.cc-ol-decimal>LI:before {
+	content: counter(defaultListCounter) ". ";
+}
+.decimal-numbering-ol-li + div[cascade='ON'] > .cc-ol-decimal>LI:before,.decimal-numbering + div[cascade='ON'] > .cc-ol-decimal>LI:before{
+	content:  counters(item1, ".", decimal) "."  counter(defaultListCounter) ". " ;
+} 
+.lower-alpha-numbering + div[cascade='ON'] > .cc-ol-decimal>LI:before{
+	content:  counters(item1, ".", lower-alpha) "."  counter(defaultListCounter) ". " ;
+} 
+.upper-alpha-numbering + div[cascade='ON'] > .cc-ol-decimal>LI:before{
+	content:  counters(item1, ".", upper-alpha) "."  counter(defaultListCounter) ". " ;
+} 
+.lower-roman-numbering + div[cascade='ON'] > .cc-ol-decimal>LI:before{
+	content:  counters(item1, ".", lower-roman) "."  counter(defaultListCounter) ". " ;
+} 
+.upper-roman-numbering + div[cascade='ON'] > .cc-ol-decimal>LI:before{
+	content:  counters(item1, ".", upper-roman) "."  counter(defaultListCounter) ". " ;
+} 
+
+.cc-ol-lower-alpha>LI:before {
+	content: counter(defaultListCounter,lower-alpha) ". ";
+}
+.decimal-numbering-ol-li + div[cascade='ON'] > .cc-ol-lower-alpha>LI:before,.decimal-numbering + div[cascade='ON'] > .cc-ol-lower-alpha>LI:before{
+	content:  counters(item1, ".", decimal) "."  counter(defaultListCounter,lower-alpha) ". " ;
+} 
+.lower-alpha-numbering + div[cascade='ON'] > .cc-ol-lower-alpha>LI:before{
+	content:  counters(item1, ".", lower-alpha) "."  counter(defaultListCounter,lower-alpha) ". " ;
+} 
+.upper-alpha-numbering + div[cascade='ON'] > .cc-ol-lower-alpha>LI:before{
+	content:  counters(item1, ".", upper-alpha) "."  counter(defaultListCounter,lower-alpha) ". " ;
+} 
+.lower-roman-numbering + div[cascade='ON'] > .cc-ol-lower-alpha>LI:before{
+	content:  counters(item1, ".", lower-roman) "."  counter(defaultListCounter,lower-alpha) ". " ;
+} 
+.upper-roman-numbering + div[cascade='ON'] > .cc-ol-lower-alpha>LI:before{
+	content:  counters(item1, ".", upper-roman) "."  counter(defaultListCounter,lower-alpha) ". " ;
+} 
+
+.cc-ol-upper-alpha>LI:before {
+	content: counter(defaultListCounter,upper-alpha) ". ";
+}
+.decimal-numbering-ol-li + div[cascade='ON'] > .cc-ol-upper-alpha>LI:before,.decimal-numbering + div[cascade='ON'] > .cc-ol-upper-alpha>LI:before{
+	content:  counters(item1, ".", decimal) "."  counter(defaultListCounter, upper-alpha) ". " ;
+} 
+.lower-alpha-numbering + div[cascade='ON'] > .cc-ol-upper-alpha>LI:before{
+	content:  counters(item1, ".", lower-alpha) "."  counter(defaultListCounter, upper-alpha) ". " ;
+} 
+.upper-alpha-numbering + div[cascade='ON'] > .cc-ol-upper-alpha>LI:before{
+	content:  counters(item1, ".", upper-alpha) "."  counter(defaultListCounter,upper-alpha) ". " ;
+} 
+.lower-roman-numbering + div[cascade='ON'] > .cc-ol-upper-alpha>LI:before{
+	content:  counters(item1, ".", lower-roman) "."  counter(defaultListCounter,upper-alpha) ". " ;
+} 
+.upper-roman-numbering + div[cascade='ON'] > .cc-ol-upper-alpha>LI:before{
+	content:  counters(item1, ".", upper-roman) "."  counter(defaultListCounter, upper-alpha) ". " ;
+} 
+
+.cc-ol-lower-roman>LI:before {
+	content: counter(defaultListCounter,lower-roman) ". ";
+}
+.decimal-numbering-ol-li + div[cascade='ON'] > .cc-ol-lower-roman>LI:before,.decimal-numbering + div[cascade='ON'] > .cc-ol-lower-roman>LI:before{
+	content:  counters(item1, ".", decimal) "."  counter(defaultListCounter,lower-roman) ". " ;
+} 
+.lower-alpha-numbering + div[cascade='ON'] > .cc-ol-lower-roman>LI:before{
+	content:  counters(item1, ".", lower-alpha) "."  counter(defaultListCounter,lower-roman) ". " ;
+} 
+.upper-alpha-numbering + div[cascade='ON'] > .cc-ol-lower-roman>LI:before{
+	content:  counters(item1, ".", upper-alpha) "."  counter(defaultListCounter,lower-roman) ". " ;
+} 
+.lower-roman-numbering + div[cascade='ON'] > .cc-ol-lower-roman>LI:before{
+	content:  counters(item1, ".", lower-roman) "."  counter(defaultListCounter,lower-roman) ". " ;
+} 
+.upper-roman-numbering + div[cascade='ON'] > .cc-ol-lower-roman>LI:before{
+	content:  counters(item1, ".", upper-roman) "."  counter(defaultListCounter, lower-roman) ". " ;
+} 
+
+.cc-ol-upper-roman>LI:before {
+	content: counter(defaultListCounter,upper-roman) ". ";
+}
+.decimal-numbering-ol-li + div[cascade='ON'] > .cc-ol-upper-roman>LI:before,.decimal-numbering + div[cascade='ON'] > .cc-ol-upper-roman>LI:before{
+	content:  counters(item1, ".", decimal) "."  counter(defaultListCounter, upper-roman) ". " ;
+} 
+.lower-alpha-numbering + div[cascade='ON'] > .cc-ol-upper-roman>LI:before{
+	content:  counters(item1, ".", lower-alpha) "."  counter(defaultListCounter,upper-roman) ". " ;
+} 
+.upper-alpha-numbering + div[cascade='ON'] > .cc-ol-upper-roman>LI:before{
+	content:  counters(item1, ".", upper-alpha) "."  counter(defaultListCounter,upper-roman) ". " ;
+} 
+.lower-roman-numbering + div[cascade='ON'] > .cc-ol-upper-roman>LI:before{
+	content:  counters(item1, ".", lower-roman) "."  counter(defaultListCounter,upper-roman) ". " ;
+} 
+.upper-roman-numbering + div[cascade='ON'] > .cc-ol-upper-roman>LI:before{
+	content:  counters(item1, ".", upper-roman) "."  counter(defaultListCounter,upper-roman) ". " ;
+} 
+
+.cc-ol-lower-alpha-nested {
+	counter-reset: listCounter;
+}
+
+.cc-ol-lower-alpha-nested>LI {
+	display: block
+}
+
+.cc-ol-lower-alpha-nested>LI:before {
+	content: counters(listCounter, ".", lower-alpha) ". ";
+	counter-increment: listCounter;
+}
+
+.cc-ol-upper-alpha-nested {
+	counter-reset: listCounter;
+}
+
+.cc-ol-upper-alpha-nested>LI {
+	display: block
+}
+
+.cc-ol-upper-alpha-nested>LI:before {
+	content: counters(listCounter, ".", upper-alpha) ". ";
+	counter-increment: listCounter
+}
+
+.cc-ol-decimal-nested {
+	counter-reset: listCounter;
+}
+
+.cc-ol-decimal-nested>LI {
+	display: block
+}
+
+.cc-ol-decimal-nested>LI:before {
+	content: counters(listCounter, ".", decimal) ". ";
+	counter-increment: listCounter
+}
+
+.cc-ol-lower-roman-nested {
+	counter-reset: listCounter;
+}
+
+.cc-ol-lower-roman-nested>LI {
+	display: block
+}
+
+.cc-ol-lower-roman-nested>LI:before {
+	content: counters(listCounter, ".", lower-roman) ". ";
+	counter-increment: listCounter
+}
+
+.cc-ol-upper-roman-nested {
+	counter-reset: listCounter;
+}
+
+.cc-ol-upper-roman-nested>LI {
+	display: block
+}
+
+.cc-ol-upper-roman-nested>LI:before {
+	content: counters(listCounter, ".", upper-roman) ". ";
+	counter-increment: listCounter
+}
+
+
+
+.decimal-numbering-ol-li + div[cascade='ON'] .cc-ol-decimal-nested>LI:before,.decimal-numbering + div[cascade='ON'] .cc-ol-decimal-nested>LI:before{
+	content:  counters(item1, ".", decimal) "." counters(listCounter, ".", decimal) ". ";
+} 
+.lower-alpha-numbering + div[cascade='ON'] .cc-ol-decimal-nested>LI:before{
+	content:  counters(item1, ".", lower-alpha) "." counters(listCounter, ".", decimal) ". ";
+} 
+.upper-alpha-numbering + div[cascade='ON'] .cc-ol-decimal-nested>LI:before{
+	content:  counters(item1, ".", upper-alpha) "." counters(listCounter, ".", decimal) ". ";
+} 
+.lower-roman-numbering + div[cascade='ON'] .cc-ol-decimal-nested>LI:before{
+	content:  counters(item1, ".", lower-roman) "." counters(listCounter, ".", decimal) ". ";
+} 
+.upper-roman-numbering + div[cascade='ON'] .cc-ol-decimal-nested>LI:before{
+	content:  counters(item1, ".", upper-roman) "." counters(listCounter, ".", decimal) ". ";
+} 
+
+.decimal-numbering-ol-li + div[cascade='ON'] .cc-ol-lower-alpha-nested>LI:before,.decimal-numbering + div[cascade='ON'] .cc-ol-lower-alpha-nested>LI:before{
+	content:  counters(item1, ".", decimal) "." counters(listCounter, ".", lower-alpha) ". ";
+} 
+.lower-alpha-numbering + div[cascade='ON'] .cc-ol-lower-alpha-nested>LI:before{
+	content:  counters(item1, ".", lower-alpha) "." counters(listCounter, ".", lower-alpha) ". ";
+} 
+.upper-alpha-numbering + div[cascade='ON'] .cc-ol-lower-alpha-nested>LI:before{
+	content:  counters(item1, ".", upper-alpha) "." counters(listCounter, ".", lower-alpha) ". ";
+} 
+.lower-roman-numbering + div[cascade='ON'] .cc-ol-lower-alpha-nested>LI:before{
+	content:  counters(item1, ".", lower-roman) "." counters(listCounter, ".", lower-alpha) ". ";
+} 
+.upper-roman-numbering + div[cascade='ON'] .cc-ol-lower-alpha-nested>LI:before{
+	content:  counters(item1, ".", upper-roman) "." counters(listCounter, ".", lower-alpha) ". ";
+} 
+
+.decimal-numbering-ol-li + div[cascade='ON'] .cc-ol-upper-alpha-nested>LI:before,.decimal-numbering + div[cascade='ON'] .cc-ol-upper-alpha-nested>LI:before{
+	content:  counters(item1, ".", decimal) "." counters(listCounter, ".", upper-alpha) ". ";
+} 
+.lower-alpha-numbering + div[cascade='ON'] .cc-ol-upper-alpha-nested>LI:before{
+	content:  counters(item1, ".", lower-alpha) "." counters(listCounter, ".", upper-alpha) ". ";
+} 
+.upper-alpha-numbering + div[cascade='ON'] .cc-ol-upper-alpha-nested>LI:before{
+	content:  counters(item1, ".", upper-alpha) "." counters(listCounter, ".", upper-alpha) ". ";
+} 
+.lower-roman-numbering + div[cascade='ON'] .cc-ol-upper-alpha-nested>LI:before{
+	content:  counters(item1, ".", lower-roman) "." counters(listCounter, ".", upper-alpha) ". ";
+} 
+.upper-roman-numbering + div[cascade='ON'] .cc-ol-upper-alpha-nested>LI:before{
+	content:  counters(item1, ".", upper-roman) "." counters(listCounter, ".", upper-alpha) ". ";
+} 
+
+.decimal-numbering-ol-li + div[cascade='ON'] .cc-ol-lower-roman-nested>LI:before,.decimal-numbering + div[cascade='ON'] .cc-ol-lower-roman-nested>LI:before{
+	content:  counters(item1, ".", decimal) "." counters(listCounter, ".", lower-roman) ". ";
+} 
+.lower-alpha-numbering + div[cascade='ON'] .cc-ol-lower-roman-nested>LI:before{
+	content:  counters(item1, ".", lower-alpha) "." counters(listCounter, ".", lower-roman) ". ";
+} 
+.upper-alpha-numbering + div[cascade='ON'] .cc-ol-lower-roman-nested>LI:before{
+	content:  counters(item1, ".", upper-alpha) "." counters(listCounter, ".", lower-roman) ". ";
+} 
+.lower-roman-numbering + div[cascade='ON'] .cc-ol-lower-roman-nested>LI:before{
+	content:  counters(item1, ".", lower-roman) "." counters(listCounter, ".", lower-roman) ". ";
+} 
+.upper-roman-numbering + div[cascade='ON'] .cc-ol-lower-roman-nested>LI:before{
+	content:  counters(item1, ".", upper-roman) "." counters(listCounter, ".", lower-roman) ". ";
+} 
+
+.decimal-numbering-ol-li + div[cascade='ON'] .cc-ol-upper-roman-nested>LI:before,.decimal-numbering + div[cascade='ON'] .cc-ol-upper-roman-nested>LI:before{
+	content:  counters(item1, ".", decimal) "." counters(listCounter, ".", upper-roman) ". ";
+} 
+.lower-alpha-numbering + div[cascade='ON'] .cc-ol-upper-roman-nested>LI:before{
+	content:  counters(item1, ".", lower-alpha) "." counters(listCounter, ".", upper-roman) ". ";
+} 
+.upper-alpha-numbering + div[cascade='ON'] .cc-ol-upper-roman-nested>LI:before{
+	content:  counters(item1, ".", upper-alpha) "." counters(listCounter, ".", upper-roman) ". ";
+} 
+.lower-roman-numbering + div[cascade='ON'] .cc-ol-upper-roman-nested>LI:before{
+	content:  counters(item1, ".", lower-roman) "." counters(listCounter, ".", upper-roman) ". ";
+} 
+.upper-roman-numbering + div[cascade='ON'] .cc-ol-upper-roman-nested>LI:before{
+	content:  counters(item1, ".", upper-roman) "." counters(listCounter, ".", upper-roman) ". ";
+}

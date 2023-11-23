@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-95C0-54C4A643B99D">
+	<DocumentID>005056C0-0008-A1E7-95C0-54C4A643799D</DocumentID>
+	<Name>005056C0-0008-A1E7-95C0-54C4A643799D</Name>
+	<Description>ContractExpiry</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-22T04:15:02.738</CreationDate>
+	<Notes/>
+	<Text>ContractExpiry</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-95C0-54C4A642F99D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

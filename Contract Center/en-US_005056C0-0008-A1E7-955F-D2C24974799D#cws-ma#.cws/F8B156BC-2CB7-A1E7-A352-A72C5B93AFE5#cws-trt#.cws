@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A352-A72C5B93EFE5">
+	<DocumentID>F8B156BC-2CB7-A1E7-A352-A72C5B93AFE5</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A352-A72C5B93AFE5</Name>
+	<Description>Days</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-08-30T06:24:35.967</CreationDate>
+	<Notes/>
+	<Text>Days</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A352-F6030851AFE5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

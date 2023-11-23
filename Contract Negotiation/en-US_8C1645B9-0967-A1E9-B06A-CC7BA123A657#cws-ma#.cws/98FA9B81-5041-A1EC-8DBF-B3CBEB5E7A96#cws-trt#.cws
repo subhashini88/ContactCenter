@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-8DBF-B3CBEB5EBA96">
+	<DocumentID>98FA9B81-5041-A1EC-8DBF-B3CBEB5E7A96</DocumentID>
+	<Name>98FA9B81-5041-A1EC-8DBF-B3CBEB5E7A96</Name>
+	<Description>UpdateContractDetailsonCusAttrEdit</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-27T08:35:45.67</CreationDate>
+	<Notes/>
+	<Text>UpdateContractDetailsonCusAttrEdit</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-8DBF-B3CBEB5DFA96"
+		/>
+	</TextIdentifier>
+</TranslatedText>

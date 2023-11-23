@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E14-EE6D67B5B024">
+	<DocumentID>F8B156BC-2CB7-A1E8-9E14-EE6D67B57024</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9E14-EE6D67B57024</Name>
+	<Description>Search by product group</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-06-25T09:45:48.458</CreationDate>
+	<Notes/>
+	<Text>Search by product group</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9E14-EE6D67B4F024"
+		/>
+	</TextIdentifier>
+</TranslatedText>

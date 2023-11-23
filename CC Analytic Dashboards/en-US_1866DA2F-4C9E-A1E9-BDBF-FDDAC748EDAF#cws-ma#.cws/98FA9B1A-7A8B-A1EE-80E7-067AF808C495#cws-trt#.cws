@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-80E7-067AF8090495">
+	<DocumentID>98FA9B1A-7A8B-A1EE-80E7-067AF808C495</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-80E7-067AF808C495</Name>
+	<Description>UserBasedSavedCharts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-05T12:35:13.49</CreationDate>
+	<Notes/>
+	<Text>UserBasedSavedCharts</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-80E7-067AF8084495"
+		/>
+	</TextIdentifier>
+</TranslatedText>

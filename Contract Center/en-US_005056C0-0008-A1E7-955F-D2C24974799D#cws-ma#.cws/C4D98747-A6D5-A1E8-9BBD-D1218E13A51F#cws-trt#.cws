@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D5-A1E8-9BBD-D1218E13E51F">
+	<DocumentID>C4D98747-A6D5-A1E8-9BBD-D1218E13A51F</DocumentID>
+	<Name>C4D98747-A6D5-A1E8-9BBD-D1218E13A51F</Name>
+	<Description>Is Global clause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-13T10:48:17.503</CreationDate>
+	<Notes/>
+	<Text>Is Global clause</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D5-A1E8-9BBD-D1218E13251F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

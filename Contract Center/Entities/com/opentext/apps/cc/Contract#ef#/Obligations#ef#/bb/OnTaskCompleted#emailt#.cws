@@ -1,0 +1,53 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="00505601-F229-A1EE-99BE-51882DB8BB63">
+	<DocumentID>00505601-F229-A1EE-99BE-51882DB8FB63</DocumentID>
+	<Name>OnTaskCompleted</Name>
+	<Description>OnTaskCompleted</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-09T23:20:15.86</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>{User.Properties.FullName} has completed the task&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/perform/item/[@TaskItemId@]/F8B156BC2CB7A1EAA8618E2DF11AB077&quot;&gt;[@TaskSubject@]&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;&lt;strong&gt;for&lt;/strong&gt;&amp;nbsp;the obligation {item.Properties.Name} of the contract &lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Owner.Identity.ItemId}/F8B156D635F3A1E89CB08DDB9883E4C8&quot;&gt;{item.Owner.Properties.ContractName}&lt;/a&gt;.&amp;nbsp;&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>[@TaskSubject@]: {User.Properties.FullName} has completed the task</Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="00505601-79C2-A1EC-8EB7-93EDC44AED69"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="00505601-F229-A1EE-99BE-51882DB67B63">
+			<DocumentID>00505601-F229-A1EE-99BE-51882DB63B63</DocumentID>
+			<Name>00505601-F229-A1EE-99BE-51882DB63B63</Name>
+			<Description>00505601-F229-A1EE-99BE-51882DB63B63</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-10-09T23:20:15.86</CreationDate>
+			<Notes/>
+			<DeveloperText>Task completed</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-F229-A1EE-99BE-51882DB6BB63"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole/>
+	<TypeDefinition/>
+</EmailTemplate>

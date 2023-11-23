@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-868F-A049BC842509">
+	<DocumentID>484D7EEB-71EF-A1E9-868F-A049BC83E509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-868F-A049BC83E509</Name>
+	<Description>Remove duplicates</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-17T10:15:35.564</CreationDate>
+	<Notes/>
+	<Text>Remove duplicates</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-868F-A049BC836509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

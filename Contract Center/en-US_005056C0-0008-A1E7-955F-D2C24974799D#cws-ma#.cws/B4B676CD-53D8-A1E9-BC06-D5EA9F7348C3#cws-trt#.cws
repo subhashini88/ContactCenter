@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-BC06-D5EA9F7388C3">
+	<DocumentID>B4B676CD-53D8-A1E9-BC06-D5EA9F7348C3</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-BC06-D5EA9F7348C3</Name>
+	<Description>Renewal reminder</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-16T14:55:05.102</CreationDate>
+	<Notes/>
+	<Text>Renewal reminder</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-BC06-D5EA9F72C8C3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

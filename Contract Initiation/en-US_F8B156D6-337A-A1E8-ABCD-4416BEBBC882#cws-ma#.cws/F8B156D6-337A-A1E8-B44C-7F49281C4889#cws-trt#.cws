@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B44C-7F49281C8889">
+	<DocumentID>F8B156D6-337A-A1E8-B44C-7F49281C4889</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B44C-7F49281C4889</Name>
+	<Description>On reject email template</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-16T11:24:30.849</CreationDate>
+	<Notes/>
+	<Text>On reject email template</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B44C-7F49281BC889"
+		/>
+	</TextIdentifier>
+</TranslatedText>

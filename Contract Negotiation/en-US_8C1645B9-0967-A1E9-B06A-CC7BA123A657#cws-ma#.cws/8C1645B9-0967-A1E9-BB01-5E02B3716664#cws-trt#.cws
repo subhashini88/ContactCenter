@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-BB01-5E02B371A664">
+	<DocumentID>8C1645B9-0967-A1E9-BB01-5E02B3716664</DocumentID>
+	<Name>8C1645B9-0967-A1E9-BB01-5E02B3716664</Name>
+	<Description>Clear external contact.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-11T09:01:36.35</CreationDate>
+	<Notes/>
+	<Text>Clear external contact.</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-BB01-5E02B370E664"
+		/>
+	</TextIdentifier>
+</TranslatedText>

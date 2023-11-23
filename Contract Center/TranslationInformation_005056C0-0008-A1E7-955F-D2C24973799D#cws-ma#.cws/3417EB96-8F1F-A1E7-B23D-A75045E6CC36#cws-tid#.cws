@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-B23D-A75045E70C36">
+	<DocumentID>3417EB96-8F1F-A1E7-B23D-A75045E6CC36</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-B23D-A75045E6CC36</Name>
+	<Description>Cancellation type_1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-11-14T05:06:36.529</CreationDate>
+	<Notes/>
+	<DefaultText>Cancellation type_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E7-B23D-A75045E74C36"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-9248-3BA1042FE4CA">
+	<DocumentID>ECF4BB61-42B2-A1E8-9248-3BA1042FA4CA</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-9248-3BA1042FA4CA</Name>
+	<Description>UpdateContractNextexpirationDate</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-26T07:10:50.657</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateContractNextexpirationDate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="ECF4BB61-42B2-A1E8-9248-3BA1043024CA"
+		/>
+	</Translations>
+</TextIdentifier>

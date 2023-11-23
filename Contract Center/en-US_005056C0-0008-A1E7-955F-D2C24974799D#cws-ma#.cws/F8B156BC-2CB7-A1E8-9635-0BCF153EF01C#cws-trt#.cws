@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9635-0BCF153F301C">
+	<DocumentID>F8B156BC-2CB7-A1E8-9635-0BCF153EF01C</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9635-0BCF153EF01C</Name>
+	<Description>Create form rule 1</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-05-16T06:44:55.845</CreationDate>
+	<Notes/>
+	<Text>Create form rule 1</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9635-0BCF153E701C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

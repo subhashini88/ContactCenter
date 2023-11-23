@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-9F35-76E8D92DBA2E">
+	<DocumentID>B4B676CD-53D8-A1E7-9F38-EEFC4532FA2E</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-9F38-EEFC4532FA2E</Name>
+	<Description>GetAllContractSubtypesForType</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-09T09:18:43.893</CreationDate>
+	<Notes/>
+	<Text>GetAllContractSubtypesForType</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-9F38-EEFC45327A2E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

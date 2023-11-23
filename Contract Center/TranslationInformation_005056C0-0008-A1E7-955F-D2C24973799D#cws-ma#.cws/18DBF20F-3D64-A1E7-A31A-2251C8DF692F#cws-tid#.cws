@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-A31A-2251C8DFA92F">
+	<DocumentID>18DBF20F-3D64-A1E7-A31A-2251C8DF692F</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-A31A-2251C8DF692F</Name>
+	<Description>Related addresses</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-08-29T03:54:54.881</CreationDate>
+	<Notes/>
+	<DefaultText>Related addresses</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="18DBF20F-3D64-A1E7-A31A-2251C8DFE92F"
+		/>
+	</Translations>
+</TextIdentifier>

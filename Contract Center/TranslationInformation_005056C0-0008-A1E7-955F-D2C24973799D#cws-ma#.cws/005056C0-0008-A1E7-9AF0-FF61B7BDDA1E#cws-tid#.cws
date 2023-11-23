@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9AF0-FF61B7BE1A1E">
+	<DocumentID>005056C0-0008-A1E7-9AF0-FF61B7BDDA1E</DocumentID>
+	<Name>005056C0-0008-A1E7-9AF0-FF61B7BDDA1E</Name>
+	<Description>External system configuration</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-18T14:20:12.327</CreationDate>
+	<Notes/>
+	<DefaultText>External system configuration</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9AF0-FF61B7BE5A1E"
+		/>
+	</Translations>
+</TextIdentifier>

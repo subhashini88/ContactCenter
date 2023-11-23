@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <link rel="stylesheet" href="../css/contractdetails.css">
+    <link rel="stylesheet" href="../css/customattributes.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+    <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js"
+        type="text/javascript"></script>
+    <script src="../js/customattributes.js" type="text/javascript"></script>
+    <script src="../js/contractaccounts.js" type="text/javascript"></script>
+    <script src="../js/contractdetails.js" type="text/javascript"></script>
+</head>
+
+<body class="cc-ltr">
+    <div id="contract_details_main_container" class="col-md-12 cc-parent-container">
+
+        <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+            <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg"
+                style="width: 11px; height: 11px;" />
+            <span id="span_errorInfoMessage" style="position: relative;"></span>
+        </div>
+        <div id="contract_details_nav_container" class="col-md-2 no-padding table-container rtl-float-right">
+            <div class="col-md-2 no-padding menu-items-holder">
+                <div id="value_range_table" class="table " data-bind="foreach:leftNavList">
+                    <!--ko if:display()-->
+                    <div style="display:flex;flex-direction:column"
+                        data-bind="click:$root.selectTab.bind($data,$index())">
+                        <div style="display:flex;flex-direction:row;position:relative" class="row-container"
+                            data-bind="css:{tableshadow:$parent.currentTabIndex()===$index()}">
+                            <div class="row-box" style="width:5%;margin-left:20px">
+                                <span></span>
+                            </div>
+                            <div class="row-box" style="width:85%">
+                                <span class="cc-tab_men_item" style="word-break: break-all;cursor:default"
+                                    data-bind="text:Name()"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ko-->
+                </div>
+            </div>
+        </div>
+
+        <div id="contract_details_content" class="col-md-10">
+            <div id="contract_details_tab">
+                <!--ko if:displayScreen() && isLoaded()-->
+                <div class="cc-tab">
+                    <div id="tab-header" class="cc-tab-header row">
+                        <div class="cc-tab--header-title-div">
+                            <span class="cc-tab--header-title" style="display: initial;"
+                                data-translatable="true">General</span>
+                            <div style="float:right;display: inline;">
+                                <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+                                    data-bind="click:addWatcher,css:{hidden:watcherAdded()}">
+                                    <span data-translatable="true">Watch contract</span>
+                                </button>
+                                <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+                                    data-bind="click:removeWatcher,css:{hidden:!watcherAdded()}">
+                                    <span data-translatable="true">Stop watching</span>
+                                </button>
+                                <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+                                    data-bind="click:openWatchersList">
+                                    <span data-translatable="true">View watchers</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-content1" class="cc-tab-content">
+                        <div data-bind="template:{name:'contract_general_details_template'}">
+                        </div>
+                    </div>
+                </div>
+                <!--/ko-->
+                <div class="modal fade" id="id_watchersListDialog" role="dialog" style="z-index: 3999;">
+                    <div class="modal-content" id="watchersDiv"
+                        style="display: block; width:50%; margin: auto; overflow-y: hidden; z-index: 3999; margin-top: 5%;">
+                        <div class="modal-header">
+                            <div class="modal-title" data-translatable="true">Current watchers</div>
+                        </div>
+                        <div class="modal-body" style="overflow: auto;">
+                            <div class="col-lg-12 table-responsive" style="height: 259px; overflow-y: auto;">
+                                <table id="id_watchersTable" class="table">
+                                    <thead>
+                                        <tr style="background: #EEF2F4;">
+                                            <th style="width: 50%;">
+                                                <label class="label-no-bold" data-translatable="true">Name</label>
+                                            </th>
+                                            <th style="width: 50%;">
+                                                <label class="label-no-bold" data-translatable="true">Email</label>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="id_watchersBody" data-bind="foreach:watchersList">
+                                        <tr class="row-style">
+                                            <td data-bind="text:Name"></td>
+                                            <td data-bind="text:Email"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="modal-footer text-align-left" style="height: 50px !important;">
+                            <button type="button" class="apps-btn apps-btn-secondary" data-dismiss="modal"
+                                style="outline:none;" data-translatable="true"><span
+                                    data-translatable="true">Close</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contract_accounts_tab">
+                <!--ko if:displayScreen() && isLoaded()-->
+                <div class="cc-tab">
+                    <div id="tab-content2" class="cc-tab-content" style="margin: 0px;">
+                        <div data-bind="template:{name:'contract_accounts_template'}">
+                        </div>
+                    </div>
+                </div>
+                <!--/ko-->
+            </div>
+            <div id="custom_attributes_tab">
+                <!--ko if:displayScreen() && isLoaded()-->
+                <div class="cc-tab">
+                    <div id="tab-header" class="cc-tab-header row">
+                        <div class="cc-tab--header-title-div">
+                            <span class="cc-tab--header-title" data-translatable="true">Custom attributes</span>
+                        </div>
+                    </div>
+                    <div id="tab-content3" class="cc-tab-content">
+                        <div data-bind="template:{name:'contract_customattributes_template'}">
+                        </div>
+                    </div>
+                </div>
+                <!--/ko-->
+            </div>
+            <div id="contract_lines_tab">
+                <!--ko if:displayScreen() && isLoaded()-->
+                <div class="cc-tab">
+                    <div id="tab-header" class="cc-tab-header row">
+                        <div class="cc-tab--header-title-div">
+                            <span class="cc-tab--header-title" data-translatable="true">Contract lines</span>
+                        </div>
+                    </div>
+                    <div id="tab-content4" class="cc-tab-content">
+                        <div data-bind="template:{name:'contract_lines_template'}">
+                        </div>
+                    </div>
+                </div>
+                <!--/ko-->
+            </div>
+            <div id="contract_renewal_tab">
+                <!--ko if:displayScreen() && isLoaded()-->
+                <div class="cc-tab">
+                    <div id="tab-header" class="cc-tab-header row">
+                        <div class="cc-tab--header-title-div">
+                            <span class="cc-tab--header-title" data-translatable="true">Renewals</span>
+                        </div>
+                    </div>
+                    <div id="tab-content5" class="cc-tab-content">
+                        <div data-bind="template:{name:'contract_renewal_details_template'}">
+                        </div>
+                    </div>
+                </div>
+                <!--/ko-->
+            </div>
+            <div id="contract_termination_tab">
+                <!--ko if:displayScreen() && isLoaded()-->
+                <div class="cc-tab">
+                    <div id="tab-header" class="cc-tab-header row">
+                        <div class="cc-tab--header-title-div">
+                            <span class="cc-tab--header-title" data-translatable="true">Termination</span>
+                        </div>
+                    </div>
+                    <div id="tab-content6" class="cc-tab-content">
+                        <div data-bind="template:{name:'contract_termination_details_template'}">
+                        </div>
+                    </div>
+                </div>
+                <!--/ko-->
+            </div>
+            <div id="contract_other_details_tab">
+                <!--ko if:displayScreen() && isLoaded()-->
+                <div class="cc-tab">
+                    <div id="tab-header" class="cc-tab-header row">
+                        <div class="cc-tab--header-title-div">
+                            <span class="cc-tab--header-title" data-translatable="true">Other details</span>
+                        </div>
+                    </div>
+                    <div id="tab-content7" class="cc-tab-content">
+                        <div data-bind="template:{name:'contract_other_details_template'}">
+                        </div>
+                    </div>
+                </div>
+                <!--/ko-->
+            </div>
+            <div id="contract_tags_tab">
+                <!--ko if:displayScreen() && isLoaded()-->
+                <div class="cc-tab">
+                    <div id="tab-header" class="cc-tab-header row">
+                        <div class="cc-tab--header-title-div">
+                            <span class="cc-tab--header-title" data-translatable="true">Tags</span>
+                        </div>
+                    </div>
+                    <div id="tab-content8" class="cc-tab-content">
+                        <div data-bind="template:{name:'contract_tags_template'}">
+                        </div>
+                    </div>
+                </div>
+                <!--/ko-->
+            </div>
+            <div id="contract_custom_tab_details">
+                <!--ko if:displayScreen() && isLoaded()-->
+                <div class="cc-tab" id="custom_tab_div">
+                    <div id="tab-content9" class="cc-tab-content">                       
+                        <iframe data-bind="attr:{src:custom_tab_url}" style="height:480px;width:100%;border:none;"></iframe>
+                    </div>
+                </div>
+                <!--/ko-->
+            </div>
+        </div>
+    </div>
+    <script type="text/html" id="ErrorHeader_Template">
+        <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg"
+        style="width: 11px; height: 11px;" />
+      <span id="span_errorInfoMessage" style="position: relative;"></span>
+    </script>
+
+    <!-- Tempalate start-->
+    <!-- Tempalate for contract general details -->
+    <script type="text/html" id="contract_general_details_template">
+        <div class="row">
+            <form>
+                <div class="col-sm-9">
+        
+                    <!-- row1-->
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Contract name</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:contractName"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Contract ID</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:contractID"></p>
+                        </div>
+                    </div>
+					<div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Organization</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:organizationName"></p>
+                        </div>
+                    </div>
+        
+                    <!-- row2-->
+					<div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Contract type</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:contractType"></p>
+                        </div>
+                    </div>
+					<div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Template type</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:templateType "></p>
+                        </div>
+                    </div>
+					<div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Contract template</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:templateName "></p>
+                        </div>
+                    </div>
+
+        
+                    <!-- row3-->
+                    
+					<div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Is executed contract?</span></label>
+                            <!-- <p class="form-control-static cc-form-value" data-bind="text:isExecutedContract"></p> -->
+                            <div style="padding-top: 5px;">
+                                <div style="float: left;width: 80px">
+                                   <div class="cc-select-column" style="width: 20px;" data-bind="css:{'cc-radio-off' : isExecutedContract() == 'false', 'cc-radio-on' : isExecutedContract() == 'true'}"></div>
+                                   <span data-translatable="true">Yes</span>
+                                </div>
+                                <div style="float: left;width: 80px">
+                                   <div class="cc-select-column" style="width: 20px;" data-bind="css:{'cc-radio-on' : isExecutedContract() == 'false', 'cc-radio-off' : isExecutedContract() == 'true'}"></div>
+                                   <span data-translatable="true">No</span>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Is external?</span></label>
+                            <!-- <p class="form-control-static cc-form-value" data-bind="text:isExternal"></p> -->
+                            <div id="" style="padding-top: 5px;">
+                                <div style="float: left;width: 80px">
+                                    <div class="cc-select-column" style="width: 20px;"
+                                        data-bind="css:{'cc-radio-off' : isExternal() == 'INTERNALTEMPLATE', 'cc-radio-on' : isExternal() == 'EXTERNALDOCUMENT'}">
+                                    </div>
+                                    <span data-translatable="true">Yes</span>
+                                </div>
+                                <div style="float: left;width: 80px">
+                                    <div class="cc-select-column" style="width: 20px;"
+                                        data-bind="css:{'cc-radio-off' : isExternal() == 'EXTERNALDOCUMENT', 'cc-radio-on' : isExternal() == 'INTERNALTEMPLATE'}">
+                                    </div>
+                                    <span data-translatable="true">No</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Contract number</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:contractNumber"></p>
+                        </div>
+                    </div>
+        
+                    <!-- row4-->
+                   <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Country</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:country"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Region</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:region"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Priority</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:priority"></p>
+                        </div>
+                    </div>
+					
+                </div>
+				
+				
+                
+                <!-- row5-->
+                <div class="col-sm-9">
+                    
+                   
+                    <!-- row7-->
+                    <div class="col-sm-12">
+						<div class="form-group">
+							<label class="cc-form-label"><span data-translatable="true">PO numbers</span></label>
+							<div class="form-control-static" data-bind="foreach:PONumbers">
+								<div class="chicklet"><span class="chicklet-text" data-bind="text:$data, attr:{title:$data}"></span></div>
+							</div>
+						</div>
+                    </div>
+
+                </div>
+                <div class="col-sm-9">
+                    
+                    <div class="col-sm-12" style="margin:5px 0px 5px 0px;">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Contract description</span></label>
+                            <p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:description"></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- row8-->
+                
+                <div class="col-sm-12">
+                    <hr class="cc-form-hr">
+                </div>
+                <!-- row9-->
+                <div class="col-sm-9">
+                    <div class="tab-sub-header">
+                        <span class="form-control-static">Value</span>
+                    </div>
+                </div>
+                <!-- row10-->
+                <div class="col-sm-9">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Currency</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:currency"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Contract value</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:contractValue"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Contract value in USD</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:contractValueInUSD "></p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- row11-->
+                <div class="col-sm-12">
+                    <hr class="cc-form-hr">
+                </div>
+                <!-- row12-->
+                <div class="col-sm-9">
+                    <div class="tab-sub-header">
+                        <span class="form-control-static">Duration</span>
+                    </div>
+                </div>
+                <!-- row13-->
+                <div class="col-sm-9">
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Contract term (in months)</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:contractTermInMonths"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Perpetual</span></label>
+                            <!-- <p class="form-control-static cc-form-value" data-bind="text:isPerpetual"></p> -->
+                            <div id="" style="padding-top: 5px;">
+                                <div style="float: left;width: 80px">
+                                    <div class="cc-select-column" style="width: 20px;"
+                                        data-bind="css:{'cc-radio-off' : isPerpetual() == 'false', 'cc-radio-on' : isPerpetual() == 'true'}">
+                                    </div>
+                                    <span data-translatable="true">Yes</span>
+                                </div>
+                                <div style="float: left;width: 80px">
+                                    <div class="cc-select-column" style="width: 20px;"
+                                        data-bind="css:{'cc-radio-off' : isPerpetual() == 'true', 'cc-radio-on' : isPerpetual() == 'false'}">
+                                    </div>
+                                    <span data-translatable="true">No</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-9">
+                    <!-- row14-->
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Planned start date</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:plannedStartDate"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Actual start date</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:actualStartDate"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Current term start date</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:currentTermStartDate "></p>
+                        </div>
+                    </div>
+                    <!-- row15-->
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Current term expiration date</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:currentTermExpirationDate"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Initial expiration date</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:initialExpirationDate"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Next expiration date</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:nextExpirationDate "></p>
+                        </div>
+                    </div>
+                    <!-- row16-->
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Notify before expiration (days)</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:notifyBeforeExpirationInDays"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Act before expiration (days)</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:actBeforeExpirationInDdays"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-group">
+                            <label class="cc-form-label"><span data-translatable="true">Signature date</span></label>
+                            <p class="form-control-static cc-form-value" data-bind="text:signatureDate "></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </form>        
+        </div>
+    </script>
+
+    <!-- Tempalate start-->
+    <!-- Tempalate for contract renewal details -->
+    <script type="text/html" id="contract_renewal_details_template">
+        <div class="row">
+            <form>
+                <div class="col-sm-7">
+                    <!-- row1-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Auto renew</span></label>
+                                <div id="" style="padding-top: 5px;">
+                                    <div style="float: left;width: 80px">
+                                        <div class="cc-select-column" style="width: 20px;"
+                                            data-bind="css:{'cc-radio-off' : isAutoRenew() == 'false', 'cc-radio-on' : isAutoRenew() == 'true'}">
+                                        </div>
+                                        <span data-translatable="true">Yes</span>
+                                    </div>
+                                    <div style="float: left;width: 80px">
+                                        <div class="cc-select-column" style="width: 20px;"
+                                            data-bind="css:{'cc-radio-off' : isAutoRenew() == 'true', 'cc-radio-on' : isAutoRenew() == 'false'}">
+                                        </div>
+                                        <span data-translatable="true">No</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Auto renew duration (in months)</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:autoRenewDurationInMonths"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row3-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-6">
+                            <label class="cc-form-label"><span data-translatable="true">Discount on renewal (%)</span></label>
+                            <div class="form-group">
+                                <p class="form-control-static cc-form-value" data-bind="text:renewalDiscount"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Renewal flag</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:renewalFlag"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row3-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-12" style="margin:5px 0px 5px 0px;">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Renewal comments</span></label>
+                                <p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:renewalComments"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </script>
+
+    <!-- Tempalate start-->
+    <!-- Tempalate for contract termination details -->
+    <script type="text/html" id="contract_termination_details_template">
+        <div class="row">
+            <form>
+                <div class="col-sm-7">
+                    <!-- row1-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Client early termination right</span></label>
+                                <div id="" style="padding-top: 5px;">
+                                    <div style="float: left;width: 80px">
+                                        <div class="cc-select-column" style="width: 20px;"
+                                            data-bind="css:{'cc-radio-off' : clientEarlyTermRight() == 'false', 'cc-radio-on' : clientEarlyTermRight() == 'true'}">
+                                        </div>
+                                        <span data-translatable="true">Yes</span>
+                                    </div>
+                                    <div style="float: left;width: 80px">
+                                        <div class="cc-select-column" style="width: 20px;"
+                                            data-bind="css:{'cc-radio-off' : clientEarlyTermRight() == 'true', 'cc-radio-on' : clientEarlyTermRight() == 'false'}">
+                                        </div>
+                                        <span data-translatable="true">No</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Termination date</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:cancellationDate"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Notice period (in days)</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:terminationNoticePeriod"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row2-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-6">
+                            <label class="cc-form-label"><span data-translatable="true">Termination fees</span></label>
+                            <div class="form-group">
+                                <p class="form-control-static cc-form-value" data-bind="text:terminationFees"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Termination reason</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:terminationReason"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+        
+                        </div>
+                    </div>
+                    <!-- row3-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-6" style="margin:5px 0px 5px 0px;">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Termination conditions</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:earlyTerminationConditions"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6" style="margin:5px 0px 5px 0px;">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Termination comments</span></label>
+                                <p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:cancellationComments"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </script>
+
+    <!-- Tempalate start-->
+    <!-- Tempalate for contract other details -->
+    <script type="text/html" id="contract_other_details_template">
+        <div class="row">
+            <form>
+                <div class="col-sm-9">
+                    <!-- row1-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Original account manager</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:originalSalesAccountExecutive"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Order ID</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:SAPOrderID"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Go live date</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:productGoLiveDate"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row2-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-4">
+                            <label class="cc-form-label"><span data-translatable="true">Contract origination</span></label>
+                            <div class="form-group">
+                                <p class="form-control-static cc-form-value" data-bind="text:documentOriginationName"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">End user segment</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:endUser"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Price protection</span></label>
+                                <div id="" style="padding-top: 5px;">
+                                    <div style="float: left;width: 80px">
+                                        <div class="cc-select-column" style="width: 20px;"
+                                            data-bind="css:{'cc-radio-off' : priceProtection() == false, 'cc-radio-on' : priceProtection() == true}">
+                                        </div>
+                                        <span data-translatable="true">Yes</span>
+                                    </div>
+                                    <div style="float: left;width: 80px">
+                                        <div class="cc-select-column" style="width: 20px;"
+                                            data-bind="css:{'cc-radio-off' : priceProtection() == true, 'cc-radio-on' : priceProtection() == false}">
+                                        </div>
+                                        <span data-translatable="true">No</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row3-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Price protection date</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:priceProtectionDate"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Deal manager</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:dealManager"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Quote ID</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:CRMQuoteID"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row4-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Opportunity ID</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:CRMOpportunityID"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Default document</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:defaultDocRelationFileName"></p>
+                            </div>
+                        </div>
+						<div class="col-sm-4">
+							<div class="form-group">
+								<label class="cc-form-label"><span data-translatable="true">Amendment type</span></label>
+								<p class="form-control-static cc-form-value" data-bind="text:amendmentType"></p>
+							</div>
+						</div>
+                    </div>
+					
+					<!-- row5-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Business workspace template ID</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:BWTemplateID"></p>
+                            </div>
+                        </div>
+                    </div>
+					
+                    <!-- row6-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Comments</span></label>
+                                <p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:comments"></p>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <!-- row8-->
+                <div class="col-sm-12">
+                    <hr class="cc-form-hr">
+                </div>
+                <div class="col-sm-9">
+                    <div class="tab-sub-header">
+                        <span class="form-control-static">Validation details</span>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <!-- row9-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Validated</span></label>
+                                <div id="" style="padding-top: 5px;">
+                                    <div style="float: left;width: 80px">
+                                        <div class="cc-select-column" style="width: 20px;"
+                                            data-bind="css:{'cc-radio-off' : validated() == 'false', 'cc-radio-on' : validated() == 'true'}">
+                                        </div>
+                                        <span data-translatable="true">Yes</span>
+                                    </div>
+                                    <div style="float: left;width: 80px">
+                                        <div class="cc-select-column" style="width: 20px;"
+                                            data-bind="css:{'cc-radio-off' : validated() == 'true', 'cc-radio-on' : validated() == 'false'}">
+                                        </div>
+                                        <span data-translatable="true">No</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Validation date</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:validatedOn"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Validated by</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:validatedBy"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row10-->
+                    <div class="col-sm-12" style="margin-left: -15px;">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Comments</span></label>
+                                <p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:customerManagerComments"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </form>
+        </div>
+    </script>
+
+    <!-- Tempalate start-->
+    <!-- Tempalate for contract other details -->
+    <script type="text/html" id="contract_lines_template">
+        <div class="col-md-9 col-sm-9 cc-list" id="div_contractlines" style="margin-left: 15px;margin-top: -14px;">           
+            <div class="table-responsive">
+               <table id="contractlines_list" class="table">
+                  <thead>
+                     <tr>
+                        <th style="width: 16%;" data-translatable="true" scope="col">Product or service</th>
+                        <th style="width: 14%;" data-translatable="true" scope="col">Product or service group</th>
+                        <th style="width: 14%;" data-translatable="true" scope="col">SKU or Service ID</th>
+                        <th style="width: 14%;" data-translatable="true" scope="col">Price</th>
+                        <th style="width: 14%;" data-translatable="true" scope="col">Quantity</th>
+                        <th style="width: 14%;" data-translatable="true" scope="col">Units</th>
+                        <th style="width: 14%;" data-translatable="true" scope="col">PO number</th>
+                     </tr>
+                  </thead>
+                  <tbody data-bind="foreach:contractLines">
+                     <tr>
+                        <td data-bind="text:ServicesName"></td>
+                        <td data-bind="text:ProductGroupName"></td>
+                        <td data-bind="text:SKUOrServiceId"></td>
+                        <td data-bind="text:formateNumbertoLocale(Price)"></td>
+                        <td data-bind="text:formateNumbertoLocale(Quantity)"></td>
+                        <td data-bind="text:UnitOfMeasurementName"></td>
+                        <td data-bind="text:PONumber"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+    </script>
+    <!-- Tempalate start-->
+    <!-- Tempalate for contract other details -->
+    <script type="text/html" id="contract_customattributes_template">
+        <div id="loadingMsg" class="col-xs-12 defaultInfo" style="display: none; padding-top: 10%;">
+            <img src="../img/custom-loader.gif" id="loader">
+            <p data-translatable="true">Loading custom attributes...</p>
+        </div>
+        <div class="" id="id_customAttributesData">
+            <!--ko if: CustomAttributes().length>0-->
+            <div>
+                <div class="col-md-9 no-padding" data-bind="foreach:CustomAttributes">
+                    <!--ko if: $index()%2==0-->
+                    <div class="row"></div>
+                    <!--/ko-->
+                            <div class="col-md-6 no-padding">
+                                <div class="col-md-11" style="padding: 0 !important;margin: 0px !important;">
+                                    <div class="form-group col-md-12">
+                                        <label class="cc-form-label" data-translatable="true" data-bind="text:label"></label>
+                                        <!--ko if: dataType=="BOOLEAN"-->                           
+                                            <!--ko if: $root.isEditable()-->
+                                        <div class="cc-form-value-editable">
+                                            <div data-bind="event:{click:changeRadioButton.bind($data,true)}" class="col-md-6 no-padding">
+                                                <div class="cc-select-column" style="width: 20px;" data-bind="css:{'cc-radio-off' : value() == false, 'cc-radio-on' : value() == true}"></div>
+                                                <span data-translatable="true">Yes</span>
+                                            </div>
+                                            <div data-bind="event:{click:changeRadioButton.bind($data,false)}" class="col-md-6 no-padding">
+                                                <div class="cc-select-column" style="width: 20px;" data-bind="css:{'cc-radio-on' : value() == false, 'cc-radio-off' : value() == true}"></div>
+                                                <span data-translatable="true">No</span>
+                                            </div>
+                                        </div>
+                                            <!--/ko-->
+                                            <!--ko ifnot: $root.isEditable()-->
+                                            <div class="cc-form-value-editable">
+                                                <div class="col-md-6 no-padding">
+                                                    <div class="cc-select-column" style="width: 20px;" data-bind="css:{'cc-radio-off' : value() == false, 'cc-radio-on' : value() == true}"></div>
+                                                    <span data-translatable="true">Yes</span>
+                                                </div>
+                                                <div class="col-md-6 no-padding">
+                                                    <div class="cc-select-column" style="width: 20px;" data-bind="css:{'cc-radio-on' : value() == false, 'cc-radio-off' : value() == true}"></div>
+                                                    <span data-translatable="true">No</span>
+                                                </div>
+                                            </div>
+                                            <!--/ko-->
+                                            
+                                        <!--/ko-->
+                                        <!--ko if: dataType=="TEXT"-->
+                                        <input type="text" data-bind="value:value,enable:$root.isEditable(),attr:{id:name,placeholder:placeHolder}"
+                                            class="form-control cc-form-value-editable" maxlength="64"/>
+                                        <!--/ko-->
+                                        <!--ko if: dataType=="NUMBER"-->
+                                        <input type="text" data-bind="value:value,enable:$root.isEditable(),attr:{id:name,placeholder:placeHolder},event:{change:removeErrorClass}"
+                                            class="form-control cc-form-value-editable" maxlength="64"/>
+                                        <!--/ko-->
+                                        <!--ko if: dataType=="ENUM"-->     
+                                                            
+                                        <select class="form-control cc-select cc-form-value-editable"
+                                            data-bind="event:{click:showAllDropDownOptions},value:value,options:selectOptions,optionsText: 'name', optionsValue: 'value',optionsCaption: 'Select an option',enable:$root.isEditable(),attr:{id:name}">
+                                        </select>
+                                        <!--/ko-->
+                                        <!--ko if: dataType=="DATE"-->
+                                        <!--ko if: $root.isEditable()-->
+                                        <input type="text" class="form-control dropdown-select-calender cc-form-value-editable" autocomplete="off"
+                                        data-bind="datepicker:value,datepickerOptions: { dateFormat: dateFormat },attr:{name:name,placeholder:placeHolder},enable:$root.isEditable()"/>
+                                        <!--/ko-->
+                                        <!--ko ifnot: $root.isEditable()-->
+                                        <input type="text" class="form-control dropdown-select-calender cc-form-value-editable"
+                                        data-bind="datepicker:value,datepickerOptions: { dateFormat: dateFormat },enable:$root.isEditable()"/>
+                                        <!--/ko-->
+                                        <!--/ko-->
+                                        <!--ko if:hasErrors() -->
+                                        <span class="help-block" style="font-size: 11px;color: red;" data-bind="text:errorMessage"></span>
+                                        <!--/ko-->
+                                    </div>
+                                </div>
+                                <div class="col-md-1" style="padding: 0 !important;margin: 0px !important;"></div>                
+                        </div>                   
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            <!--/ko-->
+            <!--ko if: (dataLoaded() && CustomAttributes().length==0)-->
+            <div class="defaultInfo" style="padding-top: 10%;">
+                <p data-translatable="true">No custom attributes are mapped to this contract.</p>
+            </div>
+            <!--/ko-->
+            <!-- ko if: ($root.isEditable()==true && dataLoaded() && CustomAttributes().length>0) -->
+            <div class="cc-footer" style="border: none; background-color: transparent;">
+                <div style="float: right; padding-top: 6px;">
+                    <button type="cancel" class="cc-btn cc-btn-secondary" id="cancel_save" 
+                        data-bind="class:isDirty() ?'':'disable-sec-button',click:cancelSaveOREdit,enable:isDirty" style="height: 27px;">
+                        <span data-translatable="true">Cancel</span>
+                    </button>
+                </div>           
+                <div style="float: right; padding-top: 6px;">
+                    <button type="submit" class="cc-btn cc-btn-primary" id="save_attribute" style="height: 27px;"
+                        data-bind="class:isDirty() ?'':'disable-pri-button',click:saveAttributes,enable:isDirty">
+                        <span data-translatable="true">Save</span>
+                    </button>
+                </div>               
+            </div>
+             <!--/ko-->
+
+              <!-- Cancel Modal -->
+			<div class="modal fade" id="cancelModal" role="dialog" style="z-index: 1999;">
+				<div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+					<div class="modal-header cc-modal-header">
+						<h3 data-translatable="true">Confirm</span></h3>
+					</div>
+					<div class="modal-body cc-modal-body">
+						<div class="apps-warning-msg" data-translatable="true" style="padding-top: 7px;">Are you sure you want to cancel the changes?</div>
+					</div>
+					<div class="cc-modal-footer modal-footer text-align-left">
+						<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="cancelCustAttrChanges" data-translatable="true"><span data-translatable="true">Yes</span></button>
+						<button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" data-translatable="true"><span data-translatable="true">No</span></button>
+					</div>
+				</div>
+			</div>
+        </div>
+    </script>
+    <!-- Tempalate start-->
+    <!-- Tempalate for account details -->
+    <script type="text/html" id="contract_accounts_template">
+        <div class="col-md-6" style="padding:0 10px 33px 0;" >
+            <div class="col-md-12 no-padding" style="border: 1px solid #e8e8e8">
+                <div class="cc-header cc-border ">
+                    <div class="cc-header-label" data-translatable="true">Internal accounts</div>
+                </div>
+                <div id="div_INTPartiesListFilter" apps-toggle="collapsed" class="col-md-3 cc-filter" style="display: none;">
+                    <div id="div_filterPanel" class="panel panel-default">
+                        <div class="panel-heading">
+                            <button class="btn btn-primary cc-text-button-primary" onclick="ApplyFilterOnINTPartiesList(this)" id="btn_applyFilter" data-translatable="true" style="min-width: 4em !important;">
+                                <span data-translatable="true">Apply</span>
+                            </button>
+                            <button class="btn btn-default cc-text-button" onclick="ClearINTPartiesListFilter()" id="btn_clearINTFilter" data-translatable="true" style="min-width: 4em !important;">
+                                <span data-translatable="true">Clear</span>
+                            </button>
+                        </div>
+                        <div id="div_filterPanelBody" class="panel-body" style="padding: 0px;">
+                            <div class="container">
+                                <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_INTPartyRegIDFilter" aria-expanded="false" aria-controls="INTPartyRegID_Filter">
+                                    <label data-translatable="true">Registration ID</label>
+                                    <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                                </span>
+                                <div class="cc-filter-body" id="div_INTPartyRegIDFilter">
+                                    <div class="form-group">
+                                        <select id="select_INTPartyRegIDFilterOperator" class="form-control cc-select" disabled>
+                                            <option value="" data-translatable="true">--Select--</option>
+                                            <option value="EQUALTO">Equal to</option>
+                                            <option value="RANGE">Range</option>
+                                            <option value="NOTEQUALTO">Not equal to</option>
+                                            <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                            <option value="EMPTY">Empty</option>
+                                            <option value="NOTEMPTY">Not empty</option>
+                                            <option value="ANYOF">Any of(;)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="input_INTPartyRegIDFilter"></input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_INTPartyNameFilter" aria-expanded="false" aria-controls="INTPartyname_Filter">
+                                    <label data-translatable="true">Name</label>
+                                    <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                                </span>
+                                <div class="cc-filter-body" id="div_INTPartyNameFilter">
+                                    <div class="form-group">
+                                        <select id="select_INTPartyNameFilterOperator" class="form-control cc-select" disabled>
+                                            <option value="" data-translatable="true">--Select--</option>
+                                            <option value="EQUALTO">Equal to</option>
+                                            <option value="RANGE">Range</option>
+                                            <option value="NOTEQUALTO">Not equal to</option>
+                                            <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                            <option value="EMPTY">Empty</option>
+                                            <option value="NOTEMPTY">Not empty</option>
+                                            <option value="ANYOF">Any of(;)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="input_INTPartyNameFilter"></input>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--<div class="container">
+                                <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_INTPartyRegNameFilter" aria-expanded="false" aria-controls="INTPartyRegName_Filter">
+                                    <label data-translatable="true">Registered name</label>
+                                    <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                                </span>
+                                <div class="cc-filter-body" id="div_INTPartyRegNameFilter">
+                                    <div class="form-group">
+                                        <select id="select_INTPartyRegNameFilterOperator" class="form-control cc-select" disabled>
+                                            <option value="" data-translatable="true">--Select--</option>
+                                            <option value="EQUALTO">Equal to</option>
+                                            <option value="RANGE">Range</option>
+                                            <option value="NOTEQUALTO">Not equal to</option>
+                                            <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                            <option value="EMPTY">Empty</option>
+                                            <option value="NOTEMPTY">Not empty</option>
+                                            <option value="ANYOF">Any of(;)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="input_INTPartyRegNameFilter"></input>
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+                <div id="div_INTPartiesList" class="col-md-12 cc-list">
+                    <div class="cc-error-info-area" id="div_listErrorInfoArea">
+                        <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                        <span id="span_errorInfoMessage" style="position: relative;"></span>
+                    </div>
+                    <div class="cc-header" style="background-color: white;height: 32px;z-index: 1;">
+                        <button class="btn btn-default cc-button" id="btn_filterINTPartiesList" data-bind="attr:{disabled :l_contract_accounts_model.isINTDirty(),title:l_contract_accounts_model.isINTDirty()?'Save changes to filter':''}" >
+                            <img class="cc-icon" alt="Filter" src="../../../../../com/opentext/apps/utils/img/filter.svg">
+                        </button>
+                        <button class="btn btn-default cc-button" id="btn_addINTparty" data-bind="attr:{disabled :(!l_contract_accounts_model.isEditable()||l_contract_accounts_model.l_INTParties_model.isFilterApplied()),title:setTitle('INTERNAL')}" onclick="openAddPartyForm('INTERNAL')">
+                            <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/search.svg">
+                        </button>
+                        <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                        <button class="btn btn-default cc-text-button" onclick="ClearINTPartiesListFilter()" id="btn_clearINTFilterActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Clear filters</span></button>
+                    </div>
+                    <div class="table-responsive" style="/*min-height: 390px;*/">
+                        <table id="table_internalParties" class="table" style="margin: 0px;">
+                            <thead>
+                                <tr>
+                                    <!--<th data-translatable="true" style="width: 15%;">Reg ID</th>-->
+                                    <th data-translatable="true" style="width: 45%;">Name</th>
+                                    <!--<th data-translatable="true" style="width: 25%;">Registered name</th>-->
+                                    <th data-translatable="true" style="width: 45%;">Contacts</th>
+                                    <th data-translatable="true" style="width: 10%;"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tablebody_internalParties" data-bind="foreach:l_contract_accounts_model.l_INTParties_model.View_INTParties">
+                                <tr style="cursor: pointer;">
+                                    <!--<td>
+                                        <div data-bind="text:INTPartyRegID"></div>
+                                    </td>-->
+                                    <td>
+                                        <div data-bind="text:INTPartyName"></div>
+                                    </td>
+                                    <!--<td>
+                                        <div data-bind="text:INTPartyRegName"></div>
+                                    </td>-->
+                                    <td>
+                                        <table class="table table_internalPartyContacts" style="margin: 0px;">
+                                            <tbody id="tablebody_internalPartyContacts" data-bind="foreach:New_INTPartyContacts">
+                                                <tr>
+                                                    <td style="border: none;padding: 2px;height: 30px;display: flex;">
+														<div class="preview_Wrapper" style="float:left">
+															
+																<div class="InternalPreviewModel" style="display: none;position: absolute;z-index:2;">
+																	<div class="PersonContactPreview">
+																		<div class="ContactPreview">
+																			<span class="cc-tab--header-title" style="display: initial;"
+																			data-translatable="true">Contact details</span>
+																			<button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;position: relative;" data-bind="click:function(){ displayContactPreview($parentContext.$index(),$index(),'INTERNAL')}">
+																				<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px;height: 11px;position:sticky;" />
+																			</button>
+																			<p style="padding-top:20px;">Name</p>
+																			<div style="cursor: text;" data-bind="text:INTPartyFullName"></div>
+																			<p>Email</p>
+																			<div style="cursor: text;" data-bind="text:INTPartyContactEmail"></div>
+																			<p>Phone</p>
+																			<div style="cursor: text;" data-bind="text:INTPartyContactPhone"></div>
+																			<!-- <p>mobile</p> -->
+																			<!-- <div data-bind="text:INTPartyContactMobile"></div> -->
+																			<p>Address</p>
+																			<textarea rows="4" cols="45" style="width:310px;line-height:normal;width:300px;border:none;overflow:hidden;background:#fff;resize: vertical;cursor: text;" data-bind="textInput:INTPartyFullAddress" disabled></textarea>
+																		</div>
+																	</div>
+																</div>
+																
+														</div>
+                                                        <div class="input-group" style="width: calc(100% - 58px); float:left">
+                                                            <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                                                style="z-index:0;" data-translatable="true" data-bind="textInput:INTPartyContactFirstName,style: { cursor: (l_contract_accounts_model.isEditable()&&!l_contract_accounts_model.l_INTParties_model.isFilterApplied())? 'pointer' : 'not-allowed'},attr:{title:setTitle('INTERNAL')}"
+                                                                readonly placeholder="-Select contact-">
+                                                            <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                                                style="cursor: pointer;" data-bind="css:{cchideelement :INTPartyContactID().length>0},click:function(){if(l_contract_accounts_model.isEditable()&&!l_contract_accounts_model.l_INTParties_model.isFilterApplied())$parent.addINTPartyContact($parent)},style: { cursor: (l_contract_accounts_model.isEditable()&&!l_contract_accounts_model.l_INTParties_model.isFilterApplied()) ? 'pointer' : 'not-allowed' },attr:{title:setTitle('INTERNAL')}">
+                                                                <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg">
+                                                            </span>
+															<span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                                                style="cursor: pointer;" data-bind="css:{cchideelement :INTPartyContactID().length==0},click:function(){displayContactPreview($parentContext.$index(),$index(),'INTERNAL')}">
+                                                                <img class="cc-input-icon" alt="View" src="../img/utility_preview24.svg">
+                                                            </span>
+                                                        </div>
+                                                        <div style="float:left;margin-top: 4px;">
+                                                            <button class="btn btn-default cc-button" id="btn_removeINTPartyContact"
+                                                                data-bind="css:{cchideelement :INTPartyContactID().length==0},click:function(){$parent.confirmINTPartyContactRemove($parent,$data,event)}, attr:{disabled :(!l_contract_accounts_model.isEditable()||l_contract_accounts_model.l_INTParties_model.isFilterApplied()),title:setTitle('INTERNAL')}"
+                                                                style="vertical-align: bottom;">
+                                                                <img class="cc-tr-icon" alt="Delete" src="../../../../../com/opentext/apps/utils/img/action_remove.svg">
+                                                            </button>
+                                                        </div>
+                                                        <div style="float:left;margin-top: 4px;">
+                                                            <button class="btn btn-default cc-button" id="btn_addINTPartyContact"
+                                                                data-bind="css:{cchideelement :$index()<($parent.New_INTPartyContacts().length-1)||INTPartyContactID().length==0},click:function(){$parent.addINTPartyContact($parent)}, attr:{disabled :(!l_contract_accounts_model.isEditable()||l_contract_accounts_model.l_INTParties_model.isFilterApplied()),title:setTitle('INTERNAL')}"
+                                                                style="vertical-align: bottom;">
+                                                                <img class="cc-tr-icon" src="../../../../../com/opentext/apps/utils/img/action_add.svg" style="margin: 0px;">
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <button class="btn btn-default cc-button" id="btn_removeINTParty"
+                                                data-bind="click:l_contract_accounts_model.l_INTParties_model.confirmINTPartyRemove,attr:{disabled :(!l_contract_accounts_model.isEditable()||l_contract_accounts_model.l_INTParties_model.isFilterApplied()),title:setTitle('INTERNAL')}">
+                                                <img class="cc-tr-icon" alt="Delete"
+                                                    src="../../../../../com/opentext/apps/utils/img/action_remove.svg">
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                <!--    <div class="cc-footer col-lg-12" style="text-align: center;padding: 0px; position: relative;">
+                        <ul class="pull-left pagination" style="margin: 0;">
+                            <li class="li-pagination">
+                                <select class="form-control cc-select" id="select_itemsCountPerPageParameter" onchange="updateINTPartyLimitValue(this)" style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;">
+                                    <option value="1" data-translatable="true">1 per page</option>
+                                    <option value="10" data-translatable="true">10 per page</option>
+                                    <option value="25" selected data-translatable="true">25 per page</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul class="pagination" style="margin: 0;">
+                            <li class="li-pagination">
+                                <a id="a_itemsCount" style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                                    <span data-bind="text:l_contract_accounts_model.l_INTParties_model.numOfINTParties"></span>
+                                    <span data-translatable="true">result(s)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="pagination pull-right" style="margin: 0;">
+                            <li class="li-pagination" id="li_INTPartiesLeftNavigation" style="cursor: pointer;">
+                                <a data-bind="click:INTParty_goToFirstPage.bind()">
+                                    <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_INTParty_goToFirstPage">
+                                    <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                                </a>
+                                <a data-bind="click:INTParty_goToPreviousPage.bind()">
+                                    <img class="cc-pagination-icon rotated-90" alt="PreviousPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_INTParty_goToPreviousPage">
+                                </a>
+                            </li>
+                            <li class="li-pagination">
+                                <span>
+                                    <input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="textInput:l_contract_accounts_model.l_INTParties_model.currentPage" disabled style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;"></input>
+                                    <span data-translatable="true"> of </span>
+                                    <span style="margin-left: .5em;margin-right: .5em;" data-bind="text:l_contract_accounts_model.l_INTParties_model.numOfPages"></span>
+                                </span>
+                            </li>
+                            <li class="li-pagination" id="li_INTPartiesRightNavigation" style="cursor: pointer;">
+                                <a data-bind="click:INTParty_goToNextPage.bind()">
+                                    <img class="cc-pagination-icon rotated-270" alt="NextPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_INTParty_goToNextPage">
+                                </a>
+                                <a data-bind="click:INTParty_goToLastPage.bind()">
+                                    <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_INTParty_goToLastPage">
+                                    <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" style="padding: 0 0 33px 10px;">
+            <div class="col-md-12 no-padding" style="border: 1px solid #e8e8e8">
+                <div class="cc-header cc-border ">
+                    <div class="cc-header-label" data-translatable="true">External accounts</div>
+                </div>
+                <div id="div_EXTPartiesListFilter" apps-toggle="collapsed" class="col-md-3 cc-filter" style="display: none;">
+                    <div id="div_filterPanel" class="panel panel-default">
+                        <div class="panel-heading">
+                            <button class="btn btn-primary cc-text-button-primary" onclick="ApplyFilterOnEXTPartiesList(this)" id="btn_applyFilter" data-translatable="true" style="min-width: 4em !important;">
+                                <span data-translatable="true">Apply</span>
+                            </button>
+                            <button class="btn btn-default cc-text-button" onclick="ClearEXTPartiesListFilter()" id="btn_clearEXTFilter" data-translatable="true" style="min-width: 4em !important;">
+                                <span data-translatable="true">Clear</span>
+                            </button>
+                        </div>
+                        <div id="div_filterPanelBody" class="panel-body" style="padding: 0px;">
+                            <div class="container">
+                                <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_EXTPartyRegIDFilter" aria-expanded="false" aria-controls="EXTPartyRegID_Filter">
+                                    <label data-translatable="true">Registration ID</label>
+                                    <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                                </span>
+                                <div class="cc-filter-body" id="div_EXTPartyRegIDFilter">
+                                    <div class="form-group">
+                                        <select id="select_EXTPartyRegIDFilterOperator" class="form-control cc-select" disabled>
+                                            <option value="" data-translatable="true">--Select--</option>
+                                            <option value="EQUALTO">Equal to</option>
+                                            <option value="RANGE">Range</option>
+                                            <option value="NOTEQUALTO">Not equal to</option>
+                                            <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                            <option value="EMPTY">Empty</option>
+                                            <option value="NOTEMPTY">Not empty</option>
+                                            <option value="ANYOF">Any of(;)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="input_EXTPartyRegIDFilter"></input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_EXTPartyNameFilter" aria-expanded="false" aria-controls="EXTPartyname_Filter">
+                                    <label data-translatable="true">Name</label>
+                                    <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                                </span>
+                                <div class="cc-filter-body" id="div_EXTPartyNameFilter">
+                                    <div class="form-group">
+                                        <select id="select_EXTPartyNameFilterOperator" class="form-control cc-select" disabled>
+                                            <option value="" data-translatable="true">--Select--</option>
+                                            <option value="EQUALTO">Equal to</option>
+                                            <option value="RANGE">Range</option>
+                                            <option value="NOTEQUALTO">Not equal to</option>
+                                            <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                            <option value="EMPTY">Empty</option>
+                                            <option value="NOTEMPTY">Not empty</option>
+                                            <option value="ANYOF">Any of(;)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="input_EXTPartyNameFilter"></input>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--<div class="container">
+                                <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_EXTPartyRegNameFilter" aria-expanded="false" aria-controls="EXTPartyRegName_Filter">
+                                    <label data-translatable="true">Registered name</label>
+                                    <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                                </span>
+                                <div class="cc-filter-body" id="div_EXTPartyRegNameFilter">
+                                    <div class="form-group">
+                                        <select id="select_EXTPartyRegNameFilterOperator" class="form-control cc-select" disabled>
+                                            <option value="" data-translatable="true">--Select--</option>
+                                            <option value="EQUALTO">Equal to</option>
+                                            <option value="RANGE">Range</option>
+                                            <option value="NOTEQUALTO">Not equal to</option>
+                                            <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                            <option value="EMPTY">Empty</option>
+                                            <option value="NOTEMPTY">Not empty</option>
+                                            <option value="ANYOF">Any of(;)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="input_EXTPartyRegNameFilter"></input>
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+                <div id="div_EXTPartiesList" class="col-md-12 cc-list">
+                    <div class="cc-error-info-area" id="div_listErrorInfoArea">
+                        <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                        <span id="span_errorInfoMessage" style="position: relative;"></span>
+                    </div>
+                    <div class="cc-header" style="background-color: white;height: 32px;z-index: 1;">
+                        <button class="btn btn-default cc-button" id="btn_filterEXTPartiesList" data-bind="attr:{disabled :l_contract_accounts_model.isEXTDirty(),title:l_contract_accounts_model.isEXTDirty()?'Save changes to filter':''}">
+                            <img class="cc-icon" alt="Filter" src="../../../../../com/opentext/apps/utils/img/filter.svg">
+                        </button>
+                        <button class="btn btn-default cc-button" id="btn_addEXTParty" data-bind="attr:{disabled :(!l_contract_accounts_model.isEditable()||l_contract_accounts_model.l_EXTParties_model.isFilterApplied()),title:setTitle('EXTERNAL')}" onclick="openAddPartyForm('EXTERNAL')">
+                            <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/search.svg">
+                        </button>
+                        <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                        <button class="btn btn-default cc-text-button" onclick="ClearEXTPartiesListFilter()" id="btn_clearEXTFilterActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Clear filters</span></button>
+                    </div>
+                    <div class="table-responsive" style="/*min-height: 390px;*/">
+                        <table id="table_externalParties" class="table" style="margin: 0px;">
+                            <thead>
+                                <tr>
+                                    <!--<th data-translatable="true" style="width: 15%;">Reg ID</th>-->
+                                    <th data-translatable="true" style="width: 45%;">Name</th>
+                                    <!--<th data-translatable="true" style="width: 25%;">Registered name</th>-->
+                                    <th data-translatable="true" style="width: 45%;">Contacts</th>
+                                    <th data-translatable="true" style="width: 10%;"></th>
+                                </tr>
+                            </thead>
+                            <tbody id="tablebody_externalParties" data-bind="foreach:l_contract_accounts_model.l_EXTParties_model.View_EXTParties">
+                                <tr style="cursor: pointer;">
+                                    <!--<td>
+                                        <div data-bind="text:EXTPartyRegID"></div>
+                                    </td>-->
+                                    <td>
+                                        <div data-bind="text:EXTPartyName"></div>
+                                    </td>
+                                    <!--<td>
+                                        <div data-bind="text:EXTPartyRegName"></div>
+                                    </td>-->
+                                    <td>
+                                        <table class="table table_externalPartyContacts" style="margin: 0px;">
+                                            <tbody id="tablebody_externalPartyContacts" data-bind="foreach:New_EXTPartyContacts">
+                                                <tr>
+                                                    <td style="border: none;padding: 2px;height: 30px;display: flex;">
+														<div class="preview_Wrapper" style="float:left">
+															
+																<div class="ExternalPreviewModel" style="display: none;position: absolute;z-index:2;">
+																	<div class="PersonContactPreview">
+																		<div class="ContactPreview" >
+																		<span class="cc-tab--header-title" style="display: initial;"
+																			data-translatable="true">Contact details</span>
+																			<button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;position: relative;" data-bind="click:function(){ displayContactPreview($parentContext.$index(),$index(),'EXTERNAL')}">
+																				<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px;height: 11px;position:sticky;" />
+																			</button>
+																			<p style="padding-top:20px;">Name</p>
+																			<div style="cursor: text;" data-bind="text:EXTPartyFullName"></div>
+																			<p>Email</p>
+																			<div style="cursor: text;" data-bind="text:EXTPartyContactEmail"></div>
+																			<p>Phone</p>
+																			<div style="cursor: text;" data-bind="text:EXTPartyContactPhone"></div>
+																			<!-- <p>mobile</p> -->
+																			<!-- <div data-bind="text:EXTPartyContactMobile"></div> -->
+																			<p>Address</p>
+																			<textarea rows="4" cols="45" style="width:310px;line-height:normal;width:300px;border:none;overflow:hidden;background:#fff;resize: vertical;cursor: text;" data-bind="textInput:EXTPartyFullAddress" disabled></textarea>
+																		</div>
+																	</div>
+																</div>
+														</div>
+                                                        <div class="input-group" style="width: calc(100% - 58px); float:left">
+                                                            <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                                                style="z-index:0" data-translatable="true" data-bind="textInput:EXTPartyContactFirstName,style: { cursor: (l_contract_accounts_model.isEditable()&&!l_contract_accounts_model.l_EXTParties_model.isFilterApplied())? 'pointer' : 'not-allowed'},attr:{title:setTitle('EXTERNAL')}"
+                                                                readonly placeholder="-Select contact-">
+                                                            <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                                                style="cursor: pointer;" data-bind="css:{cchideelement :EXTPartyContactID().length>0},click:function(){if(l_contract_accounts_model.isEditable()&&!l_contract_accounts_model.l_EXTParties_model.isFilterApplied())$parent.addEXTPartyContact($parent)},style: { cursor: (l_contract_accounts_model.isEditable()&&!l_contract_accounts_model.l_EXTParties_model.isFilterApplied())? 'pointer' : 'not-allowed' },attr:{title:setTitle('EXTERNAL')}">
+                                                                <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg">
+                                                            </span>
+															<span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                                                style="cursor: pointer;" data-bind="css:{cchideelement :EXTPartyContactID().length==0},click:function(){displayContactPreview($parentContext.$index(),$index(),'EXTERNAL')}">
+                                                                <img class="cc-input-icon" alt="View" src="../img/utility_preview24.svg">
+                                                            </span>
+                                                        </div>
+                                                        <div style="float:left;margin-top: 4px;">
+                                                            <button class="btn btn-default cc-button" id="btn_removeEXTPartyContact"
+                                                                data-bind="css:{cchideelement :EXTPartyContactID().length==0},click:function(){$parent.confirmEXTPartyContactRemove($parent,$data,event)},attr:{disabled :(!l_contract_accounts_model.isEditable()||l_contract_accounts_model.l_EXTParties_model.isFilterApplied()),title:setTitle('EXTERNAL')}"
+                                                                style="vertical-align: bottom;">
+                                                                <img class="cc-tr-icon" alt="Delete" src="../../../../../com/opentext/apps/utils/img/action_remove.svg">
+                                                            </button>
+                                                        </div>
+                                                        <div style="float:left;margin-top: 4px;">
+                                                            <button class="btn btn-default cc-button" id="btn_addEXTPartyContact"
+                                                                data-bind="css:{cchideelement :$index()<($parent.New_EXTPartyContacts().length-1)||EXTPartyContactID().length==0},click:function(){$parent.addEXTPartyContact($parent)},attr:{disabled :(!l_contract_accounts_model.isEditable()||l_contract_accounts_model.l_EXTParties_model.isFilterApplied()),title:setTitle('EXTERNAL')}"
+                                                                style="vertical-align: bottom;">
+                                                                <img class="cc-tr-icon" src="../../../../../com/opentext/apps/utils/img/action_add.svg" style="margin: 0px;">
+                                                            </button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <button class="btn btn-default cc-button" id="btn_removeEXTParty"
+                                                data-bind="click:l_contract_accounts_model.l_EXTParties_model.confirmEXTPartyRemove,attr:{disabled :(!l_contract_accounts_model.isEditable()||l_contract_accounts_model.l_EXTParties_model.isFilterApplied()),title:setTitle('EXTERNAL')}">
+                                                <img class="cc-tr-icon" alt="Delete"
+                                                    src="../../../../../com/opentext/apps/utils/img/action_remove.svg">
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                   <!-- <div class="cc-footer col-lg-12" style="text-align: center;padding: 0px; position: relative">
+                        <ul class="pull-left pagination" style="margin: 0;">
+                            <li class="li-pagination">
+                                <select class="form-control cc-select" id="select_itemsCountPerPageParameter" onchange="updateEXTPartyLimitValue(this)" style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;">
+                                    <option value="1" data-translatable="true">1 per page</option>
+                                    <option value="10" data-translatable="true">10 per page</option>
+                                    <option value="25" selected data-translatable="true">25 per page</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul class="pagination" style="margin: 0;">
+                            <li class="li-pagination">
+                                <a id="a_itemsCount" style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                                    <span data-bind="text:l_contract_accounts_model.l_EXTParties_model.numOfEXTParties"></span>
+                                    <span data-translatable="true">result(s)</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="pagination pull-right" style="margin: 0;">
+                            <li class="li-pagination" id="li_EXTPartiesLeftNavigation" style="cursor: pointer;">
+                                <a data-bind="click:EXTParty_goToFirstPage.bind()">
+                                    <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_EXTParty_goToFirstPage">
+                                    <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                                </a>
+                                <a data-bind="click:EXTParty_goToPreviousPage.bind()">
+                                    <img class="cc-pagination-icon rotated-90" alt="PreviousPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_EXTParty_goToPreviousPage">
+                                </a>
+                            </li>
+                            <li class="li-pagination">
+                                <span>
+                                    <input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="textInput:l_contract_accounts_model.l_EXTParties_model.currentPage" disabled style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;"></input>
+                                    <span data-translatable="true"> of </span>
+                                    <span style="margin-left: .5em;margin-right: .5em;" data-bind="text:l_contract_accounts_model.l_EXTParties_model.numOfPages"></span>
+                                </span>
+                            </li>
+                            <li class="li-pagination" id="li_EXTPartiesRightNavigation" style="cursor: pointer;">
+                                <a data-bind="click:EXTParty_goToNextPage.bind()">
+                                    <img class="cc-pagination-icon rotated-270" alt="NextPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_EXTParty_goToNextPage">
+                                </a>
+                                <a data-bind="click:EXTParty_goToLastPage.bind()">
+                                    <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_EXTParty_goToLastPage">
+                                    <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+        <!-- Remove Party warning modal form -->
+        <div class="modal fade" id="div_removePartyModal" role="dialog" style="z-index: 1999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+                <div class="modal-header cc-modal-header">
+                    <h3 data-translatable="true">Remove account</h3>
+                </div>
+                <div class="modal-body cc-modal-body">
+                    <div class="cc-warning-msg rtl-notifquestion" data-translatable="true">Do you want to remove <span id="span_partyToRemove"></span>?</div>
+                </div>
+                <div class="cc-modal-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_removePartyYes" data-translatable="true"><span data-translatable="true">Yes</span></button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_removePartyCancel" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                </div>
+            </div>
+        </div>
+        <!-- Remove contact warning modal form -->
+        <div class="modal fade" id="div_removeContactModal" role="dialog" style="z-index: 1999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+                <div class="modal-header cc-modal-header">
+                    <h3 data-translatable="true">Remove contact</span></h3>
+                </div>
+                <div class="modal-body cc-modal-body">
+                    <div class="cc-warning-msg rtl-notifquestion" data-translatable="true">Do you want to remove <span id="span_ContactToRemove">?</div>
+                </div>
+                <div class="cc-modal-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_removeContactYes" data-translatable="true"><span data-translatable="true">Yes</span></button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_removeContactCancel" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                </div>
+            </div>
+        </div>
+        <!-- Add Party modal form -->
+        <div class="modal fade" id="div_addPartytoContractModal" role="dialog" style="z-index: 2999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%; height: 75%;">
+                <div class="modal-header cc-modal-header">
+                    <h3 data-translatable="true">Select an account</h3>
+                </div>
+                <div class="modal-body cc-modal-body">
+                    <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+                        <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                        <span id="span_errorInfoMessage" style="position: relative;"></span>
+                    </div>
+                    <div class="col-md-12 cc-list" id="div_partyList">
+                        <div class="input-group" style="margin-bottom: 10px;">
+                            <input type="text" class="form-control cc-input-browse rtl-input-browse" data-translatable="true" id="input_partyListSearchFilter" placeholder="Search by account name" style="background-color: white;border-right: 0;">
+                            <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;background-color: white;">
+                                <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListPartiestoAdd()">
+                            </span>
+                        </div>
+                        <table class="table cc-border">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10%;"></th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Registration ID</th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Name</th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Registered name</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody_partiesToAdd" data-bind="foreach:l_contract_accounts_model.l_addPartytoContractSelection_model.PartiestoAdd">
+                                <tr data-bind="click:l_contract_accounts_model.l_addPartytoContractSelection_model.selectPartyRadioButton,attr:{isAddedAlready:isAddedAlready}">
+                                    <td>
+                                        <div class="cc-select-column cc-radio-off" data-bind="event:{click:l_contract_accounts_model.l_addPartytoContractSelection_model.onPartyRowRadioButtonValueChanged}"></div>
+                                    </td>
+                                    <td data-bind="text:RegistrationID"></td>
+                                    <td data-bind="text:Name"></td>
+                                    <td data-bind="text:RegisteredName"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div data-bind="css:{cchideelement :l_contract_accounts_model.l_addPartytoContractSelection_model.totalNoOfParties()!=0}">
+                        <img class="cc-icon" src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+                        <span>No parties to add to contract</span>
+                    </div>
+                    <div data-bind="css:{cchideelement :l_contract_accounts_model.l_addPartytoContractSelection_model.totalNoOfParties()<200}">
+                        <img class="cc-icon" src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+                        <span>Showing the top 200 results. If the desired result is not listed, use the search bar</span>
+                    </div>
+                </div>
+                <div class="cc-modal-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-bind="attr:{disabled :l_contract_accounts_model.l_addPartytoContractSelection_model.selectedPartyID().length==0}" data-dismiss="modal" id="btn_selectPartytoAddYes" data-translatable="true">
+                        <span data-translatable="true">Add</span>
+                    </button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectPartytoAddCancel" data-translatable="true">
+                        <span data-translatable="true">Cancel</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Add contact modal form -->
+        <div class="modal fade" id="div_addContacttoContractModal" role="dialog" style="z-index: 2999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%; height: 75%;">
+                <div class="modal-header cc-modal-header">
+                    <h3 data-translatable="true">Select a contact</h3>
+                </div>
+                <div class="modal-body cc-modal-body">
+                    <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+                        <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                        <span id="span_errorInfoMessage" style="position: relative;"></span>
+                    </div>
+                    <div class="col-md-12 cc-list" id="div_contactList">
+                        <div class="input-group" style="margin-bottom: 10px;">
+                            <input type="text" class="form-control cc-input-browse rtl-input-browse" data-translatable="true" id="input_contactListSearchFilter" placeholder="Search by first name" style="background-color: white;border-right: 0;">
+                            <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;background-color: white;">
+                                <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListContactstoAdd()">
+                            </span>
+                        </div>
+                        <table class="table cc-border">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10%;"></th>
+                                    <th style="width: 20%;" data-translatable="true" scope="col">User ID</th>
+                                    <th style="width: 20%;" data-translatable="true" scope="col">First name</th>
+                                    <th style="width: 20%;" data-translatable="true" scope="col">Last name</th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Display name</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody_contactsToAdd" data-bind="foreach:l_contract_accounts_model.l_addContacttoContractSelection_model.ContactstoAdd">
+                                <tr data-bind="click:l_contract_accounts_model.l_addContacttoContractSelection_model.selectContactRadioButton,attr:{isAddedAlready:isAddedAlready}">
+                                    <td>
+                                        <div class="cc-select-column cc-radio-off" data-bind="event:{click:l_contract_accounts_model.l_addContacttoContractSelection_model.onContactRowRadioButtonValueChanged}"></div>
+                                    </td>
+                                    <td data-bind="text:getTextValue(ContainingPerson.User_ID)"></td>
+                                    <td data-bind="text:getTextValue(ContainingPerson.FirstName)"></td>
+                                    <td data-bind="text:getTextValue(ContainingPerson.LastName)"></td>
+                                    <td data-bind="text:getTextValue(ContainingPerson.DisplayName)"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div data-bind="css:{cchideelement :l_contract_accounts_model.l_addContacttoContractSelection_model.totalNoOfContacts()!=0}">
+                        <img class="cc-icon" src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+                        <span>No contacts are mapped to the selected account.</span>
+                    </div>
+                    <div data-bind="css:{cchideelement :l_contract_accounts_model.l_addContacttoContractSelection_model.totalNoOfContacts()<200}">
+                        <img class="cc-icon" src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+                        <span>Showing the top 200 results. If the desired result is not listed, use the search bar</span>
+                    </div>
+                </div>
+                <div class="cc-modal-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-bind="attr:{disabled :l_contract_accounts_model.l_addContacttoContractSelection_model.selectedContactID().length==0}" data-dismiss="modal" id="btn_selectContacttoAddYes" data-translatable="true">
+                        <span data-translatable="true">Add</span>
+                    </button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectContacttoAddCancel" data-translatable="true">
+                        <span data-translatable="true">Cancel</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+		<!-- ko if: (l_contract_accounts_model.isEditable()==true && l_contract_accounts_model.INTDataLoaded() && l_contract_accounts_model.EXTDataLoaded()) -->
+            <div class="cc-footer" style="border: none; background-color: white;">
+                <div style="float: right; padding-top: 6px;">
+                    <button type="cancel" class="cc-btn cc-btn-secondary" id="cancel_save" 
+                        data-bind="class:(isINTDirty()||isEXTDirty()) ?'':'disable-sec-button',click:cancelAcctsSaveOREdit,enable:(isINTDirty()||isEXTDirty())" style="height: 27px;">
+                        <span data-translatable="true">Cancel</span>
+                    </button>
+                </div>           
+                <div style="float: right; padding-top: 6px;">
+                    <button type="submit" class="cc-btn cc-btn-primary" id="save_attribute" style="height: 27px;"
+                        data-bind="class:(isINTDirty()||isEXTDirty()) ?'':'disable-pri-button',click:saveAttributes,clickBubble:false,enable:(isINTDirty()||isEXTDirty())">
+                        <span data-translatable="true">Save</span>
+                    </button>
+                </div>               
+            </div>
+             <!--/ko-->
+
+              <!-- Cancel Modal -->
+			<div class="modal fade" id="cancelModal" role="dialog" style="z-index: 1999;">
+				<div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+					<div class="modal-header cc-modal-header">
+						<h3 data-translatable="true">Confirm</span></h3>
+					</div>
+					<div class="modal-body cc-modal-body">
+						<div class="apps-warning-msg" data-translatable="true" style="padding-top: 7px;">Are you sure you want to cancel the changes?</div>
+					</div>
+					<div class="cc-modal-footer modal-footer text-align-left">
+						<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="cancelAccountsChanges" data-translatable="true"><span data-translatable="true">Yes</span></button>
+						<button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" data-translatable="true"><span data-translatable="true">No</span></button>
+					</div>
+				</div>
+			</div>
+			
+    </script>
+
+    <!-- Tempalate start-->
+    <!-- Tempalate for Tags -->
+    <script type="text/html" id="contract_tags_template">
+    
+                <div class="col-md-9 col-sm-9 cc-list" id="div_contractTags" style="margin-left: 16px;margin-top: 8px;">
+                  <div>
+                    <div>
+                        <div onclick="toggleDropDown()" class="tag-input-box">
+                            <div class="chiklets-div" data-bind="foreach:ContractTagsSelectedList">
+                                <div class="chiklet"><span class="chiklet-text txt-ellipse" style="max-width:200px;" data-bind="{text:$data.Name}"></span>
+                                    <button class="btn btn-xs btn-link btn-md pull-right chiklet-close" data-bind="click:$parent.RemoveExistingTag.bind($data)" style="padding: 5px 5px !important;">
+                                        <i class="chiklet-cancel"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <input data-bind="event: { keyup: filterTagsList }" id="searchTag" maxlength="256" style="border: none !important; outline: none;" type="text" autocomplete="off" placeholder="Search or select" >
+                            </div>
+                            <div id="dropdown-box" style="display: none;">
+                                <!-- ko if: computeTagsList().length > 0 -->
+                                <div id="dropdown-ele" class="dropdown-content" data-bind="foreach:computeTagsList">
+                                    <div data-bind="click:$parent.AddSelectedTag.bind($data)" ><span class="txt-ellipse" style="width:270px;" data-bind="text:Name" ></span></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if: (computeTagsList().length <= 0 && newTagName && isAllowTagCreate()) -->
+                                    <div id="dropdown-ele1" class="dropdown-content" style="height: 50px !important;">
+                                        <div data-bind="click: CreateAndAddTag">
+                                            <span class="txt-ellipse" data-bind="text: ko.utils.unwrapObservable(newTagName) + ' (Create and add)'" style="width:270px; color: #337ab7;"></span>
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+									<!-- ko if: (computeTagsList().length <= 0 && newTagName && !isAllowTagCreate()) -->
+                                    <div id="dropdown-ele1" class="dropdown-content" style="height: 50px !important;">
+                                        <div>
+                                            <span class="txt-ellipse" style="width:270px;">No matching tags</span>
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                
+                </div>
+                
+                </script>
+				<!-- unsaved changes in Acounts warning-->
+			<div class="modal fade" id="unsavedWarningModal" role="dialog" style="z-index: 1999;">
+				<div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+					<div class="modal-header cc-modal-header">
+						<h3 data-translatable="true">Not Saved</span></h3>
+					</div>
+					<div class="modal-body cc-modal-body">
+						<div class="apps-warning-msg" data-translatable="true" style="padding-top: 7px;">There are unsaved changes in Accounts tab, save or cancel changes to continue.</div>
+					</div>
+					<div class="cc-modal-footer modal-footer text-align-left">
+						<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" data-translatable="true"><span data-translatable="true">ok</span></button>
+					</div>
+				</div>
+			</div>
+</body>
+
+</html>

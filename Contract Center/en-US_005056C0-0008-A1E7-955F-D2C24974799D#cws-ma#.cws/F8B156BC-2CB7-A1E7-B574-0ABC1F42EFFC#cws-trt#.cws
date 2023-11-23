@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-B574-0ABC1F432FFC">
+	<DocumentID>F8B156BC-2CB7-A1E7-B574-0ABC1F42EFFC</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-B574-0ABC1F42EFFC</Name>
+	<Description>CCCopy</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-11-30T13:23:39.414</CreationDate>
+	<Notes/>
+	<Text>CCCopy</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-B574-0ABC1F426FFC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8910-205C4C546B99">
+	<DocumentID>98FA9BD4-E468-A1ED-8910-205C4C542B99</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8910-205C4C542B99</Name>
+	<Description>MiscUpgradeJobs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-25T06:42:23.844</CreationDate>
+	<Notes/>
+	<Text>MiscUpgradeJobs</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8910-205C4C53AB99"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Linked Contracts list</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+		<link rel="stylesheet" href="../css/linkedContractsList.css">
+		<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+		<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+		<script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+		<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+		<script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+		<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+		<script src="../js/linkedContractsList.js" type="text/javascript"></script>
+	</head>
+	<body class="cc-ltr">
+		<div id="div_listContainer" class="col-md-12 cc-parent-container">
+
+			<div id="div_linkedContractsListData" class="col-md-12 cc-list">
+				<div class="cc-error-info-area" id="div_listErrorInfoArea">
+					<img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+					<span id="span_errorInfoMessage" style="position: relative;"></span>
+				</div>
+				<div class="cc-header"
+					style="background-color: #dce4e8;height: 45px;position: fixed;width: 100%;z-index: 1;top: 0;padding-left:8px">
+					<button class="btn btn-default cc-button" id="btn_createContractLinkButton" onclick="openLinkedContractCreateForm()">
+						<img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/add.svg">
+					</button>
+					<div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+					<button class="btn btn-default cc-text-button" onclick="callOpenLinkedContract()" id="btn_openLinkedContractFromActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Open</span></button>
+					<button class="btn btn-default cc-text-button" onclick="callOpenLinkedContract('newTab')" id="btn_openNewTabLinkedContractFromActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Open in new tab</span></button>
+					<button class="btn btn-default cc-text-button" onclick="deleteLinkFromActionBar()" id="btn_deleteLinkedContractFromActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Delete</span></button>
+				</div>
+				<div class="table-responsive" style="padding-top: 45px;padding-bottom: 12px;">
+					<table id="table_linkedContractsTable" class="table">
+						<thead>
+							<tr>
+								<th style="width: 5%;">
+									<div class="cc-select-column cc-checkbox-select-all-off" id="div_selectAllLinkedContracts" data-bind="event:{click:$root.onSelectAllLinkedContractsCheckboxValueChanged}" style="margin: auto;"></div>
+								</th>
+								<th style="width: 10%;" data-translatable="true">Contract ID</th>
+								<th style="width: 15%;" data-translatable="true">Contract name</th>
+								<th style="width: 10%;" data-translatable="true">Link type</th>
+								<th style="width: 20%;" data-translatable="true">Link description</th>
+								<th style="width: 20%;" data-translatable="true">Created by</th>
+								<th style="width: 10%;" data-translatable="true">Created date</th>
+							</tr>
+						</thead>
+						<tbody data-bind="foreach:linkedContractsList">
+							<tr style="cursor: default;" data-bind="
+								attr:{linkedContractIndex:$index}">
+								<td>
+									<div class="cc-select-column cc-checkbox-off"  style="margin: auto;" data-bind="event:{click:$root.onLinkedContractRowCheckboxValueChanged}"></div>
+								</td>
+								<td>
+									<div class="text-underline-hover" style="cursor: pointer;" data-bind="text:GeneratedContractId,attr:{title:'Click to open contract'},click:$root.openSelectedItem"></div>
+								</td>
+								<td>
+									<div style="cursor: text;" data-bind="text:ContractName,attr:{title:ContractName}"></div>
+								</td>
+								<td>
+									<div style="cursor: text;" data-bind="text:LinkType,attr:{title:LinkType}"></div>
+								</td>
+								<td>
+									<div style="cursor: text;" data-bind="text:LinkDescription,attr:{title:LinkDescription}"></div>
+								</td>
+								<td>
+									<div style="cursor: text;" data-bind="text:CreatedBy,attr:{title:CreatedBy}"></div>
+								</td>
+								<td>
+									<div style="cursor: text;" data-bind="text:CreatedDate,attr:{title:CreatedDate}"></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+			<!-- Create Link modal form -->
+			<div class="modal fade" id="div_createLinkedContractsModal" role="dialog" style="z-index: 1999;">
+				<div class="modal-content cc-modal-content" style="width:65%; height: 95%;">
+					<div class="modal-header cc-modal-header">
+						<button type="button" data-dismiss="modal" style="float: right; border: none; background-color: transparent;">
+							<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+						</button>
+						<div class="modal-title">
+							<span id="span_createOrEditModalHeading" style="font-size: 2rem;">Create contract link</span>
+							
+						</div>
+					</div>
+					<div class="modal-body cc-modal-body">
+						<div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+							<img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+							<span id="span_errorInfoMessage" style="position: relative;"></span>
+						</div>
+						<div id="div_linkSummary" class="rtl-float-right" style="width:60%;float:left;">
+							<div class="col-md-12 no-padding" style="margin:10px 0 10px 0;">
+								<div class="form-group col-md-12 rtl-float-right createLink_summaryText" style="width: max-content;">Please select relation and contract to create link.</div>
+							</div>
+							<div id="div_basicLinkDetails" style="margin:10px 0 10px 0;">
+								<div class="col-md-12 no-padding">
+									<div class="form-group col-md-5 rtl-float-right">
+										<label class="cc-required" data-translatable="true" for="ContractType">Link type</label>
+										<div id="div_linkTypes">
+											<select class="form-control cc-select" id="select_linkType" data-bind="foreach :LinkTypestoAdd , value :selectedLinkTypeID" onchange="removeErrorClass(this)">
+												<option data-bind="text:LinkType ,value:linkTypeId"></option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12 no-padding" style="margin:10px 0 10px 0;">
+									<div class="form-group col-md-8 rtl-float-right">
+										<label class="cc-required" data-translatable="true" for="ContractType">Contract</label>
+										<div class="input-group" style="float:left">
+                                            <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                            style="z-index:0;cursor: pointer;" data-translatable="true" id="select_linkContract" data-bind="textInput:selectedContract().generatedContractID,attr:{title:selectedContract().generatedContractID}"
+                                            readonly >
+                                            <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon no-padding"
+                                            style="cursor: pointer;">
+												<img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="openContractSelectionModal(this)">
+                                            </span>                
+                                        </div>
+									</div>
+								</div>
+								<div class="col-md-12 no-padding" style="margin:10px 0 10px 0;">
+									<div class="top-padding">
+										<div class="form-group col-md-10 rtl-float-right">
+											<label data-translatable="true" for="description">Link description</label>
+											<textarea type="textarea" class="form-control" id="linkComments"
+												data-bind="textInput:LinkComments"
+												style="min-height: 100px;resize: vertical;"></textarea>
+										</div>
+									</div>
+								</div>
+							</div>
+								
+							
+						</div>
+						<div id="div_contractPreview" style="width:30%;float:right;">
+							<div class="col-md-12" style="padding:0;">
+								<div class="form-group col-md-12 rtl-float-right createLink_summaryText" style="width: max-content;">Contract preview</div>
+							</div>
+							<div id="div_contractDetails" >
+								<div class="col-md-12 no-padding">
+									<div class="form-group col-md-12 rtl-float-right">
+										<label class="createLink_summaryText" data-translatable="true" >Contract name</label>
+										<div data-bind="text:selectedContract().contractName,attr:{title:selectedContract().contractName}"></div>
+									</div>
+								</div>
+								<div class="col-md-12 no-padding">
+									<div class="form-group col-md-12 rtl-float-right">
+										<label class="createLink_summaryText" data-translatable="true" >Contract type</label>
+										<div data-bind="text:selectedContract().contractType,attr:{title:selectedContract().contractType}"></div>
+									</div>
+								</div>
+								<div class="col-md-12 no-padding">
+									<div class="form-group col-md-12 rtl-float-right">
+										<label class="createLink_summaryText" data-translatable="true" >External party</label>
+										<div data-bind="text:selectedContract().externalParty,attr:{title:selectedContract().externalParty}"></div>
+									</div>
+								</div>
+								<div class="col-md-12 no-padding">
+									<div class="form-group col-md-12 rtl-float-right">
+										<label class="createLink_summaryText" data-translatable="true" >Actual start date</label>
+										<div data-bind="text:selectedContract().actualStartDate,attr:{title:selectedContract().actualStartDate}"></div>
+									</div>
+								</div>
+								<div class="col-md-12 no-padding">
+									<div class="form-group col-md-12 rtl-float-right">
+										<label class="createLink_summaryText" data-translatable="true" >Status</label>
+										<div data-bind="text:selectedContract().status,attr:{title:selectedContract().status}"></div>
+									</div>
+								</div>
+								<div class="col-md-12 no-padding">
+									<div class="form-group col-md-12 rtl-float-right">
+										<label class="createLink_summaryText" data-translatable="true" >Next expiry date</label>
+										<div data-bind="text:selectedContract().nextExpiryDate,attr:{title:selectedContract().nextExpiryDate}"></div>
+									</div>
+								</div>
+								<div class="col-md-12 no-padding">
+									<div class="form-group col-md-12 rtl-float-right">
+										<label class="createLink_summaryText" data-translatable="true" >Document ID</label>
+										<div data-bind="text:selectedContract().documentID,attr:{title:selectedContract().documentID}"></div>
+									</div>
+								</div>
+							</div>
+								
+							
+						</div>
+					</div>
+					<div class="cc-modal-footer modal-footer text-align-left">
+							<button class="cc-btn cc-btn-primary" id="btn_createContractLink" type="submit" data-bind="click:createContractLink" style="outline:none;" data-translatable="true"><span data-translatable="true">Ok</span></button>
+
+							<button type="button" class="cc-btn cc-btn-secondary" data-dismiss="modal" data-bind="click:clearRuleDetailsModelData" style="outline:none;" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+					</div>
+				</div>
+			</div>
+			<!-- Delete link warning modal form -->
+			<div class="modal fade" id="div_deleteLinkModal" role="dialog" style="z-index: 1999;">
+				<div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+					<div class="modal-header cc-modal-header">
+						<button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+							<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+						</button>
+						<h3 data-translatable="true">Delete <span id="span_NumOfLinksToDelete"></span></h3>
+					</div>
+					<div class="modal-body cc-modal-body">
+						<div class="cc-warning-msg rtl-notifquestion" data-translatable="true">Delete the selected items?</div>
+					</div>
+					<div class="cc-modal-footer modal-footer text-align-left">
+						<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_deleteLinkYes" data-translatable="true"><span data-translatable="true">Delete</span></button>
+						<button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_deleteRuleCancel" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                    </div>
+				</div>
+			</div>
+						<!-- Select activity list for link modal form -->
+			<div class="modal fade" id="div_selectContractModal" role="dialog" style="z-index: 2999;">
+				<div class="modal-content cc-modal-content" style="width:80%; height:95%;">
+					<div class="modal-header cc-modal-header">
+						<button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+							<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+						</button>
+						<h3 data-translatable="true">Contracts list</h3>
+					</div>
+					<div class="modal-body cc-modal-body" style="padding:0 !important">
+						<div id="div_contractListFilter" apps-toggle="expanded" class="col-md-3 cc-filter">
+							<div id="div_filterPanel" class="panel panel-default">
+								<div class="panel-heading">
+									<button class="btn btn-primary cc-text-button-primary" onclick="ApplyFilterOnContractsList(this)" id="btn_applyFilter" data-translatable="true"><span data-translatable="true">Apply</span></button>
+									<button class="btn btn-default cc-text-button" onclick="ClearContractsListFilter()" id="btn_clearFilter" data-translatable="true"><span data-translatable="true">Clear</span></button>
+								</div>
+								<div id="div_filterPanelBody" class="panel-body" style="padding: 0px;">
+									<div class="container">
+										<span class="cc-filter-header" apps-toggle="expanded" data-target="#div_contractNameFilter" aria-expanded="false" aria-controls="name_Filter">
+											<label data-translatable="true">Contract name</label>
+											<img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+										</span>
+										<div class="cc-filter-body" id="div_contractNameFilter">
+											<div class="form-group">
+												<select id="select_contractNameFilterOperator" class="form-control cc-select" disabled>
+													<option value="" data-translatable="true">--Select--</option>
+													<option value="EQUALTO">Equal to</option>
+													<option value="RANGE">Range</option>
+													<option value="NOTEQUALTO">Not equal to</option>
+													<option value="CONTAINS" selected data-translatable="true">Contains</option>
+													<option value="EMPTY">Empty</option>
+													<option value="NOTEMPTY">Not empty</option>
+													<option value="ANYOF">Any of(;)</option>
+												</select>
+											</div>
+											<div class="form-group">
+												<input class="form-control" id="input_contractNameFilter"></input>
+											</div>
+										</div>
+									</div>
+									<div class="container">
+										<span class="cc-filter-header" apps-toggle="expanded" data-target="#div_contractIdFilter" aria-expanded="false" aria-controls="name_Filter">
+											<label data-translatable="true">Contract ID</label>
+											<img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+										</span>
+										<div class="cc-filter-body" id="div_contractIdFilter">
+											<div class="form-group">
+												<select id="select_contractIdFilterOperator" class="form-control cc-select"
+													disabled>
+													<option value="" data-translatable="true">--Select--</option>
+													<option value="EQUALTO">Equal to</option>
+													<option value="RANGE">Range</option>
+													<option value="NOTEQUALTO">Not equal to</option>
+													<option value="CONTAINS" selected data-translatable="true">Contains</option>
+													<option value="EMPTY">Empty</option>
+													<option value="NOTEMPTY">Not empty</option>
+													<option value="ANYOF">Any of(;)</option>
+												</select>
+											</div>
+											<div class="form-group">
+												<input class="form-control" id="input_contractIdFilter"></input>
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div id="div_contractListData" class="col-md-9 cc-list">
+							<div class="cc-header"
+								style="background-color: white;height: 45px;z-index: 1;">
+								<button class="btn btn-default cc-button" id="btn_filterContractList">
+									<img class="cc-icon" alt="Filter" src="../../../../../com/opentext/apps/utils/img/filter.svg">
+								</button>
+								<button class="btn btn-default cc-text-button" onclick="ClearContractsListFilter()" id="btn_clearFilterActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Clear filters</span></button>
+							</div>
+							<div class="table-responsive" style="padding-bottom: 12px;">
+								<table id="table_contratcsTable" class="table">
+									<thead>
+										<tr>
+											<th style="width: 5%;"></th>
+											<th style="width: 15%;" data-translatable="true">Contract name</th>
+											<th style="width: 12%;" data-translatable="true">Document ID</th>
+											<th style="width: 12%;" data-translatable="true">Next exiry date</th>
+											<th style="width: 12%;" data-translatable="true">Contract ID</th>
+											<th style="width: 12%;" data-translatable="true">Actual start date</th>
+											<th style="width: 12%;" data-translatable="true">Status</th>
+											<th style="width: 15%;" data-translatable="true">Contract type</th>
+											<th style="width: 20%;" data-translatable="true">External party</th>
+										</tr>
+									</thead>
+									<tbody data-bind="foreach:ContractsList">
+										<tr style="cursor: pointer;" class="rule_row"
+											data-bind="attr:{contractIndex:$index},click:$root.selectContractListRadioButton">
+											
+											<td>
+												<div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onContractListRowRadioButtonValueChanged}"></div>
+											</td>
+											<td>
+												<div data-bind="text:ContractName,attr:{title:ContractName}"></div>
+											</td>
+											<td>
+												<div data-bind="text:ContractNumber,attr:{title:ContractNumber}"></div>
+											</td>
+											<td>
+												<div data-bind="text:EndDate?moment(EndDate.replace('Z', '')).format('MM/DD/YYYY'):'',attr:{title:EndDate?moment(EndDate.replace('Z', '')).format('MM/DD/YYYY'):''}"></div>
+											</td>
+											<td>
+												<div data-bind="text:GeneratedContractId,attr:{title:GeneratedContractId}"></div>
+											</td>
+											<td>
+												<div data-bind="text:MinStartdate?moment(MinStartdate.replace('Z', '')).format('MM/DD/YYYY'):'',attr:{title:MinStartdate?moment(MinStartdate.replace('Z', '')).format('MM/DD/YYYY'):''}"></div>
+											</td>
+											<td>
+												<div data-bind="text:Lifecycle.CurrentState,attr:{title:Lifecycle.CurrentState}"></div>
+											</td>
+											<td>
+												<div data-bind="text:getTextValue(ContractType.Name),attr:{title:getTextValue(ContractType.Name)}"></div>
+											</td>
+											<td>
+												<div data-bind="text:getTextValue(RelatedCTRProps.AllExternalParties),attr:{title:getTextValue(RelatedCTRProps.AllExternalParties)}"></div>
+											</td>
+											
+										</tr>
+									</tbody>
+								</table>
+							
+								
+								</div>
+							
+						
+							
+						</div>
+							
+							
+							
+					</div>
+							<div class="cc-footer col-lg-12" style="text-align: center;padding: 0px;position:sticky" id="contractListPagination">
+									<ul class="pull-left pagination" style="margin: 0;">
+										<li class="li-pagination">
+											<select class="form-control cc-select" id="select_itemsCountPerPageParameter" onchange="updateLimitValue(this)" style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;" disabled>
+												<option value="1" data-translatable="true">1 per page</option>
+												<option value="10" data-translatable="true">10 per page</option>
+												<option value="25" selected data-translatable="true">25 per page</option>
+											</select>
+										</li>
+									</ul>
+									<ul class="pagination" style="margin: 0;">
+										<li class="li-pagination">
+											<a id="a_itemsCount" style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+												<span data-bind="text:numOfContracts"></span>
+												<span data-translatable="true">result(s)</span>
+											</a>
+										</li>
+									</ul>
+									
+									<ul class="pagination pull-right" style="margin: 0;">
+										<li class="li-pagination li_ListLeftNavigation" id="li_contractListLeftNavigation" style="cursor: pointer;">
+											<a data-bind="click:goToFirstPage.bind()">
+												<img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToFirstPage">
+												<img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+											</a>
+											<a data-bind="click:goToPreviousPage.bind()">
+												<img class="cc-pagination-icon rotated-90" alt="PreviousPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToPreviousPage">
+											</a>
+										</li>
+										<li class="li-pagination">
+											<span>
+												<input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="textInput:currentPage" disabled style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;"></input>
+												<span data-translatable="true"> of </span>
+												<span style="margin-left: .5em;margin-right: .5em;" data-bind="text:numOfPages"></span>
+											</span>
+										</li>
+										<li class="li-pagination li_ListRightNavigation" id="li_contractListRightNavigation" style="cursor: pointer;">
+											<a data-bind="click:goToNextPage.bind()">
+												<img class="cc-pagination-icon rotated-270" alt="NextPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToNextPage">
+											</a>
+											<a data-bind="click:goToLastPage.bind()">
+												<img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToLastPage">
+												<img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+											</a>
+										</li>
+									</ul>
+									
+								</div>
+					<div class="cc-modal-footer modal-footer text-align-left" style="height: auto !important;">
+						<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_selectContractForLinkYes" data-translatable="true" data-bind="attr:{disabled :l_ContractsList_model.selectedContractItemId().length==0}"><span data-translatable="true">Select</span></button>
+						<button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectContractForLinkCancel" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                    </div>
+				</div>
+			</div>
+			
+		
+		</div>
+	</body>
+</html>

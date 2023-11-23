@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-8D3A-4ACE19457045">
+	<DocumentID>F8B156BC-2CB7-A1E9-8D3A-4ACE19453045</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-8D3A-4ACE19453045</Name>
+	<Description>You are about to clone this contract and create a new contract record. This operation cannot be undone. Click X to abort.</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-02-20T08:28:37.424</CreationDate>
+	<Notes/>
+	<DefaultText>You are about to clone this contract and create a new contract record. This operation cannot be undone. Click X to abort.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E9-8D3A-4ACE1945B045"
+		/>
+	</Translations>
+</TextIdentifier>

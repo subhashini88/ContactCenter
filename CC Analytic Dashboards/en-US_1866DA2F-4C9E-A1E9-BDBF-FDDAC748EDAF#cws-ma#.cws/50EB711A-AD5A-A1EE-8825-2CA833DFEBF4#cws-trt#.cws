@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8825-2CA833E02BF4">
+	<DocumentID>50EB711A-AD5A-A1EE-8825-2CA833DFEBF4</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8825-2CA833DFEBF4</Name>
+	<Description>Week</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-12T09:20:31.648</CreationDate>
+	<Notes/>
+	<Text>Week</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-8825-2CA833DF6BF4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

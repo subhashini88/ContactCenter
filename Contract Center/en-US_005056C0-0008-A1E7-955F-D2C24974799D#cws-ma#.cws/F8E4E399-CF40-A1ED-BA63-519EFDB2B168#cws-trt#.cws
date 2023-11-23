@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-BA63-519EFDB2F168">
+	<DocumentID>F8E4E399-CF40-A1ED-BA63-519EFDB2B168</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-BA63-519EFDB2B168</Name>
+	<Description>Z_INT_ContractWithAllRelations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-03T08:43:31.824</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ContractWithAllRelations</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-BA63-519EFDB23168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

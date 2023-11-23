@@ -1,0 +1,19 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="E86A6495-8267-A1EA-BCD5-EAEE573D835B">
+	<DocumentID>E86A6495-8267-A1EA-BCD5-EAEE573D435B</DocumentID>
+	<Name>Basic Component User</Name>
+	<Description>Basic Component User</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-10T11:24:54.583</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Internal</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

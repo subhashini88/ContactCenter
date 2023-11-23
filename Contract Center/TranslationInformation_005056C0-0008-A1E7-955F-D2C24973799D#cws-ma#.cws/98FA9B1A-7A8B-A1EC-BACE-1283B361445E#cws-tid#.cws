@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EC-BACE-1283B361845E">
+	<DocumentID>98FA9B1A-7A8B-A1EC-BACE-1283B361445E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EC-BACE-1283B361445E</Name>
+	<Description>RelatedPONumbers_3</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-13T17:10:49.182</CreationDate>
+	<Notes/>
+	<DefaultText>RelatedPONumbers_3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EC-BACE-1283B361C45E"
+		/>
+	</Translations>
+</TextIdentifier>

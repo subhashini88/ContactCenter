@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-97FF-C54AD9D1701F">
+	<DocumentID>F8B156BC-2CB7-A1E8-97FF-C54AD9D1301F</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-05-25T09:40:46.464</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-97FF-C54AD9D0B01F">
+			<DocumentID>F8B156BC-2CB7-A1E8-97FF-C54AD9D0701F</DocumentID>
+			<Name>CreateConfigurableProperties</Name>
+			<Description>Create ConfigurableProperties</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-05-25T09:40:46.465</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-97FF-12EF4A1CF01F"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-97FF-C54AD9CF301F">
+			<DocumentID>F8B156BC-2CB7-A1E8-97FF-C54AD9CEF01F</DocumentID>
+			<Name>DeleteConfigurableProperties</Name>
+			<Description>Delete ConfigurableProperties</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-05-25T09:40:46.467</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-97FF-12EF4A1CF01F"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156BC-2CB7-A1E8-97FF-12EF4A1CF01F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-97FF-C54AD9D0301F">
+			<DocumentID>F8B156BC-2CB7-A1E8-97FF-C54AD9CFF01F</DocumentID>
+			<Name>ReadConfigurableProperties</Name>
+			<Description>Read ConfigurableProperties</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-05-25T09:40:46.464</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-97FF-12EF4A1CF01F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-97FF-C54AD9CFB01F">
+			<DocumentID>F8B156BC-2CB7-A1E8-97FF-C54AD9CF701F</DocumentID>
+			<Name>UpdateConfigurableProperties</Name>
+			<Description>Update ConfigurableProperties</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-05-25T09:40:46.462</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-97FF-12EF4A1CF01F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

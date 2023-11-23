@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-AC39-30D909E13093">
+	<DocumentID>F8B156BC-2CB7-A1EB-AC39-30D909E0F093</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-AC39-30D909E0F093</Name>
+	<Description>All contract initiation requests</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-05-09T16:54:12.566</CreationDate>
+	<Notes/>
+	<Text>All contract initiation requests</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EB-AC39-30D909E07093"
+		/>
+	</TextIdentifier>
+</TranslatedText>

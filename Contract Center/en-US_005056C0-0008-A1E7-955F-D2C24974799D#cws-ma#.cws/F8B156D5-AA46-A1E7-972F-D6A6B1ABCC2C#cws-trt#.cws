@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-972F-D6A6B1AC0C2C">
+	<DocumentID>F8B156D5-AA46-A1E7-972F-D6A6B1ABCC2C</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-972F-D6A6B1ABCC2C</Name>
+	<Description>CCMapping</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-06-29T11:40:50.056</CreationDate>
+	<Notes/>
+	<Text>CCMapping</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-972F-D6A6B1AB4C2C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

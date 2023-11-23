@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CB0-86197A6EA4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CB0-86197A6E64DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CB0-86197A6E64DE</Name>
+	<Description>Parties - Distribution lists</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-18T06:45:32.638</CreationDate>
+	<Notes/>
+	<Text>Parties - Distribution lists</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CB0-86197A6DE4DE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

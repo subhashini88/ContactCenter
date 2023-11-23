@@ -1,0 +1,34 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="00505601-79C2-A1EC-9B55-3B770CF2AD6B">
+	<DocumentID>00505601-79C2-A1EC-9B55-3B770CF26D6B</DocumentID>
+	<Name>Obligation_History</Name>
+	<Description>Obligation_History</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-01-04T12:34:19.999</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="00505601-79C2-A1EC-9B55-3B770CF02D6B">
+			<DocumentID>00505601-79C2-A1EC-9B55-3B770CEFED6B</DocumentID>
+			<Name>00505601-79C2-A1EC-9B55-3B770CEFED6B</Name>
+			<Description>00505601-79C2-A1EC-9B55-3B770CEFED6B</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-01-04T12:34:20.0</CreationDate>
+			<Notes/>
+			<DeveloperText>Obligation history</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-79C2-A1EC-9B55-3B770CF06D6B"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9E74-BB4E6C4964C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9E74-BB4E6C4924C8</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9E74-BB4E6C4924C8</Name>
+	<Description>Currency: A value is required.</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-27T06:27:11.661</CreationDate>
+	<Notes/>
+	<DefaultText>Currency: A value is required.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-9E74-BB4E6C49A4C8"
+		/>
+	</Translations>
+</TextIdentifier>

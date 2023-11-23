@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-A159-D57ED0D0A64B">
+	<DocumentID>8C1645B9-0967-A1E9-A159-D57ED0D0664B</DocumentID>
+	<Name>8C1645B9-0967-A1E9-A159-D57ED0D0664B</Name>
+	<Description>SendNotification</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-06-02T19:12:41.65</CreationDate>
+	<Notes/>
+	<Text>SendNotification</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-A159-D57ED0CFE64B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

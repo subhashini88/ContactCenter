@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-AC8F-3585F8EEF093">
+	<DocumentID>F8B156BC-2CB7-A1EB-AC8F-3585F8EEB093</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-AC8F-3585F8EEB093</Name>
+	<Description>Plannned start date</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-05-11T09:46:35.555</CreationDate>
+	<Notes/>
+	<Text>Plannned start date</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EB-AC8F-3585F8EE3093"
+		/>
+	</TextIdentifier>
+</TranslatedText>

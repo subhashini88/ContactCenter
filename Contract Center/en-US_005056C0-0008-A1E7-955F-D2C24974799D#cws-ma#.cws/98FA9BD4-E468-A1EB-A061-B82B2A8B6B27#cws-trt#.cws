@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A061-B82B2A8BAB27">
+	<DocumentID>98FA9BD4-E468-A1EB-A061-B82B2A8B6B27</DocumentID>
+	<Name>98FA9BD4-E468-A1EB-A061-B82B2A8B6B27</Name>
+	<Description>Fetch All active memberships</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-10T10:00:24.177</CreationDate>
+	<Notes/>
+	<Text>Fetch All active memberships</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1EB-A061-B82B2A8AEB27"
+		/>
+	</TextIdentifier>
+</TranslatedText>

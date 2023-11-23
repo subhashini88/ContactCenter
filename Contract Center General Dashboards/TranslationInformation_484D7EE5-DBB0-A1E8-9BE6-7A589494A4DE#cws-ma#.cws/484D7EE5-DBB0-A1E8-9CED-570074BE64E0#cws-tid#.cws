@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CED-570074BEA4E0">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CED-570074BE64E0</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CED-570074BE64E0</Name>
+	<Description>Renewal flag</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-19T11:46:32.547</CreationDate>
+	<Notes/>
+	<DefaultText>Renewal flag</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CED-570074BEE4E0"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AC-FFA3836B3068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-1063CDB5F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-1063CDB4B068"
+		/>
+	</Translations>
+</TextIdentifier>

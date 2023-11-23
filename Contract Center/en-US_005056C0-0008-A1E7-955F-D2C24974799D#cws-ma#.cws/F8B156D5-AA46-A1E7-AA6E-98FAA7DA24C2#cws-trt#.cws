@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-AA6E-98FAA7DA64C2">
+	<DocumentID>F8B156D5-AA46-A1E7-AA6E-98FAA7DA24C2</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-AA6E-98FAA7DA24C2</Name>
+	<Description>Renewal flag status</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-10-05T10:59:26.556</CreationDate>
+	<Notes/>
+	<Text>Renewal flag status</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-AA6E-98FAA7D9A4C2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

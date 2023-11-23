@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD65-E40FF535E665">
+	<DocumentID>3C6AA73A-0114-A1E9-BD65-E40FF535A665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD65-E40FF535A665</Name>
+	<Description>Update Contract Expatriation DL</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-23T13:19:30.239</CreationDate>
+	<Notes/>
+	<DefaultText>Update Contract Expatriation DL</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD65-E40FF5362665"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-8C66-E5C82F8650F3">
+	<DocumentID>3417EB96-8F1F-A1E8-8C66-E5C82F8610F3</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-8C66-E5C82F8610F3</Name>
+	<Description>Product groups and services</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-03-27T09:23:53.913</CreationDate>
+	<Notes/>
+	<Text>Product groups and services</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-8C66-E5C82F8590F3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

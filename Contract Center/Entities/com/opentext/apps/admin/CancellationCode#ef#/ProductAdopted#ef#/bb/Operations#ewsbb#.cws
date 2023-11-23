@@ -1,0 +1,79 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="9890969C-5774-A1E7-B0B7-C43C043424B7">
+	<DocumentID>9890969C-5774-A1E7-B0B7-C43C0433E4B7</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-11-06T10:47:19.375</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="9890969C-5774-A1E7-B0B5-2554EED4A4B7"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B0B7-C43C043364B7">
+			<DocumentID>9890969C-5774-A1E7-B0B7-C43C043324B7</DocumentID>
+			<Name>ReadProductAdopted</Name>
+			<Description>Read ProductAdopted</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-11-06T10:47:19.373</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="9890969C-5774-A1E7-B0B5-2554EED4A4B7"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B0B7-C43C043264B7">
+			<DocumentID>9890969C-5774-A1E7-B0B7-C43C043224B7</DocumentID>
+			<Name>GetParentOwner</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-11-06T10:47:19.375</CreationDate>
+			<Notes/>
+			<OperationType>GetParent</OperationType>
+			<Entity>
+				<uri
+					id="9890969C-5774-A1E7-B0B5-2554EED4A4B7"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="9890969C-5774-A1E7-B0B7-C43C043A64B7"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B0B7-C43C0432E4B7">
+			<DocumentID>9890969C-5774-A1E7-B0B7-C43C0432A4B7</DocumentID>
+			<Name>UpdateProductAdopted</Name>
+			<Description>Update ProductAdopted</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-11-06T10:47:19.374</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="9890969C-5774-A1E7-B0B5-2554EED4A4B7"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

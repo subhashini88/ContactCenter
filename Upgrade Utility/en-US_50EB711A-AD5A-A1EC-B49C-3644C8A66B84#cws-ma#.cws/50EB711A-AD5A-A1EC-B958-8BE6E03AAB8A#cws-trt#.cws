@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B958-8BE6E03AEB8A">
+	<DocumentID>50EB711A-AD5A-A1EC-B958-8BE6E03AAB8A</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B958-8BE6E03AAB8A</Name>
+	<Description>getAllUpgradeBatchJobs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-06T06:41:51.279</CreationDate>
+	<Notes/>
+	<Text>getAllUpgradeBatchJobs</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B958-8BE6E03A2B8A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

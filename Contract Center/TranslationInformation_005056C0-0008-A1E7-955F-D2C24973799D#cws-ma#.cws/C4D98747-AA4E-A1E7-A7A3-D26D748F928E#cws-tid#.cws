@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A7A3-D26D748FD28E">
+	<DocumentID>C4D98747-AA4E-A1E7-A7A3-D26D748F928E</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A7A3-D26D748F928E</Name>
+	<Description>LInked Contracts</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2017-09-21T06:26:06.903</CreationDate>
+	<Notes/>
+	<DefaultText>LInked Contracts</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A7A3-D26D7490128E"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-AA63-D23CD94F26AE">
+	<DocumentID>8C1645B9-0967-A1EA-AA63-D23CD94EE6AE</DocumentID>
+	<Name>8C1645B9-0967-A1EA-AA63-D23CD94EE6AE</Name>
+	<Description>Update custom flow ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-08T13:54:11.364</CreationDate>
+	<Notes/>
+	<Text>Update custom flow ?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-AA63-D23CD94E66AE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

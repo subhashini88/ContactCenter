@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-81C6-F4DC5AB724C5">
+	<DocumentID>9890969C-5774-A1E8-81C6-F4DC5AB6E4C5</DocumentID>
+	<Name>9890969C-5774-A1E8-81C6-F4DC5AB6E4C5</Name>
+	<Description>ContractTasks</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-02-01T09:05:51.747</CreationDate>
+	<Notes/>
+	<Text>ContractTasks</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-81C6-F4DC5AB664C5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

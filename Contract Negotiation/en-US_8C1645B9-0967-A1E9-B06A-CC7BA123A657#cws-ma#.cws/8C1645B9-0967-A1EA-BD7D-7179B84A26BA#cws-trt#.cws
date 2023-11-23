@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-BD7D-7179B84A66BA">
+	<DocumentID>8C1645B9-0967-A1EA-BD7D-7179B84A26BA</DocumentID>
+	<Name>8C1645B9-0967-A1EA-BD7D-7179B84A26BA</Name>
+	<Description>GetNegotiationComments</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-13T19:17:34.585</CreationDate>
+	<Notes/>
+	<Text>GetNegotiationComments</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-BD7D-7179B849A6BA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

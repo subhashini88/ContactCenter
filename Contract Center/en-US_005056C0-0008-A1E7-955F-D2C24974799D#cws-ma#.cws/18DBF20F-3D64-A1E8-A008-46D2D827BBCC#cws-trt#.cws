@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="18DBF20F-3D64-A1E8-A008-46D2D827FBCC">
+	<DocumentID>18DBF20F-3D64-A1E8-A008-46D2D827BBCC</DocumentID>
+	<Name>18DBF20F-3D64-A1E8-A008-46D2D827BBCC</Name>
+	<Description>BN_Edit conversion rate to USD form</Description>
+	<CreatedBy>pradeep</CreatedBy>
+	<CreationDate>2018-07-05T07:06:04.428</CreationDate>
+	<Notes/>
+	<Text>BN_Edit conversion rate to USD form</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="18DBF20F-3D64-A1E8-A008-46D2D8273BCC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

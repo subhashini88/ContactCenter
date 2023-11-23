@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AAF8-4A623AD70F6A">
+	<DocumentID>C4D98747-AA4E-A1E7-AAF8-4A623AD6CF6A</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AAF8-4A623AD6CF6A</Name>
+	<Description>Contract preview</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-08T05:04:45.079</CreationDate>
+	<Notes/>
+	<Text>Contract preview</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-AAF8-4A623AD64F6A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

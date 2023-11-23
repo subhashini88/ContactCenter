@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-92EF-3252E4247182">
+	<DocumentID>50EB711A-FC6F-A1EE-92EF-3252E4243182</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-92EF-3252E4243182</Name>
+	<Description>Obligation non-compliance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-05T09:37:56.902</CreationDate>
+	<Notes/>
+	<Text>Obligation non-compliance</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-92EF-3252E423B182"
+		/>
+	</TextIdentifier>
+</TranslatedText>

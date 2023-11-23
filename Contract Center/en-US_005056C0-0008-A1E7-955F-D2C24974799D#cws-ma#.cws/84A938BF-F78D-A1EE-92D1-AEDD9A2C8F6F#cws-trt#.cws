@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-92D1-AEDD9A2CCF6F">
+	<DocumentID>84A938BF-F78D-A1EE-92D1-AEDD9A2C8F6F</DocumentID>
+	<Name>84A938BF-F78D-A1EE-92D1-AEDD9A2C8F6F</Name>
+	<Description>Met</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-04T17:16:52.182</CreationDate>
+	<Notes/>
+	<Text>Met</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-92D1-AEDD9A2C0F6F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-AF24-4DF7961B24FA">
+	<DocumentID>484D7EEB-71EF-A1E8-AF24-4DF7961AE4FA</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-20T04:56:26.998</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-ED2BB1A3A4FA"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="484D7EEB-71EF-A1E8-AF24-4DF7961A64FA">
+			<DocumentID>484D7EEB-71EF-A1E8-AF24-4DF7961A24FA</DocumentID>
+			<Name>ReadRelatedTemplates</Name>
+			<Description>Read RelatedTemplates</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-09-20T04:56:26.998</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-71EF-A1E8-AEF2-ED2BB1A3A4FA"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="484D7EEB-71EF-A1E8-AF24-4DF79619E4FA">
+			<DocumentID>484D7EEB-71EF-A1E8-AF24-4DF79619A4FA</DocumentID>
+			<Name>UpdateRelatedTemplates</Name>
+			<Description>Update RelatedTemplates</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-09-20T04:56:26.998</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-71EF-A1E8-AEF2-ED2BB1A3A4FA"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

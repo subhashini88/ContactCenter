@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B14E-A953A5B96EF0">
+	<DocumentID>C4D98747-AA4E-A1E7-B14E-A953A5B92EF0</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B14E-A953A5B92EF0</Name>
+	<Description>Software</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-09T11:11:31.746</CreationDate>
+	<Notes/>
+	<DefaultText>Software</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B14E-A953A5B9AEF0"
+		/>
+	</Translations>
+</TextIdentifier>

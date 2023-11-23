@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-B2D4-9280E14E47C1">
+	<DocumentID>3417EB96-8F1F-A1E7-B2D4-9280E14E07C1</DocumentID>
+	<Name>OnFillRule</Name>
+	<Description>OnFillRule</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2017-11-17T04:47:32.797</CreationDate>
+	<Notes/>
+	<referenceCount>11</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

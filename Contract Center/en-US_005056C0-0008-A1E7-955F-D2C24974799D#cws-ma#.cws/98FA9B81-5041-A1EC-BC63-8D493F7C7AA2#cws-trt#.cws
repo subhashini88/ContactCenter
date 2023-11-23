@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BC63-8D493F7CBAA2">
+	<DocumentID>98FA9B81-5041-A1EC-BC63-8D493F7C7AA2</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BC63-8D493F7C7AA2</Name>
+	<Description>concatenate external parties</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-21T18:28:23.617</CreationDate>
+	<Notes/>
+	<Text>concatenate external parties</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-BC63-8D493F7BFAA2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A73E-AA0B4B6164C6">
+	<DocumentID>F8B156B5-069B-A1E7-A73E-AA0B4B6124C6</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A73E-AA0B4B6124C6</Name>
+	<Description>Contract tenure rule</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-19T05:28:42.264</CreationDate>
+	<Notes/>
+	<Text>Contract tenure rule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A73E-AA0B4B60A4C6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

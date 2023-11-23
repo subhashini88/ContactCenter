@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-915C-05F0D6092516">
+	<DocumentID>484D7EEB-71EF-A1E9-915C-05F0D608E516</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-915C-05F0D608E516</Name>
+	<Description>Sign documents</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-13T09:46:16.303</CreationDate>
+	<Notes/>
+	<Text>Sign documents</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-915C-05F0D6086516"
+		/>
+	</TextIdentifier>
+</TranslatedText>

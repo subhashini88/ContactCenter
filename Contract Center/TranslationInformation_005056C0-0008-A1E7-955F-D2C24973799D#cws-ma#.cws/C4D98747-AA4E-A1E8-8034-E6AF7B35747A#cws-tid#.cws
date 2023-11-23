@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E8-8034-E6AF7B35B47A">
+	<DocumentID>C4D98747-AA4E-A1E8-8034-E6AF7B35747A</DocumentID>
+	<Name>C4D98747-AA4E-A1E8-8034-E6AF7B35747A</Name>
+	<Description>Sections and Clauses</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-01-24T07:14:09.462</CreationDate>
+	<Notes/>
+	<DefaultText>Sections and Clauses</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E8-8034-E6AF7B35F47A"
+		/>
+	</Translations>
+</TextIdentifier>

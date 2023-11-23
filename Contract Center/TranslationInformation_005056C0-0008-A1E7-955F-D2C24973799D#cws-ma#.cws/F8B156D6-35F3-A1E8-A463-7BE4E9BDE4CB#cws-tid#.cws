@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A463-7BE4E9BE24CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A463-7BE4E9BDE4CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A463-7BE4E9BDE4CB</Name>
+	<Description>Update deadline</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-27T11:16:24.327</CreationDate>
+	<Notes/>
+	<DefaultText>Update deadline</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-A463-7BE4E9BE64CB"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-89D6-BAFAEB410465">
+	<DocumentID>98FA9B1A-7A8B-A1ED-89D6-BAFAEB40C465</DocumentID>
+	<Name>HideFile</Name>
+	<Description>HideFile</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-29T05:40:19.911</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

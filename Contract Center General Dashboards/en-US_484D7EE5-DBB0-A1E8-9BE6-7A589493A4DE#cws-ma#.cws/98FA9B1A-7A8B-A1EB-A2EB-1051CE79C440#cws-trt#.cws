@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A2EB-1051CE7A0440">
+	<DocumentID>98FA9B1A-7A8B-A1EB-A2EB-1051CE79C440</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-A2EB-1051CE79C440</Name>
+	<Description>Reports</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-23T08:06:12.267</CreationDate>
+	<Notes/>
+	<Text>Reports</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-A2EB-1051CE794440"
+		/>
+	</TextIdentifier>
+</TranslatedText>

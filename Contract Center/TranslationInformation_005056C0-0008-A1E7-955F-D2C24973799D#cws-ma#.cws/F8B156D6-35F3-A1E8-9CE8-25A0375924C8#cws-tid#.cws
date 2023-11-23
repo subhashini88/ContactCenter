@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9CE8-25A0375964C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9CE8-25A0375924C8</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9CE8-25A0375924C8</Name>
+	<Description>Renewal comments_4</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-19T09:25:50.719</CreationDate>
+	<Notes/>
+	<DefaultText>Renewal comments_4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-9CE8-25A03759A4C8"
+		/>
+	</Translations>
+</TextIdentifier>

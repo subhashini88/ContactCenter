@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-BD5A-EEFB1460C354">
+	<DocumentID>3C6AA735-2F3B-A1E9-BD5A-EEFB14608354</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-BD5A-EEFB14608354</Name>
+	<Description>All contract view list</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-10-23T09:22:08.555</CreationDate>
+	<Notes/>
+	<Text>All contract view list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1E9-BD5A-EEFB14600354"
+		/>
+	</TextIdentifier>
+</TranslatedText>

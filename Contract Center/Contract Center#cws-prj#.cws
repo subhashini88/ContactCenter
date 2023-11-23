@@ -1,0 +1,104 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="005056C0-0008-A1E7-955F-D2C24972B99D">
+	<DocumentID>005056C0-0008-A1E7-955F-D2C24972799D</DocumentID>
+	<Name>Contract Center</Name>
+	<Description>Contract Center</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-20T06:11:31.67</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<Configurations/>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="005056C0-0008-A1E7-955F-D2C24975B99D">
+			<DocumentID>005056C0-0008-A1E7-955F-D2C24975799D</DocumentID>
+			<Name>OpenText Contract Center</Name>
+			<Description>OpenText Contract Center</Description>
+			<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+			<CreationDate>2017-06-20T06:11:31.669</CreationDate>
+			<Notes/>
+			<BuildNumber>1</BuildNumber>
+			<GenerateModelPackage>true</GenerateModelPackage>
+			<ISVPackageFileName>OpenText Contract Center</ISVPackageFileName>
+			<ISVPackageOwner>OpenText</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Contract Center</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+				<cws:item>ORGANIZATION</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>23.4.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24974F99D"
+			path="Contract Center"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="005056C0-0008-A1E7-955F-D2C24973399D">
+			<DocumentID>005056C0-0008-A1E7-955F-D2C24972F99D</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description/>
+			<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+			<CreationDate>2017-06-20T06:11:31.635</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="005056C0-0008-A1E7-955F-D2C24974399D">
+					<DocumentID>005056C0-0008-A1E7-955F-D2C24973F99D</DocumentID>
+					<Name>en-US</Name>
+					<Description/>
+					<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+					<CreationDate>2017-06-20T06:11:31.595</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="005056C0-0008-A1E7-955F-D2C24974799D"
+							path="Contract Center/en-US_005056C0-0008-A1E7-955F-D2C24974799D"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="005056C0-0008-A1E7-955F-D2C24972F99D"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="005056C0-0008-A1E7-955F-D2C24973F99D"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="005056C0-0008-A1E7-955F-D2C24973799D"
+					path="Contract Center/TranslationInformation_005056C0-0008-A1E7-955F-D2C24973799D"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

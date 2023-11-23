@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-A93C-3F5724C0A756">
+	<DocumentID>3C6AA73A-0114-A1EC-A93C-3F5724C06756</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-A93C-3F5724C06756</Name>
+	<Description>No contract.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-16T06:20:35.615</CreationDate>
+	<Notes/>
+	<Text>No contract.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-A93C-3F5724BFE756"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,57 @@
+
+<RuleBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.rule.RuleBuildingBlock"
+	typeVersion="97F537DA-34AE-40AD-AFC4-48BC832037C3"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A875-0FDA836C24BE">
+	<DocumentID>F8B156D5-AA46-A1E7-A875-0FDA836BE4BE</DocumentID>
+	<Name>Rules</Name>
+	<Description>Rules</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-25T09:39:54.121</CreationDate>
+	<Notes/>
+	<Entity>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5E5-0E86921AE4BC"
+		/>
+	</Entity>
+	<OwnedActions>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="005056C0-0008-A1E7-AC9A-20BA308952CE">
+			<DocumentID>005056C0-0008-A1E7-AC9A-20BA308912CE</DocumentID>
+			<Name>TestRule2</Name>
+			<Description>TestRule2</Description>
+			<CreatedBy>batman batman</CreatedBy>
+			<CreationDate>2017-10-16T11:53:56.762</CreationDate>
+			<Notes/>
+			<ActionDisplayName>TestRule2</ActionDisplayName>
+			<ActionId>005056C0-0008-A1E7-AC99-BD99A3FB12CE</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="005056C0-0008-A1E7-AC9A-20BA308092CE">
+			<DocumentID>005056C0-0008-A1E7-AC9A-20BA308052CE</DocumentID>
+			<Name>Untitled Rule Action Button</Name>
+			<Description>Untitled Rule Action Button</Description>
+			<CreatedBy>batman batman</CreatedBy>
+			<CreationDate>2017-10-16T11:56:07.909</CreationDate>
+			<Notes/>
+			<ActionDisplayName>TestRule2</ActionDisplayName>
+			<ActionId>005056C0-0008-A1E7-AC99-BD99A3FB12CE</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="005056C0-0008-A1E7-AC9A-20BA307F52CE">
+			<DocumentID>005056C0-0008-A1E7-AC9A-20BA307F12CE</DocumentID>
+			<Name>NEW</Name>
+			<Description>NEW</Description>
+			<CreatedBy>batman batman</CreatedBy>
+			<CreationDate>2017-10-16T11:56:07.909</CreationDate>
+			<Notes/>
+			<ActionDisplayName>NEW</ActionDisplayName>
+			<ActionId>005056C0-0008-A1E7-AC99-BD99A3FB12CE</ActionId>
+		</RuleActionButton>
+	</OwnedActions>
+	<Rules/>
+</RuleBuildingBlock>

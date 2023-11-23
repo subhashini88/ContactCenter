@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9EC7-4FBA3E2C843E">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9EC7-4FBA3E2C443E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9EC7-4FBA3E2C443E</Name>
+	<Description>UpdProcRecOnComplete</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-02T06:09:33.559</CreationDate>
+	<Notes/>
+	<Text>UpdProcRecOnComplete</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9EC7-4FBA3E2BC43E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

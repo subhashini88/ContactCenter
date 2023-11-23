@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-7112-A1E8-AC0D-5BF5BAAC250B">
+	<DocumentID>484D7EEB-7112-A1E8-AC0D-5BF5BAABE50B</DocumentID>
+	<Name>484D7EEB-7112-A1E8-AC0D-5BF5BAABE50B</Name>
+	<Description>Termination comments_5</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2018-09-04T11:50:26.451</CreationDate>
+	<Notes/>
+	<DefaultText>Termination comments_5</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-7112-A1E8-AC0D-5BF5BAAC650B"
+		/>
+	</Translations>
+</TextIdentifier>

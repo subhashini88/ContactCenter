@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E8-802F-1E9E9A8BE4F5">
+	<DocumentID>C4D98747-A6D9-A1E8-802F-1E9E9A8BA4F5</DocumentID>
+	<Name>C4D98747-A6D9-A1E8-802F-1E9E9A8BA4F5</Name>
+	<Description>ReadTemplate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-01-24T10:32:48.761</CreationDate>
+	<Notes/>
+	<Text>ReadTemplate</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E8-802F-1E9E9A8B24F5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

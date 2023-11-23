@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-AACA-8375A2F94366">
+	<DocumentID>98FA9B1A-7A8B-A1EA-AACA-8375A2F90366</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-AACA-8375A2F90366</Name>
+	<Description>Z_INT_RenewalsCountAuthor</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-10T15:46:57.571</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_RenewalsCountAuthor</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-AACA-8375A2F98366"
+		/>
+	</Translations>
+</TextIdentifier>

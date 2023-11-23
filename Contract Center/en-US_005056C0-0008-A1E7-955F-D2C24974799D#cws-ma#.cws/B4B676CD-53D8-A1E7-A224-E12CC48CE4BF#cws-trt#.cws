@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A224-E12CC48D24BF">
+	<DocumentID>B4B676CD-53D8-A1E7-A224-E12CC48CE4BF</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A224-E12CC48CE4BF</Name>
+	<Description>Disable end date</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-24T06:29:36.793</CreationDate>
+	<Notes/>
+	<Text>Disable end date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC48C64BF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

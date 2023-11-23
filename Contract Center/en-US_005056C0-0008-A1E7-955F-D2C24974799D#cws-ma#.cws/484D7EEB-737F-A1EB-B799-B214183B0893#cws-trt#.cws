@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-737F-A1EB-B799-B214183B4893">
+	<DocumentID>484D7EEB-737F-A1EB-B799-B214183B0893</DocumentID>
+	<Name>484D7EEB-737F-A1EB-B799-B214183B0893</Name>
+	<Description>ClearTermination</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-07-06T14:35:54.22</CreationDate>
+	<Notes/>
+	<Text>ClearTermination</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-737F-A1EB-B799-B214183A8893"
+		/>
+	</TextIdentifier>
+</TranslatedText>

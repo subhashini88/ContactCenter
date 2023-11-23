@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B586-29958852265B">
+	<DocumentID>8C1645B9-0967-A1E9-B586-29958851E65B</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B586-29958851E65B</Name>
+	<Description>UpdateStatusOnDeadline</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-13T11:33:24.583</CreationDate>
+	<Notes/>
+	<Text>UpdateStatusOnDeadline</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-B586-29958851665B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

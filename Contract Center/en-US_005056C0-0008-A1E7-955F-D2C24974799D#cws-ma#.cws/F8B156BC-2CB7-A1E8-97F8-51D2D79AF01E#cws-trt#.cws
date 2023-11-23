@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-97F8-51D2D79B301E">
+	<DocumentID>F8B156BC-2CB7-A1E8-97F8-51D2D79AF01E</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-97F8-51D2D79AF01E</Name>
+	<Description>UpdateZ_INT_isContractVisible</Description>
+	<CreatedBy>nareshp</CreatedBy>
+	<CreationDate>2018-05-25T06:13:31.514</CreationDate>
+	<Notes/>
+	<Text>UpdateZ_INT_isContractVisible</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-97F8-51D2D79A701E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

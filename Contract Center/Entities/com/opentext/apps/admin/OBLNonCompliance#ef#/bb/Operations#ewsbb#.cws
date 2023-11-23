@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-928F-2E34CD36CF6F">
+	<DocumentID>84A938BF-F78D-A1EE-928F-2E34CD368F6F</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-03T09:34:00.139</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="84A938BF-F78D-A1EE-928F-2E34CD360F6F">
+			<DocumentID>84A938BF-F78D-A1EE-928F-2E34CD35CF6F</DocumentID>
+			<Name>CreateOBLNonCompliance</Name>
+			<Description>Create OBLNonCompliance</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-09-03T09:34:00.139</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="84A938BF-F78D-A1EE-928D-E1FCEEEFCF6F"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="84A938BF-F78D-A1EE-928F-2E34CD348F6F">
+			<DocumentID>84A938BF-F78D-A1EE-928F-2E34CD344F6F</DocumentID>
+			<Name>DeleteOBLNonCompliance</Name>
+			<Description>Delete OBLNonCompliance</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-09-03T09:34:00.139</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="84A938BF-F78D-A1EE-928D-E1FCEEEFCF6F"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="84A938BF-F78D-A1EE-928D-E1FCEEEFCF6F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="84A938BF-F78D-A1EE-928F-2E34CD358F6F">
+			<DocumentID>84A938BF-F78D-A1EE-928F-2E34CD354F6F</DocumentID>
+			<Name>ReadOBLNonCompliance</Name>
+			<Description>Read OBLNonCompliance</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-09-03T09:34:00.139</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="84A938BF-F78D-A1EE-928D-E1FCEEEFCF6F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="84A938BF-F78D-A1EE-928F-2E34CD350F6F">
+			<DocumentID>84A938BF-F78D-A1EE-928F-2E34CD34CF6F</DocumentID>
+			<Name>UpdateOBLNonCompliance</Name>
+			<Description>Update OBLNonCompliance</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-09-03T09:34:00.139</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="84A938BF-F78D-A1EE-928D-E1FCEEEFCF6F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

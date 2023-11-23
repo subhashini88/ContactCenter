@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-8F66-ABD8ECC664C7">
+	<DocumentID>ECF4BB61-42B2-A1E8-8F66-ABD8ECC624C7</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-8F66-ABD8ECC624C7</Name>
+	<Description>SetTerminationNoticePeriodDateRule</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-11T15:12:02.688</CreationDate>
+	<Notes/>
+	<DefaultText>SetTerminationNoticePeriodDateRule</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="ECF4BB61-42B2-A1E8-8F66-ABD8ECC6A4C7"
+		/>
+	</Translations>
+</TextIdentifier>

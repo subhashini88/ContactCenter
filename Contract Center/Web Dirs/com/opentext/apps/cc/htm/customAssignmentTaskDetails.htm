@@ -1,0 +1,331 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	<style>
+	h3{
+	    white-space: pre-wrap;
+		color: rgb(85, 85, 85);
+		font-weight: bold;
+		font-size: 24px;
+		text-decoration: none solid rgb(85, 85, 85);
+		font-style: normal;
+		font-family: Lato, Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+		text-align: left;
+		background-color: rgba(0, 0, 0, 0);
+		padding-left:15px;
+	}
+	label{
+		color: #757575;
+	}
+	p{
+		color: #666;
+	}
+	
+	.form-group{
+		padding-left:30px;
+		margin-bottom:0px;
+	}
+	.action_btn {
+	    width: 102px;
+		height: 28px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		text-align: center;
+		color: #000;
+		font-weight: 400;
+		cursor: pointer;
+		display: inline-block;
+	}
+
+	.action_btn {
+	  background-color: transparent;
+	  border: 1px solid #232e72;
+	  border-radius: 1em;
+	  -webkit-transition: all .15s ease-in-out;
+	  transition: all .15s ease-in-out;
+	  color: #232e72;
+	}
+	.action_btn:hover {
+		border: 1px solid #171f4c;
+		box-shadow: inset 0 0 0 1px #171f4c;
+	}
+	</style>
+	
+	<script>
+	$.cordys.json.defaults.removeNamespacePrefix = true;
+	
+	var l_taskId = getUrlParameterValue("taskId", window.parent.location.search, true);
+	var l_activityInstanceItemId = EntityTypes["ActivityInstances"].Definition_ID+"."+l_taskId.split(".")[1];
+	var l_contractItemId = getUrlParameterValue("ctrItem", window.parent.location.search, true);
+	var cc_custom_task_services = (function () {
+    var self = {};
+    self.getContractDetails = function (request, responseCallback) {
+        $.cordys.ajax({
+            method: "GetContractDetailsById",
+            namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+            parameters: request,
+            success: function (responseSuccess) {
+                responseCallback(responseSuccess);
+            },
+            error: function (responseFailure) {
+                responseCallback(responseFailure, "ERROR");
+                return false;
+            }
+        });
+    };
+	
+    self.getLifecycleTask = function (request, responseCallback) {
+        $.cordys.ajax({
+            method: "GetActivityInstanceTaskDetailsByID",
+            namespace: "http://schemas.opentext.com/apps/cc/configworkflow/20.2",
+            parameters: request,
+            success: function (responseSuccess) {
+                responseCallback(responseSuccess);
+            },
+            error: function (responseFailure) {
+                responseCallback(responseFailure, "ERROR");
+                return false;
+            }
+        });
+    };
+	
+	self.updateTaskComments = function (request) {
+        $.cordys.ajax({
+            method: "UpdateLifecycleTask",
+            namespace: "http://schemas/OpenTextCCConfigurableWorkflow/GCActivityInstances.LifecycleTask/operations",
+            parameters: request,
+            success: function (responseSuccess) {
+            },
+            error: function (responseFailure) {
+                return false;
+            }
+        });
+    };
+	
+    return self;
+	})();
+	function customAssignmentViewModel() {
+		var self = this;
+
+
+		self.contractName = ko.observable('');
+		self.contractStatus = ko.observable('');
+		self.contractType = ko.observable('');
+
+		self.taskSubject = ko.observable('');
+		self.taskStatus = ko.observable('');
+
+		self.taskStartDate = ko.observable('');
+		self.taskDueDate = ko.observable('');
+
+		self.taskAssignmentType = ko.observable('');
+		self.taskAssignedTo = ko.observable('');
+		self.taskOwner = ko.observable('');
+
+		self.comments = ko.observable();
+
+
+		
+		self.openContractLink = function() {
+			var l_ItemId =l_contractItemId;
+			var l_Id = l_contractItemId.split(".")[1];
+			navigateToInstance(l_ItemId,"Contract",{"layoutID":'F8B156D635F3A1E89CB08DDB9883E4C8', "clearBreadcrumb":false,"breadcrumbName" : ''})
+		}
+			
+		
+		self.readContract = function (params) {
+			cc_custom_task_services.getContractDetails(params, function (response_data, status) {
+				if (status !== "ERROR") {
+					if (response_data && response_data.Contract){
+						_populateContractData(response_data);
+						
+					}
+				}
+			});
+		};
+		
+		self.readLifecycleTask = function (params) {
+			cc_custom_task_services.getLifecycleTask(params, function (response_data, status) {
+				if (status !== "ERROR") {
+					if (response_data && response_data.LifecycleTask) {
+						_populateLifecycleTaskData(response_data);
+					}
+				}
+			});
+		};
+		
+		function _populateContractData(response_data) {
+			self.contractName(_getTextValue(response_data.Contract.ContractName));
+			self.contractStatus(_getTextValue(response_data.Contract.Lifecycle.CurrentState));
+			self.contractType(_getTextValue(response_data.Contract.ContractType.Name));
+		}
+		
+		function _populateLifecycleTaskData(response_data) {
+			self.taskSubject(_getTextValue(response_data.LifecycleTask.ParentEntity.Name));
+			self.taskStatus(_getTextValue(response_data.LifecycleTask.ParentEntity.Lifecycle.CurrentState));
+			self.taskAssignmentType(_getTextValue(response_data.LifecycleTask.ParentEntity.AssignmentType));
+			
+			if(_getTextValue(response_data.LifecycleTask.ParentEntity.AssignmentType)=="INDIVIDUAL" && _getTextValue(response_data.LifecycleTask.ParentEntity.AssignedToUser)){
+				self.taskAssignedTo(_getTextValue(response_data.LifecycleTask.ParentEntity.AssignedToUser.Name));
+			}else if(_getTextValue(response_data.LifecycleTask.ParentEntity.AssignmentType)=="ROLE" && _getTextValue(response_data.LifecycleTask.ParentEntity.AssignedToRole)){
+				self.taskAssignedTo(_getTextValue(response_data.LifecycleTask.ParentEntity.AssignedToRole.Name));
+			}else if(_getTextValue(response_data.LifecycleTask.ParentEntity.AssignmentType)=="GROUP" && _getTextValue(response_data.LifecycleTask.ParentEntity.AssignedToGroup)){
+				self.taskAssignedTo(_getTextValue(response_data.LifecycleTask.ParentEntity.AssignedToGroup.Name));
+			}
+			
+			var start_Date=response_data.LifecycleTask.ToInboxTask.Task.StartDate["@nil"]!='true'?(response_data.LifecycleTask.ToInboxTask.Task.StartDate.split('T')[0]):'';
+			const start_Time = response_data.LifecycleTask.ToInboxTask.Task.StartDate?(new Date(response_data.LifecycleTask.ToInboxTask.Task.StartDate)
+			  .toLocaleTimeString('en-US',
+				{hour12:true,hour:'numeric',minute:'numeric'}
+			  )):'';
+			self.taskStartDate(response_data.LifecycleTask.ToInboxTask.Task.StartDate? (formateDatetoLocale(start_Date)+', '+start_Time): '');
+			var due_Date= response_data.LifecycleTask.ToInboxTask.Task.DueDate["@nil"]!='true'? (response_data.LifecycleTask.ToInboxTask.Task.DueDate.split('T')[0]):'';
+			const due_Time = response_data.LifecycleTask.ToInboxTask.Task.DueDate["@nil"]!='true'?(new Date(response_data.LifecycleTask.ToInboxTask.Task.DueDate).toLocaleTimeString('en-US',
+				{hour12:true,hour:'numeric',minute:'numeric'}
+			  )):'';
+			self.taskDueDate(response_data.LifecycleTask.ToInboxTask.Task.DueDate["@nil"]!='true' ? (formateDatetoLocale(due_Date)+', '+due_Time) : '');
+			
+			self.taskOwner(_getTextValue(response_data.LifecycleTask.ToInboxTask.Task.TaskOwnerName));
+			self.comments(_getTextValue(response_data.LifecycleTask.Comments)["@nil"]!='true'?_getTextValue(response_data.LifecycleTask.Comments):'');
+		}
+
+		(function init() {
+			self.readContract({ 
+				"contractID": l_contractItemId.split('.')[1]
+				
+			});
+			self.readLifecycleTask({
+				'LifecyceTaskItemId': l_taskId
+			});
+		})();
+}
+
+var l_customAssignmentViewModel = new customAssignmentViewModel();
+function _getTextValue(obj) {
+    return obj && obj.text ? obj.text : obj;
+}
+
+function getTextAfter(iText, imatchString) {
+	if (iText && imatchString) {
+		return iText.substring(iText.indexOf(imatchString) + 1);
+	}
+	else {
+		return iText;
+	}
+}
+function updateComments(){
+	cc_custom_task_services.updateTaskComments({"LifecycleTask-id": { "ItemId1" : l_taskId },"LifecycleTask-update":{ "Comments" : l_customAssignmentViewModel.comments }});
+}
+		
+
+
+$(document).ready(function () {
+	var i_locale = getlocale();
+    var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+    translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale);
+    loadRTLIfRequired(i_locale, rtl_css);
+    if (window.parent.parent) {
+        obligationsTaskFrame = $('[src*="customAssignmentTaskDetails.htm"]', window.parent.document);
+        if (obligationsTaskFrame) {
+            obligationsTaskFrame.css('border', 'none');
+        }
+    }
+   ko.applyBindings(l_customAssignmentViewModel);
+});
+	</script>
+	
+</head>
+
+<body class="cc-ltr">
+    <div id="customtask_container" class="col-md-12 no-padding">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <h3 data-translatable="true" class="rtl-float-right">Contract details</h3>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width: 100%;">Contract name</label>
+				<p class="form-control-static cc-form-value cc-form-value-long rtl-float-right" data-bind="text:contractName" style="float: left;"></p>
+				 <div title="Click to open contract" class="action_btn rtl-float-left" style="cursor: pointer;float: right;" data-bind="click:openContractLink">Open</div>
+				 
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                <label class="" data-translatable="true">Status</label>
+                <div>
+					<p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:contractStatus"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width: 100%;">Contract type</label>
+                <p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:contractType"></p>
+            </div>
+        </div>
+		<div class="col-md-12 col-sm-12 col-xs-12">
+            <h3 data-translatable="true" class="rtl-float-right">Task details</h3>
+        </div>
+		<div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width: 100%;">Subject</label>
+				<p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:taskSubject"></p>
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                <label class="" data-translatable="true">Status</label>
+                <div>
+					<p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:taskStatus"></p>
+                </div>
+            </div>
+        </div>
+		<div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width: 100%;">Start Date</label>
+				<p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:taskStartDate"></p>
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                <label class="" data-translatable="true">Due Date</label>
+                <div>
+					<p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:taskDueDate"></p>
+                </div>
+            </div>
+        </div>
+		<div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width: 100%;">Assignment type</label>
+				<p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:taskAssignmentType"></p>
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                <label class="" data-translatable="true">Assigned to</label>
+                <div>
+					<p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:taskAssignedTo"></p>
+                </div>
+            </div>
+        </div>
+		<div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width: 100%;">Owner</label>
+				<p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:taskOwner"></p>
+            </div>
+            
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12  no-padding">
+			<div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width: 100%;">Comments</label>
+				<textarea class="apps-contentDiv task-field" data-bind="value:comments" id="id_comments" style="height:112px; resize: none;border: 1px #757575 solid;" onfocusout="updateComments()"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

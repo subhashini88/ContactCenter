@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-9CA6-1E9299A3A89B">
+	<DocumentID>B4B676CD-53D8-A1E7-9CA6-1E9299A3689B</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-9CA6-1E9299A3689B</Name>
+	<Description>GetClsTemAccessibleSubtypes</Description>
+	<CreatedBy>don</CreatedBy>
+	<CreationDate>2017-07-27T07:00:27.475</CreationDate>
+	<Notes/>
+	<DefaultText>GetClsTemAccessibleSubtypes</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E7-9CA6-1E9299A3E89B"
+		/>
+	</Translations>
+</TextIdentifier>

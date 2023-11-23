@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-9ED9-F91796B4E42C">
+	<DocumentID>3417EB96-8F1F-A1E7-9ED9-F91796B4A42C</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-9ED9-F91796B4A42C</Name>
+	<Description>Check box_1</Description>
+	<CreatedBy>Naresh Pagadapu</CreatedBy>
+	<CreationDate>2017-08-07T12:05:34.308</CreationDate>
+	<Notes/>
+	<DefaultText>Check box_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E7-9ED9-F91796B5242C"
+		/>
+	</Translations>
+</TextIdentifier>

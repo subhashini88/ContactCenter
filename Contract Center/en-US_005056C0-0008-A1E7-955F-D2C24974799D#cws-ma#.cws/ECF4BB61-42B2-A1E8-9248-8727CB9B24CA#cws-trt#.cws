@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-9248-8727CB9B64CA">
+	<DocumentID>ECF4BB61-42B2-A1E8-9248-8727CB9B24CA</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-9248-8727CB9B24CA</Name>
+	<Description>Is Contract In Termination notifice period Term ?</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-26T08:19:47.49</CreationDate>
+	<Notes/>
+	<Text>Is Contract In Termination notifice period Term ?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-9248-8727CB9AA4CA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

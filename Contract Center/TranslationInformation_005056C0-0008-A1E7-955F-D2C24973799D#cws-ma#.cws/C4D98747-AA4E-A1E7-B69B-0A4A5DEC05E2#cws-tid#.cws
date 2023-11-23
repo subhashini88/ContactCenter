@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B69B-0A4A5DEC45E2">
+	<DocumentID>C4D98747-AA4E-A1E7-B69B-0A4A5DEC05E2</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B69B-0A4A5DEC05E2</Name>
+	<Description>Z_INT_UpdateContractDates</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-12-06T10:01:24.682</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_UpdateContractDates</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B69B-0A4A5DEC85E2"
+		/>
+	</Translations>
+</TextIdentifier>

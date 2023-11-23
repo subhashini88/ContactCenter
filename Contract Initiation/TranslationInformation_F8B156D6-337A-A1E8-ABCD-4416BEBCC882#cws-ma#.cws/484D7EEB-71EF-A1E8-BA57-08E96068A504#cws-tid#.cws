@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-BA57-08E96068E504">
+	<DocumentID>484D7EEB-71EF-A1E8-BA57-08E96068A504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-BA57-08E96068A504</Name>
+	<Description>Redraft_4</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-16T08:14:46.211</CreationDate>
+	<Notes/>
+	<DefaultText>Redraft_4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E8-BA57-08E960692504"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A386-3B22831E3156">
+	<DocumentID>C4D98747-AA4E-A1E7-A386-3B22831DF156</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A386-3B22831DF156</Name>
+	<Description>Price protection_1</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-08-31T08:55:53.813</CreationDate>
+	<Notes/>
+	<DefaultText>Price protection_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A386-3B22831E7156"
+		/>
+	</Translations>
+</TextIdentifier>

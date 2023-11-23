@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-B572-C8D67AAFFA9F">
+	<DocumentID>98FA9B81-5041-A1EC-B572-C8D67AAFBA9F</DocumentID>
+	<Name>98FA9B81-5041-A1EC-B572-C8D67AAFBA9F</Name>
+	<Description>Party name</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-05-17T10:24:03.233</CreationDate>
+	<Notes/>
+	<DefaultText>Party name</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EC-B572-C8D67AB03A9F"
+		/>
+	</Translations>
+</TextIdentifier>

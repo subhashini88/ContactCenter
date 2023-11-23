@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B855-2446671924B8">
+	<DocumentID>484D7EE5-DBB0-A1E7-B855-24466718E4B8</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B855-24466718E4B8</Name>
+	<Description>Edit canc details</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-15T05:00:50.927</CreationDate>
+	<Notes/>
+	<Text>Edit canc details</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B855-2446671864B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

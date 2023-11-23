@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-93E0-8B0DB165B14F">
+	<DocumentID>F8E4E399-CF40-A1ED-93E0-8B0DB165714F</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-93E0-8B0DB165714F</Name>
+	<Description>Amendment Types</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-10-19T07:47:17.759</CreationDate>
+	<Notes/>
+	<Text>Amendment Types</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-93E0-8B0DB164F14F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

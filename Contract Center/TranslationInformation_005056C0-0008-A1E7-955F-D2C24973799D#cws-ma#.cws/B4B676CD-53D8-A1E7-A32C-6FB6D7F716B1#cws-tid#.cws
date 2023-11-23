@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A32C-6FB6D7F756B1">
+	<DocumentID>B4B676CD-53D8-A1E7-A32C-6FB6D7F716B1</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A32C-6FB6D7F716B1</Name>
+	<Description>Amendment sequence</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-29T12:36:15.822</CreationDate>
+	<Notes/>
+	<DefaultText>Amendment sequence</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32C-6FB6D7F796B1"
+		/>
+	</Translations>
+</TextIdentifier>

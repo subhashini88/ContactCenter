@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B0FD-C82FBC0AE658">
+	<DocumentID>8C1645B9-0967-A1E9-B0FD-C82FBC0AA658</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B0FD-C82FBC0AA658</Name>
+	<Description>For Each External contact.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-21T09:40:40.415</CreationDate>
+	<Notes/>
+	<Text>For Each External contact.</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-B0FD-C82FBC0A2658"
+		/>
+	</TextIdentifier>
+</TranslatedText>

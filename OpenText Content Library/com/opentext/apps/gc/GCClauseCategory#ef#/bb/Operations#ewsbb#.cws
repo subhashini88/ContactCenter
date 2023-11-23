@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-B24E-479FD4077033">
+	<DocumentID>F8B156BC-2CB7-A1E8-B24E-479FD4073033</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-10-06T07:27:40.204</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-B24E-479FD406B033">
+			<DocumentID>F8B156BC-2CB7-A1E8-B24E-479FD4067033</DocumentID>
+			<Name>CreateGCClauseCategory</Name>
+			<Description>Create GCClauseCategory</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-10-06T07:27:40.206</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-AC40-36F7F6F27031"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-B24E-479FD4053033">
+			<DocumentID>F8B156BC-2CB7-A1E8-B24E-479FD404F033</DocumentID>
+			<Name>DeleteGCClauseCategory</Name>
+			<Description>Delete GCClauseCategory</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-10-06T07:27:40.206</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-AC40-36F7F6F27031"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC40-36F7F6F27031"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-B24E-479FD4063033">
+			<DocumentID>F8B156BC-2CB7-A1E8-B24E-479FD405F033</DocumentID>
+			<Name>ReadGCClauseCategory</Name>
+			<Description>Read GCClauseCategory</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-10-06T07:27:40.206</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-AC40-36F7F6F27031"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-B24E-479FD405B033">
+			<DocumentID>F8B156BC-2CB7-A1E8-B24E-479FD4057033</DocumentID>
+			<Name>UpdateGCClauseCategory</Name>
+			<Description>Update GCClauseCategory</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-10-06T07:27:40.206</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-AC40-36F7F6F27031"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

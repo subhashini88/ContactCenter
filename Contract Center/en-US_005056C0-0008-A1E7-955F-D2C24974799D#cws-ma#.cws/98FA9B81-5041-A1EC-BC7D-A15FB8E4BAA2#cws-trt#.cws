@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BC7D-A15FB8E4FAA2">
+	<DocumentID>98FA9B81-5041-A1EC-BC7D-A15FB8E4BAA2</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BC7D-A15FB8E4BAA2</Name>
+	<Description>UpdateConcatINTParties</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-22T06:45:54.125</CreationDate>
+	<Notes/>
+	<Text>UpdateConcatINTParties</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-BC7D-A15FB8E43AA2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

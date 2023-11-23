@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-9F3E-A4C2AC33EFE2">
+	<DocumentID>F8B156BC-2CB7-A1E7-9F3E-A4C2AC33AFE2</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-9F3E-A4C2AC33AFE2</Name>
+	<Description>Clause test</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-08-09T14:57:49.877</CreationDate>
+	<Notes/>
+	<Text>Clause test</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-9F3E-A4C2AC332FE2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

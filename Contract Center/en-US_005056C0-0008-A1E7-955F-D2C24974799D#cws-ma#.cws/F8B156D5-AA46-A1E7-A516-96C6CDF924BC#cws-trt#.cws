@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A516-96C6CDF964BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A516-96C6CDF924BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A516-96C6CDF924BC</Name>
+	<Description>Active distribution list</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-08T06:01:18.489</CreationDate>
+	<Notes/>
+	<Text>Active distribution list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A516-96C6CDF8A4BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

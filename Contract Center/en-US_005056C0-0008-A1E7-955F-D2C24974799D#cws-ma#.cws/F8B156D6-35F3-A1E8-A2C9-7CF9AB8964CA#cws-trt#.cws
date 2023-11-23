@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A2C9-7CF9AB89A4CA">
+	<DocumentID>F8B156D6-35F3-A1E8-A2C9-7CF9AB8964CA</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A2C9-7CF9AB8964CA</Name>
+	<Description>GenericActivateContract</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-19T07:33:03.31</CreationDate>
+	<Notes/>
+	<Text>GenericActivateContract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A2C9-7CF9AB88E4CA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

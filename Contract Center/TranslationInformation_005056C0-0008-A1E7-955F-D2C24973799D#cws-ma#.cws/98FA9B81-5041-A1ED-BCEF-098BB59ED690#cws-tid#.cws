@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1ED-BCEE-BA8B153DD690">
+	<DocumentID>98FA9B81-5041-A1ED-BCEF-098BB59ED690</DocumentID>
+	<Name>98FA9B81-5041-A1ED-BCEF-098BB59ED690</Name>
+	<Description>no_38</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-05-16T07:36:20.768</CreationDate>
+	<Notes/>
+	<DefaultText>no_38</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1ED-BCEE-BA8B153E1690"
+		/>
+	</Translations>
+</TextIdentifier>

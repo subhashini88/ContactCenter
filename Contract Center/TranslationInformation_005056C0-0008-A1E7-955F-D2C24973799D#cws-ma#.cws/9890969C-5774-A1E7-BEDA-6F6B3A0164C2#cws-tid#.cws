@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E7-BEDA-6F6B3A01A4C2">
+	<DocumentID>9890969C-5774-A1E7-BEDA-6F6B3A0164C2</DocumentID>
+	<Name>9890969C-5774-A1E7-BEDA-6F6B3A0164C2</Name>
+	<Description>Total contract value (USD)</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-01-17T09:35:48.181</CreationDate>
+	<Notes/>
+	<DefaultText>Total contract value (USD)</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E7-BEDA-6F6B3A01E4C2"
+		/>
+	</Translations>
+</TextIdentifier>

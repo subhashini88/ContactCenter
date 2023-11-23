@@ -1,0 +1,19 @@
+
+<ActionBarBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.actionbar.ActionBarBuildingBlock"
+	typeVersion="E8F8103A-0B04-4840-96BE-A1D289089D9C"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-ABC7-396573D8AC50">
+	<DocumentID>18DBF20F-3D64-A1E7-ABC7-396573D86C50</DocumentID>
+	<Name>ActionBars</Name>
+	<Description>ActionBars</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-10-12T07:21:08.514</CreationDate>
+	<Notes/>
+	<ActionBars/>
+	<Entity>
+		<uri
+			id="18DBF20F-3D64-A1E7-AB35-401AF75FAC50"
+		/>
+	</Entity>
+</ActionBarBuildingBlock>

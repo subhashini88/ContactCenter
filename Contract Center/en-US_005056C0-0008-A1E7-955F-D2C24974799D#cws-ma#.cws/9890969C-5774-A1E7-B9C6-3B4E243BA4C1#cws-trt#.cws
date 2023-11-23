@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B9C6-3B4E243BE4C1">
+	<DocumentID>9890969C-5774-A1E7-B9C6-3B4E243BA4C1</DocumentID>
+	<Name>9890969C-5774-A1E7-B9C6-3B4E243BA4C1</Name>
+	<Description>Status / Outcome</Description>
+	<CreatedBy>Yasoraama</CreatedBy>
+	<CreationDate>2017-12-22T13:16:50.188</CreationDate>
+	<Notes/>
+	<Text>Status / Outcome</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B9C6-3B4E243B24C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-85EE-461ACE67E4BB">
+	<DocumentID>F8B156D6-35F3-A1E8-85EE-461ACE67A4BB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-85EE-461ACE67A4BB</Name>
+	<Description>MyContractsNEW</Description>
+	<CreatedBy>Yogesh Chaube</CreatedBy>
+	<CreationDate>2018-02-22T10:14:47.233</CreationDate>
+	<Notes/>
+	<DefaultText>MyContractsNEW</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-85EE-461ACE6824BB"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-88B7-251138A0250F">
+	<DocumentID>484D7EEB-71EF-A1E9-88B7-2511389FE50F</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-88B7-2511389FE50F</Name>
+	<Description>On notification date for expiry</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-28T09:12:48.42</CreationDate>
+	<Notes/>
+	<DefaultText>On notification date for expiry</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-88B7-251138A0650F"
+		/>
+	</Translations>
+</TextIdentifier>

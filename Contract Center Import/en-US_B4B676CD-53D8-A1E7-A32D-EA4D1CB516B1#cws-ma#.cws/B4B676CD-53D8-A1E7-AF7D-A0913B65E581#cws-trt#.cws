@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-AF7D-A0913B662581">
+	<DocumentID>B4B676CD-53D8-A1E7-AF7D-A0913B65E581</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-AF7D-A0913B65E581</Name>
+	<Description>ContractLineJobIdFilter</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-10-31T04:46:53.093</CreationDate>
+	<Notes/>
+	<Text>ContractLineJobIdFilter</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-AF7D-A0913B656581"
+		/>
+	</TextIdentifier>
+</TranslatedText>

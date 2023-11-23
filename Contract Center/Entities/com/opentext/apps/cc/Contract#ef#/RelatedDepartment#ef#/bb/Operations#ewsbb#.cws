@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-148D95192B1E">
+	<DocumentID>50EB711A-AD5A-A1EB-9C44-148D9518EB1E</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-17T11:55:06.597</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="50EB711A-AD5A-A1EB-9C3A-CB2A34EF2B1E"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-148D95186B1E">
+			<DocumentID>50EB711A-AD5A-A1EB-9C44-148D95182B1E</DocumentID>
+			<Name>ReadRelatedDepartment</Name>
+			<Description>Read RelatedDepartment</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-17T11:55:06.597</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-9C3A-CB2A34EF2B1E"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-148D9517EB1E">
+			<DocumentID>50EB711A-AD5A-A1EB-9C44-148D9517AB1E</DocumentID>
+			<Name>UpdateRelatedDepartment</Name>
+			<Description>Update RelatedDepartment</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-17T11:55:06.597</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-9C3A-CB2A34EF2B1E"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-ADE2-3658E6E6A655">
+	<DocumentID>8C1645B9-0967-A1E9-ADE2-3658E6E66655</DocumentID>
+	<Name>8C1645B9-0967-A1E9-ADE2-3658E6E66655</Name>
+	<Description>Moved across sections.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-05T14:00:29.475</CreationDate>
+	<Notes/>
+	<DefaultText>Moved across sections.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-ADE2-3658E6E6E655"
+		/>
+	</Translations>
+</TextIdentifier>

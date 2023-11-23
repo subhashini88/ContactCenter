@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-B05E-6B314C1924D8">
+	<DocumentID>9890969C-5774-A1E8-B05E-6B314C18E4D8</DocumentID>
+	<Name>9890969C-5774-A1E8-B05E-6B314C18E4D8</Name>
+	<Description>DraftToNegotiation_Contract</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-09-26T10:58:32.518</CreationDate>
+	<Notes/>
+	<Text>DraftToNegotiation_Contract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-B05E-6B314C1864D8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

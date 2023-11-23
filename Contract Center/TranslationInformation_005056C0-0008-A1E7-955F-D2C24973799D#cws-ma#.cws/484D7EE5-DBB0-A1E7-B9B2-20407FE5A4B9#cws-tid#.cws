@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B9B2-20407FE5E4B9">
+	<DocumentID>484D7EE5-DBB0-A1E7-B9B2-20407FE5A4B9</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B9B2-20407FE5A4B9</Name>
+	<Description>Top Revenue Generating Contracts_1</Description>
+	<CreatedBy>CC Contract Admin</CreatedBy>
+	<CreationDate>2017-12-22T05:30:28.958</CreationDate>
+	<Notes/>
+	<DefaultText>Top Revenue Generating Contracts_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B9B2-20407FE624B9"
+		/>
+	</Translations>
+</TextIdentifier>

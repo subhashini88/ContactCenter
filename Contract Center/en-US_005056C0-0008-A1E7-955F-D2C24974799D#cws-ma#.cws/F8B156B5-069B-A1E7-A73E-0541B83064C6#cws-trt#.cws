@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A73E-0541B830A4C6">
+	<DocumentID>F8B156B5-069B-A1E7-A73E-0541B83064C6</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A73E-0541B83064C6</Name>
+	<Description>First party contact</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-19T05:06:46.869</CreationDate>
+	<Notes/>
+	<Text>First party contact</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A73E-0541B82FE4C6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

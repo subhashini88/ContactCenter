@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-B2B1-5A72CE3107C1">
+	<DocumentID>3417EB96-8F1F-A1E7-B2B1-5A72CE30C7C1</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-B2B1-5A72CE30C7C1</Name>
+	<Description>Maint. fee adj. during current term</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2017-11-16T12:15:57.775</CreationDate>
+	<Notes/>
+	<Text>Maint. fee adj. during current term</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-B2B1-E69D672F87C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

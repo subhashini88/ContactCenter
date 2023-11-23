@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1ED-8BDA-4D571CCB8466">
+	<DocumentID>FC7774E8-DA63-A1ED-8BDA-4D571CCB4466</DocumentID>
+	<Name>FC7774E8-DA63-A1ED-8BDA-4D571CCB4466</Name>
+	<Description>Duplicate error</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-08T11:30:03.605</CreationDate>
+	<Notes/>
+	<Text>Duplicate error</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1ED-8BDA-4D571CCAC466"
+		/>
+	</TextIdentifier>
+</TranslatedText>

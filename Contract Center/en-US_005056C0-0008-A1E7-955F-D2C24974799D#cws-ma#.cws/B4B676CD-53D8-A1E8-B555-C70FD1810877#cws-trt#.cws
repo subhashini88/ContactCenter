@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B555-C70FD1814877">
+	<DocumentID>B4B676CD-53D8-A1E8-B555-C70FD1810877</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B555-C70FD1810877</Name>
+	<Description>GenericPreExecuteContract</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2018-10-21T17:31:18.779</CreationDate>
+	<Notes/>
+	<Text>GenericPreExecuteContract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-B555-C70FD1808877"
+		/>
+	</TextIdentifier>
+</TranslatedText>

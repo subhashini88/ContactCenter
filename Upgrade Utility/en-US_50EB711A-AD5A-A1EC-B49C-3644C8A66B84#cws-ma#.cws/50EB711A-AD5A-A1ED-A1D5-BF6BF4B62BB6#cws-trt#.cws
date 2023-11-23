@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-A1D5-BF6BF4B66BB6">
+	<DocumentID>50EB711A-AD5A-A1ED-A1D5-BF6BF4B62BB6</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-A1D5-BF6BF4B62BB6</Name>
+	<Description>UpdateCTRAttrValues</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-29T09:00:18.586</CreationDate>
+	<Notes/>
+	<Text>UpdateCTRAttrValues</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1ED-A1D5-BF6BF4B5ABB6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

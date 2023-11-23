@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8143-E77BE61FEBE7">
+	<DocumentID>50EB711A-AD5A-A1EE-8143-E77BE61FABE7</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8143-E77BE61FABE7</Name>
+	<Description>getAllInAppReportTiles</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-07T08:48:02.116</CreationDate>
+	<Notes/>
+	<Text>getAllInAppReportTiles</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-8143-E77BE61F2BE7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

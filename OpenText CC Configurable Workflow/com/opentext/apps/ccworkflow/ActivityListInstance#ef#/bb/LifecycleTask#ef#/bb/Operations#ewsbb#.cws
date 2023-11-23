@@ -1,0 +1,79 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A9FB-A63BC2FD3079">
+	<DocumentID>F8B156BC-2CB7-A1EA-A9FB-A63BC2FCF079</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-06-06T12:11:45.523</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A6CA-5BF8C1AD7077"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-A9FB-A63BC2FC7079">
+			<DocumentID>F8B156BC-2CB7-A1EA-A9FB-A63BC2FC3079</DocumentID>
+			<Name>ReadLifecycleTask</Name>
+			<Description>Read LifecycleTask</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-06-06T12:11:45.525</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1EA-A6CA-5BF8C1AD7077"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-A9FB-A63BC2FB7079">
+			<DocumentID>F8B156BC-2CB7-A1EA-A9FB-A63BC2FB3079</DocumentID>
+			<Name>GetParentParentEntity</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-06-06T12:11:45.543</CreationDate>
+			<Notes/>
+			<OperationType>GetParent</OperationType>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1EA-A6CA-5BF8C1AD7077"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="F8B156BC-2CB7-A1EA-A6CA-5BF8C263F077"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-A9FB-A63BC2FBF079">
+			<DocumentID>F8B156BC-2CB7-A1EA-A9FB-A63BC2FBB079</DocumentID>
+			<Name>UpdateLifecycleTask</Name>
+			<Description>Update LifecycleTask</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-06-06T12:11:45.489</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1EA-A6CA-5BF8C1AD7077"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

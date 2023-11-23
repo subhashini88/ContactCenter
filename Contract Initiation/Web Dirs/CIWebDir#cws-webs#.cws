@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-BD6F-507C2ED3309F">
+	<DocumentID>F8B156BC-2CB7-A1EB-BD6F-507C2ED2F09F</DocumentID>
+	<Name>CIWebDir</Name>
+	<Description>CIWebDir</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2021-08-05T07:30:51.219</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCE-9C8DCF094882"
+			path="Contract Initiation/Web Dirs"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="04ED339D-4D0A-A1ED-9C68-057C282DBADB">
+	<DocumentID>04ED339D-4D0A-A1ED-9C68-057C282D7ADB</DocumentID>
+	<Name>04ED339D-4D0A-A1ED-9C68-057C282D7ADB</Name>
+	<Description>getContractLineswithFilters</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-12-01T17:47:50.181</CreationDate>
+	<Notes/>
+	<Text>getContractLineswithFilters</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="04ED339D-4D0A-A1ED-9C68-057C282CFADB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

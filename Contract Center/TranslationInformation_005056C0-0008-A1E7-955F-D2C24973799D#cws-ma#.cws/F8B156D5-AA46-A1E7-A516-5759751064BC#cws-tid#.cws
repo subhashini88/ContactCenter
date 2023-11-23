@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A516-57597510A4BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A516-5759751064BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A516-5759751064BC</Name>
+	<Description>Active currency list</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-08T05:52:37.685</CreationDate>
+	<Notes/>
+	<DefaultText>Active currency list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-A516-57597510E4BC"
+		/>
+	</Translations>
+</TextIdentifier>

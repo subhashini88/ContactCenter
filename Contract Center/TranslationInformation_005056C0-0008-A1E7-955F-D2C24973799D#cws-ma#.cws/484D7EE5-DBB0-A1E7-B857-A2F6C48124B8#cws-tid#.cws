@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B857-A2F6C48164B8">
+	<DocumentID>484D7EE5-DBB0-A1E7-B857-A2F6C48124B8</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B857-A2F6C48124B8</Name>
+	<Description>tempContractNumber</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-15T06:10:38.623</CreationDate>
+	<Notes/>
+	<DefaultText>tempContractNumber</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B857-A2F6C481A4B8"
+		/>
+	</Translations>
+</TextIdentifier>

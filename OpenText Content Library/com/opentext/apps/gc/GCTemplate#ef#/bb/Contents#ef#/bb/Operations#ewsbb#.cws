@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-8D99-2C19B8D46518">
+	<DocumentID>484D7EEB-7112-A1E9-8D99-2C19B8D42518</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>cn=dsrivard@Appworks partition,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-02-22T06:23:11.895</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="484D7EEB-7112-A1E9-8D01-1E255FBEA518"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-8D99-2C19B8D3A518">
+			<DocumentID>484D7EEB-7112-A1E9-8D99-2C19B8D36518</DocumentID>
+			<Name>ReadContents</Name>
+			<Description>Read Contents</Description>
+			<CreatedBy>cn=dsrivard@Appworks partition,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+			<CreationDate>2019-02-22T06:23:11.895</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-8D01-1E255FBEA518"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-8D99-2C19B8D32518">
+			<DocumentID>484D7EEB-7112-A1E9-8D99-2C19B8D2E518</DocumentID>
+			<Name>UpdateContents</Name>
+			<Description>Update Contents</Description>
+			<CreatedBy>cn=dsrivard@Appworks partition,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+			<CreationDate>2019-02-22T06:23:11.893</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-8D01-1E255FBEA518"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

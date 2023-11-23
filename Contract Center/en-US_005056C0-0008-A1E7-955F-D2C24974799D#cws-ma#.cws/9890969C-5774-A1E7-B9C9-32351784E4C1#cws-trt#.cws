@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B9C9-3235178524C1">
+	<DocumentID>9890969C-5774-A1E7-B9C9-32351784E4C1</DocumentID>
+	<Name>9890969C-5774-A1E7-B9C9-32351784E4C1</Name>
+	<Description>Invalidate</Description>
+	<CreatedBy>Yasoraama</CreatedBy>
+	<CreationDate>2017-12-22T14:47:41.682</CreationDate>
+	<Notes/>
+	<Text>Invalidate</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B9C9-3235178464C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

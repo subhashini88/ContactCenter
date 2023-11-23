@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A059-DA4C7C2E6B27">
+	<DocumentID>98FA9BD4-E468-A1EB-A059-DA4C7C2E2B27</DocumentID>
+	<Name>98FA9BD4-E468-A1EB-A059-DA4C7C2E2B27</Name>
+	<Description>Deletecontactdepartments</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-10T06:19:38.769</CreationDate>
+	<Notes/>
+	<Text>Deletecontactdepartments</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1EB-A059-DA4C7C2DAB27"
+		/>
+	</TextIdentifier>
+</TranslatedText>

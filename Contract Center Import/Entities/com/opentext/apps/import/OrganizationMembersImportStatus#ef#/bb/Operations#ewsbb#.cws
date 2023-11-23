@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-B61A-F6E6612B6DC1">
+	<DocumentID>1866DA2F-4C9E-A1EA-B61A-F6E6612B2DC1</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-07T15:55:00.53</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="1866DA2F-4C9E-A1EA-B61A-F6E6612AADC1">
+			<DocumentID>1866DA2F-4C9E-A1EA-B61A-F6E6612A6DC1</DocumentID>
+			<Name>CreateOrganizationMembersImportStatus</Name>
+			<Description>Create OrganizationMembersImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-08-07T15:55:00.527</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="1866DA2F-4C9E-A1EA-B4C1-35D276F2EDC1"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="1866DA2F-4C9E-A1EA-B61A-F6E661292DC1">
+			<DocumentID>1866DA2F-4C9E-A1EA-B61A-F6E66128EDC1</DocumentID>
+			<Name>DeleteOrganizationMembersImportStatus</Name>
+			<Description>Delete OrganizationMembersImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-08-07T15:55:00.524</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="1866DA2F-4C9E-A1EA-B4C1-35D276F2EDC1"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="1866DA2F-4C9E-A1EA-B4C1-35D276F2EDC1"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="1866DA2F-4C9E-A1EA-B61A-F6E6612A2DC1">
+			<DocumentID>1866DA2F-4C9E-A1EA-B61A-F6E66129EDC1</DocumentID>
+			<Name>ReadOrganizationMembersImportStatus</Name>
+			<Description>Read OrganizationMembersImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-08-07T15:55:00.525</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="1866DA2F-4C9E-A1EA-B4C1-35D276F2EDC1"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="1866DA2F-4C9E-A1EA-B61A-F6E66129ADC1">
+			<DocumentID>1866DA2F-4C9E-A1EA-B61A-F6E661296DC1</DocumentID>
+			<Name>UpdateOrganizationMembersImportStatus</Name>
+			<Description>Update OrganizationMembersImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-08-07T15:55:00.526</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="1866DA2F-4C9E-A1EA-B4C1-35D276F2EDC1"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

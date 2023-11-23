@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+	</link>
+	<link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+	</link>
+	<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+	<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	<script src="../js/complete_obligationTask.js" type="text/javascript"></script>
+	
+	<style>
+		.comments-frame-area {
+			height: 100vh;
+			padding: 0;
+			border-left: 1px solid #efefef;
+		}
+
+		.comments-frame {
+			height: 99%;
+			width: 100%;
+			border: 0;
+		}
+		.close-button {
+		float: right;
+		border: none;
+		background-color: transparent;
+	}
+	</style>
+</head>
+
+<body class="cc-ltr">
+	<div id="div_nonCompModal" class="modal fade" role="dialog">
+		<div class="modal-content cc-modal-content" style="height: 90%;width: 90%;">
+			<div class="modal-header cc-modal-header">
+				<button type="button" class="close-button close-button-lookup" data-dismiss="modal">
+					<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+				  </button>
+				  <h3 data-translatable="true">Select a non-compliance category</h3>
+			</div>
+			<div class="modal-body cc-modal-body">
+				<div class="col-md-12 cc-list">
+					<div class="input-group" style="margin-bottom: 10px;">
+					  <input type="text" data-translatable="true" class="form-control cc-input-browse rtl-input-browse"
+						placeholder="Search by Name" data-bind="textInput:searchText">
+					  <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+						style="cursor: pointer; padding-top: 5px;" data-bind="click:searchResults" title="Search">
+						<img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg">
+					  </span>
+					</div>
+		
+					<table class="table cc-border" style="font-size: 14px;">
+					  <thead>
+						<tr>
+							<th style="width: 7%;"></th>
+							<th style="width: 31%;" data-translatable="true" scope="col">Name</th>
+							<th style="width: 62%;" data-translatable="true" scope="col">Description</th>
+						</tr>
+					  </thead>
+					  <tbody class="lookup-list" data-bind="foreach:nonComplianceStates">
+						<tr data-bind="click:$parent.selectViewRadioButton">
+						  <td>
+							<div class="cc-select-column cc-radio-off"></div>
+						  </td>
+						  <td data-translatable="true"
+							data-bind="text:getTextValue(Name), attr:{title:getTextValue(Name)}"></td>
+						  <td data-translatable="true"
+							data-bind="text:getTextValue(NCDescription), attr:{title:getTextValue(NCDescription)}"></td>
+						</tr>
+					  </tbody>
+					</table>
+				  </div>
+
+			</div>
+			<div class="cc-modal-footer modal-footer rtl-text-align-left">
+				<button type="submit" class="cc-btn cc-btn-primary" id="btn_selectYes" data-dismiss="modal">
+				  <span data-translatable="true">Select</span>
+				</button>
+				<button type="submit" class="cc-btn cc-btn-secondary" data-dismiss="modal">
+				  <span data-translatable="true">Cancel</span>
+				</button>
+			  </div>
+
+		</div>
+
+	</div>
+	<div id="commentsDiv" class="form-group col-lg-12 col-md-12 col-sm-12" style="padding: 10px 15px 0px 15px;">
+
+		<div class="form-group col-lg-6 col-md-6 col-sm-6">
+            <label class="cc-required" data-translatable="true" class="label-no-bold" style="color: #757575;">Compliance status</label>
+			<select class="form-control cc-select" data-bind="
+			value:completionType,
+			options:completionTypes,
+			optionsText: 'label',
+			optionsValue: 'value',
+			optionsCaption: '-select-',
+			event:{change:updateIsMet},
+			css:{'cc-error': hasErrors() && completionType() == undefined}"></select>
+         </div>
+		 <div class="form-group col-lg-6 col-md-6 col-sm-6" data-bind="visible:isMet()==false">
+			<label class="label-no-bold" style="color: #757575;" data-translatable="true">Non-compliance category</label>
+
+		 <div class="input-group">
+			<input type="text" class="form-control cc-input-browse rtl-input-browse" data-bind="textInput:nonCompState, css:{'cc-error':isMet()==false && hasErrors() && nonCompState().length==0}" readonly placeholder="-Select-" style="background-color: transparent;border-right: 0;">
+			<span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;border-radius: 0 !important;" data-bind="click:openNonComplianceModal">
+				<img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg">
+			</span>
+			<span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;" data-bind="click:clearopenNonComplianceValue">
+				<img class="cc-input-icon" alt="Clear" src="../../../../../com/opentext/apps/utils/img/close_inline.svg">
+			</span>
+		</div>
+		</div>
+		 <div class="form-group col-lg-12 col-md-12 col-sm-12">
+		<label class="label-no-bold" style="color: #757575;" data-translatable="true">Comments</label>
+		<div>
+			<textarea class="apps-contentDiv" data-bind="textInput:comments" rows="7" style="resize: none;"></textarea>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

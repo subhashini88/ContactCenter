@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9E3E-2BC41CD0B763">
+	<DocumentID>005056C0-0008-A1E7-9E3E-2BC41CD07763</DocumentID>
+	<Name>005056C0-0008-A1E7-9E3E-2BC41CD07763</Name>
+	<Description>Z_INT_ContractAttributeList</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-08-04T09:38:36.453</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_ContractAttributeList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9E3E-2BC41CD0F763"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B9C3-4C5B99892504">
+	<DocumentID>484D7EE5-DBB0-A1E8-B9C3-4C5B9988E504</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B9C3-4C5B9988E504</Name>
+	<Description>Mandatory fields are to be filled</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-11-13T06:30:58.236</CreationDate>
+	<Notes/>
+	<Text>Mandatory fields are to be filled</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B9C3-4C5B99886504"
+		/>
+	</TextIdentifier>
+</TranslatedText>

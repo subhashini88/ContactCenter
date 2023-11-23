@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A6495-8267-A1EB-9D3F-9F24C5538372">
+	<DocumentID>E86A6495-8267-A1EB-9D3F-9F24C5534372</DocumentID>
+	<Name>E86A6495-8267-A1EB-9D3F-9F24C5534372</Name>
+	<Description>ReadUOMbyName</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2021-02-22T11:28:19.179</CreationDate>
+	<Notes/>
+	<Text>ReadUOMbyName</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A6495-8267-A1EB-9D3F-9F24C552C372"
+		/>
+	</TextIdentifier>
+</TranslatedText>

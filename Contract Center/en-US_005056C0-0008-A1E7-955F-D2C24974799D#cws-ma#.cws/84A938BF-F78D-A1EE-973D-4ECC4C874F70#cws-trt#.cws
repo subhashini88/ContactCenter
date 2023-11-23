@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-973D-4ECC4C878F70">
+	<DocumentID>84A938BF-F78D-A1EE-973D-4ECC4C874F70</DocumentID>
+	<Name>84A938BF-F78D-A1EE-973D-4ECC4C874F70</Name>
+	<Description>Met - Success - Corrected</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-27T05:57:09.636</CreationDate>
+	<Notes/>
+	<Text>Met - Success - Corrected</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-973D-4ECC4C86CF70"
+		/>
+	</TextIdentifier>
+</TranslatedText>

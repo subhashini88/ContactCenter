@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-8889-6844EB9F0344">
+	<DocumentID>FC7774E8-DA63-A1EA-8889-6844EB9EC344</DocumentID>
+	<Name>FC7774E8-DA63-A1EA-8889-6844EB9EC344</Name>
+	<Description>ContractRequetsHistoryLog</Description>
+	<CreatedBy>VarshaK</CreatedBy>
+	<CreationDate>2019-12-19T06:07:28.494</CreationDate>
+	<Notes/>
+	<Text>ContractRequetsHistoryLog</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1EA-8889-6844EB9E4344"
+		/>
+	</TextIdentifier>
+</TranslatedText>

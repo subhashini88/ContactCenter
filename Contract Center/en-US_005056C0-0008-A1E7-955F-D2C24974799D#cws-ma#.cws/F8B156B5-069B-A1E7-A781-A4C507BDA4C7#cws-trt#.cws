@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A781-A4C507BDE4C7">
+	<DocumentID>F8B156B5-069B-A1E7-A781-A4C507BDA4C7</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A781-A4C507BDA4C7</Name>
+	<Description>Billing account</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-20T13:33:11.274</CreationDate>
+	<Notes/>
+	<Text>Billing account</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A782-0E248BE664C7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

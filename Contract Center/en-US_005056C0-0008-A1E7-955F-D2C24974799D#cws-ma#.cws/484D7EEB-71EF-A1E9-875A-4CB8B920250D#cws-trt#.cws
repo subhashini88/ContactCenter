@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-875A-4CB8B920650D">
+	<DocumentID>484D7EEB-71EF-A1E9-875A-4CB8B920250D</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-875A-4CB8B920250D</Name>
+	<Description>RenewalActionRule</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-21T10:44:40.34</CreationDate>
+	<Notes/>
+	<Text>RenewalActionRule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-875A-4CB8B91FA50D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2D-A8DF-A1E7-ABCF-7A41145F24C1">
+	<DocumentID>1866DA2D-A8DF-A1E7-ABCF-7A41145EE4C1</DocumentID>
+	<Name>1866DA2D-A8DF-A1E7-ABCF-7A41145EE4C1</Name>
+	<Description>Perform state transition</Description>
+	<CreatedBy>kshinde kshinde</CreatedBy>
+	<CreationDate>2017-10-12T11:20:41.64</CreationDate>
+	<Notes/>
+	<Text>Perform state transition</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2D-A8DF-A1E7-ABCF-7A41145E64C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

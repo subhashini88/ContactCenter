@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-8B21-C628DCD6B14D">
+	<DocumentID>F8E4E399-CF40-A1ED-8B21-C628DCD6714D</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-8B21-C628DCD6714D</Name>
+	<Description>UpdAllAcctMgrs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-04T19:50:17.138</CreationDate>
+	<Notes/>
+	<Text>UpdAllAcctMgrs</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-8B21-C628DCD5F14D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

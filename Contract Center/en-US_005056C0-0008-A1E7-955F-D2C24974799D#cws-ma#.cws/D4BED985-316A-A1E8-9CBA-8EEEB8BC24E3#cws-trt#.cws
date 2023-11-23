@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="D4BED985-316A-A1E8-9CBA-8EEEB8BC64E3">
+	<DocumentID>D4BED985-316A-A1E8-9CBA-8EEEB8BC24E3</DocumentID>
+	<Name>D4BED985-316A-A1E8-9CBA-8EEEB8BC24E3</Name>
+	<Description>Action bar with Lifecycle actions</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-18T11:42:00.813</CreationDate>
+	<Notes/>
+	<Text>Action bar with Lifecycle actions</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="D4BED985-316A-A1E8-9CBA-8EEEB8BBA4E3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

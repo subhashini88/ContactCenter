@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E4C-C28FF87DF025">
+	<DocumentID>F8B156BC-2CB7-A1E8-9E4C-C28FF87DB025</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-06-26T11:27:58.635</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E4C-C28FF87D3025">
+			<DocumentID>F8B156BC-2CB7-A1E8-9E4C-C28FF87CF025</DocumentID>
+			<Name>CreateContactImportStatus</Name>
+			<Description>Create ContactImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-06-26T11:27:58.631</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-8580-6F64A42C300F"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E4C-C28FF87BB025">
+			<DocumentID>F8B156BC-2CB7-A1E8-9E4C-C28FF87B7025</DocumentID>
+			<Name>DeleteContactImportStatus</Name>
+			<Description>Delete ContactImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-06-26T11:27:58.643</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-8580-6F64A42C300F"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156BC-2CB7-A1E8-8580-6F64A42C300F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E4C-C28FF87CB025">
+			<DocumentID>F8B156BC-2CB7-A1E8-9E4C-C28FF87C7025</DocumentID>
+			<Name>ReadContactImportStatus</Name>
+			<Description>Read ContactImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-06-26T11:27:58.631</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-8580-6F64A42C300F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E4C-C28FF87C3025">
+			<DocumentID>F8B156BC-2CB7-A1E8-9E4C-C28FF87BF025</DocumentID>
+			<Name>UpdateContactImportStatus</Name>
+			<Description>Update ContactImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-06-26T11:27:58.637</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-8580-6F64A42C300F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

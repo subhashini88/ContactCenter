@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A505-63500B26A4CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A505-63500B2664CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A505-63500B2664CB</Name>
+	<Description>Z_Termination_DL</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-30T16:32:50.836</CreationDate>
+	<Notes/>
+	<DefaultText>Z_Termination_DL</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-A505-63500B26E4CB"
+		/>
+	</Translations>
+</TextIdentifier>

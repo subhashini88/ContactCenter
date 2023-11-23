@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B731-E43646A22503">
+	<DocumentID>484D7EE5-DBB0-A1E8-B731-E43646A1E503</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B731-E43646A1E503</Name>
+	<Description>Contract request approver list action</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-10-31T04:47:20.949</CreationDate>
+	<Notes/>
+	<Text>Contract request approver list action</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B731-E43646A16503"
+		/>
+	</TextIdentifier>
+</TranslatedText>

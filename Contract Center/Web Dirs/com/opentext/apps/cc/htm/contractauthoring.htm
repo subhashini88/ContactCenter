@@ -1,0 +1,1296 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <link rel="stylesheet" href="../../gc/css/custom_numbering.css">
+    <link rel="stylesheet" href="../css/contractauthoring.css">
+    <link rel="stylesheet" href="../css/negComments.css">
+    <link rel="stylesheet" href="../css/cc_ckeditor.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/ckeditor/ckeditor.js" type="text/javascript"></script>
+    <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js"
+        type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/conditionalAuthoringUtil.js" type="text/javascript"></script>
+    <script src="../../gc/js/template_utils.js"></script>
+    <!-- <script src="../js/conditionalAuthoringUtil.js"></script> -->
+    <script src="../../gc/js/template_common.js"></script>
+    <script src="../js/contractauthoring_ckeditor.js"></script>
+    <script src="../js/contractauthoring.js"></script>
+    <script src="../js/contractauthoring_actions.js"></script>
+    <script src="../js/contract_negotiation.js"></script>
+    <script src="../js/contract_negotiation_externalcontacts.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            CKEDITOR.config.contentsCss = 'cc_ckeditor.css';
+            var i_locale = getlocale();
+            translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale);
+            var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+            loadRTLIfRequired(i_locale, rtl_css);
+        });
+
+    </script>
+</head>
+
+<body style="overflow: hidden;" class="cc-ltr">
+    <span
+        style="display: none;text-align: center;padding: 5px;border-bottom: 3px solid rgb(223, 51, 36);position: absolute;top: 5px;left: 5%;width: 90%;box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.09);"
+        id="InfoArea">
+        <img src="../img/notification_error.svg" width="25px" height="25px" align="middle" style="margin-right:5px;">
+        <span id="InfoText" style="position: relative;">&nbsp;</span>
+    </span>
+    <div id="loadingMsg" class="col-xs-12 defaultInfo" style="display: block;">
+        <img src="../img/custom-loader.gif" id="loader">
+        <p data-translatable="true">Loading sections and clauses...</p>
+    </div>
+
+    <div id="afterActiveStateContract" class="col-xs-12 defaultInfo" style="display: none;">
+        <p data-translatable="true">This contract cannot be authored in current state.</p>
+    </div>
+
+    <div id="executedContract" class="col-xs-12 defaultInfo" style="display: none;">
+        <p data-translatable="true">This contract is an executed contract. Therefore, no template is associated with
+            this contract.</p>
+    </div>
+
+    <div id="externalContract" class="col-xs-12 defaultInfo" style="display: none;">
+        <p data-translatable="true">This contract is an external contract. Therefore, no template is associated with
+            this contract.</p>
+    </div>
+
+    <div id="internalPartyDocumentType" class="col-xs-12 defaultInfo" style="display: none;">
+        <p data-translatable="true">Sections and clauses cannot be displayed for a contract with the Internal party
+            document template type.</p>
+    </div>
+
+    <div id="externalPartyDocumentType" class="col-xs-12 defaultInfo" style="display: none;">
+        <p data-translatable="true">Sections and clauses cannot be displayed for a contract with the External party
+            document template type.</p>
+    </div>
+
+    <div id="requestedContract" class="col-xs-12 defaultInfo" style="display: none;">
+        <p data-translatable="true">No template is associated with the contract because it is created from an initiation
+            request. Edit the
+            contract record and associate a template.</p>
+    </div>
+
+    <div id="authoringPage"
+        style="margin-left: -12px;height:100%; padding-left: 9px; display: none; padding-right: 0px; width:100%">
+        <div id="supportedVersion"></div>
+        <div id="div_sectionsAndClausesHeader">
+            <!-- ko if: (contract_LifecycleState=="Draft" || contract_LifecycleState=="Negotiation" || contract_LifecycleState=="Pre-Execution") -->
+            <!-- ko if: (contract_Z_INT_Status()=="Draft" || contract_Z_INT_Status()=="Negotiation" || contract_Z_INT_Status()=="Pre-Execution" || contract_Z_INT_Status()=="RequestedForNegClosure" || contract_Z_INT_Status()=="SentForNegotiation") -->
+            <div class="headerPadding" id="div_formatActions" style="display: table-cell;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 16px; font-size: 12px;" data-translatable="true">Numbering</div>
+                </div>
+                <div style="display: table;margin-top: 7px;">
+                    <div class="dropdown" style="display: table-cell;padding-left: 16px;">
+                        <div class="dropdown-toggle" data-toggle="dropdown" id="number_style" title="Number style">
+                            <div class="numberingIcon" style="display: inline-block;"></div>
+                            <div class="caret-down" style="display: inline-block;"></div>
+                        </div>
+                        <ul class="dropdown-menu" id="number-style-dropdown-menu">
+                            <li id="option_decimal-simple" onclick="_updateNumberingStyle('decimal-simple')"
+                                title="Arabic numerals" style="cursor: pointer;">
+                                <div class="simpledecimal-icon" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">1, 2, 3, ...</div>
+                            </li>
+                            <li id="option_decimal-simple" onclick="_updateNumberingStyle('lower-alpha-simple')"
+                                title="Lowercase letters" style="cursor: pointer;">
+                                <div class="simpleloweralpha-icon" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">a, b, c, ...</div>
+                            </li>
+                            <li id="option_upper-alpha-simple" onclick="_updateNumberingStyle('upper-alpha-simple')"
+                                title="Uppercase letters" style="cursor: pointer;">
+                                <div class="simpleupperalpha-icon" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">A, B, C, ...</div>
+                            </li>
+                            <li id="option_lower-roman-simple" onclick="_updateNumberingStyle('lower-roman-simple')"
+                                title="Lowercase Roman numerals" style="cursor: pointer;">
+                                <div class="simplelowerroman-icon" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">i, ii, iii, ...
+                                </div>
+                            </li>
+                            <li id="option_upper-roman-simple" onclick="_updateNumberingStyle('upper-roman-simple')"
+                                title="Uppercase Roman numerals" style="cursor: pointer;">
+                                <div class="simpleupperroman-icon" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">I, II, III, ...
+                                </div>
+                            </li>
+                            <li id="option_decimal" onclick="_updateNumberingStyle('decimal')"
+                                title="Multilevel Arabic numerals" style="cursor: pointer;">
+                                <div class="nesteddecimal" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">1, 1.1, 1.1.1, ...
+                                </div>
+                            </li>
+                            <li id="option_lower-alpha" onclick="_updateNumberingStyle('lower-alpha')"
+                                title="Multilevel Lowercase letters" style="cursor: pointer;">
+                                <div class="nestedalpha" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">a, a.a, a.a.a, ...
+                                </div>
+                            </li>
+                            <li id="option_upper-alpha" onclick="_updateNumberingStyle('upper-alpha')"
+                                title="Multilevel Uppercase letters" style="cursor: pointer;">
+                                <div class="nestedupperalpha" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">A, A.A, A.A.A, ...
+                                </div>
+                            </li>
+                            <li id="option_lower-roman" onclick="_updateNumberingStyle('lower-roman')"
+                                title="Multilevel Lowercase Roman numerals" style="cursor: pointer;">
+                                <div class="nestedroman" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">i, i.i, i.i.i, ...
+                                </div>
+                            </li>
+                            <li id="option_upper-roman" onclick="_updateNumberingStyle('upper-roman')"
+                                title="Multilevel Uppercase Roman numerals" style="cursor: pointer;">
+                                <div class="nestedupperroman" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">I, I.I, I.I.I, ...
+                                </div>
+                            </li>
+                            <li id="option_no-numbering" onclick="removeNumberingStyle()" title="None"
+                                style="cursor: pointer;">
+                                <div class="nonumbering-icon" style="display: inline-block;"></div>
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;">None</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="display: table-cell; padding-left: 16px;">
+                        <div class="indentIncreaseIcon" data-bind="click:l_sectionandclause_model.indentIncrease"
+                            title="Decrease indent"></div>
+                    </div>
+                    <div style="display: table-cell; padding-left: 16px;">
+                        <div class="indentDeccreaseIcon" data-bind="click:l_sectionandclause_model.indentDecrease"
+                            title="Increase indent"></div>
+                    </div>
+                    <div style="display: table-cell; padding-left: 16px;">
+                        <!-- ko if:((l_sectionandclause_model.addSectionData() && l_sectionandclause_model.addSectionData().cascade()==="ON") || (!l_sectionandclause_model.addSectionData() && l_sectionandclause_model.cascadeDocLevel()=="ON")) -->
+                        <div class="cc-select-column numbercascadeon" title="Multilevel numbering: ON"
+                            style="padding:10px" data-bind="click:cascadeToggle"></div>
+                        <!-- /ko -->
+                        <!-- ko ifnot:((l_sectionandclause_model.addSectionData() && l_sectionandclause_model.addSectionData().cascade()==="ON") || (!l_sectionandclause_model.addSectionData() && l_sectionandclause_model.cascadeDocLevel()=="ON")) -->
+                        <div class="cc-select-column numbercascadeoff" title="Multilevel numbering: OFF"
+                            style="padding:10px" data-bind="click:cascadeToggle"></div>
+                        <!-- /ko -->
+                    </div>
+                </div>
+            </div>
+            <div class="headerPadding" id="div_sectionActions" style="display: table-cell;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 16px; font-size: 12px;" data-translatable="true">Section</div>
+                </div>
+                <div style="display: table;margin-top: 7px;padding-left: 16px;">
+                    <select id="sectionList" style="display: table-cell; min-width: 200px; margin: 0px; width: 250px;"
+                        aria-placeholder="Section lists" title="Navigate to section"
+                        data-bind="options: l_sectionandclause_model.SCMappingsToBind, optionsText: 'sectionName', optionsValue: 'containerID' ,optionsCaption: optionsCaption">
+                    </select>
+                    <div style="display: table-cell;padding-left: 16px;align-items: center;"
+                        data-bind="click:addSection" id="add_Section" title="Add section">
+                        <div class="addSubsection"
+                            style="margin-bottom: -10px;padding: 0px 0px; background-size: 18px;"></div>
+                    </div>
+                    <div class="dropdown" style="display: table-cell;">
+                        <div class="dropdown-toggle" data-toggle="dropdown" id="add_section1" title="Add section">
+                            <div class="caret-down" style="display: inline-block;"></div>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li data-bind="click:l_sectionandclause_model.addSectionBefore">
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;"
+                                    data-translatable="true">Add section before</div>
+                            </li>
+                            <li data-bind="click:l_sectionandclause_model.addSectionAfter">
+                                <div style="display: inline;vertical-align: super;padding-left: 8px;"
+                                    data-translatable="true">Add section after</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="headerPadding" id="div_clauseEditorActions" style="display: table-cell;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 16px; font-size: 12px;" data-translatable="true">Clause editor</div>
+                </div>
+                <div style="display: table-row;" id="div_ckEditorActions"></div>
+            </div>
+            <div class="headerPadding" id="div_clauseLibraryActions" style="display: table-cell;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 16px; font-size: 12px;" data-translatable="true">Clause library</div>
+                </div>
+                <div style="display:inline-flex;padding-top:7px">
+                    <div style="padding-left:16px">
+                        <span class="showClauseLibrary actionshowclauseIcon" style="display:inline-block"
+                            data-bind="click:showClauseLibrary" id="show_Clause_Lib" title="Show clause library"></span>
+                        <span class="hideClauseLibrary actionhideclauseIcon" style="display: none"
+                            data-bind="click:hideClauseLibrary" id="hide_Clause_Lib" title="Hide clause library"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="headerPadding" id="div_negotiationActions" style="display: table-cell;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 16px; font-size: 12px;" data-translatable="true">Comments</div>
+                </div>
+                <div style="display:inline-flex;padding-top:7px">
+                    <div style="padding-left:16px">
+                        <span class="viewAllComments viewcommentsIcon" style="display:inline-block"
+                            data-bind="click:viewAllComments" id="view_All_Comments"
+                            title="View all negotiation comments"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="headerPadding" id="div_saveOrCancelActions" style="display: table-cell; width: 172px;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 0px; font-size: 12px;">&nbsp;</div>
+                </div>
+                <div style="display: table;margin-top: 12px;padding-left: 16px;">
+                    <div style="display: table-cell;">
+                        <button data-bind="click:updateSectionandClauseMapping"
+                            class="cc-btn cc-btn-primary cc-header-btn">
+                            <div data-translatable="true" style="font-size: 12px;">Save</div>
+                        </button>
+                    </div>
+                    <div style="display: table-cell;">
+                        <button data-bind="click:onCancel" class="cc-btn cc-btn-secondary cc-header-btn">
+                            <div data-translatable="true" style="font-size: 12px;">Cancel</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="headerPadding" id="div_otherActions" style="display: table-cell; width: 50px;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 0px; font-size: 12px;">&nbsp;</div>
+                </div>
+                <div style="padding-top:0px">
+                    <div class="btn-group" style="padding-top:8px;padding-left:16px">
+                        <div style="display:initial;">
+                            <span class="collapseAllSections actionarrowupIcon" style="display:inline-block"
+                                data-bind="click:collapseAllSections" id="collapse_All_Sections"
+                                title="Collapse all sections"></span>
+                            <span class="expandAllSections actionarrowdownIcon" style="display: none"
+                                data-bind="click:expandAllSections" id="expand_All_Sections"
+                                title="Expand all sections"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /ko -->
+            <!-- /ko -->
+            <!-- ko ifnot: (contract_Z_INT_Status()=="Draft" || contract_Z_INT_Status()=="Negotiation" || contract_Z_INT_Status()=="Pre-Execution" || contract_Z_INT_Status()=="RequestedForNegClosure" || contract_Z_INT_Status()=="SentForNegotiation") -->
+            <div class="headerPadding" id="div_sectionActions" style="display: table-cell;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 16px; font-size: 12px;" data-translatable="true">Section</div>
+                </div>
+                <div style="display: table;margin-top: 7px;padding-left: 16px;">
+                    <select id="sectionList" style="display: table-cell; min-width: 200px; margin: 0px; width: 250px;"
+                        aria-placeholder="Section lists" title="Navigate to section"
+                        data-bind="options: l_sectionandclause_model.SCMappingsToBind, optionsText: 'sectionName', optionsValue: 'containerID' ,optionsCaption: optionsCaption"
+                        onchange="selectSection(this.value)">
+                    </select>
+                </div>
+            </div>
+            <div class="headerPadding" id="div_negotiationActions" style="display: table-cell; width: 100px;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 16px; font-size: 12px;" data-translatable="true">Comments</div>
+                </div>
+                <div style="display:inline-flex;padding-top:7px">
+                    <div style="padding-left:16px">
+                        <span class="viewAllComments viewcommentsIcon" style="display:inline-block"
+                            data-bind="click:viewAllComments" id="view_all_nego_comments"
+                            title="View all negotiation comments" data-translatable="true"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="headerPadding" id="div_otherActions" style="display: table-cell; width: 50px;">
+                <div style="text-align: left;padding: 3px 0px;background-color: #DCE4E8;">
+                    <div style="padding-left: 0px; font-size: 12px;">&nbsp;</div>
+                </div>
+                <div style="padding-top:0px">
+                    <div class="btn-group" style="padding-top:8px;padding-left:16px">
+                        <div style="display:initial;">
+                            <span class="collapseAllSections actionarrowupIcon" style="display:inline-block"
+                                data-bind="click:collapseAllSections" id="collapse_allsections"
+                                title="Collapse all sections" data-translatable="true"></span>
+                            <span class="expandAllSections actionarrowdownIcon" style="display: none"
+                                data-bind="click:expandAllSections" id="expand_allsections" title="Expand all sections"
+                                data-translatable="true"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /ko -->
+        </div>
+        <div id="div_sectionsAndClausesContent">
+            <div id="defaultContainer">
+                <p class="defaultInfo" data-translatable="true">Add a section and add clauses to it from the clause
+                    list.</p>
+            </div>
+            <!-- ko if: SCMappings().length > 0 -->
+            <div id="m_secandcls">
+                <div class="doc_view_container">
+                    <!--Sections-->
+                    <!-- ko if: (contract_LifecycleState=="Draft" || contract_LifecycleState=="Negotiation" || contract_LifecycleState=="Pre-Execution") -->
+                    <!-- ko if: (contract_Z_INT_Status()=="Draft" || contract_Z_INT_Status()=="Negotiation" || contract_Z_INT_Status()=="Pre-Execution" || contract_Z_INT_Status()=="RequestedForNegClosure" || contract_Z_INT_Status()=="SentForNegotiation") -->
+                    <ol class="m_secandcls-ol sec" id="secandclsOL"
+                        data-bind="template:{name:'clauseandSectionContentTemplate',foreach:SCMappingsToBind}"
+                        style="clear:both;"></ol>
+                    <!-- /ko -->
+                    <!-- /ko -->
+                    <!-- ko ifnot: (contract_Z_INT_Status()=="Draft" || contract_Z_INT_Status()=="Negotiation" || contract_Z_INT_Status()=="Pre-Execution" || contract_Z_INT_Status()=="RequestedForNegClosure" || contract_Z_INT_Status()=="SentForNegotiation") -->
+                    <ol class="m_secandcls-ol sec" id="secandclsOL"
+                        data-bind="template:{name:'clauseandSectionContentOtherTemplate',foreach:SCMappingsToBind}"
+                        style="clear:both;"></ol>
+                    <!-- /ko -->
+                    <!--/Sections-->
+                    <div style="display: block; height:30px;position: fixed;bottom: 10px;left: 40vw;">
+                        <div class="btn-group" data-bind="css:{'hidden':!$root.cutContainerData()}">
+                            <button
+                                data-bind="click:$root.pasteBeforeContainer,css:{'disabled':!$root.pasteContainerData()}"
+                                class="btn btn-primary btn-sm"><span data-translatable="true">Paste
+                                    Before</span></button>
+                            <button
+                                data-bind="click:$root.pasteAfterContainer,css:{'disabled':!$root.pasteContainerData()}"
+                                class="btn btn-primary btn-sm"><span data-translatable="true">Paste
+                                    After</span></button>
+                            <button data-bind="click:$root.cancelCut" class="btn btn-primary btn-sm"><span
+                                    data-translatable="true">Cancel</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /ko -->
+        </div>
+        <!-- Clause library -->
+        <div class="col-md-4 col-xs-4 container-fluid" id="clausediv"
+            style="display:none;height: 93%; border-color: #dcdcdc;padding-bottom: 20px;">
+            <div class="row">
+                <div style="padding:10px 6px;">
+                    <div style="float:left; padding-left: 10px;">
+                        <input type="checkbox" id="checkbox_global" style="margin-right: 3px;vertical-align: top;">
+                        <span data-translatable="true" style="position: relative;top: 7px;">Global clause</span>
+                    </div>
+                    <div style="float:right; margin-top: -5px;display: inline-flex;">
+                        <span class="badge" data-bind="text:clauses_selected_count" style="margin:7px"></span>
+                        <div id="insertStandardClbtnCont" class="dropdown">
+                            <button id="insert_selected_btn" class="btn btn-primary singleAction btn-sm dropdown"
+                                style="display:inline-flex;">
+                                <div><span data-translatable="true"
+                                        data-bind="click:addSelectedStandardClauses.bind()">Insert selected</span></div>
+                                <div style="margin: 3px;"></div>
+                                <img style="height: 17px;width: 13px;" class="dropdown-toggle" data-bind="click:function(){
+                                    toggleOptions('insertStandardClbtnCont','open');
+                                }" data-toggle="dropdown"
+                                    src="../../../../../com/opentext/apps/utils/img/caret_down10_white.svg">
+                            </button>
+                            <ul class="dropdown-menu" style="padding-left: 2px;padding-right: 2px;">
+                                <li style="cursor: pointer;" data-bind="click:addSelectedStandardClausesBefore">
+                                    <div style="display: inline;" data-translatable="true">Insert selected before</div>
+                                </li>
+                                <li style="cursor: pointer;" data-bind="click:addSelectedStandardClausesAfter">
+                                    <div style="display: inline;" data-translatable="true">Insert selected after</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; padding-bottom: 6px; padding-top: 10px;clear: both;">
+                    <input type="text" id="myInput">
+                    <img src="../img/search.png" id="input_img">
+                </div>
+            </div>
+            <div class="row" id="clauseListID" style="height: 60%;overflow-y: auto;">
+                <ul class="list-group" id="ul-list-group" data-bind="foreach:Listed_Clauses">
+                    <li class="list-group-item"
+                        data-bind="attr:{clausename:name,clauseorder:$index(),ClauseType:typeid,clausecontent:htmlcontent,itemid:itemid,id:id,isglobal:isglobal,clauseid:clauseid,clauseCategory:clauseCategory}">
+                        <input type="checkbox" class="clause_library" id="clauselist_cb" style="vertical-align: top"
+                            data-bind="checked:(clauseselectedarray['clause_'+id]!=null), event:{change:onClauseSelected}">
+                        <div style="display: inline-block;">
+                            <span data-bind="text:name" style="position: relative;top: 7px;">
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row" style="display: none; height: 60%; text-align: center; font-style: italic;"
+                id="clauselibrary_noresults" data-translatable="true">No results found</div>
+
+            <div class="row" id="clauselibrary_paginationID">
+                <ul class="pagination pull-left" style="margin:0px">
+                    <li class="li-pagination">
+                        <a id="itemsCount"
+                            style="border:0px;outline: none;color: black;padding-left:15px; cursor:auto;">
+                            <span data-bind="text:total_clauses_count"></span>
+                            <span> </span>
+                            <span data-translatable="true">items</span></a>
+                    </li>
+                </ul>
+                <ul class="pagination pull-right" id="pagination_id" style="margin:0px">
+                    <li class="li-pagination" id="clauselibrary_decrementer">
+                        <a data-bind="click:clauselibrary_decrementToLast.bind()"><span>«</span></a>
+                        <a data-bind="click:clauselibrary_decrementOffsetLimit.bind()"><span>‹</span></a>
+                    </li>
+                    <li class="li-pagination">
+                        <a data-bind="text:currentPage"></a>
+                    </li>
+                    <li class="li-pagination" id="clauselibrary_incrementer">
+                        <a data-bind="click:clauselibrary_incrementOffsetLimit.bind()"><span>›</span></a>
+                        <a data-bind="click:clauselibrary_incrementToLast.bind()"><span>»</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="clausePreview">
+            <div class="row" style="background-color: #F5F5F5;">
+                <h4 style="padding-left: 16px;" data-translatable="true">Clause details</h4>
+                <a class="closebtn" style="text-decoration: none;color:black;cursor: pointer;">&times;</a>
+            </div>
+            <div class="clauseDetails" style="overflow-y: auto;">
+                <div style="height: 10%;">
+                    <label style="font-weight: bold;" data-translatable="true">Clause name</label>
+                    <div readonly id="clausename_textbox" style="width: 95%;"></div>
+                </div>
+                <div style="height: 10%;">
+                    <label style="font-weight: bold;" data-translatable="true">Clause category</label>
+                    <div readonly id="clausecategory_textbox" style="width: 95%;"></div>
+                </div>
+                <div style="height: 73%;">
+                    <label style="font-weight: bold;" data-translatable="true">Clause content</label>
+                    <div readonly id="clausecontent_textbox" style="resize:none;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Equivalent clauses - sboddire -->
+        <div class="col-md-4 col-xs-4 container-fluid" id="eqClauseList"
+            style="display:none;height: 100%; border-color: #dcdcdc;background-color: #f5f5f5;">
+            <a id="eqCloseButton" style="text-decoration: none;color:black;cursor: pointer;">&times;</a>
+            <div class="row" style="display: none; height: 60%; text-align: center; font-style: italic;"
+                id="eqNoresults">
+                <p class="defaultInfo" data-translatable="true">There are no equivalent clauses for the selected clause.
+                </p>
+            </div>
+            <div class="row" id="eqClauseResults" style="margin-left: 5px;margin-right: 5px;margin-top: 35px;">
+                <div class="row" id="eqClauseSearchBar" style="padding-left: 10px; padding-right: 10px;height: 10%;">
+                    <div style="position: relative; padding-bottom: 6px; padding-top: 10px;clear: both;">
+                        <input type="text" id="eqClauseSearchInput">
+                        <img src="../img/search.png" id="eqClauseSearchInput_Img">
+                    </div>
+                </div>
+                <div class="row" id="eqClauseTable" style="height: 65%;overflow-y: auto;display: block;padding: 10px;">
+                    <ul class="list-group" id="ul-list-group" data-bind="foreach:equivalentClauseList">
+                        <li class="list-group-item"
+                            data-bind="attr:{clauseRelationsID:clauseRelationsID,clauseRelationsItemID:clauseRelationsItemID,sourceClauseID:sourceClauseID,sourceClauseItemID:sourceClauseItemID,sourceClauseName:sourceClauseName,targetClauseID:targetClauseID,targetClauseItemID:targetClauseItemID,targetClauseName:targetClauseName,targetClauseClauseCategoryName:targetClauseClauseCategoryName,targetClausePlainContent:targetClausePlainContent,targetClauseHTMLContent:targetClauseHTMLContent}">
+                            <div style="display: inline-block;">
+                                <span data-bind="text:targetClauseName"></span>
+                            </div>
+                            <img src="../img/action_preview.svg" id="CA_Preview" class="eqPreview">
+                            <img data-bind="click:UpdateEqclauseIDandItemID.bind($data,this)"
+                                src="../img/action_replace.svg" id="CA_Replace" class="replacewithEqClause">
+                        </li>
+                    </ul>
+                </div>
+                <div class="row" id="eqPaginationID" style="height: 10%;padding: 10px;">
+                    <ul class="pagination pull-left" style="margin:0px">
+                        <li class="li-pagination">
+                            <a id="itemsCount"
+                                style="border:0px;outline: none;color: black;padding-left:15px; cursor:auto;">
+                                <span data-bind="text:equivalentClauseCount"></span>&nbsp;<span
+                                    data-translatable="true">
+                                    item(s)</span></a>
+                        </li>
+                    </ul>
+                    <ul class="pagination pull-right" id="pagination_id" style="margin:0px">
+                        <li class="li-pagination" id="eqDecrementer">
+                            <a data-bind="click:decrementEqClauseToFirst.bind()"><span>«</span></a>
+                            <a data-bind="click:decrementEqClauseOffsetLimit.bind()"><span>‹</span></a>
+                        </li>
+                        <li class="li-pagination">
+                            <a data-bind="text:currentPage"></a>
+                        </li>
+                        <li class="li-pagination" id="eqIncrementer">
+                            <a data-bind="click:incrementEqClauseOffsetLimit.bind()"><span>›</span></a>
+                            <a data-bind="click:incrementEqClauseToLast.bind()"><span>»</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="eqClausePreview">
+            <div class="row" style="background-color: #F5F5F5;">
+                <h4 style="padding-left: 16px;" data-translatable="true">Clause details</h4>
+                <a id="eqPreviewCloseButton" style="text-decoration: none;color:black;cursor: pointer;">&times;</a>
+            </div>
+            <div class="clauseDetails" style="overflow-y: auto;">
+                <div style="height: 10%;">
+                    <label style="font-weight: bold;" data-translatable="true">Clause name</label>
+                    <div readonly id="eqClauseName" style="width: 95%;"></div>
+                </div>
+                <div style="height: 10%;">
+                    <label style="font-weight: bold;" data-translatable="true">Clause category</label>
+                    <div readonly id="eqClauseCategory" style="width: 95%;"></div>
+                </div>
+                <div style="height: 73%;">
+                    <label style="font-weight: bold;" data-translatable="true">Clause content</label>
+                    <div readonly id="eqClauseContent" rows="11" cols="50" style="resize:none;"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-4 col-xs-4 container-fluid" id="div_CommentsAndSharedUserList"
+            style="display:none;height: 100%; border-color: #dcdcdc;background-color: #f5f5f5;padding: 0px;">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#div_CommentsList" data-toggle="tab"><span
+                            data-translatable="true">Comments</span></a></li>
+                <li><a href="#div_SharedUserList" data-toggle="tab" onclick="checkandReloadSharedUsersList()"><span
+                            data-translatable="true">Shared list</span></a></li>
+                <li style="float: right;"><a style="cursor: pointer;" id="div_closeCommentsAndSharedUserList"
+                        onclick="closeCommentsAndSharedUserList()"><span data-translatable="true">&times;</span></a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="div_CommentsList" class="tab-pane fade in active">
+                    <div class="row" style="margin-left: 0px;border-bottom: 2px solid white;">
+                        <div class="comment-header clearfix col-lg-12" id="requestNegClosure_div"
+                            style="font-size: small;">
+                            <div>
+                                <div class="comment-header-flex col-lg-6">
+                                    <label data-translatable="true" style="margin-right: 7px;">Shared date: </label>
+                                    <div data-bind="text: neg_createdDate"></div>
+                                </div>
+                                <div class="comment-header-flex col-lg-6" style="margin-left: -10px;">
+                                    <label data-translatable="true" style="margin-right: 7px;">Status: </label>
+                                    <span data-bind="text:neg_status"></span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="comment-header-flex col-lg-8">
+                                    <label data-translatable="true" style="margin-right: 7px;">Close date: </label>
+                                    <div>
+                                        <span class="editableDateTxt" data-bind="text: neg_closeDate"></span>
+                                    </div>
+                                    <span style="margin-left: 5px;"><img class="apps-icon edit_closeDate"
+                                            id="editNegCloseDate" alt="edit" src="../img/pencil.svg"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row tab-pane " id="div_NoComments"
+                        style="display: none; width: 98%; text-align: center; font-style: italic;">
+                        <p class="defaultInfo" data-translatable="true">There are no comments for the selected section.
+                        </p>
+                    </div>
+                    <div class="row" id="div_CommentsResults">
+                        <div class="container">
+                            <div class="comment">
+                                <div class="comment-header clearfix col-lg-12">
+                                    <div class="comment-about col-lg-6">
+                                        <div class="comment-with" data-bind="text: headingName"></div>
+                                        <div class="comment-num-messages"><span data-translatable="true">Total threads:
+                                            </span><span data-bind="text: commentsThreads().length"></span></div>
+                                    </div>
+                                    <div class="comment-refresh col-lg-6" style="text-align: right;">
+                                        <button data-bind="click:refreshComments.bind($data)" class="refreshComments"
+                                            id="CA_RefreshComments"></button>
+                                    </div>
+                                </div>
+                                <!-- end comment-header -->
+                                <div class="comment-history col-lg-12"
+                                    style="height: 60%;padding: 0px;padding-bottom: 32px;">
+                                    <div id="commentThreads" data-bind="foreach:commentsThreads" class="panel-group">
+                                        <div id="commentThread" class="panel panel-default"
+                                            data-bind="click:highlightClauseorSection.bind($data,event)">
+                                            <div class="panel-heading">
+                                                <div class="panel-title">
+                                                    <a data-toggle="collapse"
+                                                        data-bind="{attr: { href:'#Thread_'+$index(),id:'TAccordian_'+$index()},text:heading}"></a>
+                                                    <a class="accordion-toggle panel-title collapsed"
+                                                        data-toggle="collapse"
+                                                        data-bind="{attr: { href:'#Thread_'+$index() }}"></a>
+                                                    <div style="float: right;margin-right: 30px;">
+                                                        <span data-translatable="true">Status : </span><span
+                                                            id="span_threadStatus" data-bind="text:status"
+                                                            data-translatable="true"></span>
+                                                        <!-- ko if: status()=='OPEN' || status()=='REOPENED' -->
+                                                        <button id="btn_resolveCommentThread" style="cursor: pointer;"
+                                                            data-translatable="true"
+                                                            data-bind="click:resolveThread.bind($data,$data,getTranslationMessage('RESOLVED'))"><span
+                                                                data-translatable="true">Resolve</span></button>
+                                                        <!-- /ko -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="comment-thread-comments panel-collapse collapse"
+                                                data-bind="attr: { id:'Thread_'+$index() }">
+                                                <div class="panel-body">
+                                                    <ul style="padding: 0px;list-style: none">
+                                                        <li data-bind="foreach:comments">
+                                                            <!-- ko if: sameUser -->
+                                                            <div class="message-data">
+                                                                <span class="message-data-name"
+                                                                    data-bind="text:createdByUsername"></span>
+                                                                <span class="message-data-time"
+                                                                    data-bind="text:createdDate"></span>
+                                                            </div>
+                                                            <div class="message my-message" data-bind="text:Content"
+                                                                style="white-space: pre-wrap;">
+                                                            </div>
+                                                            <!-- /ko -->
+                                                            <!-- ko ifnot: sameUser -->
+                                                            <div class="message-data align-right">
+                                                                <span class="message-data-time"
+                                                                    data-bind="text:createdDate"></span>
+                                                                &nbsp; &nbsp;
+                                                                <span class="message-data-name"
+                                                                    data-bind="text:createdByUsername"></span>
+                                                            </div>
+                                                            <div class="message other-message float-right"
+                                                                data-bind="text:Content" style="white-space: pre-wrap;">
+                                                            </div>
+                                                            <!-- /ko -->
+                                                        </li>
+                                                    </ul>
+                                                    <div class="comment-message clearfix">
+                                                        <!-- ko if:(($root.contract_LifecycleState()=="Negotiation") && ($root.contract_Z_INT_Status()=="SentForNegotiation") && (status()=="OPEN" || status()=="RESOLVED" || status()=="REOPENED")) -->
+                                                        <textarea data-bind="value:commentContent"
+                                                            name="message-to-send" id="message-to-send"
+                                                            rows="3"></textarea>
+                                                        <button data-bind="click:replyCommentThread.bind($data)"><span
+                                                                data-translatable="true">Post</span></button>
+                                                        <!-- /ko -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end comment-message -->
+                                    </div>
+                                </div>
+                                <!-- end comment-history -->
+                            </div>
+                            <!-- end comment -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                </div>
+                <div id="div_SharedUserList" class="tab-pane fade">
+                    <!-- ko if: usersList().length <=0 -->
+                    <div class="row" id="div_noSharedUsers"
+                        style="height: 60%; text-align: center; font-style: italic;">
+                        <p class="defaultInfo" data-translatable="true">This contract is not shared with any user.</p>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: usersList().length > 0 -->
+                    <div class="row" id="div_SharedUserResults" style="margin-left: 5px;margin-right: 5px;">
+                        <button data-bind="click:addNewUserforNegotiation.bind($data)" class="addNewUserforNegotiation"
+                            id="CA_AddNewUser"></button>
+                        <div style="max-height: 100%;overflow: auto;height: 90%;">
+                            <table class="table table-hover" style="margin-bottom: 80px !important;">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-translatable="true">#</th>
+                                        <th scope="col" data-translatable="true">User ID</th>
+                                        <th scope="col" data-translatable="true">User name</th>
+                                        <th scope="col" data-translatable="true">Closure status</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:usersList">
+                                    <tr>
+                                        <th data-bind="text:$index()+1" scope="row"></th>
+                                        <td data-bind="text:userid"></td>
+                                        <td data-bind="text:username"></td>
+                                        <td data-bind="text:status"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /ko -->
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="div_addNegCommentsModel" role="dialog">
+            <div class="modal-content"
+                style="display: block; width:32%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 data-translatable="true">Add negotiation comment</h3>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <label data-translatable="true">Comment heading</label>
+                        <input id="input_threadHeader" class="form-control" type="text">
+                        <label data-translatable="true">Comment</label>
+                        <textarea id="textarea_message_to_send" rows="7" style="resize: none;"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_postComment"><span
+                            data-translatable="true">Post</span></button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+                        id="btn_cancelPostComment"><span data-translatable="true">Cancel</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="div_addNewUserforNegotiation" role="dialog">
+            <div class="modal-content"
+                style="display: block; width:50%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 data-translatable="true">Add new user</h3>
+                </div>
+                <div class="modal-body" style="overflow: auto;">
+                    <div class="input-group" style="padding-bottom: 10px;">
+                        <input type="search" id="id_searchExtContactsInput" value="" class="form-control">
+                        <span class="input-group-addon">
+                            <img class="apps-icon" alt="Search" src="../img/search.png" id="img_SearchContacts"
+                                style="cursor: pointer;">
+                        </span>
+                    </div>
+                    <div class="table-responsive" style="overflow-y: auto;">
+                        <table id="id_externalContacts" class="table table-responsive" style="border: 1px solid #ddd;">
+                            <thead>
+                                <tr>
+                                    <th style="width: 5%;">
+                                        <input id="selectAll" data-bind="event:{change:$root.onCheckAllValueChanged}"
+                                            onchange="checkAll(this)" type="checkbox">
+                                        </input>
+                                    </th>
+                                    <th style="width: 30%;">
+                                        <label class="label-no-bold" data-translatable="true">Name</label>
+                                    </th>
+                                    <th style="width: 30%;">
+                                        <label class="label-no-bold" data-translatable="true">User ID</label>
+                                    </th>
+                                    <th style="width: 33%;">
+                                        <label class="label-no-bold" data-translatable="true">Email ID</label>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="id_externalContactsList" data-bind="foreach:ExternalContactsList">
+                                <tr class="row-style" data-bind="attr:{isSharedAlready:isSharedAlready}">
+                                    <td>
+                                        <input class="ExtContact_Checkbox"
+                                            data-bind="checked:isSelected,event:{change:$root.onCheckboxValueChanged},attr:{isSharedAlready:isSharedAlready,isSelected:isSelected}"
+                                            type="checkbox">
+                                        </input>
+                                    </td>
+                                    <td>
+                                        <div data-bind="if: ContainingPerson.DisplayName">
+                                            <div data-bind="text:ContainingPerson.DisplayName.text"></div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div data-bind="if: ContainingPerson.User_ID">
+                                            <div data-bind="text:ContainingPerson.User_ID.text"></div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div data-bind="if: ContainingPerson.Email">
+                                            <div data-bind="text:ContainingPerson.Email.text"></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <ul class="pull-left pagination" style="margin: 0;">
+                            <li class="li-pagination">
+                                <a id="id_externalContactsCount"
+                                    style="border: 0; color: black; padding-left: 8px; cursor: auto;">
+                                    <span data-bind="text:externalContactsCount"></span>
+                                    <span> </span>
+                                    <span data-translatable="true">Contact(s)</span></a>
+                            </li>
+                        </ul>
+                        <ul class="pagination pull-right" style="margin: 0;">
+                            <li class="li-pagination" id="ext_contacts_decrementer" style="cursor: pointer;">
+                                <a data-bind="click:ext_contacts_decrementToLast.bind()"><span>«</span></a>
+                                <a data-bind="click:ext_contacts_decrementOffsetLimit.bind()"><span>‹</span></a>
+                            </li>
+                            <li class="li-pagination">
+                                <a data-bind="text:currentPage"></a>
+                            </li>
+                            <li class="li-pagination" id="ext_contacts_incrementer" style="cursor: pointer;">
+                                <a data-bind="click:ext_contacts_incrementOffsetLimit.bind()"><span>›</span></a>
+                                <a data-bind="click:ext_contacts_incrementToLast.bind()"><span>»</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_OkAddUser"><span
+                            data-translatable="true">OK</span></button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+                        id="btn_cancelAddUser"><span data-translatable="true">Cancel</span></button>
+                </div>
+            </div>
+        </div>
+        <script type="text/html" id="clauseandSectionContentTemplate">
+            <!--ko if:(type==='CLAUSE' && showContainer==='true')-->
+        <li class="clause_Iterator clause-header dragClause droptarget_clause panel" draggable="false"
+            style="border-radius: 0px;" data-bind="attr: {id:containerID+'_Container',
+                    sectionOrder:function(){return $parentContext && $parentContext.$index ?  $parentContext.$index() : 0 ;},
+                    clauseOrder:$index(),generatedClauseID:generatedClauseID,isStandard:isStandard},
+                    css: {'border-left-nonstandard':!showConvertToNonStandardBtn() && !isDirty(),'border-left-nonstandard-edited':!showConvertToNonStandardBtn() && isDirty(),'border-left-standard':showConvertToNonStandardBtn() && !isDirty(),'border-left-standard-edited':showConvertToNonStandardBtn() && isDirty(),
+                        'pasteSection':(($data === $root.pasteContainerData()) || ($data ===$root.addSectionData())),'cutSection':($data===$root.cutContainerData()),'no-numbering':nonumbering()},
+                    click:function(){$root.selectContainer($data, $parent,$parents[1], event); translatePage();}">
+            <!-- ko if:( isStandard() ) -->
+            <div class="" data-text="Standard clause" data-bind="text: clauseName,attr:{id:containerID+'_clauseName',class:numberingStyle()+'-numbering'},
+                        css: { 'cascade-off': cascade()=='OFF','no-numbering':nonumbering()}"
+                style="font-weight: 400;font-size: 16px !important;" contentEditable="false">
+            </div>
+            <!-- /ko-->
+            <!-- ko ifnot:(isStandard() ) -->
+            <div class="" data-text="Non standard clause" style="font-weight: 600" contentEditable="false"
+                data-bind="attr:{class:numberingStyle()+'-numbering'},css: { 'cascade-off': cascade()=='OFF','no-numbering':nonumbering()}">
+                <input class="clauseNameInput" data-text="Clause name" id="CA_Clause_name"
+                    data-bind="textInput: clauseName,attr:{id:containerID+'_clauseName'},event:{keyup:updateClauseAction}"
+                    style="font-weight: 400;border: 0px solid !important;background: transparent !important;width: 200;font-size: 16px !important;height: 24px !important;">
+            </div>
+            <!-- /ko-->
+            <div data-text="Clause content"
+                data-bind="html: clauseHTMLContent,attr:{id:containerID + '_clauseHTMLContent',cascade:cascade,sectionOrder:$parentContext && $parentContext.$index ?  $parentContext.$index():0,clauseOrder:$index(),isStandard:''+isStandard()+''}"
+                style="overflow: auto;resize: none;margin-top: 5px;border-width:thin;border-radius:1px;padding-left:16px"
+                contentEditable="true"></div>
+            <div class="divbutton_cl" align="center" style="display: block; height:30px;">
+                <div class="btn-group" style="top:-12.5px"
+                    data-bind="css:{hidden:!$root.addSectionData() || !($root.addSectionData().type==='CLAUSE' && $root.addSectionData() ===$data)}">
+                    <!-- ko if:showConvertToNonStandardBtn -->
+                    <div class="btn btn-sm cc-btn-clr" title="Edit clause" id="edit_clause"
+                        data-bind="click:convertToNonStandard.bind($data,($parentContext && $parentContext.$index ?$parentContext.$index():0),$index()),css:{blurIcon:l_input_conditionInstMap.has(containerID)}"
+                        style="display:initial;">
+                        <div data-translatable="true" class="editIcon"></div>
+                    </div>
+                    <!-- /ko-->
+                    <div class="btn btn-sm cc-btn-clr" title="Cut clause" id="cut_clause"
+                        data-bind="click:function(){$root.cutContainer($data,$parent, event);}"
+                        style="display:initial;">
+                        <div data-translatable="true" class="cutSectionIcon"></div>
+                    </div>
+                    <div class="btn btn-sm cc-btn-clr" title="Move clause up" id="move_clauseup"
+                        data-bind="click:function(){moveUp($data,$index(),$parent,event);}" style="display:initial;">
+                        <div data-translatable="true" class="moveUpSectionButton"></div>
+                    </div>
+                    <div class="btn btn-sm cc-btn-clr" title="Move clause down" id="move_clausedown"
+                        data-bind="click:function(){moveDown($data,$index(),$parent,event);}" style="display:initial;">
+                        <div data-translatable="true" class="moveDownSectionButton"></div>
+                    </div>
+                    <div class="btn btn-sm cc-btn-clr" title="Remove clause" id="remove_clause"
+                        data-bind="click:deleteClause.bind($data,($parentContext && $parentContext.$index ?$parentContext.$index():0),$parent)"
+                        style="display:initial;">
+                        <div data-translatable="true" class="deleteSectionBtn"></div>
+                    </div>
+                    <!-- ko if:showReplacewithEqClauseBtn -->
+                    <div class="btn  btn-sm cc-btn-clr" title="Replace with equivalent clause" id="replace_equi_clause"
+                        data-bind="click:showEqClausesList.bind($data,($parentContext && $parentContext.$index ? $parentContext.$index():0) ,clauseID),css:{blurIcon:l_input_conditionInstMap.has(containerID)}"
+                        style="display:initial;">
+                        <div data-translatable="true" class="replaceEqIcon"></div>
+                    </div>
+                    <!-- /ko-->
+                    <!-- ko ifnot:(isNew == true)-->
+                    <!-- ko if:($root.contract_LifecycleState=="Negotiation" && $root.contract_Z_INT_Status()=="SentForNegotiation") -->
+                    <div class="btn btn-sm cc-btn-clr" title="Add negotiation comments" id="add_nego_comments"
+                        data-bind="click:addNegComments.bind($data)" style="display:initial;">
+                        <div data-translatable="true" class="addNegComments"></div>
+                    </div>
+                    <!-- /ko-->
+                    <!-- /ko-->
+                    <div class="btn btn-sm cc-btn-clr" title="View negotiation comments" id="view_nego_comments"
+                        data-bind="click:viewClauseComments.bind($data,initialContainingClauseID,clauseName())"
+                        style="display:initial;">
+                        <div data-translatable="true" class="viewNegComments"></div>
+                    </div>
+                </div>
+            </div>
+            <!--Child containers-->
+            <!-- ko if: container().length > 0 -->
+            <div class="panel-collapse collapse in" data-bind="attr: {id:'Panel_'+containerID}">
+                <ol class="m_secandcls-ol cl"
+                    data-bind="template:{name:'clauseandSectionContentTemplate',foreach:container}"></ol>
+            </div>
+            <!-- /ko -->
+            <!--/Child containers-->
+        </li>
+        <!--/ko-->
+        <!--ko if:(type==='SECTION' && showContainer==='true')-->
+        <!-- <label for="" data-bind="text:$root.currentActiveSection()"></label> -->
+        <li draggable="false" class="section_Iterator dragSection droptarget_section panel panel-default"
+            data-bind="click: function(){$root.change_dropDown($data, event);$root.selectContainer($data,$parent,$parents[1], event);},
+                        attr:{id:containerID+'_Container', sectionOrder: $index()},
+                        css:{'pasteSection':(($data === $root.pasteContainerData()) || ($data ===$root.addSectionData())),'cutSection':($data===$root.cutContainerData()),'no-numbering':nonumbering()}"
+            style="border-radius: 0px; min-height: 50px; border: 1px solid #E6E6E6;">
+            <div class="col-lg-12 panel-heading"
+                style="height: 40px; padding-left: 0px; padding-right: 0px; padding-top: 7px; cursor: -webkit-grab; background-color: #F3F6FB;">
+                <div class="col-lg-9 col-md-9 rtl-float-right" style="padding-left: 0px;">
+                    <span class="asterisc" data-translatable="true">*</span>
+                    <div class="" style="display: inline-block;"
+                        data-bind="attr:{class:numberingStyle()+'-numbering'},css: { 'cascade-off': cascade()=='OFF','no-numbering':nonumbering()}">
+                        <input class="sectionNameInput text-align-right" data-text="Section name" id="CA_Section_name"
+                            data-bind="textInput: sectionName,event:{ change: updateSectionAction},attr:{isNew:''+isNew}"
+                            style="font-weight: 400;border: 0px solid !important;background: transparent !important;width: 200;font-size: 16px !important;height: 24px !important;">
+                        <!-- oninput="updateSectionAction(this)" -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 divbutton_sec" align="right" style="display: block;padding-right:16px;">
+                    <div class="btn-group appsbtn-micro">
+                        <div class="btn-group dropdown rtl-float-right" style="padding-right:12px"
+                            data-bind="css:{'open':options()},attr:{id:initialContainingSectionID+'_Section_options'}">
+                            <button class="btn dropdown-toggle moreOptions" type="button" id="dropdownMenuButtons"
+                                style="box-shadow:none" data-toggle="dropdown" aria-expanded="false"
+                                data-bind="click:function(){options(!options());}"></button>
+                            <ul class="dropdown-menu" id="section-actions-dropdown-menu"
+                                style="cursor: pointer;padding-inline-start:0px;left: -160px;min-width: 240px;">
+                                <li class="dropdown-item middlepadding"
+                                    data-bind="click:function(){addNestedSection($data); }">
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div class="addSubsection" style="margin-right: 0px;padding: 0px 8px;">&nbsp;
+                                        </div>
+                                    </div>
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div data-translatable="true">Add subsection</div>
+                                    </div>
+                                </li>
+                                <!-- ko ifnot:(isNew == true)-->
+                                <!-- ko if:($root.contract_LifecycleState=="Negotiation" && ($root.contract_Z_INT_Status()=="SentForNegotiation")) -->
+                                <li class="dropdown-item middlepadding" data-bind="click:addNegComments.bind($data)">
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div class="addNegComments" style="margin-right: 0px;padding: 0px 8px;">&nbsp;
+                                        </div>
+                                    </div>
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div data-translatable="true">Add negotiation comments</div>
+                                    </div>
+                                </li>
+                                <!-- /ko-->
+                                <li class="dropdown-item middlepadding"
+                                    data-bind="click:viewSectionComments.bind($data,initialContainingSectionID,initialContainingClauseID,sectionName())">
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div class="viewNegComments" style="margin-right: 0px;padding: 0px 8px;">&nbsp;
+                                        </div>
+                                    </div>
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div data-translatable="true">View negotiation comments</div>
+                                    </div>
+                                </li>
+                                <!-- /ko-->
+                                <li class="dropdown-item middlepadding"
+                                    data-bind="click:addNonStandardClause.bind($data,$index())">
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div class="nonStandardClauseicon" style="margin-right: 0px;padding: 0px 8px;">
+                                            &nbsp;</div>
+                                    </div>
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div data-translatable="true">Add non-standard clause</div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item middlepadding"
+                                    data-bind="click:function(){$root.cutContainer($data,$parent, event);}">
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div class="cutSectionIcon" style="margin-right: 0px;padding: 0px 8px;">&nbsp;
+                                        </div>
+                                    </div>
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div data-translatable="true">Cut section</div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item middlepadding"
+                                    data-bind="click:function(){moveUp($data,$index(),$parent,true,event);}">
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div class="moveUpSectionButton" style="margin-right: 0px;padding: 0px 8px;">
+                                            &nbsp;</div>
+                                    </div>
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div data-translatable="true">Move section up</div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item middlepadding"
+                                    data-bind="click:function(){moveDown($data,$index(),$parent,true,event);}">
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div class="moveDownSectionButton" style="margin-right: 0px;padding: 0px 8px;">
+                                            &nbsp;</div>
+                                    </div>
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div data-translatable="true">Move section down</div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item middlepadding"
+                                    data-bind="click:deleteSubSection.bind($data,$index(),$parent)">
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div class="deleteSectionBtn" style="margin-right: 0px;padding: 0px 8px;">&nbsp;
+                                        </div>
+                                    </div>
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div data-translatable="true">Delete section</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="line-separator" id="sections_line_sep"></button>
+                        <a class="accordion-toggle panel-title rtl-accordion-toggle-no-padding"
+                            style="padding-left: 12px" data-toggle="collapse"
+                            data-bind="{click:togglePanel(containerID),attr: { href:'#Panel_'+containerID,id:'Accordian_'+containerID}}"></a>
+                    </div>
+                </div>
+            </div>
+            <!--Child containers-->
+            <!-- ko if: container().length > 0 -->
+            <div class="panel-collapse collapse in" data-bind="attr: {id:'Panel_'+containerID}" style="margin-top:39px">
+                <ol class="m_secandcls-ol cl"
+                    data-bind="template:{name:'clauseandSectionContentTemplate',foreach:container}"></ol>
+            </div>
+            <!-- /ko -->
+            <!--/Child containers-->
+        </li>
+        <!--/ko-->
+        </script>
+
+        <script type="text/html" id="clauseandSectionContentOtherTemplate">
+            <!--ko if:(type==='CLAUSE' && showContainer==='true')-->
+        <li class="clause_Iterator clause-header dragClause droptarget_clause panel" draggable="false"
+            style="border-radius: 0px;" data-bind="attr: {id:containerID+'_Container',
+                    sectionOrder:function(){return $parentContext && $parentContext.$index ?  $parentContext.$index() : 0 ;},
+                    clauseOrder:$index(),generatedClauseID:generatedClauseID,isStandard:isStandard},
+                    css: {'border-left-nonstandard':!showConvertToNonStandardBtn() && !isDirty(),'border-left-nonstandard-edited':!showConvertToNonStandardBtn() && isDirty(),'border-left-standard':showConvertToNonStandardBtn() && !isDirty(),'border-left-standard-edited':showConvertToNonStandardBtn() && isDirty(),
+                        'pasteSection':(($data === $root.pasteContainerData()) || ($data ===$root.addSectionData())),'cutSection':($data===$root.cutContainerData()),'no-numbering':nonumbering()},
+                    click:function(){$root.selectContainer($data, $parent,$parents[1], event); translatePage();}">
+            <div class="" data-text="Standard clause" data-bind="text: clauseName,attr:{id:containerID+'_clauseName',class:numberingStyle()+'-numbering'},
+                css: { 'cascade-off': cascade()=='OFF','no-numbering':nonumbering()}"
+                style="font-weight: 400;font-size: 16px !important;" contentEditable="false">
+            </div>
+            <div data-text="Clause content"
+                data-bind="html: clauseHTMLContent,attr:{id:containerID + '_clauseHTMLContent',cascade:cascade,sectionOrder:$parentContext && $parentContext.$index ?  $parentContext.$index():0,clauseOrder:$index(),isStandard:''+isStandard()+''}"
+                style="overflow: auto;resize: none;margin-top: 5px;border-width:thin;border-radius:1px;padding-left:16px"
+                contentEditable="false"></div>
+            <div class="divbutton_cl" align="center" style="display: block; height:30px;">
+                <div class="btn-group" style="top:-12.5px"
+                    data-bind="css:{hidden:!$root.addSectionData() || !($root.addSectionData().type==='CLAUSE' && $root.addSectionData() ===$data)}">
+                    <div class="btn btn-sm cc-btn-clr single-button" title="View negotiation comments"
+                        id="view_nego_comments1"
+                        data-bind="click:viewClauseComments.bind($data,initialContainingClauseID,clauseName())"
+                        style="display:initial;">
+                        <div data-translatable="true" class="viewNegComments"></div>
+                    </div>
+                </div>
+            </div>
+            <!--Child containers-->
+            <!-- ko if: container().length > 0 -->
+            <div class="panel-collapse collapse in" data-bind="attr: {id:'Panel_'+containerID}">
+                <ol class="m_secandcls-ol cl"
+                    data-bind="template:{name:'clauseandSectionContentOtherTemplate',foreach:container}"></ol>
+            </div>
+            <!-- /ko -->
+            <!--/Child containers-->
+        </li>
+        <!--/ko-->
+        <!--ko if:(type==='SECTION' && showContainer==='true')-->
+        <!-- <label for="" data-bind="text:$root.currentActiveSection()"></label> -->
+        <li draggable="false" class="section_Iterator dragSection droptarget_section panel panel-default"
+            data-bind="click: function(){$root.change_dropDown($data, event);$root.selectContainer($data,$parent,$parents[1], event);},
+                        attr:{id:containerID+'_Container', sectionOrder: $index()},css:{'pasteSection':(($data === $root.pasteContainerData()) || ($data ===$root.addSectionData())),'cutSection':($data===$root.cutContainerData())}"
+            style="border-radius: 0px; min-height: 50px; border: 1px solid #E6E6E6;">
+            <div class="col-lg-12 panel-heading"
+                style="height: 40px; padding-left: 0px; padding-right: 0px; padding-top: 7px; cursor: -webkit-grab; background-color: #F3F6FB;">
+                <div class="col-lg-9 col-md-9 rtl-float-right" style="padding-left: 0px;">
+                    <span class="asterisc" data-translatable="true">*</span>
+                    <div class="" style="display: inline-block;"
+                        data-bind="attr:{class:numberingStyle()+'-numbering'},css: { 'cascade-off': cascade()=='OFF','no-numbering':nonumbering()}">
+                        <input class="sectionNameInput text-align-right" data-text="Section name" id="CA_Section_name" readonly
+                            data-bind="textInput: sectionName,event:{ change: updateSectionAction},attr:{isNew:''+isNew}"
+                            style="font-weight: 400;border: 0px solid !important;background: transparent !important;width: 200;font-size: 16px !important;height: 24px !important;">
+                        <!-- oninput="updateSectionAction(this)" -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 divbutton_sec" align="right" style="display: block;padding-right:16px;">
+                    <div class="btn-group">
+                        <div class="btn-group dropdown" style="padding-right:12px"
+                            data-bind="css:{'open':options()},attr:{id:initialContainingSectionID+'_Section_options'}">
+                            <button class="btn dropdown-toggle moreOptions" type="button" id="dropdownMenuButtons"
+                                style="box-shadow:none" data-toggle="dropdown" aria-expanded="false"
+                                data-bind="click:function(){options(!options()); translatePage();}"></button>
+                            <ul class="dropdown-menu"
+                                style="cursor: pointer;padding-inline-start:0px;left: -160px;min-width: 240px;">
+                                <!-- ko ifnot:(isNew == true)-->
+                                <li class="dropdown-item middlepadding"
+                                    data-bind="click:viewSectionComments.bind($data,initialContainingSectionID,initialContainingClauseID,sectionName())">
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div class="viewNegComments" style="margin-right: 0px;padding: 0px 8px;">&nbsp;
+                                        </div>
+                                    </div>
+                                    <div style="display: inline-block;align-items: center;">
+                                        <div data-translatable="true">View negotiation comments</div>
+                                    </div>
+                                </li>
+                                <!-- /ko-->
+                            </ul>
+                        </div>
+                        <button class="line-separator"></button>
+                        <a class="accordion-toggle panel-title" style="padding-left: 12px" data-toggle="collapse"
+                            data-bind="{click:togglePanel(containerID),attr: { href:'#Panel_'+containerID,id:'Accordian_'+containerID}}"></a>
+                    </div>
+                </div>
+            </div>
+            <!--Child containers-->
+            <!-- ko if: container().length > 0 -->
+            <div class="panel-collapse collapse in" data-bind="attr: {id:'Panel_'+containerID}" style="margin-top:39px">
+                <ol class="m_secandcls-ol cl"
+                    data-bind="template:{name:'clauseandSectionContentOtherTemplate',foreach:container}"></ol>
+            </div>
+            <!-- /ko -->
+            <!--/Child containers-->
+        </li>
+        <!--/ko-->
+        </script>
+
+        <div id="default-div-foreditor" contenteditable="false">
+        </div>
+
+        <!-- Delete section warning modal form -->
+        <div class="modal fade" id="sectionModal" role="dialog">
+            <div class="modal-content"
+                style="display: block; width:32%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 data-translatable="true">Confirm</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="apps-warning-msg" data-translatable="true">Are you sure you want to delete this section?
+                    </div>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="deleteSection">
+                        <span data-translatable="true">Yes</span>
+                    </button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="cancelSection">
+                        <span data-translatable="true">No</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- No changes to save -->
+        <div class="modal fade" id="no_changes_to_Save" role="dialog">
+            <div class="modal-content"
+                style="display: block; width:32%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 data-translatable="true">Alert</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="apps-warning-msg" data-translatable="true">There are no changes to save.</div>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal">
+                        <span data-translatable="true">OK</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Convert to NonStandard Clause -->
+        <div class="modal fade" id="convertToNonStandard" role="dialog">
+            <div class="modal-content"
+                style="display: block; width:32%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 data-translatable="true">Confirm</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="apps-warning-msg" data-translatable="true">The clause will be converted to non-standard.
+                    </div>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal"
+                        id="convertToNonStandardOk">
+                        <span data-translatable="true">OK</span>
+                    </button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+                        id="convertToNonStandardCancel">
+                        <span data-translatable="true">Cancel</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Remove Clause -->
+        <div class="modal fade" id="clauseModal" role="dialog">
+            <div class="modal-content"
+                style="display: block; width:32%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 data-translatable="true">Confirm</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="apps-warning-msg" data-translatable="true">Are you sure you want to remove this clause?
+                    </div>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="removeClause">
+                        <span data-translatable="true">Yes</span>
+                    </button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="cancelClause">
+                        <span data-translatable="true">No</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cancel Modal -->
+        <div class="modal fade" id="cancelModal" role="dialog">
+            <div class="modal-content"
+                style="display: block; width:32%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 data-translatable="true">Confirm</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="apps-warning-msg" data-translatable="true">Are you sure you want to cancel the changes?
+                    </div>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="cancelChanges">
+                        <span data-translatable="true">Yes</span>
+                    </button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal">
+                        <span data-translatable="true">No</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Terms creation is in progress. -->
+        <div class="modal fade" id="terms_creation_inprogress" role="dialog">
+            <div class="modal-content"
+                style="display: block; width:32%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 data-translatable="true">Alert</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="apps-warning-msg" data-translatable="true">Terms are being created. Try again later.
+                    </div>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal">
+                        <span data-translatable="true">OK</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

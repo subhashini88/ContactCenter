@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8B3F-70509DB06B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8B3F-70509DB02B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8B3F-70509DB02B9A</Name>
+	<Description>UpdateCCCurrentVersion</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-05T09:34:25.466</CreationDate>
+	<Notes/>
+	<Text>UpdateCCCurrentVersion</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8B3F-70509DAFAB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

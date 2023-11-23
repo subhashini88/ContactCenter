@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B804-65BA4BB4AB87">
+	<DocumentID>50EB711A-AD5A-A1EC-B804-65BA4BB46B87</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B804-65BA4BB46B87</Name>
+	<Description>ReadUpgradeBatchJob1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-30T12:13:02.725</CreationDate>
+	<Notes/>
+	<DefaultText>ReadUpgradeBatchJob1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-B804-65BA4BB4EB87"
+		/>
+	</Translations>
+</TextIdentifier>

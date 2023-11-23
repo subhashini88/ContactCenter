@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B214-7CAC63E27DE9">
+	<DocumentID>C4D98747-AA4E-A1E7-B214-7CAC63E23DE9</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-13T09:14:26.945</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-B214-7CAC63E1BDE9">
+			<DocumentID>C4D98747-AA4E-A1E7-B214-7CAC63E17DE9</DocumentID>
+			<Name>CreateCancellationType</Name>
+			<Description>Create CancellationType</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-11-13T09:14:26.942</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-B213-46247D11BDE9"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-B214-7CAC63E03DE9">
+			<DocumentID>C4D98747-AA4E-A1E7-B214-7CAC63DFFDE9</DocumentID>
+			<Name>DeleteCancellationType</Name>
+			<Description>Delete CancellationType</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-11-13T09:14:26.947</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-B213-46247D11BDE9"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="C4D98747-AA4E-A1E7-B213-46247D11BDE9"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-B214-7CAC63E13DE9">
+			<DocumentID>C4D98747-AA4E-A1E7-B214-7CAC63E0FDE9</DocumentID>
+			<Name>ReadCancellationType</Name>
+			<Description>Read CancellationType</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-11-13T09:14:26.946</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-B213-46247D11BDE9"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-B214-7CAC63E0BDE9">
+			<DocumentID>C4D98747-AA4E-A1E7-B214-7CAC63E07DE9</DocumentID>
+			<Name>UpdateCancellationType</Name>
+			<Description>Update CancellationType</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-11-13T09:14:26.944</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-B213-46247D11BDE9"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

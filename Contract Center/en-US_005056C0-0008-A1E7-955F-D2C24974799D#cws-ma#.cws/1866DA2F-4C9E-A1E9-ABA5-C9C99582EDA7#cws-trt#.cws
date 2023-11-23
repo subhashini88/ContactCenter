@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-ABA5-C9C995832DA7">
+	<DocumentID>1866DA2F-4C9E-A1E9-ABA5-C9C99582EDA7</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-ABA5-C9C99582EDA7</Name>
+	<Description>Target contract cannot be empty</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-25T04:59:33.342</CreationDate>
+	<Notes/>
+	<Text>Target contract cannot be empty</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1E9-ABA5-C9C995826DA7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

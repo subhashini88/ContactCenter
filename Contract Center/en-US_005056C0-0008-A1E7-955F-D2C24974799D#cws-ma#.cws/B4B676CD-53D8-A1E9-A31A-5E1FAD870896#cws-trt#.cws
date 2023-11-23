@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-A31A-5E1FAD874896">
+	<DocumentID>B4B676CD-53D8-A1E9-A31A-5E1FAD870896</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-A31A-5E1FAD870896</Name>
+	<Description>Renegotiate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-06-11T16:57:32.227</CreationDate>
+	<Notes/>
+	<Text>Renegotiate</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-A31A-5E1FAD868896"
+		/>
+	</TextIdentifier>
+</TranslatedText>

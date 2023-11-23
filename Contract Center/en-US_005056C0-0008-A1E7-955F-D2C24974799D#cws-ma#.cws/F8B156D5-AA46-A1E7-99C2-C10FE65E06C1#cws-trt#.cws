@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-99C2-C10FE65E46C1">
+	<DocumentID>F8B156D5-AA46-A1E7-99C2-C10FE65E06C1</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-99C2-C10FE65E06C1</Name>
+	<Description>EquivalenceClause</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-07-12T14:06:20.46</CreationDate>
+	<Notes/>
+	<Text>EquivalenceClause</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-99C2-C10FE65D86C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A47-EDDF1E656B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A47-EDDF1E652B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A47-EDDF1E652B9A</Name>
+	<Description>UpgradeDocuSignEnvpCrtType</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-31T11:27:06.036</CreationDate>
+	<Notes/>
+	<Text>UpgradeDocuSignEnvpCrtType</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A47-EDDF1E64AB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

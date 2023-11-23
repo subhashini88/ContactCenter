@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9EAA-D73BD6FEE4C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9EAA-D73BD6FEA4C8</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9EAA-D73BD6FEA4C8</Name>
+	<Description>Send email_15</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-28T08:24:59.16</CreationDate>
+	<Notes/>
+	<DefaultText>Send email_15</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-9EAA-D73BD6FF24C8"
+		/>
+	</Translations>
+</TextIdentifier>

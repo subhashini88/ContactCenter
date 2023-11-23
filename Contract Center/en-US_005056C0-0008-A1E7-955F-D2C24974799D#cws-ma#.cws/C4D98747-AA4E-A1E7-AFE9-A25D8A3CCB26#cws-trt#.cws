@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AFE9-A25D8A3D0B26">
+	<DocumentID>C4D98747-AA4E-A1E7-AFE9-A25D8A3CCB26</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AFE9-A25D8A3CCB26</Name>
+	<Description>Renewal child end date</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-02T08:45:29.313</CreationDate>
+	<Notes/>
+	<Text>Renewal child end date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-AFE9-A25D8A3C4B26"
+		/>
+	</TextIdentifier>
+</TranslatedText>

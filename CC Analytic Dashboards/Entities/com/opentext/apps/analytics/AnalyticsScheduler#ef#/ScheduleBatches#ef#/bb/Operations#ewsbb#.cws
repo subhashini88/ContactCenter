@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-83F2-EA3B618556A0">
+	<DocumentID>98FA9B81-5041-A1EE-83F2-EA3B618516A0</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-06-21T00:37:43.327</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="98FA9B81-5041-A1EE-83F2-55B7BB5BD6A0"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="98FA9B81-5041-A1EE-8997-A31D07EA56AB">
+			<DocumentID>98FA9B81-5041-A1EE-8997-A31D07EA16AB</DocumentID>
+			<Name>ReadScheduleBatches</Name>
+			<Description>Read ScheduleBatches</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2023-07-19T18:13:41.654</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B81-5041-A1EE-83F2-55B7BB5BD6A0"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="98FA9B81-5041-A1EE-8997-A31D07EAD6AB">
+			<DocumentID>98FA9B81-5041-A1EE-8997-A31D07EA96AB</DocumentID>
+			<Name>UpdateScheduleBatches</Name>
+			<Description>Update ScheduleBatches</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2023-07-19T18:13:41.654</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B81-5041-A1EE-83F2-55B7BB5BD6A0"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

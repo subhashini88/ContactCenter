@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-B9F4-3A0AF7DAAD6B">
+	<DocumentID>00505601-79C2-A1EC-B9F4-3A0AF7DA6D6B</DocumentID>
+	<Name>00505601-79C2-A1EC-B9F4-3A0AF7DA6D6B</Name>
+	<Description>is Retry?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-09T09:04:44.629</CreationDate>
+	<Notes/>
+	<Text>is Retry?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-B9F4-3A0AF7D9ED6B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

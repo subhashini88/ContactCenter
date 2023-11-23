@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-8015-C847E25BC494">
+	<DocumentID>98FA9B1A-7A8B-A1EE-8015-C847E25B8494</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-8015-C847E25B8494</Name>
+	<Description>For each report node</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-01T08:48:22.592</CreationDate>
+	<Notes/>
+	<DefaultText>For each report node</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-8015-C847E25C0494"
+		/>
+	</Translations>
+</TextIdentifier>

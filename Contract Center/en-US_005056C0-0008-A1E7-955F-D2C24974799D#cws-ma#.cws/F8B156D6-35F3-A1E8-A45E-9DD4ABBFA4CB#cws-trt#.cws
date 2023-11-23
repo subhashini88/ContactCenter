@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A45E-9DD4ABBFE4CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A45E-9DD4ABBFA4CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A45E-9DD4ABBFA4CB</Name>
+	<Description>&quot;Auto renew duration should not be empty&quot;</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-27T08:53:27.987</CreationDate>
+	<Notes/>
+	<Text>&quot;Auto renew duration should not be empty&quot;</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A45E-9DD4ABBF24CB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

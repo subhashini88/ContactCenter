@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B9F5-A2C23000A504">
+	<DocumentID>484D7EEB-71EF-A1E8-B9F5-A2C230006504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B9F5-A2C230006504</Name>
+	<Description>Legal approver home</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-14T06:29:55.015</CreationDate>
+	<Notes/>
+	<DefaultText>Legal approver home</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E8-B9F5-A2C23000E504"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-C5A99294B068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-C5A992933068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-C5A99291F068"
+		/>
+	</Translations>
+</TextIdentifier>

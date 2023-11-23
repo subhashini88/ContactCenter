@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-9740-6B9A9FC02517">
+	<DocumentID>484D7EEB-71EF-A1E9-9740-6B9A9FBFE517</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-9740-6B9A9FBFE517</Name>
+	<Description>CreateNonStandClause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-12T09:20:11.043</CreationDate>
+	<Notes/>
+	<Text>CreateNonStandClause</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-9740-6B9A9FBF6517"
+		/>
+	</TextIdentifier>
+</TranslatedText>

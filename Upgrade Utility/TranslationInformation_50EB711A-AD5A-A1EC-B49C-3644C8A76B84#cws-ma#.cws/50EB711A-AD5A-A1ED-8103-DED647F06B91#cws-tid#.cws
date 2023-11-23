@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-8103-DED647F0AB91">
+	<DocumentID>50EB711A-AD5A-A1ED-8103-DED647F06B91</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-8103-DED647F06B91</Name>
+	<Description>ContractTemTypeUpgrade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-15T07:29:28.491</CreationDate>
+	<Notes/>
+	<DefaultText>ContractTemTypeUpgrade</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1ED-8103-DED647F0EB91"
+		/>
+	</Translations>
+</TextIdentifier>

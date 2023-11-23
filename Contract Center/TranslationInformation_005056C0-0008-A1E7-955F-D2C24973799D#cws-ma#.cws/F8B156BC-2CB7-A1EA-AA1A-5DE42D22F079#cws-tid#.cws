@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-AA1A-5DE42D233079">
+	<DocumentID>F8B156BC-2CB7-A1EA-AA1A-5DE42D22F079</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-AA1A-5DE42D22F079</Name>
+	<Description>Organization: A value is required.</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-06-07T02:52:30.964</CreationDate>
+	<Notes/>
+	<DefaultText>Organization: A value is required.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EA-AA1A-5DE42D237079"
+		/>
+	</Translations>
+</TextIdentifier>

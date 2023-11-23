@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-BD91-071DEF6966BA">
+	<DocumentID>8C1645B9-0967-A1EA-BD91-071DEF6926BA</DocumentID>
+	<Name>8C1645B9-0967-A1EA-BD91-071DEF6926BA</Name>
+	<Description>Get comments by containing clause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-14T04:59:09.888</CreationDate>
+	<Notes/>
+	<Text>Get comments by containing clause</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-BD91-071DEF68A6BA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A7D5-C931EA1A1BE5">
+	<DocumentID>C4D98747-AA4E-A1E7-A7D5-C931EA19DBE5</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A7D5-C931EA19DBE5</Name>
+	<Description>Contract line ID</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-09-22T05:45:45.763</CreationDate>
+	<Notes/>
+	<DefaultText>Contract line ID</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A7D5-C931EA1A5BE5"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-A78B-4FADE96F7A9B">
+	<DocumentID>98FA9B81-5041-A1EC-A78B-4FADE96F3A9B</DocumentID>
+	<Name>98FA9B81-5041-A1EC-A78B-4FADE96F3A9B</Name>
+	<Description>Recurrence end in Occurences</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-03-07T16:10:30.868</CreationDate>
+	<Notes/>
+	<Text>Recurrence end in Occurences</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-A78B-4FADE96EBA9B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

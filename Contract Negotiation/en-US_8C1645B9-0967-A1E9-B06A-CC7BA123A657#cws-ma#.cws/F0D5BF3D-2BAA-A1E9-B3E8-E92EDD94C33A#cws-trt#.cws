@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B3E8-E92EDD95033A">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B3E8-E92EDD94C33A</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B3E8-E92EDD94C33A</Name>
+	<Description>Existed Contract</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-05T06:16:15.644</CreationDate>
+	<Notes/>
+	<Text>Existed Contract</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B3E8-E92EDD94433A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

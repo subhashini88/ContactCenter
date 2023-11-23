@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9635-0BCF153D701C">
+	<DocumentID>F8B156BC-2CB7-A1E8-9635-0BCF153D301C</DocumentID>
+	<Name>HideClient</Name>
+	<Description>HideClient</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-05-16T06:46:17.485</CreationDate>
+	<Notes/>
+	<referenceCount>3</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

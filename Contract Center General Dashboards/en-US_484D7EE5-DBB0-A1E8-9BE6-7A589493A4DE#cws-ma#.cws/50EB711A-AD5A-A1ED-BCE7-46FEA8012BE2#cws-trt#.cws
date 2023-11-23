@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-BCE7-46FEA8016BE2">
+	<DocumentID>50EB711A-AD5A-A1ED-BCE7-46FEA8012BE2</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-BCE7-46FEA8012BE2</Name>
+	<Description>CC Custom Reports</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-16T03:55:24.048</CreationDate>
+	<Notes/>
+	<Text>CC Custom Reports</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1ED-BCE7-46FEA800ABE2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E8-AD61-F8FC10FDA514">
+	<DocumentID>484D7EEB-7112-A1E8-AD61-F8FC10FD6514</DocumentID>
+	<Name>484D7EEB-7112-A1E8-AD61-F8FC10FD6514</Name>
+	<Description>ClearExternalContact</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2018-09-11T06:01:37.418</CreationDate>
+	<Notes/>
+	<Text>ClearExternalContact</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E8-AD61-F8FC10FCE514"
+		/>
+	</TextIdentifier>
+</TranslatedText>

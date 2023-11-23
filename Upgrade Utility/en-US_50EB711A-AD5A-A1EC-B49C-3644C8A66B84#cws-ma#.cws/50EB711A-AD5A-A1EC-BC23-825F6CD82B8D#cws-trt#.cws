@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BC23-825F6CD86B8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BC23-825F6CD82B8D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-BC23-825F6CD82B8D</Name>
+	<Description>Z_INT_UpgradeJobList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-20T11:47:24.03</CreationDate>
+	<Notes/>
+	<Text>Z_INT_UpgradeJobList</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-BC23-825F6CD7AB8D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

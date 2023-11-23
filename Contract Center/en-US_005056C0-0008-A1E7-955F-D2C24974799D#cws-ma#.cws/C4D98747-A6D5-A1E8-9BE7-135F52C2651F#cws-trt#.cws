@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D5-A1E8-9BE7-135F52C2A51F">
+	<DocumentID>C4D98747-A6D5-A1E8-9BE7-135F52C2651F</DocumentID>
+	<Name>C4D98747-A6D5-A1E8-9BE7-135F52C2651F</Name>
+	<Description>RelationTypeLog</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-14T06:34:25.676</CreationDate>
+	<Notes/>
+	<Text>RelationTypeLog</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D5-A1E8-9BE7-135F52C1E51F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

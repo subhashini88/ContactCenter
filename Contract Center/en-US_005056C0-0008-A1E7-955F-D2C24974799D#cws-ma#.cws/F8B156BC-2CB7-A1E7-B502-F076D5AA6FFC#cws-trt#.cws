@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-B502-F076D5AAAFFC">
+	<DocumentID>F8B156BC-2CB7-A1E7-B502-F076D5AA6FFC</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-B502-F076D5AA6FFC</Name>
+	<Description>Customer manager</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-11-28T07:21:50.856</CreationDate>
+	<Notes/>
+	<Text>Customer manager</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-B502-F076D5A9EFFC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

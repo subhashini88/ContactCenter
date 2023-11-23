@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-89DC-1405A16F3013">
+	<DocumentID>F8B156BC-2CB7-A1E8-89DC-1405A16EF013</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-89DC-1405A16EF013</Name>
+	<Description>StartImportProcess</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-03-16T03:00:33.532</CreationDate>
+	<Notes/>
+	<DefaultText>StartImportProcess</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-89DC-1405A16F7013"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A716-479A62D724C6">
+	<DocumentID>F8B156B5-069B-A1E7-A716-479A62D6E4C6</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A716-479A62D6E4C6</Name>
+	<Description>Contract status list</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-18T10:12:07.033</CreationDate>
+	<Notes/>
+	<Text>Contract status list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A716-479A62D664C6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

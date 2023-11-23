@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B0DC-F155E778E4B7">
+	<DocumentID>9890969C-5774-A1E7-B0DC-F155E778A4B7</DocumentID>
+	<Name>9890969C-5774-A1E7-B0DC-F155E778A4B7</Name>
+	<Description>Cancel reason detail</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-11-07T04:26:27.735</CreationDate>
+	<Notes/>
+	<Text>Cancel reason detail</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B0DC-F155E77824B7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

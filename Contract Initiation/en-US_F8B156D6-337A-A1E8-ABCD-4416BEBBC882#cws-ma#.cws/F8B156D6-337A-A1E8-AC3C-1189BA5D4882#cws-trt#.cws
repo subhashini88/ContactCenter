@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC3C-1189BA5D8882">
+	<DocumentID>F8B156D6-337A-A1E8-AC3C-1189BA5D4882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC3C-1189BA5D4882</Name>
+	<Description>Disable approved rule</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T09:59:38.138</CreationDate>
+	<Notes/>
+	<Text>Disable approved rule</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3C-1189BA5CC882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

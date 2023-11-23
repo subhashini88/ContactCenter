@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-8C33-DF1DCA74888A">
+	<DocumentID>B4B676CD-53D8-A1E9-8C33-DF1DCA74488A</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-8C33-DF1DCA74488A</Name>
+	<Description>Enter a valid contract name. The supported special characters are ` ! @ $ ^ ( ) _ + - , . ; ' [ ] } {</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-02-15T03:21:20.364</CreationDate>
+	<Notes/>
+	<DefaultText>Enter a valid contract name. The supported special characters are ` ! @ $ ^ ( ) _ + - , . ; ' [ ] } {</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E9-8C33-DF1DCA74C88A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-96E5-000A7F694F70">
+	<DocumentID>84A938BF-F78D-A1EE-96E5-000A7F690F70</DocumentID>
+	<Name>84A938BF-F78D-A1EE-96E5-000A7F690F70</Name>
+	<Description>Not - met</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-25T11:18:06.978</CreationDate>
+	<Notes/>
+	<Text>Not - met</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-96E5-000A7F688F70"
+		/>
+	</TextIdentifier>
+</TranslatedText>

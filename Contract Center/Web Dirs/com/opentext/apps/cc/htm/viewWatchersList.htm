@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+	<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	$.cordys.json.defaults.removeNamespacePrefix = true;
+		function GetContractWatchers(contractID, responseCallback) {
+			$.cordys.ajax({
+				method: "getContractWatchers",
+				namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+				parameters: contractID,
+				success: function (responseSuccess) {
+					responseCallback(responseSuccess);
+				},
+				error: function (responseFailure) {
+					responseCallback(responseFailure, "ERROR");
+					return false;
+				}
+			});
+		};
+		var ContractWatchersModel = function () {
+			var self = this;
+			self.watchersList = ko.observableArray();
+			self.contractID = ko.observable();
+
+			self.fetchWatchersList = function () {
+				var contractItemID = getUrlParameterValue("instanceId", null, true);
+				GetContractWatchers({ "contractId": contractItemID.split('.')[1] }, function (response_data, status) {
+					if (status !== "ERROR") {
+						self.watchersList.removeAll();
+						if (response_data.Response.FindZ_INT_WatchersResponse.Watchers && Array.isArray(response_data.Response.FindZ_INT_WatchersResponse.Watchers)) {
+							response_data.Response.FindZ_INT_WatchersResponse.Watchers.forEach(watcher => {
+								self.watchersList.push({
+									"Name": getTextValue(watcher.RelatedUser.toPerson.FirstName),
+									"Email": getTextValue(watcher.RelatedUser.toPerson.Email)
+								})
+							});
+						} else if (response_data.Response.FindZ_INT_WatchersResponse.Watchers) {
+							self.watchersList.push({
+								"Name": getTextValue(response_data.Response.FindZ_INT_WatchersResponse.Watchers.RelatedUser.toPerson.FirstName),
+								"Email": getTextValue(response_data.Response.FindZ_INT_WatchersResponse.Watchers.RelatedUser.toPerson.Email)
+							})
+						}
+					}
+				});
+			};
+		}
+        $(document).ready(function () {
+            var contractItemID;
+            var i_locale = getlocale();
+            var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+            loadRTLIfRequired(i_locale, rtl_css);
+
+            contractItemID = getUrlParameterValue("instanceId", null, true);
+
+			l_contractWatchers_model = new ContractWatchersModel();
+			ko.applyBindings(l_contractWatchers_model, document.getElementById("id_watchersListDialog"));
+			
+			l_contractWatchers_model.fetchWatchersList();
+
+			$('ai-dialog-footer .btn-primary:contains("OK")', window.parent.document).hide();
+			$('ai-dialog-footer .btn-secondary:contains("Cancel")', window.parent.document).text(getTranslationMessage("Close"));
+		});
+
+    </script>
+</head>
+
+<body style="overflow:hidden;" class="cc-ltr">
+                <div  id="id_watchersListDialog" role="dialog" >
+                    <div  id="watchersDiv"
+                        style="display: block; margin: auto; overflow-y: hidden;">
+                        <div style="overflow: auto;">
+                            <div style="height: 100vh; overflow-y: auto;">
+                                <table id="id_watchersTable" class="table">
+                                    <thead>
+                                        <tr style="background: #EEF2F4;">
+                                            <th style="width: 40%;">
+                                                <label class="label-no-bold" data-translatable="true">Name</label>
+                                            </th>
+                                            <th style="width: 60%;">
+                                                <label class="label-no-bold" data-translatable="true">Email</label>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="id_watchersBody" data-bind="foreach:watchersList">
+                                        <tr class="row-style">
+                                            <td data-bind="text:Name"></td>
+                                            <td data-bind="text:Email"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>	
+</body>
+
+</html>

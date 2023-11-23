@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-A58F-7D7D3384A164">
+	<DocumentID>E86A64E0-AE43-A1EC-A58F-7D7D33846164</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-A58F-7D7D33846164</Name>
+	<Description>Monday</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-02-25T13:32:06.864</CreationDate>
+	<Notes/>
+	<Text>Monday</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A64E0-AE43-A1EC-A58F-7D7D3383E164"
+		/>
+	</TextIdentifier>
+</TranslatedText>

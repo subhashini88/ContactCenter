@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-BC94-CACF0AB7C39A">
+	<DocumentID>98FA9B1A-7A8B-A1EA-BC94-CACF0AB7839A</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-BC94-CACF0AB7839A</Name>
+	<Description>ReadContract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-09T04:21:29.147</CreationDate>
+	<Notes/>
+	<Text>ReadContract</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-BC94-CACF0AB7039A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

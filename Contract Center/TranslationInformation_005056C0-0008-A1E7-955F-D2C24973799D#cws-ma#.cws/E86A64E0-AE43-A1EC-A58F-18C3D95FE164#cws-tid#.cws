@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-A58F-18C3D9602164">
+	<DocumentID>E86A64E0-AE43-A1EC-A58F-18C3D95FE164</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-A58F-18C3D95FE164</Name>
+	<Description>Recurrence end type</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-02-25T13:23:40.712</CreationDate>
+	<Notes/>
+	<DefaultText>Recurrence end type</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="E86A64E0-AE43-A1EC-A58F-18C3D9606164"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B283-E7CD2E960339">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B283-E7CD2E95C339</DocumentID>
+	<Name>CCNegotiationWebDir</Name>
+	<Description>CCNegotiationWebDir</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-08-29T04:30:06.742</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA11DA657"
+			path="Contract Negotiation/Web Dirs"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B6A0-983A406205E2">
+	<DocumentID>C4D98747-AA4E-A1E7-B6A0-983A4061C5E2</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B6A0-983A4061C5E2</Name>
+	<Description>CalculateContractValues</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-12-06T12:47:49.447</CreationDate>
+	<Notes/>
+	<Text>CalculateContractValues</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-B6A0-983A406145E2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

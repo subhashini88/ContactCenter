@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-AA30-99F4EFD9EFEA">
+	<DocumentID>F8B156BC-2CB7-A1E7-AA30-99F4EFD9AFEA</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-AA30-99F4EFD9AFEA</Name>
+	<Description>Z_INT_VolumeAllowanceUnits</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-04T06:10:10.932</CreationDate>
+	<Notes/>
+	<Text>Z_INT_VolumeAllowanceUnits</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-AA30-99F4EFD92FEA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

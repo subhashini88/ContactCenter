@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2D-A8DF-A1E7-ADF8-36E65C81E4C2">
+	<DocumentID>1866DA2D-A8DF-A1E7-ADF8-36E65C81A4C2</DocumentID>
+	<Name>1866DA2D-A8DF-A1E7-ADF8-36E65C81A4C2</Name>
+	<Description>Get list of all codes</Description>
+	<CreatedBy>kshinde kshinde</CreatedBy>
+	<CreationDate>2017-10-23T11:23:43.298</CreationDate>
+	<Notes/>
+	<Text>Get list of all codes</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2D-A8DF-A1E7-ADF8-36E65C8124C2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

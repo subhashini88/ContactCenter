@@ -1,0 +1,1140 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <link rel="stylesheet" href="../css/Obligation_css.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../js/Obligation.js"></script>
+    <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+    <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js"
+        type="text/javascript"></script>
+    </script>
+</head>
+
+<body class="cc-ltr">
+    <div id="List_container" class="col-md-12 no-padding">
+        <div class="cc-filter no-padding" data-bind="css:{'hide-transition':!filterExpand(),'col-md-3':filterExpand()}">
+            <div id="filter_panel" class="panel panel-default">
+                <div class="panel-heading">
+                    <button class="btn btn-primary cc-text-button-primary" data-bind="click:ApplyFilter"
+                        id="id_applyFilter">
+                        <span data-translatable="true">Apply</span>
+                    </button>
+                    <button class="btn btn-default cc-text-button" data-bind="click:clearFilter" id="id_clearFilter">
+                        <span data-translatable="true">Clear</span>
+                    </button>
+                </div>
+                <div id="filter_panel_body" class="panel-body col-md-12 side-padding flex-column">
+                    <div>
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#name_Filter"
+                            aria-expanded="false" aria-controls="name_Filter">
+                            <label data-translatable="true">Name</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"
+                                data-bind="css:{hidden:!filterObligationExpand()},click:function(){toggle(filterObligationExpand);}"></img>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_down.svg"
+                                data-bind="css:{hidden:filterObligationExpand()},click:function(){toggle(filterObligationExpand);}"></img>
+                        </span>
+                        <div class="cc-filter-body" id="name_Filter" data-bind="css:{hidden:!filterObligationExpand()}">
+                            <div class="form-group">
+                                <select disabled id="filter_activityListNameOperator"
+                                    class="form-control cc-select btn-translate"
+                                    data-bind="options:filterOptions,optionsText:'key',optionsValue:'val',value:filterObligation"
+                                    data-translatable="true"></select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="filter_activityListName"
+                                    data-bind="value:filterObligationInput"></input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cc-list no-padding" data-bind="css:{'col-md-9':filterExpand(),'col-md-12':!filterExpand()}">
+            <div class="cc-header" style="background-color: #dce4e8;height: 45px; width: 100%;z-index: 1;">
+                <div class="cc-error-info-area" id="div_listErrorInfoArea">
+                    <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg"
+                        style="width: 11px; height: 11px;">
+                    <span id="span_errorInfoMessage" style="position: relative;"></span>
+                </div>
+                <button class="btn btn-default cc-button" id="id_filterObligationList" data-bind="click:openFilter">
+                    <img class="cc-icon" alt="Filter" src="../../../../../com/opentext/apps/utils/img/filter.svg">
+                </button>
+                <button class="btn btn-default cc-button"
+                    data-bind="click:openCreateForm,css:{disabled:!hasCreateObligation()},attr:{title:hasCreateObligation()?'':'You do not have permission to edit this field'}">
+                    <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/add.svg"
+                        id="id_createListIcon">
+                </button>
+				<div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                <button class="btn btn-default cc-text-button" data-bind="click:clearFilter"
+                    id="btn_clearFilterActionBar" style="display: none;" data-translatable="true"><span
+                        data-translatable="true">Clear filters</span>
+                </button>
+                <button class="btn btn-default cc-text-button" id="btn_openOblcomplianceModal" data-bind="click:openOBLComplianceModal,attr:{title:hasSetCompliance()?'':'You do not have permission to set compliance'}"
+                    style="display: none;" data-translatable="true" value="">
+                    <span data-translatable="true">Set compliance</span>
+                </button>
+				<button class="btn btn-default cc-text-button" onclick="callDeactivateObligation()" id="btn_deactivateListActionBar" style="display: none;" data-translatable="true" data-bind="attr:{title:hasSetCompliance()?'':'You do not have permission to deactivate'}"><span data-translatable="true">Deactivate</span></button>
+				<button class="btn btn-default cc-text-button" onclick="callInvalidateObligation()" id="btn_invalidateListActionBar" style="display: none;" data-translatable="true" data-bind="attr:{title:hasSetCompliance()?'':'You do not have permission to invalidate'}"><span data-translatable="true">Invalidate</span></button>
+                <button class="btn btn-default cc-text-button hidden" id="id_deleteListActionBar"
+                    style="display: inline;" data-translatable="true" value="">
+                    <span data-translatable="true" data-bind="click:deleteFromSelection">Delete</span>
+                </button>
+            </div>
+            <div class="table-responsive ">
+                <div class="table-container-body">
+                    <table id="id_ObligationListTable" class="table" style="font-size: 14px;">
+                        <thead class="table-container">
+                            <tr>
+                                <th style="width: 3%;">
+                                    <div class="cc-select-column cc-checkbox-select-all-off" id="id_selectAllList"
+                                        data-bind="click:$root.toggleSelectAllButton"></div>
+                                </th>
+                                <th style="width: 10%;" data-translatable="true">Obligation ID</th>
+                                <th style="width: 20%;" data-translatable="true">Name</th>
+                                <th style="width: 9%;" data-translatable="true">Reminder date</th>
+                                <th style="width: 9%;" data-translatable="true">Due date</th>
+                                <th style="width: 15%;" data-translatable="true">Assigned to</th>
+                                <th style="width: 6%;" data-translatable="true">Is recurrence</th>
+                                <th style="width: 6%;" data-translatable="true">Current cycle</th>
+                                <th style="width: 5%;" data-translatable="true">Status</th>
+                                <th style="width: 10%;" data-translatable="true">Compliance status</th>
+                                <th style="width: 10%;" data-translatable="true"></th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach:obligationsList">
+                            <tr style="position: relative;"
+                                data-bind="event:{mouseover:$parent.showOptionsVisibility,mouseout:$parent.hideOptionsVisibility}">
+                                <td>
+                                    <div class="cc-select-column cc-checkbox-off"
+                                        data-bind="event:{click:$root.onOBRowCheckboxValueChanged}">
+                                    </div>
+                                </td>
+                                <td data-bind="click:$root.loadEditDetails">
+                                    <span data-bind="text:ObligationGeneratedID"></span>
+                                </td>
+                                <td data-bind="click:$root.loadEditDetails">
+                                    <span data-bind="text:ObligationName"></span>
+                                </td>
+                                <td data-bind="click:$root.loadEditDetails">
+                                    <span data-bind="text:RemainderSetFor"></span>
+                                </td>
+                                <td data-bind="click:$root.loadEditDetails">
+                                    <span data-bind="text:Due_Date"></span>
+                                </td>
+                                <td data-bind="click:$root.loadEditDetails">
+                                    <!-- ko if: AssignedTo -->
+                                    <span data-bind="text:AssignedTo"></span>
+                                    <!-- /ko-->
+                                    <!-- ko if: AssignedRole -->
+                                    <span data-bind="text:AssignedRole"></span>
+                                    <!-- /ko-->
+                                    <!-- ko if: AssignedGroup -->
+                                    <span data-bind="text:AssignedGroup"></span>
+                                    <!-- /ko-->
+                                </td>
+                                <td data-bind="click:$root.loadEditDetails">
+                                    <span data-bind="text:IsRecur"></span>
+                                </td>
+                                <td data-bind="click:$root.loadEditDetails">
+                                    <span data-bind="text:RecurCycle"></span>
+                                </td>
+                                <td data-bind="click:$root.loadEditDetails">
+                                    <span data-bind="text:StatusLabel,attr:{title:StatusLabel}"></span>
+                                </td>
+                                <td data-bind="click:$root.loadEditDetails">
+                                    <span data-bind="text:CompliaLvlDisplay, attr:{title:CompliaLvlDisplay}"></span>
+                                </td>
+                                <td style="padding-top:0px;padding-bottom: 0px;">
+                                    
+                                    <div style="display:inline-flex;transform:translate3d(0px,0px,0px);z-index: 78; will-change: transform;position:relative;border:none; padding: 7px 14px;border-radius: 15px;background-color: white;"
+                                        data-bind="css:{hidden:!visibleButtonOptions()}">
+                                        <!-- ko if: $root.hasCreateObligation() -->
+                                        <button type="button" class="cc-btn cc-btn-primary hidden"
+                                            data-bind="click:$root.openInActiveConfirmModal,attr:{disabled:(Status()==='INVALID' || Status()==='INACTIVE' || Status()==='INVALIDINPROGRESS' || Status()==='INACTIVEINPROGRESS')}"
+                                            style="height: 28px;margin-right: 0px;padding-left: 6px;padding-right: 6px;">Deactivate</button>
+                                     
+										
+                                        <button type="button" class="cc-btn cc-btn-primary hidden"
+                                            data-bind="click:$root.openInvalidConfirmModal,attr:{disabled:(Status()==='INVALID' || Status()==='INACTIVE' || Status()==='INVALIDINPROGRESS' || Status()==='INACTIVEINPROGRESS')}"
+                                            style="height: 28px;margin-right: 0px;padding-left: 6px;padding-right: 6px;">Invalidate</button>
+                                    
+                                        <!-- ko if: Status() !== 'INACTIVE' && Status() !== 'INVALID' && Status() !== 'INACTIVEINPROGRESS' && Status() !== 'INVALIDINPROGRESS' -->
+                                        <button type="button" data-dismiss="modal"
+                                            style="float: right;border: none;background-color: transparent;"
+                                            data-bind="click:$parent.openEditForm">
+                                            <img alt="Edit"
+                                                src="../../../../../com/opentext/apps/utils/img/toolbar_edit.svg"
+                                                style="width: 17px; height: 17px;" />
+                                        </button>
+                                        <!-- /ko-->
+										<!-- ko if: Status() === 'INACTIVE' || Status() === 'INVALID' || Status() === 'INACTIVEINPROGRESS' || Status() === 'INVALIDINPROGRESS' -->
+                                        <button type="button" data-dismiss="modal"
+                                            style="float: right;border: none;background-color: transparent;"
+                                            data-bind="click:$parent.openEditForm">
+                                            <img alt="Edit"
+                                                src="../img/utility_preview24.svg"
+                                                style="width: 17px; height: 17px;" />
+                                        </button>
+                                        <!-- /ko-->
+                                        <button type="button" data-dismiss="modal"
+                                            style="float: right;border: none;background-color: transparent;"
+                                            data-bind="click:$parent.deleteObligation">
+                                            <img src="../../../../../com/opentext/apps/utils/img/delete.svg"
+                                                style="width: 17px; height: 17px;" />
+                                        </button>
+                                        <!-- /ko-->
+                                        <button type="button" data-dismiss="modal"
+                                            style="float: right;border: none;background-color: transparent;"
+                                            data-bind="click:$parent.viewComplHistory">
+                                            <img src="../../../../../com/opentext/apps/utils/img/time.png"
+                                                style="width: 17px; height: 17px;" />
+                                        </button>
+                                    </div>
+                                     
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="div_deleteDialog" role="dialog" style="z-index: 4999;">
+        <div class="modal-content cc-modal-content" style="margin-top: 70px; width:70%;max-width:500px; ">
+            <div class="modal-header cc-modal-header">
+                <button class="rtl-float-left" type="button" data-dismiss="modal"
+                    style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                        style="width: 11px; height: 11px;" />
+                </button>
+                <span style="font-size: 2rem;" data-translatable="true">Delete</span>
+            </div>
+            <div class="modal-body cc-modal-body" style="height:90px !important">
+                <div>
+                    <span data-translatable="true" class="cc-warning-msg"
+                        style="padding-left: 42px !important;padding: 8px 0px;">Are you sure you want to delete this
+                        obligation?</span>
+                </div>
+            </div>
+            <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" id="btn_confirmDeletion" data-translatable="true"
+                    onclick="onDeletionConfirmed()">
+                    <span data-translatable="true">Delete</span>
+                </button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" id="btn_cancelDeletion"
+                    onclick="closeDeletionConfirmation()">
+                    <span data-translatable="true">Cancel</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="div_deletionInfo" role="dialog" style="z-index: 4999;">
+        <div class="modal-content cc-modal-content" style="margin-top: 70px; width:70%; max-width:550px">
+            <div class="modal-header cc-modal-header">
+                <button class="rtl-float-left" type="button" data-dismiss="modal"
+                    style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                        style="width: 11px; height: 11px;" />
+                </button>
+                <span style="font-size: 2rem;" data-translatable="true">Delete</span>
+            </div>
+            <div class="modal-body cc-modal-body" style="height:90px !important">
+                <div>
+                    <span data-translatable="true" class="cc-warning-msg"
+                        style="padding-left: 40px !important;padding: 6px 0px;background-image: url(../img/exclamationNew.png);background-size: contain;">This
+                        obligation cannot be deleted as there are tasks associated to it.</span>
+                </div>
+            </div>
+            <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                <button type="cancel" class="cc-btn cc-btn-secondary" id="btn_CloseDeleteInfo" data-dismiss="modal">
+                    <span data-translatable="true">Close</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="div_setOBLComplianceDialog" role="dialog" style="z-index: 5999;">
+        <div class="modal-content cc-modal-content" style="width: 60%;padding-bottom: 35px;height: 90%;margin-top:15px;">
+            <div class="modal-header cc-modal-header">
+                <button class="rtl-float-left" type="button" data-dismiss="modal" onclick="closeSetComplConfirm()"
+                    style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                        style="width: 11px; height: 11px;" />
+                </button>
+                <span style="font-size: 2rem;" data-translatable="true">Set obligation compliance</span>
+            </div>
+            <div class="modal-body cc-modal-body" style="padding: 0px !important;height: calc(100% - 140px) !important;">
+                <div id="div_SetOBLComplianceForm" style="padding-top: 10px;">
+                    <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group col-md-5 col-sm-5 col-xs-5">
+                                <label class="cc-required" data-translatable="true" class="label-no-bold"
+                                    style="color: #757575;">Compliance</label>
+                                <select class="form-control cc-select" id="select_compliance" data-bind="
+                                                value:complianceStatus,
+                                                options:complDropDown,
+                                                optionsText: 'label',
+                                                optionsValue: 'value',
+                                                optionsCaption: '-select-',
+                                                event:{change:onComplChange},
+                                                css:{'cc-error': hasErrors() && complianceStatus() == undefined}"></select>
+                            </div>
+                            <!-- ko if: complianceStatus() === "Met" -->
+                            <div class="form-group col-md-7 col-sm-7 col-xs-7">
+                                <label class="cc-required" data-translatable="true" class="label-no-bold"
+                                    style="color: #757575;">Process status</label>
+                                <select class="form-control cc-select" id="select_processStatus" data-bind="
+                                                value:metType,
+                                                options:processDrpDown,
+                                                optionsText: 'label',
+                                                optionsValue: 'value',
+                                                optionsCaption: '-select-',
+                                                event:{change:onmetTypeChange},
+                                                optionsAfterRender:setOptionDisable,
+                                                css:{'cc-error': metTypeError() && metType() == undefined}"></select>
+                            </div>
+                            <!-- /ko -->
+                            <!-- ko if: complianceStatus() === "NotMet" -->
+                            <div class="form-group col-md-7 col-sm-7 col-xs-7">
+                                <label class="" data-translatable="true">Non-compliance category</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse" id="input_oblnonComp"
+                                        data-bind="textInput:oblnonCompliance" readonly
+                                        style="background-color: transparent;border-right: 0;">
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                        style="cursor: pointer;border-radius: 0 !important;" onclick="openNonComplSel(this)">
+                                        <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg">
+                                    </span>
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;"
+                                        onclick="clearNonComplSel(this)">
+                                        <img class="cc-input-icon" alt="Clear"
+                                            src="../../../../../com/opentext/apps/utils/img/close_inline.svg">
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <label data-translatable="true">Comments</label>
+                                <div>
+                                    <textarea class="apps-contentDiv" data-bind="value:complComments" id="id_complComments"
+                                        style="height:109px; resize: none"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" id="btn_confirmSetCompl" data-translatable="true"
+                    onclick="onSetComplConfirm()">
+                    <span data-translatable="true">Set</span>
+                </button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" id="btn_cancelSetCompl"
+                    onclick="closeSetComplConfirm()">
+                    <span data-translatable="true">Cancel</span>
+                </button>
+            </div>
+            <!--modal for set obligation complianc START -->
+            <div class="modal fade" id="modal_selectNonCompl" role="dialog"
+            style="z-index: 4999;position: absolute;height: 85%;top: 50px;">
+            <div class="modal-content cc-modal-content" style="width:85%; height: 90%; ">
+                <div class="modal-header cc-modal-header">
+                    <button class="rtl-float-left" type="button" onclick="closeNonComplSel()"
+                        style="float: right;border: none;background-color: transparent;">
+                        <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                            style="width: 11px; height: 11px;" />
+                    </button>
+                    <span style="font-size: 2rem;" data-translatable="true">Non-compliance category</span>
+                </div>
+                <!--list of obligation non compliances-->
+                <div id="div_NCList" class="modal-body cc-modal-body"
+                    style="padding: 15px 5px;height: 100%;overflow: auto;width: 100%;">
+                    <div class="input-group" style="margin-bottom: 10px;">
+                        <input type="text" class="form-control cc-input-browse rtl-input-browse" id="input_NonComplSearch"
+                            placeholder="Enter name">
+                        <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;">
+                            <img class="cc-input-icon" alt="Search"
+                                src="../../../../../com/opentext/apps/utils/img/search.svg"
+                                onclick="ListNonCompliances()">
+                        </span>
+                    </div>
+                    <table class="table cc-border" id="NCListTable" style="margin-bottom: 0px;">
+                        <thead>
+                            <tr>
+                                <th style="width: 10%;"></th>
+                                <th style="width: 30%;" data-translatable="true" scope="col">Name</th>
+                                <th style="width: 30%;" data-translatable="true" scope="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach:nonComplianceList">
+                            <tr data-bind="click:$root.NCRadioButton">
+                                <td>
+                                    <div class="cc-select-column cc-radio-off"
+                                        data-bind="event:{click:$root.NCRowRadioClicked}"></div>
+                                </td>
+                                <td data-bind="text:getTextValue(Name)"></td>
+                                <td data-bind="text:getTextValue(NCDescription)"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" id="btn_ncYes"
+                        data-translatable="true">
+                        <span data-translatable="true">Ok</span>
+                    </button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" id="btn_ncCancel"
+                        onclick="closeNonComplSel()">
+                        <span data-translatable="true">Cancel</span>
+                    </button>
+                </div>
+            </div>
+        <!--modal for set obligation complianc END -->
+        </div>
+        </div>
+    </div>
+    <div class="modal fade" id="div_complHistoryDialog" role="dialog" style="z-index: 5999;">
+        <div class="modal-content cc-modal-content" style="width: 70%;padding-bottom: 35px;height: 90%;margin-top:15px;">
+            <div class="modal-header cc-modal-header">
+                <button class="rtl-float-left" type="button" data-dismiss="modal" data-bind="click:closeComplHistoryDialog"
+                    style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                        style="width: 11px; height: 11px;" />
+                </button>
+                <span style="font-size: 2rem;" data-translatable="true">Compliance history</span>
+            </div>
+            <div class="modal-body cc-modal-body" style="padding: 0px !important;height: calc(100% - 50px) !important;">
+                <div id="div_complHistoryForm" style="padding-top: 10px;">
+                    <div class="table-responsive ">
+                        <div class="table-container-body">
+                            <table id="id_complHistorytable" class="table" style="font-size: 14px;">
+                                <thead class="table-container">
+                                    <tr>  
+                                        <th style="width: 8%;" data-translatable="true">Cycle</th>
+                                        <th style="width: 20%;" data-translatable="true">Related task state</th>
+                                        <th style="width: 14%;" data-translatable="true">Compliance status</th>
+                                        <th style="width: 20%;" data-translatable="true">Non compliance</th>
+                                        <th style="width: 15%;" data-translatable="true">Updated on</th>
+                                        <th style="width: 23%;" data-translatable="true">Comments</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:complHistoryList">
+                                    <tr style="position: relative;"
+                                        data-bind="event:{mouseover:$parent.showOptionsVisibility,mouseout:$parent.hideOptionsVisibility}, css: { 'highlighted': isLatest() }">
+                                        
+                                        <td style="padding-left: 15px;">
+                                            <span data-bind="text:cycleNumber,attr:{title:cycleNumber()}"></span>
+                                        </td>
+                                        <td>
+                                            <span data-bind="text:ProcessStatus,attr:{title:ProcessStatus()}"></span>
+                                        </td>
+                                        <td>
+                                            <span data-bind="text:ComplianceStatus,attr:{title:ComplianceStatus()}"></span>
+                                        </td>
+                                        <td>
+                                            <span data-bind="text:non_compliance,attr:{title:non_compliance()}"></span>
+                                        </td>
+                                        <td>
+                                            <span data-bind="text:UpdatedTime,attr:{title:UpdatedTime()}"></span>
+                                        </td>
+                                        <td>
+                                            <span data-bind="text:Comments,attr:{title:Comments()}"></span>
+                                        </td>                                         
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                <button type="cancel" class="cc-btn cc-btn-secondary" id="btn_okComplHistory"
+                data-bind="click:closeComplHistoryDialog()">
+                    <span data-translatable="true">Ok</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="obligationsDetails_Dialog" class="modal fade" role="dialog" style="z-index: 4999;">
+        <div class="modal-content cc-modal-content" class="rtl-float-left"
+            style="width: 90%;padding-bottom: 35px;height: 98%;margin-top:5px;">
+            <div class="modal-header cc-modal-header">
+                <button class="rtl-float-left" type="button" data-dismiss="modal"
+                    style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                        style="width: 11px; height: 11px;" />
+                </button>
+                <span style="font-size: 2rem;" data-translatable="true">Obligation details</span>
+            </div>
+            <div class="modal-body cc-modal-body" style="padding: 0px !important;height: calc(100% - 50px) !important;">
+                <div id="div_CreateObligForm" style="padding-top: 10px;">
+                    <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                        <div class="col-md-12 col-sm-12 col-xs-12" style="margin: 0px !important;">
+                            <label data-translatable="true" style="font-weight: bold;">Overview</label>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label class="cc-required" data-translatable="true" style="width: 100%;">Obligation
+                                    name</label>
+                                <div class="input-group">
+                                    <input type="text" id="input_oblName"
+                                        class="form-control cc-input-browse rtl-input-browse" data-bind="value:oblName"
+                                        onchange="removeErrorClass(this)" maxlength="255"></input>
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                        style="cursor: pointer;" onclick="openOBSelection(this)">
+                                        <img class="cc-input-icon" alt="Search"
+                                            src="../../../../../com/opentext/apps/utils/img/search.svg" />
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- ko if: oblRecurType() == "DONOTREPEAT" -->
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                                <label class="cc-required" data-translatable="true">Obligation due date</label>
+                                <div>
+                                    <input type="text" id="input_oblDueDate"
+                                        class="form-control dropdown-select-calender rtl-input-inline-img cc-datepicker"
+                                        onchange="removeErrorClass(this)"
+                                        data-bind="value:oblDuedateLocale, event:{change:calculateAssigneeSLA}"
+                                        autocomplete="off">
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label class="cc-required" data-translatable="true" style="width: 100%;">Reminder
+                                    title</label>
+                                <input type="text" id="input_oblRemTitle" data-bind="value:oblReminderTitle"
+                                    class="form-control" onchange="removeErrorClass(this)" maxlength="255"></input>
+                            </div>
+                            <!-- ko if: oblRecurType() == "DONOTREPEAT" -->
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                                <label class="cc-required" data-translatable="true">Reminder send date</label>
+                                <div>
+                                    <input type="text" id="input_oblRemDate"
+                                        class="form-control dropdown-select-calender rtl-input-inline-img cc-datepicker"
+                                        data-bind="value:oblReminderDateLocale, event:{change:calculateAssigneeSLA}"
+                                        onchange="removeErrorClass(this)" autocomplete="off">
+                                </div>
+                            </div>
+                            <!-- /ko -->
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <label data-translatable="true">Obligation description</label>
+                                <div>
+                                    <textarea class="apps-contentDiv" oninput="removeErrorClass(this)"
+                                        data-bind="value:oblDescription" id="id_oblDescription"
+                                        style="height:109px; resize: none"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                <label class="" data-translatable="true">Action to be taken</label>
+                                <div>
+                                    <textarea class="apps-contentDiv enableDisable" oninput="removeErrorClass(this)"
+                                        data-bind="value:oblActionTobeTaken" id="id_oblActionTaken"
+                                        style="height:109px; resize: none"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+                        <div class="col-md-12 col-sm-12 col-xs-12" style="margin: 0px !important;">
+                            <label data-translatable="true" style="font-weight: bold;">Manage assignments</label>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label class="cc-required" data-translatable="true">Assigned to</label>
+                                <div class="input-group">
+                                    <!-- ko if: oblAsignRoleName -->
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                        onchange="removeErrorClass(this)" id="input_oblAsignRole"
+                                        data-bind="textInput:oblAsignRoleName" readonly
+                                        style="background-color: transparent;border-right: 0;z-index: 0;">
+                                    <!-- /ko-->
+                                    <!-- ko if: oblAssigneeName -->
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                        onchange="removeErrorClass(this)" id="input_oblAssignee"
+                                        data-bind="textInput:oblAssigneeName" readonly
+                                        style="background-color: transparent;border-right: 0;z-index: 0;">
+                                    <!-- /ko-->
+                                    <!-- ko if: !(oblAsignRoleName() || oblAssigneeName()) -->
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                        onchange="removeErrorClass(this)" id="input_oblAsignGroup"
+                                        data-bind="textInput:oblAsignGroupName" readonly
+                                        style="background-color: transparent;border-right: 0;z-index: 0;">
+                                    <!-- /ko-->
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                        style="cursor: pointer;" onclick="openAssigneeSelection(this)">
+                                        <img class="cc-input-icon" alt="Search"
+                                            src="../../../../../com/opentext/apps/utils/img/search.svg" />
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" class="cc-required" style="width: 100%;">Days after
+                                    which first escalation
+                                    triggers</label>
+                                <input type="text" id="input_oblAssigneeSLA"
+                                    data-bind="value:oblAssigneeSLA, event:{change:calculateDueDate}"
+                                    class="form-control" onchange="removeErrorClass(this)" maxlength="255"></input>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                                <label class="" data-translatable="true">First escalation</label>
+                                <div class="input-group">
+                                    <!-- ko if: oblFEName -->
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                        onchange="removeErrorClass(this)" id="input_OblFE"
+                                        data-bind="textInput:oblFEName" readonly
+                                        style="background-color: transparent;border-right: 0;">
+                                    <!-- /ko-->
+                                    <!-- ko if: oblFERoleName -->
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                        onchange="removeErrorClass(this)" id="input_OblFERole"
+                                        data-bind="textInput:oblFERoleName" readonly
+                                        style="background-color: transparent;border-right: 0;">
+                                    <!-- /ko-->
+                                    <!-- ko ifnot: (oblFERoleName() || oblFEName()) -->
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                        onchange="removeErrorClass(this)" id="input_OblFEGroup"
+                                        data-bind="textInput:oblFEGroupName" readonly
+                                        style="background-color: transparent;border-right: 0;">
+                                    <!-- /ko-->
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                        style="cursor: pointer;border-radius: 0 !important;"
+                                        onclick="openFirstEscalationSelection(this)">
+                                        <img class="cc-input-icon" alt="Search"
+                                            src="../../../../../com/opentext/apps/utils/img/search.svg" />
+                                    </span>
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                        style="cursor: pointer;" onclick="ClearFirstEscalation(this)">
+                                        <img class="cc-input-icon" alt="Clear"
+                                            src="../../../../../com/opentext/apps/utils/img/close_inline.svg" />
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">Days after which second escalation
+                                    triggers</label>
+                                <input type="text" id="input_oblFirstEscSLA" data-bind="value:oblFESLA"
+                                    class="form-control" maxlength="255"></input>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label class="" data-translatable="true" style="width:185px">Second escalation</label>
+                                <div class="input-group">
+                                    <!-- ko if: oblSEName -->
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                        onchange="removeErrorClass(this)" id="input_oblSE"
+                                        data-bind="textInput:oblSEName" readonly
+                                        style="background-color: transparent;border-right: 0;">
+                                    <!-- /ko-->
+                                    <!-- ko if: oblSERoleName -->
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                        onchange="removeErrorClass(this)" id="input_oblSERole"
+                                        data-bind="textInput:oblSERoleName" readonly
+                                        style="background-color: transparent;border-right: 0;">
+                                    <!-- /ko-->
+                                    <!-- ko ifnot: (oblSERoleName() || oblSEName()) -->
+                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                        onchange="removeErrorClass(this)" id="input_oblSEGroup"
+                                        data-bind="textInput:oblSEGroupName" readonly
+                                        style="background-color: transparent;border-right: 0;">
+                                    <!-- /ko-->
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                        style="cursor: pointer;border-radius: 0 !important;"
+                                        onclick="openSecondEscalationSelection(this)">
+                                        <img class="cc-input-icon" alt="Search"
+                                            src="../../../../../com/opentext/apps/utils/img/search.svg" />
+                                    </span>
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                        style="cursor: pointer;" onclick="ClearSecondEscalation(this)">
+                                        <img class="cc-input-icon" alt="Clear"
+                                            src="../../../../../com/opentext/apps/utils/img/close_inline.svg" />
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">Days in which second escalation
+                                    should act</label>
+                                <input type="text" id="input_oblSecEscSLA" data-bind="value:oblSESLA"
+                                    class="form-control" maxlength="255"></input>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12" style="margin: 0px !important;">
+                            <label data-translatable="true" style="font-weight: bold;">Recurrence</label>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">Frequency</label>
+                                <select class="form-control cc-select oblRecurProp" id="select_oblRecurType"
+                                    onchange="updateandDisableRecProp(this)"
+                                    data-bind="value:oblRecurType, event:{change:updateRecProp}">
+                                    <option value="DONOTREPEAT" selected>Do not repeat</option>
+                                    <option value="REPEATDAILY">Days</option>
+                                    <option value="REPEATWEEKLY">Weeks</option>
+                                    <option value="REPEATMONTHLY">Months</option>
+                                </select>
+                            </div>
+                            <!-- ko if: oblRecurType() != "DONOTREPEAT" -->
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">Start on</label>
+                                <input type="text" id="input_oblRecurStartDate"
+                                    data-bind="value:oblRecurStartDateLocale"
+                                    class="form-control dropdown-select-calender rtl-input-inline-img cc-datepicker oblRecurProp"
+                                    onchange="removeErrorClass(this)" autocomplete="off"></input>
+                            </div>
+                            <!-- /ko-->
+                        </div>
+                        <!-- ko if: oblRecurType() == "REPEATMONTHLY" -->
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">Repeat after month(s)</label>
+                                <input type="text" id="input_oblRecurMonthFreq" data-bind="value:oblRecurMonthFreq"
+                                    class="form-control oblRecurProp" onchange="removeErrorClass(this)"
+                                    maxlength="255"></input>
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">On (day of month)</label>
+                                <select class="form-control cc-select oblRecurProp" id="select_oblRecurMonthDay"
+                                    onchange="removeErrorClass(this)" data-bind="value:oblRecurMonthDay">
+                                    <option value="" selected>--Select--</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- /ko-->
+                        <!-- ko if: oblRecurType() == "REPEATWEEKLY" -->
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">Repeat after week(s)</label>
+                                <input type="text" id="input_oblRecurWeekFreq" data-bind="value:oblRecurWeekFreq"
+                                    class="form-control oblRecurProp" onchange="removeErrorClass(this)"
+                                    maxlength="255"></input>
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">On (day of week)</label>
+                                <select class="form-control cc-select oblRecurProp" id="select_oblRecurWeekDay"
+                                    onchange="removeErrorClass(this)" data-bind="value:oblRecurWeekDay">
+                                    <option value="" selected>--Select--</option>
+                                    <option value="1">Monday</option>
+                                    <option value="2">Tuesday</option>
+                                    <option value="3">Wednesday</option>
+                                    <option value="4">Thursday</option>
+                                    <option value="5">Friday</option>
+                                    <option value="6">Saturday</option>
+                                    <option value="7">Sunday</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- /ko-->
+                        <!-- ko if: oblRecurType() == "REPEATDAILY" -->
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">Repeat after day(s)</label>
+                                <input type="text" id="input_oblRecurDayFreq" data-bind="value:oblRecurDayFreq"
+                                    class="form-control oblRecurProp" onchange="removeErrorClass(this)"
+                                    maxlength="255"></input>
+                            </div>
+                        </div>
+                        <!-- /ko-->
+                        <!-- ko if: oblRecurType() != "DONOTREPEAT" -->
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">End</label>
+                                <select class="form-control cc-select oblRecurProp" id="select_oblRecurEndType"
+                                    onchange="removeErrorClass(this)" data-bind="value:oblRecurEndType">
+                                    <option value="AFTEROCCUR">After</option>
+                                    <option value="ONTHISDATE" selected>On this date</option>
+                                    <option value="LIFEOFCONTRACT" selected>Life of Contract</option>
+                                </select>
+                            </div>
+                            <!-- ko if: oblRecurEndType() == "AFTEROCCUR" -->
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">Occurrences</label>
+                                <input type="text" id="input_oblRecurEndinOccurences"
+                                    data-bind="value:oblRecurEndinOccurences" class="form-control oblRecurProp"
+                                    onchange="removeErrorClass(this)" maxlength="255"></input>
+                            </div>
+                            <!-- /ko-->
+                            <!-- ko if: oblRecurEndType() == "ONTHISDATE" -->
+                            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                                <label data-translatable="true" style="width: 100%;">End on</label>
+                                <input type="text" id="input_oblRecurEndDate" data-bind="value:oblRecurEndDateLocale"
+                                    class="form-control dropdown-select-calender rtl-input-inline-img cc-datepicker oblRecurProp"
+                                    onchange="removeErrorClass(this)"></input>
+                            </div>
+                            <!-- /ko-->
+                        </div>
+                        <!-- /ko-->
+                    </div>
+                </div>
+            </div>
+            <div class="cc-error-info-area" id="div_formErrorInfoArea" style="top: 50px;background: #fff;">
+                <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg"
+                    style="width: 11px; height: 11px;" />
+                <span id="span_errorInfoMessage" style="position: relative;"></span>
+            </div>
+			<!-- ko if: Status() !== 'INACTIVE' && Status() !== 'INVALID' && Status() !== 'INACTIVEINPROGRESS' && Status() !== 'INVALIDINPROGRESS' -->
+            <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                <button id="btn_createorUpdateObligation" type="submit" class="apps-btn apps-btn-primary"
+                    onclick="createObligation()" style="outline:none;">
+                    <span data-translatable="true" data-bind="text: Status()">OK</span>
+                </button>
+                <button id="btn_cancelCreateorUpdateObligation" type="button" class="apps-btn apps-btn-secondary"
+                    data-dismiss="modal" style="outline:none;">
+                    <span data-translatable="true">Cancel</span>
+                </button>
+            </div>
+			<!-- /ko-->
+            <!--modal for user or role selection START -->
+            <div class="modal fade" id="div_selectUser" role="dialog"
+                style="z-index: 4999;position: absolute;height: 85%;top: 50px;">
+                <div class="modal-content cc-modal-content" style="width:85%; height: 90%; ">
+                    <div class="modal-header cc-modal-header">
+                        <button class="rtl-float-left" type="button" onclick="closeUserSelection()"
+                            style="float: right;border: none;background-color: transparent;">
+                            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                                style="width: 11px; height: 11px;" />
+                        </button>
+                        <span style="font-size: 2rem;" data-translatable="true">Roles and users</span>
+                    </div>
+                    <div id="selectTabs" class="modal-body cc-modal-body"
+                        style="padding: 0px !important;height: calc(100% - 80px) !important;padding-bottom: 10px !important;">
+                        <ul style="background-color: white">
+                            <li style="border: none;outline: none;">
+                                <a href="#div_roleList" style="background-color: white;color: black"
+                                    onclick="clearUserSelect()">Search by group / role</a>
+                            </li>
+                            <li style="border: none;outline: none;">
+                                <a href="#div_usersList" style="background-color: white;color: black"
+                                    onclick="clearRoleSelect()">Search by user</a>
+                            </li>
+                        </ul>
+                        <!--modal for role selection START -->
+                        <div id="div_roleList" class="col-md-12 cc-list"
+                            style="padding: 15px 5px;height: 90%;overflow: hidden;width: 100%;">
+                            <div style="margin-bottom: 10px;">
+                                <div class="att-field col-md-3" style="top: 4px;">
+                                    <div class="col-md-6 cc-element-nopadding"
+                                        data-bind="event:{click:$data.updateRolesType.bind($data,'Groups')}">
+                                        <div class="cc-select-column cc-radio-on" style="width: 20px;height: 0px;"
+                                            data-bind="css:{'cc-radio-off' : (RolesType() == 'Roles'), 'cc-radio-on' : (RolesType() == 'Groups')}">
+                                        </div>
+                                        <span data-translatable="true">Groups</span>
+                                    </div>
+                                    <div class="col-md-6 cc-element-nopadding"
+                                        data-bind="event:{click:$data.updateRolesType.bind($data,'Roles')}">
+                                        <div class="cc-select-column cc-radio-off" style="width: 20px;height: 0px;"
+                                            data-bind="css:{'cc-radio-off' : (RolesType() == 'Groups'), 'cc-radio-on' : (RolesType() == 'Roles')}">
+                                        </div>
+                                        <span data-translatable="true">Roles</span>
+                                    </div>
+                                </div>
+                                <!-- ko if: RolesType() == "Roles" -->
+                                <div class="input-group col-md-9">
+                                    <input type="text" data-translatable="true"
+                                        class="form-control cc-input-browse rtl-input-browse"
+                                        id="input_roleListSearchFilter" placeholder="Enter role name">
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                        style="cursor: pointer;padding-bottom: 5px;padding-top: 3px;">
+                                        <img class="cc-input-icon" alt="Search"
+                                            src="../../../../../com/opentext/apps/utils/img/search.svg"
+                                            onclick="ListAllRoles()">
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if: RolesType() == "Groups" -->
+                                <div class="input-group col-md-9">
+                                    <input type="text" data-translatable="true"
+                                        class="form-control cc-input-browse rtl-input-browse"
+                                        id="input_groupListSearchFilter" placeholder="Enter group name">
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                        style="cursor: pointer;padding-bottom: 5px;padding-top: 3px;">
+                                        <img class="cc-input-icon" alt="Search"
+                                            src="../../../../../com/opentext/apps/utils/img/search.svg"
+                                            onclick="ListAllGroups()">
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                            <div style="overflow: auto;height: 85%;">
+                                <!-- ko if: RolesType() == "Roles" -->
+                                <table class="table cc-border" id="roleListTable">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;"></th>
+                                            <th style="width: 45%;" data-translatable="true" scope="col"
+                                                data-translatable="true">Name</th>
+                                            <th style="width: 45%;" data-translatable="true" scope="col"
+                                                data-translatable="true">Display name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody data-bind="foreach:RolesList">
+                                        <tr data-bind="click:$root.selectRoleRadioButton">
+                                            <td>
+                                                <div class="cc-select-column cc-radio-off"
+                                                    data-bind="event:{click:$root.roleRowRadioClicked}"></div>
+                                            </td>
+                                            <td data-bind="text:Name.text"></td>
+                                            <td data-bind="text:IdentityDisplayName.text"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- /ko-->
+                                <!-- ko if: RolesType() == "Groups" -->
+                                <table class="table cc-border" id="groupListTable">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 10%;"></th>
+                                            <th style="width: 45%;" data-translatable="true" scope="col"
+                                                data-translatable="true">Name</th>
+                                            <th style="width: 45%;" data-translatable="true" scope="col"
+                                                data-translatable="true">Display name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody data-bind="foreach:GroupsList">
+                                        <tr data-bind="click:$root.selectGroupRadioButton">
+                                            <td>
+                                                <div class="cc-select-column cc-radio-off"
+                                                    data-bind="event:{click:$root.groupRowRadioClicked}"></div>
+                                            </td>
+                                            <td data-bind="text:Name.text"></td>
+                                            <td data-bind="text:IdentityDisplayName.text"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- /ko-->
+                            </div>
+                        </div>
+                        <!--modal for role selection END -->
+                        <!--modal for user selection START -->
+                        <div id="div_usersList" class="col-md-12 cc-list"
+                            style="padding: 15px 5px;height: 85%;overflow: auto;width: 100%;">
+                            <div class="input-group" style="margin-bottom: 10px;">
+                                <input type="text" class="form-control cc-input-browse rtl-input-browse" id="input_userListSearchFilter"
+                                    placeholder="Enter user ID">
+                                <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                    style="cursor: pointer;padding-bottom: 5px;padding-top: 3px;">
+                                    <img class="cc-input-icon" alt="Search"
+                                        src="../../../../../com/opentext/apps/utils/img/search.svg"
+                                        onclick="ListOrganizationUsers()">
+                                </span>
+                            </div>
+                            <table class="table cc-border" id="usersListTable" style="margin-bottom: 0px;">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;"></th>
+                                        <th style="width: 30%;" data-translatable="true" scope="col">User ID</th>
+                                        <th style="width: 30%;" data-translatable="true" scope="col">First name</th>
+                                        <th style="width: 30%;" data-translatable="true" scope="col">Organization</th>
+                                        <th style="width: 30%;" data-translatable="true" scope="col">Start date</th>
+                                        <th style="width: 30%;" data-translatable="true" scope="col">End date</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:UsersList">
+                                    <tr data-bind="click:$root.UserRowClicked">
+                                        <td>
+                                            <div class="cc-select-column cc-radio-off"
+                                                data-bind="event:{click:$root.UserRowRadiobuttonClicked}"></div>
+                                        </td>
+                                        <td data-bind="text:getTextValue(ParticipatingPerson.User_ID)"></td>
+                                        <td data-bind="text:getTextValue(ParticipatingPerson.FirstName)"></td>
+                                        <td data-bind="text:getTextValue(Owner.Name)"></td>
+                                        <td data-bind="text:getDateValue(StartDate)"></td>
+                                        <td data-bind="text:getDateValue(EndDate)"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!--modal for user selection END -->
+                    </div>
+                    <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                        <button type="submit" class="cc-btn cc-btn-primary" id="btn_userSelectionYes"
+                            data-translatable="true">
+                            <span data-translatable="true">OK</span>
+                        </button>
+                        <button type="cancel" class="cc-btn cc-btn-secondary" id="btn_userSelectionCancel"
+                            onclick="closeUserSelection()">
+                            <span data-translatable="true">Cancel</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--modal for user selection END -->
+            <!-- modal for choosing obligation library START-->
+            <div class="modal fade" id="modal_selectOB" role="dialog"
+                style="z-index: 4999;position: absolute;height: 85%;top: 50px;">
+                <div class="modal-content cc-modal-content" style="width:85%; height: 90%; ">
+                    <div class="modal-header cc-modal-header">
+                        <button class="rtl-float-left" type="button" onclick="closeOBSelection()"
+                            style="float: right;border: none;background-color: transparent;">
+                            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                                style="width: 11px; height: 11px;" />
+                        </button>
+                        <span style="font-size: 2rem;" data-translatable="true">Obligation library</span>
+                    </div>
+                    <!--list of obligations library-->
+                    <div id="div_OBLList" class="modal-body cc-modal-body"
+                        style="padding: 15px 5px;height: 100%;overflow: auto;width: 100%;">
+                        <div class="input-group" style="margin-bottom: 10px;">
+                            <input type="text" class="form-control cc-input-browse rtl-input-browse" id="input_OBLLIBSearch"
+                                placeholder="Enter name">
+                            <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;">
+                                <img class="cc-input-icon" alt="Search"
+                                    src="../../../../../com/opentext/apps/utils/img/search.svg"
+                                    onclick="ListObligationsLibrary()">
+                            </span>
+                        </div>
+                        <table class="table cc-border" id="OBListTable" style="margin-bottom: 0px;">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10%;"></th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">ID</th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Name</th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Reminder title</th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Description</th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Action to be taken</th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach:OBLibList">
+                                <tr data-bind="click:$root.OBRadioButton">
+                                    <td>
+                                        <div class="cc-select-column cc-radio-off"
+                                            data-bind="event:{click:$root.OBRowRadioClicked}"></div>
+                                    </td>
+                                    <td data-bind="text:getTextValue(GeneratedOBLibraryId)"></td>
+                                    <td data-bind="text:getTextValue(Name)"></td>
+                                    <td data-bind="text:getTextValue(ReminderTitle)"></td>
+                                    <td data-bind="text:getTextValue(Description)"></td>
+                                    <td data-bind="text:getTextValue(ActionToBeTaken)"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                        <button type="submit" class="cc-btn cc-btn-primary" id="btn_OBSelectionYes"
+                            data-translatable="true">
+                            <span data-translatable="true">Copy</span>
+                        </button>
+                        <button type="cancel" class="cc-btn cc-btn-secondary" id="btn_OBSelectionCancel"
+                            onclick="closeOBSelection()">
+                            <span data-translatable="true">Cancel</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--modal for choosing obligation library END-->
+        </div>
+    </div>
+    <div id="obligationInActive_Dialog" class="modal fade" role="dialog" style="z-index: 4999;">
+        <div class="modal-content cc-modal-content" style="margin-top: 70px; width:70%;max-width:500px; ">
+            <div class="modal-header cc-modal-header">
+                <button class="rtl-float-left" type="button" data-dismiss="modal"
+                    style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                        style="width: 11px; height: 11px;" />
+                </button>
+                <span style="font-size: 2rem;" data-translatable="true">Confirm</span>
+            </div>
+            <div class="modal-body cc-modal-body" style="height:90px !important">
+                <div>
+                    <span data-translatable="true" class="cc-warning-msg"
+                        style="padding-left: 42px !important;padding: 8px 0px;">Are you sure you want to deactivate this
+                        obligation?</span>
+                </div>
+            </div>
+            <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" id="btn_confirmDeletion" data-translatable="true"
+                    onclick="onInActivateConfirmed()">
+                    <span data-translatable="true">Confirm</span>
+                </button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" id="btn_cancelDeletion"
+                    onclick="onInActivateCancel()">
+                    <span data-translatable="true">Cancel</span>
+                </button>
+            </div>
+        </div>
+        <!--modal for choosing obligation library END-->
+    </div>
+	    <div id="obligationInvalid_Dialog" class="modal fade" role="dialog" style="z-index: 4999;">
+        <div class="modal-content cc-modal-content" style="margin-top: 70px; width:70%;max-width:500px; ">
+            <div class="modal-header cc-modal-header">
+                <button class="rtl-float-left" type="button" data-dismiss="modal"
+                    style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                        style="width: 11px; height: 11px;" />
+                </button>
+                <span style="font-size: 2rem;" data-translatable="true">Confirm</span>
+            </div>
+            <div class="modal-body cc-modal-body" style="height:90px !important">
+                <div>
+                    <span data-translatable="true" class="cc-warning-msg"
+                        style="padding-left: 42px !important;padding: 8px 0px;">Are you sure you want to invalidate this
+                        obligation?</span>
+                </div>
+            </div>
+            <div class="cc-footer cc-obj-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" id="btn_confirmDeletion" data-translatable="true"
+                    onclick="onInvalidateConfirmed()">
+                    <span data-translatable="true">Confirm</span>
+                </button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" id="btn_cancelDeletion"
+                    onclick="onInvalidateCancel()">
+                    <span data-translatable="true">Cancel</span>
+                </button>
+            </div>
+        </div>
+        <!--modal for choosing obligation library END-->
+    </div>
+    </div>
+</body>
+
+</html>

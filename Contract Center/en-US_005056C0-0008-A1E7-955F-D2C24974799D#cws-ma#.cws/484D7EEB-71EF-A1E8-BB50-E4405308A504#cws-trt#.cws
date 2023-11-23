@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-BB50-E4405308E504">
+	<DocumentID>484D7EEB-71EF-A1E8-BB50-E4405308A504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-BB50-E4405308A504</Name>
+	<Description>Client early termination right</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-21T04:51:39.633</CreationDate>
+	<Notes/>
+	<Text>Client early termination right</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-BB50-E44053082504"
+		/>
+	</TextIdentifier>
+</TranslatedText>

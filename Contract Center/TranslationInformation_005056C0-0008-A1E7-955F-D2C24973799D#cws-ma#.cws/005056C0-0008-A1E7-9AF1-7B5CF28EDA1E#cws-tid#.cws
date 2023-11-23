@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9AF1-7B5CF28F1A1E">
+	<DocumentID>005056C0-0008-A1E7-9AF1-7B5CF28EDA1E</DocumentID>
+	<Name>005056C0-0008-A1E7-9AF1-7B5CF28EDA1E</Name>
+	<Description>xECMConfiguration</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-18T14:35:57.833</CreationDate>
+	<Notes/>
+	<DefaultText>xECMConfiguration</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9AF1-7B5CF28F5A1E"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AE2D-25E92C311102">
+	<DocumentID>C4D98747-AA4E-A1E7-AE2D-25E92C30D102</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AE2D-25E92C30D102</Name>
+	<Description>Minimum start date</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-24T12:19:05.753</CreationDate>
+	<Notes/>
+	<Text>Minimum start date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-AE2D-25E92C305102"
+		/>
+	</TextIdentifier>
+</TranslatedText>

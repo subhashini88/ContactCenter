@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BC32-18EB40043AA2">
+	<DocumentID>98FA9B81-5041-A1EC-BC32-18EB4003FAA2</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BC32-18EB4003FAA2</Name>
+	<Description>Next expiration date</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-20T18:43:25.064</CreationDate>
+	<Notes/>
+	<Text>Next expiration date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-BC32-18EB40037AA2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

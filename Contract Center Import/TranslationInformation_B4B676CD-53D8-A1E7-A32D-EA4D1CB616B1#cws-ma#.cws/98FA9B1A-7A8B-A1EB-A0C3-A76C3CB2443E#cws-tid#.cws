@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A0C3-A76C3CB2843E">
+	<DocumentID>98FA9B1A-7A8B-A1EB-A0C3-A76C3CB2443E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-A0C3-A76C3CB2443E</Name>
+	<Description>Job ID_53</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-12T08:41:07.22</CreationDate>
+	<Notes/>
+	<DefaultText>Job ID_53</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-A0C3-A76C3CB2C43E"
+		/>
+	</Translations>
+</TextIdentifier>

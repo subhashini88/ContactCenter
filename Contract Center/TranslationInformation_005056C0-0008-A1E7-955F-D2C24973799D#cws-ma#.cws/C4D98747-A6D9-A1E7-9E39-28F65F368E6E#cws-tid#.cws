@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-A6D9-A1E7-9E39-28F65F36CE6E">
+	<DocumentID>C4D98747-A6D9-A1E7-9E39-28F65F368E6E</DocumentID>
+	<Name>C4D98747-A6D9-A1E7-9E39-28F65F368E6E</Name>
+	<Description>MergeContractLayoutAndContractData</Description>
+	<CreatedBy>setup</CreatedBy>
+	<CreationDate>2017-08-04T08:51:07.31</CreationDate>
+	<Notes/>
+	<DefaultText>MergeContractLayoutAndContractData</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-A6D9-A1E7-9E39-28F65F370E6E"
+		/>
+	</Translations>
+</TextIdentifier>

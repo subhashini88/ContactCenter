@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1EE-8AAF-A4D49059B179">
+	<DocumentID>F8E4E399-CF40-A1EE-8AAF-A4D490597179</DocumentID>
+	<Name>F8E4E399-CF40-A1EE-8AAF-A4D490597179</Name>
+	<Description>Do you want to cancel the contract termination?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-25T07:42:12.384</CreationDate>
+	<Notes/>
+	<DefaultText>Do you want to cancel the contract termination?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1EE-8AAF-A4D49059F179"
+		/>
+	</Translations>
+</TextIdentifier>

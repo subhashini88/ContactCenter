@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-BABB-F16BDB09A4C1">
+	<DocumentID>9890969C-5774-A1E7-BABB-F16BDB0964C1</DocumentID>
+	<Name>9890969C-5774-A1E7-BABB-F16BDB0964C1</Name>
+	<Description>InvalidateAction</Description>
+	<CreatedBy>adhir@ContractCenter</CreatedBy>
+	<CreationDate>2017-12-27T11:04:37.402</CreationDate>
+	<Notes/>
+	<Text>InvalidateAction</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-BABB-F16BDB08E4C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

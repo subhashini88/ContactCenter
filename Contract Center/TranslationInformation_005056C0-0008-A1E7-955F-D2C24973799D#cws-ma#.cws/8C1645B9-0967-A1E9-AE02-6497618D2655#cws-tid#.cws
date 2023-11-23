@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-AE02-6497618D6655">
+	<DocumentID>8C1645B9-0967-A1E9-AE02-6497618D2655</DocumentID>
+	<Name>8C1645B9-0967-A1E9-AE02-6497618D2655</Name>
+	<Description>DeleteContainingClauses</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-06T05:25:10.311</CreationDate>
+	<Notes/>
+	<DefaultText>DeleteContainingClauses</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-AE02-6497618DA655"
+		/>
+	</Translations>
+</TextIdentifier>

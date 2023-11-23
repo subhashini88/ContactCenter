@@ -1,0 +1,102 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="005056C0-0008-A1E7-9565-A0498182399D">
+	<DocumentID>005056C0-0008-A1E7-9565-A0498181F99D</DocumentID>
+	<Name>Default Case Management Event Types</Name>
+	<Description>Auto-generated project with default Event Types</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-20T08:57:36.9</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="005056C0-0008-A1E7-9565-A0498185399D">
+			<DocumentID>005056C0-0008-A1E7-9565-A0498184F99D</DocumentID>
+			<Name>Cordys Default Case Management Event Types 1.0</Name>
+			<Description>Auto-generated project with default Event Types</Description>
+			<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+			<CreationDate>2017-06-20T08:57:36.901</CreationDate>
+			<Notes/>
+			<BuildNumber>0</BuildNumber>
+			<GenerateModelPackage>false</GenerateModelPackage>
+			<ISVPackageFileName>Cordys Default Case Management Event Types1.0</ISVPackageFileName>
+			<ISVPackageOwner>Cordys</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Default Case Management Event Types</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>1.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="005056C0-0008-A1E7-9565-A0498184799D"
+			path="Default Case Management Event Types"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="005056C0-0008-A1E7-9565-A0498182B99D">
+			<DocumentID>005056C0-0008-A1E7-9565-A0498182799D</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description/>
+			<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+			<CreationDate>2017-06-20T08:57:36.901</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="005056C0-0008-A1E7-9565-A0498183B99D">
+					<DocumentID>005056C0-0008-A1E7-9565-A0498183799D</DocumentID>
+					<Name>en-US</Name>
+					<Description/>
+					<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+					<CreationDate>2017-06-20T08:57:36.901</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="005056C0-0008-A1E7-9565-A0498183F99D"
+							path="Default Case Management Event Types/en-US_005056C0-0008-A1E7-9565-A0498183F99D"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="005056C0-0008-A1E7-9565-A0498182799D"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="005056C0-0008-A1E7-9565-A0498183799D"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="005056C0-0008-A1E7-9565-A0498182F99D"
+					path="Default Case Management Event Types/TranslationInformation_005056C0-0008-A1E7-9565-A0498182F99D"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

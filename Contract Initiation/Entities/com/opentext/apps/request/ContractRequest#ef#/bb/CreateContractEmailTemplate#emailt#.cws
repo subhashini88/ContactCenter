@@ -1,0 +1,50 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B44C-7F49281A4889">
+	<DocumentID>F8B156D6-337A-A1E8-B44C-7F49281A0889</DocumentID>
+	<Name>CreateContractEmailTemplate</Name>
+	<Description>CreateContractEmailTemplate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-16T11:26:29.619</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>The Contract initiation request &lt;a href=&quot;http://{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Identity.ItemId}/F8B156D6337AA1E8AC4038ADD5510882&quot;&gt;{item.Properties.ContractName}&lt;/a&gt; has been created as Contract&amp;nbsp;&lt;a href=&quot;http://{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Properties.Z_INT_ContractItemId}/F8B156D635F3A1E89CB08DDB9883E4C8&quot;&gt;{item.Properties.CTRNO}&lt;/a&gt; by {User.Properties.FullName}.&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Contract initiation request {item.Properties.ContractName} created as Contract '&lt;CONTRACT ID&gt; by {User.Properties.FullName}</Subject>
+	<To></To>
+	<BuildingBlock>
+		<uri
+			id="F8B156D6-337A-A1E8-B44C-78CAF1AA4889"
+		/>
+	</BuildingBlock>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="F8B156D6-337A-A1E8-B44C-7F4928184889">
+			<DocumentID>F8B156D6-337A-A1E8-B44C-7F4928180889</DocumentID>
+			<Name>F8B156D6-337A-A1E8-B44C-7F4928180889</Name>
+			<Description>F8B156D6-337A-A1E8-B44C-7F4928180889</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-10-16T11:26:29.618</CreationDate>
+			<Notes/>
+			<DeveloperText>Create contract email template</DeveloperText>
+			<Identifier>
+				<uri
+					id="F8B156D6-337A-A1E8-B44C-7F4928188889"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<TypeDefinition/>
+</EmailTemplate>

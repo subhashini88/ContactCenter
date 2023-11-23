@@ -1,0 +1,77 @@
+
+<Layout
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.layout.Layout"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-8D03-5A2F221B6518">
+	<DocumentID>484D7EEB-7112-A1E9-8D03-5A2F221B2518</DocumentID>
+	<Name>ContentLayout</Name>
+	<Description>ContentLayout</Description>
+	<CreatedBy>cn=dsrivard@Appworks partition,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-02-19T06:19:46.521</CreationDate>
+	<Notes/>
+	<Definition>{&quot;layoutType&quot;:&quot;object&quot;,&quot;id&quot;:&quot;484D7EEB-7112-A1E9-8D03-5A2F221B2518&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;zone&quot;,&quot;panelId&quot;:null,&quot;size&quot;:null,&quot;id&quot;:&quot;484D7EEB7112A1E98D035A2F21FCA518&quot;,&quot;nodes&quot;:[{&quot;type&quot;:&quot;panel&quot;,&quot;panelId&quot;:&quot;484D7EEB7112A1E98D035A2F221BE518&quot;,&quot;size&quot;:null,&quot;id&quot;:&quot;484D7EEB7112A1E98D035A2F21FDA518&quot;,&quot;nodes&quot;:[]}]}]}</Definition>
+	<HelpURL></HelpURL>
+	<HideCreateAction>false</HideCreateAction>
+	<IncludeInCreate>false</IncludeInCreate>
+	<IsFullLayout>false</IsFullLayout>
+	<IsPreviewLayout>true</IsPreviewLayout>
+	<LayoutPanelType>FitToScreen</LayoutPanelType>
+	<LayoutType>0</LayoutType>
+	<ShowFirstTab>false</ShowFirstTab>
+	<ActionBarAssociations/>
+	<BuildingBlock>
+		<uri
+			id="484D7EEB-7112-A1E9-8D03-5A2F221BA518"
+		/>
+	</BuildingBlock>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-8D03-5A2F221AE518">
+			<DocumentID>484D7EEB-7112-A1E9-8D03-5A2F221AA518</DocumentID>
+			<Name>484D7EEB-7112-A1E9-8D03-5A2F221AA518</Name>
+			<Description>484D7EEB-7112-A1E9-8D03-5A2F221AA518</Description>
+			<CreatedBy>cn=dsrivard@Appworks partition,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+			<CreationDate>2019-02-19T06:19:46.528</CreationDate>
+			<Notes/>
+			<DeveloperText>Content Layout</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+	<FormAssociations/>
+	<Image/>
+	<LayoutAssociations/>
+	<LayoutPanels>
+		<LayoutPanel
+			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
+			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-8D03-5A2F221A6518">
+			<DocumentID>484D7EEB-7112-A1E9-8D03-5A2F221A2518</DocumentID>
+			<Name>Preview</Name>
+			<Description>Preview</Description>
+			<CreatedBy>cn=dsrivard@Appworks partition,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+			<CreationDate>2019-02-19T06:19:46.518</CreationDate>
+			<Notes/>
+			<Definition>{&quot;sourceId&quot;:&quot;5425680C62B2456F8C2F8EB3E496ACA6&quot;,&quot;sourceName&quot;:&quot;Preview&quot;,&quot;chrome&quot;:&quot;none&quot;,&quot;id&quot;:&quot;484D7EEB7112A1E98D035A2F221BE518&quot;,&quot;imageQualifiedName&quot;:null,&quot;properties&quot;:[]}</Definition>
+			<DisplayName>Preview</DisplayName>
+			<ModelerId>484D7EEB7112A1E98D035A2F221BE518</ModelerId>
+			<SourceId>5425680C62B2456F8C2F8EB3E496ACA6</SourceId>
+			<SourceName>Preview</SourceName>
+			<ActionBarAssociation/>
+			<CustomScript/>
+			<FormAssociation/>
+			<IHubPanelConfiguration/>
+			<LayoutAssociation/>
+			<LocalizableDisplayName/>
+			<PanelCategories/>
+			<PanelIcon/>
+			<WorklistAssociation/>
+			<XFormAssociation/>
+			<filterCriteria/>
+		</LayoutPanel>
+	</LayoutPanels>
+	<Original/>
+	<WorklistAssociations/>
+	<XFormAssociations/>
+</Layout>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9CFE-AFDF9EB7F156">
+	<DocumentID>F8E4E399-CF40-A1ED-9CFE-AFDF9EB7B156</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-9CFE-AFDF9EB7B156</Name>
+	<Description>Allorgs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-04T17:48:24.288</CreationDate>
+	<Notes/>
+	<DefaultText>Allorgs</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-9CFE-AFDF9EB83156"
+		/>
+	</Translations>
+</TextIdentifier>

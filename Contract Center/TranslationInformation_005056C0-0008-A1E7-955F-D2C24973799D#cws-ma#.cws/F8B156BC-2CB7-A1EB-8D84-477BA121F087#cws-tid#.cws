@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-8D84-477BA1223087">
+	<DocumentID>F8B156BC-2CB7-A1EB-8D84-477BA121F087</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-8D84-477BA121F087</Name>
+	<Description>Contract in valid state?</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-12-04T09:22:10.934</CreationDate>
+	<Notes/>
+	<DefaultText>Contract in valid state?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EB-8D84-477BA1227087"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-86B5-ED1A408CF010">
+	<DocumentID>F8B156BC-2CB7-A1E8-86B5-ED1A408CB010</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-86B5-ED1A408CB010</Name>
+	<Description>Z_INT_CurrencyFilterList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-02-26T09:32:29.181</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_CurrencyFilterList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-86B5-ED1A408D3010"
+		/>
+	</Translations>
+</TextIdentifier>

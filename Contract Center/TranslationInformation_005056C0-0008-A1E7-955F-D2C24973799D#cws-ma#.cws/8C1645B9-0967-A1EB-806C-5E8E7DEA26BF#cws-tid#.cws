@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1EB-806C-5E8E7DEA66BF">
+	<DocumentID>8C1645B9-0967-A1EB-806C-5E8E7DEA26BF</DocumentID>
+	<Name>8C1645B9-0967-A1EB-806C-5E8E7DEA26BF</Name>
+	<Description>ClearParentContainer</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-28T17:45:32.999</CreationDate>
+	<Notes/>
+	<DefaultText>ClearParentContainer</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1EB-806C-5E8E7DEAA6BF"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="4889E768-8755-A1E9-AA4E-8F2AE4034332">
+	<DocumentID>4889E768-8755-A1E9-AA4E-8F2AE4030332</DocumentID>
+	<Name>4889E768-8755-A1E9-AA4E-8F2AE4030332</Name>
+	<Description>Imported</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-18T09:13:00.315</CreationDate>
+	<Notes/>
+	<DefaultText>Imported</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="4889E768-8755-A1E9-AA4E-8F2AE4038332"
+		/>
+	</Translations>
+</TextIdentifier>

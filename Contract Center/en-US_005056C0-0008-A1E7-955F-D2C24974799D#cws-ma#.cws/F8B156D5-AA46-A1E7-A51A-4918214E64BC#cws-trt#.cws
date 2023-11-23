@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A51A-4918214EA4BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A51A-4918214E64BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A51A-4918214E64BC</Name>
+	<Description>Active unit of measurement list</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-08T07:45:47.08</CreationDate>
+	<Notes/>
+	<Text>Active unit of measurement list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A51A-4918214DE4BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

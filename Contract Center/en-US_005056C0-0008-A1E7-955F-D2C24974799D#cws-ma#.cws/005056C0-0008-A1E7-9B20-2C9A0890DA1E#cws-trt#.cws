@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-9B20-2C9A08911A1E">
+	<DocumentID>005056C0-0008-A1E7-9B20-2C9A0890DA1E</DocumentID>
+	<Name>005056C0-0008-A1E7-9B20-2C9A0890DA1E</Name>
+	<Description>xECM Configurations list</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-19T12:52:22.919</CreationDate>
+	<Notes/>
+	<Text>xECM Configurations list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-9B20-2C9A08905A1E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1ED-94E5-2EA15E90FAC2">
+	<DocumentID>98FA9B81-5041-A1ED-94E5-2EA15E90BAC2</DocumentID>
+	<Name>98FA9B81-5041-A1ED-94E5-2EA15E90BAC2</Name>
+	<Description>get countries</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-10-24T12:12:12.83</CreationDate>
+	<Notes/>
+	<Text>get countries</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1ED-94E5-2EA15E903AC2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

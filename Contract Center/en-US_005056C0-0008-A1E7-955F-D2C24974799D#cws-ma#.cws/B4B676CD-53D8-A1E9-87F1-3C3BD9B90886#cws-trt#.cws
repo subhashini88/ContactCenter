@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-87F1-3C3BD9B94886">
+	<DocumentID>B4B676CD-53D8-A1E9-87F1-3C3BD9B90886</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-87F1-3C3BD9B90886</Name>
+	<Description>Compare TimeStamp</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-24T10:45:20.634</CreationDate>
+	<Notes/>
+	<Text>Compare TimeStamp</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-87F1-3C3BD9B88886"
+		/>
+	</TextIdentifier>
+</TranslatedText>

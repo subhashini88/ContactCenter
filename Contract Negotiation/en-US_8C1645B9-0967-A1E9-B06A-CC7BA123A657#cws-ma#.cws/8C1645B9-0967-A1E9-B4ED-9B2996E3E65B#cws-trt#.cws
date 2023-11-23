@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B4ED-9B2996E4265B">
+	<DocumentID>8C1645B9-0967-A1E9-B4ED-9B2996E3E65B</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B4ED-9B2996E3E65B</Name>
+	<Description>Deadline met</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-10T10:37:24.956</CreationDate>
+	<Notes/>
+	<Text>Deadline met</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-B4ED-9B2996E3665B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B65E-83671C3924B7">
+	<DocumentID>484D7EE5-DBB0-A1E7-B65E-83671C38E4B7</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B65E-83671C38E4B7</Name>
+	<Description>Cancellation reason code</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-05T05:06:51.531</CreationDate>
+	<Notes/>
+	<Text>Cancellation reason code</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B65E-83671C3864B7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

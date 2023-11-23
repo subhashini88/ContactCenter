@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+	<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+	<style type="text/css">
+		#contractname {
+			display: inline-block;
+			white-space: nowrap;
+			max-width: 80%;
+			cursor: context-menu;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			font-family: Aktiv grotesk;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 24px;
+			letter-spacing: 0em;
+			text-align: left;
+		}
+
+		#statusSummary {
+			display: inline-block;
+			white-space: nowrap;
+			max-width: 70%;
+			cursor: context-menu;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			font-family: Aktiv grotesk;
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 14px;
+			letter-spacing: 0em;
+			text-align: left;
+			color: #232E72;
+
+
+		}
+		
+		.cc-ltr #div_ContractHeader{
+			margin-left: 15px;
+			margin-top: 10px;
+		}
+		
+		.cc-rtl #div_ContractHeader{
+			margin-right: 15px;
+			margin-top: 10px;
+		}
+	</style>
+	<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+	<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+	<script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var contractName, externalPartyName, statusSummary, contractItemID;
+		var parentType, currentState, parentStatus;
+		var itemDetails;
+		var partyDetailsl;
+		function GetContractDetailsById(inreq, callbackfunc) {
+			$.cordys.ajax({
+				method: "GetContractDetailsById",
+				namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+				parameters: { "contractID": inreq },
+				success: function (data) {
+					callbackfunc(data, "SUCCESS");
+				},
+				error: function (responseFailure) {
+					callbackfunc(null, "ERROR");
+					showOrHideErrorInfo("div_modalErrorInfoArea", true, getTranslationMessage("An error occurred while retrieving the contract details. Contact your administrator."), 10000);
+					return false;
+				}
+			});
+		};
+		function RemoveWatcherToContractById(contractID, responseCallback) {
+			$.cordys.ajax({
+				method: "removeWatcherToContract",
+				namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+				parameters: { "contractId": contractID },
+				success: function (responseSuccess) {
+					responseCallback(responseSuccess);
+				},
+				error: function (responseFailure) {
+					responseCallback(responseFailure, "ERROR");
+					return false;
+				}
+			});
+		};
+		function AddWatcherToContractById(contractID, responseCallback) {
+			$.cordys.ajax({
+				method: "addWatcherToContract",
+				namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+				parameters: { "contractId": contractID },
+				success: function (responseSuccess) {
+					responseCallback(responseSuccess);
+				},
+				error: function (responseFailure) {
+					responseCallback(responseFailure, "ERROR");
+					return false;
+				}
+			});
+		};
+		var ContractSummaryModel = function () {
+			var self = this;
+			self.watcherAdded = ko.observable();
+			self.contractID = ko.observable();
+
+			self.addWatcher = function () {
+				AddWatcherToContractById(self.contractID, function (response_data, status) {
+					if (status !== "ERROR") {
+						self.watcherAdded("true");
+					}
+				});
+			}
+			self.removeWatcher = function () {
+				RemoveWatcherToContractById(self.contractID, function (response_data, status) {
+					if (status !== "ERROR") {
+						self.watcherAdded("false");
+					}
+				});
+			}
+			self.fetchContractDetails = function () {
+				var contractItemID = getUrlParameterValue("instanceId", null, true);
+				GetContractDetailsById(contractItemID.split('.')[1], function (data, status) {
+					if (status === "SUCCESS") {
+						l_contractSummary_model.watcherAdded(getTextValue(data.Contract.watcheradded));
+						l_contractSummary_model.contractID(contractItemID.split('.')[1]);
+					}
+				});
+			};
+		}
+		
+		function getContractData(){
+			window.top.publicAPIProvider.getItemData(contractItemID).then(response => {
+					itemDetails = response;
+					if (itemDetails && itemDetails.Properties) {
+						contractName = itemDetails.Properties.ContractName;
+						parentType = itemDetails.Properties.ParentType;
+						currentState = itemDetails.Lifecycle.CurrentState;
+
+						if (parentType == "Amend" && itemDetails.ParentContract.relatedItemId) {
+							if (currentState == "Active")
+								parentStatus = "Post Amendment"
+							else
+								parentStatus = "Amendment in Progress"
+
+						}
+						else if (parentType == "Renew" && itemDetails.ParentContract.relatedItemId) {
+							if (currentState == "Active")
+								parentStatus = "Post Renewal"
+							else
+								parentStatus = "Renewal in Progress"
+						}
+						else if ((currentState == "Active" || currentState == "Pending Activation") && itemDetails.Properties.Z_INT_Status === 'TERMINATION_INPROGRESS') {
+							parentStatus = "Termination in Progress"
+						}
+						else if ((currentState == "Active" || currentState == "Pending Activation") && itemDetails.Properties.Z_INT_Status === 'TerminationReview') {
+							parentStatus = "Termination Review"
+						}
+						else if ((currentState == "Active" || currentState == "Pending Activation") && itemDetails.Properties.Z_INT_Status === 'TerminationCancelReview') {
+							parentStatus = "Cancel termination review"
+						}
+						else if (parentType == null || !(itemDetails.ParentContract.relatedItemId)) {
+							parentStatus = "New"
+						}
+
+
+						if ((currentState == "Draft" || currentState == "Negotiation" || currentState == "Pre-Execution" || currentState == "Execution" || currentState == "Pending Activation" || currentState == "Active") && (parentType == null || !(itemDetails.ParentContract.relatedItemId))) {
+							statusSummary = currentState + " - " + parentStatus;
+						}
+						else if ((currentState == "Draft" || currentState == "Negotiation" || currentState == "Pre-Execution" || currentState == "Execution" || currentState == "Pending Activation" || currentState == "Active") && (parentType != null && itemDetails.ParentContract.relatedItemId)) {
+							statusSummary = currentState + " - " + parentStatus;
+						}
+						else {
+							if (currentState == "Archive")
+								currentState = "Archived";
+							statusSummary = currentState;
+						}
+					}
+					$("#contractname").text(contractName);
+					$("#contractname").attr("title", contractName);
+					$("#statusSummary").text(statusSummary);
+					const interval = setInterval(function () {
+						// method to be executed;
+						window.top.publicAPIProvider.getItemData(contractItemID).then(response => {
+							itemDetails = response;
+						  })
+						  .catch(error => {
+							console.error("Error occurred:", error);
+						});;
+
+						if (currentState == "Archived")
+							currentState = "Archive";
+						if (itemDetails.Lifecycle.CurrentState != currentState || itemDetails.Properties.ContractName != contractName) {
+							window.location.reload(1);
+						}
+					}, 4000);
+				  })
+				  .catch(error => {
+					console.error("Error occurred:", error);
+				});
+		}
+		
+		$(document).ready(function () {
+			
+			var i_locale = getlocale();
+			var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+			loadRTLIfRequired(i_locale, rtl_css);
+
+			if (window.parent) {
+				var configuratorIframe = $('[src*="contractheader.htm"]', window.parent.document);
+				if (configuratorIframe) {
+					configuratorIframe.css('border', 'none');
+				}
+			}
+			contractItemID = getUrlParameterValue("instanceId", null, true);
+			secondPartyItemID = getUrlParameterValue("secondPartyItemId", null, true);
+			
+			getContractData();
+
+
+			l_contractSummary_model = new ContractSummaryModel();
+			ko.applyBindings(l_contractSummary_model, document.getElementById("div_ContractHeader"));
+
+			l_contractSummary_model.fetchContractDetails();
+
+		});
+
+	</script>
+</head>
+
+<body style="overflow:hidden;" class="cc-ltr">
+	<div id="div_ContractHeader" style="margin-left: 15px;margin-top: 10px;">
+		<div>
+			<span id="contractname"></span>
+		</div>
+		<div><span id="statusSummary"></span></div>
+		<div>
+			<span id="contractname"></span>
+			<span style="cursor: pointer;border: none !important;background: transparent !important;position: absolute;"
+				data-bind="css:{cchideelement:($data.watcherAdded()=='true')}">
+				<a type="cancel" data-bind="click:addWatcher" style="font-size: 13px;cursor: pointer;"
+					data-translatable="true">Start watching this contract</a>
+
+			</span>
+			<span style="cursor: pointer;border: none !important;background: transparent !important;position: absolute;"
+				data-bind="css:{cchideelement:($data.watcherAdded()=='false')}">
+				<a type="cancel" data-bind="click:removeWatcher" style="font-size: 13px;cursor: pointer;"
+					data-translatable="true">Stop watching this contract</a>
+			</span>
+		</div>
+	</div>
+</body>
+
+</html>

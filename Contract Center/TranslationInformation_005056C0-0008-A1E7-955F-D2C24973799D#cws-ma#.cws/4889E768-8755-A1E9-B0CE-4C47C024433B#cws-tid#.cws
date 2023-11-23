@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="4889E768-8755-A1E9-B0CE-4C47C024833B">
+	<DocumentID>4889E768-8755-A1E9-B0CE-4C47C024433B</DocumentID>
+	<Name>4889E768-8755-A1E9-B0CE-4C47C024433B</Name>
+	<Description>Contract preview.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-20T10:57:18.806</CreationDate>
+	<Notes/>
+	<DefaultText>Contract preview.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="4889E768-8755-A1E9-B0CE-4C47C024C33B"
+		/>
+	</Translations>
+</TextIdentifier>

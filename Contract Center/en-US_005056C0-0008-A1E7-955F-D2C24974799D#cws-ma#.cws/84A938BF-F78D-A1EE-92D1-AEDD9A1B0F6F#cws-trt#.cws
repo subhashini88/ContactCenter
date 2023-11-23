@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-92D1-AEDD9A1B4F6F">
+	<DocumentID>84A938BF-F78D-A1EE-92D1-AEDD9A1B0F6F</DocumentID>
+	<Name>84A938BF-F78D-A1EE-92D1-AEDD9A1B0F6F</Name>
+	<Description>Related non compliance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-04T17:23:13.952</CreationDate>
+	<Notes/>
+	<Text>Related non compliance</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-92D1-AEDD9A1A8F6F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

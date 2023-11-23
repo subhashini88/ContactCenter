@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A409-C5B08A0C64CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A409-C5B08A0C24CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A409-C5B08A0C24CB</Name>
+	<Description>Currency change</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-25T16:34:22.403</CreationDate>
+	<Notes/>
+	<Text>Currency change</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A409-C5B08A0BA4CB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

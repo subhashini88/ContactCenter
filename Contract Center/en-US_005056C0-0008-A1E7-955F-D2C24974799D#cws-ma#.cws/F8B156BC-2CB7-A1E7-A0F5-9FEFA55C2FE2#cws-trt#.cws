@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A0F5-9FEFA55C6FE2">
+	<DocumentID>F8B156BC-2CB7-A1E7-A0F5-9FEFA55C2FE2</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A0F5-9FEFA55C2FE2</Name>
+	<Description>is Clause Accessible?</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-08-18T05:32:45.111</CreationDate>
+	<Notes/>
+	<Text>is Clause Accessible?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A0F5-9FEFA55BAFE2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

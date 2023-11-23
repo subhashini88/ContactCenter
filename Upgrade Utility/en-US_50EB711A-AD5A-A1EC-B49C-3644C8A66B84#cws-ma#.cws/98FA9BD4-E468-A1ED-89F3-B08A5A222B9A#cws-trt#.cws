@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-89F3-B08A5A226B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-89F3-B08A5A222B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-89F3-B08A5A222B9A</Name>
+	<Description>getClauseRelCount</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-29T19:21:26.271</CreationDate>
+	<Notes/>
+	<Text>getClauseRelCount</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-89F3-B08A5A21AB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

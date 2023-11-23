@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-AFF6-650FC1457A9D">
+	<DocumentID>98FA9B81-5041-A1EC-AFF6-650FC1453A9D</DocumentID>
+	<Name>98FA9B81-5041-A1EC-AFF6-650FC1453A9D</Name>
+	<Description>no_27</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-04-19T12:15:35.854</CreationDate>
+	<Notes/>
+	<DefaultText>no_27</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EC-AFF6-650FC145BA9D"
+		/>
+	</Translations>
+</TextIdentifier>

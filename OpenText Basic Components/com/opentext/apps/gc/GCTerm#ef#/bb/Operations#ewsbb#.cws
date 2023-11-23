@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-AC0C-9A6F0DC964F0">
+	<DocumentID>484D7EE5-DBB0-A1E8-AC0C-9A6F0DC924F0</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>Harley</CreatedBy>
+	<CreationDate>2018-09-04T11:05:39.484</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E8-B1B5-EE3DFE370876">
+			<DocumentID>B4B676CD-53D8-A1E8-B1B5-EE3DFE36C876</DocumentID>
+			<Name>CreateGCTerm</Name>
+			<Description>Create GCTerm</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-10-03T06:44:15.996</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE5-DBB0-A1E8-ABD6-4A00446564F0"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E8-B1B5-EE3DFE378876">
+			<DocumentID>B4B676CD-53D8-A1E8-B1B5-EE3DFE374876</DocumentID>
+			<Name>DeleteGCTerm</Name>
+			<Description>Delete GCTerm</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-10-03T06:44:15.996</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE5-DBB0-A1E8-ABD6-4A00446564F0"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD6-4A00446564F0"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="484D7EE5-DBB0-A1E8-AC0C-9A6F0DC824F0">
+			<DocumentID>484D7EE5-DBB0-A1E8-AC0C-9A6F0DC7E4F0</DocumentID>
+			<Name>ReadTerm</Name>
+			<Description>Read Term</Description>
+			<CreatedBy>Harley</CreatedBy>
+			<CreationDate>2018-09-04T11:05:39.484</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE5-DBB0-A1E8-ABD6-4A00446564F0"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="484D7EE5-DBB0-A1E8-AC0C-9A6F0DC7A4F0">
+			<DocumentID>484D7EE5-DBB0-A1E8-AC0C-9A6F0DC764F0</DocumentID>
+			<Name>UpdateTerm</Name>
+			<Description>Update Term</Description>
+			<CreatedBy>Harley</CreatedBy>
+			<CreationDate>2018-09-04T11:05:39.484</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE5-DBB0-A1E8-ABD6-4A00446564F0"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

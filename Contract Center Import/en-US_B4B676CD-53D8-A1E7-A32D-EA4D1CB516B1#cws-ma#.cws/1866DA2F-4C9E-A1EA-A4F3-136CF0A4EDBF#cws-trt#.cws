@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-A4F3-136CF0A52DBF">
+	<DocumentID>1866DA2F-4C9E-A1EA-A4F3-136CF0A4EDBF</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-A4F3-136CF0A4EDBF</Name>
+	<Description>InvokeImportReferenceData</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-05-11T21:17:46.558</CreationDate>
+	<Notes/>
+	<Text>InvokeImportReferenceData</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EA-A4F3-136CF0A46DBF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A329-EA2D87312FE5">
+	<DocumentID>F8B156BC-2CB7-A1E7-A329-EA2D8730EFE5</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A329-EA2D8730EFE5</Name>
+	<Description>Z_INT_Createflag</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-08-29T12:34:41.277</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_Createflag</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A329-EA2D87316FE5"
+		/>
+	</Translations>
+</TextIdentifier>

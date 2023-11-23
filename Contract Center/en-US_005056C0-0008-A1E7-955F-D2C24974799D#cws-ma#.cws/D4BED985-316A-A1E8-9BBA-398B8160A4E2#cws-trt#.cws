@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="D4BED985-316A-A1E8-9BBA-398B8160E4E2">
+	<DocumentID>D4BED985-316A-A1E8-9BBA-398B8160A4E2</DocumentID>
+	<Name>D4BED985-316A-A1E8-9BBA-398B8160A4E2</Name>
+	<Description/>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-13T09:19:18.247</CreationDate>
+	<Notes/>
+	<Text>&quot;Name cannot be empty&quot;</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="D4BED985-316A-A1E8-9BBA-398B815FA4E2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

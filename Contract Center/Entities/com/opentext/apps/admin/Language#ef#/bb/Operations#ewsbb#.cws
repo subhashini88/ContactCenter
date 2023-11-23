@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-ABC4-1195D2352FED">
+	<DocumentID>F8B156BC-2CB7-A1E7-ABC4-1195D234EFED</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-12T09:30:44.965</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="1866DA2F-4F73-A1E7-AFB4-4916E2ADD275">
+			<DocumentID>1866DA2F-4F73-A1E7-AFB4-4916E2AD9275</DocumentID>
+			<Name>CreateLanguage</Name>
+			<Description>Create Language</Description>
+			<CreatedBy>vsusmith</CreatedBy>
+			<CreationDate>2017-11-01T10:14:16.347</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-A4BA-5CC7E12FF1BF"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="1866DA2F-4F73-A1E7-AFB4-4916E2AC9275">
+			<DocumentID>1866DA2F-4F73-A1E7-AFB4-4916E2AC5275</DocumentID>
+			<Name>DeleteLanguage</Name>
+			<Description>Delete Language</Description>
+			<CreatedBy>vsusmith</CreatedBy>
+			<CreationDate>2017-11-01T10:14:16.346</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-A4BA-5CC7E12FF1BF"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4BA-5CC7E12FF1BF"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E7-ABC4-1195D2342FED">
+			<DocumentID>F8B156BC-2CB7-A1E7-ABC4-1195D233EFED</DocumentID>
+			<Name>ReadLanguage</Name>
+			<Description>Read Language</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2017-10-12T09:30:44.965</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-A4BA-5CC7E12FF1BF"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="1866DA2F-4F73-A1E7-AFB4-4916E2AD1275">
+			<DocumentID>1866DA2F-4F73-A1E7-AFB4-4916E2ACD275</DocumentID>
+			<Name>UpdateLanguage</Name>
+			<Description>Update Language</Description>
+			<CreatedBy>vsusmith</CreatedBy>
+			<CreationDate>2017-11-01T10:14:16.346</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-A4BA-5CC7E12FF1BF"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

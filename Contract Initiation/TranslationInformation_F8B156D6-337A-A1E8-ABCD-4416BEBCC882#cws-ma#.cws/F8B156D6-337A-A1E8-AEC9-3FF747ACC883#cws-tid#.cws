@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AEC9-3FF747AD0883">
+	<DocumentID>F8B156D6-337A-A1E8-AEC9-3FF747ACC883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AEC9-3FF747ACC883</Name>
+	<Description>Dashboard for contract requester</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-18T10:11:14.704</CreationDate>
+	<Notes/>
+	<DefaultText>Dashboard for contract requester</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-337A-A1E8-AEC9-3FF747AD4883"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-931D-74B6D2D9F183">
+	<DocumentID>50EB711A-FC6F-A1EE-931D-74B6D2D9B183</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-931D-74B6D2D9B183</Name>
+	<Description>INVALIDINPROGRESS</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-06T07:22:59.607</CreationDate>
+	<Notes/>
+	<Text>INVALIDINPROGRESS</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-931D-74B6D2D93183"
+		/>
+	</TextIdentifier>
+</TranslatedText>

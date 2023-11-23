@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-B524-6C271E80ADC1">
+	<DocumentID>1866DA2F-4C9E-A1EA-B524-6C271E806DC1</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-B524-6C271E806DC1</Name>
+	<Description>Related  Organization Member Import Status</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-02T08:47:35.826</CreationDate>
+	<Notes/>
+	<DefaultText>Related  Organization Member Import Status</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EA-B524-6C271E80EDC1"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-8D0B-F0044558F087">
+	<DocumentID>F8B156BC-2CB7-A1EB-8D0B-F0044558B087</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-8D0B-F0044558B087</Name>
+	<Description>Z_INT_ContractListForClone</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-12-02T01:18:14.389</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ContractListForClone</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EB-8D0B-F00445583087"
+		/>
+	</TextIdentifier>
+</TranslatedText>

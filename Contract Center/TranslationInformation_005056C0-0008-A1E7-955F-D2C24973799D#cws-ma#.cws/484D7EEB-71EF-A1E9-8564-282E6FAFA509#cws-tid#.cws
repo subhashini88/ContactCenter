@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-8564-282E6FAFE509">
+	<DocumentID>484D7EEB-71EF-A1E9-8564-282E6FAFA509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-8564-282E6FAFA509</Name>
+	<Description>Read person from second party</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-11T11:05:54.881</CreationDate>
+	<Notes/>
+	<DefaultText>Read person from second party</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-8564-282E6FB02509"
+		/>
+	</Translations>
+</TextIdentifier>

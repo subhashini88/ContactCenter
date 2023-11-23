@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-BAA2-042A022EE663">
+	<DocumentID>8C1645B9-0967-A1E9-BAA2-042A022EA663</DocumentID>
+	<Name>8C1645B9-0967-A1E9-BAA2-042A022EA663</Name>
+	<Description>Cannot create link for archived contracts.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-09T11:55:54.361</CreationDate>
+	<Notes/>
+	<Text>Cannot create link for archived contracts.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-BAA2-042A022E2663"
+		/>
+	</TextIdentifier>
+</TranslatedText>

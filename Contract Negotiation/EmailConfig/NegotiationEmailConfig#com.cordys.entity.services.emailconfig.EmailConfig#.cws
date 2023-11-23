@@ -1,0 +1,18 @@
+
+<EmailConfig
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.emailconfig.EmailConfig"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-BD61-032BFC22C346">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-BD61-032BFC228346</DocumentID>
+	<Name>NegotiationEmailConfig</Name>
+	<Description>NegotiationEmailConfig</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-10-23T11:01:23.884</CreationDate>
+	<Notes/>
+	<EmailProfileUserID></EmailProfileUserID>
+	<EnableDefault>false</EnableDefault>
+	<From></From>
+	<FromDisplayName></FromDisplayName>
+	<ReplyTo></ReplyTo>
+	<DisplayName/>
+</EmailConfig>

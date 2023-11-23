@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B957-C37273A064B9">
+	<DocumentID>484D7EE5-DBB0-A1E7-B957-C37273A024B9</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B957-C37273A024B9</Name>
+	<Description>Parties distribution action</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-20T10:46:46.049</CreationDate>
+	<Notes/>
+	<Text>Parties distribution action</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B957-C372739FA4B9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

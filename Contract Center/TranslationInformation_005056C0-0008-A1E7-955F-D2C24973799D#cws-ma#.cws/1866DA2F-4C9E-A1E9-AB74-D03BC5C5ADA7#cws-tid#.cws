@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-AB74-D03BC5C5EDA7">
+	<DocumentID>1866DA2F-4C9E-A1E9-AB74-D03BC5C5ADA7</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-AB74-D03BC5C5ADA7</Name>
+	<Description>check_relationship_type</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-24T05:40:52.085</CreationDate>
+	<Notes/>
+	<DefaultText>check_relationship_type</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1E9-AB74-D03BC5C62DA7"
+		/>
+	</Translations>
+</TextIdentifier>

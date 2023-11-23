@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-B573-49490319BA9F">
+	<DocumentID>98FA9B81-5041-A1EC-B573-494903197A9F</DocumentID>
+	<Name>98FA9B81-5041-A1EC-B573-494903197A9F</Name>
+	<Description>Z_INT_CTRContactsList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-05-17T10:36:42.9</CreationDate>
+	<Notes/>
+	<Text>Z_INT_CTRContactsList</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-B573-49490318FA9F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

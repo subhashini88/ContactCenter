@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-874D-82EE8BDD0465">
+	<DocumentID>98FA9B1A-7A8B-A1ED-874D-82EE8BDCC465</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-874D-82EE8BDCC465</Name>
+	<Description>Update Doc Clone status</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-16T07:37:59.937</CreationDate>
+	<Notes/>
+	<Text>Update Doc Clone status</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-874D-82EE8BDC4465"
+		/>
+	</TextIdentifier>
+</TranslatedText>

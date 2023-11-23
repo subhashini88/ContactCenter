@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4F73-A1E7-ABFE-345C7048E38D">
+	<DocumentID>1866DA2F-4F73-A1E7-ABFE-345C7048A38D</DocumentID>
+	<Name>1866DA2F-4F73-A1E7-ABFE-345C7048A38D</Name>
+	<Description>PS fees null rule</Description>
+	<CreatedBy>vsusmith</CreatedBy>
+	<CreationDate>2017-10-13T09:33:39.12</CreationDate>
+	<Notes/>
+	<Text>PS fees null rule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4F73-A1E7-ABFE-345C7048238D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

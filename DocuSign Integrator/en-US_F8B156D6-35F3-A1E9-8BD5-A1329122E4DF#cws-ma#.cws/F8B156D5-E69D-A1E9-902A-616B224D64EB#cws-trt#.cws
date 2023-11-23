@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-902A-616B224DA4EB">
+	<DocumentID>F8B156D5-E69D-A1E9-902A-616B224D64EB</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-902A-616B224D64EB</Name>
+	<Description>getEnvelopeStatusByContractID</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-07T07:24:02.64</CreationDate>
+	<Notes/>
+	<Text>getEnvelopeStatusByContractID</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-902A-616B224CE4EB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

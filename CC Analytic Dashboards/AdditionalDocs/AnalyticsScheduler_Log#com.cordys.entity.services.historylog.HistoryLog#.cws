@@ -1,0 +1,34 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-83F1-AF506DCAD6A0">
+	<DocumentID>98FA9B81-5041-A1EE-83F1-AF506DCA96A0</DocumentID>
+	<Name>AnalyticsScheduler_Log</Name>
+	<Description>AnalyticsScheduler_Log</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-06-21T00:02:11.263</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="98FA9B81-5041-A1EE-83F1-AF506DC856A0">
+			<DocumentID>98FA9B81-5041-A1EE-83F1-AF506DC816A0</DocumentID>
+			<Name>98FA9B81-5041-A1EE-83F1-AF506DC816A0</Name>
+			<Description>98FA9B81-5041-A1EE-83F1-AF506DC816A0</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2023-06-21T00:02:11.262</CreationDate>
+			<Notes/>
+			<DeveloperText>AnalyticsScheduler_Log</DeveloperText>
+			<Identifier>
+				<uri
+					id="98FA9B81-5041-A1EE-83F1-AF506DC896A0"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

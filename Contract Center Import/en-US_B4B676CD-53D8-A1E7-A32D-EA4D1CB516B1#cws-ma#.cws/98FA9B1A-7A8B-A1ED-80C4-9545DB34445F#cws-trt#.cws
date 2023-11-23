@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-80C4-9545DB34845F">
+	<DocumentID>98FA9B1A-7A8B-A1ED-80C4-9545DB34445F</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-80C4-9545DB34445F</Name>
+	<Description>GetAllPONumbers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-14T01:20:24.287</CreationDate>
+	<Notes/>
+	<Text>GetAllPONumbers</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-80C4-9545DB33C45F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

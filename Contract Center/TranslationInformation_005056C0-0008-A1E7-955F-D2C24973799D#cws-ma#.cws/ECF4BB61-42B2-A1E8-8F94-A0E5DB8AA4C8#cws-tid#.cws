@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-8F94-A0E5DB8AE4C8">
+	<DocumentID>ECF4BB61-42B2-A1E8-8F94-A0E5DB8AA4C8</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-8F94-A0E5DB8AA4C8</Name>
+	<Description>Price protection hide rule</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-12T13:17:15.404</CreationDate>
+	<Notes/>
+	<DefaultText>Price protection hide rule</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="ECF4BB61-42B2-A1E8-8F94-A0E5DB8B24C8"
+		/>
+	</Translations>
+</TextIdentifier>

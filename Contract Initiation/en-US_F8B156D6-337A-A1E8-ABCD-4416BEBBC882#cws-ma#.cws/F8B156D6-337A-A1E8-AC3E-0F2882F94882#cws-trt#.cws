@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC3E-0F2882F98882">
+	<DocumentID>F8B156D6-337A-A1E8-AC3E-0F2882F94882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC3E-0F2882F94882</Name>
+	<Description>Perpetual rule clear</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T11:55:43.051</CreationDate>
+	<Notes/>
+	<Text>Perpetual rule clear</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3E-0F2882F8C882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

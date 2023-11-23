@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A783-37772D7364C7">
+	<DocumentID>F8B156B5-069B-A1E7-A783-37772D7324C7</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A783-37772D7324C7</Name>
+	<Description>Renewal action rule</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-20T14:09:14.512</CreationDate>
+	<Notes/>
+	<Text>Renewal action rule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A783-37772D72A4C7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

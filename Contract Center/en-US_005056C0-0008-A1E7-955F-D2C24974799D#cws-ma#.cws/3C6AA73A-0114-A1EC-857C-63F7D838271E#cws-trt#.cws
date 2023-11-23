@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-857C-63F7D838671E">
+	<DocumentID>3C6AA73A-0114-A1EC-857C-63F7D838271E</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-857C-63F7D838271E</Name>
+	<Description>Get attributes needo to be mapped</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-15T06:57:24.081</CreationDate>
+	<Notes/>
+	<Text>Get attributes needo to be mapped</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-857C-63F7D837A71E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-91B9-930210ECA4F0">
+	<DocumentID>F8B156D5-E69D-A1E9-91B9-930210EC64F0</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-91B9-930210EC64F0</Name>
+	<Description>UpdateErrorMsg</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-15T05:55:02.253</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateErrorMsg</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912464DF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-E69D-A1E9-91B9-930210ECE4F0"
+		/>
+	</Translations>
+</TextIdentifier>

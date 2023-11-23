@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B343-7109153F8887">
+	<DocumentID>F8B156D6-337A-A1E8-B343-7109153F4887</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B343-7109153F4887</Name>
+	<Description>Archive conract dialog</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-11T04:33:29.53</CreationDate>
+	<Notes/>
+	<Text>Archive conract dialog</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B343-7109153EC887"
+		/>
+	</TextIdentifier>
+</TranslatedText>

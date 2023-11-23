@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AFF9-EE5727544883">
+	<DocumentID>F8B156D6-337A-A1E8-AFF9-EE5727540883</DocumentID>
+	<Name>Party User in OpenText Party Management</Name>
+	<Description>Party User</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-24T10:57:28.502</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>Party User</CommonName>
+	<DistinguishedName>cn=Party User,cn=OpenText Party Management,cn=cordys,cn=defaultInst,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Functional</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="F8B156D6-337A-A1E8-AFF9-EE572753C883">
+			<DocumentID>F8B156D6-337A-A1E8-AFF9-EE5727538883</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-09-24T10:57:28.502</CreationDate>
+			<Notes/>
+			<ArtifactID>F8B156D5-AA46-A1E7-A67B-14DDC2ED64BC</ArtifactID>
+			<CAPID>f8b156d5-aa46-a1e7-a5b6-ce0f75a024bc</CAPID>
+			<CAPName>OpenText Party Management</CAPName>
+			<CAPVersion>ver16.4build52</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

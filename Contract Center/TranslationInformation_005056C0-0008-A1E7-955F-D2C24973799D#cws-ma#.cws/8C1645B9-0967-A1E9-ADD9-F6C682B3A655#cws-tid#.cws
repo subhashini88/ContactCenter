@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-ADD9-F6C682B3E655">
+	<DocumentID>8C1645B9-0967-A1E9-ADD9-F6C682B3A655</DocumentID>
+	<Name>8C1645B9-0967-A1E9-ADD9-F6C682B3A655</Name>
+	<Description>Replace with equivalent clause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-05T10:15:08.075</CreationDate>
+	<Notes/>
+	<DefaultText>Replace with equivalent clause</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-ADD9-F6C682B42655"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-AA02-D0973482EB30">
+	<DocumentID>50EB711A-AD5A-A1EB-AA02-D0973482AB30</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-AA02-D0973482AB30</Name>
+	<Description>Z_INT_RelatedDepartmentStatusList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-28T10:23:59.998</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_RelatedDepartmentStatusList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EB-AA02-D09734832B30"
+		/>
+	</Translations>
+</TextIdentifier>

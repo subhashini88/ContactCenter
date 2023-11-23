@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9B4C-743896678435">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9B4C-743896674435</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9B4C-743896674435</Name>
+	<Description>Pending renewals</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-12T13:06:24.192</CreationDate>
+	<Notes/>
+	<DefaultText>Pending renewals</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9B4C-74389667C435"
+		/>
+	</Translations>
+</TextIdentifier>

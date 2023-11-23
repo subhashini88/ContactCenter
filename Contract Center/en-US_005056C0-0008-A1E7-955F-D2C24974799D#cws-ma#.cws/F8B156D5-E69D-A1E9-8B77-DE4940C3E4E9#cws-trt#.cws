@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-8B77-DE4940C424E9">
+	<DocumentID>F8B156D5-E69D-A1E9-8B77-DE4940C3E4E9</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-8B77-DE4940C3E4E9</Name>
+	<Description>Is related internal contact available?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-02-11T09:30:40.587</CreationDate>
+	<Notes/>
+	<Text>Is related internal contact available?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-8B77-DE4940C364E9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

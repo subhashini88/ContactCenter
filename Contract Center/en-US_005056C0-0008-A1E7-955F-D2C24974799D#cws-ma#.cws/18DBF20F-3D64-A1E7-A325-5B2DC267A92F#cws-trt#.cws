@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-A325-5B2DC267E92F">
+	<DocumentID>18DBF20F-3D64-A1E7-A325-5B2DC267A92F</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-A325-5B2DC267A92F</Name>
+	<Description>Customer action bar</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-08-29T08:40:31.165</CreationDate>
+	<Notes/>
+	<Text>Customer action bar</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="18DBF20F-3D64-A1E7-A325-5B2DC267292F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

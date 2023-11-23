@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-8B76-2572D76AA4E9">
+	<DocumentID>F8B156D5-E69D-A1E9-8B76-2572D76A64E9</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-8B76-2572D76A64E9</Name>
+	<Description>SetExternalContactsToNull</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-02-11T09:12:50.001</CreationDate>
+	<Notes/>
+	<DefaultText>SetExternalContactsToNull</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-E69D-A1E9-8B76-2572D76AE4E9"
+		/>
+	</Translations>
+</TextIdentifier>

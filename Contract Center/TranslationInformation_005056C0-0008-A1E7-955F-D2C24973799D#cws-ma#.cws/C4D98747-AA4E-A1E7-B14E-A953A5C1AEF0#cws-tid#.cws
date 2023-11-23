@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B14E-A953A5C1EEF0">
+	<DocumentID>C4D98747-AA4E-A1E7-B14E-A953A5C1AEF0</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B14E-A953A5C1AEF0</Name>
+	<Description>Software License Term (months)</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-09T10:56:34.822</CreationDate>
+	<Notes/>
+	<DefaultText>Software License Term (months)</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B14E-A953A5C22EF0"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC3C-1189BA6DC882">
+	<DocumentID>F8B156D6-337A-A1E8-AC3C-1189BA6D8882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC3C-1189BA6D8882</Name>
+	<Description>Disable rule draft</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T09:57:36.889</CreationDate>
+	<Notes/>
+	<Text>Disable rule draft</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3C-1189BA6D0882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

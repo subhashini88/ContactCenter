@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1ED-8B1D-58778D6ABAB0">
+	<DocumentID>98FA9B81-5041-A1ED-8B1D-58778D6A7AB0</DocumentID>
+	<Name>98FA9B81-5041-A1ED-8B1D-58778D6A7AB0</Name>
+	<Description>GetOblwithEndLOC</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-09-04T17:30:06.375</CreationDate>
+	<Notes/>
+	<DefaultText>GetOblwithEndLOC</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1ED-8B1D-58778D6AFAB0"
+		/>
+	</Translations>
+</TextIdentifier>

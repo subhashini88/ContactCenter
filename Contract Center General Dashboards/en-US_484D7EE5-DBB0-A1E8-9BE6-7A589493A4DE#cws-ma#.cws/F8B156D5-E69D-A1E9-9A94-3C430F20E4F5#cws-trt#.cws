@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-9A94-3C430F2124F5">
+	<DocumentID>F8B156D5-E69D-A1E9-9A94-3C430F20E4F5</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-9A94-3C430F20E4F5</Name>
+	<Description>Weekly recent contracts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-29T07:33:30.01</CreationDate>
+	<Notes/>
+	<Text>Weekly recent contracts</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-9A94-3C430F2064F5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

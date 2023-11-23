@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="80000B02-52A5-A1E7-A2EF-274B515A7F07">
+	<DocumentID>80000B02-52A5-A1E7-A2EF-274B515A3F07</DocumentID>
+	<Name>80000B02-52A5-A1E7-A2EF-274B515A3F07</Name>
+	<Description>Product or service</Description>
+	<CreatedBy>anilt</CreatedBy>
+	<CreationDate>2017-08-28T06:59:28.926</CreationDate>
+	<Notes/>
+	<DefaultText>Product or service</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="80000B02-52A5-A1E7-A2EF-274B515ABF07"
+		/>
+	</Translations>
+</TextIdentifier>

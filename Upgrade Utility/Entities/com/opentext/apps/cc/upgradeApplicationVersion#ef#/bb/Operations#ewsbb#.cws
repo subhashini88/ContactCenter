@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8B3F-70509DA82B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8B3F-70509DA7EB9A</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-05T09:36:19.371</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1ED-8B3F-70509DA76B9A">
+			<DocumentID>98FA9BD4-E468-A1ED-8B3F-70509DA72B9A</DocumentID>
+			<Name>CreateupgradeApplicationVersion</Name>
+			<Description>Create upgradeApplicationVersion</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-09-05T09:36:19.37</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EC-B95E-9BFFF5C1EB8A"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1ED-8B3F-70509DA5EB9A">
+			<DocumentID>98FA9BD4-E468-A1ED-8B3F-70509DA5AB9A</DocumentID>
+			<Name>DeleteupgradeApplicationVersion</Name>
+			<Description>Delete upgradeApplicationVersion</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-09-05T09:36:19.37</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EC-B95E-9BFFF5C1EB8A"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="50EB711A-AD5A-A1EC-B95E-9BFFF5C1EB8A"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1ED-8B3F-70509DA6EB9A">
+			<DocumentID>98FA9BD4-E468-A1ED-8B3F-70509DA6AB9A</DocumentID>
+			<Name>ReadupgradeApplicationVersion</Name>
+			<Description>Read upgradeApplicationVersion</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-09-05T09:36:19.371</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EC-B95E-9BFFF5C1EB8A"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1ED-8B3F-70509DA66B9A">
+			<DocumentID>98FA9BD4-E468-A1ED-8B3F-70509DA62B9A</DocumentID>
+			<Name>UpdateupgradeApplicationVersion</Name>
+			<Description>Update upgradeApplicationVersion</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-09-05T09:36:19.371</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EC-B95E-9BFFF5C1EB8A"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-87BF-7D7294E7E50D">
+	<DocumentID>484D7EEB-71EF-A1E9-87BF-7D7294E7A50D</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-87BF-7D7294E7A50D</Name>
+	<Description>Update deadlines due dates</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-23T11:13:20.759</CreationDate>
+	<Notes/>
+	<Text>Update deadlines due dates</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-87BF-7D7294E7250D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

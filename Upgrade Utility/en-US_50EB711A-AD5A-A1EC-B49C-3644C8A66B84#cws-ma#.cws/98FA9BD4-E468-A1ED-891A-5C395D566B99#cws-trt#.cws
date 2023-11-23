@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-891A-5C395D56AB99">
+	<DocumentID>98FA9BD4-E468-A1ED-891A-5C395D566B99</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-891A-5C395D566B99</Name>
+	<Description>UpgradeContractRequest</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-25T12:51:34.208</CreationDate>
+	<Notes/>
+	<Text>UpgradeContractRequest</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-891A-5C395D55EB99"
+		/>
+	</TextIdentifier>
+</TranslatedText>

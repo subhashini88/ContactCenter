@@ -1,0 +1,34 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B536-87AF77D12B84">
+	<DocumentID>50EB711A-AD5A-A1EC-B536-87AF77D0EB84</DocumentID>
+	<Name>UpgradeBatchJob_HistoryLog</Name>
+	<Description>UpgradeBatchJob_HistoryLog</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-16T05:47:25.059</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="50EB711A-AD5A-A1EC-B536-87AF77CEAB84">
+			<DocumentID>50EB711A-AD5A-A1EC-B536-87AF77CE6B84</DocumentID>
+			<Name>50EB711A-AD5A-A1EC-B536-87AF77CE6B84</Name>
+			<Description>50EB711A-AD5A-A1EC-B536-87AF77CE6B84</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-16T05:47:25.059</CreationDate>
+			<Notes/>
+			<DeveloperText>UpgradeBatchJob_HistoryLog</DeveloperText>
+			<Identifier>
+				<uri
+					id="50EB711A-AD5A-A1EC-B536-87AF77CEEB84"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

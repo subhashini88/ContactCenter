@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B14B-E44D35756EF0">
+	<DocumentID>C4D98747-AA4E-A1E7-B14B-E44D35752EF0</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B14B-E44D35752EF0</Name>
+	<Description>Oppurtunity ID_2</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-09T09:33:32.528</CreationDate>
+	<Notes/>
+	<DefaultText>Oppurtunity ID_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B14B-E44D3575AEF0"
+		/>
+	</Translations>
+</TextIdentifier>

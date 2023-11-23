@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-852C-173A0324E509">
+	<DocumentID>484D7EEB-71EF-A1E9-852C-173A0324A509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-852C-173A0324A509</Name>
+	<Description>condition</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-10T08:22:03.599</CreationDate>
+	<Notes/>
+	<Text>condition</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-852C-173A03242509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

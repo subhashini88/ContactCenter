@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-ABD0-DEB1118FC882">
+	<DocumentID>F8B156D6-337A-A1E8-ABD0-DEB1118F8882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-ABD0-DEB1118F8882</Name>
+	<Description>Priority</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-03T08:48:02.015</CreationDate>
+	<Notes/>
+	<Text>Priority</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-ABD0-DEB1118F0882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

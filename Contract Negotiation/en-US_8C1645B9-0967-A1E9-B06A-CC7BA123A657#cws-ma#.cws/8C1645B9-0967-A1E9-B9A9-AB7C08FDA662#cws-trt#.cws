@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B9A9-AB7C08FDE662">
+	<DocumentID>8C1645B9-0967-A1E9-B9A9-AB7C08FDA662</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B9A9-AB7C08FDA662</Name>
+	<Description>Form external mail ids.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-04T13:04:16.019</CreationDate>
+	<Notes/>
+	<Text>Form external mail ids.</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-B9A9-AB7C08FD2662"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-8F58-76EE65FBF14D">
+	<DocumentID>F8E4E399-CF40-A1ED-8F58-76EE65FBB14D</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-8F58-76EE65FBB14D</Name>
+	<Description>UpdateCTRAddlProps</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-26T06:18:24.324</CreationDate>
+	<Notes/>
+	<Text>UpdateCTRAddlProps</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-8F58-76EE65FB314D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

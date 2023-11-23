@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-857E-6F5C4E44A71F">
+	<DocumentID>3C6AA73A-0114-A1EC-857E-6F5C4E44671F</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-857E-6F5C4E44671F</Name>
+	<Description>For each already mapped item.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-15T08:44:52.038</CreationDate>
+	<Notes/>
+	<Text>For each already mapped item.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-857E-6F5C4E43E71F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

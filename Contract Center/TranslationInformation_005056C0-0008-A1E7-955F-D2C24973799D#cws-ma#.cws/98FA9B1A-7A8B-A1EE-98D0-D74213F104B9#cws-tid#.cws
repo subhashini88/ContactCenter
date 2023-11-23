@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-98D0-D74213F144B9">
+	<DocumentID>98FA9B1A-7A8B-A1EE-98D0-D74213F104B9</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-98D0-D74213F104B9</Name>
+	<Description>DeactivateOnObligation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-05T06:27:29.094</CreationDate>
+	<Notes/>
+	<DefaultText>DeactivateOnObligation</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-98D0-D74213F184B9"
+		/>
+	</Translations>
+</TextIdentifier>

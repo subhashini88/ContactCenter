@@ -1,0 +1,34 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-8958-278703B34344">
+	<DocumentID>FC7774E8-DA63-A1EA-8958-278703B30344</DocumentID>
+	<Name>EnvolopeStatus_HistoryLog</Name>
+	<Description>EnvolopeStatus_HistoryLog</Description>
+	<CreatedBy>varshakabilan</CreatedBy>
+	<CreationDate>2019-12-23T08:50:39.888</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="FC7774E8-DA63-A1EA-8958-278703B0C344">
+			<DocumentID>FC7774E8-DA63-A1EA-8958-278703B08344</DocumentID>
+			<Name>FC7774E8-DA63-A1EA-8958-278703B08344</Name>
+			<Description>FC7774E8-DA63-A1EA-8958-278703B08344</Description>
+			<CreatedBy>varshakabilan</CreatedBy>
+			<CreationDate>2019-12-23T08:50:39.886</CreationDate>
+			<Notes/>
+			<DeveloperText>EnvolopeStatusHistoryLog</DeveloperText>
+			<Identifier>
+				<uri
+					id="FC7774E8-DA63-A1EA-8958-278703B10344"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

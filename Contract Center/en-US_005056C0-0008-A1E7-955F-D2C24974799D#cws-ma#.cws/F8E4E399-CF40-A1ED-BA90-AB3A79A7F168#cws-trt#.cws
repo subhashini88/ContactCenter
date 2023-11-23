@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-BA90-AB3A79A83168">
+	<DocumentID>F8E4E399-CF40-A1ED-BA90-AB3A79A7F168</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-BA90-AB3A79A7F168</Name>
+	<Description>GetRelatedPONumbers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-04T06:59:58.01</CreationDate>
+	<Notes/>
+	<Text>GetRelatedPONumbers</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-BA90-AB3A79A77168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

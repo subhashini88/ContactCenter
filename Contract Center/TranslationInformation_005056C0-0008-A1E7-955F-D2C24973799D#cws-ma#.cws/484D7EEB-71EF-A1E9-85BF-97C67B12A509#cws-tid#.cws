@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-85BF-97C67B12E509">
+	<DocumentID>484D7EEB-71EF-A1E9-85BF-97C67B12A509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-85BF-97C67B12A509</Name>
+	<Description>Persist Email Ids</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-13T06:47:51.817</CreationDate>
+	<Notes/>
+	<DefaultText>Persist Email Ids</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-85BF-97C67B132509"
+		/>
+	</Translations>
+</TextIdentifier>

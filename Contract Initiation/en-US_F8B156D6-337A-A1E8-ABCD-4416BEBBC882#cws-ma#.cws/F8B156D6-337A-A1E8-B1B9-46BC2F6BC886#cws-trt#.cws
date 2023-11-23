@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B1B9-46BC2F6C0886">
+	<DocumentID>F8B156D6-337A-A1E8-B1B9-46BC2F6BC886</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B1B9-46BC2F6BC886</Name>
+	<Description>Contract requestor approver</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-03T08:44:30.549</CreationDate>
+	<Notes/>
+	<Text>Contract requestor approver</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B1B9-46BC2F6B4886"
+		/>
+	</TextIdentifier>
+</TranslatedText>

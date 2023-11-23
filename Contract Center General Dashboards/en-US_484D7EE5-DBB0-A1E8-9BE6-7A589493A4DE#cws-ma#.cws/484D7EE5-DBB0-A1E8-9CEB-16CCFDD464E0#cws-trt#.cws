@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CEB-16CCFDD4A4E0">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CEB-16CCFDD464E0</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CEB-16CCFDD464E0</Name>
+	<Description>Parties - Account managers</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-19T10:38:53.988</CreationDate>
+	<Notes/>
+	<Text>Parties - Account managers</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CEB-16CCFDD3E4E0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

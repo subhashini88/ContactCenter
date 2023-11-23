@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AEF4-2D11A3D20883">
+	<DocumentID>F8B156D6-337A-A1E8-AEF4-2D11A3D1C883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AEF4-2D11A3D1C883</Name>
+	<Description>Modify start date</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-19T08:34:49.252</CreationDate>
+	<Notes/>
+	<Text>Modify start date</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AEF4-2D11A3D14883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

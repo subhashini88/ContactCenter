@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-3470209EA4BE">
+	<DocumentID>F8B156D5-AA46-A1E7-A89B-3470209E64BE</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-26T03:43:53.506</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-3470209DE4BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A89B-3470209DA4BE</DocumentID>
+			<Name>CreateDocumentStatus</Name>
+			<Description>Create DocumentStatus</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T03:43:53.506</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156B5-069B-A1E7-A716-29638227E4C6"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-3470209C64BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A89B-3470209C24BE</DocumentID>
+			<Name>DeleteDocumentStatus</Name>
+			<Description>Delete DocumentStatus</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T03:43:53.507</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156B5-069B-A1E7-A716-29638227E4C6"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156B5-069B-A1E7-A716-29638227E4C6"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-3470209D64BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A89B-3470209D24BE</DocumentID>
+			<Name>ReadDocumentStatus</Name>
+			<Description>Read DocumentStatus</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T03:43:53.504</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156B5-069B-A1E7-A716-29638227E4C6"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-3470209CE4BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A89B-3470209CA4BE</DocumentID>
+			<Name>UpdateDocumentStatus</Name>
+			<Description>Update DocumentStatus</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T03:43:53.505</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156B5-069B-A1E7-A716-29638227E4C6"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

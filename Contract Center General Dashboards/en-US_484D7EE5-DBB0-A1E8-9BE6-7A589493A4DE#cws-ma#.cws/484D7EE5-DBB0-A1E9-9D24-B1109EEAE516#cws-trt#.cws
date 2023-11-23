@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9D24-B1109EEB2516">
+	<DocumentID>484D7EE5-DBB0-A1E9-9D24-B1109EEAE516</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-9D24-B1109EEAE516</Name>
+	<Description>Recent contracts</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-05-12T09:05:59.157</CreationDate>
+	<Notes/>
+	<Text>Recent contracts</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E9-9D24-B1109EEA6516"
+		/>
+	</TextIdentifier>
+</TranslatedText>

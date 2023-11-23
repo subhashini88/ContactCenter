@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-A33B-080520E26163">
+	<DocumentID>E86A64E0-AE43-A1EC-A33B-080520E22163</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-A33B-080520E22163</Name>
+	<Description>User ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-02-13T17:27:27.061</CreationDate>
+	<Notes/>
+	<Text>User ?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A64E0-AE43-A1EC-A33B-080520E1A163"
+		/>
+	</TextIdentifier>
+</TranslatedText>

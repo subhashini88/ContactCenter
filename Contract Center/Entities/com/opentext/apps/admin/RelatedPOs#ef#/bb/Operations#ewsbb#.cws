@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BB86-17613D593AA2">
+	<DocumentID>98FA9B81-5041-A1EC-BB86-17613D58FAA2</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-17T09:12:30.295</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="98FA9B81-5041-A1EC-BB86-17613D587AA2">
+			<DocumentID>98FA9B81-5041-A1EC-BB86-17613D583AA2</DocumentID>
+			<Name>CreateRelatedPOs</Name>
+			<Description>Create RelatedPOs</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2022-06-17T09:12:30.295</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EC-B46E-FF73F49C845B"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="98FA9B81-5041-A1EC-BB86-17613D56FAA2">
+			<DocumentID>98FA9B81-5041-A1EC-BB86-17613D56BAA2</DocumentID>
+			<Name>DeleteRelatedPOs</Name>
+			<Description>Delete RelatedPOs</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2022-06-17T09:12:30.295</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EC-B46E-FF73F49C845B"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="98FA9B1A-7A8B-A1EC-B46E-FF73F49C845B"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="98FA9B81-5041-A1EC-BB86-17613D57FAA2">
+			<DocumentID>98FA9B81-5041-A1EC-BB86-17613D57BAA2</DocumentID>
+			<Name>ReadRelatedPOs</Name>
+			<Description>Read RelatedPOs</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2022-06-17T09:12:30.296</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EC-B46E-FF73F49C845B"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="98FA9B81-5041-A1EC-BB86-17613D577AA2">
+			<DocumentID>98FA9B81-5041-A1EC-BB86-17613D573AA2</DocumentID>
+			<Name>UpdateRelatedPOs</Name>
+			<Description>Update RelatedPOs</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2022-06-17T09:12:30.296</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EC-B46E-FF73F49C845B"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

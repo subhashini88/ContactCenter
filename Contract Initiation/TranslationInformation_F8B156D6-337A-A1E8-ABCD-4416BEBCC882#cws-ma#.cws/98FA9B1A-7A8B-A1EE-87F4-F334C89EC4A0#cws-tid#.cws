@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-87F4-F334C89F04A0">
+	<DocumentID>98FA9B1A-7A8B-A1EE-87F4-F334C89EC4A0</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-87F4-F334C89EC4A0</Name>
+	<Description>GetCIRDetails</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-11T10:44:40.362</CreationDate>
+	<Notes/>
+	<DefaultText>GetCIRDetails</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-87F4-F334C89F44A0"
+		/>
+	</Translations>
+</TextIdentifier>

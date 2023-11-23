@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8692-6369EF926BF1">
+	<DocumentID>50EB711A-AD5A-A1EE-8692-6369EF922BF1</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8692-6369EF922BF1</Name>
+	<Description>GetAllTilesInApp</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-04T09:42:11.524</CreationDate>
+	<Notes/>
+	<Text>GetAllTilesInApp</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-8692-6369EF91ABF1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A8D2-05C6A5CADFC3">
+	<DocumentID>C4D98747-AA4E-A1E7-A8D2-05C6A5CA9FC3</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A8D2-05C6A5CA9FC3</Name>
+	<Description>Billing activation rule</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-09-27T05:54:48.27</CreationDate>
+	<Notes/>
+	<DefaultText>Billing activation rule</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A8D2-05C6A5CB1FC3"
+		/>
+	</Translations>
+</TextIdentifier>

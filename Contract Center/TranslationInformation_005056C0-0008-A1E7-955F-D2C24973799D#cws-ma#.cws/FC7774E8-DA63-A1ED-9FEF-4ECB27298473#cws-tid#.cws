@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E8-DA63-A1ED-9FEF-4ECB2729C473">
+	<DocumentID>FC7774E8-DA63-A1ED-9FEF-4ECB27298473</DocumentID>
+	<Name>FC7774E8-DA63-A1ED-9FEF-4ECB27298473</Name>
+	<Description>DownloadExcel</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-19T17:01:37.789</CreationDate>
+	<Notes/>
+	<DefaultText>DownloadExcel</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E8-DA63-A1ED-9FEF-4ECB272A0473"
+		/>
+	</Translations>
+</TextIdentifier>

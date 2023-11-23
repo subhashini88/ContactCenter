@@ -1,0 +1,208 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <link rel="stylesheet" href="../css/Obligation_css.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../js/obligationTask.js"></script>
+    <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+</head>
+
+<body class="cc-ltr">
+    <div id="obltask_container" class="col-md-12 no-padding">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <h3 data-translatable="true">Obligation details</h3>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Contract ID</label>
+                <a style="cursor: pointer;" data-bind="click: openContractLink"><span data-bind="text:genCCId"></span></a>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12" style="margin: 0px !important;">
+            <label data-translatable="true" style="font-weight: bold;">Overview</label>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width: 100%;">Obligation name</label>
+                <input type="text" id="input_oblName" class="form-control" data-bind="value:oblName" maxlength="255" disabled></input>
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                <label class="" data-translatable="true">Obligation due date</label>
+                <div>
+                    <input type="text" id="input_oblDueDate" class="form-control" data-bind="value:oblDuedateLocale" autocomplete="off" disabled></input>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width: 100%;">Reminder title</label>
+                <input type="text" id="input_oblRemTitle" data-bind="value:oblReminderTitle" class="form-control" disabled></input>
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                <label class="" data-translatable="true">Reminder send date</label>
+                <div>
+                    <input type="text" id="input_oblRemDate" class="form-control" data-bind="value:oblReminderDateLocale" disabled>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                <label data-translatable="true">Obligation description</label>
+                <div>
+                    <textarea class="apps-contentDiv" data-bind="value:oblDescription" id="id_oblDescription" style="height:109px; resize: none" disabled></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                <label class="" data-translatable="true">Action to be taken</label>
+                <div>
+                    <textarea class="apps-contentDiv" data-bind="value:oblActionTobeTaken" id="id_oblActionTaken" style="height:109px; resize: none" disabled></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12" style="margin: 0px !important;">
+            <label data-translatable="true" style="font-weight: bold;">Manage assignments</label>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true">Assigned to</label>
+                <!-- ko if: oblAsignRoleName -->
+                <input type="text" class="form-control" id="input_oblAsignRole" data-bind="textInput:oblAsignRoleName" readonly style="background-color: transparent;border-right: 0;" disabled>
+                <!-- /ko-->
+				<!-- ko ifnot: (oblAsignRoleName() || oblAssigneeName()) -->
+                <input type="text" class="form-control" id="input_oblAsignRole" data-bind="textInput:oblAsignGroupName" readonly style="background-color: transparent;border-right: 0;" disabled>
+                <!-- /ko-->
+                <!-- ko if: oblAssigneeName -->
+                <input type="text" class="form-control" id="input_oblAssignee" data-bind="textInput:oblAssigneeName" readonly style="background-color: transparent;border-right: 0;" disabled>
+                <!-- /ko-->
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Days after which first escalation triggers</label>
+                <input type="text" id="input_oblAssigneeSLA" data-bind="value:oblAssigneeSLA" class="form-control" disabled></input>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6">
+                <label class="" data-translatable="true">First escalation</label>
+                <!-- ko if: oblFEName -->
+                <input type="text" class="form-control" id="input_OblFE" data-bind="textInput:oblFEName" readonly style="background-color: transparent;border-right: 0;" disabled>
+                <!-- /ko-->
+                <!-- ko if: oblFERoleName -->
+                <input type="text" class="form-control" id="input_OblFERole" data-bind="textInput:oblFERoleName" readonly style="background-color: transparent;border-right: 0;" disabled>
+                <!-- /ko-->
+				<!-- ko ifnot: (oblFEName() || oblFERoleName()) -->
+                <input type="text" class="form-control" id="input_OblFERole" data-bind="textInput:oblFEGroupName" readonly style="background-color: transparent;border-right: 0;" disabled>
+                <!-- /ko-->
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Days after which second escalation triggers</label>
+                <input type="text" id="input_oblFirstEscSLA" data-bind="value:oblFESLA" class="form-control" disabled></input>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label class="" data-translatable="true" style="width:185px">Second escalation</label>
+                <!-- ko if: oblSEName -->
+                <input type="text" class="form-control" id="input_oblSE" data-bind="textInput:oblSEName" readonly style="background-color: transparent;border-right: 0;" disabled>
+                <!-- /ko-->
+                <!-- ko if: oblSERoleName -->
+                <input type="text" class="form-control" id="input_oblSERole" data-bind="textInput:oblSERoleName" readonly style="background-color: transparent;border-right: 0;" disabled>
+                <!-- /ko-->
+				<!-- ko ifnot: (oblSEName() || oblSERoleName()) -->
+                <input type="text" class="form-control" id="input_oblSERole" data-bind="textInput:oblSEGroupName" readonly style="background-color: transparent;border-right: 0;" disabled>
+                <!-- /ko-->
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Days in which second escalation should act</label>
+                <input type="text" id="input_oblSecEscSLA" data-bind="value:oblSESLA" class="form-control" disabled></input>
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12" style="margin: 0px !important;">
+            <label data-translatable="true" style="font-weight: bold;">Recurrence</label>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Frequency</label>
+                <input type="text" id="select_oblRecurType" data-bind="value:oblRecurType" class="form-control" disabled></input>
+            </div>
+            <!-- ko if: Z_oblRecurType() != "DONOTREPEAT" -->
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Start on</label>
+                <input type="text" id="input_oblRecurStartDate" data-bind="value:oblRecurStartDateLocale" class="form-control" disabled></input>
+            </div>
+            <!-- /ko-->
+        </div>
+        <!-- ko if: Z_oblRecurType() == "REPEATMONTHLY" -->
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Repeat after month(s)</label>
+                <input type="text" id="input_oblRecurMonthFreq" data-bind="value:oblRecurMonthFreq" class="form-control" disabled></input>
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">On (day of month)</label>
+                <input type="text" id="select_oblRecurMonthDay" data-bind="value:oblRecurMonthDay" class="form-control" disabled></input>
+            </div>
+        </div>
+        <!-- /ko-->
+        <!-- ko if: Z_oblRecurType() == "REPEATWEEKLY" -->
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Repeat after week(s)</label>
+                <input type="text" id="input_oblRecurWeekFreq" data-bind="value:oblRecurWeekFreq" class="form-control" disabled></input>
+            </div>
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">On (day of week)</label>
+                <input type="text" id="select_oblRecurWeekDay" data-bind="value:oblRecurWeekDay" class="form-control" disabled></input>
+            </div>
+        </div>
+        <!-- /ko-->
+        <!-- ko if: Z_oblRecurType() == "REPEATDAILY" -->
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Repeat after day(s)</label>
+                <input type="text" id="input_oblRecurDayFreq" data-bind="value:oblRecurDayFreq" class="form-control" disabled></input>
+            </div>
+        </div>
+        <!-- /ko-->
+        <!-- ko if: Z_oblRecurType() != "DONOTREPEAT" -->
+        <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">End</label>
+                <input type="text" id="select_oblRecurEndType" data-bind="value:oblRecurEndType" class="form-control" disabled></input>
+            </div>
+            <!-- ko if: Z_oblRecurEndType() == "AFTEROCCUR" -->
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">Occurrences</label>
+                <input type="text" id="input_oblRecurEndinOccurences" data-bind="value:oblRecurEndinOccurences" class="form-control" disabled></input>
+            </div>
+            <!-- /ko-->
+            <!-- ko if: Z_oblRecurEndType() == "ONTHISDATE" -->
+            <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+                <label data-translatable="true" style="width: 100%;">End on</label>
+                <input type="text" id="input_oblRecurEndDate" data-bind="value:oblRecurEndDateLocale" class="form-control" disabled></input>
+            </div>
+            <!-- /ko-->
+        </div>
+        <!-- /ko-->
+        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+            <label data-translatable="true">Comments</label>
+            <div>
+                <textarea class="apps-contentDiv enableDisable, task-field" data-bind="value:comments" id="id_comments" style="height:135px; resize: none;" disabled></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

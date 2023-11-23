@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="98FA9B81-5041-A1ED-80CC-4F8D03753AA3">
+	<DocumentID>98FA9B81-5041-A1ED-80CC-4F8D0374FAA3</DocumentID>
+	<Name>CC ComComp Sys mgr in OpenText Basic Components</Name>
+	<Description>CC ComComp Sys mgr</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-07-14T05:15:32.542</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>CC ComComp Sys mgr</CommonName>
+	<DistinguishedName>cn=CC ComComp Sys mgr,cn=OpenText Basic Components,cn=cordys,cn=AWP,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Internal</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="98FA9B81-5041-A1ED-80CC-4F8D0374BAA3">
+			<DocumentID>98FA9B81-5041-A1ED-80CC-4F8D03747AA3</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2022-07-14T05:15:32.542</CreationDate>
+			<Notes/>
+			<ArtifactID>98FA9B81-5041-A1EC-BFA9-9E384E543AA3</ArtifactID>
+			<CAPID>484d7ee5-dbb0-a1e8-abd4-86c0d9d364f0</CAPID>
+			<CAPName>OpenText Basic Components</CAPName>
+			<CAPVersion>ver22.3.0build779</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AE57-E94715A16900">
+	<DocumentID>C4D98747-AA4E-A1E7-AE57-E94715A12900</DocumentID>
+	<Name>validateDisable</Name>
+	<Description>validateDisable</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-25T08:39:38.637</CreationDate>
+	<Notes/>
+	<referenceCount>6</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

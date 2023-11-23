@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-9C92-76094507304D">
+	<DocumentID>F8B156BC-2CB7-A1E9-9C92-76094506F04D</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-9C92-76094506F04D</Name>
+	<Description>SaveSCMappingsandTermInstances</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-05-09T11:07:56.661</CreationDate>
+	<Notes/>
+	<DefaultText>SaveSCMappingsandTermInstances</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E9-9C92-76094507704D"
+		/>
+	</Translations>
+</TextIdentifier>

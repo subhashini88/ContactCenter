@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EB-B79C-8E22E35CA707">
+	<DocumentID>3C6AA73A-0114-A1EB-B79C-8E22E35C6707</DocumentID>
+	<Name>3C6AA73A-0114-A1EB-B79C-8E22E35C6707</Name>
+	<Description>For each old term instance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-07-06T15:59:40.968</CreationDate>
+	<Notes/>
+	<Text>For each old term instance</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EB-B79C-8E22E35BE707"
+		/>
+	</TextIdentifier>
+</TranslatedText>

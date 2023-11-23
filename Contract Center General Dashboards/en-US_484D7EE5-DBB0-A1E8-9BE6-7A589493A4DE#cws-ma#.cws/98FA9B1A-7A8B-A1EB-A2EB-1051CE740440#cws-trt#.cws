@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A2EB-1051CE744440">
+	<DocumentID>98FA9B1A-7A8B-A1EB-A2EB-1051CE740440</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-A2EB-1051CE740440</Name>
+	<Description>Analytics dashboard</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-23T08:08:36.314</CreationDate>
+	<Notes/>
+	<Text>Analytics dashboard</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-A2EB-1051CE738440"
+		/>
+	</TextIdentifier>
+</TranslatedText>

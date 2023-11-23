@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-B3A0-C799D1FBEFFA">
+	<DocumentID>F8B156BC-2CB7-A1E7-B3A0-C799D1FBAFFA</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-B3A0-C799D1FBAFFA</Name>
+	<Description>GetAllCancellationReasonCodes</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-11-21T09:02:36.921</CreationDate>
+	<Notes/>
+	<Text>GetAllCancellationReasonCodes</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-B3A0-C799D1FB2FFA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

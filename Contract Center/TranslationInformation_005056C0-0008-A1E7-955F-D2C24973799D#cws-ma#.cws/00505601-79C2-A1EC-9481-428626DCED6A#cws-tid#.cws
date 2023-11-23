@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-79C2-A1EC-9481-428626DD2D6A">
+	<DocumentID>00505601-79C2-A1EC-9481-428626DCED6A</DocumentID>
+	<Name>00505601-79C2-A1EC-9481-428626DCED6A</Name>
+	<Description>CreateObligations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-30T17:56:41.861</CreationDate>
+	<Notes/>
+	<DefaultText>CreateObligations</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-79C2-A1EC-9481-428626DD6D6A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-8996-4287B3D456AB">
+	<DocumentID>98FA9B81-5041-A1EE-8996-4287B3D416AB</DocumentID>
+	<Name>98FA9B81-5041-A1EE-8996-4287B3D416AB</Name>
+	<Description>Get all reports count</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-07-19T17:28:52.653</CreationDate>
+	<Notes/>
+	<DefaultText>Get all reports count</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EE-8996-4287B3D496AB"
+		/>
+	</Translations>
+</TextIdentifier>

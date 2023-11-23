@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-8AE4-1BBB19FC24E9">
+	<DocumentID>F8B156D5-E69D-A1E9-8AE4-1BBB19FBE4E9</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-8AE4-1BBB19FBE4E9</Name>
+	<Description>SetContacts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-02-08T10:59:05.307</CreationDate>
+	<Notes/>
+	<Text>SetContacts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-8AE4-1BBB19FB64E9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

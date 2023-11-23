@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-8DA2-4C6B4F40E50D">
+	<DocumentID>484D7EE5-DBB0-A1E9-8DA2-4C6B4F40A50D</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-8DA2-4C6B4F40A50D</Name>
+	<Description>CloneAllContract</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-02-22T10:10:21.397</CreationDate>
+	<Notes/>
+	<DefaultText>CloneAllContract</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E9-8DA2-4C6B4F41250D"
+		/>
+	</Translations>
+</TextIdentifier>

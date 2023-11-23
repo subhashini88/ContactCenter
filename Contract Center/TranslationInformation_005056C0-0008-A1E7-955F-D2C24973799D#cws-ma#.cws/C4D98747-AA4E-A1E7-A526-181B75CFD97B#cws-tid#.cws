@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A526-181B75D0197B">
+	<DocumentID>C4D98747-AA4E-A1E7-A526-181B75CFD97B</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A526-181B75CFD97B</Name>
+	<Description>calculateDateDiff</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-08T13:20:08.462</CreationDate>
+	<Notes/>
+	<DefaultText>calculateDateDiff</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A526-181B75D0597B"
+		/>
+	</Translations>
+</TextIdentifier>

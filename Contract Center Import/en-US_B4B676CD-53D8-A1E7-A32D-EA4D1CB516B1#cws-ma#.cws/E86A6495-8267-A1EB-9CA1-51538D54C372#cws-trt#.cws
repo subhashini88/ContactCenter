@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A6495-8267-A1EB-9CA1-51538D550372">
+	<DocumentID>E86A6495-8267-A1EB-9CA1-51538D54C372</DocumentID>
+	<Name>E86A6495-8267-A1EB-9CA1-51538D54C372</Name>
+	<Description>CurrenciesImport</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2021-02-19T10:01:49.674</CreationDate>
+	<Notes/>
+	<Text>CurrenciesImport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A6495-8267-A1EB-9CA1-51538D544372"
+		/>
+	</TextIdentifier>
+</TranslatedText>

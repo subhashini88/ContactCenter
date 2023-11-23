@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8C0C-A1E7-AB66-3BDD0685862B">
+	<DocumentID>3417EB96-8C0C-A1E7-AB66-3BDD0685462B</DocumentID>
+	<Name>3417EB96-8C0C-A1E7-AB66-3BDD0685462B</Name>
+	<Description>UpdateContractImportStatus</Description>
+	<CreatedBy>yballepa</CreatedBy>
+	<CreationDate>2017-10-10T12:16:54.359</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateContractImportStatus</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8C0C-A1E7-AB66-3BDD0685C62B"
+		/>
+	</Translations>
+</TextIdentifier>

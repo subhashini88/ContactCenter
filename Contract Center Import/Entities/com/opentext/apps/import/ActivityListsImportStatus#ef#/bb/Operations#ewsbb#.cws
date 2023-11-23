@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-B8BE-524E3790438A">
+	<DocumentID>98FA9B1A-7A8B-A1EA-B8BE-524E3790038A</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-20T15:28:11.283</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="98FA9B1A-7A8B-A1EA-B8BE-524E378F838A">
+			<DocumentID>98FA9B1A-7A8B-A1EA-B8BE-524E378F438A</DocumentID>
+			<Name>CreateActivityListsImportStatus</Name>
+			<Description>Create ActivityListsImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-08-20T15:28:11.279</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EA-B8BD-572F20F3438A"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="98FA9B1A-7A8B-A1EA-B8BE-524E378E038A">
+			<DocumentID>98FA9B1A-7A8B-A1EA-B8BE-524E378DC38A</DocumentID>
+			<Name>DeleteActivityListsImportStatus</Name>
+			<Description>Delete ActivityListsImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-08-20T15:28:11.279</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EA-B8BD-572F20F3438A"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-B8BD-572F20F3438A"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="98FA9B1A-7A8B-A1EA-B8BE-524E378F038A">
+			<DocumentID>98FA9B1A-7A8B-A1EA-B8BE-524E378EC38A</DocumentID>
+			<Name>ReadActivityListsImportStatus</Name>
+			<Description>Read ActivityListsImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-08-20T15:28:11.275</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EA-B8BD-572F20F3438A"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="98FA9B1A-7A8B-A1EA-B8BE-524E378E838A">
+			<DocumentID>98FA9B1A-7A8B-A1EA-B8BE-524E378E438A</DocumentID>
+			<Name>UpdateActivityListsImportStatus</Name>
+			<Description>Update ActivityListsImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-08-20T15:28:11.281</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EA-B8BD-572F20F3438A"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

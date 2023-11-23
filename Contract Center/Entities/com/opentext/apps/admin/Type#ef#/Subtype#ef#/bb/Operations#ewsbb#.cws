@@ -1,0 +1,79 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-99E5-C867F79506C1">
+	<DocumentID>F8B156D5-AA46-A1E7-99E5-C867F794C6C1</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-07-13T06:48:07.515</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="005056C0-0008-A1E7-9598-B0131AEE399D"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-99E5-C867F79446C1">
+			<DocumentID>F8B156D5-AA46-A1E7-99E5-C867F79406C1</DocumentID>
+			<Name>ReadCCSubtype</Name>
+			<Description>Read CCSubtype</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-07-13T06:48:07.515</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="005056C0-0008-A1E7-9598-B0131AEE399D"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-99E5-C867F79346C1">
+			<DocumentID>F8B156D5-AA46-A1E7-99E5-C867F79306C1</DocumentID>
+			<Name>GetParentOwner</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-07-13T06:48:07.514</CreationDate>
+			<Notes/>
+			<OperationType>GetParent</OperationType>
+			<Entity>
+				<uri
+					id="005056C0-0008-A1E7-9598-B0131AEE399D"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="005056C0-0008-A1E7-9598-CC83E993399D"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-99E5-C867F793C6C1">
+			<DocumentID>F8B156D5-AA46-A1E7-99E5-C867F79386C1</DocumentID>
+			<Name>UpdateCCSubtype</Name>
+			<Description>Update CCSubtype</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-07-13T06:48:07.514</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="005056C0-0008-A1E7-9598-B0131AEE399D"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

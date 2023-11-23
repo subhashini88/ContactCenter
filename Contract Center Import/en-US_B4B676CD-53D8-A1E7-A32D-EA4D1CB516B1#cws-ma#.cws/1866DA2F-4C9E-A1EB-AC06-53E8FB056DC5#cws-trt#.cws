@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EB-AC06-53E8FB05ADC5">
+	<DocumentID>1866DA2F-4C9E-A1EB-AC06-53E8FB056DC5</DocumentID>
+	<Name>1866DA2F-4C9E-A1EB-AC06-53E8FB056DC5</Name>
+	<Description>RelDepMembersImportStatus</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-05-08T16:44:44.626</CreationDate>
+	<Notes/>
+	<Text>RelDepMembersImportStatus</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EB-AC06-53E8FB04EDC5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

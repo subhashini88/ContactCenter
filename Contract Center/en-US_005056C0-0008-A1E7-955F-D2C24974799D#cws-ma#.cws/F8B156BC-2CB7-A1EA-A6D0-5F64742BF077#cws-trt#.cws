@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A6D0-5F64742C3077">
+	<DocumentID>F8B156BC-2CB7-A1EA-A6D0-5F64742BF077</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A6D0-5F64742BF077</Name>
+	<Description>Current activitylist instance</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-21T09:16:39.333</CreationDate>
+	<Notes/>
+	<Text>Current activitylist instance</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A6D0-5F64742B7077"
+		/>
+	</TextIdentifier>
+</TranslatedText>

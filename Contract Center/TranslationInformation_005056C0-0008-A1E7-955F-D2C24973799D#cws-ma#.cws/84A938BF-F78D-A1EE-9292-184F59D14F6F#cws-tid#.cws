@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-9292-184F59D18F6F">
+	<DocumentID>84A938BF-F78D-A1EE-9292-184F59D14F6F</DocumentID>
+	<Name>84A938BF-F78D-A1EE-9292-184F59D14F6F</Name>
+	<Description>Related OBL Compliance Data</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-03T11:16:50.643</CreationDate>
+	<Notes/>
+	<DefaultText>Related OBL Compliance Data</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="84A938BF-F78D-A1EE-9292-184F59D1CF6F"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,334 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/appscommon.css">
+    <link rel="stylesheet" href="../css/negComments.css">
+    <link rel="stylesheet" href="../css/ExtContact_SectionsClauses.css">
+    <link rel="stylesheet" href="../../gc/css/custom_numbering.css">
+    <link rel="stylesheet" href="../css/cc_ckeditor.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/ckeditor/ckeditor.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/conditionalAuthoringUtil.js" type="text/javascript"></script>
+    <script src="../../gc/js/template_utils.js"></script>
+    <script src="../js/ExtContact_SectionsClauses.js"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+</head>
+
+<body style="overflow: hidden;" class="cc-ltr">
+    <div id="loadingMsg" class="col-xs-12 defaultInfo" style="display: block;">
+        <img src="../img/custom-loader.gif" id="loader">
+        <p data-translatable="true">Loading sections and clauses...</p>
+    </div>
+    <div id="div_SectionsClauses" class="container-fluid"
+        style="margin-left: -12px;height:100%; padding-left: 9px; display: none;">
+        <div id="sectionHeader" class="row" style="background: #f8f8f8; ">
+            <div class="col-xs-3 col-md-3" id="selectListId" align="left" style="left: 8px;">
+                <select id="sectionList" aria-placeholder="Section lists"
+                    data-bind="options: l_sectionandclause_model.SCMappingsToBind, optionsText: 'sectionName', optionsValue: 'UIcontainerID' ,optionsCaption: optionsCaption">
+                </select>
+            </div>
+            <div class="col-xs-9 col-md-9" style="display: inline-block;" id="top">
+                <button data-bind="click:viewAllComments.bind()" class="viewAllComments"
+                    id="ECSAC_ViewAllComments"></button>
+            </div>
+        </div>
+        <!-- ko if: SCMappings().length > 0 -->
+        <div id="m_secandcls">
+            <ol class="m_secandcls-ol sec" id="secandclsOL" data-bind="template: { name: 'negotiationClauseAndSectionTemplate', foreach: SCMappingsToBind }" style="clear:both;">
+            </ol>
+        </div>        
+        <!-- /ko -->
+      
+        <script type="text/html" id="negotiationClauseAndSectionTemplate">
+              <!--ko if:(type==='CLAUSE' && showContainer === 'true')-->
+            <li class="clause_Iterator clause-header droptarget_clause" draggable="false" data-bind="click:function(){$root.selectContainer($data, event)},attr:{id:UIcontainerID + '_Container'},
+            css:{'panel panel-default no-padding-left':!parentContainer,'container-selected':($root.selectedContainer()===UIcontainerID),'no-numbering':nonumbering()}">  
+                <div data-text="Non standard clause"
+                    data-bind='{text: clauseName,attr:{id:containingSectionID+"_"+containingClauseID+"_clauseName",class:numberingStyle()+"-numbering"},
+                    css: {"no-numbering":nonumbering()}}' style="font-weight: 800;margin-top: 5px">
+                </div>
+                <div data-bind="css: {'border-left-nonstandard':!showConvertToNonStandardBtn() && !isDirty(),'border-left-nonstandard-edited':!showConvertToNonStandardBtn() && isDirty,'border-left-standard':showConvertToNonStandardBtn && !isDirty(),'border-left-standard-edited':!showConvertToNonStandardBtn() && isStandard},attr:{cascade:cascade}">                   
+                    <div  class="cke_editable cke_editable_inline" data-text="Clause content" contentEditable="false"
+                        data-bind="html: clauseHTMLContent,attr:{id:initialContainingSectionID+'_'+initialContainingClauseID + '_clauseHTMLContent'}"                       
+                        style="overflow: auto;resize: none;margin-top: 5px;border-width:thin;border-radius:1px;padding-left:16px"></div>                   
+                    <div class="divbutton_cl" align="center"
+                        style="display: block;height: 20px;">
+                        <div class="btn-group" style="top:-12.5px" data-bind="css:{hidden:!($root.selectedContainer()===UIcontainerID)}"
+                        style="height: 40px;background: #F3F6FB; border: 2px solid #2E3D98;border-radius: 36px;">
+                             <!-- ko if:($root.RelatedContentStatus() == "OPEN") -->
+                            <button data-bind="click:addNegComments.bind($data)" class="btn btn-sm cc-btn-clr" style="display:initial;"
+                                title="Add negotiation comment">
+                                <span class="cc_menu_item_button_icon addNegComments"></span>
+                            </button>                            
+                            <!-- /ko -->
+                            <button data-bind="click:viewClauseComments.bind($data,initialContainingClauseID,clauseName())" 
+                            class="btn btn-sm cc-btn-clr" title="View negotiation comments"  style="display:initial;">                                
+                                <span class="cc_menu_item_button_icon viewNegComments"></span>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="panel-collapse collapse in" data-bind="attr: {id:'Container'+UIcontainerID}">
+                        <div class="panel-body" style="padding: 0px;">
+                            <!-- ko if: container().length > 0 -->
+                            <ol class="m_secandcls-ol cl" data-bind="template: { name: 'negotiationClauseAndSectionTemplate', foreach: container }">                                    
+                            </ol>
+                            <!-- /ko -->
+                    </div>
+                </div>
+            </li>           
+           <!--/ko-->
+             <!--ko if:(type==='SECTION'  && showContainer === 'true')-->
+               <!--  <div class="divSectionClass"> -->
+                    <li draggable="false" class="section_Iterator droptarget_section panel panel-default"
+                        data-bind="click:function(){$root.selectContainer($data, event)},attr:{id:UIcontainerID+'_Container', sectionOrder: $index()},
+                        css:{'container-selected':($root.selectedContainer()===UIcontainerID),'no-numbering':nonumbering()}"
+                        style="border-radius: 5px; margin: 4px 3px 3px 8px;">
+                       <div class="panel-heading"
+                            style="height: 28px; padding-left: 0; padding-top: 2px; padding-right: 13px;border-top-left-radius: 6px; border-top-right-radius: 6px;">
+                            <div class="col-xs-6 col-md-6 extneg-secactions">
+                                <b>
+                                 <div id="EC_Section_name" data-text="Section name"
+                                  data-bind='{text: sectionName,attr:{class:numberingStyle()+"-numbering"},css:{"no-numbering":nonumbering()}}'>
+                                </div>
+                                </b>
+                            </div>
+                            <div class="col-xs-6 col-md-6 divbutton_sec" align="right"
+                                style="display: block; height:30px;">
+                                <div class="btn-group extneg-secactions-btngrp" style="margin-top: -8px;width: 80px;">                                   
+                                    <a class="accordion-toggle panel-title collapse-button" data-toggle="collapse" 
+                                    data-bind="{click:togglePanel(containingSectionID),attr: {id:'Accordian_'+containingSectionID}}"></a>
+                                    <div class="dropdown" style="margin-right: 25px;" data-bind="click:function(){$root.selectSectionMenu($data, event)},css:{'open':$root.selectedSectionMenu()===UIcontainerID},attr:{'aria-expanded':$root.selectedSectionMenu()===UIcontainerID}">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <span class="three-dots-icon"></span>
+                                        </a>
+                                        <div class="dropdown-menu extneg-secactions-dropdown" style="margin-top:34px;cursor: pointer;padding-inline-start:0px;left:-110px;min-width:220px;">
+                                            <!-- ko if:($root.RelatedContentStatus() == "OPEN") -->
+                                            <div class="dropdown-item cc_dropdown_menuitem" data-bind="click:addNegComments.bind($data)">
+                                                <a aria-checked="false" aria-label="Add comment" id="ECSAC_AddNegComments" title="Add comment" style="color: black;">
+                                                    <span class="cc_menubutton_inner">
+                                                        <span class="cc_menubutton_icon">
+                                                            <span class="cc_menu_item_button_icon addNegComments"></span>
+                                                        </span>
+                                                        <span class="cc_menubutton_label" data-translatable="true">Add negotiation comment</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <!-- /ko-->
+                                            <div class="dropdown-item cc_dropdown_menuitem"  data-bind="click:viewSectionComments.bind($data,initialContainingSectionID,initialContainingClauseID,sectionName())">
+                                                <a aria-checked="false" aria-label="View comments" title="View comments" id="ECSAC_ViewNegComments" style="color: black;">
+                                                    <span class="cc_menubutton_inner">
+                                                        <span class="cc_menubutton_icon">
+                                                            <span class="cc_menu_item_button_icon viewNegComments"></span>
+                                                        </span>
+                                                        <span class="cc_menubutton_label" data-translatable="true">View negotiation comments</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                     </div> 
+                        <div class="panel-collapse collapse in" data-bind="attr: {id:'Panel_'+containingSectionID}">
+                            <div class="panel-body" style="padding: 0px;">
+                                <!-- ko if: container().length > 0 -->
+                                <ol class="m_secandcls-ol cl" data-bind="template: { name: 'negotiationClauseAndSectionTemplate', foreach: container }">                                    
+                                </ol>
+                                <!-- /ko -->
+                            </div>
+                        </div>
+                    </li>
+                 <!--  </div> -->
+             <!--/ko-->
+        </script>
+    </div>
+    <div class="col-md-4 col-xs-4 container-fluid" id="div_CommentsAndSharedUserList"
+        style="display:none;height: 100%; border-color: #dcdcdc;margin-left: 12px;background-color: #f5f5f5;padding: 0px;">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#div_CommentsList" data-toggle="tab"><span data-translatable="true">Negotiation comments</span></a></li>
+            <li><a href="#div_SharedUserList" data-toggle="tab" onclick="loadSharedUsersList()"><span data-translatable="true">Negotiation participants</span></a></li>
+            <li style="float: right;"><a id="div_closeCommentsAndSharedUserList"
+                    onclick="closeCommentsAndSharedUserList()">&times;</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="div_CommentsList" class="tab-pane fade in active">
+                <div class="row negStatusDiv">
+                    <div class="comment-header clearfix col-lg-12" id="requestNegClosure_div" style="font-size: small;">
+                        <div class="row">
+                            <div class="comment-header-flex col-lg-6">
+                                <label data-translatable="true" style="margin-right: 15px;">Shared date: </label>
+                                <div  data-bind="text: neg_createdDate"></div>
+                            </div>
+                             <div class="comment-header-flex col-lg-6" style="margin-left: -10px;">
+                                <label data-translatable="true" style="margin-right: 15px;">Status : </label>
+                                <span data-bind="text:neg_status"></span>
+                             </div>
+                        </div>
+                       <div class="row">
+                        <div class="comment-header-flex col-lg-6">
+                         <label data-translatable="true" style="margin-right: 15px;">Close date: </label>
+                         <div>
+                         <div class="editableDateTxt" data-bind="text: neg_closeDate"></div>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row tab-pane " style="display: none; width: 100%; text-align: center; font-style: italic;"
+                    id="div_NoComments">
+                    <p class="defaultInfo" data-translatable="true">There are no comments for the selected section.</p>
+                </div>
+                <div class="row" id="div_CommentsResults">
+                    <div class="container">
+                        <div class="comment">
+                            <div class="comment-header clearfix col-lg-12">
+                                <div class="comment-about col-lg-6">
+                                    <div class="comment-with" data-bind="text: headingName"></div>
+                                    <div class="comment-num-messages"><span data-translatable="true">Total threads: </span><span
+                                            data-bind="text: commentsThreads().length"></span></div>
+                                </div>
+                                <div class="comment-refresh col-lg-6" style="text-align: right;">
+                                    <button data-bind="click:refreshComments.bind($data)" class="refreshComments"
+                                        id="ECSAC_RefreshComments"></button>
+                                </div>
+                            </div>
+                            <!-- end comment-header -->
+                            <div class="comment-history col-lg-12" style="height: 72%;padding: 0px;">
+                                <div id="commentThreads" data-bind="foreach:commentsThreads" class="panel-group">
+                                    <div id="commentThread" class="panel panel-default"
+                                        data-bind="click:highlightClauseorSection.bind($data,event)">
+                                        <div class="panel-heading">
+                                            <div class="panel-title">
+                                                <a data-toggle="collapse"
+                                                    data-bind="{attr: { href:'#Thread_'+$index(),id:'TAccordian_'+$index()},text:heading}"></a>
+                                                <a class="accordion-toggle panel-title collapsed" data-toggle="collapse"
+                                                    data-bind="{attr: { href:'#Thread_'+$index() }}"></a>                                                
+                                                <div style="float: right;margin-right: 30px;">
+                                                    <span data-translatable="true">Status : </span><span id="span_threadStatus"
+                                                        data-bind="text:status"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-thread-comments panel-collapse collapse"
+                                            data-bind="attr: { id:'Thread_'+$index() }">
+                                            <div class="panel-body">
+                                                <ul style="padding: 0px;list-style: none">
+                                                    <li data-bind="foreach:comments">
+                                                        <!-- ko if: sameUser -->
+                                                        <div class="message-data">
+                                                            <span class="message-data-name"
+                                                                data-bind="text:createdByUsername"></span>
+                                                            <span class="message-data-time"
+                                                                data-bind="text:createdDate"></span>
+                                                        </div>
+                                                        <div class="message my-message" data-bind="text:Content"
+                                                            style="white-space: pre-wrap;">
+                                                        </div>
+                                                        <!-- /ko -->
+                                                        <!-- ko ifnot: sameUser -->
+                                                        <div class="message-data align-right">
+                                                            <span class="message-data-time"
+                                                                data-bind="text:createdDate"></span>
+                                                            &nbsp; &nbsp;
+                                                            <span class="message-data-name"
+                                                                data-bind="text:createdByUsername"></span>
+                                                        </div>
+                                                        <div class="message other-message float-right"
+                                                            data-bind="text:Content" style="white-space: pre-wrap;">
+                                                        </div>
+                                                        <!-- /ko -->
+                                                    </li>
+                                                </ul>
+                                                <!-- ko if:($root.RelatedContentStatus() == "OPEN") && (status()=="OPEN" || status()=="RESOLVED" || status()== "REOPENED")  -->
+                                                <div class="comment-message clearfix">
+                                                    <textarea data-bind="value:commentContent" name="message-to-send"
+                                                        id="message-to-send"
+                                                        rows="3"></textarea>
+                                                    <button
+                                                        data-bind="click:replyCommentThread.bind($data)"><span data-translatable="true">Post</span></button>
+                                                </div>
+                                                <!-- /ko -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end comment-message -->
+                                </div>
+                            </div>
+                            <!-- end comment-history -->
+                        </div>
+                        <!-- end comment -->
+                    </div>
+                    <!-- end container -->
+                </div>
+            </div>
+            <div id="div_SharedUserList" class="tab-pane fade">
+                <!-- ko if: usersList().length <=0 -->
+                <div class="row" style="display: none; height: 70%; text-align: center; font-style: italic;"
+                    id="div_noSharedUsers">
+                    <p class="defaultInfo" data-translatable="true">This contract is not shared with any user.</p>
+                </div>
+                <!-- /ko -->
+                <!-- ko if: usersList().length > 0 -->
+                <div class="row" id="div_SharedUserResults"
+                    style="margin-left: 5px;margin-right: 5px;margin-top: 35px;">
+                    <div>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col" data-translatable="true">#</th>
+                                    <th scope="col" data-translatable="true">User ID</th>
+                                    <th scope="col" data-translatable="true">User name</th>
+                                    <th scope="col" data-translatable="true">Closure status</th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach:usersList">
+                                <tr>
+                                    <th data-bind="text:$index()+1" scope="row"></th>
+                                    <td data-bind="text:userid"></td>
+                                    <td data-bind="text:username"></td>
+                                    <td data-bind="text:status"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="div_addNegCommentsModel" role="dialog">
+        <div class="modal-content"
+            style="display: block; width:32%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3 data-translatable="true">Add negotiation comment</h3>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <label data-translatable="true">Comment heading</label>
+                    <input id="input_threadHeader" class="form-control" type="text">
+                    <label data-translatable="true">Comment</label>
+                    <textarea id="textarea_message_to_send" rows="7" style="resize: none;"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer" style="height: 50px !important;">
+                <button type="submit" class="apps-btn apps-btn-primary" data-dismiss="modal"
+                    id="btn_postComment"><span data-translatable="true">Post</span></button>
+                <button type="cancel" class="apps-btn apps-btn-secondary" data-dismiss="modal"
+                    id="btn_cancelPostComment"><span data-translatable="true">Cancel</span></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

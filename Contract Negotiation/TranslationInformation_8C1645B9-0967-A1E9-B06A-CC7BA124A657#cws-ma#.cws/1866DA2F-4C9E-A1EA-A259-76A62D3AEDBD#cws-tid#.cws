@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-A259-76A62D3B2DBD">
+	<DocumentID>1866DA2F-4C9E-A1EA-A259-76A62D3AEDBD</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-A259-76A62D3AEDBD</Name>
+	<Description>testEMP</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-04-28T17:04:39.152</CreationDate>
+	<Notes/>
+	<DefaultText>testEMP</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EA-A259-76A62D3B6DBD"
+		/>
+	</Translations>
+</TextIdentifier>

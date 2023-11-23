@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9120-FDA0C789701B">
+	<DocumentID>F8B156BC-2CB7-A1E8-9120-FDA0C789301B</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9120-FDA0C789301B</Name>
+	<Description>Clear cancellation fields</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-04-20T10:42:52.955</CreationDate>
+	<Notes/>
+	<Text>Clear cancellation fields</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9120-FDA0C788B01B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

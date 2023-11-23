@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A4FB-B245C6DA95B9">
+	<DocumentID>C4D98747-AA4E-A1E7-A4FB-B245C6DA55B9</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A4FB-B245C6DA55B9</Name>
+	<Description>Amendment5</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-07T17:05:56.119</CreationDate>
+	<Notes/>
+	<DefaultText>Amendment5</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4FB-B245C6DAD5B9"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B0F4-5125E0C80338">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B0F4-5125E0C7C338</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B0F4-5125E0C7C338</Name>
+	<Description>Start negotiation</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-08-21T09:55:45.599</CreationDate>
+	<Notes/>
+	<Text>Start negotiation</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B0FC-C01C96298338"
+		/>
+	</TextIdentifier>
+</TranslatedText>

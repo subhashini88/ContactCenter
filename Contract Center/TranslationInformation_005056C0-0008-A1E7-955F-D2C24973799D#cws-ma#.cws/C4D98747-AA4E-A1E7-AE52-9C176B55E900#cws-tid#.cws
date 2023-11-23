@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AE52-9C176B562900">
+	<DocumentID>C4D98747-AA4E-A1E7-AE52-9C176B55E900</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AE52-9C176B55E900</Name>
+	<Description>Create(tabular form)</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-25T06:05:21.349</CreationDate>
+	<Notes/>
+	<DefaultText>Create(tabular form)</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-AE52-9C176B566900"
+		/>
+	</Translations>
+</TextIdentifier>

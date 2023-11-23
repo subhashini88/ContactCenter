@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-98B3-09A08512C6C1">
+	<DocumentID>F8B156D5-AA46-A1E7-98B3-09A0851286C1</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-98B3-09A0851286C1</Name>
+	<Description>Eq</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-07-07T04:28:12.305</CreationDate>
+	<Notes/>
+	<Text>Eq</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-98B3-09A0851206C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

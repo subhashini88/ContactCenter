@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-92D0-C10BF0104F6F">
+	<DocumentID>84A938BF-F78D-A1EE-92D0-C10BF0100F6F</DocumentID>
+	<Name>84A938BF-F78D-A1EE-92D0-C10BF0100F6F</Name>
+	<Description>Success - Override</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-04T17:04:19.792</CreationDate>
+	<Notes/>
+	<Text>Success - Override</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-92D0-C10BF00F8F6F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

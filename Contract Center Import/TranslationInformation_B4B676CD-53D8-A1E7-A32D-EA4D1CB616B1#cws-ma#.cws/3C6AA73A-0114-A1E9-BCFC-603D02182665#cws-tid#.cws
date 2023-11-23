@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BCFC-603D02186665">
+	<DocumentID>3C6AA73A-0114-A1E9-BCFC-603D02182665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BCFC-603D02182665</Name>
+	<Description>Log details1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-21T10:57:00.714</CreationDate>
+	<Notes/>
+	<DefaultText>Log details1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-BCFC-603D0218A665"
+		/>
+	</Translations>
+</TextIdentifier>

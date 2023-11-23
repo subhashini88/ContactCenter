@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-BFA1-43A7059A6D6B">
+	<DocumentID>00505601-79C2-A1EC-BFA1-43A7059A2D6B</DocumentID>
+	<Name>00505601-79C2-A1EC-BFA1-43A7059A2D6B</Name>
+	<Description>CheckPartiesExists</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-08T06:14:39.688</CreationDate>
+	<Notes/>
+	<Text>CheckPartiesExists</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-BFA1-43A70599AD6B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

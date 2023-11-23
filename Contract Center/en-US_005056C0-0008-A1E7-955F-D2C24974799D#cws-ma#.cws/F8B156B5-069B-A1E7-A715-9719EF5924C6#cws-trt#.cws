@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A715-9719EF5964C6">
+	<DocumentID>F8B156B5-069B-A1E7-A715-9719EF5924C6</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A715-9719EF5924C6</Name>
+	<Description>Inactivation date</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-18T09:58:48.279</CreationDate>
+	<Notes/>
+	<Text>Inactivation date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A715-9719EF58A4C6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-BC13-924349A2A4BA">
+	<DocumentID>484D7EE5-DBB0-A1E7-BC13-924349A264BA</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-BC13-924349A264BA</Name>
+	<Description>Process fees_4</Description>
+	<CreatedBy>CC Contract Admin</CreatedBy>
+	<CreationDate>2018-01-03T06:40:53.433</CreationDate>
+	<Notes/>
+	<DefaultText>Process fees_4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E7-BC13-924349A2E4BA"
+		/>
+	</Translations>
+</TextIdentifier>

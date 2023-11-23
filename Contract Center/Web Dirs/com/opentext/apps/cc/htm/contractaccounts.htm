@@ -1,0 +1,609 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../js/contractaccounts.js"></script>
+    </script>
+</head>
+
+<body class="cc-ltr">
+    <div class="col-md-6" style="border-right: 1px solid #e8e8e8;"">
+        <div class="cc-header cc-border ">
+            <div class="cc-header-label" data-translatable="true">Internal parties</div>
+        </div>
+        <div id="div_INTPartiesListFilter" apps-toggle="expanded" class="col-md-3 cc-filter">
+            <div id="div_filterPanel" class="panel panel-default">
+                <div class="panel-heading">
+                    <button class="btn btn-primary cc-text-button-primary" onclick="ApplyFilterOnINTPartiesList(this)" id="btn_applyFilter" data-translatable="true"><span data-translatable="true">Apply</span></button>
+                    <button class="btn btn-default cc-text-button" onclick="ClearINTPartiesListFilter()" id="btn_clearFilter" data-translatable="true"><span data-translatable="true">Clear</span></button>
+                </div>
+                <div id="div_filterPanelBody" class="panel-body" style="padding: 0px;">
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_INTPartyRegIDFilter" aria-expanded="false" aria-controls="INTPartyRegID_Filter">
+                            <label data-translatable="true">Registration ID</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_INTPartyRegIDFilter">
+                            <div class="form-group">
+                                <select id="select_INTPartyRegIDFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_INTPartyRegIDFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_INTPartyNameFilter" aria-expanded="false" aria-controls="INTPartyname_Filter">
+                            <label data-translatable="true">Name</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_INTPartyNameFilter">
+                            <div class="form-group">
+                                <select id="select_INTPartyNameFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_INTPartyNameFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_INTPartyRegNameFilter" aria-expanded="false" aria-controls="INTPartyRegName_Filter">
+                            <label data-translatable="true">Registered name</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_INTPartyRegNameFilter">
+                            <div class="form-group">
+                                <select id="select_INTPartyRegNameFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_INTPartyRegNameFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="div_INTPartiesList" class="col-md-9 cc-list">
+            <div class="cc-error-info-area" id="div_listErrorInfoArea">
+                <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                <span id="span_errorInfoMessage" style="position: relative;"></span>
+            </div>
+            <div class="cc-header" style="background-color: white;height: 45px;z-index: 1;">
+                <button class="btn btn-default cc-button" id="btn_filterINTPartiesList">
+                    <img class="cc-icon" alt="Filter" src="../../../../../com/opentext/apps/utils/img/filter.svg">
+                </button>
+                <button class="btn btn-default cc-button" id="btn_addINTparty" onclick="openAddPartyForm('INTERNAL')">
+                    <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/search.svg">
+                </button>
+                <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                <button class="btn btn-default cc-text-button" onclick="ClearINTPartiesListFilter()" id="btn_clearFilterActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Clear filters</span></button>
+            </div>
+            <div class="table-responsive">
+                <table id="table_internalParties" class="table" style="margin: 0px;">
+                    <thead>
+                        <tr>
+                            <th data-translatable="true" style="width: 15%;">Registration ID</th>
+                            <th data-translatable="true" style="width: 25%;">Name</th>
+                            <th data-translatable="true" style="width: 25%;">Registered name</th>
+                            <th data-translatable="true" style="width: 30%;">Contacts</th>
+                            <th data-translatable="true" style="width: 5%;"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody_internalParties" data-bind="foreach:INTParties">
+                        <tr style="cursor: pointer;">
+                            <td>
+                                <div data-bind="text:INTPartyRegID"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:INTPartyName"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:INTPartyRegName"></div>
+                            </td>
+                            <td>
+                                <table id="table_internalPartyContacts" class="table" style="margin: 0px;">
+                                    <tbody id="tablebody_internalPartyContacts" data-bind="foreach:INTPartyContacts">
+                                        <tr>
+                                            <td style="border: none;padding: 2px;height: 30px;">
+                                                <div class="input-group" style="width: 65%; float:left">
+                                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                                        data-translatable="true" data-bind="textInput:INTPartyContactFirstName"
+                                                        readonly placeholder="-Select contact-">
+                                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                                        style="cursor: pointer;">
+                                                        <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg"
+                                                            data-bind="css:{cchideelement :CTRContactID().length>0},click:function(){$parent.addINTPartyContact($parent)}">
+                                                    </span>
+                                                </div>
+                                                <div style="float:left">
+                                                    <button class="btn btn-default cc-button" id="btn_removeINTPartyContact"
+                                                        data-bind="css:{cchideelement :CTRContactID().length==0},click:$parent.confirmINTPartyContactRemove"
+                                                        style="vertical-align: bottom;">
+                                                        <img class="cc-tr-icon" alt="Delete" src="../../../../../com/opentext/apps/utils/img/input_delete.svg">
+                                                    </button>
+                                                </div>
+                                                <div style="float:left">
+                                                    <button class="btn btn-default cc-button" id="btn_addINTPartyContact"
+                                                        data-bind="css:{cchideelement :$index()<($parent.INTPartyContacts().length-1)||CTRContactID().length==0},click:function(){$parent.addINTPartyContact($parent)}"
+                                                        style="vertical-align: bottom;">
+                                                        <img class="cc-tr-icon" src="../../../../../com/opentext/apps/utils/img/input_add.svg" style="margin: 0px;">
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td>
+                                <div>
+                                    <button class="btn btn-default cc-button" id="btn_removeINTParty"
+                                        data-bind="click:$root.confirmINTPartyRemove">
+                                        <img class="cc-tr-icon" alt="Delete"
+                                            src="../../../../../com/opentext/apps/utils/img/delete.svg">
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="cc-footer col-lg-12" style="text-align: center;padding: 0px; width: 50%;">
+                <ul class="pull-left pagination" style="margin: 0;">
+                    <li class="li-pagination">
+                        <select class="form-control cc-select" id="select_itemsCountPerPageParameter" onchange="updateINTPartyLimitValue(this)" style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;">
+                            <option value="1" data-translatable="true">1 per page</option>
+                            <option value="10" data-translatable="true">10 per page</option>
+                            <option value="25" selected data-translatable="true">25 per page</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="pagination" style="margin: 0;">
+                    <li class="li-pagination">
+                        <a id="a_itemsCount" style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                            <span data-bind="text:numOfINTParties"></span>
+                            <span data-translatable="true">result(s)</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="pagination pull-right" style="margin: 0;">
+                    <li class="li-pagination li_ListLeftNavigation" id="li_INTPartiesLeftNavigation" style="cursor: pointer;">
+                        <a data-bind="click:INTParty_goToFirstPage.bind()">
+                            <img class="cc-pagination-icon rotated-90" alt="FirstPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_INTParty_goToFirstPage">
+                            <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                        </a>
+                        <a data-bind="click:INTParty_goToPreviousPage.bind()">
+                            <img class="cc-pagination-icon rotated-90" alt="PreviousPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_INTParty_goToPreviousPage">
+                        </a>
+                    </li>
+                    <li class="li-pagination">
+                        <span>
+                            <input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="textInput:currentPage" disabled style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;"></input>
+                            <span data-translatable="true"> of </span>
+                            <span style="margin-left: .5em;margin-right: .5em;" data-bind="text:numOfPages"></span>
+                        </span>
+                    </li>
+                    <li class="li-pagination li_ListRightNavigation" id="li_INTPartiesRightNavigation" style="cursor: pointer;">
+                        <a data-bind="click:INTParty_goToNextPage.bind()">
+                            <img class="cc-pagination-icon rotated-270" alt="NextPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_INTParty_goToNextPage">
+                        </a>
+                        <a data-bind="click:INTParty_goToLastPage.bind()">
+                            <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_INTParty_goToLastPage">
+                            <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="cc-header cc-border ">
+            <div class="cc-header-label" data-translatable="true">External parties</div>
+        </div>
+        <div id="div_EXTPartiesListFilter" apps-toggle="expanded" class="col-md-3 cc-filter">
+            <div id="div_filterPanel" class="panel panel-default">
+                <div class="panel-heading">
+                    <button class="btn btn-primary cc-text-button-primary" onclick="ApplyFilterOnEXTPartiesList(this)" id="btn_applyFilter" data-translatable="true"><span data-translatable="true">Apply</span></button>
+                    <button class="btn btn-default cc-text-button" onclick="ClearEXTPartiesListFilter()" id="btn_clearFilter" data-translatable="true"><span data-translatable="true">Clear</span></button>
+                </div>
+                <div id="div_filterPanelBody" class="panel-body" style="padding: 0px;">
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_EXTPartyRegIDFilter" aria-expanded="false" aria-controls="EXTPartyRegID_Filter">
+                            <label data-translatable="true">Registration ID</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_EXTPartyRegIDFilter">
+                            <div class="form-group">
+                                <select id="select_EXTPartyRegIDFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_EXTPartyRegIDFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_EXTPartyNameFilter" aria-expanded="false" aria-controls="EXTPartyname_Filter">
+                            <label data-translatable="true">Name</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_EXTPartyNameFilter">
+                            <div class="form-group">
+                                <select id="select_EXTPartyNameFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_EXTPartyNameFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_EXTPartyRegNameFilter" aria-expanded="false" aria-controls="EXTPartyRegName_Filter">
+                            <label data-translatable="true">Registered name</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_EXTPartyRegNameFilter">
+                            <div class="form-group">
+                                <select id="select_EXTPartyRegNameFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_EXTPartyRegNameFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="div_EXTPartiesList" class="col-md-9 cc-list">
+            <div class="cc-error-info-area" id="div_listErrorInfoArea">
+                <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                <span id="span_errorInfoMessage" style="position: relative;"></span>
+            </div>
+            <div class="cc-header" style="background-color: white;height: 45px;z-index: 1;">
+                <button class="btn btn-default cc-button" id="btn_filterEXTPartiesList">
+                    <img class="cc-icon" alt="Filter" src="../../../../../com/opentext/apps/utils/img/filter.svg">
+                </button>
+                <button class="btn btn-default cc-button" id="btn_addEXTParty" onclick="openAddPartyForm('EXTERNAL')">
+                    <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/search.svg">
+                </button>
+                <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                <button class="btn btn-default cc-text-button" onclick="ClearEXTPartiesListFilter()" id="btn_clearFilterActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Clear filters</span></button>
+            </div>
+            <div class="table-responsive">
+                <table id="table_internalParties" class="table" style="margin: 0px;">
+                    <thead>
+                        <tr>
+                            <th data-translatable="true" style="width: 15%;">Registration ID</th>
+                            <th data-translatable="true" style="width: 25%;">Name</th>
+                            <th data-translatable="true" style="width: 25%;">Registered name</th>
+                            <th data-translatable="true" style="width: 30%;">Contacts</th>
+                            <th data-translatable="true" style="width: 5%;"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody_internalParties" data-bind="foreach:EXTParties">
+                        <tr style="cursor: pointer;">
+                            <td>
+                                <div data-bind="text:EXTPartyRegID"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:EXTPartyName"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:EXTPartyRegName"></div>
+                            </td>
+                            <td>
+                                <table id="table_internalPartyContacts" class="table" style="margin: 0px;">
+                                    <tbody id="tablebody_internalPartyContacts" data-bind="foreach:EXTPartyContacts">
+                                        <tr>
+                                            <td style="border: none;padding: 2px;height: 30px;">
+                                                <div class="input-group" style="width: 65%; float:left">
+                                                    <input type="text" class="form-control cc-input-browse rtl-input-browse"
+                                                        data-translatable="true" data-bind="textInput:EXTPartyContactFirstName"
+                                                        readonly placeholder="-Select contact-">
+                                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                                                        style="cursor: pointer;">
+                                                        <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg"
+                                                            data-bind="css:{cchideelement :CTRContactID().length>0},click:function(){$parent.addEXTPartyContact($parent)}">
+                                                    </span>
+                                                </div>
+                                                <div style="float:left">
+                                                    <button class="btn btn-default cc-button" id="btn_removeEXTPartyContact"
+                                                        data-bind="css:{cchideelement :CTRContactID().length==0},click:$parent.confirmEXTPartyContactRemove"
+                                                        style="vertical-align: bottom;">
+                                                        <img class="cc-tr-icon" alt="Delete" src="../../../../../com/opentext/apps/utils/img/input_delete.svg">
+                                                    </button>
+                                                </div>
+                                                <div style="float:left">
+                                                    <button class="btn btn-default cc-button" id="btn_addEXTPartyContact"
+                                                        data-bind="css:{cchideelement :$index()<($parent.EXTPartyContacts().length-1)||CTRContactID().length==0},click:function(){$parent.addEXTPartyContact($parent)}"
+                                                        style="vertical-align: bottom;">
+                                                        <img class="cc-tr-icon" src="../../../../../com/opentext/apps/utils/img/input_add.svg" style="margin: 0px;">
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td>
+                                <div>
+                                    <button class="btn btn-default cc-button" id="btn_removeEXTParty"
+                                        data-bind="click:$root.confirmEXTPartyRemove">
+                                        <img class="cc-tr-icon" alt="Delete"
+                                            src="../../../../../com/opentext/apps/utils/img/delete.svg">
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="cc-footer col-lg-12" style="text-align: center;padding: 0px; width: 50%;right: 0 !important;left: auto;">
+                <ul class="pull-left pagination" style="margin: 0;">
+                    <li class="li-pagination">
+                        <select class="form-control cc-select" id="select_itemsCountPerPageParameter" onchange="updateEXTPartyLimitValue(this)" style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;">
+                            <option value="1" data-translatable="true">1 per page</option>
+                            <option value="10" data-translatable="true">10 per page</option>
+                            <option value="25" selected data-translatable="true">25 per page</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="pagination" style="margin: 0;">
+                    <li class="li-pagination">
+                        <a id="a_itemsCount" style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                            <span data-bind="text:numOfEXTParties"></span>
+                            <span data-translatable="true">result(s)</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="pagination pull-right" style="margin: 0;">
+                    <li class="li-pagination li_ListLeftNavigation" id="li_EXTPartiesLeftNavigation" style="cursor: pointer;">
+                        <a data-bind="click:EXTParty_goToFirstPage.bind()">
+                            <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_EXTParty_goToFirstPage">
+                            <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                        </a>
+                        <a data-bind="click:EXTParty_goToPreviousPage.bind()">
+                            <img class="cc-pagination-icon rotated-90" alt="PreviousPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_EXTParty_goToPreviousPage">
+                        </a>
+                    </li>
+                    <li class="li-pagination">
+                        <span>
+                            <input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="textInput:currentPage" disabled style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;"></input>
+                            <span data-translatable="true"> of </span>
+                            <span style="margin-left: .5em;margin-right: .5em;" data-bind="text:numOfPages"></span>
+                        </span>
+                    </li>
+                    <li class="li-pagination li_ListRightNavigation" id="li_EXTPartiesRightNavigation" style="cursor: pointer;">
+                        <a data-bind="click:EXTParty_goToNextPage.bind()">
+                            <img class="cc-pagination-icon rotated-270" alt="NextPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_EXTParty_goToNextPage">
+                        </a>
+                        <a data-bind="click:EXTParty_goToLastPage.bind()">
+                            <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_EXTParty_goToLastPage">
+                            <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Remove Party warning modal form -->
+    <div class="modal fade" id="div_removePartyModal" role="dialog" style="z-index: 1999;">
+        <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+            <div class="modal-header cc-modal-header">
+                <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                </button>
+                <h3 data-translatable="true">Delete <span id="span_partyToRemove"></span></h3>
+            </div>
+            <div class="modal-body cc-modal-body">
+                <div class="cc-warning-msg rtl-notifquestion" data-translatable="true">Delete the selected items?</div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_removePartyYes" data-translatable="true"><span data-translatable="true">Delete</span></button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_removePartyCancel" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+            </div>
+        </div>
+    </div>
+    <!-- Remove contact warning modal form -->
+    <div class="modal fade" id="div_removeContactModal" role="dialog" style="z-index: 1999;">
+        <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+            <div class="modal-header cc-modal-header">
+                <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                </button>
+                <h3 data-translatable="true">Delete <span id="span_ContactToRemove"></span></h3>
+            </div>
+            <div class="modal-body cc-modal-body">
+                <div class="cc-warning-msg rtl-notifquestion" data-translatable="true">Delete the selected items?</div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_removeContactYes" data-translatable="true"><span data-translatable="true">Delete</span></button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_removeContactCancel" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+            </div>
+        </div>
+    </div>
+    <!-- Add Party modal form -->
+    <div class="modal fade" id="div_addPartytoContractModal" role="dialog" style="z-index: 2999;">
+        <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%; height: 75%;">
+            <div class="modal-header cc-modal-header">
+                <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                </button>
+                <h3 data-translatable="true">Select a party</h3>
+            </div>
+            <div class="modal-body cc-modal-body">
+                <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+                    <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                    <span id="span_errorInfoMessage" style="position: relative;"></span>
+                </div>
+                <div class="col-md-12 cc-list" id="div_partyList">
+                    <div class="input-group" style="margin-bottom: 10px;">
+                        <input type="text" class="form-control cc-input-browse rtl-input-browse" data-translatable="true" id="input_partyListSearchFilter" placeholder="Search by party name" style="background-color: white;border-right: 0;">
+                        <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;background-color: white;">
+                            <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListPartiestoAdd()">
+                        </span>
+                    </div>
+                    <table class="table cc-border">
+                        <thead>
+                            <tr>
+                                <th style="width: 10%;"></th>
+                                <th style="width: 30%;" data-translatable="true" scope="col">Registration Id</th>
+                                <th style="width: 30%;" data-translatable="true" scope="col">Name</th>
+                                <th style="width: 30%;" data-translatable="true" scope="col">Registered Name</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody_partiesToAdd" data-bind="foreach:PartiestoAdd">
+                            <tr data-bind="click:$root.selectPartyRadioButton,attr:{isAddedAlready:isAddedAlready}">
+                                <td>
+                                    <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onPartyRowRadioButtonValueChanged}"></div>
+                                </td>
+                                <td data-bind="text:RegistrationID"></td>
+                                <td data-bind="text:Name"></td>
+                                <td data-bind="text:RegisteredName"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div data-bind="css:{cchideelement :l_addPartytoContractSelection_model.totalNoOfParties()!=0}">
+                    <img class="cc-icon" src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+                    <span>No parties to add to contract</span>
+                </div>
+                <div data-bind="css:{cchideelement :l_addPartytoContractSelection_model.totalNoOfParties()<5}">
+                    <img class="cc-icon" src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+                    <span>Showing top 5 results. If desired result is not listed use search</span>
+                </div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" data-bind="attr:{disabled :l_addPartytoContractSelection_model.selectedPartyID().length==0}" data-dismiss="modal" id="btn_selectPartytoAddYes" data-translatable="true">
+                    <span data-translatable="true">Select</span>
+                </button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectPartytoAddCancel" data-translatable="true">
+                    <span data-translatable="true">Cancel</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Add contact modal form -->
+    <div class="modal fade" id="div_addContacttoContractModal" role="dialog" style="z-index: 2999;">
+        <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%; height: 75%;">
+            <div class="modal-header cc-modal-header">
+                <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                </button>
+                <h3 data-translatable="true">Select a contact</h3>
+            </div>
+            <div class="modal-body cc-modal-body">
+                <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+                    <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                    <span id="span_errorInfoMessage" style="position: relative;"></span>
+                </div>
+                <div class="col-md-12 cc-list" id="div_contactList">
+                    <div class="input-group" style="margin-bottom: 10px;">
+                        <input type="text" class="form-control cc-input-browse rtl-input-browse" data-translatable="true" id="input_contactListSearchFilter" placeholder="Search by contact first name" style="background-color: white;border-right: 0;">
+                        <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;background-color: white;">
+                            <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListContactstoAdd()">
+                        </span>
+                    </div>
+                    <table class="table cc-border">
+                        <thead>
+                            <tr>
+                                <th style="width: 10%;"></th>
+                                <th style="width: 20%;" data-translatable="true" scope="col">User Id</th>
+                                <th style="width: 20%;" data-translatable="true" scope="col">First name</th>
+                                <th style="width: 20%;" data-translatable="true" scope="col">Last name</th>
+                                <th style="width: 30%;" data-translatable="true" scope="col">Display name</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody_contactsToAdd" data-bind="foreach:ContactstoAdd">
+                            <tr data-bind="click:$root.selectContactRadioButton,attr:{isAddedAlready:isAddedAlready}">
+                                <td>
+                                    <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onContactRowRadioButtonValueChanged}"></div>
+                                </td>
+                                <td data-bind="text:getTextValue(ContainingPerson.User_ID)"></td>
+                                <td data-bind="text:getTextValue(ContainingPerson.FirstName)"></td>
+                                <td data-bind="text:getTextValue(ContainingPerson.LastName)"></td>
+                                <td data-bind="text:getTextValue(ContainingPerson.DisplayName)"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div data-bind="css:{cchideelement :l_addContacttoContractSelection_model.totalNoOfContacts()!=0}">
+                    <img class="cc-icon" src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+                    <span>No contacts are mapped to the party</span>
+                </div>
+                <div data-bind="css:{cchideelement :l_addContacttoContractSelection_model.totalNoOfContacts()<5}">
+                    <img class="cc-icon" src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+                    <span>Showing top 5 results. If desired result is not listed use search</span>
+                </div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" data-bind="attr:{disabled :l_addContacttoContractSelection_model.selectedContactID().length==0}" data-dismiss="modal" id="btn_selectContacttoAddYes" data-translatable="true">
+                    <span data-translatable="true">Select</span>
+                </button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectContacttoAddCancel" data-translatable="true">
+                    <span data-translatable="true">Cancel</span>
+                </button>
+            </div>
+        </div>
+    </div>    
+</body>

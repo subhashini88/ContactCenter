@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-850E-47BE4A4556A4">
+	<DocumentID>98FA9B81-5041-A1EE-850E-A8A133EB16A4</DocumentID>
+	<Name>98FA9B81-5041-A1EE-850E-A8A133EB16A4</Name>
+	<Description>Open</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-06-26T16:01:33.978</CreationDate>
+	<Notes/>
+	<DefaultText>Open</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EE-850E-47BE4A4596A4"
+		/>
+	</Translations>
+</TextIdentifier>

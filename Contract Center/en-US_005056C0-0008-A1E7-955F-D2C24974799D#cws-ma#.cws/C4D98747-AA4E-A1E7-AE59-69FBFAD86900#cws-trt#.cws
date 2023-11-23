@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AE59-69FBFAD8A900">
+	<DocumentID>C4D98747-AA4E-A1E7-AE59-69FBFAD86900</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AE59-69FBFAD86900</Name>
+	<Description>Opportunity ID</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-25T09:57:39.982</CreationDate>
+	<Notes/>
+	<Text>Opportunity ID</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-AE59-69FBFAD7E900"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9BB4-E83BC0DFDA1E">
+	<DocumentID>005056C0-0008-A1E7-9BB4-E83BC0DF9A1E</DocumentID>
+	<Name>005056C0-0008-A1E7-9BB4-E83BC0DF9A1E</Name>
+	<Description>TestFilter</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-22T12:15:35.647</CreationDate>
+	<Notes/>
+	<DefaultText>TestFilter</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9BB4-E83BC0E01A1E"
+		/>
+	</Translations>
+</TextIdentifier>

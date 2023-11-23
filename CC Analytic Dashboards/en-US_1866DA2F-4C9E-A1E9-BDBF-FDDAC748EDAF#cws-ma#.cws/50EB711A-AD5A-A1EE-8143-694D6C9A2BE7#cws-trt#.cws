@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8143-694D6C9A6BE7">
+	<DocumentID>50EB711A-AD5A-A1EE-8143-694D6C9A2BE7</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8143-694D6C9A2BE7</Name>
+	<Description>Z_INT_AllInAppTiles</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-07T08:45:25.602</CreationDate>
+	<Notes/>
+	<Text>Z_INT_AllInAppTiles</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-8143-694D6C99ABE7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

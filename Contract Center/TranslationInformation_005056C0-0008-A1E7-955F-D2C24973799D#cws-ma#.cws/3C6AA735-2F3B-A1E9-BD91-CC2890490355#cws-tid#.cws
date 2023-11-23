@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-BD91-CC2890494355">
+	<DocumentID>3C6AA735-2F3B-A1E9-BD91-CC2890490355</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-BD91-CC2890490355</Name>
+	<Description>no_11</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-10-24T10:16:32.798</CreationDate>
+	<Notes/>
+	<DefaultText>no_11</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1E9-BD91-CC2890498355"
+		/>
+	</Translations>
+</TextIdentifier>

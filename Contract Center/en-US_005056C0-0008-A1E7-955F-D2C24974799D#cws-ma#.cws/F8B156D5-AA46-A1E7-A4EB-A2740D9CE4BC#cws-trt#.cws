@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A4EB-A2740D9D24BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A4EB-A2740D9CE4BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A4EB-A2740D9CE4BC</Name>
+	<Description>Status action bar</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-07T09:26:59.619</CreationDate>
+	<Notes/>
+	<Text>Status action bar</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A4EB-A2740D9C64BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

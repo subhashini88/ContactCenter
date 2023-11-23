@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-8562-526A897E2509">
+	<DocumentID>484D7EEB-71EF-A1E9-8562-526A897DE509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-8562-526A897DE509</Name>
+	<Description>Get Related Second Party Contacts</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-11T10:17:07.582</CreationDate>
+	<Notes/>
+	<DefaultText>Get Related Second Party Contacts</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-8562-526A897E6509"
+		/>
+	</Translations>
+</TextIdentifier>

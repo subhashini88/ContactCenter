@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-AF7B-E2C2F2D96FF5">
+	<DocumentID>F8B156BC-2CB7-A1E7-AF80-4F5B43F86FF5</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-AF80-4F5B43F86FF5</Name>
+	<Description>ContractImportStatusJobIdFilter</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-31T06:03:45.291</CreationDate>
+	<Notes/>
+	<DefaultText>ContractImportStatusJobIdFilter</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E7-AF7B-E2C2F2D9AFF5"
+		/>
+	</Translations>
+</TextIdentifier>

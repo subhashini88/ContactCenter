@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3CE1A1B9-D0CB-A1ED-8F88-22023F943ABC">
+	<DocumentID>3CE1A1B9-D0CB-A1ED-8F88-22023F93FABC</DocumentID>
+	<Name>3CE1A1B9-D0CB-A1ED-8F88-22023F93FABC</Name>
+	<Description>LinkRenewAmendBWs</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-09-27T05:27:19.074</CreationDate>
+	<Notes/>
+	<Text>LinkRenewAmendBWs</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3CE1A1B9-D0CB-A1ED-8F88-22023F937ABC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

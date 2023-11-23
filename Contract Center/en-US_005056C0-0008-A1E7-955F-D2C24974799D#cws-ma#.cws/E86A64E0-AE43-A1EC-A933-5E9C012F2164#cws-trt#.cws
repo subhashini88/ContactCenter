@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-A933-5E9C012F6164">
+	<DocumentID>E86A64E0-AE43-A1EC-A933-5E9C012F2164</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-A933-5E9C012F2164</Name>
+	<Description>FindNextRecurrDate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-16T02:38:10.822</CreationDate>
+	<Notes/>
+	<Text>FindNextRecurrDate</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A64E0-AE43-A1EC-A933-A2D231036164"
+		/>
+	</TextIdentifier>
+</TranslatedText>

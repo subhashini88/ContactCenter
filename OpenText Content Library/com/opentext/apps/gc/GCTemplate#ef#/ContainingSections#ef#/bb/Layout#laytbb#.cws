@@ -1,0 +1,19 @@
+
+<LayoutBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.layout.LayoutBuildingBlock"
+	typeVersion="DC978CBB-0A47-4BEE-846D-F1D35152083E"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-9C03-935FD3FE706B">
+	<DocumentID>F8B156BC-2CB7-A1EA-9C03-935FD3FE306B</DocumentID>
+	<Name>Layout</Name>
+	<Description>Layout</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-03-27T09:45:53.418</CreationDate>
+	<Notes/>
+	<Entity>
+		<uri
+			id="C4D98747-A6D9-A1E8-AC3D-30180EB3C86E"
+		/>
+	</Entity>
+	<Layouts/>
+</LayoutBuildingBlock>

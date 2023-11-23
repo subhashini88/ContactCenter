@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-931D-74B6D2DAF183">
+	<DocumentID>50EB711A-FC6F-A1EE-931D-74B6D2DAB183</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-931D-74B6D2DAB183</Name>
+	<Description>INACTIVEINPROGRESS</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-06T07:22:59.607</CreationDate>
+	<Notes/>
+	<DefaultText>INACTIVEINPROGRESS</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-FC6F-A1EE-931D-74B6D2DB3183"
+		/>
+	</Translations>
+</TextIdentifier>

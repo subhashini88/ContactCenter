@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B526-C5DF65BFC877">
+	<DocumentID>B4B676CD-53D8-A1E8-B526-C5DF65BF8877</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B526-C5DF65BF8877</Name>
+	<Description>GenericWithdraw</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2018-10-20T19:07:55.582</CreationDate>
+	<Notes/>
+	<Text>GenericWithdraw</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-B526-C5DF65BF0877"
+		/>
+	</TextIdentifier>
+</TranslatedText>

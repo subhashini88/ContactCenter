@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8825-2CA833DBABF4">
+	<DocumentID>50EB711A-AD5A-A1EE-8825-2CA833DB6BF4</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8825-2CA833DB6BF4</Name>
+	<Description>Three month</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-12T09:20:31.655</CreationDate>
+	<Notes/>
+	<DefaultText>Three month</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EE-8825-2CA833DBEBF4"
+		/>
+	</Translations>
+</TextIdentifier>

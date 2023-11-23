@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-8889-80B92E2F4344">
+	<DocumentID>FC7774E8-DA63-A1EA-8889-80B92E2F0344</DocumentID>
+	<Name>FC7774E8-DA63-A1EA-8889-80B92E2F0344</Name>
+	<Description>DocuSignConfugurationHistoryLog</Description>
+	<CreatedBy>VarshaK</CreatedBy>
+	<CreationDate>2019-12-19T06:10:36.094</CreationDate>
+	<Notes/>
+	<Text>DocuSignConfugurationHistoryLog</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1EA-8889-80B92E2E8344"
+		/>
+	</TextIdentifier>
+</TranslatedText>

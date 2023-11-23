@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-99C3-CA735099C6C1">
+	<DocumentID>F8B156D5-AA46-A1E7-99C3-CA73509986C1</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-99C3-CA73509986C1</Name>
+	<Description>Update linked relation</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-07-12T14:39:59.998</CreationDate>
+	<Notes/>
+	<Text>Update linked relation</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-99C3-CA73509906C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

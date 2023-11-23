@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-BA2F-873D7295887B">
+	<DocumentID>B4B676CD-53D8-A1E8-BA2F-873D7295487B</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-BA2F-873D7295487B</Name>
+	<Description>GetContractsForTemplateDelete</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-15T10:08:28.022</CreationDate>
+	<Notes/>
+	<DefaultText>GetContractsForTemplateDelete</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-BA2F-873D7295C87B"
+		/>
+	</Translations>
+</TextIdentifier>

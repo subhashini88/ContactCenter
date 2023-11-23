@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B970-C197B547A661">
+	<DocumentID>8C1645B9-0967-A1E9-B970-C197B5476661</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B970-C197B5476661</Name>
+	<Description>Mapping Existed ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-03T10:14:37.219</CreationDate>
+	<Notes/>
+	<DefaultText>Mapping Existed ?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-B970-C197B547E661"
+		/>
+	</Translations>
+</TextIdentifier>

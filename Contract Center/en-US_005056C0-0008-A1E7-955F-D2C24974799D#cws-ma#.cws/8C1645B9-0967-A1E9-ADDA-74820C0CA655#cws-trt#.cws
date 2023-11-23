@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-ADDA-74820C0CE655">
+	<DocumentID>8C1645B9-0967-A1E9-ADDA-74820C0CA655</DocumentID>
+	<Name>8C1645B9-0967-A1E9-ADDA-74820C0CA655</Name>
+	<Description>Convert to non standard</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-05T10:19:30.504</CreationDate>
+	<Notes/>
+	<Text>Convert to non standard</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-ADDA-74820C0C2655"
+		/>
+	</TextIdentifier>
+</TranslatedText>

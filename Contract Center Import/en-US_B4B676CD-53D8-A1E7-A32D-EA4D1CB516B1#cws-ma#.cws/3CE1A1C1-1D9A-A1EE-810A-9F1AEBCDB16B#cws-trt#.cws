@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3CE1A1C1-1D9A-A1EE-810A-9F1AEBCDF16B">
+	<DocumentID>3CE1A1C1-1D9A-A1EE-810A-9F1AEBCDB16B</DocumentID>
+	<Name>3CE1A1C1-1D9A-A1EE-810A-9F1AEBCDB16B</Name>
+	<Description>DefaultActivityListsImport</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-06T10:39:24.897</CreationDate>
+	<Notes/>
+	<Text>DefaultActivityListsImport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3CE1A1C1-1D9A-A1EE-8115-98823004716B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

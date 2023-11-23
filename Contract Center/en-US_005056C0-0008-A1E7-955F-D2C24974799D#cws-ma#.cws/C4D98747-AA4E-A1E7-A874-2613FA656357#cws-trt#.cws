@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A874-2613FA65A357">
+	<DocumentID>C4D98747-AA4E-A1E7-A874-2613FA656357</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A874-2613FA656357</Name>
+	<Description>Renew disable rule</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-09-25T09:05:27.183</CreationDate>
+	<Notes/>
+	<Text>Renew disable rule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A874-2613FA64E357"
+		/>
+	</TextIdentifier>
+</TranslatedText>

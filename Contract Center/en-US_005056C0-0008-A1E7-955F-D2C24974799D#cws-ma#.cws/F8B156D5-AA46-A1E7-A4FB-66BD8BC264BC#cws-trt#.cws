@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A4FB-66BD8BC2A4BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A4FB-66BD8BC264BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A4FB-66BD8BC264BC</Name>
+	<Description>Termination action bar</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-07T17:07:52.789</CreationDate>
+	<Notes/>
+	<Text>Termination action bar</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A4FB-66BD8BC1E4BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

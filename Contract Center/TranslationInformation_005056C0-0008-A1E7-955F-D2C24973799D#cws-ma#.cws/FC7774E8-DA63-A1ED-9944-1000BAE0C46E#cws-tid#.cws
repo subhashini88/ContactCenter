@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E8-DA63-A1ED-9944-1000BAE1046E">
+	<DocumentID>FC7774E8-DA63-A1ED-9944-1000BAE0C46E</DocumentID>
+	<Name>FC7774E8-DA63-A1ED-9944-1000BAE0C46E</Name>
+	<Description>isExecuted and file present</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-11-15T18:08:36.615</CreationDate>
+	<Notes/>
+	<DefaultText>isExecuted and file present</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E8-DA63-A1ED-9944-1000BAE1446E"
+		/>
+	</Translations>
+</TextIdentifier>

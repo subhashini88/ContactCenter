@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-8F65-9389B4CFE4C7">
+	<DocumentID>ECF4BB61-42B2-A1E8-8F65-9389B4CFA4C7</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-8F65-9389B4CFA4C7</Name>
+	<Description>ClearCurrentExpiryDateRule</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-11T14:40:41.68</CreationDate>
+	<Notes/>
+	<Text>ClearCurrentExpiryDateRule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-8F65-9389B4CF24C7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

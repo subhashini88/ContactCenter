@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9B4D-35394CA60435">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9B4D-35394CA5C435</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9B4D-35394CA5C435</Name>
+	<Description>Approved requests</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-12T13:22:57.991</CreationDate>
+	<Notes/>
+	<Text>Approved requests</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9B4D-35394CA54435"
+		/>
+	</TextIdentifier>
+</TranslatedText>

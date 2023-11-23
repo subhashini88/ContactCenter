@@ -1,0 +1,19 @@
+
+<WorklistBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.worklist.WorklistBuildingBlock"
+	typeVersion="32e265e6-5eca-4903-ba2e-9f760b311d90"
+	RuntimeDocumentID="90B11C8A-3947-11E5-F7F0-56DFE9983FCB">
+	<DocumentID>90B11C8A-3947-11E5-F7F0-56DFE9981FCB</DocumentID>
+	<Name>List</Name>
+	<Description/>
+	<CreatedBy>cn=SYSTEM,cn=organizational users,o=system,cn=cordys,o=vanenburg.com</CreatedBy>
+	<CreationDate>2017-06-14T20:27:29.435</CreationDate>
+	<Notes/>
+	<Entity>
+		<uri
+			id="90B11C8A-3947-11E5-F7F0-44716502DFCB"
+		/>
+	</Entity>
+	<Worklists/>
+</WorklistBuildingBlock>

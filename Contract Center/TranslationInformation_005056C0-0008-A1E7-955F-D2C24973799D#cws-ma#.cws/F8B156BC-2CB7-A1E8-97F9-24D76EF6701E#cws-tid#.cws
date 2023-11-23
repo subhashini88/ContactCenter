@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-97F9-24D76EF6B01E">
+	<DocumentID>F8B156BC-2CB7-A1E8-97F9-24D76EF6701E</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-97F9-24D76EF6701E</Name>
+	<Description>GetContractlineswithBtoBSoftware</Description>
+	<CreatedBy>nareshp</CreatedBy>
+	<CreationDate>2018-05-25T06:36:15.471</CreationDate>
+	<Notes/>
+	<DefaultText>GetContractlineswithBtoBSoftware</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-97F9-24D76EF6F01E"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-8997-0BEA71D8D6AB">
+	<DocumentID>98FA9B81-5041-A1EE-8997-0BEA71D896AB</DocumentID>
+	<Name>98FA9B81-5041-A1EE-8997-0BEA71D896AB</Name>
+	<Description>ReportsBatchRefresh</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-07-19T17:49:55.985</CreationDate>
+	<Notes/>
+	<Text>ReportsBatchRefresh</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EE-8997-0BEA71D816AB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,26 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-AAC4-E6F75C1BB07A">
+	<DocumentID>F8B156BC-2CB7-A1EA-AAC4-E6F75C1B707A</DocumentID>
+	<Name>Primary Contract Approver</Name>
+	<Description>Primary Contract Approver</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-06-10T12:19:43.49</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles>
+		<uri
+			id="005056C0-0008-A1E7-A47D-F749F25C9D65"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-BB57-69359D0A487C"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

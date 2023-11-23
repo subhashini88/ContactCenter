@@ -1,0 +1,30 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B223-592F46EA64FD">
+	<DocumentID>484D7EE5-DBB0-A1E8-B223-592F46EA24FD</DocumentID>
+	<Name>PropertiesHistoryLog</Name>
+	<Description>PropertiesHistoryLog</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-10-05T10:58:32.955</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="484D7EE5-DBB0-A1E8-B223-592F46E7E4FD">
+			<DocumentID>484D7EE5-DBB0-A1E8-B223-592F46E7A4FD</DocumentID>
+			<Name>484D7EE5-DBB0-A1E8-B223-592F46E7A4FD</Name>
+			<Description>484D7EE5-DBB0-A1E8-B223-592F46E7A4FD</Description>
+			<CreatedBy>harley</CreatedBy>
+			<CreationDate>2018-10-05T10:58:32.955</CreationDate>
+			<Notes/>
+			<DeveloperText>PropertiesHistoryLog</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

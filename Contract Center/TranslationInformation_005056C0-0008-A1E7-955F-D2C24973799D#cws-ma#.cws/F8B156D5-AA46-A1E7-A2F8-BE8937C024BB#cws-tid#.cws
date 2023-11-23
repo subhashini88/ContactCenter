@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A2F8-BE8937C064BB">
+	<DocumentID>F8B156D5-AA46-A1E7-A2F8-BE8937C024BB</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A2F8-BE8937C024BB</Name>
+	<Description>Related customers form</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-08-28T11:36:56.536</CreationDate>
+	<Notes/>
+	<DefaultText>Related customers form</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-A2F8-BE8937C0A4BB"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BBC5-DDF885A3BAA2">
+	<DocumentID>98FA9B81-5041-A1EC-BBC5-DDF885A37AA2</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BBC5-DDF885A37AA2</Name>
+	<Description>PO numbers</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-18T15:17:11.23</CreationDate>
+	<Notes/>
+	<Text>PO numbers</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-BBC5-DDF885A2FAA2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

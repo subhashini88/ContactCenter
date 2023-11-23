@@ -1,0 +1,23 @@
+.linkedContract_row{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.createLink_summaryText{
+	white-space: pre-wrap;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    text-decoration: none solid rgb(85, 85, 85);
+    font-style: normal;
+    font-family: Lato, Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}

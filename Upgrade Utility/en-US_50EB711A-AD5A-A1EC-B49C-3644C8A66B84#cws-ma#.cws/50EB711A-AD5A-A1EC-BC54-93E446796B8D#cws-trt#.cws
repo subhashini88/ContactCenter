@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BC54-93E44679AB8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BC54-93E446796B8D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-BC54-93E446796B8D</Name>
+	<Description>Z_INT_UpgradeBatchJobList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-21T11:09:57.674</CreationDate>
+	<Notes/>
+	<Text>Z_INT_UpgradeBatchJobList</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-BC54-93E44678EB8D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

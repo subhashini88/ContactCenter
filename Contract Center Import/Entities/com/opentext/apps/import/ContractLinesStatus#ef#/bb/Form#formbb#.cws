@@ -1,0 +1,19 @@
+
+<FormBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.form.FormBuildingBlock"
+	typeVersion="B676A82B-2661-475F-B6D4-2DE9D084E191"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-AC96-9C2467DC3264">
+	<DocumentID>B4B676CD-53D8-A1E7-AC96-9C2467DBF264</DocumentID>
+	<Name>Form</Name>
+	<Description>Form</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-10-16T10:24:38.039</CreationDate>
+	<Notes/>
+	<Entity>
+		<uri
+			id="B4B676CD-53D8-A1E7-ABF9-063F09B6B73D"
+		/>
+	</Entity>
+	<Forms/>
+</FormBuildingBlock>

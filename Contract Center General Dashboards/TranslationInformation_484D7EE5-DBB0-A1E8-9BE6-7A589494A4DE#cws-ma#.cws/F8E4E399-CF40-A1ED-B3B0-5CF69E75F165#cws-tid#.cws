@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B3B0-5CF69E763165">
+	<DocumentID>F8E4E399-CF40-A1ED-B3B0-5CF69E75F165</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B3B0-5CF69E75F165</Name>
+	<Description>OrgUnassignedTasks</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-30T06:10:18.607</CreationDate>
+	<Notes/>
+	<DefaultText>OrgUnassignedTasks</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-B3B0-5CF69E767165"
+		/>
+	</Translations>
+</TextIdentifier>

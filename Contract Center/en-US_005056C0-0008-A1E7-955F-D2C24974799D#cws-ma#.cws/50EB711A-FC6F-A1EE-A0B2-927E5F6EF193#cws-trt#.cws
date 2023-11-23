@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-A0B2-927E5F6F3193">
+	<DocumentID>50EB711A-FC6F-A1EE-A0B2-927E5F6EF193</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-A0B2-927E5F6EF193</Name>
+	<Description>Non compliance category</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-11-14T08:53:46.537</CreationDate>
+	<Notes/>
+	<Text>Non compliance category</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-A0B2-927E5F6E7193"
+		/>
+	</TextIdentifier>
+</TranslatedText>

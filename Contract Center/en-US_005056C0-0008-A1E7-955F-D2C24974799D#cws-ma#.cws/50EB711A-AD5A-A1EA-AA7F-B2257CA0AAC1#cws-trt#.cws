@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EA-AA7F-B2257CA0EAC1">
+	<DocumentID>50EB711A-AD5A-A1EA-AA7F-B2257CA0AAC1</DocumentID>
+	<Name>50EB711A-AD5A-A1EA-AA7F-B2257CA0AAC1</Name>
+	<Description>Currency: A value is required</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-09T03:18:45.599</CreationDate>
+	<Notes/>
+	<Text>Currency: A value is required</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EA-AA7F-B2257CA02AC1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

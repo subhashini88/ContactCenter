@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-A6D5-A1E8-9BE2-189FFC2A251F">
+	<DocumentID>C4D98747-A6D5-A1E8-9BE2-189FFC29E51F</DocumentID>
+	<Name>C4D98747-A6D5-A1E8-9BE2-189FFC29E51F</Name>
+	<Description>Active global clause list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-14T04:10:28.422</CreationDate>
+	<Notes/>
+	<DefaultText>Active global clause list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-A6D5-A1E8-9BE2-189FFC2A651F"
+		/>
+	</Translations>
+</TextIdentifier>

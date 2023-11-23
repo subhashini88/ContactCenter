@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-85EB-3F9AE12FA4BB">
+	<DocumentID>F8B156D6-35F3-A1E8-85EB-3F9AE12F64BB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-85EB-3F9AE12F64BB</Name>
+	<Description>MID</Description>
+	<CreatedBy>Yogesh Chaube</CreatedBy>
+	<CreationDate>2018-02-22T08:55:24.022</CreationDate>
+	<Notes/>
+	<DefaultText>MID</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-85EB-3F9AE12FE4BB"
+		/>
+	</Translations>
+</TextIdentifier>

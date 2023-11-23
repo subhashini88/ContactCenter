@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B69D-8E1E2DABE4BA">
+	<DocumentID>9890969C-5774-A1E7-B69D-8E1E2DABA4BA</DocumentID>
+	<Name>9890969C-5774-A1E7-B69D-8E1E2DABA4BA</Name>
+	<Description>Product group</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-12-06T11:13:37.382</CreationDate>
+	<Notes/>
+	<Text>Product group</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B69D-8E1E2DAB24BA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

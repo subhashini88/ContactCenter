@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-997C-142A4D5C4F71">
+	<DocumentID>84A938BF-F78D-A1EE-997C-142A4D5C0F71</DocumentID>
+	<Name>84A938BF-F78D-A1EE-997C-142A4D5C0F71</Name>
+	<Description>IsObligation?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-08T15:41:00.782</CreationDate>
+	<Notes/>
+	<Text>IsObligation?</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-997C-142A4D5B8F71"
+		/>
+	</TextIdentifier>
+</TranslatedText>

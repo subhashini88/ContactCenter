@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-B942-04FDCB229A71">
+	<DocumentID>3417EB96-8F1F-A1E7-B942-04FDCB225A71</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-B942-04FDCB225A71</Name>
+	<Description>Z_INT_BillerPeriodImportStatusList</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2017-12-20T11:31:07.988</CreationDate>
+	<Notes/>
+	<Text>Z_INT_BillerPeriodImportStatusList</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-B942-04FDCB21DA71"
+		/>
+	</TextIdentifier>
+</TranslatedText>

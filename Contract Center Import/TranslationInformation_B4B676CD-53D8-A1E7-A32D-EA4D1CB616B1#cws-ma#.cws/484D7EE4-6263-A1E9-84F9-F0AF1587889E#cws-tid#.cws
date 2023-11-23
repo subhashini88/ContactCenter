@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-84F9-F0AF1587C89E">
+	<DocumentID>484D7EE4-6263-A1E9-84F9-F0AF1587889E</DocumentID>
+	<Name>484D7EE4-6263-A1E9-84F9-F0AF1587889E</Name>
+	<Description>Is Valid Country Name?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-09T08:26:03.466</CreationDate>
+	<Notes/>
+	<DefaultText>Is Valid Country Name?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE4-6263-A1E9-84F9-F0AF1588089E"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1EC-AAD8-2B843166AB79">
+	<DocumentID>98FA9BD4-E468-A1EC-AAD8-2B8431666B79</DocumentID>
+	<Name>98FA9BD4-E468-A1EC-AAD8-2B8431666B79</Name>
+	<Description>getContractterms</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-24T10:58:24.878</CreationDate>
+	<Notes/>
+	<Text>getContractterms</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1EC-AAD8-2B843165EB79"
+		/>
+	</TextIdentifier>
+</TranslatedText>

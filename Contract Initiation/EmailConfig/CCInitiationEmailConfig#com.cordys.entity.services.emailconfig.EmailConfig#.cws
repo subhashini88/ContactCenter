@@ -1,0 +1,18 @@
+
+<EmailConfig
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.emailconfig.EmailConfig"
+	RuntimeDocumentID="00505601-7DE6-A1EB-827E-04E9A302B022">
+	<DocumentID>00505601-7DE6-A1EB-827E-04E9A3027022</DocumentID>
+	<Name>CCInitiationEmailConfig</Name>
+	<Description>CCInitiationEmailConfig</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-10-09T06:45:17.052</CreationDate>
+	<Notes/>
+	<EmailProfileUserID></EmailProfileUserID>
+	<EnableDefault>false</EnableDefault>
+	<From></From>
+	<FromDisplayName></FromDisplayName>
+	<ReplyTo></ReplyTo>
+	<DisplayName/>
+</EmailConfig>

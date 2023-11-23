@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-A917-A2A073B46DA7">
+	<DocumentID>1866DA2F-4C9E-A1E9-A917-A2A073B42DA7</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-A917-A2A073B42DA7</Name>
+	<Description>alert</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-12T04:39:48.933</CreationDate>
+	<Notes/>
+	<Text>alert</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1E9-A917-A2A073B3ADA7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

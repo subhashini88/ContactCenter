@@ -1,0 +1,59 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-A255-D80975C96DBD">
+	<DocumentID>1866DA2F-4C9E-A1EA-A255-D80975C9ADBD</DocumentID>
+	<Name>ExtChangeNegotiationClosure</Name>
+	<Description>ExtChangeNegotiationClosure</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-04-28T15:02:02.181</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>&amp;nbsp;&lt;br /&gt;
+Hi,&lt;br /&gt;
+{User.Properties.FullName} has changed negotiation closure for the &lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/item/{item.Identity.ItemId1}/F0D5BF3D2BAAA1E9B283E7CD2E85C339&quot;&gt;{item.Properties.ContractName}&lt;/a&gt; &lt;/strong&gt;contract to {item.Deadlines.CloseNegotiation_DueDate}.&amp;nbsp;Please take appropriate action.&lt;br /&gt;
+&lt;br /&gt;
+{User.Properties.FullName} comments:&lt;br /&gt;
+{item.Properties.Comments}&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&amp;nbsp;</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Negotiation change closure request for {item.Properties.ContractName} contract.</Subject>
+	<To></To>
+	<BuildingBlock>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-BD61-2E68712C8346"
+		/>
+	</BuildingBlock>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="1866DA2F-4C9E-A1EA-A255-D80975C72DBD">
+			<DocumentID>1866DA2F-4C9E-A1EA-A255-D80975C6EDBD</DocumentID>
+			<Name>1866DA2F-4C9E-A1EA-A255-D80975C6EDBD</Name>
+			<Description>1866DA2F-4C9E-A1EA-A255-D80975C6EDBD</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-04-28T15:02:02.18</CreationDate>
+			<Notes/>
+			<DeveloperText>ExtChangeNegotiationClosure</DeveloperText>
+			<Identifier>
+				<uri
+					id="1866DA2F-4C9E-A1EA-A255-D80975C76DBD"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<TypeDefinition/>
+</EmailTemplate>

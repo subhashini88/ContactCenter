@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9734-271CEE8CF01D">
+	<DocumentID>F8B156BC-2CB7-A1E8-9734-271CEE8CB01D</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9734-271CEE8CB01D</Name>
+	<Description>Collection Account_6</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-05-21T08:26:28.334</CreationDate>
+	<Notes/>
+	<DefaultText>Collection Account_6</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9734-271CEE8D301D"
+		/>
+	</Translations>
+</TextIdentifier>

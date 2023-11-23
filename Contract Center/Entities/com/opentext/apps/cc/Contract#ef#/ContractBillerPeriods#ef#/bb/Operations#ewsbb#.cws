@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AC89-A2A18E59DB7C">
+	<DocumentID>C4D98747-AA4E-A1E7-AC89-A2A18E599B7C</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-16T06:28:17.022</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="F8B156B5-069B-A1E7-A77E-1EDCF9DEA4C7"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-AC89-A2A18E591B7C">
+			<DocumentID>C4D98747-AA4E-A1E7-AC89-A2A18E58DB7C</DocumentID>
+			<Name>ReadContractBillerPeriods</Name>
+			<Description>Read ContractBillerPeriods</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-10-16T06:28:17.021</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156B5-069B-A1E7-A77E-1EDCF9DEA4C7"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="3417EB96-8F1F-A1E7-B935-22F239D605F2">
+			<DocumentID>3417EB96-8F1F-A1E7-B935-22F239D5C5F2</DocumentID>
+			<Name>UpdateContractBillerPeriods</Name>
+			<Description>Update ContractBillerPeriods</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2017-12-19T17:18:09.583</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156B5-069B-A1E7-A77E-1EDCF9DEA4C7"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

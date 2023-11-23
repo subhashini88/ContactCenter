@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-B970-A1ED-A43C-6D3E78DFFB85">
+	<DocumentID>00505601-B970-A1ED-A43C-6D3E78DFBB85</DocumentID>
+	<Name>00505601-B970-A1ED-A43C-6D3E78DFBB85</Name>
+	<Description>Current watchers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-10T14:22:00.051</CreationDate>
+	<Notes/>
+	<Text>Current watchers</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-B970-A1ED-A43C-6D3E78DF3B85"
+		/>
+	</TextIdentifier>
+</TranslatedText>

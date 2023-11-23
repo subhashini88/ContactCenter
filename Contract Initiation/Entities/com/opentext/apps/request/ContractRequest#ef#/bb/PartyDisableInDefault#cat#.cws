@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC63-EE0B500B8882">
+	<DocumentID>F8B156D6-337A-A1E8-AC63-EE0B500B4882</DocumentID>
+	<Name>PartyDisableInDefault</Name>
+	<Description>PartyDisableInDefault</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-06T05:58:23.886</CreationDate>
+	<Notes/>
+	<referenceCount>2</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3C-1189BA724882"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

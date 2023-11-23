@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-737F-A1EB-B4DD-BF49E7994893">
+	<DocumentID>484D7EEB-737F-A1EB-B4DD-BF49E7990893</DocumentID>
+	<Name>484D7EEB-737F-A1EB-B4DD-BF49E7990893</Name>
+	<Description>DeleteRenewalData</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-06-22T17:13:31.554</CreationDate>
+	<Notes/>
+	<Text>DeleteRenewalData</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-737F-A1EB-B4DD-BF49E7988893"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3CE1A1B9-D0CB-A1EE-83F9-C271F03E16A1">
+	<DocumentID>3CE1A1B9-D0CB-A1EE-83F9-C271F03DD6A1</DocumentID>
+	<Name>3CE1A1B9-D0CB-A1EE-83F9-C271F03DD6A1</Name>
+	<Description>Start reports update</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-06-21T03:53:14.086</CreationDate>
+	<Notes/>
+	<Text>Start reports update</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3CE1A1B9-D0CB-A1EE-83F9-C271F03D56A1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

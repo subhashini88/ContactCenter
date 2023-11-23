@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-ABD5-7DB62F7A4882">
+	<DocumentID>F8B156D6-337A-A1E8-ABD5-7DB62F7A0882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-ABD5-7DB62F7A0882</Name>
+	<Description>Perpetual</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-03T08:51:35.758</CreationDate>
+	<Notes/>
+	<Text>Perpetual</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-ABD5-7DB62F798882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

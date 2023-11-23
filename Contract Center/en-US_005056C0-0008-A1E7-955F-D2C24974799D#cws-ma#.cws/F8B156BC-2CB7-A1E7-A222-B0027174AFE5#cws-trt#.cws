@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A222-B0027174EFE5">
+	<DocumentID>F8B156BC-2CB7-A1E7-A222-B0027174AFE5</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A222-B0027174AFE5</Name>
+	<Description>Internal contact</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-08-24T06:04:23.406</CreationDate>
+	<Notes/>
+	<Text>Internal contact</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A222-B00271742FE5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

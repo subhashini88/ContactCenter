@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-AE69-03044B4F2656">
+	<DocumentID>8C1645B9-0967-A1E9-AE69-03044B4EE656</DocumentID>
+	<Name>8C1645B9-0967-A1E9-AE69-03044B4EE656</Name>
+	<Description>For Each Deleted Section</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-08T06:18:22.632</CreationDate>
+	<Notes/>
+	<Text>For Each Deleted Section</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-AE69-03044B4E6656"
+		/>
+	</TextIdentifier>
+</TranslatedText>

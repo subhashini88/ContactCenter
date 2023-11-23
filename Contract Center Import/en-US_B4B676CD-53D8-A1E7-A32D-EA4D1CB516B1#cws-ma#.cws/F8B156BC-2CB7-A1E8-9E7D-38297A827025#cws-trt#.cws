@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E7D-38297A82B025">
+	<DocumentID>F8B156BC-2CB7-A1E8-9E7D-38297A827025</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9E7D-38297A827025</Name>
+	<Description>UpdateAccountManagerImportStatus</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-06-27T10:46:04.083</CreationDate>
+	<Notes/>
+	<Text>UpdateAccountManagerImportStatus</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9E7D-38297A81F025"
+		/>
+	</TextIdentifier>
+</TranslatedText>

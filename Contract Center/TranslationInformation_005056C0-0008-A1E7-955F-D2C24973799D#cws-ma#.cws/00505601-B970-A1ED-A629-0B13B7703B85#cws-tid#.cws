@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-B970-A1ED-A629-0B13B7707B85">
+	<DocumentID>00505601-B970-A1ED-A629-0B13B7703B85</DocumentID>
+	<Name>00505601-B970-A1ED-A629-0B13B7703B85</Name>
+	<Description>New config layout?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-20T11:49:22.922</CreationDate>
+	<Notes/>
+	<DefaultText>New config layout?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-B970-A1ED-A629-0B13B770BB85"
+		/>
+	</Translations>
+</TextIdentifier>

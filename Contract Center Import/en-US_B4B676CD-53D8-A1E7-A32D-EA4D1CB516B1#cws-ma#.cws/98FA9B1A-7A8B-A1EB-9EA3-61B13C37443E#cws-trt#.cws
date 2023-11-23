@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9EA3-61B13C37843E">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9EA3-61B13C37443E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9EA3-61B13C37443E</Name>
+	<Description>TotalRecords</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-01T12:57:20.868</CreationDate>
+	<Notes/>
+	<Text>TotalRecords</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9EA3-61B13C36C43E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

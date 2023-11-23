@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BD7F-7BA07019AB8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BD7F-7BA070196B8D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-BD7F-7BA070196B8D</Name>
+	<Description>CheckContractFailed</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-27T09:48:07.981</CreationDate>
+	<Notes/>
+	<Text>CheckContractFailed</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-BD7F-7BA07018EB8D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

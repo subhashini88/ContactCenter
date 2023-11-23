@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-AA5B-9C45547E6B30">
+	<DocumentID>50EB711A-AD5A-A1EB-AA5B-9C45547E2B30</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-AA5B-9C45547E2B30</Name>
+	<Description>UpdateRelatedDepartment</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-30T04:43:43.797</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateRelatedDepartment</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EB-AA5B-9C45547EAB30"
+		/>
+	</Translations>
+</TextIdentifier>

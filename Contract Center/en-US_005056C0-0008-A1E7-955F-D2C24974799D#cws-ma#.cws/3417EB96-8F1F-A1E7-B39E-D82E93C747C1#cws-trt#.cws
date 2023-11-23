@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-B39E-D82E93C787C1">
+	<DocumentID>3417EB96-8F1F-A1E7-B39E-D82E93C747C1</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-B39E-D82E93C747C1</Name>
+	<Description>Billing account</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2017-11-21T05:30:49.321</CreationDate>
+	<Notes/>
+	<Text>Billing account</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-B39E-D82E93C6C7C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

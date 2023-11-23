@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A936-56A757114FCD">
+	<DocumentID>C4D98747-AA4E-A1E7-A936-56A757110FCD</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A936-56A757110FCD</Name>
+	<Description>Account manager validate</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-09-29T05:55:28.655</CreationDate>
+	<Notes/>
+	<DefaultText>Account manager validate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A936-56A757118FCD"
+		/>
+	</Translations>
+</TextIdentifier>

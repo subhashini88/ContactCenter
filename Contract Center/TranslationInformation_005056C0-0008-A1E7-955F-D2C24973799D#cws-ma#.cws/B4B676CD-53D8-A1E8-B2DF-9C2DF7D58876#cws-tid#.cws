@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B2DF-9C2DF7D5C876">
+	<DocumentID>B4B676CD-53D8-A1E8-B2DF-9C2DF7D58876</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B2DF-9C2DF7D58876</Name>
+	<Description>Last synchronization error</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-09T09:16:48.056</CreationDate>
+	<Notes/>
+	<DefaultText>Last synchronization error</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-B2DF-9C2DF7D60876"
+		/>
+	</Translations>
+</TextIdentifier>

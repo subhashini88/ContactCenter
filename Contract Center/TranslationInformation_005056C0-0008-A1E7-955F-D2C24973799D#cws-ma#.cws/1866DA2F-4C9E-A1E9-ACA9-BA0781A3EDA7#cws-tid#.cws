@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-ACA9-BA0781A42DA7">
+	<DocumentID>1866DA2F-4C9E-A1E9-ACA9-BA0781A3EDA7</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-ACA9-BA0781A3EDA7</Name>
+	<Description>Link types list_1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-30T08:56:41.927</CreationDate>
+	<Notes/>
+	<DefaultText>Link types list_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1E9-ACA9-BA0781A46DA7"
+		/>
+	</Translations>
+</TextIdentifier>

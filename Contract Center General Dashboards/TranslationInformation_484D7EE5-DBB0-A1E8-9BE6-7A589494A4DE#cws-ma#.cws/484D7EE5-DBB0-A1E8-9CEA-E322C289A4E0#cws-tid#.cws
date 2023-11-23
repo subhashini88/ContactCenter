@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CEA-E322C289E4E0">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CEA-E322C289A4E0</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CEA-E322C289A4E0</Name>
+	<Description>Parties - Internal parties</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-19T10:32:59.875</CreationDate>
+	<Notes/>
+	<DefaultText>Parties - Internal parties</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CEA-E322C28A24E0"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-9B5627ACB068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-9B5627AB3068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-9B5627A9F068"
+		/>
+	</Translations>
+</TextIdentifier>

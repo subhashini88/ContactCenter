@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A327-C85A393564BB">
+	<DocumentID>F8B156D5-AA46-A1E7-A327-C85A393524BB</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A327-C85A393524BB</Name>
+	<Description>Shippping address</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-08-29T10:01:22.014</CreationDate>
+	<Notes/>
+	<DefaultText>Shippping address</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-A327-C85A3935A4BB"
+		/>
+	</Translations>
+</TextIdentifier>

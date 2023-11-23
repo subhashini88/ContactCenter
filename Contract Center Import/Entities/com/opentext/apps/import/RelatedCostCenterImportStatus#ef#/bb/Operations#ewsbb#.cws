@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="E86A6495-8267-A1EB-AA5D-DCE1A30A837A">
+	<DocumentID>E86A6495-8267-A1EB-AA5D-DCE1A30A437A</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2021-04-30T06:02:36.113</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="E86A6495-8267-A1EB-AA5E-18A9F8A3437A">
+			<DocumentID>E86A6495-8267-A1EB-AA5E-18A9F8A3037A</DocumentID>
+			<Name>CreateRelatedCostCenterImportStatus</Name>
+			<Description>Create RelatedCostCenterImportStatus</Description>
+			<CreatedBy>sk</CreatedBy>
+			<CreationDate>2021-04-30T06:02:36.115</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A6495-8267-A1EB-AA5B-A5080B9F837A"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="E86A6495-8267-A1EB-AA5E-18A9F8A1C37A">
+			<DocumentID>E86A6495-8267-A1EB-AA5E-18A9F8A1837A</DocumentID>
+			<Name>DeleteRelatedCostCenterImportStatus</Name>
+			<Description>Delete RelatedCostCenterImportStatus</Description>
+			<CreatedBy>sk</CreatedBy>
+			<CreationDate>2021-04-30T06:02:36.085</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A6495-8267-A1EB-AA5B-A5080B9F837A"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="E86A6495-8267-A1EB-AA5B-A5080B9F837A"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="E86A6495-8267-A1EB-AA5E-18A9F8A2C37A">
+			<DocumentID>E86A6495-8267-A1EB-AA5E-18A9F8A2837A</DocumentID>
+			<Name>ReadRelatedCostCenterImportStatus</Name>
+			<Description>Read RelatedCostCenterImportStatus</Description>
+			<CreatedBy>sk</CreatedBy>
+			<CreationDate>2021-04-30T06:02:36.088</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A6495-8267-A1EB-AA5B-A5080B9F837A"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="E86A6495-8267-A1EB-AA5E-18A9F8A2437A">
+			<DocumentID>E86A6495-8267-A1EB-AA5E-18A9F8A2037A</DocumentID>
+			<Name>UpdateRelatedCostCenterImportStatus</Name>
+			<Description>Update RelatedCostCenterImportStatus</Description>
+			<CreatedBy>sk</CreatedBy>
+			<CreationDate>2021-04-30T06:02:36.13</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A6495-8267-A1EB-AA5B-A5080B9F837A"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

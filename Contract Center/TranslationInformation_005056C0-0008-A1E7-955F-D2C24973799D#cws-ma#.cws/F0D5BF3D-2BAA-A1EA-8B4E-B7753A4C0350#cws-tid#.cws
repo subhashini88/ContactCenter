@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1EA-8B4E-B7753A4C4350">
+	<DocumentID>F0D5BF3D-2BAA-A1EA-8B4E-B7753A4C0350</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1EA-8B4E-B7753A4C0350</Name>
+	<Description>RenewalCycle</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-01-02T10:54:06.324</CreationDate>
+	<Notes/>
+	<DefaultText>RenewalCycle</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1EA-8B4E-B7753A4C8350"
+		/>
+	</Translations>
+</TextIdentifier>

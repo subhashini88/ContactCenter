@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-B532-4654A2AD6FFC">
+	<DocumentID>F8B156BC-2CB7-A1E7-B532-4654A2AD2FFC</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-B532-4654A2AD2FFC</Name>
+	<Description>Current term start date</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-11-29T05:54:40.084</CreationDate>
+	<Notes/>
+	<Text>Current term start date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-B532-4654A2ACAFFC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

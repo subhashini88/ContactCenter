@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A6E-CB0E3CA92B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A6E-CB0E3CA8EB9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A6E-CB0E3CA8EB9A</Name>
+	<Description>UpgradeMembersToOrg</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-01T06:00:32.351</CreationDate>
+	<Notes/>
+	<Text>UpgradeMembersToOrg</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A6E-CB0E3CA86B9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-99AB-A0CBCECD8F71">
+	<DocumentID>84A938BF-F78D-A1EE-99AB-A0CBCECD4F71</DocumentID>
+	<Name>84A938BF-F78D-A1EE-99AB-A0CBCECD4F71</Name>
+	<Description>Not met - Review in progress</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-09T14:22:19.172</CreationDate>
+	<Notes/>
+	<Text>Not met - Review in progress</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-99AB-A0CBCECCCF71"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8915-26C68E30EB99">
+	<DocumentID>98FA9BD4-E468-A1ED-8915-26C68E30AB99</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8915-26C68E30AB99</Name>
+	<Description>Z_INT_AllContractRequests</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-25T09:31:51.634</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_AllContractRequests</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9BD4-E468-A1ED-8915-26C68E312B99"
+		/>
+	</Translations>
+</TextIdentifier>

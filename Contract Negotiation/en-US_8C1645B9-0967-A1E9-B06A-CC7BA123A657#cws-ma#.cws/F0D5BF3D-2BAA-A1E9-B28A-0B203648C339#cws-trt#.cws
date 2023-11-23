@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B28A-0B2036490339">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B28A-0B203648C339</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B28A-0B203648C339</Name>
+	<Description>ContractDetailsExtContactsList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-08-29T06:44:17.091</CreationDate>
+	<Notes/>
+	<Text>ContractDetailsExtContactsList</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B28A-0B2036484339"
+		/>
+	</TextIdentifier>
+</TranslatedText>

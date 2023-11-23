@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-96A4-FE59F1D3A4F5">
+	<DocumentID>F8B156D5-E69D-A1E9-96A4-FE59F1D364F5</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-96A4-FE59F1D364F5</Name>
+	<Description>PendingReviews</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-09T07:38:28.567</CreationDate>
+	<Notes/>
+	<DefaultText>PendingReviews</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-E69D-A1E9-96A4-FE59F1D3E4F5"
+		/>
+	</Translations>
+</TextIdentifier>

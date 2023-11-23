@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A21B-F4F8F014EB27">
+	<DocumentID>98FA9BD4-E468-A1EB-A21B-F4F8F014AB27</DocumentID>
+	<Name>98FA9BD4-E468-A1EB-A21B-F4F8F014AB27</Name>
+	<Description>ContractTab</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-19T05:16:07.895</CreationDate>
+	<Notes/>
+	<DefaultText>ContractTab</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9BD4-E468-A1EB-A21B-F4F8F0152B27"
+		/>
+	</Translations>
+</TextIdentifier>

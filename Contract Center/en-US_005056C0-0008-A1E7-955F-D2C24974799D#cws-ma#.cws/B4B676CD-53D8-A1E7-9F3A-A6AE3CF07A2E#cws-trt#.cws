@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-9F3A-A6AE3CF0BA2E">
+	<DocumentID>B4B676CD-53D8-A1E7-9F3A-A6AE3CF07A2E</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-9F3A-A6AE3CF07A2E</Name>
+	<Description>Contract currency</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-09T12:47:12.17</CreationDate>
+	<Notes/>
+	<Text>Contract currency</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-9F3A-A6AE3CEFFA2E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

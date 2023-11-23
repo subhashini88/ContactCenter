@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-A326-F833FD2B292F">
+	<DocumentID>18DBF20F-3D64-A1E7-A326-F833FD2AE92F</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-A326-F833FD2AE92F</Name>
+	<Description>Related billing address</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-08-29T09:27:43.456</CreationDate>
+	<Notes/>
+	<Text>Related billing address</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="18DBF20F-3D64-A1E7-A326-F833FD2A692F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

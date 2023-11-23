@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-BB97-1AA82959A4DA">
+	<DocumentID>F8B156D6-35F3-A1E8-BB97-1AA8295964DA</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-BB97-1AA8295964DA</Name>
+	<Description>Please input valid contract name (Supported special characters: ` ! @ $ ^ ( ) _ + - , . ; ' [ ] { })</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-11-22T13:58:53.876</CreationDate>
+	<Notes/>
+	<Text>Please input valid contract name (Supported special characters: ` ! @ $ ^ ( ) _ + - , . ; ' [ ] { })</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-BB97-1AA82958E4DA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

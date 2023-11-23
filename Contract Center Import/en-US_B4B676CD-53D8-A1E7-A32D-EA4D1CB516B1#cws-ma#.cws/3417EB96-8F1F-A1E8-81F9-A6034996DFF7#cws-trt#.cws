@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-81F9-A60349971FF7">
+	<DocumentID>3417EB96-8F1F-A1E8-81F9-A6034996DFF7</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-81F9-A6034996DFF7</Name>
+	<Description>Customer manager email</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-02-02T07:01:41.52</CreationDate>
+	<Notes/>
+	<Text>Customer manager email</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-81F9-A60349965FF7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="00505601-21E8-A1E7-A52D-C38F331A80CC">
+	<DocumentID>00505601-21E8-A1E7-A52D-C38F331A40CC</DocumentID>
+	<Name>nextAmend</Name>
+	<Description>nextAmend</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-09-08T17:17:42.647</CreationDate>
+	<Notes/>
+	<referenceCount>1</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

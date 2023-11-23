@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B53E-728326EA2B84">
+	<DocumentID>50EB711A-AD5A-A1EC-B53E-728326E9EB84</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B53E-728326E9EB84</Name>
+	<Description>TemplateUpgrade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-16T09:23:49.38</CreationDate>
+	<Notes/>
+	<Text>TemplateUpgrade</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B53E-728326E96B84"
+		/>
+	</TextIdentifier>
+</TranslatedText>

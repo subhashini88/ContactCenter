@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title data-translatable="true">Document preview</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/appscommon.css"></link>
+	<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+	<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function loadPreview() {
+			var ownerDocumentFrames = window.frameElement.ownerDocument.getElementsByTagName('iFrame');
+			for (var i = 0; i < ownerDocumentFrames.length; i++) {
+				if ((ownerDocumentFrames[i].src).indexOf("defaultDocPreview.htm") > -1) {
+					ownerDocumentFrames[i].parentElement.style.paddingLeft = "0px";
+				}
+			}
+			defaultDocID = getUrlParameterValue("defaultDocID", null, true);
+			if (defaultDocID == "undefined") {
+				document.getElementById("defaultText").style.display = "block";
+			}
+			else {
+				window.location = "../../../../../app/start/web/perform/item/" + defaultDocID + "/B4B676CD53D8A1E7A202EBF1FB1E64BF";
+			}
+		}
+		$(function() {
+			var i_locale = getlocale();
+			translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale);
+			var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+			loadRTLIfRequired(i_locale,rtl_css);
+		});
+	</script>
+</head>
+
+<body onload="loadPreview()" style="overflow: hidden;" class="cc-ltr">
+	<div id="defaultText" class="defaultInfo" style="display: none;">
+		<p data-translatable="true">Default document preview is not available.</p>
+	</div>
+</body>
+
+</html>

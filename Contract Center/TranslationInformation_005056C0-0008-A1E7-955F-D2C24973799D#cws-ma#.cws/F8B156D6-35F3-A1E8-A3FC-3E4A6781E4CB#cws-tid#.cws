@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A3FC-3E4A678224CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A3FC-3E4A6781E4CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A3FC-3E4A6781E4CB</Name>
+	<Description>Price protection date_5</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-25T10:20:00.696</CreationDate>
+	<Notes/>
+	<DefaultText>Price protection date_5</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-A3FC-3E4A678264CB"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-BB3C-0DAAE675487C">
+	<DocumentID>B4B676CD-53D8-A1E8-BB3C-0DAAE675087C</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-BB3C-0DAAE675087C</Name>
+	<Description>Start3</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-20T18:15:13.193</CreationDate>
+	<Notes/>
+	<DefaultText>Start3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-BB3C-0DAAE675887C"
+		/>
+	</Translations>
+</TextIdentifier>

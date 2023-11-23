@@ -1,0 +1,82 @@
+.table-container {
+    background-color: #EDF0F2;
+}
+
+.cc-icon {
+    min-height: 20px;
+}
+
+.hide-transition {
+    display: none;
+    transition: opacity 1s ease-out;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.side-padding {
+    padding: 0px 5px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-group>label {
+    min-width: 50%;
+}
+
+.task-field {
+    background-color: rgb(238, 238, 238) !important;
+    border: 0 !important;
+    outline: 0 !important;
+    border-bottom: 1px solid black !important;
+}
+
+.task-field-width {
+    width: 70%;
+}
+
+input[type="text"]:disabled {
+    background-color: rgb(238, 238, 238) !important;
+  }
+  
+textarea:disabled {
+    background-color: rgb(238, 238, 238) !important;
+	cursor: not-allowed;
+}
+ 
+input[type="text"]:disabled ~ span {
+    background-color: rgb(238, 238, 238) !important;
+	cursor: not-allowed;
+  }
+
+  fieldset {
+    overflow: hidden
+  }
+  
+  .week-selector {
+    float: left;
+    clear: none;
+  }
+  
+  .week-selector > label {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 4px 1em 0px 8px;
+  }
+  
+  .week-selector > input[type=radio],input.radio {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+    height: 20px !important;
+  }
+  
+  .highlighted {
+    background-color: rgb(203, 211, 217);
+  }

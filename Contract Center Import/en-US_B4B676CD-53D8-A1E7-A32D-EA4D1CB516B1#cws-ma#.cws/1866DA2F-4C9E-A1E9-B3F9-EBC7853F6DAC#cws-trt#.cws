@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-B3F9-EBC7853FADAC">
+	<DocumentID>1866DA2F-4C9E-A1E9-B3F9-EBC7853F6DAC</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-B3F9-EBC7853F6DAC</Name>
+	<Description>GCRelationTypeImport</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-05T14:57:43.895</CreationDate>
+	<Notes/>
+	<Text>GCRelationTypeImport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1E9-B3F9-EBC7853EEDAC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

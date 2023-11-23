@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-0E03D27164BE">
+	<DocumentID>F8B156D5-AA46-A1E7-A89B-0E03D27124BE</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A89B-0E03D27124BE</Name>
+	<Description>Active document status list</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-26T03:41:57.928</CreationDate>
+	<Notes/>
+	<DefaultText>Active document status list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-A89B-0E03D271A4BE"
+		/>
+	</Translations>
+</TextIdentifier>

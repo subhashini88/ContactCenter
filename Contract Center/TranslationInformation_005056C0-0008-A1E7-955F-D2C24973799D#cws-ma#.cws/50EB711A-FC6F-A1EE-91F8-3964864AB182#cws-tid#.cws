@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-91F8-3964864AF182">
+	<DocumentID>50EB711A-FC6F-A1EE-91F8-3964864AB182</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-91F8-3964864AB182</Name>
+	<Description>InValidateAllContractObligations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-08-31T09:29:55.653</CreationDate>
+	<Notes/>
+	<DefaultText>InValidateAllContractObligations</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-FC6F-A1EE-91F8-3964864B3182"
+		/>
+	</Translations>
+</TextIdentifier>

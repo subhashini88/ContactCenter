@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-9ED4-337E0CB02FE2">
+	<DocumentID>F8B156BC-2CB7-A1E7-9ED4-337E0CAFEFE2</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-9ED4-337E0CAFEFE2</Name>
+	<Description>Companies list</Description>
+	<CreatedBy>sboddire</CreatedBy>
+	<CreationDate>2017-08-07T10:17:36.211</CreationDate>
+	<Notes/>
+	<Text>Companies list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-9ED4-337E0CAF6FE2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

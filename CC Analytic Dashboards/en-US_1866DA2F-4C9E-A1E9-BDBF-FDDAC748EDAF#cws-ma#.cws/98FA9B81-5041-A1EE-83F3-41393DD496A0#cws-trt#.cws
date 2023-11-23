@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-83F3-41393DD4D6A0">
+	<DocumentID>98FA9B81-5041-A1EE-83F3-41393DD496A0</DocumentID>
+	<Name>98FA9B81-5041-A1EE-83F3-41393DD496A0</Name>
+	<Description>Create next schedule</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-06-21T00:50:06.758</CreationDate>
+	<Notes/>
+	<Text>Create next schedule</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EE-83F3-41393DD416A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

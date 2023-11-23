@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A873-7E3E03F86357">
+	<DocumentID>C4D98747-AA4E-A1E7-A873-7E3E03F82357</DocumentID>
+	<Name>TerminationRightRule</Name>
+	<Description>TerminationRightRule</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-09-25T08:59:59.105</CreationDate>
+	<Notes/>
+	<referenceCount>12</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

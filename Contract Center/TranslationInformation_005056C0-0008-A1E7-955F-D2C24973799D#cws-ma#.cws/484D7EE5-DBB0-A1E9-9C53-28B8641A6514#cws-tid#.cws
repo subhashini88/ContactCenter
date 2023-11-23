@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9C53-28B8641AA514">
+	<DocumentID>484D7EE5-DBB0-A1E9-9C53-28B8641A6514</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-9C53-28B8641A6514</Name>
+	<Description>Z_INT_RenewalsCount</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-05-08T05:10:35.926</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_RenewalsCount</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E9-9C53-28B8641AE514"
+		/>
+	</Translations>
+</TextIdentifier>

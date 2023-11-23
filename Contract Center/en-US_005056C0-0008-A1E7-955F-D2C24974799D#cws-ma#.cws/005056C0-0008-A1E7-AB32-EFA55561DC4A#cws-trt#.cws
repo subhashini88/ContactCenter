@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-AB32-EFA555621C4A">
+	<DocumentID>005056C0-0008-A1E7-AB32-EFA55561DC4A</DocumentID>
+	<Name>005056C0-0008-A1E7-AB32-EFA55561DC4A</Name>
+	<Description>GetRenewalFlagStatus</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-09T08:28:11.638</CreationDate>
+	<Notes/>
+	<Text>GetRenewalFlagStatus</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-AB32-EFA555615C4A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

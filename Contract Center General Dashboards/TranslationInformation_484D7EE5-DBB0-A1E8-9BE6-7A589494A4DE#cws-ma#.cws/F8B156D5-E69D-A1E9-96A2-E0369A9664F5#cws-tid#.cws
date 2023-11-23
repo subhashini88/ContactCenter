@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-96A2-E0369A96A4F5">
+	<DocumentID>F8B156D5-E69D-A1E9-96A2-E0369A9664F5</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-96A2-E0369A9664F5</Name>
+	<Description>PendingTasks</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-09T05:58:33.15</CreationDate>
+	<Notes/>
+	<DefaultText>PendingTasks</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-E69D-A1E9-96A2-E0369A96E4F5"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-412AD7B8F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-412AD7B77068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-412AD7B63068"
+		/>
+	</Translations>
+</TextIdentifier>

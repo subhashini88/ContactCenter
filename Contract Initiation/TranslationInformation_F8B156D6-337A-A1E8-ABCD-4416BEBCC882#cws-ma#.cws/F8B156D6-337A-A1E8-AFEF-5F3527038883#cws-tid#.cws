@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AFEF-5F352703C883">
+	<DocumentID>F8B156D6-337A-A1E8-AFEF-5F3527038883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AFEF-5F3527038883</Name>
+	<Description>Suspend</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-24T05:49:45.073</CreationDate>
+	<Notes/>
+	<DefaultText>Suspend</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-337A-A1E8-AFEF-5F3527040883"
+		/>
+	</Translations>
+</TextIdentifier>

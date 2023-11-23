@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-8010-7429E26F0494">
+	<DocumentID>98FA9B1A-7A8B-A1EE-8010-7429E26EC494</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-8010-7429E26EC494</Name>
+	<Description>CreateCCUserReportsDashboard1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-01T06:02:36.843</CreationDate>
+	<Notes/>
+	<DefaultText>CreateCCUserReportsDashboard1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-8010-7429E26F4494"
+		/>
+	</Translations>
+</TextIdentifier>

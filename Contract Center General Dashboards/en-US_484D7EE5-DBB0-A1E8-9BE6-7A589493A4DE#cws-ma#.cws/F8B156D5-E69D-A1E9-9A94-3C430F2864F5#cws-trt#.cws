@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-9A94-3C430F28A4F5">
+	<DocumentID>F8B156D5-E69D-A1E9-9A94-3C430F2864F5</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-9A94-3C430F2864F5</Name>
+	<Description>Weekly pending reviews</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-29T07:32:50.507</CreationDate>
+	<Notes/>
+	<Text>Weekly pending reviews</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-9A94-3C430F27E4F5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

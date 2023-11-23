@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-737F-A1E9-88AF-EF3F7BA7886E">
+	<DocumentID>484D7EEB-737F-A1E9-88AF-EF3F7BA7486E</DocumentID>
+	<Name>484D7EEB-737F-A1E9-88AF-EF3F7BA7486E</Name>
+	<Description>Doclayout verified?</Description>
+	<CreatedBy>yballepa</CreatedBy>
+	<CreationDate>2019-01-28T08:38:56.04</CreationDate>
+	<Notes/>
+	<Text>Doclayout verified?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-737F-A1E9-88AF-EF3F7BA6C86E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

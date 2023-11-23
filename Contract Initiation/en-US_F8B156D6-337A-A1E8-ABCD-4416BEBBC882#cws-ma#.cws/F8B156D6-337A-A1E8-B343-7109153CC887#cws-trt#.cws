@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B343-7109153D0887">
+	<DocumentID>F8B156D6-337A-A1E8-B343-7109153CC887</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B343-7109153CC887</Name>
+	<Description>Are you sure you want to archive a contract ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-11T04:33:29.531</CreationDate>
+	<Notes/>
+	<Text>Are you sure you want to archive a contract ?</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B343-7109153C4887"
+		/>
+	</TextIdentifier>
+</TranslatedText>

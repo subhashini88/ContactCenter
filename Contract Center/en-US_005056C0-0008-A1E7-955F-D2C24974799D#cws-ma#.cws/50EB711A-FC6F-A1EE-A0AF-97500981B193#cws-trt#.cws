@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-A0AF-97500981F193">
+	<DocumentID>50EB711A-FC6F-A1EE-A0AF-97500981B193</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-A0AF-97500981B193</Name>
+	<Description>OBLNONCompliance_List_DM</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-11-14T07:21:49.911</CreationDate>
+	<Notes/>
+	<Text>OBLNONCompliance_List_DM</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-A0AF-975009813193"
+		/>
+	</TextIdentifier>
+</TranslatedText>

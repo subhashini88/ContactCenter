@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-B47B-559B567AA167">
+	<DocumentID>E86A64E0-AE43-A1EC-B47B-559B567A6167</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-12T12:42:23.18</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="E86A64E0-AE43-A1EC-B47B-559B5679E167">
+			<DocumentID>E86A64E0-AE43-A1EC-B47B-559B5679A167</DocumentID>
+			<Name>CreateGCTag</Name>
+			<Description>Create GCTag</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-12T12:42:23.188</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A64E0-AE43-A1EC-B479-43472D4A2167"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="E86A64E0-AE43-A1EC-B47B-559B56786167">
+			<DocumentID>E86A64E0-AE43-A1EC-B47B-559B56782167</DocumentID>
+			<Name>DeleteGCTag</Name>
+			<Description>Delete GCTag</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-12T12:42:23.164</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A64E0-AE43-A1EC-B479-43472D4A2167"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="E86A64E0-AE43-A1EC-B479-43472D4A2167"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="E86A64E0-AE43-A1EC-B47B-559B56796167">
+			<DocumentID>E86A64E0-AE43-A1EC-B47B-559B56792167</DocumentID>
+			<Name>ReadGCTag</Name>
+			<Description>Read GCTag</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-12T12:42:23.204</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A64E0-AE43-A1EC-B479-43472D4A2167"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="E86A64E0-AE43-A1EC-B47B-559B5678E167">
+			<DocumentID>E86A64E0-AE43-A1EC-B47B-559B5678A167</DocumentID>
+			<Name>UpdateGCTag</Name>
+			<Description>Update GCTag</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-12T12:42:23.148</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A64E0-AE43-A1EC-B479-43472D4A2167"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

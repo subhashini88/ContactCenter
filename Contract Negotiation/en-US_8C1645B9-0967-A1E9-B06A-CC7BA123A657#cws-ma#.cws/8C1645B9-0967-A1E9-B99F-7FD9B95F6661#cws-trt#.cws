@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B99F-7FD9B95FA661">
+	<DocumentID>8C1645B9-0967-A1E9-B99F-7FD9B95F6661</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B99F-7FD9B95F6661</Name>
+	<Description>RevokeUserFromSharedList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-04T08:14:07.12</CreationDate>
+	<Notes/>
+	<Text>RevokeUserFromSharedList</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-B99F-7FD9B95EE661"
+		/>
+	</TextIdentifier>
+</TranslatedText>

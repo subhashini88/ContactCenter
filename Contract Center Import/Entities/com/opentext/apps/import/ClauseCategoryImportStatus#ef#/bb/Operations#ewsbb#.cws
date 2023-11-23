@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A0BD-07010D5F043E">
+	<DocumentID>98FA9B1A-7A8B-A1EB-A0BD-07010D5EC43E</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-12T05:31:44.303</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A0BD-07010D5E443E">
+			<DocumentID>98FA9B1A-7A8B-A1EB-A0BD-07010D5E043E</DocumentID>
+			<Name>CreateClauseCategoryImportStatus</Name>
+			<Description>Create ClauseCategoryImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-03-12T05:31:44.303</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EB-A089-37E181A3843E"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A0BD-07010D5CC43E">
+			<DocumentID>98FA9B1A-7A8B-A1EB-A0BD-07010D5C843E</DocumentID>
+			<Name>DeleteClauseCategoryImportStatus</Name>
+			<Description>Delete ClauseCategoryImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-03-12T05:31:44.303</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EB-A089-37E181A3843E"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-A089-37E181A3843E"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A0BD-07010D5DC43E">
+			<DocumentID>98FA9B1A-7A8B-A1EB-A0BD-07010D5D843E</DocumentID>
+			<Name>ReadClauseCategoryImportStatus</Name>
+			<Description>Read ClauseCategoryImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-03-12T05:31:44.303</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EB-A089-37E181A3843E"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A0BD-07010D5D443E">
+			<DocumentID>98FA9B1A-7A8B-A1EB-A0BD-07010D5D043E</DocumentID>
+			<Name>UpdateClauseCategoryImportStatus</Name>
+			<Description>Update ClauseCategoryImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-03-12T05:31:44.303</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9B1A-7A8B-A1EB-A089-37E181A3843E"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

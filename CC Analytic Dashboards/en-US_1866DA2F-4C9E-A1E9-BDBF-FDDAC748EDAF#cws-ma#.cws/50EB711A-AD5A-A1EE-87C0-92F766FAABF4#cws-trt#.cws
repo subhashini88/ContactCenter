@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-87C0-92F766FAEBF4">
+	<DocumentID>50EB711A-AD5A-A1EE-87C0-92F766FAABF4</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-87C0-92F766FAABF4</Name>
+	<Description>DEFAULTSQL</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-10T09:52:49.194</CreationDate>
+	<Notes/>
+	<Text>DEFAULTSQL</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-87C0-92F766FA2BF4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

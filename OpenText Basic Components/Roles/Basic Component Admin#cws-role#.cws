@@ -1,0 +1,19 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-AC32-1225FE2164F0">
+	<DocumentID>484D7EE5-DBB0-A1E8-AC32-1225FE2124F0</DocumentID>
+	<Name>Basic Component Admin</Name>
+	<Description>Basic Component Admin</Description>
+	<CreatedBy>Harley</CreatedBy>
+	<CreationDate>2018-09-05T05:39:45.269</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

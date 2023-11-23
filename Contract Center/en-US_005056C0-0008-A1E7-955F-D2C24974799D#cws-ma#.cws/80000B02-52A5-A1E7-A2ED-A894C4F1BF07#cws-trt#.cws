@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="80000B02-52A5-A1E7-A2ED-A894C4F1FF07">
+	<DocumentID>80000B02-52A5-A1E7-A2ED-A894C4F1BF07</DocumentID>
+	<Name>80000B02-52A5-A1E7-A2ED-A894C4F1BF07</Name>
+	<Description>Contract lines</Description>
+	<CreatedBy>anilt</CreatedBy>
+	<CreationDate>2017-08-28T06:08:44.637</CreationDate>
+	<Notes/>
+	<Text>Contract lines</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="80000B02-52A5-A1E7-A2ED-A894C4F13F07"
+		/>
+	</TextIdentifier>
+</TranslatedText>

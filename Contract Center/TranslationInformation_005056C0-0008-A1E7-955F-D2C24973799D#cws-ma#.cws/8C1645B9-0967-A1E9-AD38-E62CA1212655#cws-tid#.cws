@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-AD38-E62CA1216655">
+	<DocumentID>8C1645B9-0967-A1E9-AD38-E62CA1212655</DocumentID>
+	<Name>8C1645B9-0967-A1E9-AD38-E62CA1212655</Name>
+	<Description>SaveContractAuthoring</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-02T05:12:09.794</CreationDate>
+	<Notes/>
+	<DefaultText>SaveContractAuthoring</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-AD38-E62CA121A655"
+		/>
+	</Translations>
+</TextIdentifier>

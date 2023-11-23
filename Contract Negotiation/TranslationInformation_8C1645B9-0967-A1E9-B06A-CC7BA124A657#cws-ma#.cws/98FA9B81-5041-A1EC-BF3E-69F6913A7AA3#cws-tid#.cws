@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BF3E-69F6913ABAA3">
+	<DocumentID>98FA9B81-5041-A1EC-BF3E-69F6913A7AA3</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BF3E-69F6913A7AA3</Name>
+	<Description>UpdateContractDetailsonAccEdit</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-07-06T07:04:05.204</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateContractDetailsonAccEdit</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EC-BF3E-69F6913AFAA3"
+		/>
+	</Translations>
+</TextIdentifier>

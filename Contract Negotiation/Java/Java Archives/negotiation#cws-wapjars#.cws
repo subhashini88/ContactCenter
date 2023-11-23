@@ -1,0 +1,55 @@
+
+<WSAppServerJavaArchiveSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B380-B0C1396BC33A">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B380-B0C1396B833A</DocumentID>
+	<Name>negotiation</Name>
+	<Description>negotiation</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-03T04:31:16.058</CreationDate>
+	<Notes/>
+	<JarFileName>negotiation</JarFileName>
+	<NamespacePrefix></NamespacePrefix>
+	<Dependencies>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B380-B0C1396B433A">
+			<DocumentID>F0D5BF3D-2BAA-A1E9-B380-B0C1396B033A</DocumentID>
+			<Name>negotiation_Dependency</Name>
+			<Description>negotiation_Dependency</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2019-09-03T04:31:15.927</CreationDate>
+			<Notes/>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+			<ISVPName></ISVPName>
+		</JavaArchiveReferenceDependency>
+		<JavaArchiveSourceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveSourceDependency"
+			RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B381-14C5EC7D833A">
+			<DocumentID>F0D5BF3D-2BAA-A1E9-B381-14C5EC7D433A</DocumentID>
+			<Name>F0D5BF3D-2BAA-A1E9-B381-14C5EC7D433A</Name>
+			<Description>Contract Center_Java_Java Archives_ContractCenter</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2019-09-03T04:52:18.168</CreationDate>
+			<Notes/>
+			<DependsOnJAS>
+				<uri
+					id="005056C0-0008-A1E7-9ADB-890B556F0AC5"
+				/>
+			</DependsOnJAS>
+		</JavaArchiveSourceDependency>
+	</Dependencies>
+	<SourceFolder>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B2C3-16A86C078339"
+			path="Contract Negotiation/Java/Java Sources/ContractNegotiation"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B380-B0C1396FC33A"
+		/>
+	</WSAppServerPackage>
+</WSAppServerJavaArchiveSource>

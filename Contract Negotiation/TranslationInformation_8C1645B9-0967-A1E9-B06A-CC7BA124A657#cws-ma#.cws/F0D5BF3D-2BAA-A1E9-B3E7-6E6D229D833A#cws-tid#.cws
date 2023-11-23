@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B3E7-6E6D229DC33A">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B3E7-6E6D229D833A</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B3E7-6E6D229D833A</Name>
+	<Description>Decision</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-05T06:09:56.538</CreationDate>
+	<Notes/>
+	<DefaultText>Decision</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B3E7-6E6D229E033A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,79 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8D67-52099978AB9C">
+	<DocumentID>98FA9BD4-E468-A1ED-8D67-520999786B9C</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-16T08:56:52.167</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="98FA9BD4-E468-A1ED-8D62-02AF73C16B9C"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1ED-8D67-B19F625E6B9C">
+			<DocumentID>98FA9BD4-E468-A1ED-8D67-B19F625E2B9C</DocumentID>
+			<Name>ReadRelatedGCProps</Name>
+			<Description>Read RelatedGCProps</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-09-16T09:06:19.224</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1ED-8D62-02AF73C16B9C"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1ED-9217-87469122AB9F">
+			<DocumentID>98FA9BD4-E468-A1ED-9217-874691226B9F</DocumentID>
+			<Name>GetParentOwnerGCProcess</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-10-10T05:42:08.418</CreationDate>
+			<Notes/>
+			<OperationType>GetParent</OperationType>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1ED-8D62-02AF73C16B9C"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="98FA9BD4-E468-A1ED-8F62-5069E5642B9D"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1ED-8D67-B19F625DEB9C">
+			<DocumentID>98FA9BD4-E468-A1ED-8D67-B19F625DAB9C</DocumentID>
+			<Name>UpdateRelatedGCProps</Name>
+			<Description>Update RelatedGCProps</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-09-16T09:06:19.224</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1ED-8D62-02AF73C16B9C"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EB-B4F9-EC64EA9FA703">
+	<DocumentID>3C6AA73A-0114-A1EB-B4F9-EC64EA9F6703</DocumentID>
+	<Name>3C6AA73A-0114-A1EB-B4F9-EC64EA9F6703</Name>
+	<Description>CCEToDraft</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-06-23T06:15:13.041</CreationDate>
+	<Notes/>
+	<Text>CCEToDraft</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EB-B4F9-EC64EA9EE703"
+		/>
+	</TextIdentifier>
+</TranslatedText>

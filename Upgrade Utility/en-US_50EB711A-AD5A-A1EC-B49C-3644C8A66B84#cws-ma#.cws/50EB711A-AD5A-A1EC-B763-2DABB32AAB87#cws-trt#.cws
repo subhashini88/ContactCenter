@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B763-2DABB32AEB87">
+	<DocumentID>50EB711A-AD5A-A1EC-B763-2DABB32AAB87</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B763-2DABB32AAB87</Name>
+	<Description>ContractBatchUpgrade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-27T07:17:20.266</CreationDate>
+	<Notes/>
+	<Text>ContractBatchUpgrade</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B763-2DABB32A2B87"
+		/>
+	</TextIdentifier>
+</TranslatedText>

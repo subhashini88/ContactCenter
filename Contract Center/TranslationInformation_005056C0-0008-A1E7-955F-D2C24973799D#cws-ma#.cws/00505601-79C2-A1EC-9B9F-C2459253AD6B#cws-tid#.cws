@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-79C2-A1EC-9B9F-C2459253ED6B">
+	<DocumentID>00505601-79C2-A1EC-9B9F-C2459253AD6B</DocumentID>
+	<Name>00505601-79C2-A1EC-9B9F-C2459253AD6B</Name>
+	<Description>ReminderDateCheck</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-01-05T23:27:57.501</CreationDate>
+	<Notes/>
+	<DefaultText>ReminderDateCheck</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-79C2-A1EC-9B9F-C24592542D6B"
+		/>
+	</Translations>
+</TextIdentifier>

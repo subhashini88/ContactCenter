@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A409-C5B08A13E4CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A409-C5B08A13A4CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A409-C5B08A13A4CB</Name>
+	<Description>Contract value change</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-25T16:30:34.674</CreationDate>
+	<Notes/>
+	<DefaultText>Contract value change</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-A409-C5B08A1424CB"
+		/>
+	</Translations>
+</TextIdentifier>

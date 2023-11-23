@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-92D1-AEDD9A268F6F">
+	<DocumentID>84A938BF-F78D-A1EE-92D1-AEDD9A264F6F</DocumentID>
+	<Name>84A938BF-F78D-A1EE-92D1-AEDD9A264F6F</Name>
+	<Description>Compliance state</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-04T17:21:15.564</CreationDate>
+	<Notes/>
+	<DefaultText>Compliance state</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="84A938BF-F78D-A1EE-92D1-AEDD9A26CF6F"
+		/>
+	</Translations>
+</TextIdentifier>

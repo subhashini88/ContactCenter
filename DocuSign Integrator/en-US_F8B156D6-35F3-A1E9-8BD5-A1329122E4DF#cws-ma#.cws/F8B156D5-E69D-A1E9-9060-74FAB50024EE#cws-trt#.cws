@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-9060-74FAB50064EE">
+	<DocumentID>F8B156D5-E69D-A1E9-9060-74FAB50024EE</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-9060-74FAB50024EE</Name>
+	<Description>AppendtoEnvelopes</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-08T09:40:10.506</CreationDate>
+	<Notes/>
+	<Text>AppendtoEnvelopes</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-9060-74FAB4FFA4EE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

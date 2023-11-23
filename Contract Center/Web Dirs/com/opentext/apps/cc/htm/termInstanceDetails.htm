@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title data-translatable="true">Term instance details</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+  <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css" />
+  <link rel="stylesheet" href="../css/termsList.css" />
+  <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+  <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+  <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+  <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+  <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+  <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+  <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+  <script src="../js/conditionalAuthoringUtil.js" type="text/javascript"></script>
+  <script src="../js/termInstanceDetails.js" type="text/javascript"></script>
+
+  <style type="text/css">
+
+  </style>
+</head>
+
+<body class="cc-ltr">
+  <div id="terms_not_create_main_div" style="display: none;">
+    <div id="terms_not_created_message_div" class="defaultInfo">
+      <p data-translatable="true">None of the terms have values.</p>
+    </div>
+  </div>
+  <div id="executedorExternalContract" class="col-xs-12 defaultInfo" style="display: none;padding-top:10% !important;">
+    <p data-translatable="true">This contract is an executed or an external contract. Therefore, no terms are
+      associated with this contract.</p>
+  </div>
+  <div id="internalPartyDocumentType" class="col-xs-12 defaultInfo" style="display: none;padding-top:10% !important;">
+    <p data-translatable="true">Terms cannot be displayed for this contract as the template used is of the Internal party document type.</p>
+  </div>
+  <div id="externalPartyDocumentType" class="col-xs-12 defaultInfo" style="display: none;padding-top:10% !important;">
+    <p data-translatable="true">Terms cannot be displayed for this contract as the template used is of the External party document type.</p>
+  </div>
+  <div id="terms_create_failed_main_div" style="display: none;">
+    <div id="terms_create_failed_message_div" class="errorInfo">
+      <img src="../img/notification_error.svg" width="25px" height="25px" align="middle"
+        style="margin: -5px 5px 0px 5px;">
+      <span id="InfoText" style="position: relative;" data-translatable="true">Unable to create term instances.
+        Contact your administrator.</span>
+      </span>
+    </div>
+  </div>
+  <div id="List_container" class="col-md-9 no-padding rtl-float-right">
+    <div class="cc-list no-padding">
+      <div class="table-responsive ">
+        <div class="table-container-body">
+          <table id="id_TermListTable" class="table">
+            <thead class="table-container">
+              <tr>
+                <th style="width: 20%;" data-translatable="true">Term name</th>
+                <th style="width: 20%;" data-translatable="true">Clause name</th>
+                <th style="width: 20%;" data-translatable="true">Parent clause</th>
+                <th style="width: 20%;" data-translatable="true">Parent section</th>
+                <th style="width: 10%;" data-translatable="true">Value</th>
+              </tr>
+            </thead>
+            <tbody data-bind="foreach:termsList">
+              <tr style="position: relative;">
+                <td>
+                  <span data-bind="text:termName"></span>
+                </td>
+                <td>
+                  <span data-bind="text:clauseName"></span>
+                </td>
+                <td>
+                  <span data-bind="text:parentClause"></span>
+                </td>
+                <td>
+                  <span data-bind="text:parentSection"></span>
+                </td>
+                <td>
+                  <span data-bind="text:value"></span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cc-container">
+          <!-- <div data-bind="template:{name:'Pagination_Template'}"></div> -->
+        </div>
+      </div>
+    </div>
+    <script type="text/html" id="Pagination_Template">
+            <div style="text-align: center;padding: 0px;" class="cc-footer-sub">
+              <ul class="pull-left pagination" style="margin:0;">
+                <li class="li-pagination">
+                  <span data-translatable="true">25 per page</span>
+                </li>
+              </ul>
+              <ul class="pagination" style="margin: 0;">
+                <li class="li-pagination">
+                  <a id="itemsCount"
+                    style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                    <span data-bind="text:totalListsCount"></span>
+                    <span data-translatable="true">result(s)</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="pagination pull-right" style="margin: 0;">
+                <li class="li-pagination li_ListLeftNavigation" style="cursor: pointer;" data-bind="css:{hidden:hideDecrement}">
+                  <a data-bind="click:decrementToLast">
+                    <img class="cc-pagination-icon rotated-90" alt="FirstPage"
+                      
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToFirstPage">
+                    <img class="cc-pagination-icon rotated-90" alt="FirstPage" 
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                  </a>
+                  <a data-bind="click:decrementOffsetLimit">
+                    <img class="cc-pagination-icon rotated-90" alt="PreviousPage" style="margin-top: 0.2em;"
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToPreviousPage">
+                  </a>
+                </li>
+                <li class="li-pagination">
+                  <span>
+                    <input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="value:currentPage"
+                      disabled style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;padding: 5px 5px 10px 5px;"/>
+                    <span data-translatable="true"> of </span>
+                    <span style="margin-left: .5em;margin-right: .5em;" data-bind="text:ko.computed(function(){
+                      return (isNaN(totalListsCount()) || totalListsCount()==0) ? 1 : Math.ceil(totalListsCount() / defaultPerPage);
+                    })"></span>
+                  </span>
+                </li>
+                <li class="li-pagination li_ListRightNavigation" style="cursor:pointer" data-bind="css:{hidden:hideIncrement}">
+                  <a data-bind="click:incrementOffsetLimit">
+                    <img class="cc-pagination-icon rotated-270" alt="NextPage" style="margin-top: 0.2em;"
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="id_nextPage">
+                  </a>
+                  <a data-bind="click:incrementToLast">
+                    <img class="cc-pagination-icon rotated-270" alt="LastPage" 
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToLastPage">
+                    <img class="cc-pagination-icon rotated-270" alt="LastPage"
+                      
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </script>
+  </div>
+</body>
+
+</html>

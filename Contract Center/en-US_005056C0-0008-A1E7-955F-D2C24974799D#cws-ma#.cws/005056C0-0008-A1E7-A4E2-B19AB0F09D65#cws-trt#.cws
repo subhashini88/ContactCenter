@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-A4E2-B19AB0F0DD65">
+	<DocumentID>005056C0-0008-A1E7-A4E2-B19AB0F09D65</DocumentID>
+	<Name>005056C0-0008-A1E7-A4E2-B19AB0F09D65</Name>
+	<Description>Terminated contracts</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-09-07T05:15:11.157</CreationDate>
+	<Notes/>
+	<Text>Terminated contracts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-A4E2-B19AB0F01D65"
+		/>
+	</TextIdentifier>
+</TranslatedText>

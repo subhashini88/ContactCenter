@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-AB2A-E377F3A55C4A">
+	<DocumentID>005056C0-0008-A1E7-AB2A-E377F3A51C4A</DocumentID>
+	<Name>005056C0-0008-A1E7-AB2A-E377F3A51C4A</Name>
+	<Description>Admin history log</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-09T04:59:15.717</CreationDate>
+	<Notes/>
+	<Text>Admin history log</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-AB2A-E377F3A49C4A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

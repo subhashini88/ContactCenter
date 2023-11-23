@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A1C2-3B64E1252FE4">
+	<DocumentID>F8B156BC-2CB7-A1E7-A1C2-3B64E124EFE4</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A1C2-3B64E124EFE4</Name>
+	<Description>Minimum Value</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-08-22T07:34:26.524</CreationDate>
+	<Notes/>
+	<Text>Minimum Value</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A1C2-3B64E1246FE4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

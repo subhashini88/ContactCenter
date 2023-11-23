@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-926F5C4C6B1E">
+	<DocumentID>50EB711A-AD5A-A1EB-9C44-926F5C4C2B1E</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-17T11:24:41.324</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-926F5C436B1E">
+			<DocumentID>50EB711A-AD5A-A1EB-9C44-926F5C432B1E</DocumentID>
+			<Name>CreateGCContactType</Name>
+			<Description>Create GCContactType</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-17T11:24:41.325</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-9C3A-77C7B1D42B1E"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-926F5C41EB1E">
+			<DocumentID>50EB711A-AD5A-A1EB-9C44-926F5C41AB1E</DocumentID>
+			<Name>DeleteGCContactType</Name>
+			<Description>Delete GCContactType</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-17T11:24:41.324</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-9C3A-77C7B1D42B1E"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="50EB711A-AD5A-A1EB-9C3A-77C7B1D42B1E"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-926F5C42EB1E">
+			<DocumentID>50EB711A-AD5A-A1EB-9C44-926F5C42AB1E</DocumentID>
+			<Name>ReadGCContactType</Name>
+			<Description>Read GCContactType</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-17T11:24:41.322</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-9C3A-77C7B1D42B1E"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-926F5C426B1E">
+			<DocumentID>50EB711A-AD5A-A1EB-9C44-926F5C422B1E</DocumentID>
+			<Name>UpdateGCContactType</Name>
+			<Description>Update GCContactType</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-17T11:24:41.323</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-9C3A-77C7B1D42B1E"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

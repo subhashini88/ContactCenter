@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B768-E1E59D00887B">
+	<DocumentID>B4B676CD-53D8-A1E8-B768-E1E59D00487B</DocumentID>
+	<Name>Basic Component Admin in OpenText Basic Components</Name>
+	<Description>Basic Component Admin</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-01T07:19:47.336</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>Basic Component Admin</CommonName>
+	<DistinguishedName>cn=Basic Component Admin,cn=OpenText Basic Components,cn=cordys,cn=OTdefaultInst,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Functional</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="B4B676CD-53D8-A1E8-B768-E1E59D00087B">
+			<DocumentID>B4B676CD-53D8-A1E8-B768-E1E59CFFC87B</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-11-01T07:19:47.335</CreationDate>
+			<Notes/>
+			<ArtifactID>484D7EE5-DBB0-A1E8-AC32-1225FE2164F0</ArtifactID>
+			<CAPID>484d7ee5-dbb0-a1e8-abd4-86c0d9d364f0</CAPID>
+			<CAPName>OpenText Basic Components</CAPName>
+			<CAPVersion>ver18.4build19</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A226-59DC5CC224BF">
+	<DocumentID>B4B676CD-53D8-A1E7-A226-59DC5CC1E4BF</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A226-59DC5CC1E4BF</Name>
+	<Description>Disable Action Date</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-24T07:03:12.611</CreationDate>
+	<Notes/>
+	<DefaultText>Disable Action Date</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E7-A226-59DC5CC264BF"
+		/>
+	</Translations>
+</TextIdentifier>

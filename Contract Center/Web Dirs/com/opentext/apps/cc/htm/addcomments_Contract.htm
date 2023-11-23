@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title data-translatable="true">Add comments</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+	</link>
+	<link rel="stylesheet" href="../css/appscommon.css">
+	</link>
+	<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+	<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	<style>
+		.comments-frame-area {
+			height: 100vh;
+			padding: 0;
+			border-left: 1px solid #efefef;
+		}
+
+		.comments-frame {
+			height: 99%;
+			width: 100%;
+			border: 0;
+		}
+	</style>
+	<script type="text/javascript">
+		$.cordys.json.defaults.removeNamespacePrefix = true;
+
+		var CommentsDataModel = function () {
+			var self = this;
+			self.comments = ko.observable();
+			self.contractID = ko.observable();
+		}
+		var commentsModel = new CommentsDataModel();
+
+		$(function () {
+			var i_locale = getlocale();
+			translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale);
+			var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+			loadRTLIfRequired(i_locale,rtl_css);			
+			$('[src*="addcomments_Contract.htm"]', window.parent.document).height("250px");
+			$('[src*="addcomments_Contract.htm"]', window.parent.document).parent().css('overflow', 'hidden');
+			cInstanceId = getUrlParameterValue("instanceId", null, true);
+			getContractComments();
+		});
+
+		function getContractComments() {
+			CommentsDataModel = $.cordys.ajax(
+				{
+					namespace: "http://schemas/OpenTextContractCenter/Contract/operations",
+					method: "ReadContract",
+					parameters:
+					{
+						"Contract-id":
+						{
+							"ItemId": cInstanceId
+						}
+					},
+					success: function (data) {
+						if (data) {
+							commentsModel.comments = data.Contract.Comments;
+							commentsModel.contractID = data.Contract["Contract-id"].Id;
+							ko.applyBindings(commentsModel, document.getElementById("commentsDiv"));
+						}
+					}
+				});
+		}
+
+		function updateCommentsValue(val) {
+			if (val != "") {
+				return val;
+			}
+			else {
+				return { '@xsi:nil': 'true' };
+			}
+		}
+
+		function updateComments(value) {
+			$.cordys.ajax(
+				{
+					method: "UpdateContract",
+					namespace: "http://schemas/OpenTextContractCenter/Contract/operations",
+					parameters:
+					{
+						"Contract-id": {
+							"Id": commentsModel.contractID
+						},
+						"Contract-update": {
+							"@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+							"Comments": updateCommentsValue(value)
+						}
+					},
+				}).done(function (data) {
+					refreshFrame();
+					
+				}).fail(function (error) {
+					
+				})
+		}
+
+		$(window).on("unload", function(e) {
+			refreshFrame();
+		});
+		function refreshFrame() {
+			if (isIE()) {
+				var caFrameElement = window.frameElement.ownerDocument.getElementsByTagName('iFrame');
+				for (var i = 0; i < caFrameElement.length; i++) {
+					if ((caFrameElement[i].src).indexOf("contractauthoring.htm") > -1) {
+						caFrameElement[i].src = caFrameElement[i].src;
+					}
+				}
+			}
+			else {
+				var source = $('[src*="contractauthoring.htm"]', window.parent.document).attr('src');
+				$('[src*="contractauthoring.htm"]', window.parent.document).attr('src', source);
+			}
+		}
+	</script>
+</head>
+
+<body class="cc-ltr">
+	<div id="commentsDiv" class="form-group col-lg-12" style="padding: 10px 40px 0px 40px;">
+		<label class="label-no-bold" style="color: #757575;" data-translatable="true">Comments</label>
+		<div>
+			<textarea class="apps-contentDiv" data-bind="html:comments" onchange="updateComments(this.value)" rows="7"
+				style="resize: none;"></textarea>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B694-242B149624BA">
+	<DocumentID>9890969C-5774-A1E7-B694-242B1495E4BA</DocumentID>
+	<Name>9890969C-5774-A1E7-B694-242B1495E4BA</Name>
+	<Description>Account manager validate by</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-12-06T06:43:39.281</CreationDate>
+	<Notes/>
+	<Text>Account manager validate by</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B694-242B149564BA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

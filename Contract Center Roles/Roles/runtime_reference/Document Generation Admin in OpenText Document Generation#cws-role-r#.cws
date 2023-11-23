@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B768-E1E59CF3087B">
+	<DocumentID>B4B676CD-53D8-A1E8-B768-E1E59CF2C87B</DocumentID>
+	<Name>Document Generation Admin in OpenText Document Generation</Name>
+	<Description>Document Generation Admin</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-01T07:21:26.456</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>Document Generation Admin</CommonName>
+	<DistinguishedName>cn=Document Generation Admin,cn=OpenText Document Generation,cn=cordys,cn=OTdefaultInst,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Functional</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="B4B676CD-53D8-A1E8-B768-E1E59CF2887B">
+			<DocumentID>B4B676CD-53D8-A1E8-B768-E1E59CF2487B</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-11-01T07:21:26.456</CreationDate>
+			<Notes/>
+			<ArtifactID>F8B156D6-35F3-A1E8-B2B5-54019813E4D4</ArtifactID>
+			<CAPID>f8b156d6-35f3-a1e8-ac6d-dbf7cf7524d0</CAPID>
+			<CAPName>OpenText Document Generation</CAPName>
+			<CAPVersion>ver18.4build19</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

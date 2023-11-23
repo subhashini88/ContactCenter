@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A73D-3565D8891D39">
+	<DocumentID>B4B676CD-53D8-A1E7-A73D-3565D888DD39</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A73D-3565D888DD39</Name>
+	<Description>Is Auto Renew ?</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-09-19T04:42:24.679</CreationDate>
+	<Notes/>
+	<Text>Is Auto Renew ?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A73D-3565D8885D39"
+		/>
+	</TextIdentifier>
+</TranslatedText>

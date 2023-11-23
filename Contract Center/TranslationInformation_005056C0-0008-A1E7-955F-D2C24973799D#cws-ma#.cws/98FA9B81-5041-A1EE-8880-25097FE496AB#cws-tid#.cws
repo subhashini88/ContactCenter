@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-8880-25097FE4D6AB">
+	<DocumentID>98FA9B81-5041-A1EE-8880-25097FE496AB</DocumentID>
+	<Name>98FA9B81-5041-A1EE-8880-25097FE496AB</Name>
+	<Description>CreateBWShortcuts</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-07-14T05:05:18.75</CreationDate>
+	<Notes/>
+	<DefaultText>CreateBWShortcuts</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EE-8880-25097FE516AB"
+		/>
+	</Translations>
+</TextIdentifier>

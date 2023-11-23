@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B768-E1E59CFA087B">
+	<DocumentID>B4B676CD-53D8-A1E8-B768-E1E59CF9C87B</DocumentID>
+	<Name>Approver in OpenText Content Library</Name>
+	<Description>Approver</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-01T07:20:33.455</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>Approver</CommonName>
+	<DistinguishedName>cn=Approver,cn=OpenText Content Library,cn=cordys,cn=OTdefaultInst,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Functional</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="B4B676CD-53D8-A1E8-B768-E1E59CF9887B">
+			<DocumentID>B4B676CD-53D8-A1E8-B768-E1E59CF9487B</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-11-01T07:20:33.455</CreationDate>
+			<Notes/>
+			<ArtifactID>B4B676CD-53D8-A1E8-B608-D052095B4878</ArtifactID>
+			<CAPID>f8b156bc-2cb7-a1e8-ac01-68193780f031</CAPID>
+			<CAPName>OpenText Content Library</CAPName>
+			<CAPVersion>ver18.4build19</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

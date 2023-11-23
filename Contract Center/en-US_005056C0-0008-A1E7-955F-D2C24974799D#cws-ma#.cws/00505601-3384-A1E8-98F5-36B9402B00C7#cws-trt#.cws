@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-3384-A1E8-98F5-36B9402B40C7">
+	<DocumentID>00505601-3384-A1E8-98F5-36B9402B00C7</DocumentID>
+	<Name>00505601-3384-A1E8-98F5-36B9402B00C7</Name>
+	<Description>Create form client hide</Description>
+	<CreatedBy>Contract Administrator</CreatedBy>
+	<CreationDate>2018-05-30T06:56:06.517</CreationDate>
+	<Notes/>
+	<Text>Create form client hide</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-3384-A1E8-98F5-36B9402A80C7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

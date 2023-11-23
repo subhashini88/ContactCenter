@@ -1,0 +1,129 @@
+
+<RuleBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.rule.RuleBuildingBlock"
+	typeVersion="97F537DA-34AE-40AD-AFC4-48BC832037C3"
+	RuntimeDocumentID="005056C0-0008-A1E7-9565-94E16E8FB99D">
+	<DocumentID>005056C0-0008-A1E7-9565-94E16E8F799D</DocumentID>
+	<Name>RuleBuildingBlock</Name>
+	<Description>RuleBuildingBlock</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-20T08:56:27.26</CreationDate>
+	<Notes/>
+	<Entity>
+		<uri
+			id="005056C0-0008-A1E7-9565-3A59509CF99D"
+		/>
+	</Entity>
+	<OwnedActions>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-A307-AA46594F96B1">
+			<DocumentID>B4B676CD-53D8-A1E7-A307-AA46594F56B1</DocumentID>
+			<Name>Untitled Rule Action Button</Name>
+			<Description>Untitled Rule Action Button</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-08-28T18:30:35.269</CreationDate>
+			<Notes/>
+			<ActionDisplayName>ReNegotiate</ActionDisplayName>
+			<ActionId>B4B676CD-53D8-A1E7-A2FD-2C66337FD6B1</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="00505601-21E8-A1E7-A52F-3DC0EA5380CC">
+			<DocumentID>00505601-21E8-A1E7-A52F-3DC0EA5340CC</DocumentID>
+			<Name>Untitled Rule Action Button (1)</Name>
+			<Description>Untitled Rule Action Button (1)</Description>
+			<CreatedBy>cadmin</CreatedBy>
+			<CreationDate>2017-09-08T17:43:04.642</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Amend</ActionDisplayName>
+			<ActionId>F8B156B5-069B-A1E7-A51E-2CD7722324C4</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="F8B156B5-069B-A1E7-A67C-AAD6C9BC24C6">
+			<DocumentID>F8B156B5-069B-A1E7-A67C-AAD6C9BBE4C6</DocumentID>
+			<Name>Untitled Rule Action Button (2)</Name>
+			<Description>Untitled Rule Action Button (2)</Description>
+			<CreatedBy>super</CreatedBy>
+			<CreationDate>2017-09-15T08:55:04.376</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Action date calculation</ActionDisplayName>
+			<ActionId>F8B156B5-069B-A1E7-A675-0DF236C0E4C6</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="F8B156B5-069B-A1E7-A67C-AAD6C9BBA4C6">
+			<DocumentID>F8B156B5-069B-A1E7-A67C-AAD6C9BB64C6</DocumentID>
+			<Name>Untitled Rule Action Button (3)</Name>
+			<Description>Untitled Rule Action Button (3)</Description>
+			<CreatedBy>super</CreatedBy>
+			<CreationDate>2017-09-15T08:55:04.376</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Action date calculation</ActionDisplayName>
+			<ActionId>F8B156B5-069B-A1E7-A675-0DF236C0E4C6</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-A747-CEA21E72DD39">
+			<DocumentID>B4B676CD-53D8-A1E7-A747-CEA21E729D39</DocumentID>
+			<Name>Untitled Rule Action Button (4)</Name>
+			<Description>Untitled Rule Action Button (4)</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-09-19T09:51:24.762</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Terminate</ActionDisplayName>
+			<ActionId>B4B676CD-53D8-A1E7-A306-B962769656B1</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-A747-CEA21E70DD39">
+			<DocumentID>B4B676CD-53D8-A1E7-A747-CEA21E709D39</DocumentID>
+			<Name>Untitled Rule Action Button (5)</Name>
+			<Description>Untitled Rule Action Button (5)</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-09-19T09:51:24.762</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Terminate</ActionDisplayName>
+			<ActionId>B4B676CD-53D8-A1E7-A306-B962769656B1</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-AE53-EFA218E46900">
+			<DocumentID>C4D98747-AA4E-A1E7-AE53-EFA218E42900</DocumentID>
+			<Name>Untitled Rule Action Button (6)</Name>
+			<Description>Untitled Rule Action Button (6)</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-10-25T06:48:03.21</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Get validated by</ActionDisplayName>
+			<ActionId>C4D98747-AA4E-A1E7-AE50-BBD4735F6900</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-AE53-EFA218E22900">
+			<DocumentID>C4D98747-AA4E-A1E7-AE53-EFA218E1E900</DocumentID>
+			<Name>Untitled Rule Action Button (7)</Name>
+			<Description>Untitled Rule Action Button (7)</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-10-25T06:48:03.21</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Get validated by</ActionDisplayName>
+			<ActionId>C4D98747-AA4E-A1E7-AE50-BBD4735F6900</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-AE53-EFA218DEA900">
+			<DocumentID>C4D98747-AA4E-A1E7-AE53-EFA218DE6900</DocumentID>
+			<Name>Untitled Rule Action Button (8)</Name>
+			<Description>Untitled Rule Action Button (8)</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-10-25T06:48:03.209</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Get validated on</ActionDisplayName>
+			<ActionId>C4D98747-AA4E-A1E7-AE51-E3294BE26900</ActionId>
+		</RuleActionButton>
+	</OwnedActions>
+	<Rules/>
+</RuleBuildingBlock>

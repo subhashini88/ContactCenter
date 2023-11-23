@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B85B-5BBB36EFEB89">
+	<DocumentID>50EB711A-AD5A-A1EC-B85B-5BBB36EFAB89</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B85B-5BBB36EFAB89</Name>
+	<Description>retrigger-TODO</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-01T05:53:48.634</CreationDate>
+	<Notes/>
+	<DefaultText>retrigger-TODO</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-B85B-5BBB36F02B89"
+		/>
+	</Translations>
+</TextIdentifier>

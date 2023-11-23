@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-B1B4-BC8B1B9D3033">
+	<DocumentID>F8B156BC-2CB7-A1E8-B1B4-BC8B1B9CF033</DocumentID>
+	<Name>disableContractType</Name>
+	<Description>disableContractType</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-10-03T06:14:12.985</CreationDate>
+	<Notes/>
+	<referenceCount>1</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="484D7EE4-6263-A1E8-AC6E-799CE8B78893"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

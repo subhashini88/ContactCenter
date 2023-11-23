@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-BC9A-B30D75EA7080">
+	<DocumentID>F8B156BC-2CB7-A1EA-BC9A-B30D75EA3080</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-BC9A-B30D75EA3080</Name>
+	<Description>Update linked clause</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-09-09T09:24:31.53</CreationDate>
+	<Notes/>
+	<Text>Update linked clause</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-BC9A-B30D75E9B080"
+		/>
+	</TextIdentifier>
+</TranslatedText>

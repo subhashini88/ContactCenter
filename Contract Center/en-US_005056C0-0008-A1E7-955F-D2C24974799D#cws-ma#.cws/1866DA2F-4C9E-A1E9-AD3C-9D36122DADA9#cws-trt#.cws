@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-AD3C-9D36122DEDA9">
+	<DocumentID>1866DA2F-4C9E-A1E9-AD3C-9D36122DADA9</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-AD3C-9D36122DADA9</Name>
+	<Description>Select relation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-02T07:06:32.678</CreationDate>
+	<Notes/>
+	<Text>Select relation</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1E9-AD3C-9D36122D2DA9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

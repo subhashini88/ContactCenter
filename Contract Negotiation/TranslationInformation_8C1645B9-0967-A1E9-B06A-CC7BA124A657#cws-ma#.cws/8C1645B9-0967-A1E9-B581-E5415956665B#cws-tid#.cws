@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B581-E5415956A65B">
+	<DocumentID>8C1645B9-0967-A1E9-B581-E5415956665B</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B581-E5415956665B</Name>
+	<Description>Read related comments.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-13T09:33:14.411</CreationDate>
+	<Notes/>
+	<DefaultText>Read related comments.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-B581-E5415956E65B"
+		/>
+	</Translations>
+</TextIdentifier>

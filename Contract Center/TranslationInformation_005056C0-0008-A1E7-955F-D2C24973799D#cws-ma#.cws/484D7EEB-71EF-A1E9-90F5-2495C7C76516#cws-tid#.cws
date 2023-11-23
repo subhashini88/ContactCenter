@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-90F5-2495C7C7A516">
+	<DocumentID>484D7EEB-71EF-A1E9-90F5-2495C7C76516</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-90F5-2495C7C76516</Name>
+	<Description>TestContractclone</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-11T08:07:07.818</CreationDate>
+	<Notes/>
+	<DefaultText>TestContractclone</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-90F5-2495C7C7E516"
+		/>
+	</Translations>
+</TextIdentifier>

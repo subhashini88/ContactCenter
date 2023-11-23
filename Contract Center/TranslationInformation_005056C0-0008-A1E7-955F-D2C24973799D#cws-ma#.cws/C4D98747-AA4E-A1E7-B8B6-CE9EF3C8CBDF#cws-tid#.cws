@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B8B6-CE9EF3C90BDF">
+	<DocumentID>C4D98747-AA4E-A1E7-B8B6-CE9EF3C8CBDF</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B8B6-CE9EF3C8CBDF</Name>
+	<Description>Z_INT_Update Renewal Term</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2017-12-17T03:38:19.389</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_Update Renewal Term</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B8B6-CE9EF3C94BDF"
+		/>
+	</Translations>
+</TextIdentifier>

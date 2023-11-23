@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EB-AC6C-930242B92DC5">
+	<DocumentID>1866DA2F-4C9E-A1EB-AC6C-930242B8EDC5</DocumentID>
+	<Name>1866DA2F-4C9E-A1EB-AC6C-930242B8EDC5</Name>
+	<Description>Import status_27</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-05-10T17:56:08.349</CreationDate>
+	<Notes/>
+	<DefaultText>Import status_27</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EB-AC6C-930242B96DC5"
+		/>
+	</Translations>
+</TextIdentifier>

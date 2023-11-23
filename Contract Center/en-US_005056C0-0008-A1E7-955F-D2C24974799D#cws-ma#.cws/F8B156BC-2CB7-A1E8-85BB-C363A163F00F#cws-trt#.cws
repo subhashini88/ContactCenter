@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-85BB-C363A164300F">
+	<DocumentID>F8B156BC-2CB7-A1E8-85BB-C363A163F00F</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-85BB-C363A163F00F</Name>
+	<Description>Edit conversion rate to USD form</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-02-21T10:10:41.258</CreationDate>
+	<Notes/>
+	<Text>Edit conversion rate to USD form</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-85BB-C363A163700F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

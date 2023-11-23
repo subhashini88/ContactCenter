@@ -1,0 +1,23 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A865-92B0D11A3077">
+	<DocumentID>F8B156BC-2CB7-A1EA-A865-92B0D119F077</DocumentID>
+	<Name>CC Config Workflow Runtime User</Name>
+	<Description>CC Config Workflow Runtime User</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-29T10:24:42.214</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Internal</type>
+	<Subroles>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B221-578D278CE4FD"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

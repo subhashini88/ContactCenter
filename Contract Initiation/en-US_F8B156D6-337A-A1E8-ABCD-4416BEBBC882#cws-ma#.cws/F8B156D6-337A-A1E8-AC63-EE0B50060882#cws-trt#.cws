@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC63-EE0B50064882">
+	<DocumentID>F8B156D6-337A-A1E8-AC63-EE0B50060882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC63-EE0B50060882</Name>
+	<Description>Edit button rule</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-06T05:45:04.722</CreationDate>
+	<Notes/>
+	<Text>Edit button rule</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC63-EE0B50058882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

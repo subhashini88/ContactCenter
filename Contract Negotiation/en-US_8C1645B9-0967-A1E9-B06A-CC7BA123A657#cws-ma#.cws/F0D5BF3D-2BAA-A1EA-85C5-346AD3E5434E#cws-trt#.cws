@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1EA-85C5-346AD3E5834E">
+	<DocumentID>F0D5BF3D-2BAA-A1EA-85C5-346AD3E5434E</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1EA-85C5-346AD3E5434E</Name>
+	<Description>Initial containing clause ID</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-12-05T06:54:54.299</CreationDate>
+	<Notes/>
+	<Text>Initial containing clause ID</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1EA-85C5-346AD3E4C34E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

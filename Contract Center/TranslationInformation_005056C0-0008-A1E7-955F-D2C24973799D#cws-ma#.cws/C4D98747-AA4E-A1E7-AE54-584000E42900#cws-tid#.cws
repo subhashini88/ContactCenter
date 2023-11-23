@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AE54-584000E46900">
+	<DocumentID>C4D98747-AA4E-A1E7-AE54-584000E42900</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AE54-584000E42900</Name>
+	<Description>AccountManagerValidateAction</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-25T06:59:48.858</CreationDate>
+	<Notes/>
+	<DefaultText>AccountManagerValidateAction</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-AE54-584000E4A900"
+		/>
+	</Translations>
+</TextIdentifier>

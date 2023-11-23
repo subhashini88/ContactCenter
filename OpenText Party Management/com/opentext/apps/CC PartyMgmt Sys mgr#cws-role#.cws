@@ -1,0 +1,23 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BFA9-9E384E4C3AA3">
+	<DocumentID>98FA9B81-5041-A1EC-BFA9-9E384E4BFAA3</DocumentID>
+	<Name>CC PartyMgmt Sys mgr</Name>
+	<Description>CC PartyMgmt Sys mgr</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-07-08T10:32:12.494</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Internal</type>
+	<Subroles>
+		<uri
+			id="F8B156B4-FF8F-11E6-E707-9FA82E5DF319"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

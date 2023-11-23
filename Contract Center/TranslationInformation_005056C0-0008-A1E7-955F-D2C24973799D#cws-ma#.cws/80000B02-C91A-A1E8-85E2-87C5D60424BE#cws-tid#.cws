@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="80000B02-C91A-A1E8-85E2-87C5D60464BE">
+	<DocumentID>80000B02-C91A-A1E8-85E2-87C5D60424BE</DocumentID>
+	<Name>80000B02-C91A-A1E8-85E2-87C5D60424BE</Name>
+	<Description>Auto renew at termination notice period deadline</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-02-22T04:50:24.133</CreationDate>
+	<Notes/>
+	<DefaultText>Auto renew at termination notice period deadline</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="80000B02-C91A-A1E8-85E2-87C5D604A4BE"
+		/>
+	</Translations>
+</TextIdentifier>

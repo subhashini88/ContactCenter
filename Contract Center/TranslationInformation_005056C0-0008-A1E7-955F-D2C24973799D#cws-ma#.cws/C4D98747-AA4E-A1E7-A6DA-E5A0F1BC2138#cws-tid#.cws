@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A6DA-E5A0F1BC6138">
+	<DocumentID>C4D98747-AA4E-A1E7-A6DA-E5A0F1BC2138</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A6DA-E5A0F1BC2138</Name>
+	<Description>Is Email List Exist</Description>
+	<CreatedBy>kasim basha</CreatedBy>
+	<CreationDate>2017-09-17T05:47:32.457</CreationDate>
+	<Notes/>
+	<DefaultText>Is Email List Exist</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A6DA-E5A0F1BCA138"
+		/>
+	</Translations>
+</TextIdentifier>

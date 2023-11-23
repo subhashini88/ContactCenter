@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="00505601-7DE6-A1EB-8D8D-F1C2F71BF026">
+	<DocumentID>00505601-7DE6-A1EB-8D8E-09AC9DFCB026</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-12-04T14:10:31.355</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="00505601-7DE6-A1EB-8D86-64D0F7CDB026"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="00505601-7DE6-A1EB-8D8E-09AC9DF0B026">
+			<DocumentID>00505601-7DE6-A1EB-8D8E-09AC9DF07026</DocumentID>
+			<Name>ReadContractDocPreview</Name>
+			<Description>Read ContractDocPreview</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-12-04T14:10:31.367</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="00505601-7DE6-A1EB-8D86-64D0F7CDB026"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="00505601-7DE6-A1EB-8D8E-09AC9DF03026">
+			<DocumentID>00505601-7DE6-A1EB-8D8E-09AC9DEFF026</DocumentID>
+			<Name>UpdateContractDocPreview</Name>
+			<Description>Update ContractDocPreview</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-12-04T14:10:31.359</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="00505601-7DE6-A1EB-8D86-64D0F7CDB026"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

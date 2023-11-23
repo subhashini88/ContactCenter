@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title data-translatable="true">Document panel</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+		<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+		<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+		<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+		<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+		<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$.cordys.json.defaults.removeNamespacePrefix = true;
+			var cInstanceId,baseURL,finalCopyDocumentStatus,retryNumberOfTimes,TemplateInstanceId;
+			var i_locale;
+			var contentPanelName = "DOCUMENT_REPOSITORY";
+			$(function ()
+			{
+				i_locale = getlocale();
+				translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale);
+				var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+				loadRTLIfRequired(i_locale,rtl_css);
+				$('[src*="documentPanel.htm"]', window.parent.parent.document).parent().css('padding-left', '0px');
+				cInstanceId = getUrlParameterValue("instanceId",null,true);
+				baseURL = getUrlParameterValue("baseURL",null,true);	
+				loadPageBasedOnDocumentsCopyStatus();
+
+				$("#continue_link1,#continue_link2,#continue_link3").on('click',function(){
+					continueToDocuments();
+				});
+				$("#retry_and_continue_link").on('click',function(){
+					retryCopyDocuments();
+				});
+				$("#retry_and_continue_template_link").on('click',function(){
+					retryTemplateCopyDocuments();
+				});
+			});	
+
+			function loadPageBasedOnDocumentsCopyStatus(){
+
+					$.cordys.ajax
+						({
+							namespace: "http://schemas/OpenTextContractCenter/Contract/operations",
+							method: "ReadContract",
+							parameters:
+							{
+								"Contract-id": {
+									"ItemId": cInstanceId
+								}
+							},
+							success: function (data) {
+								if (data.Contract) {
+									try{
+										TemplateInstanceId = data.Contract.RelatedTemplate["GCTemplate-id"].ItemId;
+									}catch(e){
+									
+									}
+									if(data.Contract.Tracking && !data.Contract.Tracking.CreatedBy){
+										$('#div_inprogress_msg').show();
+										return;
+									}
+									try {
+										copyDocumentsStatus = data.Contract.CopyDocumentsStatus;
+										var childNodes = $.parseXML(copyDocumentsStatus).documentElement.childNodes;
+										for (var i = 0; i < childNodes.length; i++) {
+											if (childNodes[i].nodeName == 'Status') {
+												finalCopyDocumentStatus = childNodes[i].textContent;
+											}else if (childNodes[i].nodeName == 'RetryCount') {
+												retryNumberOfTimes = childNodes[i].textContent;
+											}
+										}
+									}
+									catch (error) {
+
+									}									
+									var userID = getUrlParameterValue("userID",null,true);
+									if(!retryNumberOfTimes){
+										retryNumberOfTimes = 0;
+									}
+									if (userID===data.Contract.Tracking.CreatedBy["Identity-id"].ItemId) {
+										if( finalCopyDocumentStatus === 'FAILED' && retryNumberOfTimes<1){
+											$('#div_failed_msg_with_retry').show();
+										}else if( finalCopyDocumentStatus === 'TEMPLATEFAILED' && retryNumberOfTimes<1){
+											$('#div_failed_msg_with_template_retry').show();
+										}else if(finalCopyDocumentStatus === 'INPROGRESS'){
+											$('#div_inprogress_msg').show();											
+										}else{
+											continueToDocuments();
+										}
+									}else {
+										continueToDocuments();
+									}
+								} else {
+									continueToDocuments();
+								}
+
+							},
+							error: function (responseFailure) {
+								continueToDocuments();								
+								return false;
+							}
+						});
+			}
+			function continueToDocuments(){
+				$.cordys.ajax
+				({
+					namespace: "http://schemas/OpenTextBasicComponents/GCProperties/operations",
+					method: "GetPropertyByName",
+					parameters:
+					{
+						"Name": contentPanelName
+					},
+					success: function (data)
+					{
+						if (data.GCProperties)
+						{
+							if (data.GCProperties.length)
+							{
+								if(data.GCProperties[0].value == 'CONTENT')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/B4B676CD53D8A1E8B2E9A54D7EEF8876?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								else if(data.GCProperties[0].value == 'BUSINESS_WORKSPACE')
+								{
+									var redirection_URL =  "../../../../../app/start/web/perform/item/"+cInstanceId+"/B4B676CD53D8A1E8B2E9A54D7EEE0876?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								else if(data.GCProperties[0].value == 'BOTH')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/B4B676CD53D8A1E8B2EA5548D2E98876?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+							}
+							else
+							{
+								if(data.GCProperties.value == 'CONTENT')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/B4B676CD53D8A1E8B2E9A54D7EEF8876?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								else if(data.GCProperties.value == 'BUSINESS_WORKSPACE')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/B4B676CD53D8A1E8B2E9A54D7EEE0876?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								else if(data.GCProperties.value == 'BOTH')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/B4B676CD53D8A1E8B2EA5548D2E98876?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+							}
+						}
+						else
+						{
+							var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/B4B676CD53D8A1E8B2E9A54D7EEF8876?openContentInParentWindow=true";
+							if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+						}						
+					}
+				});
+			}
+
+			function retryCopyDocuments(){
+				$.cordys.ajax({
+					method: "RetryCopyCBBDocuments",
+					namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+					parameters:
+					{
+						"ContractItemId":cInstanceId,
+						"defaultDocId":"PARAMETER"
+					},
+					success: function (responseSuccess) {						
+							$('#div_failed_msg_with_retry').hide();
+							$('#div_inprogress_msg').show();
+					},
+					error: function (responseFailure) {
+						// Need to show error.
+						return false;
+					}
+                });
+			}
+			
+			function retryTemplateCopyDocuments(){
+				$.cordys.ajax({
+					method: "copyTEMDocs",
+					namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+					parameters:
+					{
+						"SourceItemID": TemplateInstanceId,
+						"DestinationItemID": cInstanceId,
+						"SourceDirectories":{
+							"SourceFolderPath" : "Template documents"
+						},
+						"retryCopy": "RETRY"
+					},
+					success: function (responseSuccess) {						
+							$('#div_failed_msg_with_template_retry').hide();
+							$('#div_inprogress_msg').show();
+					},
+					error: function (responseFailure) {
+						// Need to show error.
+						return false;
+					}
+                });
+			}
+		</script>
+		<body class="cc-ltr">
+			<div id="div_inprogress_msg" class="col-xs-12 cc-info-message" style="display: none;padding-top: 10%;">
+			   <span>Cloning of contract documents is in progress.</span>
+			</div>			
+			<div id="div_failed_msg_with_retry" class="col-xs-12 cc-info-message" style="display: none;padding-top: 10%;">
+				<span>Unable to clone contract documents. Click </span><a id="retry_and_continue_link" target="_blank"><span>here</span></a><span> to try again.</span>
+				<span>To upload contract documents manually, click <a id="continue_link2" target="_blank">here.</a></span>
+			 </div>
+			 <div id="div_failed_msg_with_template_retry" class="col-xs-12 cc-info-message" style="display: none;padding-top: 10%;">
+				<span>Unable to copy template documents.</span><a id="retry_and_continue_template_link" target="_blank"><span>Try again</span></a><span> or </span>
+				<span><a id="continue_link2" target="_blank">upload</a> template documents manually.</span>
+			 </div>
+		</body>
+	</head>
+</html>

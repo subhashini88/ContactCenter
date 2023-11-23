@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B316-0075FA773164">
+	<DocumentID>F8E4E399-CF40-A1ED-B316-0075FA76F164</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B316-0075FA76F164</Name>
+	<Description>All States User Template Asgmts List</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-27T04:32:42.428</CreationDate>
+	<Notes/>
+	<DefaultText>All States User Template Asgmts List</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-B316-0075FA777164"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="04ED339D-4D0A-A1ED-9D44-5679E4163ADE">
+	<DocumentID>04ED339D-4D0A-A1ED-9D44-5679E415FADE</DocumentID>
+	<Name>04ED339D-4D0A-A1ED-9D44-5679E415FADE</Name>
+	<Description>Z_INT_PONumbers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-06T04:18:09.047</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_PONumbers</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="04ED339D-4D0A-A1ED-9D44-5679E4167ADE"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="D4BED985-316A-A1E8-9E58-D5BAAE47A4E4">
+	<DocumentID>D4BED985-316A-A1E8-9E58-D5BAAE4764E4</DocumentID>
+	<Name>D4BED985-316A-A1E8-9E58-D5BAAE4764E4</Name>
+	<Description>Clause category</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-26T17:39:45.553</CreationDate>
+	<Notes/>
+	<Text>Clause category</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="D4BED985-316A-A1E8-9E58-D5BAAE46E4E4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

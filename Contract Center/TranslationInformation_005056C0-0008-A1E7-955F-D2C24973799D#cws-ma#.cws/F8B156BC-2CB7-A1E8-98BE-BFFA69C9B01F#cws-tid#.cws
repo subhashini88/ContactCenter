@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-98BE-BFFA69C9F01F">
+	<DocumentID>F8B156BC-2CB7-A1E8-98BE-BFFA69C9B01F</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-98BE-BFFA69C9B01F</Name>
+	<Description>UpdateFlagZ_INT_isContractVisiblewhenDeleted</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-05-29T05:41:15.324</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateFlagZ_INT_isContractVisiblewhenDeleted</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-98BE-BFFA69CA301F"
+		/>
+	</Translations>
+</TextIdentifier>

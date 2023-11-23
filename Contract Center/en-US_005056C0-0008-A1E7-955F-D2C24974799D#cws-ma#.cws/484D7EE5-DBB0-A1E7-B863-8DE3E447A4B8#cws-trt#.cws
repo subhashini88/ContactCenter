@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B863-8DE3E447E4B8">
+	<DocumentID>484D7EE5-DBB0-A1E7-B863-8DE3E447A4B8</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B863-8DE3E447A4B8</Name>
+	<Description>Edit renewal details</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-15T15:22:44.124</CreationDate>
+	<Notes/>
+	<Text>Edit renewal details</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B863-8DE3E44724B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

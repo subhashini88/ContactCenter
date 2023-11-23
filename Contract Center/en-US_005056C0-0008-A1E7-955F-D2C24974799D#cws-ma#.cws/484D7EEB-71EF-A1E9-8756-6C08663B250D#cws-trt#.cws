@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-8756-6C08663B650D">
+	<DocumentID>484D7EEB-71EF-A1E9-8756-6C08663B250D</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-8756-6C08663B250D</Name>
+	<Description>Z_INT_ActionRenew</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-21T09:57:45.458</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ActionRenew</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-8756-6C08663AA50D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

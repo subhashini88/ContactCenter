@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E4E-9F9935CE3025">
+	<DocumentID>F8B156BC-2CB7-A1E8-9E4E-9F9935CDF025</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9E4E-9F9935CDF025</Name>
+	<Description>UpdateContactImportStatus</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-06-26T12:46:13.068</CreationDate>
+	<Notes/>
+	<Text>UpdateContactImportStatus</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9E4E-9F9935CD7025"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-88DE-141BF58BE50F">
+	<DocumentID>484D7EEB-71EF-A1E9-88DE-141BF58BA50F</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-88DE-141BF58BA50F</Name>
+	<Description>Persis Account manager emails</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-29T03:46:45.339</CreationDate>
+	<Notes/>
+	<DefaultText>Persis Account manager emails</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-88DE-141BF58C250F"
+		/>
+	</Translations>
+</TextIdentifier>

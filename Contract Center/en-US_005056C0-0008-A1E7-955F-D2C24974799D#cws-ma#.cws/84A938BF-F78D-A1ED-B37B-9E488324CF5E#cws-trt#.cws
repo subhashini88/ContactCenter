@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1ED-B37B-9E4883250F5E">
+	<DocumentID>84A938BF-F78D-A1ED-B37B-9E488324CF5E</DocumentID>
+	<Name>84A938BF-F78D-A1ED-B37B-9E488324CF5E</Name>
+	<Description>InActive</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-29T05:01:16.688</CreationDate>
+	<Notes/>
+	<Text>InActive</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1ED-B37B-9E4883244F5E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

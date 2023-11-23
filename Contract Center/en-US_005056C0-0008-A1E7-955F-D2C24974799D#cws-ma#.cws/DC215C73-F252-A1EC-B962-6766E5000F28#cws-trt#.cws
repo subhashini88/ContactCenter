@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="DC215C73-F252-A1EC-B962-6766E5004F28">
+	<DocumentID>DC215C73-F252-A1EC-B962-6766E5000F28</DocumentID>
+	<Name>DC215C73-F252-A1EC-B962-6766E5000F28</Name>
+	<Description>All contract tags</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-06T11:34:29.104</CreationDate>
+	<Notes/>
+	<Text>All contract tags</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="DC215C73-F252-A1EC-B962-6766E4FF8F28"
+		/>
+	</TextIdentifier>
+</TranslatedText>

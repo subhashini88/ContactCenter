@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A70-71C05E98AB9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A70-71C05E986B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A70-71C05E986B9A</Name>
+	<Description>DocusignIntegEnvpUpgrade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-01T06:46:55.478</CreationDate>
+	<Notes/>
+	<Text>DocusignIntegEnvpUpgrade</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A70-71C05E97EB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

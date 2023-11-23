@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-BD7D-7773B8B5A6BA">
+	<DocumentID>8C1645B9-0967-A1EA-BD7D-A5C50CD1E6BA</DocumentID>
+	<Name>8C1645B9-0967-A1EA-BD7D-A5C50CD1E6BA</Name>
+	<Description>Get section comments</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-13T19:34:54.443</CreationDate>
+	<Notes/>
+	<DefaultText>Get section comments</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1EA-BD7D-7773B8B5E6BA"
+		/>
+	</Translations>
+</TextIdentifier>

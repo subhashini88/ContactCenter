@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-AA38-B9D25845AFEA">
+	<DocumentID>F8B156BC-2CB7-A1E7-AA38-B9D258456FEA</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-AA38-B9D258456FEA</Name>
+	<Description>Contract import lifecycle fail status</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-04T09:05:45.732</CreationDate>
+	<Notes/>
+	<Text>Contract import lifecycle fail status</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-AA38-B9D25844EFEA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

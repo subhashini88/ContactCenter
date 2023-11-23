@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A675-6AD4859B64C6">
+	<DocumentID>F8B156B5-069B-A1E7-A675-6AD4859B24C6</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A675-6AD4859B24C6</Name>
+	<Description>Action date notify value</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-15T05:27:15.596</CreationDate>
+	<Notes/>
+	<DefaultText>Action date notify value</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156B5-069B-A1E7-A675-6AD4859BA4C6"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-8674-D5BE196D0F63">
+	<DocumentID>84A938BF-F78D-A1EE-8674-D5BE196CCF63</DocumentID>
+	<Name>84A938BF-F78D-A1EE-8674-D5BE196CCF63</Name>
+	<Description>CancelTerminateAction</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-03T19:52:04.118</CreationDate>
+	<Notes/>
+	<DefaultText>CancelTerminateAction</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="84A938BF-F78D-A1EE-8674-D5BE196D4F63"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-8B6E-D2083AE390F3">
+	<DocumentID>3417EB96-8F1F-A1E8-8B6E-D2083AE350F3</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-8B6E-D2083AE350F3</Name>
+	<Description>Pagination cancellation type list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-03-22T10:40:19.838</CreationDate>
+	<Notes/>
+	<Text>Pagination cancellation type list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-8B6E-D2083AE2D0F3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

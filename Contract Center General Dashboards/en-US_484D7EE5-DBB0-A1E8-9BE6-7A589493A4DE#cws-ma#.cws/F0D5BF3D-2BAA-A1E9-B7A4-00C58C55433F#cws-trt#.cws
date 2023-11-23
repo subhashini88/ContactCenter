@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B7A4-00C58C55833F">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B7A4-00C58C55433F</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B7A4-00C58C55433F</Name>
+	<Description>Contract negotiations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-24T11:46:56.325</CreationDate>
+	<Notes/>
+	<Text>Contract negotiations</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B7A4-00C58C54C33F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

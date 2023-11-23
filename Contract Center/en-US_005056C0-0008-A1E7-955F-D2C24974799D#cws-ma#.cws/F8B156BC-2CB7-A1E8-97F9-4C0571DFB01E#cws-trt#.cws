@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-97F9-4C0571DFF01E">
+	<DocumentID>F8B156BC-2CB7-A1E8-97F9-4C0571DFB01E</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-97F9-4C0571DFB01E</Name>
+	<Description>condition</Description>
+	<CreatedBy>nareshp</CreatedBy>
+	<CreationDate>2018-05-25T06:36:15.482</CreationDate>
+	<Notes/>
+	<Text>condition</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-97F9-4C0571DF301E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

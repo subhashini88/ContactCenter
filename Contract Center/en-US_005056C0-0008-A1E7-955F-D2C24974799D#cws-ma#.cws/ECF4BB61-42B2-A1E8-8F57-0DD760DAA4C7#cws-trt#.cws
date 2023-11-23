@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-8F57-0DD760DAE4C7">
+	<DocumentID>ECF4BB61-42B2-A1E8-8F57-0DD760DAA4C7</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-8F57-0DD760DAA4C7</Name>
+	<Description>Notification durationTerminationNoticePeriodDate</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-11T08:18:52.366</CreationDate>
+	<Notes/>
+	<Text>Notification durationTerminationNoticePeriodDate</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-8F57-0DD760DA24C7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

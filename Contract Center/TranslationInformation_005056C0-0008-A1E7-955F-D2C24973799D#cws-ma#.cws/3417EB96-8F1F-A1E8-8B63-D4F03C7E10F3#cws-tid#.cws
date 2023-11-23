@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-8B63-D4F03C7E50F3">
+	<DocumentID>3417EB96-8F1F-A1E8-8B63-D4F03C7E10F3</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-8B63-D4F03C7E10F3</Name>
+	<Description>Pagination region list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-03-22T05:20:27.285</CreationDate>
+	<Notes/>
+	<DefaultText>Pagination region list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E8-8B63-D4F03C7E90F3"
+		/>
+	</Translations>
+</TextIdentifier>

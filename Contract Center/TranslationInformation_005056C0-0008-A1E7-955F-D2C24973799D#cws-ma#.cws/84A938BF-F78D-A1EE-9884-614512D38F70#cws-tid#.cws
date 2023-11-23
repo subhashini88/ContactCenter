@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-9884-614512D3CF70">
+	<DocumentID>84A938BF-F78D-A1EE-9884-614512D38F70</DocumentID>
+	<Name>84A938BF-F78D-A1EE-9884-614512D38F70</Name>
+	<Description>Met - In recurrence</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-03T17:35:29.727</CreationDate>
+	<Notes/>
+	<DefaultText>Met - In recurrence</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="84A938BF-F78D-A1EE-9884-614512D40F70"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4F73-A1E7-ABCC-6BEEF71E238D">
+	<DocumentID>1866DA2F-4F73-A1E7-ABCC-6BEEF71DE38D</DocumentID>
+	<Name>1866DA2F-4F73-A1E7-ABCC-6BEEF71DE38D</Name>
+	<Description>General section</Description>
+	<CreatedBy>vsusmith</CreatedBy>
+	<CreationDate>2017-10-12T10:07:29.977</CreationDate>
+	<Notes/>
+	<Text>General section</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4F73-A1E7-ABCC-6BEEF71D638D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

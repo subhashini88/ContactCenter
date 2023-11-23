@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-9061-AE8C21CDE4EE">
+	<DocumentID>F8B156D5-E69D-A1E9-9061-AE8C21CDA4EE</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-9061-AE8C21CDA4EE</Name>
+	<Description>getEnvelopesStatus</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-08T10:15:58.236</CreationDate>
+	<Notes/>
+	<Text>getEnvelopesStatus</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-9061-AE8C21CD24EE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

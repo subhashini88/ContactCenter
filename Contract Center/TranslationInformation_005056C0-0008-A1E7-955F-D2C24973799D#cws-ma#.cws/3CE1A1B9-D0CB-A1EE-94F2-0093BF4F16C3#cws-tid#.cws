@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3CE1A1B9-D0CB-A1EE-94F0-D3AC9931D6C3">
+	<DocumentID>3CE1A1B9-D0CB-A1EE-94F2-0093BF4F16C3</DocumentID>
+	<Name>3CE1A1B9-D0CB-A1EE-94F2-0093BF4F16C3</Name>
+	<Description>Auto Renew duration is required when auto renew is 'Yes'</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-09-15T13:01:46.455</CreationDate>
+	<Notes/>
+	<DefaultText>Auto Renew duration is required when auto renew is 'Yes'</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3CE1A1B9-D0CB-A1EE-94F0-D3AC993216C3"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-21E8-A1E7-A583-99A6DC26C0CC">
+	<DocumentID>00505601-21E8-A1E7-A5A9-E3FC0BD340CC</DocumentID>
+	<Name>00505601-21E8-A1E7-A5A9-E3FC0BD340CC</Name>
+	<Description>Executive Manager's dashboard</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-09-11T04:13:35.639</CreationDate>
+	<Notes/>
+	<Text>Executive Manager's dashboard</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-21E8-A1E7-A5A9-E3FC0BD2C0CC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

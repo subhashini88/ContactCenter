@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EB-A19D-EBF9F3D66DC5">
+	<DocumentID>1866DA2F-4C9E-A1EB-A19D-EBF9F3D62DC5</DocumentID>
+	<Name>1866DA2F-4C9E-A1EB-A19D-EBF9F3D62DC5</Name>
+	<Description>All request assignments list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-16T16:59:00.02</CreationDate>
+	<Notes/>
+	<DefaultText>All request assignments list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EB-A19C-EF79E2BA2DC5"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A2E7-91F12D120440">
+	<DocumentID>98FA9B1A-7A8B-A1EB-A2E7-91F12D11C440</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-A2E7-91F12D11C440</Name>
+	<Description>SAP Mappings</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-23T06:13:20.596</CreationDate>
+	<Notes/>
+	<Text>SAP Mappings</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-A2E7-91F12D114440"
+		/>
+	</TextIdentifier>
+</TranslatedText>

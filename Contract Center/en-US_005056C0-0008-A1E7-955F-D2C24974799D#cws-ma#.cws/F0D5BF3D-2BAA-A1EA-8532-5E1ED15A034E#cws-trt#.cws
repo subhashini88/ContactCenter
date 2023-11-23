@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1EA-8532-5E1ED15A434E">
+	<DocumentID>F0D5BF3D-2BAA-A1EA-8532-5E1ED15A034E</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1EA-8532-5E1ED15A034E</Name>
+	<Description>Second party</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-12-02T10:37:54.142</CreationDate>
+	<Notes/>
+	<Text>Second party</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1EA-8532-5E1ED159834E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

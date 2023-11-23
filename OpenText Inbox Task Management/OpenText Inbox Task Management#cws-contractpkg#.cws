@@ -1,0 +1,26 @@
+
+<ContractPackage
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.contractpackage.ContractPackage"
+	RuntimeDocumentID="90B11C8A-3947-11E5-F7F0-2B0D1D61FFCB">
+	<DocumentID>90B11C8A-3947-11E5-F7F0-2B0D1D61FFCB</DocumentID>
+	<Name>OpenText Inbox Task Management</Name>
+	<Description/>
+	<CreatedBy>cn=SYSTEM,cn=organizational users,o=system,cn=cordys,o=vanenburg.com</CreatedBy>
+	<CreationDate>2017-06-14T20:27:29.433</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<PackageBuildNumber>44.323123</PackageBuildNumber>
+	<PackageID>90b11c8a-3947-11e5-f7f0-2b0d1d637fcb</PackageID>
+	<PackageName>OpenText Inbox Task Management</PackageName>
+	<PackageVersion>16.2.1</PackageVersion>
+	<PackageDependencies/>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="1866DA2D-A8DF-A1E7-AB5C-E70C3E6B64C0"
+			path="OpenText Inbox Task Management"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</ContractPackage>

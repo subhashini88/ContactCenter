@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-83F3-67A4808A56A0">
+	<DocumentID>98FA9B81-5041-A1EE-83F3-67A4808A16A0</DocumentID>
+	<Name>98FA9B81-5041-A1EE-83F3-67A4808A16A0</Name>
+	<Description>Check for first schedule</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-06-21T01:00:56.622</CreationDate>
+	<Notes/>
+	<Text>Check for first schedule</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EE-83F3-67A4808996A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

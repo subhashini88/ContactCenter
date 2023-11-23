@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BC30-1E73AE1C7AA2">
+	<DocumentID>98FA9B81-5041-A1EC-BC30-1E73AE1C3AA2</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BC30-1E73AE1C3AA2</Name>
+	<Description>Child contract ID_3</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-20T17:44:11.251</CreationDate>
+	<Notes/>
+	<DefaultText>Child contract ID_3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EC-BC30-1E73AE1CBAA2"
+		/>
+	</Translations>
+</TextIdentifier>

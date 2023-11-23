@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-ABD6-9195D27F8882">
+	<DocumentID>F8B156D6-337A-A1E8-ABD6-9195D27F4882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-ABD6-9195D27F4882</Name>
+	<Description>Contents</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-03T09:31:18.922</CreationDate>
+	<Notes/>
+	<DefaultText>Contents</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-337A-A1E8-ABD6-9195D27FC882"
+		/>
+	</Translations>
+</TextIdentifier>

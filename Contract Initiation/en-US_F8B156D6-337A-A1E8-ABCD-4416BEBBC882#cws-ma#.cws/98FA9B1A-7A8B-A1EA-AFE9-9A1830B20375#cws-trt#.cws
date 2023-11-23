@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-AFE9-9A1830B24375">
+	<DocumentID>98FA9B1A-7A8B-A1EA-AFE9-9A1830B20375</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-AFE9-9A1830B20375</Name>
+	<Description>Not an authorized user.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-07-06T16:41:10.909</CreationDate>
+	<Notes/>
+	<Text>Not an authorized user.</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-AFE9-9A1830B18375"
+		/>
+	</TextIdentifier>
+</TranslatedText>

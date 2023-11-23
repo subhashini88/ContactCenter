@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B17A-E69803F7AEF0">
+	<DocumentID>C4D98747-AA4E-A1E7-B17A-E69803F76EF0</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B17A-E69803F76EF0</Name>
+	<Description>RTS/PS support fees</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-10T07:59:45.479</CreationDate>
+	<Notes/>
+	<Text>RTS/PS support fees</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-B17A-E69803F6EEF0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

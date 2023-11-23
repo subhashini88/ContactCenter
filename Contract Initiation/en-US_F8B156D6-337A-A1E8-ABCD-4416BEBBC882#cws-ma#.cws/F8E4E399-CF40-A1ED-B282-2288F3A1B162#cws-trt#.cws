@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B282-2288F3A1F162">
+	<DocumentID>F8E4E399-CF40-A1ED-B282-2288F3A1B162</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B282-2288F3A1B162</Name>
+	<Description>UserRequestAssignmentsList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-24T06:10:42.437</CreationDate>
+	<Notes/>
+	<Text>UserRequestAssignmentsList</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B282-2288F3A13162"
+		/>
+	</TextIdentifier>
+</TranslatedText>

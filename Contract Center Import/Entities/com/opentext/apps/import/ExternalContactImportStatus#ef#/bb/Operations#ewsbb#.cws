@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-81CE-6CD59AFB489A">
+	<DocumentID>484D7EE4-6263-A1E9-81CE-6CD59AFB089A</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-12-24T06:17:47.13</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="484D7EE4-6263-A1E9-81CE-6CD59AFA889A">
+			<DocumentID>484D7EE4-6263-A1E9-81CE-6CD59AFA489A</DocumentID>
+			<Name>CreateExternalContactImportStatus</Name>
+			<Description>Create ExternalContactImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-12-24T06:17:47.132</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE4-6263-A1E9-81CD-72CD3E21C89A"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="484D7EE4-6263-A1E9-81CE-6CD59AF9089A">
+			<DocumentID>484D7EE4-6263-A1E9-81CE-6CD59AF8C89A</DocumentID>
+			<Name>DeleteExternalContactImportStatus</Name>
+			<Description>Delete ExternalContactImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-12-24T06:17:47.132</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE4-6263-A1E9-81CD-72CD3E21C89A"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="484D7EE4-6263-A1E9-81CD-72CD3E21C89A"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="484D7EE4-6263-A1E9-81CE-6CD59AFA089A">
+			<DocumentID>484D7EE4-6263-A1E9-81CE-6CD59AF9C89A</DocumentID>
+			<Name>ReadExternalContactImportStatus</Name>
+			<Description>Read ExternalContactImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-12-24T06:17:47.131</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE4-6263-A1E9-81CD-72CD3E21C89A"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="484D7EE4-6263-A1E9-81CE-6CD59AF9889A">
+			<DocumentID>484D7EE4-6263-A1E9-81CE-6CD59AF9489A</DocumentID>
+			<Name>UpdateExternalContactImportStatus</Name>
+			<Description>Update ExternalContactImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-12-24T06:17:47.131</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE4-6263-A1E9-81CD-72CD3E21C89A"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

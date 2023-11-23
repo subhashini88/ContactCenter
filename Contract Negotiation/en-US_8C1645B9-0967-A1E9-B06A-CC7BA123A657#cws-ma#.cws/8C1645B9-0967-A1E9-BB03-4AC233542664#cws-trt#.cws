@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-BB03-4AC233546664">
+	<DocumentID>8C1645B9-0967-A1E9-BB03-4AC233542664</DocumentID>
+	<Name>8C1645B9-0967-A1E9-BB03-4AC233542664</Name>
+	<Description>NegotiationNotificationToExtContacts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-11T09:55:52.104</CreationDate>
+	<Notes/>
+	<Text>NegotiationNotificationToExtContacts</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-BB03-4AC23353A664"
+		/>
+	</TextIdentifier>
+</TranslatedText>

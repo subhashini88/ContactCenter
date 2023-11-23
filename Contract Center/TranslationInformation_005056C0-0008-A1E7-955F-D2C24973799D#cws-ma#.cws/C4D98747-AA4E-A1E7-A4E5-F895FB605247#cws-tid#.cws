@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A4E5-F895FB609247">
+	<DocumentID>C4D98747-AA4E-A1E7-A4E5-F895FB605247</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A4E5-F895FB605247</Name>
+	<Description>Ammendment type_1</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-07T07:03:21.892</CreationDate>
+	<Notes/>
+	<DefaultText>Ammendment type_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4E5-F895FB60D247"
+		/>
+	</Translations>
+</TextIdentifier>

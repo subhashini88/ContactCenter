@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-84C6-5F101FE8889E">
+	<DocumentID>484D7EE4-6263-A1E9-84C6-5F101FE8489E</DocumentID>
+	<Name>484D7EE4-6263-A1E9-84C6-5F101FE8489E</Name>
+	<Description>GetGenderFromIdentity</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-08T07:48:30.514</CreationDate>
+	<Notes/>
+	<DefaultText>GetGenderFromIdentity</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE4-6263-A1E9-84C6-5F101FE8C89E"
+		/>
+	</Translations>
+</TextIdentifier>

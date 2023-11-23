@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9B1B-74BE2B409A1E">
+	<DocumentID>005056C0-0008-A1E7-9B1B-74BE2B405A1E</DocumentID>
+	<Name>005056C0-0008-A1E7-9B1B-74BE2B405A1E</Name>
+	<Description>Z_INT_ActiveClauseList</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-19T10:40:26.231</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_ActiveClauseList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9B1B-74BE2B40DA1E"
+		/>
+	</Translations>
+</TextIdentifier>

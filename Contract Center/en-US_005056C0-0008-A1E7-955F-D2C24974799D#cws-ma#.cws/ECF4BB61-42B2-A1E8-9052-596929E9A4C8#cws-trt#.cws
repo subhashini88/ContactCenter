@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-9052-596929E9E4C8">
+	<DocumentID>ECF4BB61-42B2-A1E8-9052-596929E9A4C8</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-9052-596929E9A4C8</Name>
+	<Description>Set TCV and RCV Values</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-16T08:44:09.787</CreationDate>
+	<Notes/>
+	<Text>Set TCV and RCV Values</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-9052-596929E924C8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

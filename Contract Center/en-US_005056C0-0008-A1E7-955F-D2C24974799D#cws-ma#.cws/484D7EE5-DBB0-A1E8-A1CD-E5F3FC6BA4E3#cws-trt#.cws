@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-A1CD-E5F3FC6BE4E3">
+	<DocumentID>484D7EE5-DBB0-A1E8-A1CD-E5F3FC6BA4E3</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-A1CD-E5F3FC6BA4E3</Name>
+	<Description>Currency mandatory rule</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-07-14T07:53:39.104</CreationDate>
+	<Notes/>
+	<Text>Currency mandatory rule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-A1CD-E5F3FC6B24E3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

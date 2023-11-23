@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1ED-94ED-078EDA5F7AC2">
+	<DocumentID>98FA9B81-5041-A1ED-94ED-078EDA5F3AC2</DocumentID>
+	<Name>98FA9B81-5041-A1ED-94ED-078EDA5F3AC2</Name>
+	<Description>getCurrencieswithfilters</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-10-24T15:55:00.737</CreationDate>
+	<Notes/>
+	<DefaultText>getCurrencieswithfilters</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1ED-94ED-078EDA5FBAC2"
+		/>
+	</Translations>
+</TextIdentifier>

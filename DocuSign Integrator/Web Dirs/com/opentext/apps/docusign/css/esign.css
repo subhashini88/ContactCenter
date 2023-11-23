@@ -1,0 +1,294 @@
+#defaultContainer_documents {
+    overflow: auto;
+}
+
+.cc-widgets * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cc-widgets * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cc-widgets {
+    background-attachment: fixed;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    color: #333;
+    vertical-align: baseline;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    /* font-family: "OpenText Sans", Helvetica, Arial, sans-serif; */
+    /* font-size: 14px; */
+    text-align: initial;
+    height: 50%;
+    min-width: 200px;
+}
+
+.ccui-folderbrowser-core {
+    height: 100%;
+}
+
+.ccui-fb-breadcrumbs {
+    background: linear-gradient( 61deg, #090e2c 0, #122c69 59%, #078db3 100%);
+    background-color: #111b58;
+}
+
+#ccui-folderbrowser-core .ccui-fb-breadcrumbs .cc-breadcrumb {
+    height: 37px;
+}
+
+.cc-widgets .cc-breadcrumb, .cc-widgets .cc-breadcrumb>li.cc-active, .cc-widgets .cc-breadcrumb>li.tail {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+}
+
+.cc-widgets .cc-breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.cc-widgets .cc-breadcrumb {
+    /* background-color: transparent; */
+    padding: 8px 24px;
+    border-radius: 0;
+    margin: 0;
+    display: flex;
+}
+
+.cc-widgets .cc-breadcrumb>li.cc-active, .cc-widgets .cc-breadcrumb>li.tail {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+    display: inline-flex;
+}
+
+.cc-widgets .cc-breadcrumb a {
+    text-decoration: none;
+   cursor:pointer;
+}
+
+.cc-widgets a, .cc-widgets button {
+    touch-action: manipulation;
+}
+
+.cc-widgets a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.cc-widgets a {
+    background-color: transparent;
+}
+
+.cc-widgets .cc-breadcrumb>li.cc-active, .cc-widgets .cc-breadcrumb>li.tail {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+    display: inline-flex;
+}
+
+.cc-widgets .cc-breadcrumb>.cc-active {
+    color: #757575;
+}
+
+.cc-widgets .cc-breadcrumb>li:not(.cc-hidden)+li::before, .cc-widgets .ccui-search-results .ccui-search-item-breadcrumb .cc-breadcrumb>li+li::before {
+    content: "\00a0";
+    padding: 0 8px;
+    /* background-image: url(binf/../image/icons/breadcrumb_arrow.svg); */
+    background-size: 5px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-table;
+}
+
+.cc-widgets .cc-breadcrumb>li:not(.cc-hidden)+li:before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: #ccc;
+}
+
+.cc-widgets .cc-breadcrumb>li:not(.cc-hidden)+li::before, .cc-widgets .ccui-search-results .ccui-search-item-breadcrumb .cc-breadcrumb>li+li::before {
+    content: "\00a0";
+    padding: 0 8px;
+/*    background-image: url(binf/../image/icons/breadcrumb_arrow.svg);*/
+    background-size: 5px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-table;
+}
+
+.cc-widgets .cc-breadcrumb>li:not(.cc-hidden)+li:before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: #ccc;
+}
+
+.cc-widgets :after, .cc-widgets :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cc-widgets :after, .cc-widgets :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#ccui-folderbrowser-core .ccui-fb-nodestable {
+    position: relative;
+    height: 100%;
+}
+
+.ccui-nodetable .ccui-table-header-icon {
+    display: flex;
+    width: calc(4em - 32px);
+    height: calc(4em - 32px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.cc-modal-body .tableselection-container {
+    display: inline-block;
+    width: 50%
+}
+
+.cc-modal-body .selected-container {
+    display: inline-block;
+    width: 49%
+}
+
+/*chicklet functionality start*/
+
+.chicklet-cancel {
+    background-image: url(../../../../../com/opentext/apps/utils/img/closemark.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+}
+
+.chicklets-div {
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.chicklet-text {
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+}
+
+.chicklet {
+    background: #E7F8F8;
+    border: 1px solid #33C6C8;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px 0px 6px 8px;
+    margin-left: 2px;
+    margin-top: 2px;
+    /* height: 18px; */
+}
+
+.caretup-icon {
+    background-image: url(../../../../../com/opentext/apps/utils/img/caret_down.svg);
+    transform: rotate(270deg);
+    background-size: cover;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+
+/*chicklet functionality end*/
+
+/* 
+.ccui-folderbrowser.ccui-with-breadcrumb #ccui-folderbrowser-core .ccui-fb-nodestable {
+    height: calc(100% - 37px);
+}
+
+.cc-widgets .ccui-nodestable {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 30%);
+    overflow: hidden;
+}
+
+
+.ccui-nodestable .ccui-facet-table-container {
+    flex: 1 1 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+}
+
+
+.ccui-nodestable .ccui-outertablecontainer {
+    flex: 1 1 100%;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.ccui-nodestable .ccui-innertablecontainer {
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ccui-nodestable .ccui-table-tableview {
+    flex: 1 1 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.ccui-nodestable .ccui-table-tableview>div {
+    overflow: hidden;
+    flex: 1 1 auto;
+}
+
+.cc-widgets .ccui-nodetable, .ccui-nodetable .dataTables_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    min-width: 0;
+    min-height: 0;
+}
+
+.cc-widgets .ccui-nodetable {
+    background-color: #fff;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.cc-widgets .ccui-nodetable, .ccui-nodetable .dataTables_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    min-width: 0;
+    min-height: 0;
+} */

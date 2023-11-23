@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B9A2-D0571D296661">
+	<DocumentID>8C1645B9-0967-A1E9-B9A2-D0571D292661</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B9A2-D0571D292661</Name>
+	<Description>FormExternalMailIds</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-04T09:46:26.396</CreationDate>
+	<Notes/>
+	<DefaultText>FormExternalMailIds</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-B9A2-D0571D29A661"
+		/>
+	</Translations>
+</TextIdentifier>

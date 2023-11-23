@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A2F1-8820E3E60440">
+	<DocumentID>98FA9B1A-7A8B-A1EB-A2F1-8820E3E5C440</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-A2F1-8820E3E5C440</Name>
+	<Description>Salesforce administration name</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-23T10:58:18.58</CreationDate>
+	<Notes/>
+	<DefaultText>Salesforce administration name</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-A2F1-8820E3E64440"
+		/>
+	</Translations>
+</TextIdentifier>

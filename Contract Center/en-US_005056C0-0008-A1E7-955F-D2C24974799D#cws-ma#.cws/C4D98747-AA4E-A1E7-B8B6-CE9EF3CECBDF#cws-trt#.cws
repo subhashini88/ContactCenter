@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B8B6-CE9EF3CF0BDF">
+	<DocumentID>C4D98747-AA4E-A1E7-B8B6-CE9EF3CECBDF</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B8B6-CE9EF3CECBDF</Name>
+	<Description>Z_INT_Update Contract Term</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2017-12-17T03:38:19.39</CreationDate>
+	<Notes/>
+	<Text>Z_INT_Update Contract Term</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-B8B6-CE9EF3CE4BDF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

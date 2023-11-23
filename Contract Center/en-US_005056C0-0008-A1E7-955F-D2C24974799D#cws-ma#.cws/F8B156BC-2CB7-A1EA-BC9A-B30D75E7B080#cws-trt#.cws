@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-BC9A-B30D75E7F080">
+	<DocumentID>F8B156BC-2CB7-A1EA-BC9A-B30D75E7B080</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-BC9A-B30D75E7B080</Name>
+	<Description>Update Nonstandard Clause</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-09-09T09:24:31.532</CreationDate>
+	<Notes/>
+	<Text>Update Nonstandard Clause</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-BC9A-B30D75E73080"
+		/>
+	</TextIdentifier>
+</TranslatedText>

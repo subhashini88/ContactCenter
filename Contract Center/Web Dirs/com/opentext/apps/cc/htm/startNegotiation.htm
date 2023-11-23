@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    </link>
+    <link rel="stylesheet" href="../css/appscommon.css" />
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <style>
+        #cc-externalContacts-loadmsg {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .defaultInfo {
+            font-family: 'Lato', 'Helvetica', 'Segoe UI', 'Tahoma', 'Arial', 'sans-serif';
+            text-align: center;
+            font-size: 2.25em;
+            font-weight: 300;
+            color: #333333;
+            padding-top: 175px;
+        }
+    </style>
+    <script type="text/javascript">
+        var is_last_page_clicked = 0;
+        var is_first_page_clicked = 0;
+        var offsetValue = 0;
+        var limitValue = 5;
+        var checkedExternalcontacts = {};
+        var mappedExternalUserIDcontacts = {};
+        var l_loadExtContactsExceptionMsg = "An error occurred while loading the external contacts. Contact the administrator.";
+        var l_startNegotiationExceptionMsg = "An error occurred while sharing negotiation to external contacts. Contact the administrator.";
+        var g_parentWindow = window.parent;
+        var externalPartyItemID;
+        var contractItemID;
+        var extContactUserID;
+        // On document ready
+        $(function () {
+            var i_locale = getlocale();
+            translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale, true);
+            var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+            loadRTLIfRequired(i_locale, rtl_css);
+
+            if (document.getElementById("id_searchExtContactsInput") != null)
+                document.getElementById("id_searchExtContactsInput").placeholder = "Search by name";
+            $.cordys.json.defaults.removeNamespacePrefix = true;
+            $('ai-dialog', window.parent.document).fadeIn();
+
+            //Fetching URL parameters
+            externalPartyItemID = getUrlParameterValue("externalPartyItemID", null, true);
+            contractID = getUrlParameterValue("instanceId", null, true);
+            Z_INT_Status = getUrlParameterValue("Z_INT_Status", null, true);
+            GetExtContactUserIDbyContractID(contractID);
+
+            //Platform dialog enhancements
+            platformDialogModifications("Start negotiation", startNegotiation);
+            $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).attr("disabled", true);
+
+            //getExternalContactsCount();
+            document.getElementById("id_externalContactsDiv").onload = removeBackground();
+            ko.applyBindings(l_externalContacts_model, document.getElementById("div_shareNegotiation"));
+            ko.applyBindings(l_shared_users_model, document.getElementById("div_SharedUserList"));
+        });
+
+        function translatePlaceHolders() {
+
+            var msg = getTranslationMessage("Review the negotiation closure request status for the displayed participants. Click {{0}} to close the negotiation and proceed.", getTranslationMessage("Continue"));
+
+            var replaced = msg.replace(/\{(.*)\}/, function (text, grp) {
+                return '<a style="cursor: pointer" onclick="proccedtoNegotiation()"><span>'.concat(grp, '</span></a>');
+            });
+
+            $("#closure_req_msg").html(replaced);
+
+            var elems = window.parent.document.getElementsByClassName("btn-translate");
+            if (elems)
+                for (var ind = 0; ind < elems.length; ind++) {
+                    elems[ind].innerHTML = getTranslationMessage(elems[ind].innerHTML);
+                }
+        }
+
+        var UserModel = function () {
+            this.ID = ko.observable();
+            this.userid = ko.observable();
+            this.username = ko.observable();
+            this.status = ko.observable();
+        }
+        var SharedUsersModel = function () {
+            this.usersList = ko.observableArray([]);
+        }
+        var l_shared_users_model = new SharedUsersModel();
+        function platformDialogModifications(startNegotiationBtnName, startNegotiationBtnActionEvent) {
+            $('ai-dialog', window.parent.document).animate({
+                'max-height': '80vh',
+                'max-width': '80vw',
+                'width': '80vw',
+                'height': '80vh'
+            }, 500);
+
+            //Dialog content style enhancements				
+            $('ai-dialog-body iframe', window.parent.document).css({
+                'width': '100%',
+                'height': 'calc(100% - 8px)'
+            });
+
+            $('ai-dialog-body', window.parent.document).css({
+                'max-height': 'calc(80vh - 103px)',
+                'height': '75vh',
+            });
+
+            $('.layout-panel .panel-container', window.parent.document).css({
+                'padding-left': '0px'
+            });
+
+            $('panel-container iframe', window.parent.document).css({
+                'height': 'calc(100% - 8px)',
+                'width': '100%',
+                'border': '0px'
+            });
+            //hide OK button
+            //$('ai-dialog-footer .btn-primary:contains("OK")', window.parent.document).hide();
+            $('ai-dialog-footer .btn-primary[type="submit"][aria-label != ""]', window.parent.document).hide();
+            //Save changes action in footer
+            var newBtn = document.createElement("Button");
+            newBtn.innerHTML = startNegotiationBtnName;
+            newBtn.className = "btn btn-primary btn-translate";
+            newBtn.id = "startNego"
+            newBtn.onclick = startNegotiationBtnActionEvent;
+            $('ai-dialog-footer .btn-primary', window.parent.document).before(newBtn);
+        }
+        function GetExtContactUserIDbyContractID(contractID) {
+            $.cordys.ajax({
+                method: "GetMappedUserIDContactsforaCTR",
+                namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+                parameters: {
+                    "contractID": contractID.substring(contractID.indexOf(".") + 1)
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess) {
+                        if (responseSuccess.mappedUserIDcontacts.FindZ_INT_UserIDExtContactsListResponse) {
+                            //extContactUserID = responseSuccess.ExtContactUserID.text;
+                            var mappedContacts = responseSuccess.mappedUserIDcontacts.FindZ_INT_UserIDExtContactsListResponse.CTRContacts
+                            if (mappedContacts) {
+                                if (mappedContacts.length) {
+                                    mappedContacts.forEach(function (iToken) {
+                                        checkedExternalcontacts
+                                        checkedExternalcontacts[getTextValue(iToken.RelatedContacts.ContainingPerson.User_ID)] = getTextValue(iToken.RelatedContacts.ContainingPerson.DisplayName);
+                                    });
+                                }
+                                else {
+                                    checkedExternalcontacts[getTextValue(mappedContacts.RelatedContacts.ContainingPerson.User_ID)] = getTextValue(mappedContacts.RelatedContacts.ContainingPerson.DisplayName);
+                                }
+                            }
+                        }
+                        if (Z_INT_Status == "RequestedForNegClosure") {
+                            checkPreviousNegotiationStatus(contractID);
+                        }
+                        else {
+                            getExternalContactsCount();
+                            $('#div_shareNegotiation').css('display', 'block');
+                        }
+                    } else {
+                        window.showOrHideInfo(true, responseSuccess, "Error", 10000);
+                    }
+                },
+                error: function (responseFailure) {
+                    window.showOrHideInfo(true, responseFailure, "Error", 10000);
+                    return false;
+                }
+            });
+        }
+        function proccedtoNegotiation() {
+            $('#div_SharedUserList').css('display', 'none');
+            $('#div_shareNegotiation').css('display', 'block');
+            getExternalContactsCount();
+            $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).show();
+        }
+        function checkPreviousNegotiationStatus(contractID) {
+            $.cordys.ajax({
+                method: "GetCurrentContentByContractID",
+                namespace: "http://schemas.opentext.com/apps/ContractNegotiation/19.4",
+                parameters: {
+                    "contractID": contractID,
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess) {
+                        $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).hide();
+                        if (responseSuccess.Output && responseSuccess.Output.FindZ_INT_RelatedContractContentListResponse && responseSuccess.Output.FindZ_INT_RelatedContractContentListResponse.RelatedContractContent) {
+                            if (responseSuccess.Output.FindZ_INT_RelatedContractContentListResponse.RelatedContractContent.Status != 'CLOSED') {
+                                loadSharedUsersList(responseSuccess.Output.FindZ_INT_RelatedContractContentListResponse.RelatedContractContent["RelatedContractContent-id"].ItemId1);
+                            } else {
+                                proccedtoNegotiation();
+                            }
+                        }
+                        else {
+                            proccedtoNegotiation();
+                        }
+                    } else {
+                        window.showOrHideInfo(true, responseSuccess, "Error", 10000);
+                    }
+                },
+                error: function (responseFailure) {
+                    window.showOrHideInfo(true, responseFailure, "Error", 10000);
+                    return false;
+                }
+            });
+
+        }
+        function loadSharedUsersList(relatedContentItemID) {
+            if (l_shared_users_model.usersList().length > 0)
+                return true;
+            parameters = {};
+            parameters.contentItemID = relatedContentItemID;
+            $.cordys.ajax(
+                {
+                    namespace: "http://schemas.opentext.com/apps/ContractNegotiation/19.4",
+                    method: "GetMappedExtContactsByContentItemId",
+                    parameters: parameters,
+                    success: function (data) {
+                        if (data) {
+                            $('#div_SharedUserList').css('display', 'block');
+                            $('#loadingMsg').css('display', 'none');
+                            sharedUsers = [];
+                            sharedUsers = data.data.FindZ_INT_RelatedExternalContactsListResponse.RelatedContentAndContactsMapping;
+                            if (sharedUsers) {
+                                l_shared_users_model.usersList.removeAll();
+                                if (sharedUsers.length) {
+                                    for (var i = 0; i < sharedUsers.length; i++) {
+                                        var user = new UserModel();
+                                        user.ID(getTextValue(sharedUsers[i]['RelatedContentAndContactsMapping-id'].Id1));
+                                        user.userid(getTextValue(sharedUsers[i].RelatedExternalContact.ExternalUserID));
+                                        user.username(getTextValue(sharedUsers[i].RelatedExternalContact.ExternalUserName));
+                                        user.status(getUserStatus(getTextValue(sharedUsers[i].Status)));
+                                        l_shared_users_model.usersList.push(user);
+                                    }
+                                } else {
+                                    var user = new UserModel();
+                                    user.ID(getTextValue(sharedUsers['RelatedContentAndContactsMapping-id'].Id1));
+                                    user.userid(getTextValue(sharedUsers.RelatedExternalContact.ExternalUserID));
+                                    user.username(getTextValue(sharedUsers.RelatedExternalContact.ExternalUserName));
+                                    user.status(getUserStatus(getTextValue(sharedUsers.Status)));
+                                    l_shared_users_model.usersList.push(user);
+                                }
+
+                            }
+                            else {
+                                l_shared_users_model.usersList.removeAll();
+                            }
+                        }
+                        if (mBundle) {
+                            mBundle.translate();
+                            translatePlaceHolders();
+                        }
+                    },
+                    error: function (responseFailure) {
+                        return false;
+                    }
+                });
+        }
+        function getUserStatus(iStatus) {
+            var lStatus;
+            switch (iStatus) {
+                case 'OPEN':
+                    lStatus = "Open";
+                    break;
+                case 'APPROVED':
+                    lStatus = "Approved";
+                    break;
+                case 'REJECTED':
+                    lStatus = "Rejected";
+                    break;
+                case 'DL_ABSOLUTE':
+                    lStatus = "Closed";
+                    break;
+                case 'SR_ABSOLUTE':
+                    lStatus = "Closed";
+                    break;
+                case 'SN_ABSOLUTE':
+                    lStatus = "Closed";
+                    break;
+            }
+            return getTranslationMessage(lStatus);
+        }
+        function startNegotiation() {
+            var externalUsers = [];
+            for (var extContact in checkedExternalcontacts) {
+                externalUser = {};
+                externalUser.userID = extContact;
+                externalUser.userName = checkedExternalcontacts[extContact];
+                externalUsers.push(externalUser);
+            }
+            $.cordys.ajax({
+                method: "ShareWithExternalContacts",
+                namespace: "http://schemas.opentext.com/apps/ContractNegotiation/19.4",
+                parameters: {
+                    "contractID": contractID,
+                    "externalUsers": { 'externalUser': externalUsers },
+                    "comments": $("#input_NegotiationComments").val()
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess) {
+                        updateContractZ_INT_Status();
+                    } else {
+                        window.showOrHideInfo(true, responseSuccess, "Error", 10000);
+                    }
+                },
+                error: function (responseFailure) {
+                    window.showOrHideInfo(true, responseFailure, "Error", 10000);
+                    return false;
+                }
+            });
+        }
+        function updateContractZ_INT_Status() {
+            $.cordys.ajax({
+                method: "UpdateContract",
+                namespace: "http://schemas/OpenTextContractCenter/Contract/operations",
+                parameters:
+                {
+                    "Contract-id":
+                    {
+                        "Id": contractID
+                    },
+                    "Contract-update":
+                    {
+                        "Z_INT_Status": "SentForNegotiation",
+                        "NegotiationComments": $("#input_NegotiationComments").val()
+                    }
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess) {
+                        uncheck_list();
+                        $('#div_shareNegotiation').css('display', 'none');
+                        $('#div_shareSuccessMessg').css('display', 'block');
+                        $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).hide()
+                        $('ai-dialog-footer .btn:contains("Cancel")', window.parent.document).text(getTranslationMessage("Close"));
+                    } else {
+                        window.showOrHideInfo(true, responseSuccess, "Error", 10000);
+                    }
+                },
+                error: function (responseFailure) {
+                    window.showOrHideInfo(true, responseFailure, "Error", 10000);
+                    return false;
+                }
+            });
+        }
+        function showOrHideInfo(iShow, iResponse, iType, iVisibleTime) {
+            var l_infoArea = document.getElementById("InfoArea");
+            if (iShow) {
+                var fault = iResponse.responseJSON;
+                var iMessage = null;
+                var _FaultCode = null;
+
+                if (fault != undefined) {
+                    _FaultCode = fault.faultcode.hasOwnProperty('text') ? fault.faultcode.text : fault.faultcode;
+                    iMessage = _FaultCode.includes('DocGen') ? fault.faultstring.text : getTranslationMessage(l_startNegotiationExceptionMsg);
+                } else {
+                    iMessage = getTranslationMessage(l_startNegotiationExceptionMsg);
+                }
+                l_infoArea.style.display = "inline";
+                l_infoArea.lastElementChild.innerText = iMessage;
+                if (iVisibleTime) {
+                    setTimeout(showOrHideInfo, iVisibleTime);
+                }
+            }
+            else {
+                l_infoArea.style.display = "none";
+                l_infoArea.lastElementChild.innerText = "";
+            }
+        }
+        var ExternalContactsListModel = function () {
+            var self = this;
+            self.ExternalContactsList = ko.observableArray([]);
+            self.currentPage = ko.observable(1);
+            self.externalContactsCount = ko.observable('');
+            self.checkedExtContactNames = ko.observable('');
+            self.onCheckboxValueChanged = function (iItem, event) {
+                var l_checked = event.currentTarget.checked;
+                if (l_checked) {
+                    checkedExternalcontacts[getTextValue(iItem.ContainingPerson.User_ID)] = getTextValue(iItem.ContainingPerson.DisplayName);
+                    $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).attr("disabled", false);
+                }
+                else {
+                    delete checkedExternalcontacts[getTextValue(iItem.ContainingPerson.User_ID)];
+                    if (Object.keys(checkedExternalcontacts).length == 0) {
+                        $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).attr("disabled", true);
+                    }
+                }
+                if ($('.ExtContact_Checkbox:checked').length == $('.ExtContact_Checkbox').length) {
+                    $('#selectAll').prop('checked', true);
+                }
+                var temp_checkedExtContactNames = "";
+                Object.keys(checkedExternalcontacts).forEach(function (key) {
+                    if (checkedExternalcontacts[key] != "") {
+                        temp_checkedExtContactNames = temp_checkedExtContactNames + checkedExternalcontacts[key] + ", ";
+                    }
+                });
+                l_externalContacts_model.checkedExtContactNames(temp_checkedExtContactNames);
+            }
+            self.onCheckAllValueChanged = function (iItem, event) {
+                var l_checked = event.currentTarget.checked;
+                if (l_checked) {
+                    iItem.ExternalContactsList().forEach(function (iToken) {
+                        checkedExternalcontacts[getTextValue(iToken.ContainingPerson.User_ID)] = getTextValue(iToken.ContainingPerson.DisplayName);
+                    });
+
+                    // var startNegoBtn = $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document);
+                    // startNegoBtn.attr("disabled", false);
+                    $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).attr("disabled", false);
+                }
+                else {
+                    iItem.ExternalContactsList().forEach(function (iToken) {
+                        delete checkedExternalcontacts[getTextValue(iToken.ContainingPerson.User_ID)];
+                    });
+                    if (Object.keys(checkedExternalcontacts).length == 0) {
+                        var startNegoBtn = $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document);
+
+                        $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).attr("disabled", true);
+                    }
+                }
+                var temp_checkedExtContactNames = "";
+                Object.keys(checkedExternalcontacts).forEach(function (key) {
+                    if (checkedExternalcontacts[key] != "") {
+                        temp_checkedExtContactNames = temp_checkedExtContactNames + checkedExternalcontacts[key] + ", ";
+                    }
+                });
+                l_externalContacts_model.checkedExtContactNames(temp_checkedExtContactNames);
+            }
+        }
+        function checkAll(ele) {
+            if (ele.checked) {
+                $('.ExtContact_Checkbox').prop('checked', true);
+            }
+            else {
+                $('.ExtContact_Checkbox').prop('checked', false);
+            }
+            $('.ExtContact_Checkbox').change(function () {
+                $('#selectAll')[0].checked = false;
+            });
+        }
+        var l_externalContacts_model = new ExternalContactsListModel();
+        function getExternalContactsCount() {
+            var temp_searchElement = "";
+            if ($('#id_searchExtContactsInput').val()) {
+                temp_searchElement = $('#id_searchExtContactsInput').val();
+            }
+            $.cordys.ajax({
+                method: "GetAllUserIDContactsforaCTR",
+                namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+                parameters: {
+                    "contractID": contractID.substring(contractID.indexOf(".") + 1),
+                    "userIDSearch": temp_searchElement,
+                    "Offset": offsetValue,
+                    "limit": limitValue
+                },
+            }).done(function (data) {
+                if (data.FindZ_INT_ExternalContactsListResponse['@total'] != undefined) {
+                    l_externalContacts_model.externalContactsCount(data.FindZ_INT_ExternalContactsListResponse['@total']);
+                    attachEventstoList();
+                    if (l_externalContacts_model.currentPage() == 1) {
+                        document.getElementById("decrementer").style.display = "none";
+                    }
+                }
+                $('#selectAll')[0].checked = false;
+                if (l_externalContacts_model.currentPage() == 1) {
+                    document.getElementById("decrementer").style.display = "none";
+                    document.getElementById("incrementer").style.display = "inline";
+                }
+                if (l_externalContacts_model.externalContactsCount() <= 5) {
+                    l_externalContacts_model.currentPage('1');
+                    $('#decrementer,#incrementer').css('display', 'none');
+                }
+                if (is_first_page_clicked) {
+                    offsetValue = 0;
+                    l_externalContacts_model.currentPage('1');
+                    is_first_page_clicked = 1;
+                    $('#incrementer').css('display', 'inline');
+                    $('#decrementer').css('display', 'none');
+                    is_first_page_clicked = 0;
+                }
+                if (is_last_page_clicked) {
+                    offsetValue = (Math.ceil(l_externalContacts_model.externalContactsCount() / 5) - 1) * 5;
+                    l_externalContacts_model.currentPage(Math.ceil(l_externalContacts_model.externalContactsCount() / 5));
+                    is_last_page_clicked = 0;
+                    $('#incrementer').css('display', 'none');
+                    $('#decrementer').css('display', 'inline');
+                    is_last_page_clicked = 0;
+                }
+                addDatatoExtContactsView(data.FindZ_INT_ExternalContactsListResponse.RelatedContacts, l_externalContacts_model);
+                $('#cc-externalContacts-loadmsg').hide();
+                $('#id_externalContactsDiv').show();
+                //loadExternalPartyContacts(temp_searchElement);
+            }).fail(function (error) {
+
+            });
+        }
+        function loadExternalPartyContacts(l_searchElement) {
+
+            ExternalContactsListModel = $.cordys.ajax(
+                {
+                    method: "GetExternalContactsbyPartyItemID",
+                    namespace: "http://schemas.opentext.com/apps/contractcenter/16.3",
+                    parameters: {
+                        "PartyItemID": externalPartyItemID.substring(externalPartyItemID.indexOf(".") + 1),
+                        "Cursor":
+                        {
+                            "Offset": offsetValue,
+                            "limit": limitValue
+                        },
+                        "searchElement": l_searchElement
+                    },
+                    success: function (responseSuccess) {
+                        if (responseSuccess) {
+
+                        } else {
+                            window.showOrHideInfo(true, responseSuccess, "Error", 10000);
+                        }
+                    },
+                    error: function (responseFailure) {
+                        window.showOrHideInfo(true, responseFailure, "Error", 10000);
+                        return false;
+                    }
+                });
+        }
+        function addDatatoExtContactsView(iElementList, iModel) {
+            iModel.ExternalContactsList.removeAll();
+            if (iElementList) {
+                if (iElementList.length) {
+                    iElementList.forEach(function (iElement) {
+                        iElement.isSelected = ko.computed(function () {
+                            return (checkedExternalcontacts[getTextValue(iElement.ContainingPerson.User_ID)]) ? true : false;
+                        });
+                        /*if (extContactUserID == getTextValue(iElement.ContainingPerson.User_ID)) {
+                            checkedExternalcontacts[getTextValue(iElement.ContainingPerson.User_ID)] = getTextValue(iElement.ContainingPerson.DisplayName);
+                            iElement.isSelected = ko.computed(function () {
+                                return (extContactUserID == getTextValue(iElement.ContainingPerson.User_ID)) ? true : false;
+                            });
+                            $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).attr("disabled", false);
+                        }*/
+                        iModel.ExternalContactsList.push(iElement);
+                    });
+                }
+                else {
+                    iElementList.isSelected = ko.computed(function () {
+                        return (checkedExternalcontacts[getTextValue(iElementList.ContainingPerson.User_ID)]) ? true : false;
+                    });
+                    /*if (extContactUserID == getTextValue(iElementList.ContainingPerson.User_ID)) {
+                        checkedExternalcontacts[getTextValue(iElementList.ContainingPerson.User_ID)] = getTextValue(iElementList.ContainingPerson.DisplayName);
+                        iElementList.isSelected = ko.computed(function () {
+                            return (extContactUserID == getTextValue(iElementList.ContainingPerson.User_ID)) ? true : false;
+                        });
+                        $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).attr("disabled", false);
+                    }*/
+                    iModel.ExternalContactsList.push(iElementList);
+                }
+                if (Object.keys(checkedExternalcontacts).length > 0) {
+                    $('ai-dialog-footer .btn-primary[id="startNego"]', window.parent.document).attr("disabled", false);
+                }
+                var temp_checkedExtContactNames = "";
+                Object.keys(checkedExternalcontacts).forEach(function (key) {
+                    if (checkedExternalcontacts[key] != "") {
+                        temp_checkedExtContactNames = temp_checkedExtContactNames + checkedExternalcontacts[key] + ",";
+                    }
+                });
+                l_externalContacts_model.checkedExtContactNames(temp_checkedExtContactNames);
+            }
+            if ($('.ExtContact_Checkbox:checked').length == $('.ExtContact_Checkbox').length) {
+                $('#selectAll').prop('checked', true);
+            }
+        }
+        function incrementOffsetLimit() {
+            if (l_externalContacts_model.currentPage() < Math.ceil(l_externalContacts_model.externalContactsCount() / 5)) {
+                offsetValue = offsetValue + 5;
+                l_externalContacts_model.currentPage(isNaN(parseInt(l_externalContacts_model.currentPage())) ? 0 : parseInt(l_externalContacts_model.currentPage()));
+                l_externalContacts_model.currentPage(parseInt(l_externalContacts_model.currentPage()) + 1);
+            }
+            if (l_externalContacts_model.currentPage() == Math.ceil(l_externalContacts_model.externalContactsCount() / 5)) {
+                document.getElementById("incrementer").style.display = "none";
+            }
+            if (l_externalContacts_model.currentPage() > 1) {
+                document.getElementById("decrementer").style.removeProperty("display");
+            }
+            var temp_searchElement = "";
+            if ($('#id_searchExtContactsInput').val()) {
+                temp_searchElement = $('#id_searchExtContactsInput').val();
+            }
+            getExternalContactsCount(temp_searchElement);
+        }
+        function decrementOffsetLimit() {
+            if (l_externalContacts_model.currentPage() > 1) {
+                offsetValue = offsetValue - 5;
+                l_externalContacts_model.currentPage(parseInt(l_externalContacts_model.currentPage()) - 1);
+            }
+            if (l_externalContacts_model.currentPage() < Math.ceil(l_externalContacts_model.externalContactsCount() / 5)) {
+                document.getElementById("incrementer").style.removeProperty("display");
+            }
+            if (l_externalContacts_model.currentPage() == 1) {
+                document.getElementById("decrementer").style.display = "none";
+            }
+            if (l_externalContacts_model.currentPage() < 1)
+                return;
+            var temp_searchElement = "";
+            if ($('#id_searchExtContactsInput').val()) {
+                temp_searchElement = $('#id_searchExtContactsInput').val();
+            }
+            getExternalContactsCount(temp_searchElement);
+        }
+        function incrementToLast() {
+            is_last_page_clicked = 1;
+            getExternalContactsCount();
+        }
+        function decrementToLast() {
+            is_first_page_clicked = 1;
+            getExternalContactsCount()
+        }
+
+        function removeBackground() {
+            return function () {
+                var frameElem = $('#cc-doc-preview-frame')[0];
+                if (frameElem) {
+                    window.addStylesToPlatformLayout(frameElem.contentWindow.document);
+                }
+            }
+        }
+        function attachEventstoList() {
+            $('#img_SearchContacts').click(function () {
+                l_externalContacts_model.currentPage('1');
+                offsetValue = 0;
+                $('#decrementer').css('display', 'none');
+                $('#incrementer').css('display', 'inline');
+                getExternalContactsCount();
+            });
+            $('#id_searchExtContactsInput').keypress(function (e) {
+                var key = e.which;
+                if (key == 13)  // the enter key code
+                {
+                    l_externalContacts_model.currentPage('1');
+                    offsetValue = 0;
+                    $('#decrementer').css('display', 'none');
+                    $('#incrementer').css('display', 'inline');
+                    getExternalContactsCount();
+                    return false;
+                }
+            });
+        }
+        $(window).on("unload", function (e) {
+            g_parentWindow.location.reload();
+        });
+        function addStylesToPlatformLayout(iDocument) {
+            var l_Style = iDocument.createElement("style");
+            l_Style.innerHTML = ".root-container {background: none !important;} \n .layout-panel {border: none !important;}";
+            iDocument.head.appendChild(l_Style);
+        }
+        function uncheck_list() {
+            offsetValue = 0;
+            l_externalContacts_model.currentPage(1);
+            $("#id_searchExtContactsInput").val("");
+            $('#id_externalContacts input[type=checkbox]:checked').removeAttr('checked');
+            $('#selectAll').checked = false;
+        }
+
+        function getTextValue(obj) {
+            if (obj) {
+                if (obj.text) {
+                    return obj.text;
+                } else {
+                    return obj;
+                }
+            }
+            else {
+                return "";
+            }
+        }
+    </script>
+</head>
+
+<body class="cc-ltr">
+    <span style="display: none;text-align: center;padding: 5px;border-bottom: 3px solid rgb(223, 51, 36);position: absolute;top: 5px;left: 5%;width: 90%;box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.09);" id="InfoArea">
+        <img src="../img/notification_error.svg" width="25px" height="25px" align="middle" style="margin-right:5px;">
+        <span id="InfoText" style="position: relative;"></span>
+    </span>
+    <div id="div_shareSuccessMessg" class="col-xs-12 defaultInfo" style="display: none;">
+        <span data-translatable="true">Contract shared for negotiation with the selected external contacts.</span>
+    </div>
+    <div class="col-lg-12" id="div_shareNegotiation" style="display: none;padding-top: 30px;">
+        <div id="div_shareExtContacts" class="col-md-9 cc-frame-area rtl-float-right">
+            <h3 id="cc-externalContacts-loadmsg" data-translatable="true">Loading external contacts...</h3>
+            <div id="id_externalContactsDiv">
+                <div class="input-group" style="padding-bottom: 10px;">
+                    <input type="search" id="id_searchExtContactsInput" placeholder="Search by name" class="form-control rtl-input-browse" data-translatable="true">
+                    <span class="input-group-addon rtl-input-browse-icon">
+                        <img class="apps-icon" alt="Search" src="../img/search.png" id="img_SearchContacts" style="cursor: pointer;">
+                    </span>
+                </div>
+                <div style="height: 265px; overflow-y: auto;">
+                    <table id="id_externalContacts" class="table table-responsive" style="border: 1px solid #ddd;">
+                        <thead>
+                            <tr>
+                                <th style="width: 1%;">
+                                    <input id="selectAll" data-bind="event:{change:$root.onCheckAllValueChanged}" onchange="checkAll(this)" type="checkbox">
+                                    </input>
+                                </th>
+                                <th style="width: 23%;">
+                                    <label class="label-no-bold" data-translatable="true">Name</label>
+                                </th>
+                                <th style="width: 23%;">
+                                    <label class="label-no-bold" data-translatable="true">User ID</label>
+                                </th>
+                                <th style="width: 30%;">
+                                    <label class="label-no-bold" data-translatable="true">Email ID</label>
+                                </th>
+                                <th style="width: 25%;">
+                                    <label class="label-no-bold" data-translatable="true">External account</label>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="id_externalContactsList" data-bind="foreach:ExternalContactsList">
+                            <tr class="row-style">
+                                <td>
+                                    <input class="ExtContact_Checkbox" data-bind="checked:isSelected,event:{change:$root.onCheckboxValueChanged}" type="checkbox">
+                                    </input>
+                                </td>
+                                <td>
+                                    <div data-bind="if: ContainingPerson.DisplayName">
+                                        <div data-bind="text:ContainingPerson.DisplayName.text"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div data-bind="if: ContainingPerson.User_ID">
+                                        <div data-bind="text:ContainingPerson.User_ID.text"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div data-bind="if: ContainingPerson.Email">
+                                        <div data-bind="text:ContainingPerson.Email.text"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div data-bind="if: Owner.Name">
+                                        <div data-bind="text:Owner.Name.text"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <ul class="pull-left pagination" style="margin: 0;">
+                        <li class="li-pagination">
+                            <a id="id_externalContactsCount" style="border: 0; color: black; padding-left: 8px; cursor: auto;">
+                                <span data-bind="text:externalContactsCount"></span>
+                                <span> </span><span data-translatable="true">Contact(s)</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="pagination pull-right" style="margin: 0;">
+                        <li class="li-pagination" id="decrementer" style="cursor: pointer;">
+                            <a data-bind="click:decrementToLast.bind()">«</a>
+                            <a data-bind="click:decrementOffsetLimit.bind()">‹</a>
+                        </li>
+                        <li class="li-pagination">
+                            <a data-bind="text:currentPage"></a>
+                        </li>
+                        <li class="li-pagination" id="incrementer" style="cursor: pointer;">
+                            <a data-bind="click:incrementOffsetLimit.bind()">›</a>
+                            <a data-bind="click:incrementToLast.bind()">»</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group col-lg-12">
+                <label data-translatable="true">Negotiation participants </label>
+                <div style="padding: 0px; height: 108px;border: none;box-shadow: none;" data-bind="text:checkedExtContactNames" class="form-control" type="text" style="height: 108px;">
+                </div>
+            </div>
+            <div class="form-group col-lg-12">
+                <label data-translatable="true">Negotiation comments</label>
+                <textarea class="form-control" rows="5" id="input_NegotiationComments"></textarea>
+            </div>
+        </div>
+    </div>
+    <div id="div_SharedUserList" style="display: none;">
+        <!-- ko if: usersList().length <=0 -->
+        <div class="row" style="display: none; height: 70%; text-align: center; font-style: italic;" id="div_noSharedUsers">
+            <p class="defaultInfo" data-translatable="true">This contract is not shared with any user.</p>
+        </div>
+        <!-- /ko -->
+        <!-- ko if: usersList().length > 0 -->
+        <div class="row" style="width: 100%;height: 70%; text-align: center; font-style: italic;" id="div_proceedToNegotiation">
+            <p class="defaultInfo" style="padding: 0px;">
+                <span id="closure_req_msg" data-translatable="true"></span>
+            </p>
+        </div>
+        <div class="row" id="div_SharedUserResults" style="margin-left: 5px;margin-right: 5px;margin-top: 35px;">
+            <div>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col" data-translatable="true">#</th>
+                            <th scope="col" data-translatable="true">User ID</th>
+                            <th scope="col" data-translatable="true">User name</th>
+                            <th scope="col" data-translatable="true">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody data-bind="foreach:usersList">
+                        <tr>
+                            <th data-bind="text:$index()+1" scope="row"></th>
+                            <td data-bind="text:userid"></td>
+                            <td data-bind="text:username"></td>
+                            <td data-bind="text:status"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- /ko -->
+    </div>
+</body>
+
+</html>

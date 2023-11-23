@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-BBD6-B8053E0D487D">
+	<DocumentID>B4B676CD-53D8-A1E8-BBD6-B8053E0D087D</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-BBD6-B8053E0D087D</Name>
+	<Description>ExecutionToWithdrawed</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-23T20:16:30.799</CreationDate>
+	<Notes/>
+	<Text>ExecutionToWithdrawed</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-BBD6-B8053E0C887D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

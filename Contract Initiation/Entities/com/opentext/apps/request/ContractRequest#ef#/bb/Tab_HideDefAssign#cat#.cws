@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="002B6743-E6B0-A1EE-873A-BFE85661B172">
+	<DocumentID>002B6743-E6B0-A1EE-873A-BFE856617172</DocumentID>
+	<Name>Tab_HideDefAssign</Name>
+	<Description>Tab_HideDefAssign</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-07T17:33:42.118</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3C-1189BA724882"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

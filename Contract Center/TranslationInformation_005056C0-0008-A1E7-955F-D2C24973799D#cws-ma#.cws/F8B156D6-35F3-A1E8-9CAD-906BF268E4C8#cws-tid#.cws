@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9CAD-906BF26924C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9CAD-906BF268E4C8</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9CAD-906BF268E4C8</Name>
+	<Description>DisableContractTerm</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-18T05:42:35.416</CreationDate>
+	<Notes/>
+	<DefaultText>DisableContractTerm</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-9CAD-906BF26964C8"
+		/>
+	</Translations>
+</TextIdentifier>

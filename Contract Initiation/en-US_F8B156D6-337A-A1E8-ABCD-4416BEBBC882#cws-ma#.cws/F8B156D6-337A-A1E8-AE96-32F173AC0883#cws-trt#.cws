@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AE96-32F173AC4883">
+	<DocumentID>F8B156D6-337A-A1E8-AE96-32F173AC0883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AE96-32F173AC0883</Name>
+	<Description>Reject</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-17T09:15:17.643</CreationDate>
+	<Notes/>
+	<Text>Reject</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AE96-32F173AB8883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

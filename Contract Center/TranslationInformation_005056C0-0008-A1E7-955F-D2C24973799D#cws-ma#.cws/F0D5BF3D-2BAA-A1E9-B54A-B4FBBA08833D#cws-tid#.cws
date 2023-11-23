@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B54A-B4FBBA08C33D">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B54A-B4FBBA08833D</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B54A-B4FBBA08833D</Name>
+	<Description>Request negotiation closure</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-12T07:04:33.723</CreationDate>
+	<Notes/>
+	<DefaultText>Request negotiation closure</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B54A-B4FBBA09033D"
+		/>
+	</Translations>
+</TextIdentifier>

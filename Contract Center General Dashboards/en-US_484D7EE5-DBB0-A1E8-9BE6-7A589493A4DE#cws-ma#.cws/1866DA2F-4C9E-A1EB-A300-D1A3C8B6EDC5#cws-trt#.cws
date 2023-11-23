@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EB-A300-D1A3C8B72DC5">
+	<DocumentID>1866DA2F-4C9E-A1EB-A300-D1A3C8B6EDC5</DocumentID>
+	<Name>1866DA2F-4C9E-A1EB-A300-D1A3C8B6EDC5</Name>
+	<Description>My clause assignments layout</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-23T18:20:46.934</CreationDate>
+	<Notes/>
+	<Text>My clause assignments layout</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EB-A300-D1A3C8B66DC5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

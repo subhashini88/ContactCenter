@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B67F-857477EA033E">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B67F-857477E9C33E</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B67F-857477E9C33E</Name>
+	<Description>Content can not empty.</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-18T10:23:12.862</CreationDate>
+	<Notes/>
+	<Text>Content can not empty.</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B67F-857477E9433E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-A4DD-AF610C6CAB2B">
+	<DocumentID>50EB711A-AD5A-A1EB-A4DD-AF610C6C6B2B</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-A4DD-AF610C6C6B2B</Name>
+	<Description>Amended contracts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-02T07:02:14.211</CreationDate>
+	<Notes/>
+	<Text>Amended contracts</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EB-A4DD-AF610C6BEB2B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

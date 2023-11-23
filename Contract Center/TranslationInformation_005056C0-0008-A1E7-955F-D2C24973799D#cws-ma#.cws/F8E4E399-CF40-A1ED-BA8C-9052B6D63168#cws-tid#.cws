@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-BA8C-9052B6D67168">
+	<DocumentID>F8E4E399-CF40-A1ED-BA8C-9052B6D63168</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-BA8C-9052B6D63168</Name>
+	<Description>Read contract rel</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-04T04:26:44.343</CreationDate>
+	<Notes/>
+	<DefaultText>Read contract rel</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-BA8C-9052B6D6B168"
+		/>
+	</Translations>
+</TextIdentifier>

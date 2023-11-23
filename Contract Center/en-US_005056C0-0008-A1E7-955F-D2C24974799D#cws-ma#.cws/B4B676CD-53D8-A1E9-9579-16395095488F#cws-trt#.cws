@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-9579-16395095888F">
+	<DocumentID>B4B676CD-53D8-A1E9-9579-16395095488F</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-9579-16395095488F</Name>
+	<Description>OnStateEntry_Process</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-03T08:19:12.966</CreationDate>
+	<Notes/>
+	<Text>OnStateEntry_Process</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-9579-16395094C88F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

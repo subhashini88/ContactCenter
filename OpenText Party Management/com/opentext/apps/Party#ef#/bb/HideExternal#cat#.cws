@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="9890969C-5774-A1E7-B53F-5CFB983324B8">
+	<DocumentID>9890969C-5774-A1E7-B53F-5CFB9832E4B8</DocumentID>
+	<Name>HideExternal</Name>
+	<Description>HideExternal</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-11-29T12:19:58.047</CreationDate>
+	<Notes/>
+	<referenceCount>5</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D5-AA46-A1E7-A610-3D9F234F24BC"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

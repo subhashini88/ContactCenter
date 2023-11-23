@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9AE8-70A5A63FB153">
+	<DocumentID>F8E4E399-CF40-A1ED-9AE8-70A5A63F7153</DocumentID>
+	<Name>HideExternalExecutedTabs</Name>
+	<Description>HideExternalExecutedTabs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-11-24T02:56:08.731</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9C79-B802894AB156">
+	<DocumentID>F8E4E399-CF40-A1ED-9C79-B802894A7156</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-9C79-B802894A7156</Name>
+	<Description>UpdateIntPartyConcatenation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-02T02:31:59.713</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateIntPartyConcatenation</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-9C79-B802894AF156"
+		/>
+	</Translations>
+</TextIdentifier>

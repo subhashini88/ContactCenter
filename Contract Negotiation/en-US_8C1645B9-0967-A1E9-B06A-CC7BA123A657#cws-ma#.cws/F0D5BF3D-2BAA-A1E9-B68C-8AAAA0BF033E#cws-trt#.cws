@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B68C-8AAAA0BF433E">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B68C-8AAAA0BF033E</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B68C-8AAAA0BF033E</Name>
+	<Description>Read Content of Close negotiation if any.</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-18T16:43:00.22</CreationDate>
+	<Notes/>
+	<Text>Read Content of Close negotiation if any.</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B68C-8AAAA0BE833E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

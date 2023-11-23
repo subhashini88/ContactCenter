@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-B14A-EEFF96A89696">
+	<DocumentID>18DBF20F-3D64-A1E7-B14A-EEFF96A85696</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-B14A-EEFF96A85696</Name>
+	<Description>Template activity flow</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-11-09T08:57:31.307</CreationDate>
+	<Notes/>
+	<DefaultText>Template activity flow</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="18DBF20F-3D64-A1E7-B14A-EEFF96A8D696"
+		/>
+	</Translations>
+</TextIdentifier>

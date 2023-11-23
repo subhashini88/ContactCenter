@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-A611-23277FA86B2B">
+	<DocumentID>50EB711A-AD5A-A1EB-A611-23277FA82B2B</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-A611-23277FA82B2B</Name>
+	<Description>Ralation type</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-08T08:34:06.208</CreationDate>
+	<Notes/>
+	<Text>Ralation type</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EB-A611-23277FA7AB2B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

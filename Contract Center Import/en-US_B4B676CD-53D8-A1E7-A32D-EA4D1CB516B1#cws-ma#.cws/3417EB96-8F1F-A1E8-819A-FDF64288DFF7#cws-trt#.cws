@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-819A-FDF642891FF7">
+	<DocumentID>3417EB96-8F1F-A1E8-819A-FDF64288DFF7</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-819A-FDF64288DFF7</Name>
+	<Description>Manager Inactive and replacement manager linked</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-01-31T09:55:27.275</CreationDate>
+	<Notes/>
+	<Text>Manager Inactive and replacement manager linked</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-819B-3475BC73DFF7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

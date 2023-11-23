@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-8234-E893EEE6089A">
+	<DocumentID>484D7EE4-6263-A1E9-8234-E893EEE5C89A</DocumentID>
+	<Name>484D7EE4-6263-A1E9-8234-E893EEE5C89A</Name>
+	<Description>External contact import status list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-12-26T07:47:07.416</CreationDate>
+	<Notes/>
+	<Text>External contact import status list</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE4-6263-A1E9-8234-E893EEE5489A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

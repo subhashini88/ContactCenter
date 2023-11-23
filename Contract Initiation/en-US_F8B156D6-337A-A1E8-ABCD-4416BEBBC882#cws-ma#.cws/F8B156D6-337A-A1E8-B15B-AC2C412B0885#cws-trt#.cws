@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B15B-AC2C412B4885">
+	<DocumentID>F8B156D6-337A-A1E8-B15B-AC2C412B0885</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B15B-AC2C412B0885</Name>
+	<Description>Mandatory on change</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-01T11:44:01.369</CreationDate>
+	<Notes/>
+	<Text>Mandatory on change</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B15B-AC2C412A8885"
+		/>
+	</TextIdentifier>
+</TranslatedText>

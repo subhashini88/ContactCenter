@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E7-B790-3F6C379424E8">
+	<DocumentID>C4D98747-A6D9-A1E7-B790-3F6C3793E4E8</DocumentID>
+	<Name>C4D98747-A6D9-A1E7-B790-3F6C3793E4E8</Name>
+	<Description>getPartyByCollectionAccountNumber</Description>
+	<CreatedBy>setup</CreatedBy>
+	<CreationDate>2017-12-11T07:51:42.341</CreationDate>
+	<Notes/>
+	<Text>getPartyByCollectionAccountNumber</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E7-B790-3F6C379364E8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

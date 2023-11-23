@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9C85-8BB32F5E2514">
+	<DocumentID>484D7EE5-DBB0-A1E9-9C85-8BB32F5DE514</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-9C85-8BB32F5DE514</Name>
+	<Description>getPendingAssignmentsCount</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-05-09T04:56:14.506</CreationDate>
+	<Notes/>
+	<DefaultText>getPendingAssignmentsCount</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E9-9C85-8BB32F5E6514"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-9E3A-DA862667B763">
+	<DocumentID>005056C0-0008-A1E7-9E3A-DA8626677763</DocumentID>
+	<Name>005056C0-0008-A1E7-9E3A-DA8626677763</Name>
+	<Description>Cross Application Related</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-08-04T09:33:51.787</CreationDate>
+	<Notes/>
+	<Text>Cross Application Related</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-9E3A-DA862666F763"
+		/>
+	</TextIdentifier>
+</TranslatedText>

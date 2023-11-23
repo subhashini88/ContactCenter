@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B216-1890FC623DE9">
+	<DocumentID>C4D98747-AA4E-A1E7-B216-1890FC61FDE9</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B216-1890FC61FDE9</Name>
+	<Description>Contract subtype_39</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-13T10:22:09.494</CreationDate>
+	<Notes/>
+	<DefaultText>Contract subtype_39</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B216-1890FC627DE9"
+		/>
+	</Translations>
+</TextIdentifier>

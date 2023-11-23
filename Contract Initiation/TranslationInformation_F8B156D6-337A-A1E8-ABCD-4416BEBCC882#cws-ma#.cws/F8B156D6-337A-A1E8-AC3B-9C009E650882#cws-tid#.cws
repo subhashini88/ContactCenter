@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC3B-9C009E654882">
+	<DocumentID>F8B156D6-337A-A1E8-AC3B-9C009E650882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC3B-9C009E650882</Name>
+	<Description>Time Taken</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T09:36:09.403</CreationDate>
+	<Notes/>
+	<DefaultText>Time Taken</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3B-9C009E658882"
+		/>
+	</Translations>
+</TextIdentifier>

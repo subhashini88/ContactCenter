@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-88B7-2511388AA50F">
+	<DocumentID>484D7EEB-71EF-A1E9-88B7-2511388A650F</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-88B7-2511388A650F</Name>
+	<Description>On action date to external contact about expiry</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-28T09:19:16.047</CreationDate>
+	<Notes/>
+	<DefaultText>On action date to external contact about expiry</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-88B7-2511388AE50F"
+		/>
+	</Translations>
+</TextIdentifier>

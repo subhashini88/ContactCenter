@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A44-F6AE387D6B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A44-F6AE387D2B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A44-F6AE387D2B9A</Name>
+	<Description>Z_INT_AllDocuSignConfigList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-31T10:06:15.749</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_AllDocuSignConfigList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912464DF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A44-F6AE387DAB9A"
+		/>
+	</Translations>
+</TextIdentifier>

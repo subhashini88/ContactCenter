@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4F73-A1E7-AC3A-FC39406AA38D">
+	<DocumentID>1866DA2F-4F73-A1E7-AC3A-FC39406A638D</DocumentID>
+	<Name>1866DA2F-4F73-A1E7-AC3A-FC39406A638D</Name>
+	<Description>ReadRevenueSchedule</Description>
+	<CreatedBy>vsusmith</CreatedBy>
+	<CreationDate>2017-10-14T14:32:27.284</CreationDate>
+	<Notes/>
+	<Text>ReadRevenueSchedule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4F73-A1E7-AC3A-FC394069E38D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

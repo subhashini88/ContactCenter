@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-8631-55F9E8232509">
+	<DocumentID>484D7EEB-71EF-A1E9-8631-55F9E822E509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-8631-55F9E822E509</Name>
+	<Description>All emails_1</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-15T13:08:05.552</CreationDate>
+	<Notes/>
+	<DefaultText>All emails_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-8631-55F9E8236509"
+		/>
+	</Translations>
+</TextIdentifier>

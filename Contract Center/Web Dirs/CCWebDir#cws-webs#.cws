@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="00505601-21E8-A1E7-AF5D-6F73A82B80D1">
+	<DocumentID>00505601-21E8-A1E7-AF5D-6F73A82B40D1</DocumentID>
+	<Name>CCWebDir</Name>
+	<Description>CCWebDir</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-10-30T13:28:44.583</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="00505601-21E8-A1E7-AF5D-6F73A82C40D1"
+			path="Contract Center/Web Dirs"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D5-A1E8-9BE2-F8389E56E51F">
+	<DocumentID>C4D98747-A6D5-A1E8-9BE2-F8389E56A51F</DocumentID>
+	<Name>C4D98747-A6D5-A1E8-9BE2-F8389E56A51F</Name>
+	<Description>Email IDs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-14T04:37:06.431</CreationDate>
+	<Notes/>
+	<Text>Email IDs</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D5-A1E8-9BE2-F8389E56251F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-B505-9F042688AFFC">
+	<DocumentID>F8B156BC-2CB7-A1E7-B505-9F0426886FFC</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-B505-9F0426886FFC</Name>
+	<Description>Price protection</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-11-28T08:31:28.183</CreationDate>
+	<Notes/>
+	<Text>Price protection</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-B505-9F042687EFFC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

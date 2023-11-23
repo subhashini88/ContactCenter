@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-9888-E44A5A1BCF70">
+	<DocumentID>84A938BF-F78D-A1EE-9888-E44A5A1B8F70</DocumentID>
+	<Name>84A938BF-F78D-A1EE-9888-E44A5A1B8F70</Name>
+	<Description>Met - Pending recurrences</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-03T19:36:45.961</CreationDate>
+	<Notes/>
+	<DefaultText>Met - Pending recurrences</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="84A938BF-F78D-A1EE-9888-E44A5A1C0F70"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-B572-C8D67AA27A9F">
+	<DocumentID>98FA9B81-5041-A1EC-B572-C8D67AA23A9F</DocumentID>
+	<Name>98FA9B81-5041-A1EC-B572-C8D67AA23A9F</Name>
+	<Description>CTR parties list</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-05-17T10:24:03.233</CreationDate>
+	<Notes/>
+	<Text>CTR parties list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-B572-C8D67AA1BA9F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

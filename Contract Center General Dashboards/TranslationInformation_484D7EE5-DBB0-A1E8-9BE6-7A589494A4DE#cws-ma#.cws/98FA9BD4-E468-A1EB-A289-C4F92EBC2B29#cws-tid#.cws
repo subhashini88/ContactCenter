@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A289-C4F92EBC6B29">
+	<DocumentID>98FA9BD4-E468-A1EB-A289-C4F92EBC2B29</DocumentID>
+	<Name>98FA9BD4-E468-A1EB-A289-C4F92EBC2B29</Name>
+	<Description>My terminations new</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-21T09:50:47.112</CreationDate>
+	<Notes/>
+	<DefaultText>My terminations new</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9BD4-E468-A1EB-A289-C4F92EBCAB29"
+		/>
+	</Translations>
+</TextIdentifier>

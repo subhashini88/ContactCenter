@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-8FC9-2DD257AEE4EB">
+	<DocumentID>F8B156D5-E69D-A1E9-8FC9-2DD257AEA4EB</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-8FC9-2DD257AEA4EB</Name>
+	<Description>getDocuSignConfiguration</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-06T04:19:16.28</CreationDate>
+	<Notes/>
+	<DefaultText>getDocuSignConfiguration</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912464DF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-E69D-A1E9-8FC9-2DD257AF24EB"
+		/>
+	</Translations>
+</TextIdentifier>

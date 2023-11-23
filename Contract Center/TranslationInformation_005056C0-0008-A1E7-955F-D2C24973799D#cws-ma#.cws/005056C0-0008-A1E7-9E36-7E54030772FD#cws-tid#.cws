@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9E36-7E540307B2FD">
+	<DocumentID>005056C0-0008-A1E7-9E36-7E54030772FD</DocumentID>
+	<Name>005056C0-0008-A1E7-9E36-7E54030772FD</Name>
+	<Description>condition_34</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-08-04T06:24:04.053</CreationDate>
+	<Notes/>
+	<DefaultText>condition_34</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9E36-7E540307F2FD"
+		/>
+	</Translations>
+</TextIdentifier>

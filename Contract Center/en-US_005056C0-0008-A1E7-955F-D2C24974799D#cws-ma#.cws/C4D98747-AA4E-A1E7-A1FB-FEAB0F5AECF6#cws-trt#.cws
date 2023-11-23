@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A1FB-FEAB0F5B2CF6">
+	<DocumentID>C4D98747-AA4E-A1E7-A1FB-FEAB0F5AECF6</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A1FB-FEAB0F5AECF6</Name>
+	<Description>GenericStateTransitionNotfication</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-08-23T10:44:05.159</CreationDate>
+	<Notes/>
+	<Text>GenericStateTransitionNotfication</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A1FB-FEAB0F5A6CF6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A383-81E72D1BB156">
+	<DocumentID>C4D98747-AA4E-A1E7-A383-81E72D1B7156</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A383-81E72D1B7156</Name>
+	<Description>Non-Payment</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-08-31T05:40:14.755</CreationDate>
+	<Notes/>
+	<DefaultText>Non-Payment</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A383-81E72D1BF156"
+		/>
+	</Translations>
+</TextIdentifier>

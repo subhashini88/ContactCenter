@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AC69-DB3118119B7C">
+	<DocumentID>C4D98747-AA4E-A1E7-AC69-DB3118115B7C</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AC69-DB3118115B7C</Name>
+	<Description>Update ammend comments</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-15T12:55:06.951</CreationDate>
+	<Notes/>
+	<DefaultText>Update ammend comments</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-AC69-DB311811DB7C"
+		/>
+	</Translations>
+</TextIdentifier>

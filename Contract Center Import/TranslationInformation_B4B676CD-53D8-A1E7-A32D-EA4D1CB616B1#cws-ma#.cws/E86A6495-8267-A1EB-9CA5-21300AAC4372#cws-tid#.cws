@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="E86A6495-8267-A1EB-9CA5-21300AAC8372">
+	<DocumentID>E86A6495-8267-A1EB-9CA5-21300AAC4372</DocumentID>
+	<Name>E86A6495-8267-A1EB-9CA5-21300AAC4372</Name>
+	<Description>currencyFindService</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2021-02-19T10:01:49.682</CreationDate>
+	<Notes/>
+	<DefaultText>currencyFindService</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="E86A6495-8267-A1EB-9CA5-21300AACC372"
+		/>
+	</Translations>
+</TextIdentifier>

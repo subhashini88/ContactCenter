@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-8027-E83CE36C2716">
+	<DocumentID>3C6AA73A-0114-A1EC-8027-E83CE36BE716</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-19T03:47:16.541</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="3C6AA73A-0114-A1EC-8027-E83CE36B6716">
+			<DocumentID>3C6AA73A-0114-A1EC-8027-E83CE36B2716</DocumentID>
+			<Name>CreateUntitled_Entity</Name>
+			<Description>Create Untitled_Entity</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-08-19T03:47:16.552</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="3C6AA73A-0114-A1EC-8027-62291ED82716"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="3C6AA73A-0114-A1EC-8027-E83CE369E716">
+			<DocumentID>3C6AA73A-0114-A1EC-8027-E83CE369A716</DocumentID>
+			<Name>DeleteUntitled_Entity</Name>
+			<Description>Delete Untitled_Entity</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-08-19T03:47:16.542</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="3C6AA73A-0114-A1EC-8027-62291ED82716"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="3C6AA73A-0114-A1EC-8027-62291ED82716"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="3C6AA73A-0114-A1EC-8027-E83CE36AE716">
+			<DocumentID>3C6AA73A-0114-A1EC-8027-E83CE36AA716</DocumentID>
+			<Name>ReadUntitled_Entity</Name>
+			<Description>Read Untitled_Entity</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-08-19T03:47:16.55</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="3C6AA73A-0114-A1EC-8027-62291ED82716"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="3C6AA73A-0114-A1EC-8027-E83CE36A6716">
+			<DocumentID>3C6AA73A-0114-A1EC-8027-E83CE36A2716</DocumentID>
+			<Name>UpdateUntitled_Entity</Name>
+			<Description>Update Untitled_Entity</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-08-19T03:47:16.536</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="3C6AA73A-0114-A1EC-8027-62291ED82716"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,34 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="C4D98747-A6D5-A1E8-9BE7-135F52C4251F">
+	<DocumentID>C4D98747-A6D5-A1E8-9BE7-135F52C3E51F</DocumentID>
+	<Name>RelationTypeLog</Name>
+	<Description>RelationTypeLog</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-14T06:34:25.674</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="C4D98747-A6D5-A1E8-9BE7-135F52C1A51F">
+			<DocumentID>C4D98747-A6D5-A1E8-9BE7-135F52C1651F</DocumentID>
+			<Name>C4D98747-A6D5-A1E8-9BE7-135F52C1651F</Name>
+			<Description>C4D98747-A6D5-A1E8-9BE7-135F52C1651F</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-06-14T06:34:25.677</CreationDate>
+			<Notes/>
+			<DeveloperText>RelationTypeLog</DeveloperText>
+			<Identifier>
+				<uri
+					id="C4D98747-A6D5-A1E8-9BE7-135F52C1E51F"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-A011-5E50006A3157">
+	<DocumentID>F8E4E399-CF40-A1ED-A011-5E500069F157</DocumentID>
+	<Name>Tab_HideRelatedorgs</Name>
+	<Description>Tab_HideRelatedorgs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-20T09:12:26.69</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

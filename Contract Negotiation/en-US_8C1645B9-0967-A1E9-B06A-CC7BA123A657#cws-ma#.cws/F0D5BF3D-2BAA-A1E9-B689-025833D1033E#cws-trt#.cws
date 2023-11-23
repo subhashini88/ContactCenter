@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B689-025833D1433E">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B689-025833D1033E</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B689-025833D1033E</Name>
+	<Description>Absolute SN</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-18T15:13:50.013</CreationDate>
+	<Notes/>
+	<Text>Absolute SN</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B689-025833D0833E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

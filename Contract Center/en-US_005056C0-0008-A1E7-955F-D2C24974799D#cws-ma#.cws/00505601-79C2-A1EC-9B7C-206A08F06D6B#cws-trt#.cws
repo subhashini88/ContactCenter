@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-9B7C-206A08F0AD6B">
+	<DocumentID>00505601-79C2-A1EC-9B7C-206A08F06D6B</DocumentID>
+	<Name>00505601-79C2-A1EC-9B7C-206A08F06D6B</Name>
+	<Description>UpdateCCScheduler</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-01-05T06:39:40.855</CreationDate>
+	<Notes/>
+	<Text>UpdateCCScheduler</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-9B7C-48732895ED6B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

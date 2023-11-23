@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AF27-9E7309488883">
+	<DocumentID>F8B156D6-337A-A1E8-AF27-9E7309484883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AF27-9E7309484883</Name>
+	<Description>Cant upload documents</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-20T08:39:41.394</CreationDate>
+	<Notes/>
+	<Text>Cant upload documents</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AF27-9E730947C883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

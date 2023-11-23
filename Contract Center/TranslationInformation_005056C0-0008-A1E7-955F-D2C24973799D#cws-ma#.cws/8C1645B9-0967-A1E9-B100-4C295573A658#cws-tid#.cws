@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B100-4C295573E658">
+	<DocumentID>8C1645B9-0967-A1E9-B100-4C295573A658</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B100-4C295573A658</Name>
+	<Description>Initial expiration date_13</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-21T11:35:41.555</CreationDate>
+	<Notes/>
+	<DefaultText>Initial expiration date_13</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-B100-4C2955742658"
+		/>
+	</Translations>
+</TextIdentifier>

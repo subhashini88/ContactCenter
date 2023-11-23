@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="002B6743-E6B0-A1EE-871F-AAC3AEE7B171">
+	<DocumentID>002B6743-E6B0-A1EE-871F-AAC3AEE77171</DocumentID>
+	<Name>002B6743-E6B0-A1EE-871F-AAC3AEE77171</Name>
+	<Description>AllOpenCLACustomAssignments</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-07T04:48:33.344</CreationDate>
+	<Notes/>
+	<Text>AllOpenCLACustomAssignments</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="002B6743-E6B0-A1EE-871F-AAC3AEE6F171"
+		/>
+	</TextIdentifier>
+</TranslatedText>

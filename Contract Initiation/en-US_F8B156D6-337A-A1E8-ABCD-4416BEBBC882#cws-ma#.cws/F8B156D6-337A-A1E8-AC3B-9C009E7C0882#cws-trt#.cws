@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC3B-9C009E7C4882">
+	<DocumentID>F8B156D6-337A-A1E8-AC3B-9C009E7C0882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC3B-9C009E7C0882</Name>
+	<Description>Task Entity Instance Id</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T09:36:09.413</CreationDate>
+	<Notes/>
+	<Text>Task Entity Instance Id</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3B-9C009E7B8882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

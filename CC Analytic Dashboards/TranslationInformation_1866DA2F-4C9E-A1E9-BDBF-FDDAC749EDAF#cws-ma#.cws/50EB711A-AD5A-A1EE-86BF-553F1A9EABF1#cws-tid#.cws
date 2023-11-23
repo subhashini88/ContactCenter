@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-86BA-22E1B614EBF1">
+	<DocumentID>50EB711A-AD5A-A1EE-86BF-553F1A9EABF1</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-86BF-553F1A9EABF1</Name>
+	<Description>RefreshDashboardWithTabId</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-05T06:29:52.945</CreationDate>
+	<Notes/>
+	<DefaultText>RefreshDashboardWithTabId</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EE-86BA-22E1B6152BF1"
+		/>
+	</Translations>
+</TextIdentifier>

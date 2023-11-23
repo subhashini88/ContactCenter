@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BDC6-15A419AAE666">
+	<DocumentID>3C6AA73A-0114-A1E9-BDC6-15A419AAA666</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BDC6-15A419AAA666</Name>
+	<Description>Are you sure to amend contract? This operation cannot be undone. Click close to abort.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-25T11:47:01.491</CreationDate>
+	<Notes/>
+	<Text>Are you sure to amend contract? This operation cannot be undone. Click close to abort.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-BDC6-15A419AA2666"
+		/>
+	</TextIdentifier>
+</TranslatedText>

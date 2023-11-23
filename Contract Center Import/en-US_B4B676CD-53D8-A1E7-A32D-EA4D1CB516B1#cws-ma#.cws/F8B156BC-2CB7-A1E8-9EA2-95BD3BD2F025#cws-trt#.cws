@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9EA2-95BD3BD33025">
+	<DocumentID>F8B156BC-2CB7-A1E8-9EA2-95BD3BD2F025</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9EA2-95BD3BD2F025</Name>
+	<Description>Get Failed Records</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-06-28T04:32:03.014</CreationDate>
+	<Notes/>
+	<Text>Get Failed Records</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9EA2-95BD3BD27025"
+		/>
+	</TextIdentifier>
+</TranslatedText>

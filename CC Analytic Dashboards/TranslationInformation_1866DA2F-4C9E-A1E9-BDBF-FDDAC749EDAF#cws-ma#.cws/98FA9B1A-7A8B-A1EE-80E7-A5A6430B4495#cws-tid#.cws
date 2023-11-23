@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-80E7-A5A6430B8495">
+	<DocumentID>98FA9B1A-7A8B-A1EE-80E7-A5A6430B4495</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-80E7-A5A6430B4495</Name>
+	<Description>Get saved charts by user ID</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-05T13:04:28.157</CreationDate>
+	<Notes/>
+	<DefaultText>Get saved charts by user ID</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-80E7-A5A6430BC495"
+		/>
+	</Translations>
+</TextIdentifier>

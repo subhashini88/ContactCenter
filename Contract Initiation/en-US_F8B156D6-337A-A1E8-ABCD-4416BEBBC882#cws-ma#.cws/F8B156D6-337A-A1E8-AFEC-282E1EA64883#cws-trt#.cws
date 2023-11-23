@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AFEC-282E1EA68883">
+	<DocumentID>F8B156D6-337A-A1E8-AFEC-282E1EA64883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AFEC-282E1EA64883</Name>
+	<Description>Revoke</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-24T05:41:19.636</CreationDate>
+	<Notes/>
+	<Text>Revoke</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AFEC-282E1EA5C883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

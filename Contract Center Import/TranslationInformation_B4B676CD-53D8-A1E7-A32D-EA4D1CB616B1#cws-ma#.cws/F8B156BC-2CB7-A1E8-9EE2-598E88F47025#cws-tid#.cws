@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9EE2-598E88F4B025">
+	<DocumentID>F8B156BC-2CB7-A1E8-9EE2-598E88F47025</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9EE2-598E88F47025</Name>
+	<Description>Please upload .ZIP file file size not more that --mb</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-07-01T03:04:22.383</CreationDate>
+	<Notes/>
+	<DefaultText>Please upload .ZIP file file size not more that --mb</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9EE2-598E88F4F025"
+		/>
+	</Translations>
+</TextIdentifier>

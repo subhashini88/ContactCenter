@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BB1F-52343A542B8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BB1F-52343A53EB8D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-BB1F-52343A53EB8D</Name>
+	<Description>MultiPartyIPUpgrade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-15T07:33:01.717</CreationDate>
+	<Notes/>
+	<DefaultText>MultiPartyIPUpgrade</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-BB1F-52343A546B8D"
+		/>
+	</Translations>
+</TextIdentifier>

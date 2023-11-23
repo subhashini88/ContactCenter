@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A6495-8267-A1EB-9D35-EFC8330B8372">
+	<DocumentID>E86A6495-8267-A1EB-9D35-EFC8330B4372</DocumentID>
+	<Name>E86A6495-8267-A1EB-9D35-EFC8330B4372</Name>
+	<Description>Record Exists?</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2021-02-22T07:00:31.852</CreationDate>
+	<Notes/>
+	<Text>Record Exists?</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A6495-8267-A1EB-9D35-EFC8330AC372"
+		/>
+	</TextIdentifier>
+</TranslatedText>

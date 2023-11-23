@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-8654-4B21F6DBA509">
+	<DocumentID>484D7EEB-71EF-A1E9-8654-4B21F6DB6509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-8654-4B21F6DB6509</Name>
+	<Description>Notification date notify value duration</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-16T05:41:29.551</CreationDate>
+	<Notes/>
+	<Text>Notification date notify value duration</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-8654-4B21F6DAE509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

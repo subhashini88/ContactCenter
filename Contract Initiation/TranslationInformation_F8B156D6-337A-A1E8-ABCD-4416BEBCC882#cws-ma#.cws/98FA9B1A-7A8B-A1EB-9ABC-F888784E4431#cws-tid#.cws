@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9ABC-F888784E8431">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9ABC-F888784E4431</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9ABC-F888784E4431</Name>
+	<Description>emails</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-09T16:29:01.01</CreationDate>
+	<Notes/>
+	<DefaultText>emails</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9ABC-F888784EC431"
+		/>
+	</Translations>
+</TextIdentifier>

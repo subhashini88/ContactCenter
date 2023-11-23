@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A03A-72047081E4C9">
+	<DocumentID>F8B156D6-35F3-A1E8-A03A-72047081A4C9</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A03A-72047081A4C9</Name>
+	<Description>Data - Countries</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-06T08:01:23.226</CreationDate>
+	<Notes/>
+	<DefaultText>Data - Countries</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-A03A-7204708224C9"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-CE011E86B068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-CE011E853068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-CE011E83F068"
+		/>
+	</Translations>
+</TextIdentifier>

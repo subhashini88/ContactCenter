@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CB0-86197A6AA4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CB0-86197A6A64DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CB0-86197A6A64DE</Name>
+	<Description>Parties - Contracting entities</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-18T06:46:15.263</CreationDate>
+	<Notes/>
+	<DefaultText>Parties - Contracting entities</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CB0-86197A6AE4DE"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-557DD6447068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-557DD642F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-557DD641B068"
+		/>
+	</Translations>
+</TextIdentifier>

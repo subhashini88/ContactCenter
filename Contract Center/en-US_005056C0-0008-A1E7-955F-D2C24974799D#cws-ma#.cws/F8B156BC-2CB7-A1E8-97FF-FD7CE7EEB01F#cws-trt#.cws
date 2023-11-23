@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-97FF-FD7CE7EEF01F">
+	<DocumentID>F8B156BC-2CB7-A1E8-97FF-FD7CE7EEB01F</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-97FF-FD7CE7EEB01F</Name>
+	<Description>Configurable properties action bar</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-05-25T09:45:52.137</CreationDate>
+	<Notes/>
+	<Text>Configurable properties action bar</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-97FF-FD7CE7EE301F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

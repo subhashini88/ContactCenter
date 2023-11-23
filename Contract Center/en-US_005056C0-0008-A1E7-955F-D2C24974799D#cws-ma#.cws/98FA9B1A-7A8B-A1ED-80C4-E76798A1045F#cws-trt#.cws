@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-80C4-E76798A1445F">
+	<DocumentID>98FA9B1A-7A8B-A1ED-80C4-E76798A1045F</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-80C4-E76798A1045F</Name>
+	<Description>UpdateContractPONumbers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-14T01:41:31.088</CreationDate>
+	<Notes/>
+	<Text>UpdateContractPONumbers</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-80C4-E76798A0845F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

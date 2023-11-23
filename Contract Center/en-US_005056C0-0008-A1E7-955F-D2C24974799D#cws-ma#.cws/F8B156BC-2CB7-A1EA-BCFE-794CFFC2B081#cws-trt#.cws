@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-BCFE-794CFFC2F081">
+	<DocumentID>F8B156BC-2CB7-A1EA-BCFE-794CFFC2B081</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-BCFE-794CFFC2B081</Name>
+	<Description>CNVT_TO_NONSTD</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-09-11T07:04:55.329</CreationDate>
+	<Notes/>
+	<Text>CNVT_TO_NONSTD</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-BCFE-E951E1F4F081"
+		/>
+	</TextIdentifier>
+</TranslatedText>

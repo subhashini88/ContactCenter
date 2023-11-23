@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A1C9-857AC13AA430">
+	<DocumentID>B4B676CD-53D8-A1E7-A1C9-857AC13A6430</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A1C9-857AC13A6430</Name>
+	<Description>Renewal length</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-22T10:43:38.864</CreationDate>
+	<Notes/>
+	<Text>Renewal length</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A1C9-857AC139E430"
+		/>
+	</TextIdentifier>
+</TranslatedText>

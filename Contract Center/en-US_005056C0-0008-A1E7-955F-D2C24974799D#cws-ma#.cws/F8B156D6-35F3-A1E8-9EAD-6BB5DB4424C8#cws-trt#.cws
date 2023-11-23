@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9EAD-6BB5DB4464C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9EAD-6BB5DB4424C8</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9EAD-6BB5DB4424C8</Name>
+	<Description>GenericMyTerminationsActions</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-28T09:40:39.562</CreationDate>
+	<Notes/>
+	<Text>GenericMyTerminationsActions</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-9EAD-6BB5DB43A4C8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

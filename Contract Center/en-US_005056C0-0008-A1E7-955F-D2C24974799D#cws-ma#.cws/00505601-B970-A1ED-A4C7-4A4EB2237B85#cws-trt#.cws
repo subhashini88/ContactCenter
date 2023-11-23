@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-B970-A1ED-A4C7-4A4EB223BB85">
+	<DocumentID>00505601-B970-A1ED-A4C7-4A4EB2237B85</DocumentID>
+	<Name>00505601-B970-A1ED-A4C7-4A4EB2237B85</Name>
+	<Description>Linked contracts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-13T08:36:12.109</CreationDate>
+	<Notes/>
+	<Text>Linked contracts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-B970-A1ED-A4C7-4A4EB222FB85"
+		/>
+	</TextIdentifier>
+</TranslatedText>

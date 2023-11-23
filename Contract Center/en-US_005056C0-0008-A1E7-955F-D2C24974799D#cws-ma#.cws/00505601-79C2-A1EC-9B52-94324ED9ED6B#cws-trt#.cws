@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-9B52-94324EDA2D6B">
+	<DocumentID>00505601-79C2-A1EC-9B52-94324ED9ED6B</DocumentID>
+	<Name>00505601-79C2-A1EC-9B52-94324ED9ED6B</Name>
+	<Description>ToCCScheduler</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-01-04T11:03:07.995</CreationDate>
+	<Notes/>
+	<Text>ToCCScheduler</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-9B52-94324ED96D6B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

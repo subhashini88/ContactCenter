@@ -1,0 +1,79 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="9890969C-5774-A1E7-B0B7-6294602624B7">
+	<DocumentID>9890969C-5774-A1E7-B0B7-62946025E4B7</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-11-06T10:34:31.073</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="9890969C-5774-A1E7-B0B5-2554EEE264B7"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B0B7-6294602564B7">
+			<DocumentID>9890969C-5774-A1E7-B0B7-6294602524B7</DocumentID>
+			<Name>ReadCompetitor</Name>
+			<Description>Read Competitor</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-11-06T10:34:31.073</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="9890969C-5774-A1E7-B0B5-2554EEE264B7"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B0B8-27DD4A08A4B7">
+			<DocumentID>9890969C-5774-A1E7-B0B8-27DD4A0864B7</DocumentID>
+			<Name>GetParentOwner</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-11-06T10:55:24.552</CreationDate>
+			<Notes/>
+			<OperationType>GetParent</OperationType>
+			<Entity>
+				<uri
+					id="9890969C-5774-A1E7-B0B5-2554EEE264B7"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="9890969C-5774-A1E7-B0B7-6294602324B7"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B0B7-62946024E4B7">
+			<DocumentID>9890969C-5774-A1E7-B0B7-62946024A4B7</DocumentID>
+			<Name>UpdateCompetitor</Name>
+			<Description>Update Competitor</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-11-06T10:34:31.073</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="9890969C-5774-A1E7-B0B5-2554EEE264B7"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

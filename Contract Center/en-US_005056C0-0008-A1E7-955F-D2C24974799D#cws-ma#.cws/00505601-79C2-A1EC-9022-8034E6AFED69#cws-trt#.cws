@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-9022-8034E6B02D69">
+	<DocumentID>00505601-79C2-A1EC-9022-8034E6AFED69</DocumentID>
+	<Name>00505601-79C2-A1EC-9022-8034E6AFED69</Name>
+	<Description>Contract obligation view list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-08T13:26:43.917</CreationDate>
+	<Notes/>
+	<Text>Contract obligation view list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-9022-8034E6AF6D69"
+		/>
+	</TextIdentifier>
+</TranslatedText>

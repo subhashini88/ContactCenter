@@ -1,0 +1,50 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B44C-78CAF1AA0889">
+	<DocumentID>F8B156D6-337A-A1E8-B44C-78CAF1A9C889</DocumentID>
+	<Name>OnCreateEmailTemplate</Name>
+	<Description>OnCreateEmailTemplate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-16T11:07:15.048</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>The&amp;nbsp; Contract initiation request &lt;a href=&quot;http://{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Identity.ItemId}/F8B156D6337AA1E8AC4038ADD5510882&quot;&gt;{item.Properties.ContractName}&lt;/a&gt; has been created by {User.Properties.FullName}.&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Contract initiation request {item.Properties.ContractName} created by {User.Properties.FullName}</Subject>
+	<To></To>
+	<BuildingBlock>
+		<uri
+			id="F8B156D6-337A-A1E8-B44C-78CAF1AA4889"
+		/>
+	</BuildingBlock>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="F8B156D6-337A-A1E8-B44C-7F4928298889">
+			<DocumentID>F8B156D6-337A-A1E8-B44C-7F4928294889</DocumentID>
+			<Name>F8B156D6-337A-A1E8-B44C-7F4928294889</Name>
+			<Description>F8B156D6-337A-A1E8-B44C-7F4928294889</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-10-16T11:07:15.041</CreationDate>
+			<Notes/>
+			<DeveloperText>On create email template</DeveloperText>
+			<Identifier>
+				<uri
+					id="F8B156D6-337A-A1E8-B44C-7F492829C889"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<TypeDefinition/>
+</EmailTemplate>

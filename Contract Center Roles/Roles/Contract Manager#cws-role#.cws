@@ -1,0 +1,62 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="3C6AA73A-0114-A1EB-AFEF-354D2D13A6F8">
+	<DocumentID>3C6AA73A-0114-A1EB-AFEF-354D2D1366F8</DocumentID>
+	<Name>Contract Manager</Name>
+	<Description>Contract Manager</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-05-28T14:12:48.574</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A17D-DBB2051B7073"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A9BF-751096113079"
+		/>
+		<uri
+			id="3C6AA73A-0114-A1E9-9ACB-B76672B72640"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-B768-E1E59CF4887B"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-B768-E1E59CF2C87B"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-B768-E1E59CFCC87B"
+		/>
+		<uri
+			id="F8B156D5-AA46-A1E7-AA3A-897DF88AA4C2"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E7-AE2B-6FC538A6A137"
+		/>
+		<uri
+			id="005056C0-0008-A1E7-ACC6-88CB070192CE"
+		/>
+		<uri
+			id="F8B156D5-AA46-A1E7-A641-4BD91B39A4BC"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-AAC4-E6F75C1B707A"
+		/>
+		<uri
+			id="3C6AA73A-0114-A1EB-B271-7B3930F4A6FE"
+		/>
+		<uri
+			id="3C6AA73A-0114-A1EC-844E-4A77980B671B"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-BB57-69359D0A487C"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

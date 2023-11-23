@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B9CF-F7B5D6EC0422">
+	<DocumentID>C4D98747-AA4E-A1E7-B9CF-F7B5D6EBC422</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B9CF-F7B5D6EBC422</Name>
+	<Description>Contract term (months)</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2017-12-22T18:14:51.353</CreationDate>
+	<Notes/>
+	<DefaultText>Contract term (months)</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B9CF-F7B5D6EC4422"
+		/>
+	</Translations>
+</TextIdentifier>

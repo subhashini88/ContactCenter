@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-BFDD-BDFAB060303F">
+	<DocumentID>F8B156BC-2CB7-A1E8-BFDD-BDFAB05FF03F</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-12-14T08:07:21.043</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-BFDD-BDFAB05F703F">
+			<DocumentID>F8B156BC-2CB7-A1E8-BFDD-BDFAB05F303F</DocumentID>
+			<Name>CreateClauseImportStatus</Name>
+			<Description>Create ClauseImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-12-14T08:07:21.043</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-BFD9-4984D9E2703F"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-BFDD-BDFAB05DF03F">
+			<DocumentID>F8B156BC-2CB7-A1E8-BFDD-BDFAB05DB03F</DocumentID>
+			<Name>DeleteClauseImportStatus</Name>
+			<Description>Delete ClauseImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-12-14T08:07:21.043</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-BFD9-4984D9E2703F"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156BC-2CB7-A1E8-BFD9-4984D9E2703F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-BFDD-BDFAB05EF03F">
+			<DocumentID>F8B156BC-2CB7-A1E8-BFDD-BDFAB05EB03F</DocumentID>
+			<Name>ReadClauseImportStatus</Name>
+			<Description>Read ClauseImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-12-14T08:07:21.04</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-BFD9-4984D9E2703F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-BFDD-BDFAB05E703F">
+			<DocumentID>F8B156BC-2CB7-A1E8-BFDD-BDFAB05E303F</DocumentID>
+			<Name>UpdateClauseImportStatus</Name>
+			<Description>Update ClauseImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-12-14T08:07:21.041</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-BFD9-4984D9E2703F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

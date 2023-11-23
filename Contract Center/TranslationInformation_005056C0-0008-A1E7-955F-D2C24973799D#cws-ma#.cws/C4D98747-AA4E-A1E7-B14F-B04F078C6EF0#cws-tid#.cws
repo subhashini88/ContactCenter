@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B14F-B04F078CAEF0">
+	<DocumentID>C4D98747-AA4E-A1E7-B14F-B04F078C6EF0</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B14F-B04F078C6EF0</Name>
+	<Description>Maintenance</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-09T11:15:51.93</CreationDate>
+	<Notes/>
+	<DefaultText>Maintenance</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B14F-B04F078CEEF0"
+		/>
+	</Translations>
+</TextIdentifier>

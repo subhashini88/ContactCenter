@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+    <link rel="stylesheet" href="../css/appscommon.css" />
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <style>
+        .defaultInfo {
+            font-family: 'Lato', 'Helvetica', 'Segoe UI', 'Tahoma', 'Arial', 'sans-serif';
+            text-align: center;
+            font-size: 2.25em;
+            font-weight: 300;
+            color: #333333;
+            padding-top: 175px;
+        }
+    </style>
+    <script type="text/javascript">
+        var l_requestNegotiationClosureExceptionMsg = "An error occurred while requesting negotiation closure to external contacts. Contact the administrator.";
+        var g_parentWindow = window.parent.parent;
+        var l_startDate;
+        var l_negClosureDate;
+        // On document ready
+        $(function () {
+            var i_locale = getlocale();
+            translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale, true);
+            var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+            loadRTLIfRequired(i_locale, rtl_css);
+
+            $.cordys.json.defaults.removeNamespacePrefix = true;
+            $('ai-dialog', window.parent.document).fadeIn();
+            //Platform dialog enhancements
+            platformDialogModifications("Request", requestNegotiationClosure);
+
+            $('ai-dialog-footer .btn-primary[id="id_request_closure"]', window.parent.document).attr("disabled", true);
+
+            //Fetching URL parameters
+            contractID = getUrlParameterValue("instanceId", null, true);
+
+            readContractDetails(contractID);
+
+            //validate date 
+            /*$("#input_NegotiationClosureDate").change(function () {
+                var inputDate = new Date(l_negClosureDate);
+                var todaysDate = new Date();
+                if (inputDate.setHours(0, 0, 0, 0) < todaysDate.setHours(0, 0, 0, 0)) {
+                    showValidationErrors(true, "Closure date must be a date after today's date.", 3000);
+                    $('ai-dialog-footer .btn-primary[id="id_request_closure"]', window.parent.document).attr("disabled", true);
+                } else if (inputDate.setHours(0, 0, 0, 0) >= l_startDate.setHours(0, 0, 0, 0)) {
+                    showValidationWarnings(true, "Closure date must be a date before the contract start date.", 3000);
+                    $('ai-dialog-footer .btn-primary[id="id_request_closure"]', window.parent.document).attr("disabled", false);
+                }
+                else {
+                    $('ai-dialog-footer .btn-primary[id="id_request_closure"]', window.parent.document).attr("disabled", false);
+                }
+            });*/
+            $("#input_NegotiationClosureDate").datepicker({
+                dateFormat: "yy-mm-dd",
+                onSelect: function (dateText, inst) {
+                    $("#input_NegotiationClosureDate").val(formateDatetoLocale(dateText));
+                    l_negClosureDate = dateText;
+                    var inputDate = new Date(l_negClosureDate);
+                    var todaysDate = new Date();
+                    if (inputDate.setHours(0, 0, 0, 0) < todaysDate.setHours(0, 0, 0, 0)) {
+                        showValidationErrors(true, "Closure date must be a date after today's date.", 3000);
+                        $('ai-dialog-footer .btn-primary[id="id_request_closure"]', window.parent.document).attr("disabled", true);
+                    } else if (inputDate.setHours(0, 0, 0, 0) >= l_startDate.setHours(0, 0, 0, 0)) {
+                        showValidationWarnings(true, "Closure date must be a date before the contract start date.", 3000);
+                        $('ai-dialog-footer .btn-primary[id="id_request_closure"]', window.parent.document).attr("disabled", false);
+                    }
+                    else {
+                        $('ai-dialog-footer .btn-primary[id="id_request_closure"]', window.parent.document).attr("disabled", false);
+                    }
+                }
+            });
+        });
+
+        function translatePlaceHolders() {
+            var elems = g_parentWindow.document.getElementsByClassName("btn-translate");
+            if (elems) {
+                for (var ind = 0; ind < elems.length; ind++) {
+                    elems[ind].innerHTML = getTranslationMessage(elems[ind].innerHTML);
+                    elems[ind].title = elems[ind].innerHTML;
+                }
+            }
+        }
+
+        function readContractDetails(contractID) {
+            $.cordys.ajax({
+                method: "ReadContract",
+                namespace: "http://schemas/OpenTextContractCenter/Contract/operations",
+                parameters: {
+                    "Contract-id": {
+                        "Id": contractID
+                    }
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess) {
+                        l_startDate = new Date(responseSuccess.Contract.StartDate.substring(0, responseSuccess.Contract.StartDate.indexOf("Z")) + "T00:00:00.000Z");
+                        $("#textarea_NegotiationComments").val(responseSuccess.Contract.NegotiationComments);
+                    } else {
+                        showValidationErrors(true, "Error while reading contract details.", 3000);
+                    }
+                },
+                error: function (responseFailure) {
+                    showValidationErrors(true, "Error while reading contract details.", 3000);
+                    return false;
+                }
+            });
+        }
+        function platformDialogModifications(buttonName, buttonActionEvent) {
+            //hide OK button
+            $('ai-dialog-footer .btn-primary[type="submit"]', window.parent.document).hide();
+            //Save changes action in footer
+            var newBtn = document.createElement("Button");
+            newBtn.innerHTML = buttonName;
+            newBtn.className = "btn btn-primary btn-translate";
+            newBtn.onclick = buttonActionEvent;
+            newBtn.id = "id_request_closure";
+            $('ai-dialog-footer .btn-primary', window.parent.document).before(newBtn);
+        }
+        function requestNegotiationClosure() {
+            $.cordys.ajax({
+                method: "RequestNegotiationClosure",
+                namespace: "http://schemas.opentext.com/apps/ContractNegotiation/19.4",
+                parameters: {
+                    "contractID": contractID,
+                    "dueDate": l_negClosureDate,
+                    "comments": $("#textarea_NegotiationComments").val()
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess) {
+                        updateContractZ_INT_Status();
+                    } else {
+                        showValidationErrors(true, "Error while requesting negotiation closure.", 3000);
+                    }
+                },
+                error: function (responseFailure) {
+                    showValidationErrors(true, "Error while requesting negotiation closure.", 3000);
+                    return false;
+                }
+            });
+        }
+        function updateContractZ_INT_Status() {
+            $.cordys.ajax({
+                method: "UpdateContract",
+                namespace: "http://schemas/OpenTextContractCenter/Contract/operations",
+                parameters:
+                {
+                    "Contract-id":
+                    {
+                        "Id": contractID
+                    },
+                    "Contract-update":
+                    {
+                        "Z_INT_Status": "RequestedForNegClosure",
+                        "NegotiationComments": $("#textarea_NegotiationComments").val()
+                    }
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess) {
+                        $('ai-dialog-footer .btn:contains("Cancel")', window.parent.document).text("Close");
+                        $('ai-dialog-footer .btn-primary[id="id_request_closure"]', window.parent.document).hide();
+                        $('#div_requestNegotiationClosure').css('display', 'none');
+                        $('#div_negCloseureReqSuccessMessg').css('display', 'block');
+                    } else {
+                        showValidationErrors(true, "Error while updating contract.", 3000);
+                    }
+                },
+                error: function (responseFailure) {
+                    showValidationErrors(true, "Error while updating contract.", 3000);
+                    return false;
+                }
+            });
+        }
+        function showValidationErrors(iShow, iMessage, iVisibleTime) {
+            var l_infoArea = document.getElementById("errorInfoArea");
+            if (iShow) {
+                l_infoArea.style.display = "inline";
+                l_infoArea.lastElementChild.innerText = getTranslationMessage(iMessage);
+                if (iVisibleTime) {
+                    setTimeout(showValidationErrors, iVisibleTime);
+                }
+            }
+            else {
+                l_infoArea.style.display = "none";
+                l_infoArea.lastElementChild.innerText = "";
+            }
+        }
+        function showValidationWarnings(iShow, iMessage, iVisibleTime) {
+            var l_infoArea = document.getElementById("WarningInfoArea");
+            if (iShow) {
+                l_infoArea.style.display = "inline";
+                l_infoArea.lastElementChild.innerText = getTranslationMessage(iMessage);
+                if (iVisibleTime) {
+                    setTimeout(showValidationWarnings, iVisibleTime);
+                }
+            }
+            else {
+                l_infoArea.style.display = "none";
+                l_infoArea.lastElementChild.innerText = "";
+            }
+        }
+        $(window).on("unload", function (e) {
+            g_parentWindow.location.reload();
+        });
+        function addStylesToPlatformLayout(iDocument) {
+            var l_Style = iDocument.createElement("style");
+            l_Style.innerHTML = ".root-container {background: none !important;} \n .layout-panel {border: none !important;}";
+            iDocument.head.appendChild(l_Style);
+        }
+    </script>
+</head>
+
+<body class="cc-ltr">
+    <span
+        style="display: none;text-align: center;padding: 5px;border-bottom: 3px solid rgb(223, 51, 36);position: absolute;top: 5px;left: 5%;width: 90%;box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.09);"
+        id="errorInfoArea">
+        <img src="../img/notification_error.svg" width="25px" height="25px" align="middle" style="margin-right:5px;">
+        <span id="InfoText" style="position: relative;"></span>
+    </span>
+    <span
+        style="display: none;text-align: center;padding: 5px;border-bottom: 3px solid rgb(223, 51, 36);position: absolute;top: 5px;left: 5%;width: 90%;box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.09);"
+        id="WarningInfoArea">
+        <img src="../img/exclamationNew.png" width="25px" height="25px" align="middle" style="margin-right:5px;">
+        <span id="InfoText" style="position: relative;"></span>
+    </span>
+    <div id="div_negCloseureReqSuccessMessg" class="col-xs-12 defaultInfo" style="display: none;" >
+        <span data-translatable="true">Negotiation closure request sent to negotiation participants.</span>
+    </div>
+    <div class="col-lg-12" id="div_requestNegotiationClosure" style="padding-top: 30px;">
+        <div class="form-group col-lg-12" style="padding-top: 15px;">
+            <label data-translatable="true">Close negotiation by</label>
+            <input name="negotiationClosureDate" id="input_NegotiationClosureDate" autocomplete="off"/>
+        </div>
+        <div class="form-group col-lg-12">
+            <label data-translatable="true">Closure comments</label>
+            <textarea class="form-control" rows="5" id="textarea_NegotiationComments"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>

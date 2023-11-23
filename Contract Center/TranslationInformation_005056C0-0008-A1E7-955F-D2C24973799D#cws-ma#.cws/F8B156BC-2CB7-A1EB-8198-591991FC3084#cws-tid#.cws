@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-8198-591991FC7084">
+	<DocumentID>F8B156BC-2CB7-A1EB-8198-591991FC3084</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-8198-591991FC3084</Name>
+	<Description>UpdateTermInstance</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-10-04T17:03:02.184</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateTermInstance</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EB-8198-591991FCB084"
+		/>
+	</Translations>
+</TextIdentifier>

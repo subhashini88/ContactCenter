@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1ED-861B-D50B1C672D6B">
+	<DocumentID>00505601-79C2-A1ED-861B-D50B1C66ED6B</DocumentID>
+	<Name>00505601-79C2-A1ED-861B-D50B1C66ED6B</Name>
+	<Description>Click to open contract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-10T06:35:34.484</CreationDate>
+	<Notes/>
+	<Text>Click to open contract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1ED-861B-D50B1C666D6B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

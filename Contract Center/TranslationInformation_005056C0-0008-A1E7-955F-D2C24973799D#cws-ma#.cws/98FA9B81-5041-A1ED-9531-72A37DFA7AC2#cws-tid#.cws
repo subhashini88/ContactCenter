@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1ED-9531-5DBBDF41FAC2">
+	<DocumentID>98FA9B81-5041-A1ED-9531-72A37DFA7AC2</DocumentID>
+	<Name>98FA9B81-5041-A1ED-9531-72A37DFA7AC2</Name>
+	<Description>get renewalFlags</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-10-26T00:35:04.73</CreationDate>
+	<Notes/>
+	<DefaultText>get renewalFlags</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1ED-9531-5DBBDF423AC2"
+		/>
+	</Translations>
+</TextIdentifier>

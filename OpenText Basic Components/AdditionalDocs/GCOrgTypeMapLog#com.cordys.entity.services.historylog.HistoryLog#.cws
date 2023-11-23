@@ -1,0 +1,30 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9579-2F319B1CF14F">
+	<DocumentID>F8E4E399-CF40-A1ED-9579-2F319B1CB14F</DocumentID>
+	<Name>GCOrgTypeMapLog</Name>
+	<Description>GCOrgTypeMapLog</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-10-27T10:49:43.011</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="F8E4E399-CF40-A1ED-9579-2F319B16F14F">
+			<DocumentID>F8E4E399-CF40-A1ED-9579-2F319B16B14F</DocumentID>
+			<Name>F8E4E399-CF40-A1ED-9579-2F319B16B14F</Name>
+			<Description>F8E4E399-CF40-A1ED-9579-2F319B16B14F</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-10-27T10:49:43.024</CreationDate>
+			<Notes/>
+			<DeveloperText>GCOrgTypeMapLog</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

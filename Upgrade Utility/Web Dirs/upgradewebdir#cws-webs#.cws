@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BC4B-3B998BB22B8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BC4B-3B998BB1EB8D</DocumentID>
+	<Name>upgradewebdir</Name>
+	<Description>upgradewebdir</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-21T07:13:08.253</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="50EB711A-AD5A-A1EC-B4A0-853D7FE5EB84"
+			path="Upgrade Utility/Web Dirs"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>

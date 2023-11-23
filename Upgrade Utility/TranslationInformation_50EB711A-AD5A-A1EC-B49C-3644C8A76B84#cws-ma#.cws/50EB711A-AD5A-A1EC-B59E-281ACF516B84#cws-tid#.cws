@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B59E-281ACF51AB84">
+	<DocumentID>50EB711A-AD5A-A1EC-B59E-281ACF516B84</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B59E-281ACF516B84</Name>
+	<Description>updateTempCount</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-18T07:04:41.057</CreationDate>
+	<Notes/>
+	<DefaultText>updateTempCount</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-B59E-281ACF51EB84"
+		/>
+	</Translations>
+</TextIdentifier>

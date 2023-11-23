@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-AE68-DB9D3AE4E656">
+	<DocumentID>8C1645B9-0967-A1E9-AE68-DB9D3AE4A656</DocumentID>
+	<Name>8C1645B9-0967-A1E9-AE68-DB9D3AE4A656</Name>
+	<Description>For Each Deleted Clause.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-08T06:18:22.632</CreationDate>
+	<Notes/>
+	<DefaultText>For Each Deleted Clause.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-AE68-DB9D3AE52656"
+		/>
+	</Translations>
+</TextIdentifier>

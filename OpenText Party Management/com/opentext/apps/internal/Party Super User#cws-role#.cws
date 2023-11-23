@@ -1,0 +1,19 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B98E-1AB7497724B9">
+	<DocumentID>484D7EE5-DBB0-A1E7-B98E-1AB74976E4B9</DocumentID>
+	<Name>Party Super User</Name>
+	<Description>Party Super User</Description>
+	<CreatedBy>CC Contract Admin</CreatedBy>
+	<CreationDate>2017-12-21T11:08:04.19</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Internal</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

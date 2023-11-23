@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B282-2288F3AD3162">
+	<DocumentID>F8E4E399-CF40-A1ED-B282-2288F3ACF162</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B282-2288F3ACF162</Name>
+	<Description>AllStatesUserCTRTasks</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-24T06:07:01.69</CreationDate>
+	<Notes/>
+	<DefaultText>AllStatesUserCTRTasks</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-B282-2288F3AD7162"
+		/>
+	</Translations>
+</TextIdentifier>

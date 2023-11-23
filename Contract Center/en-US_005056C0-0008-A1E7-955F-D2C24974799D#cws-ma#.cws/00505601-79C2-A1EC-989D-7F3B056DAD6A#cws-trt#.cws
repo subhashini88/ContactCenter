@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-989D-7F3B056DED6A">
+	<DocumentID>00505601-79C2-A1EC-989D-7F3B056DAD6A</DocumentID>
+	<Name>00505601-79C2-A1EC-989D-7F3B056DAD6A</Name>
+	<Description>UpdateRemainderDeadline</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-21T15:54:10.804</CreationDate>
+	<Notes/>
+	<Text>UpdateRemainderDeadline</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-989D-7F3B056D2D6A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

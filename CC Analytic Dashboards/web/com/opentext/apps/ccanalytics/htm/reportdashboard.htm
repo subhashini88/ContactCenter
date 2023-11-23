@@ -1,0 +1,2462 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <script src="/cordys/thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="/cordys/html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="/cordys/thirdparty/knockout/knockout.js"></script>
+    <script src="/cordys/html5/cordys.html5sdk.js"></script>
+    <link rel="stylesheet" href="/cordys/thirdparty/bootstrap/css/bootstrap.min.css">
+    <script src="/cordys/thirdparty/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+
+    <!-- Calender related libs-->
+    <link rel="stylesheet" type="text/css"
+        href="../../../../../com/opentext/apps/thirdparty/daterangepicker/daterangepicker.min.css" />
+    <script src="../../../../../com/opentext/apps/thirdparty/daterangepicker/daterangepicker.min.js"
+        type="text/javascript"></script>
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/dashboard_report.css">
+    <link rel="stylesheet" type="text/css" href="../css/appscommon.css">
+
+    <!-- Javascript-->
+    <script type="text/javascript" language="JavaScript" src="../js/ccreportdashboard_config.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/ccreportdashboard_util.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/ccreportdashboard_models.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/ccreportdashboard_methods.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/ccreportdashboard_load.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/ccreportdashboard_services.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/ccreportdashboard_datarangepicker.js"></script>
+    <script type="text/javascript" language="JavaScript" src="../js/ccreportdashboard_main.js"></script>
+</head>
+
+<body class="cc-ltr">
+    <div class="full-body-transparent"></div>
+    <div class="" id="reports_main_div">
+        <div class="row" style="margin: 0px;">
+            <div class="col-md-8 report-margin rtl-float-right" id="card1holder" style="padding: 0px !important;">
+                <div class="cc-card legend-card" cardid="1" id="card1" draggable="true" ondragstart="dragCard(event,1)"
+                    ondrop="dropCard(event,1)" ondragover="allowDrop(event)">
+                    <div class="col-md-12 cc-card-header" id="header1">
+                        <div class="title-header" data-translatable="true">Revenue / Spend analytics</div>
+                        <div class="cc-card-header-params">
+                            <div class="cc-cardReport-header card-1-report" id="card1ReportHeader">
+                                <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                    style="float: right;">
+                                    <button class="btn-settings" id="btn_card1Settings" onclick="openCard1Settings()"><i
+                                            class="icon-settings"></i></button>
+                                </div>
+                                <div style="float: right;margin-right: 10px;" class="btn-toolbar" role="toolbar"
+                                    aria-label="Toolbar with button groups">
+                                    <div class="form-group">
+                                        <div class="input-group cc-radio-btn-group">
+                                            <div id="radioBtn2" class="radioBtn cc-radioBtn">
+                                                <a class="btn btn-sm active cc-btn-pill btn-margin-left"
+                                                    data-toggle="radiobutton1" data-title="contractvalue">$</a>
+                                                <a class="btn btn-sm notActive cc-btn-pill btn-margin-right"
+                                                    data-toggle="radiobutton1" data-title="contractcount">#</a>
+                                            </div>
+                                            <input type="hidden" name="radiobutton1" id="radiobutton1"
+                                                value="contractvalue" class="cc-radio-button" cardnumber="1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="float: right;margin-right: 21px;">
+                                    <div class="daterange-div" id="reportrange1">
+                                        <span style="display: inline-block;margin: 4px 5px;"></span>
+                                        <i class="icon-calendar" style="float: right;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cc-cardSettings-header card-1-settings" id="card1SettingsHeader"
+                                style="display: none;">
+                                <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                    style="float: right;">
+                                    <button class="btn-cancel-settings" onclick="cancelCard1Settings()"><i
+                                            class="cancel-settings"></i></button>
+                                    <button class="btn-ok-settings" onclick="applyCard1Settings()"><i
+                                            class="ok-settings"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 without-padding cc-card-body" id="cardbody1">
+                        <div class="col-md-2" id="card1ReportBodyonExpand" style="display: none; margin-top: 125px;">
+                            <div class="col-md-12">
+                                <div class="cc-report-params-label" data-translatable="true">Intent type</div>
+                                <div class="cc-report-params-fieldgroup">
+                                    <input type="checkbox" name="intentTypes" value="Buy"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[0].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup">
+                                    <input type="checkbox" name="intentTypes" value="Sell"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[0].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup"><input type="checkbox" name="intentTypes"
+                                        value="Other" class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[0].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="cc-report-params-label" data-translatable="true">Category</div>
+                                <div class="cc-report-params-fieldgroup"><input type="radio" name="expandcategories"
+                                        value="Contract type" class="cc-report-params-radio"
+                                        data-bind="checked: reports()[0].appliedFilters.Category">
+                                    <div class="cc-report-params-field fs16 lh20" data-translatable="true">Contract type</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup"><input type="radio" name="expandcategories"
+                                        value="Region" class="cc-report-params-radio"
+                                        data-bind="checked: reports()[0].appliedFilters.Category">
+                                    <div class="cc-report-params-field fs16 lh20" data-translatable="true">Region</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup"> <input type="radio" name="expandcategories"
+                                        value="Contract value" class="cc-report-params-radio"
+                                        data-bind="checked: reports()[0].appliedFilters.Category">
+                                    <div class="cc-report-params-field fs16 lh20" data-translatable="true">Contract value</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button id="id_applyCard1Settings" type="submit" class="apps-btn apps-btn-primary"
+                                    onclick="applyCard1Settings()"><span data-translatable="true">Apply</span></button>
+                            </div>
+                        </div>
+                        <div class="col-md-2 without-padding cc-cardReport-summary" id="card1ReportSummary"
+                            style="display: block;">
+                            <div class="col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Total value</div>
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="text:reports()[0].contractValue"></div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Intent type</div>
+                                <div class="cc-report-params-value" data-translatable="true" data-bind="text: ko.computed(function(){return reports()[0].reportParms.IntentType().map(getTranslationMessage);})" style="font-weight: bold;">
+                                </div>
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Category</div>
+                                <div class="cc-report-params-value" data-bind="text:ko.computed(function(){return getTranslationMessage(reports()[0].reportParms.Category());})"
+                                    style="font-weight: bold;" data-translatable="true"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 without-padding cc-cardReport-body card-1-report">
+                            <div class="col-md-12 without-padding" id="card1ReportBody" cardid="1"></div>
+                        </div>
+                        <div class="col-md-12 without-padding" id="card1ReportExpandSummary">
+                            <div class="col-md-12">
+                                <div class="cc-report-params-label fs18 lh22" style="padding: 0px !important;">
+                                    <span data-translatable="true">Total value -</span>
+									<span class="cc-report-params-value" style="font-weight: bold;" data-bind="text:reports()[0].contractValue"></span>
+                                </div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="cc-cardSettings-body card-1-settings" id="card1SettingsBody" style="display: none;">
+                            <div class="col-md-12 without-padding">
+                                <div class="col-md-6 without-padding">
+                                    <div class="cc-report-params-label" data-translatable="true">Intent type</div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox" name="intentTypes" value="Buy"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[0].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox" name="intentTypes" value="Sell"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[0].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup"><input type="checkbox" name="intentTypes"
+                                            value="Other" class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[0].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 without-padding">
+                                    <div class="cc-report-params-label" data-translatable="true">Category</div>
+                                    <div class="cc-report-params-fieldgroup"><input type="radio" name="categories"
+                                            value="Contract type" class="cc-report-params-radio"
+                                            data-bind="checked: reports()[0].appliedFilters.Category">
+                                        <div class="cc-report-params-field fs16 lh20" data-translatable="true">Contract type</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup"><input type="radio" name="categories"
+                                            value="Region" class="cc-report-params-radio"
+                                            data-bind="checked: reports()[0].appliedFilters.Category">
+                                        <div class="cc-report-params-field fs16 lh20" data-translatable="true">Region</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup"> <input type="radio" name="categories"
+                                            value="Contract value" class="cc-report-params-radio"
+                                            data-bind="checked: reports()[0].appliedFilters.Category">
+                                        <div class="cc-report-params-field fs16 lh20" data-translatable="true">Contract value</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cc-card-footer">
+                        <div class="cc-cardReport-footer card-1-report" id="card1ReportFooter">
+                            <div class="btn-group expand-div" role="group" aria-label="Third group">
+                                <button class="btn btn-link btn-md pull-right expand-button"><i
+                                        class="icon-expand"></i></button>
+                            </div>
+                        </div>
+                        <div class="cc-cardSettings-footer card-1-settings" id="card1SettingsFooter"
+                            style="display: none;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 report-margin rtl-float-right" id="card2holder">
+                <div class="col-md-12 without-padding" id="card2holder">
+                    <div class="cc-card" cardid="2" draggable="true" id="card2" ondragstart="dragCard(event,2)"
+                        ondrop="dropCard(event,2)" ondragover="allowDrop(event)">
+                        <div class="col-md-12 cc-card-header" id="header2">
+                            <div class="title-header" data-translatable="true">Upcoming renewals</div>
+                            <div class="cc-card-header-params">
+                                <div class="cc-cardReport-header card-2-report" id="card2ReportHeader">
+                                    <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                        style="float: right;">
+                                        <button class="btn-settings" id="btn_card2Settings"
+                                            onclick="openCard2Settings()"><i class="icon-settings"></i></button>
+                                    </div>
+                                    <div style="float: right;margin-right: 10px;" class="btn-toolbar" role="toolbar"
+                                        aria-label="Toolbar with button groups">
+                                        <div class="form-group">
+                                            <div class="input-group cc-radio-btn-group">
+                                                <div id="radioBtn2" class="radioBtn cc-radioBtn">
+                                                    <a class="btn btn-sm active cc-btn-pill btn-margin-left"
+                                                        data-toggle="radiobutton2" data-title="contractvalue">$</a>
+                                                    <a class="btn btn-sm notActive cc-btn-pill btn-margin-right"
+                                                        data-toggle="radiobutton2" data-title="contractcount">#</a>
+                                                </div>
+                                                <input type="hidden" name="radiobutton2" id="radiobutton2"
+                                                    value="contractvalue" class="cc-radio-button" cardnumber="2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="float: right;margin-right: 21px;">
+                                        <div class="daterange-div" id="reportrange2">
+                                            <span style="display: inline-block;margin: 4px 5px;"></span>
+                                            <i class="icon-calendar" style="float: right;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cc-cardSettings-header card-2-settings" id="card2SettingsHeader"
+                                    style="display: none;">
+                                    <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                        style="float: right;">
+                                        <button class="btn-cancel-settings" onclick="cancelCard2Settings()"><i
+                                                class="cancel-settings"></i></button>
+                                        <button class="btn-ok-settings" onclick="applyCard2Settings()"><i
+                                                class="ok-settings"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 without-padding cc-card-body" id="cardbody2">
+                            <div class="col-md-2 without-padding" id="card2ReportBodyonExpand"
+                                style="display: none; margin-top: 45px;">
+                                <div class="col-md-12  without-padding">
+                                    <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 15px;">
+                                        <input type="checkbox" name="intentTypes" value="Buy"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[1].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;">
+                                        <input type="checkbox" name="intentTypes" value="Sell"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[1].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;">
+                                        <input type="checkbox" name="intentTypes" value="Other"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[1].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="margin-top: 20px;">
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                        <button class="browseParams" onclick="openContractTypes(2)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[1].appliedFilters.ContractTypes().length < 3 -->
+                                        <div class="chicklets-div" style="margin: 5px 0px;"
+                                            data-bind="foreach:reports()[1].appliedFilters.ContractTypes">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span>
+                                                <button class="btn btn-xs btn-link btn-md pull-right chicklet-close"
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,1,'ContractTypes')">
+                                                    <i class="chicklet-cancel"></i>
+                                                </button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[1].appliedFilters.ContractTypes().length > 2 ) -->
+                                        <div class="chicklets-div" style="margin: 5px 0px;">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[1].appliedFilters.ContractTypes()[0].displayName"></span>
+                                                <button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[1].appliedFilters.ContractTypes()[0],1,'ContractTypes')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close">
+                                                    <i class="chicklet-cancel"></i>
+                                                </button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[1].appliedFilters.ContractTypes().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                        <button class="browseParams" onclick="openRegions(2)"><i
+                                                class="icon-browseParams"></i></button>
+
+                                        <!-- ko if: reports()[1].appliedFilters.Regions().length < 3 -->
+                                        <div class="chicklets-div" style="margin: 5px 0px;"
+                                            data-bind="foreach:reports()[1].appliedFilters.Regions">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,1,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[1].appliedFilters.Regions().length > 2 ) -->
+                                        <div class="chicklets-div" style="margin: 5px 0px;">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[1].appliedFilters.Regions()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[1].appliedFilters.Regions()[0],1,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[1].appliedFilters.Regions().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                        <button class="browseParams" onclick="openContractValueRanges(2)"><i
+                                                class="icon-browseParams"></i></button>
+
+                                        <!-- ko if: reports()[1].appliedFilters.ValueRanges().length < 3 -->
+                                        <div class="chicklets-div" style="margin: 5px 0px;"
+                                            data-bind="foreach:reports()[1].appliedFilters.ValueRanges">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,1,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[1].appliedFilters.ValueRanges().length > 2 ) -->
+                                        <div class="chicklets-div" style="margin: 5px 0px;">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[1].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[1].appliedFilters.ValueRanges()[0],1,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[1].appliedFilters.ValueRanges().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="margin-top: 20px;">
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox"
+                                            data-bind="checked:reports()[1].appliedFilters.IncludeTerminations"
+                                            class="cc-report-params-checkbox">
+                                        <div class="cc-report-params-field" data-translatable="true">Include termination</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox"
+                                            data-bind="checked:reports()[1].appliedFilters.IncludeAutorenewals"
+                                            class="cc-report-params-checkbox">
+                                        <div class="cc-report-params-field" data-translatable="true">Include auto renewals</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button id="id_applyCard2Settings" type="submit" class="apps-btn apps-btn-primary"
+                                        onclick="applyCard2Settings()"><span data-translatable="true">Apply</span></button>
+                                </div>
+                            </div>
+                            <div class="col-md-2 without-padding cc-cardReport-summary"
+                                id="card2ReportSummary">
+                                <div class="col-md-12">
+                                    <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Total value</div>
+                                    <div class="cc-report-params-value" style="font-weight: bold;"
+                                        data-bind="text:reports()[1].contractValue"></div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Intent type</div>
+                                    <div class="cc-report-params-value"
+                                        data-bind="text: reports()[1].reportParms.IntentType"
+                                        style="font-weight: bold;">
+                                    </div>
+                                </div>
+                                <div class=" col-md-12">
+                                    <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Contract type</div>
+                                    <!-- ko if: reports()[1].reportParms.ContractTypes().length < 3 -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;"
+                                        data-bind="foreach:reports()[1].reportParms.ContractTypes">
+                                        <span data-bind="text:displayName"></span>
+                                        <!-- ko if: $index() !== $parent.reports()[1].reportParms.ContractTypes().length-1 -->
+                                        <span>, </span>
+                                        <!-- /ko-->
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[1].reportParms.ContractTypes().length > 2 ) -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;">
+                                        <span
+                                            data-bind="text: reports()[1].reportParms.ContractTypes()[0].displayName"></span>
+                                        <span class="more-div">
+                                            <span>, +</span>
+                                            <span
+                                                data-bind="text:reports()[1].reportParms.ContractTypes().length-1">+</span>
+                                        </span>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class=" col-md-12">
+                                    <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Region</div>
+                                    <!-- ko if: reports()[1].reportParms.Regions().length < 3 -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;"
+                                        data-bind="foreach:reports()[1].reportParms.Regions">
+                                        <span data-bind="text:displayName"></span>
+                                        <!-- ko if: $index() !== $parent.reports()[1].reportParms.Regions().length-1 -->
+                                        <span>, </span>
+                                        <!-- /ko-->
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[1].reportParms.Regions().length > 2 ) -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;">
+                                        <span
+                                            data-bind="text: reports()[1].reportParms.Regions()[0].displayName"></span>
+                                        <span class="more-div">
+                                            <span>, +</span>
+                                            <span data-bind="text:reports()[1].reportParms.Regions().length-1">+</span>
+                                        </span>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class=" col-md-12">
+                                    <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Contract value</div>
+                                    <!-- ko if: reports()[1].reportParms.ValueRanges().length < 3 -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;"
+                                        data-bind="foreach:reports()[1].reportParms.ValueRanges">
+                                        <span data-bind="text:displayName"></span>
+                                        <!-- ko if: $index() !== $parent.reports()[1].reportParms.ValueRanges().length-1 -->
+                                        <span>, </span>
+                                        <!-- /ko-->
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[1].reportParms.ValueRanges().length > 2 ) -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;">
+                                        <span
+                                            data-bind="text: reports()[1].reportParms.ValueRanges()[0].displayName"></span>
+                                        <span class="more-div">
+                                            <span>, +</span>
+                                            <span
+                                                data-bind="text:reports()[1].reportParms.ValueRanges().length-1">+</span>
+                                        </span>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                            </div>
+                            <div class="col-md-10 without-padding cc-cardReport-body card-2-report" id="card2ReportBody"
+                                cardid="2">
+                            </div>
+                            <div class="col-md-12 without-padding" id="card2ReportExpandSummary">
+                                <div class="col-md-12">
+                                    <div class="cc-report-params-label fs18 lh22" style="padding: 0px !important;">
+                                        <span data-translatable="true">Total value -</span>
+										<span class="cc-report-params-value" style="font-weight: bold;" data-bind="text:reports()[1].contractValue"></span>
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="cc-cardSettings-body card-2-settings" id="card2SettingsBody"
+                                style="display: none;">
+                                <div class="col-md-12 without-padding border-top">
+                                    <div class="col-md-4  without-padding">
+                                        <div class="cc-report-params-label" data-translatable="true">Intent type</div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <input type="checkbox" name="intentTypes" value="Buy"
+                                                class="cc-report-params-checkbox"
+                                                data-bind="checked: reports()[1].appliedFilters.IntentType">
+                                            <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                        </div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <input type="checkbox" name="intentTypes" value="Sell"
+                                                class="cc-report-params-checkbox"
+                                                data-bind="checked: reports()[1].appliedFilters.IntentType">
+                                            <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                        </div>
+                                        <div class="cc-report-params-fieldgroup"><input type="checkbox"
+                                                name="intentTypes" value="Other" class="cc-report-params-checkbox"
+                                                data-bind="checked: reports()[1].appliedFilters.IntentType">
+                                            <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 without-padding">
+                                        <div class="cc-report-params-label" data-translatable="true">Category</div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                            <button class="browseParams" onclick="openContractTypes(2)"><i
+                                                    class="icon-browseParams"></i></button>
+                                            <!-- ko if: reports()[1].appliedFilters.ContractTypes().length < 3 -->
+                                            <div class="chicklets-div"
+                                                data-bind="foreach:reports()[1].appliedFilters.ContractTypes">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="{text:$data.displayName}"></span>
+                                                    <button class="btn btn-xs btn-link btn-md pull-right chicklet-close"
+                                                        data-bind="click:$parent.removeItemFromSelectedList.bind($data,1,'ContractTypes')">
+                                                        <i class="chicklet-cancel"></i>
+                                                    </button></div>
+                                            </div>
+                                            <!-- /ko-->
+                                            <!-- ko if:(reports()[1].appliedFilters.ContractTypes().length > 2 ) -->
+                                            <div class="chicklets-div">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="text:reports()[1].appliedFilters.ContractTypes()[0].displayName"></span>
+                                                    <button
+                                                        data-bind="click:removeItemFromSelectedList.bind(reports()[1].appliedFilters.ContractTypes()[0],1,'ContractTypes')"
+                                                        class="btn btn-xs btn-link btn-md pull-right chicklet-close">
+                                                        <i class="chicklet-cancel"></i>
+                                                    </button>
+                                                </div>
+                                                <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                        class="chicklet-text"
+                                                        data-bind="text:(reports()[1].appliedFilters.ContractTypes().length-1)">
+                                                </div>
+                                            </div>
+                                            <!-- /ko-->
+
+                                        </div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                            <button class="browseParams" onclick="openRegions(2)"><i
+                                                    class="icon-browseParams"></i></button>
+
+                                            <!-- ko if: reports()[1].appliedFilters.Regions().length < 3 -->
+                                            <div class="chicklets-div"
+                                                data-bind="foreach:reports()[1].appliedFilters.Regions">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="{text:$data.displayName}"></span><button
+                                                        data-bind="click:$parent.removeItemFromSelectedList.bind($data,1,'Regions')"
+                                                        class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button></div>
+                                            </div>
+                                            <!-- /ko-->
+                                            <!-- ko if:(reports()[1].appliedFilters.Regions().length > 2 ) -->
+                                            <div class="chicklets-div">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="text:reports()[1].appliedFilters.Regions()[0].displayName"></span><button
+                                                        data-bind="click:removeItemFromSelectedList.bind(reports()[1].appliedFilters.Regions()[0],1,'Regions')"
+                                                        class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button>
+                                                </div>
+                                                <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                        class="chicklet-text"
+                                                        data-bind="text:(reports()[1].appliedFilters.Regions().length-1)">
+                                                </div>
+                                            </div>
+                                            <!-- /ko-->
+                                        </div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                            <button class="browseParams" onclick="openContractValueRanges(2)"><i
+                                                    class="icon-browseParams"></i></button>
+
+                                            <!-- ko if: reports()[1].appliedFilters.ValueRanges().length < 3 -->
+                                            <div class="chicklets-div"
+                                                data-bind="foreach:reports()[1].appliedFilters.ValueRanges">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="{text:$data.displayName}"></span><button
+                                                        data-bind="click:$parent.removeItemFromSelectedList.bind($data,1,'ValueRanges')"
+                                                        class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button></div>
+                                            </div>
+                                            <!-- /ko-->
+                                            <!-- ko if:(reports()[1].appliedFilters.ValueRanges().length > 2 ) -->
+                                            <div class="chicklets-div">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="text:reports()[1].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                        data-bind="click:removeItemFromSelectedList.bind(reports()[1].appliedFilters.ValueRanges()[0],1,'ValueRanges')"
+                                                        class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button>
+                                                </div>
+                                                <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                        class="chicklet-text"
+                                                        data-bind="text:(reports()[1].appliedFilters.ValueRanges().length-1)">
+                                                </div>
+                                            </div>
+                                            <!-- /ko-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cc-card-footer">
+                            <div class="cc-cardReport-footer card-2-report" id="card2ReportFooter">
+                                <div class="btn-group expand-div" role="group" aria-label="Third group">
+                                    <button class="btn btn-link btn-md pull-right expand-button"><i
+                                            class="icon-expand"></i></button>
+                                </div>
+                            </div>
+                            <div class="cc-cardSettings-footer card-2-settings" id="card2SettingsFooter"
+                                style="display: none;">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 params-footer-div">
+                                        <div class="col-md-6 without-padding">
+                                            <div class="cc-report-params-fieldgroup">
+                                                <input type="checkbox"
+                                                    data-bind="checked:reports()[1].appliedFilters.IncludeTerminations"
+                                                    class="cc-report-params-checkbox">
+                                                <div class="cc-report-params-field" data-translatable="true">Include termination</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 without-padding">
+                                            <div class="cc-report-params-fieldgroup">
+                                                <input type="checkbox"
+                                                    data-bind="checked:reports()[1].appliedFilters.IncludeAutorenewals"
+                                                    class="cc-report-params-checkbox">
+                                                <div class="cc-report-params-field" data-translatable="true">Include auto renewals</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 without-padding" id="card3holder" style="margin-top: 16px;">
+                    <div class="cc-card" cardid="3" draggable="true" id="card3" ondragstart="dragCard(event,3)"
+                        ondrop="dropCard(event,3)" ondragover="allowDrop(event)">
+                        <div class="col-md-12 cc-card-header" id="header3">
+                            <div class="title-header" data-translatable="true">Cycle time analytics</div>
+                            <div class="cc-card-header-params">
+                                <div class="cc-cardReport-header card-3-report" id="card3ReportHeader">
+                                    <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                        style="float: right;">
+                                        <button class="btn-settings" id="btn_card3Settings"
+                                            onclick="openCard3Settings()"><i class="icon-settings"></i></button>
+                                    </div>
+                                    <div style="float: right;margin-right: 10px;" class="btn-toolbar" role="toolbar"
+                                        aria-label="Toolbar with button groups">
+                                        <div class="form-group">
+                                            <div class="input-group cc-radio-btn-group">
+                                                <div id="radioBtn2" class="radioBtn cc-radioBtn">
+                                                    <a class="btn btn-sm active cc-btn-pill btn-margin-left"
+                                                        data-toggle="radiobutton3" data-title="contractvalue">$</a>
+                                                    <a class="btn btn-sm notActive cc-btn-pill btn-margin-right"
+                                                        data-toggle="radiobutton3" data-title="contractcount">#</a>
+                                                </div>
+                                                <input type="hidden" name="radiobutton3" id="radiobutton3"
+                                                    value="contractvalue" class="cc-radio-button" cardnumber="3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="float: right;margin-right: 21px;">
+                                        <div class="daterange-div" id="reportrange3">
+                                            <span style="display: inline-block;margin: 4px 5px;"></span>
+                                            <i class="icon-calendar" style="float: right;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cc-cardSettings-header card-3-settings" id="card3SettingsHeader"
+                                    style="display: none;">
+                                    <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                        style="float: right;">
+                                        <button class="btn-cancel-settings" onclick="cancelCard3Settings()"><i
+                                                class="cancel-settings"></i></button>
+                                        <button class="btn-ok-settings" onclick="applyCard3Settings()"><i
+                                                class="ok-settings"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 without-padding cc-card-body" id="cardbody3">
+                            <div class="col-md-2 without-padding" id="card3ReportBodyonExpand"
+                                style="display: none; margin-top: 45px;">
+                                <div class="col-md-12  without-padding">
+                                    <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 15px;">
+                                        <input type="checkbox" name="intentTypes" value="Buy"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[2].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;">
+                                        <input type="checkbox" name="intentTypes" value="Sell"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[2].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;">
+                                        <input type="checkbox" name="intentTypes" value="Other"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[2].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="margin-top: 20px;">
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                        <button class="browseParams" onclick="openContractTypes(3)"><i
+                                                class="icon-browseParams"></i></button>
+
+                                        <!-- ko if: reports()[2].appliedFilters.ContractTypes().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[2].appliedFilters.ContractTypes">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,2,'ContractTypes')"
+                                                    class=" btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[2].appliedFilters.ContractTypes().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[2].appliedFilters.ContractTypes()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[2].appliedFilters.ContractTypes()[0],2,'ContractTypes')"
+                                                    class=" btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[2].appliedFilters.ContractTypes().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                        <button class="browseParams" onclick="openRegions(3)"><i
+                                                class="icon-browseParams"></i></button>
+
+                                        <!-- ko if: reports()[2].appliedFilters.Regions().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[2].appliedFilters.Regions">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,2,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[2].appliedFilters.Regions().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[2].appliedFilters.Regions()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[2].appliedFilters.Regions()[0],2,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[2].appliedFilters.Regions().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                        <button class="browseParams" onclick="openContractValueRanges(3)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[2].appliedFilters.ValueRanges().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[2].appliedFilters.ValueRanges">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,2,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[2].appliedFilters.ValueRanges().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[2].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[2].appliedFilters.ValueRanges()[0],2,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[2].appliedFilters.ValueRanges().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="margin-top: 20px;">
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox"
+                                            data-bind="checked:reports()[2].appliedFilters.IncludeActive"
+                                            class="cc-report-params-checkbox">
+                                        <div class="cc-report-params-field" data-translatable="true">Include active status</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button id="id_applyCard3Settings" type="submit" class="apps-btn apps-btn-primary"
+                                        onclick="applyCard3Settings()"><span data-translatable="true">Apply</span></button>
+                                </div>
+                            </div>
+                            <div class="col-md-2 without-padding cc-cardReport-summary"
+                                id="card3ReportSummary">
+                                <div class="col-md-12">
+                                    <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Intent type</div>
+                                    <div class="cc-report-params-value"
+                                        data-bind="text: reports()[2].reportParms.IntentType"
+                                        style="font-weight: bold;">
+                                    </div>
+                                </div>
+                                <div class=" col-md-12">
+                                    <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Contract type</div>
+                                    <!-- ko if: reports()[2].reportParms.ContractTypes().length < 3 -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;"
+                                        data-bind="foreach:reports()[2].reportParms.ContractTypes">
+                                        <span data-bind="text:displayName"></span>
+                                        <!-- ko if: $index() !== $parent.reports()[2].reportParms.ContractTypes().length-1 -->
+                                        <span>, </span>
+                                        <!-- /ko-->
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[2].reportParms.ContractTypes().length > 2 ) -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;">
+                                        <span
+                                            data-bind="text: reports()[2].reportParms.ContractTypes()[0].displayName"></span>
+                                        <span class="more-div">
+                                            <span>, +</span>
+                                            <span
+                                                data-bind="text:reports()[2].reportParms.ContractTypes().length-1">+</span>
+                                        </span>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class=" col-md-12">
+                                    <div class="cc-report-params-label" style="padding: 0px !important;">Region</div>
+                                    <!-- ko if: reports()[2].reportParms.Regions().length < 3 -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;"
+                                        data-bind="foreach:reports()[2].reportParms.Regions">
+                                        <span data-bind="text:displayName"></span>
+                                        <!-- ko if: $index() !== $parent.reports()[2].reportParms.Regions().length-1 -->
+                                        <span>, </span>
+                                        <!-- /ko-->
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[2].reportParms.Regions().length > 2 ) -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;">
+                                        <span
+                                            data-bind="text: reports()[2].reportParms.Regions()[0].displayName"></span>
+                                        <span class="more-div">
+                                            <span>, +</span>
+                                            <span data-bind="text:reports()[2].reportParms.Regions().length-1">+</span>
+                                        </span>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class=" col-md-12">
+                                    <div class="cc-report-params-label" style="padding: 0px !important;">Contract value</div>
+                                    <!-- ko if: reports()[2].reportParms.ValueRanges().length < 3 -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;"
+                                        data-bind="foreach:reports()[2].reportParms.ValueRanges">
+                                        <span data-bind="text:displayName"></span>
+                                        <!-- ko if: $index() !== $parent.reports()[2].reportParms.ValueRanges().length-1 -->
+                                        <span>, </span>
+                                        <!-- /ko-->
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[2].reportParms.ValueRanges().length > 2 ) -->
+                                    <div class="cc-report-params-value" style="font-weight: bold;">
+                                        <span
+                                            data-bind="text: reports()[2].reportParms.ValueRanges()[0].displayName"></span>
+                                        <span class="more-div">
+                                            <span>, +</span>
+                                            <span
+                                                data-bind="text:reports()[2].reportParms.ValueRanges().length-1">+</span>
+                                        </span>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                            </div>
+                            <div class="col-md-10 without-padding cc-cardReport-body card-3-report" id="card3ReportBody"
+                                cardid="3">
+                            </div>
+                            <div class="cc-cardSettings-body card-3-settings" id="card3SettingsBody"
+                                style="display: none;">
+                                <div class="col-md-12 without-padding border-top">
+                                    <div class="col-md-4  without-padding">
+                                        <div class="cc-report-params-label" data-translatable="true">Intent type</div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <input type="checkbox" name="intentTypes" value="Buy"
+                                                class="cc-report-params-checkbox"
+                                                data-bind="checked: reports()[2].appliedFilters.IntentType">
+                                            <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                        </div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <input type="checkbox" name="intentTypes" value="Sell"
+                                                class="cc-report-params-checkbox"
+                                                data-bind="checked: reports()[2].appliedFilters.IntentType">
+                                            <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                        </div>
+                                        <div class="cc-report-params-fieldgroup"><input type="checkbox"
+                                                name="intentTypes" value="Other" class="cc-report-params-checkbox"
+                                                data-bind="checked: reports()[2].appliedFilters.IntentType">
+                                            <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 without-padding">
+                                        <div class="cc-report-params-label" data-translatable="true">Category</div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                            <button class="browseParams" onclick="openContractTypes(3)"><i
+                                                    class="icon-browseParams"></i></button>
+
+                                            <!-- ko if: reports()[2].appliedFilters.ContractTypes().length < 3 -->
+                                            <div class="chicklets-div"
+                                                data-bind="foreach:reports()[2].appliedFilters.ContractTypes">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="{text:$data.displayName}"></span><button
+                                                        data-bind="click:$parent.removeItemFromSelectedList.bind($data,2,'ContractTypes')"
+                                                        class=" btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button></div>
+                                            </div>
+                                            <!-- /ko-->
+                                            <!-- ko if:(reports()[2].appliedFilters.ContractTypes().length > 2 ) -->
+                                            <div class="chicklets-div">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="text:reports()[2].appliedFilters.ContractTypes()[0].displayName"></span><button
+                                                        data-bind="click:removeItemFromSelectedList.bind(reports()[2].appliedFilters.ContractTypes()[0],2,'ContractTypes')"
+                                                        class=" btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button>
+                                                </div>
+                                                <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                        class="chicklet-text"
+                                                        data-bind="text:(reports()[2].appliedFilters.ContractTypes().length-1)">
+                                                </div>
+                                            </div>
+                                            <!-- /ko-->
+
+                                        </div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                            <button class="browseParams" onclick="openRegions(3)"><i
+                                                    class="icon-browseParams"></i></button>
+
+                                            <!-- ko if: reports()[2].appliedFilters.Regions().length < 3 -->
+                                            <div class="chicklets-div"
+                                                data-bind="foreach:reports()[2].appliedFilters.Regions">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="{text:$data.displayName}"></span><button
+                                                        data-bind="click:$parent.removeItemFromSelectedList.bind($data,2,'Regions')"
+                                                        class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button></div>
+                                            </div>
+                                            <!-- /ko-->
+                                            <!-- ko if:(reports()[2].appliedFilters.Regions().length > 2 ) -->
+                                            <div class="chicklets-div">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="text:reports()[2].appliedFilters.Regions()[0].displayName"></span><button
+                                                        data-bind="click:removeItemFromSelectedList.bind(reports()[2].appliedFilters.Regions()[0],2,'Regions')"
+                                                        class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button>
+                                                </div>
+                                                <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                        class="chicklet-text"
+                                                        data-bind="text:(reports()[2].appliedFilters.Regions().length-1)">
+                                                </div>
+                                            </div>
+                                            <!-- /ko-->
+                                        </div>
+                                        <div class="cc-report-params-fieldgroup">
+                                            <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                            <button class="browseParams" onclick="openContractValueRanges(3)"><i
+                                                    class="icon-browseParams"></i></button>
+                                            <!-- ko if: reports()[2].appliedFilters.ValueRanges().length < 3 -->
+                                            <div class="chicklets-div"
+                                                data-bind="foreach:reports()[2].appliedFilters.ValueRanges">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="{text:$data.displayName}"></span><button
+                                                        data-bind="click:$parent.removeItemFromSelectedList.bind($data,2,'ValueRanges')"
+                                                        class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button></div>
+                                            </div>
+                                            <!-- /ko-->
+                                            <!-- ko if:(reports()[2].appliedFilters.ValueRanges().length > 2 ) -->
+                                            <div class="chicklets-div">
+                                                <div class="chicklet"><span class="chicklet-text"
+                                                        data-bind="text:reports()[2].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                        data-bind="click:removeItemFromSelectedList.bind(reports()[2].appliedFilters.ValueRanges()[0],2,'ValueRanges')"
+                                                        class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                            class="chicklet-cancel"></i></button>
+                                                </div>
+                                                <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                        class="chicklet-text"
+                                                        data-bind="text:(reports()[2].appliedFilters.ValueRanges().length-1)">
+                                                </div>
+                                            </div>
+                                            <!-- /ko-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cc-card-footer">
+                            <div class="cc-cardReport-footer card-3-report" id="card3ReportFooter">
+                                <div class="btn-group expand-div" role="group" aria-label="Third group">
+                                    <button class="btn btn-link btn-md pull-right expand-button"><i
+                                            class="icon-expand"></i></button>
+                                </div>
+                            </div>
+                            <div class="cc-cardSettings-footer card-3-settings" id="card3SettingsFooter"
+                                style="display: none;">
+                                <div class="col-md-12">
+                                    <div class="col-md-12 params-footer-div">
+                                        <div class="col-md-6 without-padding">
+                                            <div class="cc-report-params-fieldgroup">
+                                                <input type="checkbox"
+                                                    data-bind="checked:reports()[2].appliedFilters.IncludeActive"
+                                                    class="cc-report-params-checkbox">
+                                                <div class="cc-report-params-field" data-translatable="true">Include active status</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin: 0px;">
+            <div class="col-md-4 report-margin rtl-float-right" id="card4holder"
+                style="padding: 0px !important; margin-bottom: 0px !important;">
+                <div class="cc-card  bottom-full" cardid="4" draggable="true" id="card4" ondragstart="dragCard(event,4)"
+                    ondrop="dropCard(event,4)" ondragover="allowDrop(event)">
+                    <div class="col-md-12 cc-card-header" id="header4">
+                        <div class="title-header" data-translatable="true">New vs. Renewals</div>
+                        <div class="cc-card-header-params">
+                            <div class="cc-cardReport-header card-4-report" id="card4ReportHeader">
+                                <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                    style="float: right;">
+                                    <button class="btn-settings" id="btn_card4Settings" onclick="openCard4Settings()"><i
+                                            class="icon-settings"></i></button>
+                                </div>
+                                <div style="float: right;margin-right: 10px;" class="btn-toolbar" role="toolbar"
+                                    aria-label="Toolbar with button groups">
+                                    <div class="form-group">
+                                        <div class="input-group cc-radio-btn-group">
+                                            <div id="radioBtn2" class="radioBtn cc-radioBtn">
+                                                <a class="btn btn-sm active cc-btn-pill btn-margin-left"
+                                                    data-toggle="radiobutton4" data-title="contractvalue">$</a>
+                                                <a class="btn btn-sm notActive cc-btn-pill btn-margin-right"
+                                                    data-toggle="radiobutton4" data-title="contractcount">#</a>
+                                            </div>
+                                            <input type="hidden" name="radiobutton4" id="radiobutton4"
+                                                value="contractvalue" class="cc-radio-button" cardnumber="4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="float: right;margin-right: 21px;">
+                                    <div class="daterange-div" id="reportrange4">
+                                        <span style="display: inline-block;margin: 4px 5px;"></span>
+                                        <i class="icon-calendar" style="float: right;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cc-cardSettings-header card-4-settings" id="card4SettingsHeader"
+                                style="display: none;">
+                                <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                    style="float: right;">
+                                    <button class="btn-cancel-settings" onclick="cancelCard4Settings()"><i
+                                            class="cancel-settings"></i></button>
+                                    <button class="btn-ok-settings" onclick="applyCard4Settings()"><i
+                                            class="ok-settings"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 without-padding cc-card-body" id="cardbody4">
+                        <div class="col-md-2 without-padding" id="card4ReportBodyonExpand"
+                            style="display: none; margin-top: 45px;">
+                            <div class="col-md-12  without-padding">
+                                <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 15px;">
+                                    <input type="checkbox" name="intentTypes" value="Buy"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[3].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;">
+                                    <input type="checkbox" name="intentTypes" value="Sell"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[3].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;"><input
+                                        type="checkbox" name="intentTypes" value="Other"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[3].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 20px;">
+                                <div class="cc-report-params-fieldgroup">
+                                    <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                    <button class="browseParams" onclick="openContractTypes(4)"><i
+                                            class="icon-browseParams"></i></button>
+                                    <!-- ko if: reports()[3].appliedFilters.ContractTypes().length < 3 -->
+                                    <div class="chicklets-div"
+                                        data-bind="foreach:reports()[3].appliedFilters.ContractTypes">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="{text:$data.displayName}"></span><button
+                                                data-bind="click:$parent.removeItemFromSelectedList.bind($data,3,'ContractTypes')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[3].appliedFilters.ContractTypes().length > 2 ) -->
+                                    <div class="chicklets-div">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="text:reports()[3].appliedFilters.ContractTypes()[0].displayName"></span><button
+                                                data-bind="click:removeItemFromSelectedList.bind(reports()[3].appliedFilters.ContractTypes()[0],3,'ContractTypes')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button>
+                                        </div>
+                                        <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                class="chicklet-text"
+                                                data-bind="text:(reports()[3].appliedFilters.ContractTypes().length-1)">
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class="cc-report-params-fieldgroup">
+                                    <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                    <button class="browseParams" onclick="openRegions(4)"><i
+                                            class="icon-browseParams"></i></button>
+                                    <!-- ko if: reports()[3].appliedFilters.Regions().length < 3 -->
+                                    <div class="chicklets-div" data-bind="foreach:reports()[3].appliedFilters.Regions">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="{text:$data.displayName}"></span><button
+                                                data-bind="click:$parent.removeItemFromSelectedList.bind($data,3,'Regions')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[3].appliedFilters.Regions().length > 2 ) -->
+                                    <div class="chicklets-div">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="text:reports()[3].appliedFilters.Regions()[0].displayName"></span><button
+                                                data-bind="click:removeItemFromSelectedList.bind(reports()[3].appliedFilters.Regions()[0],3,'Regions')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button>
+                                        </div>
+                                        <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                class="chicklet-text"
+                                                data-bind="text:(reports()[3].appliedFilters.Regions().length-1)">
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class="cc-report-params-fieldgroup">
+                                    <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                    <button class="browseParams" onclick="openContractValueRanges(4)"><i
+                                            class="icon-browseParams"></i></button>
+                                    <!-- ko if: reports()[3].appliedFilters.ValueRanges().length < 3 -->
+                                    <div class="chicklets-div"
+                                        data-bind="foreach:reports()[3].appliedFilters.ValueRanges">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="{text:$data.displayName}"></span><button
+                                                data-bind="click:$parent.removeItemFromSelectedList.bind($data,3,'ValueRanges')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[3].appliedFilters.ValueRanges().length > 2 ) -->
+                                    <div class="chicklets-div">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="text:reports()[3].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                data-bind="click:removeItemFromSelectedList.bind(reports()[3].appliedFilters.ValueRanges()[0],3,'ValueRanges')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button>
+                                        </div>
+                                        <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                class="chicklet-text"
+                                                data-bind="text:(reports()[3].appliedFilters.ValueRanges().length-1)">
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 20px;">
+                                <div class="cc-report-params-fieldgroup"><input type="checkbox"
+                                        name="includeAutorenewalsCard4First"
+                                        data-bind="checked:reports()[3].appliedFilters.IncludeAutorenewals"
+                                        class="cc-report-params-checkbox">
+                                    <div class="cc-report-params-field" data-translatable="true">Include auto renewals</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button id="id_applyCard4Settings" type="submit" class="apps-btn apps-btn-primary"
+                                    onclick="applyCard4Settings()"><span data-translatable="true">Apply</span></button>
+                            </div>
+                        </div>
+                        <div class="col-md-2 without-padding cc-cardReport-summary" id="card4ReportSummary">
+                            <div class="col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;">Intent type
+                                </div>
+                                <div class="cc-report-params-value"
+                                    data-bind="text: reports()[3].reportParms.IntentType" style="font-weight: bold;">
+                                </div>
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;">Contract type
+                                </div>
+                                <!-- ko if: reports()[3].reportParms.ContractTypes().length < 3 -->
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="foreach:reports()[3].reportParms.ContractTypes">
+                                    <span data-bind="text:displayName"></span>
+                                    <!-- ko if: $index() !== $parent.reports()[3].reportParms.ContractTypes().length-1 -->
+                                    <span>, </span>
+                                    <!-- /ko-->
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if:(reports()[3].reportParms.ContractTypes().length > 2 ) -->
+                                <div class="cc-report-params-value" style="font-weight: bold;">
+                                    <span
+                                        data-bind="text: reports()[3].reportParms.ContractTypes()[0].displayName"></span>
+                                    <span class="more-div">
+                                        <span>, +</span>
+                                        <span
+                                            data-bind="text:reports()[3].reportParms.ContractTypes().length-1">+</span>
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;">Region
+                                </div>
+                                <!-- ko if: reports()[3].reportParms.Regions().length < 3 -->
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="foreach:reports()[3].reportParms.Regions">
+                                    <span data-bind="text:displayName"></span>
+                                    <!-- ko if: $index() !== $parent.reports()[3].reportParms.Regions().length-1 -->
+                                    <span>, </span>
+                                    <!-- /ko-->
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if:(reports()[3].reportParms.Regions().length > 2 ) -->
+                                <div class="cc-report-params-value" style="font-weight: bold;">
+                                    <span data-bind="text: reports()[3].reportParms.Regions()[0].displayName"></span>
+                                    <span class="more-div">
+                                        <span>, +</span>
+                                        <span data-bind="text:reports()[3].reportParms.Regions().length-1">+</span>
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;">Contract value
+                                </div>
+                                <!-- ko if: reports()[3].reportParms.ValueRanges().length < 3 -->
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="foreach:reports()[3].reportParms.ValueRanges">
+                                    <span data-bind="text:displayName"></span>
+                                    <!-- ko if: $index() !== $parent.reports()[3].reportParms.ValueRanges().length-1 -->
+                                    <span>, </span>
+                                    <!-- /ko-->
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if:(reports()[3].reportParms.ValueRanges().length > 2 ) -->
+                                <div class="cc-report-params-value" style="font-weight: bold;">
+                                    <span
+                                        data-bind="text: reports()[3].reportParms.ValueRanges()[0].displayName"></span>
+                                    <span class="more-div">
+                                        <span>, +</span>
+                                        <span data-bind="text:reports()[3].reportParms.ValueRanges().length-1">+</span>
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                        </div>
+                        <div class="col-md-10 without-padding cc-cardReport-body card-4-report" id="card4ReportBody"
+                            cardid="4">
+                        </div>
+                        <div class="cc-cardSettings-body card-4-settings" id="card4SettingsBody" style="display: none;">
+                            <div class="col-md-12 without-padding border-top">
+                                <div class="col-md-4  without-padding">
+                                    <div class="cc-report-params-label" data-translatable="true">Intent type</div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox" name="intentTypes" value="Buy"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[3].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox" name="intentTypes" value="Sell"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[3].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup"><input type="checkbox" name="intentTypes"
+                                            value="Other" class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[3].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 without-padding">
+                                    <div class="cc-report-params-label" data-translatable="true">Category</div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                        <button class="browseParams" onclick="openContractTypes(4)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[3].appliedFilters.ContractTypes().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[3].appliedFilters.ContractTypes">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,3,'ContractTypes')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[3].appliedFilters.ContractTypes().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[3].appliedFilters.ContractTypes()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[3].appliedFilters.ContractTypes()[0],3,'ContractTypes')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[3].appliedFilters.ContractTypes().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                        <button class="browseParams" onclick="openRegions(4)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[3].appliedFilters.Regions().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[3].appliedFilters.Regions">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,3,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[3].appliedFilters.Regions().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[3].appliedFilters.Regions()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[3].appliedFilters.Regions()[0],3,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[3].appliedFilters.Regions().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                        <button class="browseParams" onclick="openContractValueRanges(4)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[3].appliedFilters.ValueRanges().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[3].appliedFilters.ValueRanges">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,3,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[3].appliedFilters.ValueRanges().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[3].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[3].appliedFilters.ValueRanges()[0],3,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[3].appliedFilters.ValueRanges().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cc-card-footer">
+                        <div class="cc-cardReport-footer card-4-report" id="card4ReportFooter">
+                            <div class="btn-group expand-div" role="group" aria-label="Third group">
+                                <button class="btn btn-link btn-md pull-right expand-button"><i
+                                        class="icon-expand"></i></button>
+                            </div>
+                        </div>
+                        <div class="cc-cardSettings-footer card-4-settings" id="card4SettingsFooter"
+                            style="display: none;">
+                            <div class="col-md-12">
+                                <div class="col-md-12 params-footer-div">
+                                    <div class="col-md-6 without-padding">
+                                        <div class="cc-report-params-fieldgroup"><input type="checkbox"
+                                                name="includeAutorenewalsCard4Second"
+                                                data-bind="checked:reports()[3].appliedFilters.IncludeAutorenewals"
+                                                class="cc-report-params-checkbox">
+                                            <div class="cc-report-params-field" data-translatable="true">Include auto renewals</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 report-margin rtl-float-right" id="card5holder" style="margin-bottom: 0px !important;">
+                <div class="cc-card  bottom-full" cardid="5" draggable="true" id="card5" ondragstart="dragCard(event,5)"
+                    ondrop="dropCard(event,5)" ondragover="allowDrop(event)">
+                    <div class="col-md-12 cc-card-header" id="header5">
+                        <div class="title-header" data-translatable="true">Renewals vs. Cancellations</div>
+                        <div class="cc-card-header-params">
+                            <div class="cc-cardReport-header card-5-report" id="card5ReportHeader">
+                                <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                    style="float: right;">
+                                    <button class="btn-settings" id="btn_card5Settings" onclick="openCard5Settings()"><i
+                                            class="icon-settings"></i></button>
+                                </div>
+                                <div style="float: right;margin-right: 10px;" class="btn-toolbar" role="toolbar"
+                                    aria-label="Toolbar with button groups">
+                                    <div class="form-group">
+                                        <div class="input-group cc-radio-btn-group">
+                                            <div id="radioBtn2" class="radioBtn cc-radioBtn">
+                                                <a class="btn btn-sm active cc-btn-pill btn-margin-left"
+                                                    data-toggle="radiobutton5" data-title="contractvalue">$</a>
+                                                <a class="btn btn-sm notActive cc-btn-pill btn-margin-right"
+                                                    data-toggle="radiobutton5" data-title="contractcount">#</a>
+                                            </div>
+                                            <input type="hidden" name="radiobutton5" id="radiobutton5"
+                                                value="contractvalue" class="cc-radio-button" cardnumber="5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="float: right;margin-right: 21px;">
+                                    <div class="daterange-div" id="reportrange5">
+                                        <span style="display: inline-block;margin: 4px 5px;"></span>
+                                        <i class="icon-calendar" style="float: right;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cc-cardSettings-header card-5-settings" id="card5SettingsHeader"
+                                style="display: none;">
+                                <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                    style="float: right;">
+                                    <button class="btn-cancel-settings" onclick="cancelCard5Settings()"><i
+                                            class="cancel-settings"></i></button>
+                                    <button class="btn-ok-settings" onclick="applyCard5Settings()"><i
+                                            class="ok-settings"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 without-padding cc-card-body" id="cardbody5">
+                        <div class="col-md-2 without-padding" id="card5ReportBodyonExpand"
+                            style="display: none; margin-top: 45px;">
+                            <div class="col-md-12  without-padding">
+                                <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 15px;">
+                                    <input type="checkbox" name="intentTypes" value="Buy"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[4].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;">
+                                    <input type="checkbox" name="intentTypes" value="Sell"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[4].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;"><input
+                                        type="checkbox" name="intentTypes" value="Other"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[4].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 20px;">
+                                <div class="cc-report-params-fieldgroup">
+                                    <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                    <button class="browseParams" onclick="openContractTypes(5)"><i
+                                            class="icon-browseParams"></i></button>
+                                    <!-- ko if: reports()[4].appliedFilters.ContractTypes().length < 3 -->
+                                    <div class="chicklets-div"
+                                        data-bind="foreach:reports()[4].appliedFilters.ContractTypes">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="{text:$data.displayName}"></span><button
+                                                data-bind="click:$parent.removeItemFromSelectedList.bind($data,4,'ContractTypes')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[4].appliedFilters.ContractTypes().length > 2 ) -->
+                                    <div class="chicklets-div">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="text:reports()[4].appliedFilters.ContractTypes()[0].displayName"></span><button
+                                                data-bind="click:removeItemFromSelectedList.bind(reports()[4].appliedFilters.ContractTypes()[0],4,'ContractTypes')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button>
+                                        </div>
+                                        <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                class="chicklet-text"
+                                                data-bind="text:(reports()[4].appliedFilters.ContractTypes().length-1)">
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class="cc-report-params-fieldgroup">
+                                    <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                    <button class="browseParams" onclick="openRegions(5)"><i
+                                            class="icon-browseParams"></i></button>
+                                    <!-- ko if: reports()[4].appliedFilters.Regions().length < 3 -->
+                                    <div class="chicklets-div" data-bind="foreach:reports()[4].appliedFilters.Regions">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="{text:$data.displayName}"></span><button
+                                                data-bind="click:$parent.removeItemFromSelectedList.bind($data,4,'Regions')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[4].appliedFilters.Regions().length > 2 ) -->
+                                    <div class="chicklets-div">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="text:reports()[4].appliedFilters.Regions()[0].displayName"></span><button
+                                                data-bind="click:removeItemFromSelectedList.bind(reports()[4].appliedFilters.Regions()[0],4,'Regions')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button>
+                                        </div>
+                                        <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                class="chicklet-text"
+                                                data-bind="text:(reports()[4].appliedFilters.Regions().length-1)">
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class="cc-report-params-fieldgroup">
+                                    <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                    <button class="browseParams" onclick="openContractValueRanges(5)"><i
+                                            class="icon-browseParams"></i></button>
+                                    <!-- ko if: reports()[4].appliedFilters.ValueRanges().length < 3 -->
+                                    <div class="chicklets-div"
+                                        data-bind="foreach:reports()[4].appliedFilters.ValueRanges">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="{text:$data.displayName}"></span><button
+                                                data-bind="click:$parent.removeItemFromSelectedList.bind($data,4,'ValueRanges')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[4].appliedFilters.ValueRanges().length > 2 ) -->
+                                    <div class="chicklets-div">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="text:reports()[4].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                data-bind="click:removeItemFromSelectedList.bind(reports()[4].appliedFilters.ValueRanges()[0],4,'ValueRanges')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button>
+                                        </div>
+                                        <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                class="chicklet-text"
+                                                data-bind="text:(reports()[4].appliedFilters.ValueRanges().length-1)">
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 20px;">
+                                <div class="cc-report-params-fieldgroup"><input type="checkbox"
+                                        name="includeAutorenewalsCard5First"
+                                        data-bind="checked:reports()[4].appliedFilters.IncludeAutorenewals"
+                                        class="cc-report-params-checkbox">
+                                    <div class="cc-report-params-field" data-translatable="true">Include auto renewals</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button id="id_applyCard5Settings" type="submit" class="apps-btn apps-btn-primary"
+                                    onclick="applyCard5Settings()"><span data-translatable="true">Apply</span></button>
+                            </div>
+                        </div>
+                        <div class="col-md-2 without-padding cc-cardReport-summary" id="card5ReportSummary">
+                            <div class="col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;">Intent type
+                                </div>
+                                <div class="cc-report-params-value"
+                                    data-bind="text: reports()[4].reportParms.IntentType" style="font-weight: bold;">
+                                </div>
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;">Contract type
+                                </div>
+                                <!-- ko if: reports()[4].reportParms.ContractTypes().length < 3 -->
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="foreach:reports()[4].reportParms.ContractTypes">
+                                    <span data-bind="text:displayName"></span>
+                                    <!-- ko if: $index() !== $parent.reports()[4].reportParms.ContractTypes().length-1 -->
+                                    <span>, </span>
+                                    <!-- /ko-->
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if:(reports()[4].reportParms.ContractTypes().length > 2 ) -->
+                                <div class="cc-report-params-value" style="font-weight: bold;">
+                                    <span
+                                        data-bind="text: reports()[4].reportParms.ContractTypes()[0].displayName"></span>
+                                    <span class="more-div">
+                                        <span>, +</span>
+                                        <span
+                                            data-bind="text:reports()[4].reportParms.ContractTypes().length-1">+</span>
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;">Region
+                                </div>
+                                <!-- ko if: reports()[4].reportParms.Regions().length < 3 -->
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="foreach:reports()[4].reportParms.Regions">
+                                    <span data-bind="text:displayName"></span>
+                                    <!-- ko if: $index() !== $parent.reports()[4].reportParms.Regions().length-1 -->
+                                    <span>, </span>
+                                    <!-- /ko-->
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if:(reports()[4].reportParms.Regions().length > 2 ) -->
+                                <div class="cc-report-params-value" style="font-weight: bold;">
+                                    <span data-bind="text: reports()[4].reportParms.Regions()[0].displayName"></span>
+                                    <span class="more-div">
+                                        <span>, +</span>
+                                        <span data-bind="text:reports()[4].reportParms.Regions().length-1">+</span>
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;">Contract value
+                                </div>
+                                <!-- ko if: reports()[4].reportParms.ValueRanges().length < 3 -->
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="foreach:reports()[4].reportParms.ValueRanges">
+                                    <span data-bind="text:displayName"></span>
+                                    <!-- ko if: $index() !== $parent.reports()[4].reportParms.ValueRanges().length-1 -->
+                                    <span>, </span>
+                                    <!-- /ko-->
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if:(reports()[4].reportParms.ValueRanges().length > 2 ) -->
+                                <div class="cc-report-params-value" style="font-weight: bold;">
+                                    <span
+                                        data-bind="text: reports()[4].reportParms.ValueRanges()[0].displayName"></span>
+                                    <span class="more-div">
+                                        <span>, +</span>
+                                        <span data-bind="text:reports()[4].reportParms.ValueRanges().length-1">+</span>
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                        </div>
+                        <div class="col-md-10 without-padding cc-cardReport-body card-5-report" id="card5ReportBody"
+                            cardid="5">
+                        </div>
+                        <div class="cc-cardSettings-body card-5-settings" id="card5SettingsBody" style="display: none;">
+                            <div class="col-md-12 without-padding border-top">
+                                <div class="col-md-4 without-padding">
+                                    <div class="cc-report-params-label" data-translatable="true">Intent type</div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox" name="intentTypes" value="Buy"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[4].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox" name="intentTypes" value="Sell"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[4].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup"><input type="checkbox" name="intentTypes"
+                                            value="Other" class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[4].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 without-padding">
+                                    <div class="cc-report-params-label" data-translatable="true">Category</div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                        <button class="browseParams" onclick="openContractTypes(5)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[4].appliedFilters.ContractTypes().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[4].appliedFilters.ContractTypes">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,4,'ContractTypes')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[4].appliedFilters.ContractTypes().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[4].appliedFilters.ContractTypes()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[4].appliedFilters.ContractTypes()[0],4,'ContractTypes')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[4].appliedFilters.ContractTypes().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                        <button class="browseParams" onclick="openRegions(5)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[4].appliedFilters.Regions().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[4].appliedFilters.Regions">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,4,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[4].appliedFilters.Regions().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[4].appliedFilters.Regions()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[4].appliedFilters.Regions()[0],4,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[4].appliedFilters.Regions().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                        <button class="browseParams" onclick="openContractValueRanges(5)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[4].appliedFilters.ValueRanges().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[4].appliedFilters.ValueRanges">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,4,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[4].appliedFilters.ValueRanges().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[4].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[4].appliedFilters.ValueRanges()[0],4,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[4].appliedFilters.ValueRanges().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cc-card-footer">
+                        <div class="cc-cardReport-footer card-5-report" id="card5ReportFooter">
+                            <div class="btn-group expand-div" role="group" aria-label="Third group">
+                                <button class="btn btn-link btn-md pull-right expand-button"><i
+                                        class="icon-expand"></i></button>
+                            </div>
+                        </div>
+                        <div class="cc-cardSettings-footer card-5-settings" id="card5SettingsFooter"
+                            style="display: none;">
+                            <div class="col-md-12">
+                                <div class="col-md-12 params-footer-div">
+                                    <div class="col-md-6 without-padding">
+                                        <div class="cc-report-params-fieldgroup"><input type="checkbox"
+                                                name="includeAutorenewalsCard5second"
+                                                data-bind="checked:reports()[4].appliedFilters.IncludeAutorenewals"
+                                                class="cc-report-params-checkbox">
+                                            <div class="cc-report-params-field" data-translatable="true">Include auto renewals</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 report-margin rtl-float-right" id="card6holder" style="margin-bottom: 0px !important;">
+                <div class="cc-card  bottom-full" cardid="6" draggable="true" id="card6" ondragstart="dragCard(event,6)"
+                    ondrop="dropCard(event,6)" ondragover="allowDrop(event)">
+                    <div class="col-md-12 cc-card-header" id="header6">
+                        <div class="title-header" data-translatable="true">Year over year analytics</div>
+                        <div class="cc-card-header-params">
+                            <div class="cc-cardReport-header card-6-report" id="card6ReportHeader">
+                                <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                    style="float: right;">
+                                    <button class="btn-settings" id="btn_card6Settings" onclick="openCard6Settings()"><i
+                                            class="icon-settings"></i></button>
+
+                                </div>
+                                <div style="float: right;margin-right: 10px;" class="btn-toolbar" role="toolbar"
+                                    aria-label="Toolbar with button groups">
+                                    <div class="form-group">
+                                        <div class="input-group cc-radio-btn-group">
+                                            <div id="radioBtn2" class="radioBtn cc-radioBtn">
+                                                <a class="btn btn-sm active cc-btn-pill btn-margin-left"
+                                                    data-toggle="radiobutton6" data-title="contractvalue">$</a>
+                                                <a class="btn btn-sm notActive cc-btn-pill btn-margin-right"
+                                                    data-toggle="radiobutton6" data-title="contractcount">#</a>
+                                            </div>
+                                            <input type="hidden" name="radiobutton6" id="radiobutton6"
+                                                value="contractvalue" class="cc-radio-button" cardnumber="6">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="float: right;margin-right: 21px;">
+                                    <div class="daterange-div form-inline well"
+                                        style="border: none;padding: 0px;border: none;padding: 0px;width: auto;margin-bottom: 0px;">
+                                        <div class="form-group">
+                                            <span id="showSpanonExpand" class="dropdown-field-label"
+                                                style="display: none;" data-translatable="true">Comparing</span>
+                                            <select class="form-control" style="height: 25px;padding-top: 3px;"
+                                                id="card6year1"></select>
+                                        </div>
+                                        <div class="form-group" style="float: right;">
+                                            <span class="dropdown-field-label" style="padding: 10px;" data-translatable="true">on</span>
+                                            <select class="form-control" style="height:25px;padding-top: 3px;"
+                                                id="card6year2"></select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cc-cardSettings-header card-6-settings" id="card6SettingsHeader"
+                                style="display: none;">
+                                <div class="btn-group setting-div" role="group" aria-label="Third group"
+                                    style="float: right;">
+                                    <button class="btn-cancel-settings" onclick="cancelCard6Settings()"><i
+                                            class="cancel-settings"></i></button>
+                                    <button class="btn-ok-settings" onclick="applyCard6Settings()"><i
+                                            class="ok-settings"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 without-padding cc-card-body" id="cardbody6">
+                        <div class="col-md-2 without-padding" id="card6ReportBodyonExpand"
+                            style="display: none; margin-top: 45px;">
+                            <div class="col-md-12  without-padding">
+                                <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 15px;">
+                                    <input type="checkbox" name="intentTypes" value="Buy"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[5].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;">
+                                    <input type="checkbox" name="intentTypes" value="Sell"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[5].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                </div>
+                                <div class="cc-report-params-fieldgroup" style="float: left; padding: 10px 5px;"><input
+                                        type="checkbox" name="intentTypes" value="Other"
+                                        class="cc-report-params-checkbox"
+                                        data-bind="checked: reports()[5].appliedFilters.IntentType">
+                                    <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 20px;">
+                                <div class="cc-report-params-fieldgroup">
+                                    <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                    <button class="browseParams" onclick="openContractTypes(6)"><i
+                                            class="icon-browseParams"></i></button>
+                                    <!-- ko if: reports()[5].appliedFilters.ContractTypes().length < 3 -->
+                                    <div class="chicklets-div"
+                                        data-bind="foreach:reports()[5].appliedFilters.ContractTypes">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="{text:$data.displayName}"></span><button
+                                                data-bind="click:$parent.removeItemFromSelectedList.bind($data,5,'ContractTypes')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[5].appliedFilters.ContractTypes().length > 2 ) -->
+                                    <div class="chicklets-div">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="text:reports()[5].appliedFilters.ContractTypes()[0].displayName"></span><button
+                                                data-bind="click:removeItemFromSelectedList.bind(reports()[5].appliedFilters.ContractTypes()[0],5,'ContractTypes')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button>
+                                        </div>
+                                        <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                class="chicklet-text"
+                                                data-bind="text:(reports()[5].appliedFilters.ContractTypes().length-1)">
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class="cc-report-params-fieldgroup">
+                                    <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                    <button class="browseParams" onclick="openRegions(6)"><i
+                                            class="icon-browseParams"></i></button>
+                                    <!-- ko if: reports()[5].appliedFilters.Regions().length < 3 -->
+                                    <div class="chicklets-div" data-bind="foreach:reports()[5].appliedFilters.Regions">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="{text:$data.displayName}"></span><button
+                                                data-bind="click:$parent.removeItemFromSelectedList.bind($data,5,'Regions')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[5].appliedFilters.Regions().length > 2 ) -->
+                                    <div class="chicklets-div">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="text:reports()[5].appliedFilters.Regions()[0].displayName"></span><button
+                                                data-bind="click:removeItemFromSelectedList.bind(reports()[5].appliedFilters.Regions()[0],5,'Regions')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button>
+                                        </div>
+                                        <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                class="chicklet-text"
+                                                data-bind="text:(reports()[5].appliedFilters.Regions().length-1)">
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                                <div class="cc-report-params-fieldgroup">
+                                    <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                    <button class="browseParams" onclick="openContractValueRanges(6)"><i
+                                            class="icon-browseParams"></i></button>
+                                    <!-- ko if: reports()[5].appliedFilters.ValueRanges().length < 3 -->
+                                    <div class="chicklets-div"
+                                        data-bind="foreach:reports()[5].appliedFilters.ValueRanges">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="{text:$data.displayName}"></span><button
+                                                data-bind="click:$parent.removeItemFromSelectedList.bind($data,5,'ValueRanges')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button></div>
+                                    </div>
+                                    <!-- /ko-->
+                                    <!-- ko if:(reports()[5].appliedFilters.ValueRanges().length > 2 ) -->
+                                    <div class="chicklets-div">
+                                        <div class="chicklet"><span class="chicklet-text"
+                                                data-bind="text:reports()[5].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                data-bind="click:removeItemFromSelectedList.bind(reports()[5].appliedFilters.ValueRanges()[0],5,'ValueRanges')"
+                                                class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                    class="chicklet-cancel"></i></button>
+                                        </div>
+                                        <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                class="chicklet-text"
+                                                data-bind="text:(reports()[5].appliedFilters.ValueRanges().length-1)">
+                                        </div>
+                                    </div>
+                                    <!-- /ko-->
+                                </div>
+                            </div>
+                            <div class="col-md-12" style="margin-top: 20px;">
+                                <div class="cc-report-params-fieldgroup form-group without-padding"
+                                    style="display: inline-flex;">
+                                    <span class="cc-report-params-field" style="width: 100px;" data-translatable="true">Compare</span>
+                                    <select name="dataTypes1" data-bind="value:reports()[5].appliedFilters.DataType"
+                                        class="form-control" style="height: 27px;padding-top: 4px;margin-top: -5px;">
+                                        <option value="NEW" data-translatable="true">New contracts</option>
+                                        <option value="RENEWALS" data-translatable="true">Renewals</option>
+                                        <option value="TERMINATIONS" data-translatable="true">Cancellations</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button id="id_applyCard6Settings" type="submit" class="apps-btn apps-btn-primary"
+                                    onclick="applyCard6Settings()" data-translatable="true"><span data-translatable="true">Apply</span></button>
+                            </div>
+                        </div>
+                        <div class="col-md-2 without-padding cc-cardReport-summary" id="card6ReportSummary">
+                            <div class="col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;">Intent type
+                                </div>
+                                <div class="cc-report-params-value"
+                                    data-bind="text: reports()[5].reportParms.IntentType" style="font-weight: bold;">
+                                </div>
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Contract type
+                                </div>
+                                <!-- ko if: reports()[5].reportParms.ContractTypes().length < 3 -->
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="foreach:reports()[5].reportParms.ContractTypes">
+                                    <span data-bind="text:displayName"></span>
+                                    <!-- ko if: $index() !== $parent.reports()[5].reportParms.ContractTypes().length-1 -->
+                                    <span>, </span>
+                                    <!-- /ko-->
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if:(reports()[5].reportParms.ContractTypes().length > 2 ) -->
+                                <div class="cc-report-params-value" style="font-weight: bold;">
+                                    <span
+                                        data-bind="text: reports()[5].reportParms.ContractTypes()[0].displayName"></span>
+                                    <span class="more-div">
+                                        <span>, +</span>
+                                        <span
+                                            data-bind="text:reports()[5].reportParms.ContractTypes().length-1">+</span>
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Region
+                                </div>
+                                <!-- ko if: reports()[5].reportParms.Regions().length < 3 -->
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="foreach:reports()[5].reportParms.Regions">
+                                    <span data-bind="text:displayName"></span>
+                                    <!-- ko if: $index() !== $parent.reports()[5].reportParms.Regions().length-1 -->
+                                    <span>, </span>
+                                    <!-- /ko-->
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if:(reports()[5].reportParms.Regions().length > 2 ) -->
+                                <div class="cc-report-params-value" style="font-weight: bold;">
+                                    <span data-bind="text: reports()[5].reportParms.Regions()[0].displayName"></span>
+                                    <span class="more-div">
+                                        <span>, +</span>
+                                        <span data-bind="text:reports()[5].reportParms.Regions().length-1">+</span>
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                            <div class=" col-md-12">
+                                <div class="cc-report-params-label" style="padding: 0px !important;" data-translatable="true">Contract value
+                                </div>
+                                <!-- ko if: reports()[5].reportParms.ValueRanges().length < 3 -->
+                                <div class="cc-report-params-value" style="font-weight: bold;"
+                                    data-bind="foreach:reports()[5].reportParms.ValueRanges">
+                                    <span data-bind="text:displayName"></span>
+                                    <!-- ko if: $index() !== $parent.reports()[5].reportParms.ValueRanges().length-1 -->
+                                    <span>, </span>
+                                    <!-- /ko-->
+                                </div>
+                                <!-- /ko-->
+                                <!-- ko if:(reports()[5].reportParms.ValueRanges().length > 2 ) -->
+                                <div class="cc-report-params-value" style="font-weight: bold;">
+                                    <span
+                                        data-bind="text: reports()[5].reportParms.ValueRanges()[0].displayName"></span>
+                                    <span class="more-div">
+                                        <span>, +</span>
+                                        <span data-bind="text:reports()[5].reportParms.ValueRanges().length-1">+</span>
+                                    </span>
+                                </div>
+                                <!-- /ko-->
+                            </div>
+                        </div>
+                        <div class="col-md-10 without-padding cc-cardReport-body card-6-report" id="card6ReportBody"
+                            cardid="6">
+                        </div>
+                        <div class="cc-cardSettings-body card-6-settings" id="card6SettingsBody" style="display: none;">
+                            <div class="col-md-12 without-padding border-top">
+                                <div class="col-md-4 without-padding">
+                                    <div class="cc-report-params-label" data-translatable="true">Intent type</div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox" name="intentTypes" value="Buy"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[5].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Buy</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <input type="checkbox" name="intentTypes" value="Sell"
+                                            class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[5].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Sell</div>
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup"><input type="checkbox" name="intentTypes"
+                                            value="Other" class="cc-report-params-checkbox"
+                                            data-bind="checked: reports()[5].appliedFilters.IntentType">
+                                        <div class="cc-report-params-field" data-translatable="true">Other</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 without-padding">
+                                    <div class="cc-report-params-label" data-translatable="true">Category</div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract type</div>
+                                        <button class="browseParams" onclick="openContractTypes(6)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[5].appliedFilters.ContractTypes().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[5].appliedFilters.ContractTypes">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,5,'ContractTypes')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[5].appliedFilters.ContractTypes().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[5].appliedFilters.ContractTypes()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[5].appliedFilters.ContractTypes()[0],5,'ContractTypes')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[5].appliedFilters.ContractTypes().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Region</div>
+                                        <button class="browseParams" onclick="openRegions(6)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[5].appliedFilters.Regions().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[5].appliedFilters.Regions">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,5,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[5].appliedFilters.Regions().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[5].appliedFilters.Regions()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[5].appliedFilters.Regions()[0],5,'Regions')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[5].appliedFilters.Regions().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                    <div class="cc-report-params-fieldgroup">
+                                        <div class="cc-report-params-field" data-translatable="true">Contract value</div>
+                                        <button class="browseParams" onclick="openContractValueRanges(6)"><i
+                                                class="icon-browseParams"></i></button>
+                                        <!-- ko if: reports()[5].appliedFilters.ValueRanges().length < 3 -->
+                                        <div class="chicklets-div"
+                                            data-bind="foreach:reports()[5].appliedFilters.ValueRanges">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="{text:$data.displayName}"></span><button
+                                                    data-bind="click:$parent.removeItemFromSelectedList.bind($data,5,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button></div>
+                                        </div>
+                                        <!-- /ko-->
+                                        <!-- ko if:(reports()[5].appliedFilters.ValueRanges().length > 2 ) -->
+                                        <div class="chicklets-div">
+                                            <div class="chicklet"><span class="chicklet-text"
+                                                    data-bind="text:reports()[5].appliedFilters.ValueRanges()[0].displayName"></span><button
+                                                    data-bind="click:removeItemFromSelectedList.bind(reports()[5].appliedFilters.ValueRanges()[0],5,'ValueRanges')"
+                                                    class="btn btn-xs btn-link btn-md pull-right chicklet-close"><i
+                                                        class="chicklet-cancel"></i></button>
+                                            </div>
+                                            <div class="chicklet"><span class="chicklet-text">+ </span><span
+                                                    class="chicklet-text"
+                                                    data-bind="text:(reports()[5].appliedFilters.ValueRanges().length-1)">
+                                            </div>
+                                        </div>
+                                        <!-- /ko-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cc-card-footer">
+                        <div class="cc-cardReport-footer card-6-report" id="card6ReportFooter">
+                            <div class="btn-group expand-div" role="group" aria-label="Third group">
+                                <button class="btn btn-link btn-md pull-right expand-button"><i
+                                        class="icon-expand"></i></button>
+                            </div>
+                        </div>
+                        <div class="cc-cardSettings-footer card-6-settings" id="card6SettingsFooter"
+                            style="display: none;">
+                            <div class="col-md-12">
+                                <div class="col-md-12 params-footer-div">
+                                    <div class="col-md-6 without-padding">
+                                        <div class="cc-report-params-fieldgroup form-group without-padding"
+                                            style="display: inline-flex;">
+                                            <span class="cc-report-params-field" style="width: 100px;">Compare</span>
+                                            <select name="dataTypes2"
+                                                data-bind="value:reports()[5].appliedFilters.DataType"
+                                                class="form-control"
+                                                style="height: 25px;padding-top: 4px;margin-top: -4px;">
+                                                <option value="NEW" data-translatable="true">New contracts</option>
+                                                <option value="RENEWALS" data-translatable="true">Renewals</option>
+                                                <option value="TERMINATIONS" data-translatable="true">Cancellations</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div data-translatable="true" class="footer-text" style="float: left;">Contract values are displayed in million dollars.
+            </div>
+            <div class="footer-text" style="float: right;">
+			<span data-translatable="true">* last refreshed on - </span>
+			<span data-bind="text:refreshedTime"></span>.</div>
+        </div>
+    </div>
+    <div class="modal fade" id="id_contractTypesDialog" role="dialog" style="z-index: 3999;">
+        <div class="modal-content" id="contractTypesDiv"
+            style="display: block; width:50%; margin: auto; overflow-y: hidden; z-index: 3999; margin-top: 5%;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                    data-bind="click:clearContractTypesModalData">&times;</button>
+                <div class="modal-title" data-translatable="true">Select contract type</div>
+            </div>
+            <div class="modal-body" style="overflow: auto;">
+                <div class="col-lg-12" style="padding-bottom: 10px;">
+                    <div class="chicklets-div" data-bind="foreach:ContractTypesSelectedList">
+                        <div class="chicklet"><span class="chicklet-text" data-bind="{text:$data.displayName}"></span>
+                            <button class="btn btn-xs btn-link btn-md pull-right chicklet-close"
+                                data-bind="click:$parent.removeItemFromSelectedList">
+                                <i class="chicklet-cancel"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="padding-bottom: 10px;">
+                    <input type="search" id="id_contractTypesSearchElement" value="" class="form-control" data-translatable="true"
+                        placeholder="Search by name">
+                    <img class="apps-icon" alt="Search" src="../img/search.png" id="id_searchImg"
+                        onclick="loadContractTypes()" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-12 table-responsive" style="height: 259px; overflow-y: auto;">
+                    <table id="id_contracTypesTable" class="table">
+                        <thead>
+                            <tr style="background: #EEF2F4;">
+                                <th style="width: 1%;">
+                                    <input id="selectAllContractTypes" data-bind="{checked:selectedAll}" type="checkbox"
+                                        class="checkbox-size-14" />
+                                </th>
+                                <th style="width: 33%;">
+                                    <label class="label-no-bold" data-translatable="true">Contract type</label>
+                                </th>
+                                <th style="width: 33%;">
+                                    <label class="label-no-bold" data-translatable="true">Description</label>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="id_contractTypesBody" data-bind="foreach:ContractTypesList">
+                            <tr class="row-style">
+                                <td>
+                                    <input class="contractTypeCheckbox checkbox-size-14"
+                                        data-bind="{checked: $parent.ContractTypesSelectedList,checkedValue: $data}"
+                                        type="checkbox">
+                                </td>
+                                <td data-bind="text:Name"></td>
+                                <td data-bind="text:Description"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer text-align-left" style="height: 50px !important;">
+                <button id="id_addContractTypesParams" type="submit" class="apps-btn apps-btn-primary"
+                    data-dismiss="modal" style="outline:none;"
+                    data-bind="click:passContractTypeFilters"><span data-translatable="true">Ok</span></button>
+                <button type="button" class="apps-btn apps-btn-secondary" data-dismiss="modal"
+                    data-bind="click:clearContractTypesModalData" style="outline:none;"
+                    data-translatable="true"><span data-translatable="true">Cancel</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="id_regionsDialog" role="dialog" style="z-index: 3999;">
+        <div class="modal-content" id="regionsDiv"
+            style="display: block; width:50%; margin: auto; overflow-y: hidden; z-index: 3999; margin-top: 5%;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                    data-bind="click:clearRegionModalData">&times;</button>
+                <div class="modal-title" data-translatable="true">Select region</div>
+            </div>
+            <div class="modal-body" style="overflow: auto;">
+                <div class="col-lg-12" style="padding-bottom: 10px;">
+                    <div class="chicklets-div" data-bind="foreach:RegionsSelectedList">
+                        <div class="chicklet"><span class="chicklet-text" data-bind="text:$data.displayName"></span>
+                            <button class="btn btn-xs btn-link btn-md pull-right chicklet-close"
+                                data-bind="click:$parent.removeItemFromSelectedList">
+                                <i class="chicklet-cancel"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="padding-bottom: 10px;">
+                    <input type="search" id="id_regionsSearchElement" value="" class="form-control" data-translatable="true"
+                        placeholder="Search by name">
+                    <img class="apps-icon" alt="Search" src="../img/search.png" id="id_searchImg"
+                        onclick="loadRegions()" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-12 table-responsive" style="height: 259px; overflow-y: auto;">
+                    <table id="id_regionsTable" class="table">
+                        <thead>
+                            <tr style="background: #EEF2F4;">
+                                <th style="width: 1%;">
+                                    <input id="selectAllRegions" data-bind="{checked:selectedAll}" type="checkbox"
+                                        class="checkbox-size-14" />
+                                </th>
+                                <th style="width: 33%;">
+                                    <label class="label-no-bold" data-translatable="true">Region</label>
+                                </th>
+                                <th style="width: 33%;">
+                                    <label class="label-no-bold" data-translatable="true">Region code</label>
+                                </th>
+                                <th style="width: 33%;">
+                                    <label class="label-no-bold" data-translatable="true">Description</label>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="id_regionsBody" data-bind="foreach:RegionsList">
+                            <tr class="row-style">
+                                <td>
+                                    <input class="regionCheckbox checkbox-size-14"
+                                        data-bind="{checked: $parents[0].RegionsSelectedList,checkedValue: $data}"
+                                        type="checkbox">
+                                </td>
+                                <td data-bind="text:Name"></td>
+                                <td data-bind="text:RegionCode"></td>
+                                <td data-bind="text:Description"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer text-align-left" style="height: 50px !important;">
+                <button id="id_addRegionsParams" type="submit" class="apps-btn apps-btn-primary"
+                    data-bind="click:passRegionFilters" data-dismiss="modal" style="outline:none;"
+                    data-translatable="true"><span data-translatable="true">Ok</span></button>
+                <button type="button" class="apps-btn apps-btn-secondary" data-dismiss="modal"
+                    data-bind="click:clearRegionModalData" style="outline:none;"
+                    data-translatable="true"><span data-translatable="true">Cancel</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="id_contractValueRangesDialog" role="dialog" style="z-index: 3999;">
+        <div class="modal-content" id="contractValueRangesDiv"
+            style="display: block; width:50%; margin: auto; overflow-y: hidden; z-index: 3999; margin-top: 5%;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                    data-bind="click:clearValueRangeModalData">&times;</button>
+                <div class="modal-title" data-translatable="true">Select contract value</div>
+            </div>
+            <div class="modal-body" style="overflow: auto;">
+                <div class="col-lg-12" style="padding-bottom: 10px;">
+                    <div class="chicklets-div" data-bind="foreach:ContractValueRangeSelectedList">
+                        <div class="chicklet"><span class="chicklet-text" data-bind="text:$data.displayName"></span>
+                            <button class="btn btn-xs btn-link btn-md pull-right chicklet-close"
+                                data-bind="click:$parent.removeItemFromSelectedList">
+                                <i class="chicklet-cancel"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="padding-bottom: 10px;">
+                    <input type="search" id="id_contractValueRangesSearchElement" value="" class="form-control" data-translatable="true"
+                        placeholder="Search by name">
+                    <img class="apps-icon" alt="Search" src="../img/search.png" id="id_searchImg"
+                        onclick="loadContractValueRanges()" style="cursor: pointer;">
+                </div>
+                <div class="col-lg-12 table-responsive" style="height: 259px; overflow-y: auto;">
+                    <table id="id_contracValueRangesTable" class="table">
+                        <thead>
+                            <tr style="background: #EEF2F4;">
+                                <th style="width: 1%;">
+                                    <input id="selectAllContractValueRanges" data-bind="{checked:selectedAll}"
+                                        type="checkbox" class="checkbox-size-14" />
+                                </th>
+                                <th style="width: 33%;">
+                                    <label class="label-no-bold" data-translatable="true">Category name</label>
+                                </th>
+                                <th style="width: 33%;">
+                                    <label class="label-no-bold" data-translatable="true">Min value</label>
+                                </th>
+                                <th style="width: 33%;">
+                                    <label class="label-no-bold" data-translatable="true">Max value</label>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="id_contractValueRangesBody" data-bind="foreach:ContractValueRangesList">
+                            <tr class="row-style">
+                                <td>
+                                    <input class="contractValueRangeCheckbox checkbox-size-14"
+                                        data-bind="{checked: $parents[0].ContractValueRangeSelectedList,checkedValue: $data}"
+                                        type="checkbox" />
+                                </td>
+                                <td data-bind="text:Name"></td>
+                                <td data-bind="text:formatCurrency(MinValue)"></td>
+                                <td data-bind="text:formatCurrency(MaxValue)"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer text-align-left" style="height: 50px !important;">
+                <button id="id_addContractValueRangesParams" type="submit" class="apps-btn apps-btn-primary"
+                    data-bind="click:passValueRangeFilters" data-dismiss="modal" style="outline:none;"><span data-translatable="true">Ok</span></button>
+                <button type="button" class="apps-btn apps-btn-secondary" data-dismiss="modal"
+                    data-bind="click:clearValueRangeModalData" style="outline:none;"
+                    ><span data-translatable="true">Cancel</span></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

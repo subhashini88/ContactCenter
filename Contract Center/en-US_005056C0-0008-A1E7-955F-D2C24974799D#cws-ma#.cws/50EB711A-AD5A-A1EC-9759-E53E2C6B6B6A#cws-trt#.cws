@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-9759-E53E2C6BAB6A">
+	<DocumentID>50EB711A-AD5A-A1EC-9759-E53E2C6B6B6A</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-9759-E53E2C6B6B6A</Name>
+	<Description>AddWatcher</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-15T05:29:25.337</CreationDate>
+	<Notes/>
+	<Text>AddWatcher</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-9759-E53E2C6AEB6A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

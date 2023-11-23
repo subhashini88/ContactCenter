@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-89C0-040EE188B14C">
+	<DocumentID>F8E4E399-CF40-A1ED-89C0-040EE188714C</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-89C0-040EE188714C</Name>
+	<Description>Z_INT_AllManagerUserIds</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-28T18:44:43.755</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_AllManagerUserIds</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-89C0-040EE188F14C"
+		/>
+	</Translations>
+</TextIdentifier>

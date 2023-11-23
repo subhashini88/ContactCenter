@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1ED-8CFC-7040A5A67AB8">
+	<DocumentID>98FA9B81-5041-A1ED-8CFC-7040A5A63AB8</DocumentID>
+	<Name>98FA9B81-5041-A1ED-8CFC-7040A5A63AB8</Name>
+	<Description>DelRelationOfBW</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-09-14T06:06:41.652</CreationDate>
+	<Notes/>
+	<Text>DelRelationOfBW</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1ED-8CFC-7040A5A5BAB8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

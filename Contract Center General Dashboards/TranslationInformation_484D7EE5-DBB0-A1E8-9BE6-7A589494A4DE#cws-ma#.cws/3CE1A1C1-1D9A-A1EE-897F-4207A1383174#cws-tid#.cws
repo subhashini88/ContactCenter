@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3CE1A1C1-1D9A-A1EE-897F-4207A1387174">
+	<DocumentID>3CE1A1C1-1D9A-A1EE-897F-4207A1383174</DocumentID>
+	<Name>3CE1A1C1-1D9A-A1EE-897F-4207A1383174</Name>
+	<Description>Z_LND_ContractsInNegotiation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-19T06:36:51.52</CreationDate>
+	<Notes/>
+	<DefaultText>Z_LND_ContractsInNegotiation</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3CE1A1C1-1D9A-A1EE-897F-4207A138B174"
+		/>
+	</Translations>
+</TextIdentifier>

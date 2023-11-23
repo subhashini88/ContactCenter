@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-BBF1-F00455816BE0">
+	<DocumentID>50EB711A-AD5A-A1ED-BBF1-F00455812BE0</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-BBF1-F00455812BE0</Name>
+	<Description>Sum</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-11T06:49:43.469</CreationDate>
+	<Notes/>
+	<Text>Sum</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1ED-BBF1-F0045580ABE0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

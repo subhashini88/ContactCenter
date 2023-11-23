@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-8F95-AA3D8D4EE4C8">
+	<DocumentID>ECF4BB61-42B2-A1E8-8F95-AA3D8D4EA4C8</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-8F95-AA3D8D4EA4C8</Name>
+	<Description>Clear Price Protection Date</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-12T13:50:09.202</CreationDate>
+	<Notes/>
+	<DefaultText>Clear Price Protection Date</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="ECF4BB61-42B2-A1E8-8F95-AA3D8D4F24C8"
+		/>
+	</Translations>
+</TextIdentifier>

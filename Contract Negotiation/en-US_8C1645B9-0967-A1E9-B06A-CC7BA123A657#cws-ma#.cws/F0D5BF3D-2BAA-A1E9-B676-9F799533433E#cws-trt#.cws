@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B676-9F799533833E">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B676-9F799533433E</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B676-9F799533433E</Name>
+	<Description>Approve</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-18T07:09:42.707</CreationDate>
+	<Notes/>
+	<Text>Approve</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B676-9F799532C33E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,30 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-B0EA31412B1E">
+	<DocumentID>50EB711A-AD5A-A1EB-9C44-B0EA3140EB1E</DocumentID>
+	<Name>GCCostcenter_Log</Name>
+	<Description>GCCostcenter_Log</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-17T11:26:03.116</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-B0EA313EAB1E">
+			<DocumentID>50EB711A-AD5A-A1EB-9C44-B0EA313E6B1E</DocumentID>
+			<Name>50EB711A-AD5A-A1EB-9C44-B0EA313E6B1E</Name>
+			<Description>50EB711A-AD5A-A1EB-9C44-B0EA313E6B1E</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-02-17T11:26:03.116</CreationDate>
+			<Notes/>
+			<DeveloperText>GCCostcenter_Log</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

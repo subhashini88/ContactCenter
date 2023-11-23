@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-AB97-2641A33FA165">
+	<DocumentID>E86A64E0-AE43-A1EC-AB97-2641A33F6165</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-AB97-2641A33F6165</Name>
+	<Description>Obligation library list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-28T06:15:33.265</CreationDate>
+	<Notes/>
+	<Text>Obligation library list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A64E0-AE43-A1EC-AB97-2641A33EE165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

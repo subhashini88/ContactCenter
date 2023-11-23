@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-7DE6-A1EB-B49A-AD8346AF7031">
+	<DocumentID>00505601-7DE6-A1EB-B49A-AD8346AF3031</DocumentID>
+	<Name>00505601-7DE6-A1EB-B49A-AD8346AF3031</Name>
+	<Description>ReadGCProperties</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-06-21T10:14:52.761</CreationDate>
+	<Notes/>
+	<Text>ReadGCProperties</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-7DE6-A1EB-B49A-AD8346AEB031"
+		/>
+	</TextIdentifier>
+</TranslatedText>

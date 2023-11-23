@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B24C-CA8E445E3162">
+	<DocumentID>F8E4E399-CF40-A1ED-B24C-CA8E445DF162</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B24C-CA8E445DF162</Name>
+	<Description>AllStatesIndivReqAssignmentTasks</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-23T04:30:04.608</CreationDate>
+	<Notes/>
+	<DefaultText>AllStatesIndivReqAssignmentTasks</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-B24C-CA8E445E7162"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E8-B051-A3C3D3DA24D8">
+	<DocumentID>9890969C-5774-A1E8-B051-A3C3D3D9E4D8</DocumentID>
+	<Name>9890969C-5774-A1E8-B051-A3C3D3D9E4D8</Name>
+	<Description>Are you sure to sent contract for approval</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-09-26T04:47:16.948</CreationDate>
+	<Notes/>
+	<DefaultText>Are you sure to sent contract for approval</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E8-B051-A3C3D3DA64D8"
+		/>
+	</Translations>
+</TextIdentifier>

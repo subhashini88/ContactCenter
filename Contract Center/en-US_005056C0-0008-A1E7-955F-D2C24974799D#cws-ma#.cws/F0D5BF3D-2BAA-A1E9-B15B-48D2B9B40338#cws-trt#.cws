@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B15B-48D2B9B44338">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B15B-48D2B9B40338</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B15B-48D2B9B40338</Name>
+	<Description>ReadContract Data</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-08-23T06:14:00.135</CreationDate>
+	<Notes/>
+	<Text>ReadContract Data</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B15B-48D2B9B38338"
+		/>
+	</TextIdentifier>
+</TranslatedText>

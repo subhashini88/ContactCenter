@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-9A1B-4C6170784AC5">
+	<DocumentID>005056C0-0008-A1E7-9A1B-4C6170780AC5</DocumentID>
+	<Name>005056C0-0008-A1E7-9A1B-4C6170780AC5</Name>
+	<Description>Z_INT_SubTypesList</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-14T08:24:41.664</CreationDate>
+	<Notes/>
+	<Text>Z_INT_SubTypesList</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-9A1B-4C6170778AC5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

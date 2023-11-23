@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-A7C4-76055AEA88A9">
+	<DocumentID>B4B676CD-53D8-A1E9-A7C4-76055AEA48A9</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-A7C4-76055AEA48A9</Name>
+	<Description>RenewContractWithAmend</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-05T10:44:33.106</CreationDate>
+	<Notes/>
+	<DefaultText>RenewContractWithAmend</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E9-A7C4-76055AEAC8A9"
+		/>
+	</Translations>
+</TextIdentifier>

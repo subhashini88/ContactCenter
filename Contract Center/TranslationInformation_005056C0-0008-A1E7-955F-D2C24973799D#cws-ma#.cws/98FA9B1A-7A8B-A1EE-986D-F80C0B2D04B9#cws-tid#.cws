@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-986D-F80C0B2D44B9">
+	<DocumentID>98FA9B1A-7A8B-A1EE-986D-F80C0B2D04B9</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-986D-F80C0B2D04B9</Name>
+	<Description>Deactivate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-03T06:44:09.27</CreationDate>
+	<Notes/>
+	<DefaultText>Deactivate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-986D-F80C0B2D84B9"
+		/>
+	</Translations>
+</TextIdentifier>

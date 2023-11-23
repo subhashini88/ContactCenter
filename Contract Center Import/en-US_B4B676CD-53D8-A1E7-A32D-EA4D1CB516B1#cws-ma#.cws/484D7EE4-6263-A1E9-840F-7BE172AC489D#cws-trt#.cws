@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-840F-7BE172AC889D">
+	<DocumentID>484D7EE4-6263-A1E9-840F-7BE172AC489D</DocumentID>
+	<Name>484D7EE4-6263-A1E9-840F-7BE172AC489D</Name>
+	<Description>SetWorkAddress</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-04T16:39:37.288</CreationDate>
+	<Notes/>
+	<Text>SetWorkAddress</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE4-6263-A1E9-840F-7BE172ABC89D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

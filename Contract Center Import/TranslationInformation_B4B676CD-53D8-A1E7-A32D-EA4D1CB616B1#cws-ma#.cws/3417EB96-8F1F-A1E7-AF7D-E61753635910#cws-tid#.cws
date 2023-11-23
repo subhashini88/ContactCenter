@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-AF7D-E61753639910">
+	<DocumentID>3417EB96-8F1F-A1E7-AF7D-E61753635910</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-AF7D-E61753635910</Name>
+	<Description>Find Service for Language</Description>
+	<CreatedBy>tntadmin@strs.role</CreatedBy>
+	<CreationDate>2017-10-31T05:04:47.616</CreationDate>
+	<Notes/>
+	<DefaultText>Find Service for Language</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E7-AF7D-E6175363D910"
+		/>
+	</Translations>
+</TextIdentifier>

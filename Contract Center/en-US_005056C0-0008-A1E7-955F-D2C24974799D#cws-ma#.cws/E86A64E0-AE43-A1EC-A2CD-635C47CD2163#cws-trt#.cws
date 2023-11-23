@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-A2CD-635C47CD6163">
+	<DocumentID>E86A64E0-AE43-A1EC-A2CD-635C47CD2163</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-A2CD-635C47CD2163</Name>
+	<Description>FESC assignment type</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-02-11T13:54:06.755</CreationDate>
+	<Notes/>
+	<Text>FESC assignment type</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A64E0-AE43-A1EC-A2CD-635C47CCA163"
+		/>
+	</TextIdentifier>
+</TranslatedText>

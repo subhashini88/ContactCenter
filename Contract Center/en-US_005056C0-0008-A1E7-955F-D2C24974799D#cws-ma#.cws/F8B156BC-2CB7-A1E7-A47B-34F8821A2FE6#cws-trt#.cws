@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A47B-34F8821A6FE6">
+	<DocumentID>F8B156BC-2CB7-A1E7-A47B-34F8821A2FE6</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A47B-34F8821A2FE6</Name>
+	<Description>Update exixting contract flag</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-09-05T03:52:33.263</CreationDate>
+	<Notes/>
+	<Text>Update exixting contract flag</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A47B-34F88219AFE6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

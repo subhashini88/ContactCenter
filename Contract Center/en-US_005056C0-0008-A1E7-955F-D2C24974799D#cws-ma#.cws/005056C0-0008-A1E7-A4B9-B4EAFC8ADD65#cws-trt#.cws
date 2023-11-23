@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-A4B9-B4EAFC8B1D65">
+	<DocumentID>005056C0-0008-A1E7-A4B9-B4EAFC8ADD65</DocumentID>
+	<Name>005056C0-0008-A1E7-A4B9-B4EAFC8ADD65</Name>
+	<Description>Customer Manager Dashboard</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-09-06T09:36:55.122</CreationDate>
+	<Notes/>
+	<Text>Customer Manager Dashboard</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-A4B9-B4EAFC8A5D65"
+		/>
+	</TextIdentifier>
+</TranslatedText>

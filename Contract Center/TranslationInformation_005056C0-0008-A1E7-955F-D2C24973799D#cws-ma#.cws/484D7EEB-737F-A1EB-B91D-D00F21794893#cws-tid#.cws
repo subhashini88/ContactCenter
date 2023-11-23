@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-737F-A1EB-B91D-D00F21798893">
+	<DocumentID>484D7EEB-737F-A1EB-B91D-D00F21794893</DocumentID>
+	<Name>484D7EEB-737F-A1EB-B91D-D00F21794893</Name>
+	<Description>Modify the contract details carefully. Changes to the contract cannot be reversed.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-07-14T13:29:49.151</CreationDate>
+	<Notes/>
+	<DefaultText>Modify the contract details carefully. Changes to the contract cannot be reversed.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-737F-A1EB-B91D-D00F2179C893"
+		/>
+	</Translations>
+</TextIdentifier>

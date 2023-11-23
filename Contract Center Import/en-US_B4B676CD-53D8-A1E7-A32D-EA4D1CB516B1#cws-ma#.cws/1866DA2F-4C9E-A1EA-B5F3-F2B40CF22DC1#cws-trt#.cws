@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-B5F3-F2B40CF26DC1">
+	<DocumentID>1866DA2F-4C9E-A1EA-B5F3-F2B40CF22DC1</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-B5F3-F2B40CF22DC1</Name>
+	<Description>OrganizationMembersImport</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-06T18:01:55.358</CreationDate>
+	<Notes/>
+	<Text>OrganizationMembersImport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EA-B5F3-F2B40CF1ADC1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

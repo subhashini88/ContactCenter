@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-9EDA-11DE5CC5E42C">
+	<DocumentID>3417EB96-8F1F-A1E7-9EDA-11DE5CC5A42C</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-9EDA-11DE5CC5A42C</Name>
+	<Description>Radio button</Description>
+	<CreatedBy>Naresh Pagadapu</CreatedBy>
+	<CreationDate>2017-08-07T12:05:34.317</CreationDate>
+	<Notes/>
+	<Text>Radio button</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-9EDA-11DE5CC5242C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

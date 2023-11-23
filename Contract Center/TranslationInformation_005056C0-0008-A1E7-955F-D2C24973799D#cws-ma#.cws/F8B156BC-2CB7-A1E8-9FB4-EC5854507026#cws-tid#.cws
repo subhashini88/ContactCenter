@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9FB4-EC585450B026">
+	<DocumentID>F8B156BC-2CB7-A1E8-9FB4-EC5854507026</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9FB4-EC5854507026</Name>
+	<Description>Disable price protection date</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-07-03T16:15:38.701</CreationDate>
+	<Notes/>
+	<DefaultText>Disable price protection date</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9FB4-EC585450F026"
+		/>
+	</Translations>
+</TextIdentifier>

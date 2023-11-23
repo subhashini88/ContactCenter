@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E7-B36B-94F6C47C24DD">
+	<DocumentID>C4D98747-A6D9-A1E7-B36B-94F6C47BE4DD</DocumentID>
+	<Name>C4D98747-A6D9-A1E7-B36B-94F6C47BE4DD</Name>
+	<Description>GetAllDocumentStatuses</Description>
+	<CreatedBy>setup</CreatedBy>
+	<CreationDate>2017-11-20T04:51:08.103</CreationDate>
+	<Notes/>
+	<Text>GetAllDocumentStatuses</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E7-B36B-94F6C47B64DD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

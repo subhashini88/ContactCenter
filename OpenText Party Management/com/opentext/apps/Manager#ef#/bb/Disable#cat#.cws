@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-8B24-CBB9837FB14D">
+	<DocumentID>F8E4E399-CF40-A1ED-8B24-CBB9837F714D</DocumentID>
+	<Name>Disable</Name>
+	<Description>Disable</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-04T20:53:39.191</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="18DBF22F-6336-A1EA-9B74-482E0D418360"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

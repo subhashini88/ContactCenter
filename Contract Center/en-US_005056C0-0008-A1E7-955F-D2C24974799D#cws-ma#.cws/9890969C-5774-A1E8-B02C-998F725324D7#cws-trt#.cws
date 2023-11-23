@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-B02C-998F725364D7">
+	<DocumentID>9890969C-5774-A1E8-B02C-998F725324D7</DocumentID>
+	<Name>9890969C-5774-A1E8-B02C-998F725324D7</Name>
+	<Description>Negotiation to execution</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-09-25T11:45:47.901</CreationDate>
+	<Notes/>
+	<Text>Negotiation to execution</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-B02C-998F7252A4D7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

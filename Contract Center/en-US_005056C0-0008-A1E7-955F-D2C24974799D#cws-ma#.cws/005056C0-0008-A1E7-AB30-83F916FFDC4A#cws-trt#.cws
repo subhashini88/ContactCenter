@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-AB30-83F917001C4A">
+	<DocumentID>005056C0-0008-A1E7-AB30-83F916FFDC4A</DocumentID>
+	<Name>005056C0-0008-A1E7-AB30-83F916FFDC4A</Name>
+	<Description>getdistributionlistcode</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-09T07:19:32.517</CreationDate>
+	<Notes/>
+	<Text>getdistributionlistcode</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-AB30-83F916FF5C4A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

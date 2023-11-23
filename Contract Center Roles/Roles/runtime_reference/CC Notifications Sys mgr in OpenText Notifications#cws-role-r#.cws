@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="98FA9B81-5041-A1ED-80CC-4F8D03737AA3">
+	<DocumentID>98FA9B81-5041-A1ED-80CC-4F8D03733AA3</DocumentID>
+	<Name>CC Notifications Sys mgr in OpenText Notifications</Name>
+	<Description>CC Notifications Sys mgr</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-07-14T05:16:04.977</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>CC Notifications Sys mgr</CommonName>
+	<DistinguishedName>cn=CC Notifications Sys mgr,cn=OpenText Notifications,cn=cordys,cn=AWP,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Internal</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="98FA9B81-5041-A1ED-80CC-4F8D0372FAA3">
+			<DocumentID>98FA9B81-5041-A1ED-80CC-4F8D0372BAA3</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2022-07-14T05:16:04.978</CreationDate>
+			<Notes/>
+			<ArtifactID>98FA9B81-5041-A1EC-BFA9-9E384E503AA3</ArtifactID>
+			<CAPID>484d7eeb-71ef-a1e8-aef2-1b94b31f64fa</CAPID>
+			<CAPName>OpenText Notifications</CAPName>
+			<CAPVersion>ver22.3.0build779</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

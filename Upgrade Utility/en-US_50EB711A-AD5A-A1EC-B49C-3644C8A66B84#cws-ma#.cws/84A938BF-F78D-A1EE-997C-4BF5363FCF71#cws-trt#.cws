@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-997C-4BF536400F71">
+	<DocumentID>84A938BF-F78D-A1EE-997C-4BF5363FCF71</DocumentID>
+	<Name>84A938BF-F78D-A1EE-997C-4BF5363FCF71</Name>
+	<Description>GetObligationCycles</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-08T15:57:43.303</CreationDate>
+	<Notes/>
+	<Text>GetObligationCycles</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-997C-4BF5363F4F71"
+		/>
+	</TextIdentifier>
+</TranslatedText>

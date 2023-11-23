@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-9D23-36031673ABAF">
+	<DocumentID>50EB711A-AD5A-A1ED-9D23-360316736BAF</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-9D23-360316736BAF</Name>
+	<Description>Z_INT_WorklistID</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-05T11:15:33.635</CreationDate>
+	<Notes/>
+	<Text>Z_INT_WorklistID</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1ED-9D23-36031672EBAF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

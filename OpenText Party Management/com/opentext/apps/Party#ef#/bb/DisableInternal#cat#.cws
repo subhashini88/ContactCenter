@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="9890969C-5774-A1E7-B53F-5CFB9832A4B8">
+	<DocumentID>9890969C-5774-A1E7-B53F-5CFB983264B8</DocumentID>
+	<Name>DisableInternal</Name>
+	<Description>DisableInternal</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-11-29T12:19:58.048</CreationDate>
+	<Notes/>
+	<referenceCount>2</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D5-AA46-A1E7-A610-3D9F234F24BC"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

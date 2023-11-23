@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB17-921A-A1E7-9D67-811B62C36CA4">
+	<DocumentID>ECF4BB17-921A-A1E7-9D67-811B62C32CA4</DocumentID>
+	<Name>ECF4BB17-921A-A1E7-9D67-811B62C32CA4</Name>
+	<Description>GenerateDocx</Description>
+	<CreatedBy>setup</CreatedBy>
+	<CreationDate>2017-07-31T03:18:29.088</CreationDate>
+	<Notes/>
+	<Text>GenerateDocx</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB17-921A-A1E7-9D67-811B62C2ACA4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

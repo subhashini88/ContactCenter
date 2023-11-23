@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-AA50-86FD83EB833E">
+	<DocumentID>3C6AA735-2F3B-A1E9-AA50-86FD83EB433E</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-AA50-86FD83EB433E</Name>
+	<Description>You are about to renew the contract with amendments. Changes made cannot be reverted. Do you want to continue?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-18T10:24:53.823</CreationDate>
+	<Notes/>
+	<Text>You are about to renew the contract with amendments. Changes made cannot be reverted. Do you want to continue?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1E9-AA51-9168278CC33E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

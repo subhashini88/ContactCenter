@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A8E3-18066A11A4BE">
+	<DocumentID>F8B156D5-AA46-A1E7-A8E3-18066A1164BE</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A8E3-18066A1164BE</Name>
+	<Description>Dashboard pending list</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-27T14:07:59.614</CreationDate>
+	<Notes/>
+	<Text>Dashboard pending list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A8E3-18066A10E4BE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

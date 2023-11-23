@@ -1,0 +1,59 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-BD61-2E687129C346">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-BD61-2E6871298346</DocumentID>
+	<Name>ExtRequestNegotiationClosure</Name>
+	<Description>ExtRequestNegotiationClosure</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-10-23T11:08:21.491</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>&amp;nbsp;&lt;br /&gt;
+Hi,&lt;br /&gt;
+{User.Properties.FullName} has requested negotiation closure for the &lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/item/{item.Identity.ItemId1}/F0D5BF3D2BAAA1E9B283E7CD2E85C339&quot;&gt;{item.Properties.ContractName}&lt;/a&gt; &lt;/strong&gt;contract.&amp;nbsp;Please take appropriate action.&lt;br /&gt;
+&lt;br /&gt;
+{User.Properties.FullName} comments:&lt;br /&gt;
+{item.Properties.Comments}&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&amp;nbsp;</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Negotiation closure request for {item.Properties.ContractName} contract.</Subject>
+	<To></To>
+	<BuildingBlock>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-BD61-2E68712C8346"
+		/>
+	</BuildingBlock>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-BD61-2E6871284346">
+			<DocumentID>F0D5BF3D-2BAA-A1E9-BD61-2E6871280346</DocumentID>
+			<Name>F0D5BF3D-2BAA-A1E9-BD61-2E6871280346</Name>
+			<Description>F0D5BF3D-2BAA-A1E9-BD61-2E6871280346</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2019-10-23T11:08:21.484</CreationDate>
+			<Notes/>
+			<DeveloperText>ExtRequestNegotiationClosure</DeveloperText>
+			<Identifier>
+				<uri
+					id="F0D5BF3D-2BAA-A1E9-BD61-2E6871288346"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<TypeDefinition/>
+</EmailTemplate>

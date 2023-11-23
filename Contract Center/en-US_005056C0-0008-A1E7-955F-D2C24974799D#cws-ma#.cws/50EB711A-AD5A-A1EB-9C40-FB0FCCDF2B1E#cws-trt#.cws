@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-9C40-FB0FCCDF6B1E">
+	<DocumentID>50EB711A-AD5A-A1EB-9C40-FB0FCCDF2B1E</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-9C40-FB0FCCDF2B1E</Name>
+	<Description>Related dept costcenter</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-17T09:57:34.29</CreationDate>
+	<Notes/>
+	<Text>Related dept costcenter</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EB-9C40-FB0FCCDEAB1E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

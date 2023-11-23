@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B8FA-6CFA0BD1E503">
+	<DocumentID>484D7EE5-DBB0-A1E8-B8FA-6CFA0BD1A503</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B8FA-6CFA0BD1A503</Name>
+	<Description>Contract administrator action</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-11-09T06:44:43.173</CreationDate>
+	<Notes/>
+	<Text>Contract administrator action</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B8FA-6CFA0BD12503"
+		/>
+	</TextIdentifier>
+</TranslatedText>

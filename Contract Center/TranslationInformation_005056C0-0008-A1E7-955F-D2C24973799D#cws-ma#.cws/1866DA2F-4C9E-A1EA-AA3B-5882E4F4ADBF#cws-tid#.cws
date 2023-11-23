@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-AA3B-5882E4F4EDBF">
+	<DocumentID>1866DA2F-4C9E-A1EA-AA3B-5882E4F4ADBF</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-AA3B-5882E4F4ADBF</Name>
+	<Description>getOrgMember
+Mails</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-07T18:48:50.914</CreationDate>
+	<Notes/>
+	<DefaultText>getOrgMember
+Mails</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EA-AA3B-5882E4F52DBF"
+		/>
+	</Translations>
+</TextIdentifier>

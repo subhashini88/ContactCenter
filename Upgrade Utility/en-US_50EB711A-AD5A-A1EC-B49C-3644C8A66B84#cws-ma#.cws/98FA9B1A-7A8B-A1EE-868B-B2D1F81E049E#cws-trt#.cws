@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-868B-B2D1F81E449E">
+	<DocumentID>98FA9B1A-7A8B-A1EE-868B-B2D1F81E049E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-868B-B2D1F81E049E</Name>
+	<Description>ActivityListInstanceUpgrade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-04T05:51:23.549</CreationDate>
+	<Notes/>
+	<Text>ActivityListInstanceUpgrade</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-868B-B2D1F81D849E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

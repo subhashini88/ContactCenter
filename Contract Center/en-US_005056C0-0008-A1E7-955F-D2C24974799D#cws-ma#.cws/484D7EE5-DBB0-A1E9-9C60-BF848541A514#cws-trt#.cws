@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9C60-BF848541E514">
+	<DocumentID>484D7EE5-DBB0-A1E9-9C60-BF848541A514</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-9C60-BF848541A514</Name>
+	<Description>getAssignmentsCount</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-05-09T04:56:14.458</CreationDate>
+	<Notes/>
+	<Text>getAssignmentsCount</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E9-9C60-BF8485412514"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,19 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B608-D052095B4878">
+	<DocumentID>B4B676CD-53D8-A1E8-B608-D052095B0878</DocumentID>
+	<Name>Approver</Name>
+	<Description>Approver</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-25T08:39:06.354</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

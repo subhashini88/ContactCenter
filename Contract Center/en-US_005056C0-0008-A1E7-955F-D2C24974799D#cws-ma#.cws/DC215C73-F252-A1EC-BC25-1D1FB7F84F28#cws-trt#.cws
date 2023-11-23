@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="DC215C73-F252-A1EC-BC25-1D1FB7F88F28">
+	<DocumentID>DC215C73-F252-A1EC-BC25-1D1FB7F84F28</DocumentID>
+	<Name>DC215C73-F252-A1EC-BC25-1D1FB7F84F28</Name>
+	<Description>Obligation library</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-20T12:56:43.701</CreationDate>
+	<Notes/>
+	<Text>Obligation library</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="DC215C73-F252-A1EC-BC25-1D1FB7F7CF28"
+		/>
+	</TextIdentifier>
+</TranslatedText>

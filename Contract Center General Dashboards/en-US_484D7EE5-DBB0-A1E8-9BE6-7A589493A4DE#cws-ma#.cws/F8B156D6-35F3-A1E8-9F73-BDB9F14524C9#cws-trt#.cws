@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9F73-BDB9F14564C9">
+	<DocumentID>F8B156D6-35F3-A1E8-9F73-BDB9F14524C9</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9F73-BDB9F14524C9</Name>
+	<Description>Dashboard for executive</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-02T09:11:53.819</CreationDate>
+	<Notes/>
+	<Text>Dashboard for executive</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-9F75-F06FB60464C9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

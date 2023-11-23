@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <title>Demo data import</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../js/demodata.js"></script>
+
+    <style type="text/css">
+        .import-div {
+            margin-top: 30px;
+            margin-left: 16px;
+        }
+
+        .margin-right-28 {
+            margin-right: 28px;
+        }
+
+        .margin-top16 {
+            margin-top: 16px;
+        }
+
+        .main-container {
+            margin: 0;
+        }
+
+        body, table {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .inner-container {
+            margin-left: -15px;
+        }
+
+        ol>li{
+            padding-bottom: 3px;
+        }
+        table, th, td {
+            border: 1px solid #dddddd;
+            padding: 10px;
+        }
+
+        .downloads{
+            cursor:pointer;
+            color: blue;
+        }
+        .downloads:hover{
+            color: red;
+        }
+
+        .fileName{
+            font-family:courier, courier new, serif;
+        }
+
+    </style>
+</head>
+<body class="cc-ltr">
+    <div id="successToast" style="font-size: 18px; color: #211e1eeb;"></div>
+    <div id="errorToast" class="hide">
+        <div id="toastHeading">
+            <div id="headingContent" style="float:left;padding-left: 1em;">
+                <h5 id="header-content"> </h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container  main-container">
+        <div class="header"></div>
+        <div class="inner-container">
+            <div class="import-div">
+                <h4 data-translatable="true">Instructions:</h4>
+                <b data-translatable="true">Before you begin:</b>
+                <ul><li data-translatable="true">Ensure that you have imported master data from Data manager.</li></ul>
+                <b data-translatable="true">To import demo data:</b>
+                <ol>
+                    <li data-translatable="true">Download <span class="fileName" data-translatable="true">DemoDataStep1.zip</span>, which contains sample files for the import of clause categories, contract types, parties, external contacts, organizations, and terms.<br>
+                        <table>
+                            <tr>
+                                <th data-translatable="true">ZIP file</th>
+                                <th data-translatable="true">Contract data included </th>
+                            </tr>
+                            <tr>
+                                <td><span class = "downloads" onclick='downloadDemoDataFile("DemoDataStep1")' data-translatable="true">DemoDataStep1.zip</span></td>
+                                <td>
+                                <ul style="list-style-type:square">
+                                    <li data-translatable="true">ClauseCategory</li>
+                                    <li data-translatable="true">ContractType</li>
+                                    <li data-translatable="true">Party</li>
+									<li data-translatable="true">ExternalContact</li>
+                                    <li data-translatable="true">Organization</li>
+                                    <li data-translatable="true">Term</li>
+                            </ul>
+                            </td>
+                             </tr>
+                        </table>
+                    </li>
+
+                    <li data-translatable="true">Download <span class="fileName" data-translatable="true">DemoDataStep2.zip</span>, which contains sample files for the import of clauses, account numbers, account managers, contact mappings and members.
+                        <table>
+                            <tr>
+                                <th data-translatable="true">ZIP file</th>
+                                <th data-translatable="true">Contract data included</th>
+                            </tr>
+                            <tr>
+                                <td data-translatable="true"><span class = "downloads" onclick='downloadDemoDataFile("DemoDataStep2")' data-translatable="true">DemoDataStep2.zip</span></td>
+                            
+                            <td>
+                                <ul style="list-style-type:square">
+                                <li data-translatable="true">Clause</li>
+                                <li data-translatable="true">AccountNumber</li>
+                                <li data-translatable="true">AccountManager</li>
+                                <li data-translatable="true">ContactMapping</li>
+                                <li data-translatable="true">Member</li>
+                            </ul>
+                        </td>
+                            </tr>
+                        </table>
+
+                    </li>
+                    <li data-translatable="true">In <span class="fileName" data-translatable="true">DemoDataStep1.zip </span>and<span class="fileName" data-translatable="true"> DemoDataStep2.zip</span>, replace the required user-related values in the Microsoft Excel files to match the values specified in OpenText Directory Services (OTDS).</li>
+                    <li data-translatable="true">To import contracts with templates, create the required templates manually.</li>
+                    <li data-translatable="true">Download <span class="fileName" data-translatable="true">DemoDataStep3.zip</span>, which contains sample files for the import of contracts.
+                        <table>
+                            <tr>
+                                <th data-translatable="true">ZIP file</th>
+                                <th data-translatable="true">Contract data included</th>
+                            </tr>
+                            <tr>
+                                <td><span class = "downloads" onclick='downloadDemoDataFile("DemoDataStep3")' data-translatable="true">DemoDataStep3.zip</span></td>
+                                <td>
+                                    <ul style="list-style-type:square">
+                                <li data-translatable="true">Contract</li>
+                            </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li>
+                        In <span class="fileName" data-translatable="true">DemoDataStep3.zip</span> &#62; <span class="fileName" data-translatable="true">Contract.xls</span>, modify the template values as required.
+                    </li>
+                    <li data-translatable="true">
+                        On the <b data-translatable="true">Upload</b> tab, upload the modified ZIP files in the order they are listed:<br>
+                        <ul style="list-style-type:square">
+                            <li data-translatable="true">DemoDataStep1.zip </li>
+                            <li data-translatable="true">DemoDataStep2.zip </li>
+                            <li data-translatable="true">DemoDataStep3.zip </li>
+                        </ul>
+                        <b data-translatable="true">Note: </b>Do not change the name of the files before upload.
+                    </li>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-21E8-A1E7-A51F-308796DC80CC">
+	<DocumentID>00505601-21E8-A1E7-A51F-308796DC40CC</DocumentID>
+	<Name>00505601-21E8-A1E7-A51F-308796DC40CC</Name>
+	<Description>Contract Administrator Dashboard</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2017-09-08T10:54:56.682</CreationDate>
+	<Notes/>
+	<Text>Contract Administrator Dashboard</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-21E8-A1E7-A51F-308796DBC0CC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

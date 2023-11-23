@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B15A-3CA78E22C885">
+	<DocumentID>F8B156D6-337A-A1E8-B15A-3CA78E228885</DocumentID>
+	<Name>Drafthide</Name>
+	<Description>Drafthide</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-01T11:29:24.004</CreationDate>
+	<Notes/>
+	<referenceCount>11</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3C-1189BA724882"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

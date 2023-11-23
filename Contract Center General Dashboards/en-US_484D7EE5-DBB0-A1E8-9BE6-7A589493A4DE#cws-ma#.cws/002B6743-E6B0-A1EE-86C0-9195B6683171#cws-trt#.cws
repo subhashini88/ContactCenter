@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="002B6743-E6B0-A1EE-86C0-9195B6687171">
+	<DocumentID>002B6743-E6B0-A1EE-86C0-9195B6683171</DocumentID>
+	<Name>002B6743-E6B0-A1EE-86C0-9195B6683171</Name>
+	<Description>All CLA Custom Assignment Layout</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-05T07:09:38.331</CreationDate>
+	<Notes/>
+	<Text>All CLA Custom Assignment Layout</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="002B6743-E6B0-A1EE-86C0-9195B667B171"
+		/>
+	</TextIdentifier>
+</TranslatedText>

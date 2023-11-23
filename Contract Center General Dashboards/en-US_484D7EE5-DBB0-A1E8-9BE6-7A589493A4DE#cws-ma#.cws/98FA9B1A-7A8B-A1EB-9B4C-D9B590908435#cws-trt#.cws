@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9B4C-D9B59090C435">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9B4C-D9B590908435</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9B4C-D9B590908435</Name>
+	<Description>Internal parties</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-12T13:11:43.208</CreationDate>
+	<Notes/>
+	<Text>Internal parties</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9B4C-D9B590900435"
+		/>
+	</TextIdentifier>
+</TranslatedText>

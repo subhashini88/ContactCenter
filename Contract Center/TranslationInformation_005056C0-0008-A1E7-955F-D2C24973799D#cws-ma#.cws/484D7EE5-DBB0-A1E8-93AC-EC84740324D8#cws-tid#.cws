@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-93AC-EC84740364D8">
+	<DocumentID>484D7EE5-DBB0-A1E8-93AC-EC84740324D8</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-93AC-EC84740324D8</Name>
+	<Description>Country fix</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-05-03T09:50:52.12</CreationDate>
+	<Notes/>
+	<DefaultText>Country fix</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-93AC-EC847403A4D8"
+		/>
+	</Translations>
+</TextIdentifier>

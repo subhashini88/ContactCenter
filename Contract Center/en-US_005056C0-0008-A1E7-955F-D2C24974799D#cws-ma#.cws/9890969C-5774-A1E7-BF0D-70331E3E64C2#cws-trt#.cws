@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-BF0D-70331E3EA4C2">
+	<DocumentID>9890969C-5774-A1E7-BF0D-70331E3E64C2</DocumentID>
+	<Name>9890969C-5774-A1E7-BF0D-70331E3E64C2</Name>
+	<Description>Contract renewal within 6 months</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-01-18T10:02:31.072</CreationDate>
+	<Notes/>
+	<Text>Contract renewal within 6 months</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-BF0D-70331E3DE4C2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

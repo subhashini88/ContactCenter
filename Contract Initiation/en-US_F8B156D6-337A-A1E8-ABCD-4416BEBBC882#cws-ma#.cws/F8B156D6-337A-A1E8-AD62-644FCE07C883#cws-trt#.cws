@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AD62-644FCE080883">
+	<DocumentID>F8B156D6-337A-A1E8-AD62-644FCE07C883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AD62-644FCE07C883</Name>
+	<Description>Approve create contract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-11T06:15:55.368</CreationDate>
+	<Notes/>
+	<Text>Approve create contract</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AD62-644FCE074883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

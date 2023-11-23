@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-BD73-8CBCC250E4BB">
+	<DocumentID>484D7EE5-DBB0-A1E7-BD73-8CBCC250A4BB</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-BD73-8CBCC250A4BB</Name>
+	<Description>Reimport</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2018-01-10T06:26:50.729</CreationDate>
+	<Notes/>
+	<Text>Reimport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-BD73-8CBCC25024BB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A05A-A6160354EB27">
+	<DocumentID>98FA9BD4-E468-A1EB-A05A-A6160354AB27</DocumentID>
+	<Name>98FA9BD4-E468-A1EB-A05A-A6160354AB27</Name>
+	<Description>GetActiveMemberOfPersonId</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-10T09:53:25.449</CreationDate>
+	<Notes/>
+	<DefaultText>GetActiveMemberOfPersonId</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9BD4-E468-A1EB-A05A-A61603552B27"
+		/>
+	</Translations>
+</TextIdentifier>

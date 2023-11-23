@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-9255-81DF19B0ED69">
+	<DocumentID>00505601-79C2-A1EC-9255-81DF19B0AD69</DocumentID>
+	<Name>00505601-79C2-A1EC-9255-81DF19B0AD69</Name>
+	<Description>CreateActivityListInstance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-19T16:39:51.701</CreationDate>
+	<Notes/>
+	<Text>CreateActivityListInstance</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-9255-81DF19B02D69"
+		/>
+	</TextIdentifier>
+</TranslatedText>

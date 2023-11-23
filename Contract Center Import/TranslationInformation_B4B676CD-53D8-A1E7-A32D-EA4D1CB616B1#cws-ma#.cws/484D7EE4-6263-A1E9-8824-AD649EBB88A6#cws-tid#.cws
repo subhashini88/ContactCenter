@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-8824-AD649EBBC8A6">
+	<DocumentID>484D7EE4-6263-A1E9-8824-AD649EBB88A6</DocumentID>
+	<Name>484D7EE4-6263-A1E9-8824-AD649EBB88A6</Name>
+	<Description>External contact email</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-25T11:24:06.136</CreationDate>
+	<Notes/>
+	<DefaultText>External contact email</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE4-6263-A1E9-8824-AD649EBC08A6"
+		/>
+	</Translations>
+</TextIdentifier>

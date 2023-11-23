@@ -1,0 +1,23 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A64F-DA640B72E4BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A64F-DA640B72A4BC</DocumentID>
+	<Name>Party Admin</Name>
+	<Description>Party Admin</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-15T05:21:07.428</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Internal</type>
+	<Subroles>
+		<uri
+			id="F8B156B4-FF8F-11E6-E707-9FA82E5DF319"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A226-1217E6DDA4BF">
+	<DocumentID>B4B676CD-53D8-A1E7-A226-1217E6DD64BF</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A226-1217E6DD64BF</Name>
+	<Description>AutoRenew Uncheck</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-24T06:50:15.342</CreationDate>
+	<Notes/>
+	<Text>AutoRenew Uncheck</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A226-1217E6DCE4BF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

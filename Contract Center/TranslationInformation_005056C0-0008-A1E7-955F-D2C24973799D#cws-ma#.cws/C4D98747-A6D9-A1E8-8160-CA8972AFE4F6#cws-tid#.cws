@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-A6D9-A1E8-8160-CA8972B024F6">
+	<DocumentID>C4D98747-A6D9-A1E8-8160-CA8972AFE4F6</DocumentID>
+	<Name>C4D98747-A6D9-A1E8-8160-CA8972AFE4F6</Name>
+	<Description>Terms for clause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-01-30T06:14:20.844</CreationDate>
+	<Notes/>
+	<DefaultText>Terms for clause</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-A6D9-A1E8-8160-CA8972B064F6"
+		/>
+	</Translations>
+</TextIdentifier>

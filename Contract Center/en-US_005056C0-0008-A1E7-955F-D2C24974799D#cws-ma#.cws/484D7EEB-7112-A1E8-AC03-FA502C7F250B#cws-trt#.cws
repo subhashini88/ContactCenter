@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E8-AC03-FA502C7F650B">
+	<DocumentID>484D7EEB-7112-A1E8-AC03-FA502C7F250B</DocumentID>
+	<Name>484D7EEB-7112-A1E8-AC03-FA502C7F250B</Name>
+	<Description>Termination conditions</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2018-09-04T07:26:32.964</CreationDate>
+	<Notes/>
+	<Text>Termination conditions</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E8-AC03-FA502C7EA50B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

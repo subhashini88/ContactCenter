@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A672-E529FFEEE4C6">
+	<DocumentID>F8B156B5-069B-A1E7-A672-E529FFEEA4C6</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A672-E529FFEEA4C6</Name>
+	<Description>on action perfomed notification email template</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-15T04:46:18.842</CreationDate>
+	<Notes/>
+	<DefaultText>on action perfomed notification email template</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156B5-069B-A1E7-A672-E529FFEF24C6"
+		/>
+	</Translations>
+</TextIdentifier>

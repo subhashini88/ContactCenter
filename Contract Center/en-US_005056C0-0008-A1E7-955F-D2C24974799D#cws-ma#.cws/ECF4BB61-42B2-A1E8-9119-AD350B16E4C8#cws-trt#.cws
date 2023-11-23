@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-9119-AD350B1724C8">
+	<DocumentID>ECF4BB61-42B2-A1E8-9119-AD350B16E4C8</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-9119-AD350B16E4C8</Name>
+	<Description>Revenue schedule grid fee</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-20T10:52:01.762</CreationDate>
+	<Notes/>
+	<Text>Revenue schedule grid fee</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-9119-AD350B1664C8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

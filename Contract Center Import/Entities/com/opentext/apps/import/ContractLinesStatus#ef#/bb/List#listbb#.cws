@@ -1,0 +1,19 @@
+
+<WorklistBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.worklist.WorklistBuildingBlock"
+	typeVersion="32e265e6-5eca-4903-ba2e-9f760b311d90"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-AC02-AE3FD1AC373D">
+	<DocumentID>B4B676CD-53D8-A1E7-AC02-AE3FD1ABF73D</DocumentID>
+	<Name>List</Name>
+	<Description>List</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-10-13T11:45:08.87</CreationDate>
+	<Notes/>
+	<Entity>
+		<uri
+			id="B4B676CD-53D8-A1E7-ABF9-063F09B6B73D"
+		/>
+	</Entity>
+	<Worklists/>
+</WorklistBuildingBlock>

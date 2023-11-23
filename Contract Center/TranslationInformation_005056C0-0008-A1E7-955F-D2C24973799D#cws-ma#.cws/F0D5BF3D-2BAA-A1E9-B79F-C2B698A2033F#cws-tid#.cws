@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B79F-C2B698A2433F">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B79F-C2B698A2033F</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B79F-C2B698A2033F</Name>
+	<Description>ReadExtContactUserID</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-24T03:58:40.697</CreationDate>
+	<Notes/>
+	<DefaultText>ReadExtContactUserID</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B79F-C2B698A2833F"
+		/>
+	</Translations>
+</TextIdentifier>

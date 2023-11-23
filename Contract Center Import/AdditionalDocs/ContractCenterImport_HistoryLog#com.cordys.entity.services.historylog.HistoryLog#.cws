@@ -1,0 +1,34 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-8889-06259C030344">
+	<DocumentID>FC7774E8-DA63-A1EA-8889-06259C02C344</DocumentID>
+	<Name>ContractCenterImport_HistoryLog</Name>
+	<Description>ContractCenterImport_HistoryLog</Description>
+	<CreatedBy>VarshaK</CreatedBy>
+	<CreationDate>2019-12-19T05:59:02.832</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="FC7774E8-DA63-A1EA-8889-06259BFF0344">
+			<DocumentID>FC7774E8-DA63-A1EA-8889-06259BFEC344</DocumentID>
+			<Name>FC7774E8-DA63-A1EA-8889-06259BFEC344</Name>
+			<Description>FC7774E8-DA63-A1EA-8889-06259BFEC344</Description>
+			<CreatedBy>VarshaK</CreatedBy>
+			<CreationDate>2019-12-19T05:59:02.831</CreationDate>
+			<Notes/>
+			<DeveloperText>ContractCenterImportHistoryLog</DeveloperText>
+			<Identifier>
+				<uri
+					id="FC7774E8-DA63-A1EA-8889-06259BFF4344"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

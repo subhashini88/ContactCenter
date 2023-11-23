@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-6E6B-A1EA-AAF1-AB8DDE59D10E">
+	<DocumentID>00505601-6E6B-A1EA-AAF1-AB8DDE59910E</DocumentID>
+	<Name>00505601-6E6B-A1EA-AAF1-AB8DDE59910E</Name>
+	<Description>ReadActivityListInstance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-11T10:14:06.099</CreationDate>
+	<Notes/>
+	<DefaultText>ReadActivityListInstance</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-6E6B-A1EA-AAF1-AB8DDE5A110E"
+		/>
+	</Translations>
+</TextIdentifier>

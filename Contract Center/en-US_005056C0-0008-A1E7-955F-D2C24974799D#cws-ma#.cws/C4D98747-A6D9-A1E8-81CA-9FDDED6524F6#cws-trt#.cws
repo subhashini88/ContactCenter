@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E8-81CA-9FDDED6564F6">
+	<DocumentID>C4D98747-A6D9-A1E8-81CA-9FDDED6524F6</DocumentID>
+	<Name>C4D98747-A6D9-A1E8-81CA-9FDDED6524F6</Name>
+	<Description>Template create layout</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-02-01T08:39:23.265</CreationDate>
+	<Notes/>
+	<Text>Template create layout</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E8-81CA-9FDDED64A4F6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B411-CDF6781AC889">
+	<DocumentID>F8B156D6-337A-A1E8-B411-CDF6781A8889</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B411-CDF6781A8889</Name>
+	<Description>Rename</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-15T06:56:35.16</CreationDate>
+	<Notes/>
+	<Text>Rename</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B411-CDF6781A0889"
+		/>
+	</TextIdentifier>
+</TranslatedText>

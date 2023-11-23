@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-9052-596929F824C8">
+	<DocumentID>ECF4BB61-42B2-A1E8-9052-596929F7E4C8</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-9052-596929F7E4C8</Name>
+	<Description>Set TCV and RCV to Zero</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-16T08:38:21.591</CreationDate>
+	<Notes/>
+	<DefaultText>Set TCV and RCV to Zero</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="ECF4BB61-42B2-A1E8-9052-596929F864C8"
+		/>
+	</Translations>
+</TextIdentifier>

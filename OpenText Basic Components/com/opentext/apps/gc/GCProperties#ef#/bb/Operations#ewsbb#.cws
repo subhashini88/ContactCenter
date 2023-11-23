@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="1866DA2F-3B8A-A1E8-ADF9-165330B78872">
+	<DocumentID>1866DA2F-3B8A-A1E8-ADF9-165330B74872</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-14T06:11:08.824</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E8-B1B6-6C1125B3C876">
+			<DocumentID>B4B676CD-53D8-A1E8-B1B6-6C1125B38876</DocumentID>
+			<Name>CreateGCProperties</Name>
+			<Description>Create GCProperties</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-10-03T07:11:45.216</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="1866DA2F-3B8A-A1E8-AD9E-55A529608872"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E8-B1B6-6C1125B0C876">
+			<DocumentID>B4B676CD-53D8-A1E8-B1B6-6C1125B08876</DocumentID>
+			<Name>DeleteGCProperties</Name>
+			<Description>Delete GCProperties</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-10-03T07:11:45.216</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="1866DA2F-3B8A-A1E8-AD9E-55A529608872"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="1866DA2F-3B8A-A1E8-AD9E-55A529608872"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E8-B1B6-6C1125B2C876">
+			<DocumentID>B4B676CD-53D8-A1E8-B1B6-6C1125B28876</DocumentID>
+			<Name>ReadGCProperties</Name>
+			<Description>Read GCProperties</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-10-03T07:11:45.216</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="1866DA2F-3B8A-A1E8-AD9E-55A529608872"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E8-B1B6-6C1125B1C876">
+			<DocumentID>B4B676CD-53D8-A1E8-B1B6-6C1125B18876</DocumentID>
+			<Name>UpdateGCProperties</Name>
+			<Description>Update GCProperties</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-10-03T07:11:45.216</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="1866DA2F-3B8A-A1E8-AD9E-55A529608872"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

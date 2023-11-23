@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-9DB1-DD3D6FF13A2E">
+	<DocumentID>B4B676CD-53D8-A1E7-9DB1-DD3D6FF0FA2E</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-9DB1-DD3D6FF0FA2E</Name>
+	<Description>CreateAndLinkXECMBW</Description>
+	<CreatedBy>don</CreatedBy>
+	<CreationDate>2017-08-01T14:41:58.988</CreationDate>
+	<Notes/>
+	<Text>CreateAndLinkXECMBW</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-9DB1-DD3D6FF07A2E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

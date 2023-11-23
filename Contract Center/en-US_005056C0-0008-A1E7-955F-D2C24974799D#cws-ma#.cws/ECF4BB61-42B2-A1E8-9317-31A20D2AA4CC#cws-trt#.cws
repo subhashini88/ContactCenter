@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-9317-31A20D2AE4CC">
+	<DocumentID>ECF4BB61-42B2-A1E8-9317-31A20D2AA4CC</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-9317-31A20D2AA4CC</Name>
+	<Description>CalculateTotalGridValues</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-30T09:56:41.42</CreationDate>
+	<Notes/>
+	<Text>CalculateTotalGridValues</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-9317-31A20D2A24CC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

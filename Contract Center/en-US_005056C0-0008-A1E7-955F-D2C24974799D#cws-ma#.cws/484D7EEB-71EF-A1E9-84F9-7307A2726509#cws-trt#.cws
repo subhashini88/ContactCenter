@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-84F9-7307A272A509">
+	<DocumentID>484D7EEB-71EF-A1E9-84F9-7307A2726509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-84F9-7307A2726509</Name>
+	<Description>Act before expiration(days)</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-09T08:56:28.817</CreationDate>
+	<Notes/>
+	<Text>Act before expiration(days)</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-84F9-7307A271E509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A782-86859DFAA4C7">
+	<DocumentID>F8B156B5-069B-A1E7-A782-86859DFA64C7</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A782-86859DFA64C7</Name>
+	<Description>Billing inactivation rule</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-20T14:02:52.93</CreationDate>
+	<Notes/>
+	<DefaultText>Billing inactivation rule</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156B5-069B-A1E7-A782-86859DFAE4C7"
+		/>
+	</Translations>
+</TextIdentifier>

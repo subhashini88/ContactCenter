@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B44C-7F49281FC889">
+	<DocumentID>F8B156D6-337A-A1E8-B44C-7F49281F8889</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B44C-7F49281F8889</Name>
+	<Description>Approved email template</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-16T11:22:42.201</CreationDate>
+	<Notes/>
+	<Text>Approved email template</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B44C-7F49281F0889"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A224-E12CC490E4BF">
+	<DocumentID>B4B676CD-53D8-A1E7-A224-E12CC490A4BF</DocumentID>
+	<Name>disableProperty</Name>
+	<Description>disableProperty</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-24T06:31:48.377</CreationDate>
+	<Notes/>
+	<referenceCount>7</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

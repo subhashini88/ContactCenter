@@ -1,0 +1,18 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-941E-299735C7E516">
+	<DocumentID>484D7EEB-71EF-A1E9-941E-299735C7A516</DocumentID>
+	<Name>E-Signature User</Name>
+	<Description>E-Signature User</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-27T10:44:14.754</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

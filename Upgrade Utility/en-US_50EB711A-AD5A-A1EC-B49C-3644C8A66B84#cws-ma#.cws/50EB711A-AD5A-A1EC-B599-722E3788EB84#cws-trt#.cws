@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B599-722E37892B84">
+	<DocumentID>50EB711A-AD5A-A1EC-B599-722E3788EB84</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B599-722E3788EB84</Name>
+	<Description>ReadContractsList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-18T04:51:26.092</CreationDate>
+	<Notes/>
+	<Text>ReadContractsList</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B599-722E37886B84"
+		/>
+	</TextIdentifier>
+</TranslatedText>

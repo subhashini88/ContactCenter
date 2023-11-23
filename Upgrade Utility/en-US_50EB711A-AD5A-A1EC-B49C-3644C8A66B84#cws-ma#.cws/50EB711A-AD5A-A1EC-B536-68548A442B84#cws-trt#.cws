@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B536-68548A446B84">
+	<DocumentID>50EB711A-AD5A-A1EC-B536-68548A442B84</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B536-68548A442B84</Name>
+	<Description>Success ids</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-16T05:34:59.998</CreationDate>
+	<Notes/>
+	<Text>Success ids</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B536-68548A43AB84"
+		/>
+	</TextIdentifier>
+</TranslatedText>

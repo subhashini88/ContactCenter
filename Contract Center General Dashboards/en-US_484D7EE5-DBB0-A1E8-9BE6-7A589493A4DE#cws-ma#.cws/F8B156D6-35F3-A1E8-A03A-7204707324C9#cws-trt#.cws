@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A03A-7204707364C9">
+	<DocumentID>F8B156D6-35F3-A1E8-A03A-7204707324C9</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A03A-7204707324C9</Name>
+	<Description>Data - Renewal flags</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-06T08:02:41.773</CreationDate>
+	<Notes/>
+	<Text>Data - Renewal flags</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A03A-72047072A4C9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

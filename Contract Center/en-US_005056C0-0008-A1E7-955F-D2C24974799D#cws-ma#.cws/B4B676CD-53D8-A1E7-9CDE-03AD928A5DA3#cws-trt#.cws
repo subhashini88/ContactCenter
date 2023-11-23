@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-9CDE-03AD928A9DA3">
+	<DocumentID>B4B676CD-53D8-A1E7-9CDE-03AD928A5DA3</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-9CDE-03AD928A5DA3</Name>
+	<Description>Get accessible clauses</Description>
+	<CreatedBy>don</CreatedBy>
+	<CreationDate>2017-07-28T09:35:45.526</CreationDate>
+	<Notes/>
+	<Text>Get accessible clauses</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-9CDE-03AD9289DDA3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

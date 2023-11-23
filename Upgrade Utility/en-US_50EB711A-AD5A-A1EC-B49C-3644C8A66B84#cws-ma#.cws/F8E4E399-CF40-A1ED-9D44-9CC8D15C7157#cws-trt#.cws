@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9D44-9CC8D15CB157">
+	<DocumentID>F8E4E399-CF40-A1ED-9D44-9CC8D15C7157</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-9D44-9CC8D15C7157</Name>
+	<Description>getContractTypeCount</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-06T03:14:18.603</CreationDate>
+	<Notes/>
+	<Text>getContractTypeCount</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-9D44-9CC8D15BF157"
+		/>
+	</TextIdentifier>
+</TranslatedText>

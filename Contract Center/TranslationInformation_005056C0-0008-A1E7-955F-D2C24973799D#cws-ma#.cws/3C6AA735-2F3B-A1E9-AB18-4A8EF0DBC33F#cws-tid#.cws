@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-AB18-4A8EF0DC033F">
+	<DocumentID>3C6AA735-2F3B-A1E9-AB18-4A8EF0DBC33F</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-AB18-4A8EF0DBC33F</Name>
+	<Description>TestContractList</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-07-22T09:37:57.749</CreationDate>
+	<Notes/>
+	<DefaultText>TestContractList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1E9-AB18-4A8EF0DC433F"
+		/>
+	</Translations>
+</TextIdentifier>

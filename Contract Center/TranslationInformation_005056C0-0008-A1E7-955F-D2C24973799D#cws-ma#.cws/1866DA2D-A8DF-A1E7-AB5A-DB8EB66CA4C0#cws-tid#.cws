@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2D-A8DF-A1E7-AB5A-DB8EB66CE4C0">
+	<DocumentID>1866DA2D-A8DF-A1E7-AB5A-DB8EB66CA4C0</DocumentID>
+	<Name>1866DA2D-A8DF-A1E7-AB5A-DB8EB66CA4C0</Name>
+	<Description>Add tasks</Description>
+	<CreatedBy>kshinde kshinde</CreatedBy>
+	<CreationDate>2017-10-10T03:31:16.877</CreationDate>
+	<Notes/>
+	<DefaultText>Add tasks</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2D-A8DF-A1E7-AB5A-DB8EB66D24C0"
+		/>
+	</Translations>
+</TextIdentifier>

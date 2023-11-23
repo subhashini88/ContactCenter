@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-8C5E-7449F73190F3">
+	<DocumentID>3417EB96-8F1F-A1E8-8C5E-7449F73150F3</DocumentID>
+	<Name>Party Creator in OpenText Party Management</Name>
+	<Description>Party Creator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-03-27T04:51:01.516</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>Party Creator</CommonName>
+	<DistinguishedName>cn=Party Creator,cn=OpenText Party Management,cn=cordys,cn=defaultInst,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Functional</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="3417EB96-8F1F-A1E8-8C5E-7449F73110F3">
+			<DocumentID>3417EB96-8F1F-A1E8-8C5E-7449F730D0F3</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2018-03-27T04:51:01.516</CreationDate>
+			<Notes/>
+			<ArtifactID>3417EB96-8F1F-A1E8-8B31-1140404C90F3</ArtifactID>
+			<CAPID>f8b156d5-aa46-a1e7-a5b6-ce0f75a024bc</CAPID>
+			<CAPName>OpenText Party Management</CAPName>
+			<CAPVersion>ver16.3.0build80</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

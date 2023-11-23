@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-A026-A43327ACEB20">
+	<DocumentID>50EB711A-AD5A-A1EB-A026-A43327ACAB20</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-A026-A43327ACAB20</Name>
+	<Description>Cost centers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-09T05:50:27.308</CreationDate>
+	<Notes/>
+	<Text>Cost centers</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EB-A026-A43327AC2B20"
+		/>
+	</TextIdentifier>
+</TranslatedText>

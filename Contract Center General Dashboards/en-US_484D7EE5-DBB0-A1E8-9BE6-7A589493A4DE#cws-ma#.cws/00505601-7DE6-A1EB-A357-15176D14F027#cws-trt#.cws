@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-7DE6-A1EB-A357-15176D153027">
+	<DocumentID>00505601-7DE6-A1EB-A357-15176D14F027</DocumentID>
+	<Name>00505601-7DE6-A1EB-A357-15176D14F027</Name>
+	<Description>Master Data</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-25T11:23:34.983</CreationDate>
+	<Notes/>
+	<Text>Master Data</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-7DE6-A1EB-A357-15176D147027"
+		/>
+	</TextIdentifier>
+</TranslatedText>

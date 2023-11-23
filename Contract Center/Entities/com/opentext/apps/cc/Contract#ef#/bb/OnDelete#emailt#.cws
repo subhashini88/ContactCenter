@@ -1,0 +1,50 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-A17A-2BC836C8E64B">
+	<DocumentID>8C1645B9-0967-A1E9-A17A-2BC836C8A64B</DocumentID>
+	<Name>OnDelete</Name>
+	<Description>OnDelete</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-06-03T10:56:07.031</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>{User.Properties.FullName} has performed the delete action on the contract&amp;nbsp;&lt;strong&gt;{item.Properties.ContractName}&lt;/strong&gt; and the contract has been deleted.&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Contract {item.Properties.ContractName} deleted by {User.Properties.FullName}</Subject>
+	<To></To>
+	<BuildingBlock>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ADF7-CDD0458024F4"
+		/>
+	</BuildingBlock>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="8C1645B9-0967-A1E9-A17A-2BC836C6E64B">
+			<DocumentID>8C1645B9-0967-A1E9-A17A-2BC836C6A64B</DocumentID>
+			<Name>8C1645B9-0967-A1E9-A17A-2BC836C6A64B</Name>
+			<Description>8C1645B9-0967-A1E9-A17A-2BC836C6A64B</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-06-03T10:56:07.031</CreationDate>
+			<Notes/>
+			<DeveloperText>OnDelete</DeveloperText>
+			<Identifier>
+				<uri
+					id="8C1645B9-0967-A1E9-A17A-2BC836C7264B"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<TypeDefinition/>
+</EmailTemplate>

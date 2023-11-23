@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-8730-DF71B95184A0">
+	<DocumentID>98FA9B1A-7A8B-A1EE-8730-DF71B95144A0</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-8730-DF71B95144A0</Name>
+	<Description>ReadRuleList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-07T12:56:19.436</CreationDate>
+	<Notes/>
+	<DefaultText>ReadRuleList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-8730-DF71B951C4A0"
+		/>
+	</Translations>
+</TextIdentifier>

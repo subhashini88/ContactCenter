@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-BC88-B80372DDB03C">
+	<DocumentID>F8B156BC-2CB7-A1E8-BC88-B80372DD703C</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-BC88-B80372DD703C</Name>
+	<Description>Disable internal contact</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-11-27T09:07:33.208</CreationDate>
+	<Notes/>
+	<Text>Disable internal contact</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-BC88-B80372DCF03C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

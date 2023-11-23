@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A613-0C6CBCB724C5">
+	<DocumentID>F8B156B5-069B-A1E7-A613-0C6CBCB6E4C5</DocumentID>
+	<Name>AutoRenewRule</Name>
+	<Description>AutoRenewRule</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-13T06:45:22.227</CreationDate>
+	<Notes/>
+	<referenceCount>1</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

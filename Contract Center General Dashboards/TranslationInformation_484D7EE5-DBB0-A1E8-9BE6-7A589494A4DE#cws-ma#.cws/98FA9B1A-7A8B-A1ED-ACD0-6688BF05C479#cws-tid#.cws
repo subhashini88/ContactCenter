@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-ACD0-6688BF060479">
+	<DocumentID>98FA9B1A-7A8B-A1ED-ACD0-6688BF05C479</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-ACD0-6688BF05C479</Name>
+	<Description>RecentContracts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-02-23T06:30:20.832</CreationDate>
+	<Notes/>
+	<DefaultText>RecentContracts</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-ACD0-6688BF064479"
+		/>
+	</Translations>
+</TextIdentifier>

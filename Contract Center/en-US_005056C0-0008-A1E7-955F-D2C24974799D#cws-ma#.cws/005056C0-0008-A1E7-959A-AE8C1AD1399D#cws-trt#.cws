@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-959A-97B7B89C399D">
+	<DocumentID>005056C0-0008-A1E7-959A-AE8C1AD1399D</DocumentID>
+	<Name>005056C0-0008-A1E7-959A-AE8C1AD1399D</Name>
+	<Description>Withdrawn</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-21T10:16:49.927</CreationDate>
+	<Notes/>
+	<Text>Withdrawn</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-959A-AE8C1AD0B99D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

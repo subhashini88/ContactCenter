@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-902F-A41EA8A7A4EB">
+	<DocumentID>F8B156D5-E69D-A1E9-902F-A41EA8A764EB</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-902F-A41EA8A764EB</Name>
+	<Description>Containing documents list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-07T10:25:02.4</CreationDate>
+	<Notes/>
+	<DefaultText>Containing documents list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912464DF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-E69D-A1E9-902F-A41EA8A7E4EB"
+		/>
+	</Translations>
+</TextIdentifier>

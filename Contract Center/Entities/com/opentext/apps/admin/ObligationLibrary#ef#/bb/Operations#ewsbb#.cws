@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-AA76-90FD231C2165">
+	<DocumentID>E86A64E0-AE43-A1EC-AA76-90FD231BE165</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-22T12:52:42.369</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="E86A64E0-AE43-A1EC-AA76-90FD231AE165">
+			<DocumentID>E86A64E0-AE43-A1EC-AA76-90FD231AA165</DocumentID>
+			<Name>CreateObligationLibrary</Name>
+			<Description>Create ObligationLibrary</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-03-22T12:52:42.369</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A64E0-AE43-A1EC-AA72-7426C0D4A165"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="E86A64E0-AE43-A1EC-AA72-7426C0D4A165"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="E86A64E0-AE43-A1EC-AA76-90FD231B6165">
+			<DocumentID>E86A64E0-AE43-A1EC-AA76-90FD231B2165</DocumentID>
+			<Name>ReadObligationLibrary</Name>
+			<Description>Read ObligationLibrary</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-03-22T12:52:42.369</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A64E0-AE43-A1EC-AA72-7426C0D4A165"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation/>
+</EntityWebServicesBuildingBlock>

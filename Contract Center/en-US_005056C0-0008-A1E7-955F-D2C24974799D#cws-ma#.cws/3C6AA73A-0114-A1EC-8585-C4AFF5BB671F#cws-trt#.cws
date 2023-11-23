@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-8585-C4AFF5BBA71F">
+	<DocumentID>3C6AA73A-0114-A1EC-8585-C4AFF5BB671F</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-8585-C4AFF5BB671F</Name>
+	<Description>Clear templace and resolve custom attributes.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-15T11:21:37.173</CreationDate>
+	<Notes/>
+	<Text>Clear templace and resolve custom attributes.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-8585-C4AFF5BAE71F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

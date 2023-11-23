@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-B970-A1ED-A979-507E65EEBB85">
+	<DocumentID>00505601-B970-A1ED-A979-507E65EE7B85</DocumentID>
+	<Name>00505601-B970-A1ED-A979-507E65EE7B85</Name>
+	<Description>GetDefaultCTRValInput</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-02-06T07:26:42.509</CreationDate>
+	<Notes/>
+	<DefaultText>GetDefaultCTRValInput</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-B970-A1ED-A979-507E65EEFB85"
+		/>
+	</Translations>
+</TextIdentifier>

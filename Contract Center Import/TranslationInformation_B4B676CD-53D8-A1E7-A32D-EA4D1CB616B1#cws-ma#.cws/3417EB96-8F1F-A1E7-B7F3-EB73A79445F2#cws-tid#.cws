@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-B7F3-EB73A79485F2">
+	<DocumentID>3417EB96-8F1F-A1E7-B7F3-EB73A79445F2</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-B7F3-EB73A79445F2</Name>
+	<Description>is collectio account matched</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-13T06:36:09.786</CreationDate>
+	<Notes/>
+	<DefaultText>is collectio account matched</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E7-B7F3-EB73A794C5F2"
+		/>
+	</Translations>
+</TextIdentifier>

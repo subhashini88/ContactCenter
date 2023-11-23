@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-737F-A1EB-B79B-1CF9C9E30893">
+	<DocumentID>484D7EEB-737F-A1EB-B79B-1CF9C9E2C893</DocumentID>
+	<Name>484D7EEB-737F-A1EB-B79B-1CF9C9E2C893</Name>
+	<Description>ChangeTerminationDate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-07-06T15:11:44.252</CreationDate>
+	<Notes/>
+	<DefaultText>ChangeTerminationDate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-737F-A1EB-B79B-1CF9C9E34893"
+		/>
+	</Translations>
+</TextIdentifier>

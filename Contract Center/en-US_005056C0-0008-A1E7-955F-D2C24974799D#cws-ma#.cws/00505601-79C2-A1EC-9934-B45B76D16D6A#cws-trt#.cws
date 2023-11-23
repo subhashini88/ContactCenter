@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-9934-B45B76D1AD6A">
+	<DocumentID>00505601-79C2-A1EC-9934-B45B76D16D6A</DocumentID>
+	<Name>00505601-79C2-A1EC-9934-B45B76D16D6A</Name>
+	<Description>Second escalation template</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-24T16:26:07.616</CreationDate>
+	<Notes/>
+	<Text>Second escalation template</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-9934-B45B76D0ED6A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

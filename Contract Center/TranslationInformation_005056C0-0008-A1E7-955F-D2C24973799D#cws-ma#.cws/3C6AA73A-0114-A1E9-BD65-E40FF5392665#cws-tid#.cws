@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD65-E40FF5396665">
+	<DocumentID>3C6AA73A-0114-A1E9-BD65-E40FF5392665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD65-E40FF5392665</Name>
+	<Description>Update Contract Activation DL</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-23T13:19:30.248</CreationDate>
+	<Notes/>
+	<DefaultText>Update Contract Activation DL</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD65-E40FF539A665"
+		/>
+	</Translations>
+</TextIdentifier>

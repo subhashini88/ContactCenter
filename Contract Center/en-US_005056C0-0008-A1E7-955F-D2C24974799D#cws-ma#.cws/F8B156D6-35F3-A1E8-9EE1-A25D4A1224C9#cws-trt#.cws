@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9EE1-A25D4A1264C9">
+	<DocumentID>F8B156D6-35F3-A1E8-9EE1-A25D4A1224C9</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9EE1-A25D4A1224C9</Name>
+	<Description>GenericTerminateContract</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-29T10:24:12.381</CreationDate>
+	<Notes/>
+	<Text>GenericTerminateContract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-9EE1-A25D4A11A4C9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

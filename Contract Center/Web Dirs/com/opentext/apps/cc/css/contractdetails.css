@@ -1,0 +1,374 @@
+/** Create / update page CSS **/
+
+.top-padding {
+    padding: 10px 0px;
+}
+
+.bottom-padding {
+    padding-bottom: 2px;
+}
+
+.left-padding {
+    padding-left: 15px;
+}
+
+.right-padding {
+    padding-right: 15px;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+/** Modal properties. **/
+
+.form-group>label {
+    min-width: 50%;
+}
+
+.table-container {
+    background: #F8FBFF;
+}
+
+.tableshadow {
+    background: #E5EFFC;
+    font-weight: bold !important;
+}
+
+.tableshadow-light {
+    background-color: #F2F2F2;
+}
+
+.tableshadowdepth {
+    background-color: #DCE4E8;
+    color: #333333;
+}
+
+.row-container {
+    padding: 10px 2px;
+}
+
+.row-box {
+    margin: 0px 0px;
+}
+
+.row-box * {
+    vertical-align: middle;
+}
+
+.title-padding {
+    padding: 14px 16px;
+}
+
+.bottomBorder {
+    border-bottom: 4px solid #232E72;
+    padding-bottom: 12px;
+}
+
+.hide-transition {
+    display: none;
+    transition: opacity 1s ease-out;
+}
+
+.side-padding {
+    padding: 0px 5px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.table-container-body {
+    height: 490px;
+    overflow: auto;
+}
+
+.cc-icon {
+    min-height: 20px;
+}
+
+.cc-footer-sub {
+    background-color: #f2f2f2;
+    margin: 0px;
+}
+
+.input-group-addon {
+    padding: 0px 12px;
+}
+
+#createconfiguratordetailsHeader {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/** Added for contract details only.*/
+.cc-tab-header {
+    height: 50px;
+    background: #DEE5EA;
+}
+
+.cc-tab--header-title-div {
+    font-size: 17px;
+    padding-top: 7.5px;
+    padding-left: 15px;
+}
+
+.cc-tab--header-title {
+    font-family: OpenText Sans;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    font-weight: 600;
+}
+
+.tab-sub-header {
+    font-family: OpenText Sans;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin: -5px 0px 10px 15px;
+    font-weight: 600;
+}
+
+.cc-tab-content {
+    margin-top: 15px;
+    margin-left: -10px;
+}
+
+.cc-form-label {
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #757575;
+
+    margin-bottom: 0px;
+}
+
+.cc-form-value {
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px !important;
+    display: flex;
+    align-items: center;
+    color: #333333;
+
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.cc-form-value-editable {
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px !important;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.cc-form-value-long {
+    line-height: 18px !important;
+}
+
+.cc-tab_men_item {
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.menu-items-holder {
+    min-height: 575px;
+    border: 1px solid #E6E6E6;
+    position: fixed;
+    background: #F8FBFF;
+}
+
+.contractlines_list {
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.cc-form-hr {
+    border-top: 2px solid #E6E6E6;
+    margin-left: 15px;
+}
+
+.chicklet-text {
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    align-items: center;
+}
+
+.chicklet {
+    background: #EDF1FA;
+    border: 1px solid #5864AD;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 0px 8px;
+    margin: 2px;
+    height: 24px;
+    white-space: nowrap;
+    max-width: 238px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;
+}
+
+.chicklet:hover {
+    border: 2px solid #2E3D98;
+}
+
+
+/* tags Css  */
+
+.tag-input-box {
+    font-size: 14px !important;
+    line-height: 28px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #757575 !important;
+    box-sizing: border-box !important;
+    border-radius: 3px !important;
+}
+
+.dropdown-content {
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 0 3px 3px rgb(0 0 0 / 9%);
+    min-width: 150px;
+    position: absolute;
+    overflow-y: auto;
+    max-height: 349px;
+    overflow-x: hidden;
+}
+
+.dropdown-content div {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.show {
+    display: block;
+}
+
+.chiklets-div {
+    margin-top: 1px;
+}
+
+
+.chiklet-text {
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    vertical-align: middle;
+}
+
+
+.chiklet {
+    background: #EDFAFA;
+    border: 1px solid #00A5A6;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 0px 8px;
+    margin: 2px;
+    height: 24px;
+}
+
+.chiklet-cancel {
+    background-image: url(../../../../../com/opentext/apps/utils/img/close_inline.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+
+.txt-ellipse {
+    display: inline-block;
+    white-space: nowrap;
+    cursor: default;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 238px;
+}
+
+.chiklet:hover {
+    border: 2px solid #00A5A6;
+}
+
+.PersonContactPreview{
+	position:relative;
+}
+
+.PersonContactPreview .ContactPreview {
+	position: absolute;
+    height: auto;
+    width: 330px;
+    left: -341px;
+    background: #FFFFFF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	border-right: 6px solid;
+	border-color:#0084CE;
+    overflow-wrap: break-word;
+    overflow: auto;
+    padding: 10px;
+}
+.PersonContactPreview .ContactPreview p{
+	padding: 12px 0px 4px 0px;
+	overflow-wrap:break-word;
+	white-space: pre-wrap;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    text-decoration: none solid rgb(85, 85, 85);
+    font-style: normal;
+    font-family: Lato, Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.PersonContactPreview .ContactPreview div{
+	padding: 20px 0px;
+}
+
+.PersonContactPreview:before{
+  position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px; 
+    left: -11px;
+	top: 6px;
+    transform: translateX(-50%) rotate(45deg);
+    background: linear-gradient(-135deg, #0084CE 78%, #fff 22%);
+}

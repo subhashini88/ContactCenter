@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9BB9-B2C9AC45B155">
+	<DocumentID>F8E4E399-CF40-A1ED-9BB9-B2C9AC457155</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-9BB9-B2C9AC457155</Name>
+	<Description>DeleteActivityListInstance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-11-28T06:40:29.748</CreationDate>
+	<Notes/>
+	<Text>DeleteActivityListInstance</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-9BB9-B2C9AC44F155"
+		/>
+	</TextIdentifier>
+</TranslatedText>

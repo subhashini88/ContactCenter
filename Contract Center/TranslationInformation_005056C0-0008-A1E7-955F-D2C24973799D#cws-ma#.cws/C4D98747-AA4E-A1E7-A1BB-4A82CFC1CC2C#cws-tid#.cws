@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A1BB-4A82CFC20C2C">
+	<DocumentID>C4D98747-AA4E-A1E7-A1BB-4A82CFC1CC2C</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A1BB-4A82CFC1CC2C</Name>
+	<Description>ActiveDeadline</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-08-22T04:00:09.528</CreationDate>
+	<Notes/>
+	<DefaultText>ActiveDeadline</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A1BB-4A82CFC24C2C"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A26A-51983FC724CA">
+	<DocumentID>F8B156D6-35F3-A1E8-A26A-51983FC6E4CA</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A26A-51983FC6E4CA</Name>
+	<Description>Search by product group or service</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-17T10:11:27.048</CreationDate>
+	<Notes/>
+	<DefaultText>Search by product group or service</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-A26A-51983FC764CA"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-35B9636DF068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-35B9636C7068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-35B9636B3068"
+		/>
+	</Translations>
+</TextIdentifier>

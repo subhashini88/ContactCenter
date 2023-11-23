@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-BA2B-78D8E7DF448B">
+	<DocumentID>98FA9B1A-7A8B-A1ED-BA2B-78D8E7DF048B</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-BA2B-78D8E7DF048B</Name>
+	<Description>MyAccountsInPartyList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-02T06:29:43.474</CreationDate>
+	<Notes/>
+	<Text>MyAccountsInPartyList</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-BA2B-78D8E7DE848B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

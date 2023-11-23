@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-AF54-FED652F81910">
+	<DocumentID>3417EB96-8F1F-A1E7-AF54-FED652F7D910</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-AF54-FED652F7D910</Name>
+	<Description>RevenueScheduleJobIdFilter</Description>
+	<CreatedBy>tntadmin@strs.role</CreatedBy>
+	<CreationDate>2017-10-30T09:25:44.793</CreationDate>
+	<Notes/>
+	<Text>RevenueScheduleJobIdFilter</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-AF54-FED652F75910"
+		/>
+	</TextIdentifier>
+</TranslatedText>

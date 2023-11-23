@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-A9FE-6765C730EB30">
+	<DocumentID>50EB711A-AD5A-A1EB-A9FE-6765C730AB30</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-28T08:30:51.692</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-A9FE-6765C7302B30">
+			<DocumentID>50EB711A-AD5A-A1EB-A9FE-6765C72FEB30</DocumentID>
+			<Name>CreateContractRelatedDeptImportStatus</Name>
+			<Description>Create ContractRelatedDeptImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-04-28T08:30:51.692</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-A9FA-635BDE776B30"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-A9FE-FD7513732B30">
+			<DocumentID>50EB711A-AD5A-A1EB-A9FE-FD751372EB30</DocumentID>
+			<Name>DeleteContractRelatedDeptImportStatus</Name>
+			<Description>Delete ContractRelatedDeptImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-04-28T08:30:51.693</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-A9FA-635BDE776B30"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="50EB711A-AD5A-A1EB-A9FA-635BDE776B30"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-A9FE-6765C72FAB30">
+			<DocumentID>50EB711A-AD5A-A1EB-A9FE-6765C72F6B30</DocumentID>
+			<Name>ReadContractRelatedDeptImportStatus</Name>
+			<Description>Read ContractRelatedDeptImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-04-28T08:30:51.692</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-A9FA-635BDE776B30"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EB-A9FE-6765C72F2B30">
+			<DocumentID>50EB711A-AD5A-A1EB-A9FE-FD7513736B30</DocumentID>
+			<Name>UpdateContractRelatedDeptImportStatus</Name>
+			<Description>Update ContractRelatedDeptImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-04-28T08:30:51.692</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EB-A9FA-635BDE776B30"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

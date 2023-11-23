@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B1F2-05CC5BD5F161">
+	<DocumentID>F8E4E399-CF40-A1ED-B1F2-05CC5BD5B161</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B1F2-05CC5BD5B161</Name>
+	<Description>All States CTR assignments layout</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-21T09:11:45.748</CreationDate>
+	<Notes/>
+	<Text>All States CTR assignments layout</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B1F2-05CC5BD53161"
+		/>
+	</TextIdentifier>
+</TranslatedText>

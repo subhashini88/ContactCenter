@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-B249-81EE0BF89696">
+	<DocumentID>18DBF20F-3D64-A1E7-B249-81EE0BF85696</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-B249-81EE0BF85696</Name>
+	<Description>ContactImport</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-11-14T10:26:01.037</CreationDate>
+	<Notes/>
+	<DefaultText>ContactImport</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="18DBF20F-3D64-A1E7-B249-81EE0BF8D696"
+		/>
+	</Translations>
+</TextIdentifier>

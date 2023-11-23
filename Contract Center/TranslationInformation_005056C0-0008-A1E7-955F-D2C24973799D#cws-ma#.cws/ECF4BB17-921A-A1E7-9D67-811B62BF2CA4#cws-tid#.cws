@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="ECF4BB17-921A-A1E7-9D67-811B62BF6CA4">
+	<DocumentID>ECF4BB17-921A-A1E7-9D67-811B62BF2CA4</DocumentID>
+	<Name>ECF4BB17-921A-A1E7-9D67-811B62BF2CA4</Name>
+	<Description>ReadContract</Description>
+	<CreatedBy>setup</CreatedBy>
+	<CreationDate>2017-07-31T03:18:29.088</CreationDate>
+	<Notes/>
+	<DefaultText>ReadContract</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="ECF4BB17-921A-A1E7-9D67-811B62BFACA4"
+		/>
+	</Translations>
+</TextIdentifier>

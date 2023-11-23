@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-79C2-A1EC-8EB7-C539955F2D69">
+	<DocumentID>00505601-79C2-A1EC-8EB7-C539955EED69</DocumentID>
+	<Name>00505601-79C2-A1EC-8EB7-C539955EED69</Name>
+	<Description>Action to be taken</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-01T07:04:56.379</CreationDate>
+	<Notes/>
+	<DefaultText>Action to be taken</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-79C2-A1EC-8EB7-C539955F6D69"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-80B4-EC74010BA516">
+	<DocumentID>484D7EEB-7112-A1E9-80B4-EC74010B6516</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>cn=dsrivard,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2018-12-18T14:48:03.71</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-80B4-EC74010AE516">
+			<DocumentID>484D7EEB-7112-A1E9-80B4-EC74010AA516</DocumentID>
+			<Name>CreateUntitled_Entity</Name>
+			<Description>Create Untitled_Entity</Description>
+			<CreatedBy>cn=dsrivard,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+			<CreationDate>2018-12-18T14:48:03.708</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-80B4-976393F6E516"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-80B4-EC7401096516">
+			<DocumentID>484D7EEB-7112-A1E9-80B4-EC7401092516</DocumentID>
+			<Name>DeleteUntitled_Entity</Name>
+			<Description>Delete Untitled_Entity</Description>
+			<CreatedBy>cn=dsrivard,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+			<CreationDate>2018-12-18T14:48:03.708</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-80B4-976393F6E516"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="484D7EEB-7112-A1E9-80B4-976393F6E516"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-80B4-EC74010A6516">
+			<DocumentID>484D7EEB-7112-A1E9-80B4-EC74010A2516</DocumentID>
+			<Name>ReadUntitled_Entity</Name>
+			<Description>Read Untitled_Entity</Description>
+			<CreatedBy>cn=dsrivard,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+			<CreationDate>2018-12-18T14:48:03.7</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-80B4-976393F6E516"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-80B4-EC740109E516">
+			<DocumentID>484D7EEB-7112-A1E9-80B4-EC740109A516</DocumentID>
+			<Name>UpdateUntitled_Entity</Name>
+			<Description>Update Untitled_Entity</Description>
+			<CreatedBy>cn=dsrivard,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+			<CreationDate>2018-12-18T14:48:03.702</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-80B4-976393F6E516"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B6D1-083046FDEB87">
+	<DocumentID>50EB711A-AD5A-A1EC-B6D1-083046FDAB87</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B6D1-083046FDAB87</Name>
+	<Description>contractUpgradeIPD</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-24T09:37:17.578</CreationDate>
+	<Notes/>
+	<Text>contractUpgradeIPD</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B6D1-083046FD2B87"
+		/>
+	</TextIdentifier>
+</TranslatedText>

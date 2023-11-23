@@ -1,0 +1,153 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-D8D4856364BE">
+	<DocumentID>F8B156D5-AA46-A1E7-A89B-D8D4856324BE</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-26T04:02:07.108</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-D8D48562A4BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A89B-D8D4856264BE</DocumentID>
+			<Name>CreateProductGroup</Name>
+			<Description>Create ProductGroup</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T04:02:07.108</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="18DBF20F-3D64-A1E7-A382-9D4BF98D292F"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-D8D4856124BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A89B-D8D48560E4BE</DocumentID>
+			<Name>DeleteProductGroup</Name>
+			<Description>Delete ProductGroup</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T04:02:07.108</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="18DBF20F-3D64-A1E7-A382-9D4BF98D292F"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="18DBF20F-3D64-A1E7-A382-9D4BF98D292F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-D8D4856224BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A89B-D8D48561E4BE</DocumentID>
+			<Name>ReadProductGroup</Name>
+			<Description>Read ProductGroup</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T04:02:07.108</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="18DBF20F-3D64-A1E7-A382-9D4BF98D292F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="484D7EE5-DBB0-A1E7-BB1C-4A5AE27664BA">
+			<DocumentID>484D7EE5-DBB0-A1E7-BB1C-4A5AE27624BA</DocumentID>
+			<Name>CreateChildrenService</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>CC Contract Admin</CreatedBy>
+			<CreationDate>2017-12-29T08:43:43.535</CreationDate>
+			<Notes/>
+			<OperationType>CreateChildren</OperationType>
+			<Entity>
+				<uri
+					id="18DBF20F-3D64-A1E7-A382-9D4BF98D292F"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="18DBF20F-3D64-A1E7-A385-6B0EF615292F"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="484D7EE5-DBB0-A1E7-BB1C-4A5AE275A4BA">
+			<DocumentID>484D7EE5-DBB0-A1E7-BB1C-4A5AE27564BA</DocumentID>
+			<Name>GetChildrenService</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>CC Contract Admin</CreatedBy>
+			<CreationDate>2017-12-29T08:43:43.535</CreationDate>
+			<Notes/>
+			<OperationType>GetChildren</OperationType>
+			<Entity>
+				<uri
+					id="18DBF20F-3D64-A1E7-A382-9D4BF98D292F"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="18DBF20F-3D64-A1E7-A385-6B0EF615292F"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="484D7EE5-DBB0-A1E7-BB1C-4A5AE27524BA">
+			<DocumentID>484D7EE5-DBB0-A1E7-BB1C-4A5AE274E4BA</DocumentID>
+			<Name>DeleteChildrenService</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>CC Contract Admin</CreatedBy>
+			<CreationDate>2017-12-29T08:43:43.535</CreationDate>
+			<Notes/>
+			<OperationType>DeleteChildren</OperationType>
+			<Entity>
+				<uri
+					id="18DBF20F-3D64-A1E7-A382-9D4BF98D292F"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="18DBF20F-3D64-A1E7-A385-6B0EF615292F"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A89B-D8D48561A4BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A89B-D8D4856164BE</DocumentID>
+			<Name>UpdateProductGroup</Name>
+			<Description>Update ProductGroup</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T04:02:07.108</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="18DBF20F-3D64-A1E7-A382-9D4BF98D292F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

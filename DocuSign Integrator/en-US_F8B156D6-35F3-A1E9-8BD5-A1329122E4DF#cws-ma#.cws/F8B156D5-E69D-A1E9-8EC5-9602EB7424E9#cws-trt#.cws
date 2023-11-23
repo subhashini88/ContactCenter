@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-8EC5-9602EB7464E9">
+	<DocumentID>F8B156D5-E69D-A1E9-8EC5-9602EB7424E9</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-8EC5-9602EB7424E9</Name>
+	<Description>Append tokens</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-02-28T05:22:15.59</CreationDate>
+	<Notes/>
+	<Text>Append tokens</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-8EC5-9602EB73A4E9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

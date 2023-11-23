@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B05B-AEAF4D4C4883">
+	<DocumentID>F8B156D6-337A-A1E8-B05B-AEAF4D4C0883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B05B-AEAF4D4C0883</Name>
+	<Description>Contract request life cycle</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-26T09:31:33.063</CreationDate>
+	<Notes/>
+	<Text>Contract request life cycle</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B05B-AEAF4D4B8883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

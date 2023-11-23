@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A505-63500B2AA4CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A505-63500B2A64CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A505-63500B2A64CB</Name>
+	<Description>Z_Expiration_DL</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-30T16:32:50.836</CreationDate>
+	<Notes/>
+	<Text>Z_Expiration_DL</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A505-63500B29E4CB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

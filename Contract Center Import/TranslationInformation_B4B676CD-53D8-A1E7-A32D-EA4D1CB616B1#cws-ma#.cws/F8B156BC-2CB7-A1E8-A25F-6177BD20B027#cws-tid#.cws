@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-A25F-6177BD20F027">
+	<DocumentID>F8B156BC-2CB7-A1E8-A25F-6177BD20B027</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-A25F-6177BD20B027</Name>
+	<Description>Please upload .ZIP file</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-07-17T06:12:53.649</CreationDate>
+	<Notes/>
+	<DefaultText>Please upload .ZIP file</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-A25F-6177BD213027"
+		/>
+	</Translations>
+</TextIdentifier>

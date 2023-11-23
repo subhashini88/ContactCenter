@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AD5E-FEAF99510883">
+	<DocumentID>F8B156D6-337A-A1E8-AD5E-FEAF9950C883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AD5E-FEAF9950C883</Name>
+	<Description>Contract author list action</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-11T04:43:01.871</CreationDate>
+	<Notes/>
+	<Text>Contract author list action</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AD5E-FEAF99504883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

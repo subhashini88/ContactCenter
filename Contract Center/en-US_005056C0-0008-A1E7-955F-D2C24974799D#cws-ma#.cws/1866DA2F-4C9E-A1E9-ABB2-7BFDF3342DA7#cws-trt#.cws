@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-ABB2-7BFDF3346DA7">
+	<DocumentID>1866DA2F-4C9E-A1E9-ABB2-7BFDF3342DA7</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-ABB2-7BFDF3342DA7</Name>
+	<Description>Reverse Link Type</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-25T10:56:12.709</CreationDate>
+	<Notes/>
+	<Text>Reverse Link Type</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1E9-ABB2-7BFDF333ADA7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

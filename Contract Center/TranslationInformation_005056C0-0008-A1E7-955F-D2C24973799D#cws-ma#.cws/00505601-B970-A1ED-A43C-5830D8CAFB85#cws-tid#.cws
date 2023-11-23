@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-B970-A1ED-A43C-5830D8CB3B85">
+	<DocumentID>00505601-B970-A1ED-A43C-5830D8CAFB85</DocumentID>
+	<Name>00505601-B970-A1ED-A43C-5830D8CAFB85</Name>
+	<Description>getWatchersList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-10T14:22:00.052</CreationDate>
+	<Notes/>
+	<DefaultText>getWatchersList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-B970-A1ED-A43C-5830D8CB7B85"
+		/>
+	</Translations>
+</TextIdentifier>

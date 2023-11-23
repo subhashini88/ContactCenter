@@ -1,0 +1,18 @@
+
+<EmailConfig
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.emailconfig.EmailConfig"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A197-5D9F44390C2C">
+	<DocumentID>C4D98747-AA4E-A1E7-A197-5D9F4438CC2C</DocumentID>
+	<Name>CCEmailConfig</Name>
+	<Description>CCEmailConfig</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-08-21T10:53:34.558</CreationDate>
+	<Notes/>
+	<EmailProfileUserID>kasim</EmailProfileUserID>
+	<EnableDefault>true</EnableDefault>
+	<From>kasim@opentext.com</From>
+	<FromDisplayName>kasim</FromDisplayName>
+	<ReplyTo>kasim@opentext.com</ReplyTo>
+	<DisplayName/>
+</EmailConfig>

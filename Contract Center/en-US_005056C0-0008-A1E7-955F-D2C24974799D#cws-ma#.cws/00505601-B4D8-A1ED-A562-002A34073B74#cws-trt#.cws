@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-B4D8-A1ED-A562-002A34077B74">
+	<DocumentID>00505601-B4D8-A1ED-A562-002A34073B74</DocumentID>
+	<Name>00505601-B4D8-A1ED-A562-002A34073B74</Name>
+	<Description>CheckForBW</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-16T11:15:51.384</CreationDate>
+	<Notes/>
+	<Text>CheckForBW</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-B4D8-A1ED-A562-002A3406BB74"
+		/>
+	</TextIdentifier>
+</TranslatedText>

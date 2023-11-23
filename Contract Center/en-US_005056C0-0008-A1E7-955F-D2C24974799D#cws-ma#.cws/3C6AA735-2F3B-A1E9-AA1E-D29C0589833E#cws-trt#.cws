@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-AA1E-D29C0589C33E">
+	<DocumentID>3C6AA735-2F3B-A1E9-AA1E-D29C0589833E</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-AA1E-D29C0589833E</Name>
+	<Description>ExpiredToRenewed</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-17T10:15:36.608</CreationDate>
+	<Notes/>
+	<Text>ExpiredToRenewed</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1E9-AA1E-D29C0589033E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

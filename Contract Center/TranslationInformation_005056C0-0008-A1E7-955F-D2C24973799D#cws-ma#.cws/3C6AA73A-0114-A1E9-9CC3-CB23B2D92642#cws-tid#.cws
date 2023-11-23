@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-9CC3-CB23B2D96642">
+	<DocumentID>3C6AA73A-0114-A1E9-9CC3-CB23B2D92642</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-9CC3-CB23B2D92642</Name>
+	<Description>CreateContainingClauses</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-05-10T11:03:32.8</CreationDate>
+	<Notes/>
+	<DefaultText>CreateContainingClauses</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-9CC3-CB23B2D9A642"
+		/>
+	</Translations>
+</TextIdentifier>

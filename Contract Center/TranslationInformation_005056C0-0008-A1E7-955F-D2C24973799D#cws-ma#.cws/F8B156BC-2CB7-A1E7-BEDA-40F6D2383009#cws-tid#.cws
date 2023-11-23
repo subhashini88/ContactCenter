@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-BEDA-40F6D2387009">
+	<DocumentID>F8B156BC-2CB7-A1E7-BEDA-40F6D2383009</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-BEDA-40F6D2383009</Name>
+	<Description>Terms action bar</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-01-17T09:35:47.679</CreationDate>
+	<Notes/>
+	<DefaultText>Terms action bar</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E7-BEDA-40F6D238B009"
+		/>
+	</Translations>
+</TextIdentifier>

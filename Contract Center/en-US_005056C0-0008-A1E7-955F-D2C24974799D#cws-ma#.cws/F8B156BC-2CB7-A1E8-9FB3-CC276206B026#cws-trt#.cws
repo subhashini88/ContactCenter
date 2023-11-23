@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9FB3-CC276206F026">
+	<DocumentID>F8B156BC-2CB7-A1E8-9FB3-CC276206B026</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9FB3-CC276206B026</Name>
+	<Description>Disable auto renew duration</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-07-03T15:03:49.245</CreationDate>
+	<Notes/>
+	<Text>Disable auto renew duration</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9FB3-CC2762063026"
+		/>
+	</TextIdentifier>
+</TranslatedText>

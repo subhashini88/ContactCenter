@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-A006-8020863AEBB3">
+	<DocumentID>50EB711A-AD5A-A1ED-A006-8020863AABB3</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-A006-8020863AABB3</Name>
+	<Description>ContractJsonUpdate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-20T03:58:25.443</CreationDate>
+	<Notes/>
+	<DefaultText>ContractJsonUpdate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1ED-A006-8020863B2BB3"
+		/>
+	</Translations>
+</TextIdentifier>

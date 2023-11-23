@@ -1,0 +1,30 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-9E5C-A692AA2CF06F">
+	<DocumentID>F8B156BC-2CB7-A1EA-9E5C-A692AA2CB06F</DocumentID>
+	<Name>Activity_HistoryLog</Name>
+	<Description>Activity_HistoryLog</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-08T08:27:01.084</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-9E5C-A692AA2A706F">
+			<DocumentID>F8B156BC-2CB7-A1EA-9E5C-A692AA2A306F</DocumentID>
+			<Name>F8B156BC-2CB7-A1EA-9E5C-A692AA2A306F</Name>
+			<Description>F8B156BC-2CB7-A1EA-9E5C-A692AA2A306F</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-04-08T08:27:01.083</CreationDate>
+			<Notes/>
+			<DeveloperText>Activity_HistoryLog</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

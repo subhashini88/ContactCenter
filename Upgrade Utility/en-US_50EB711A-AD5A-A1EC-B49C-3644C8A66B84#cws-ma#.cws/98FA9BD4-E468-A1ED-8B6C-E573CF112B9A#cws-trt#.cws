@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8B6C-E573CF116B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8B6C-E573CF112B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8B6C-E573CF112B9A</Name>
+	<Description>UpdateContractLines</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-06T09:50:54.54</CreationDate>
+	<Notes/>
+	<Text>UpdateContractLines</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8B6C-E573CF10AB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

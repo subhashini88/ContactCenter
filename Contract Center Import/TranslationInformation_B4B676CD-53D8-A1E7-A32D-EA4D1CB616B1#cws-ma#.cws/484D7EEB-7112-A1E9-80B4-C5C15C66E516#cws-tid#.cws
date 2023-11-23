@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-80B4-C5C15C672516">
+	<DocumentID>484D7EEB-7112-A1E9-80B4-C5C15C66E516</DocumentID>
+	<Name>484D7EEB-7112-A1E9-80B4-C5C15C66E516</Name>
+	<Description>Term import status list</Description>
+	<CreatedBy>cn=dsrivard,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2018-12-18T14:48:03.704</CreationDate>
+	<Notes/>
+	<DefaultText>Term import status list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-7112-A1E9-80B4-C5C15C676516"
+		/>
+	</Translations>
+</TextIdentifier>

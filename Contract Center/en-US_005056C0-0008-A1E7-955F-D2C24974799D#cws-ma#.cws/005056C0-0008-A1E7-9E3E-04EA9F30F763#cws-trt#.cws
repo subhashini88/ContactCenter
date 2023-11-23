@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-9E3E-04EA9F313763">
+	<DocumentID>005056C0-0008-A1E7-9E3E-04EA9F30F763</DocumentID>
+	<Name>005056C0-0008-A1E7-9E3E-04EA9F30F763</Name>
+	<Description>Business workspace creation type</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-08-04T09:36:22.134</CreationDate>
+	<Notes/>
+	<Text>Business workspace creation type</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-9E3E-04EA9F307763"
+		/>
+	</TextIdentifier>
+</TranslatedText>

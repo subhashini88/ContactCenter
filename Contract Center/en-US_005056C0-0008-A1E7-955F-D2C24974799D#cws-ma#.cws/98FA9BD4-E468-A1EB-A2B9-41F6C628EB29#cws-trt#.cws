@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A2B9-41F6C6292B29">
+	<DocumentID>98FA9BD4-E468-A1EB-A2B9-41F6C628EB29</DocumentID>
+	<Name>98FA9BD4-E468-A1EB-A2B9-41F6C628EB29</Name>
+	<Description>AllRenewalContracts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-22T08:24:06.254</CreationDate>
+	<Notes/>
+	<Text>AllRenewalContracts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1EB-A2B9-41F6C6286B29"
+		/>
+	</TextIdentifier>
+</TranslatedText>

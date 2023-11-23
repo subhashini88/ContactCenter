@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-ABDB-1F1E8BE44882">
+	<DocumentID>F8B156D6-337A-A1E8-ABDB-1F1E8BE40882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-ABDB-1F1E8BE40882</Name>
+	<Description>Edit reject contract request</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-03T11:35:24.532</CreationDate>
+	<Notes/>
+	<Text>Edit reject contract request</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-ABDB-1F1E8BE38882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

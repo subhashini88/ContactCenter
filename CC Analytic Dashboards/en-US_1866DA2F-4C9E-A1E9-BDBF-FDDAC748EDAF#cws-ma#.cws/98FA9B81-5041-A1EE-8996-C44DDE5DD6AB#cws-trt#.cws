@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-8996-C44DDE5E16AB">
+	<DocumentID>98FA9B81-5041-A1EE-8996-C44DDE5DD6AB</DocumentID>
+	<Name>98FA9B81-5041-A1EE-8996-C44DDE5DD6AB</Name>
+	<Description>Get report nodes</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-07-19T17:50:02.722</CreationDate>
+	<Notes/>
+	<Text>Get report nodes</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EE-8996-C44DDE5D56AB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

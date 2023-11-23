@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-BC07-3D3B92BEC352">
+	<DocumentID>3C6AA735-2F3B-A1E9-BC07-3D3B92BE8352</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-BC07-3D3B92BE8352</Name>
+	<Description>All My Assignments</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-10-16T14:05:48.783</CreationDate>
+	<Notes/>
+	<Text>All My Assignments</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1E9-BC07-3D3B92BE0352"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-8016-5D5995B2C494">
+	<DocumentID>98FA9B1A-7A8B-A1EE-8016-5D5995B28494</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-8016-5D5995B28494</Name>
+	<Description>CRT_TAB</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-01T08:52:52.777</CreationDate>
+	<Notes/>
+	<Text>CRT_TAB</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-8016-5D5995B20494"
+		/>
+	</TextIdentifier>
+</TranslatedText>

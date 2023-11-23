@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-9323-0216151CB183">
+	<DocumentID>50EB711A-FC6F-A1EE-9323-0216151C7183</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-9323-0216151C7183</Name>
+	<Description>UpdateOblStatus</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-06T10:17:01.012</CreationDate>
+	<Notes/>
+	<Text>UpdateOblStatus</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-9323-0216151BF183"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1ED-97B2-C35622CFC46E">
+	<DocumentID>FC7774E8-DA63-A1ED-97B2-C35622CF846E</DocumentID>
+	<Name>FC7774E8-DA63-A1ED-97B2-C35622CF846E</Name>
+	<Description>Related CTR Props ItemId1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-11-07T18:49:41.409</CreationDate>
+	<Notes/>
+	<Text>Related CTR Props ItemId1</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1ED-97B2-C35622CF046E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

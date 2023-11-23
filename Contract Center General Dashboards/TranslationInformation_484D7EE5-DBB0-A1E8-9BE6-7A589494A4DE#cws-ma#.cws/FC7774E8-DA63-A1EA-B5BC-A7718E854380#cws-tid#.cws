@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-B5BC-A7718E858380">
+	<DocumentID>FC7774E8-DA63-A1EA-B5BC-A7718E854380</DocumentID>
+	<Name>FC7774E8-DA63-A1EA-B5BC-A7718E854380</Name>
+	<Description>Organization setup_1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-05T12:13:42.047</CreationDate>
+	<Notes/>
+	<DefaultText>Organization setup_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E8-DA63-A1EA-B5BC-A7718E85C380"
+		/>
+	</Translations>
+</TextIdentifier>

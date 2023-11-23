@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-A7AF-D2C534692752">
+	<DocumentID>3C6AA73A-0114-A1EC-A7AF-D2C53468E752</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-A7AF-D2C53468E752</Name>
+	<Description>Z_INT_ContractAuthoringRules</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-08T10:40:46.957</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ContractAuthoringRules</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-A7AF-D2C534686752"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AF2C-4E31D7E88883">
+	<DocumentID>F8B156D6-337A-A1E8-AF2C-4E31D7E84883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AF2C-4E31D7E84883</Name>
+	<Description>Cant delete documents</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-20T08:44:32.513</CreationDate>
+	<Notes/>
+	<DefaultText>Cant delete documents</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-337A-A1E8-AF2C-4E31D7E8C883"
+		/>
+	</Translations>
+</TextIdentifier>

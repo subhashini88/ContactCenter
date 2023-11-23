@@ -1,0 +1,13 @@
+
+<QualifiedNameRoot
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.namespace.qualifiedname.QualifiedNameRoot"
+	typeVersion="9bd1dc20-2f5e-11e3-aa6e-0800200c9a66"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A330-F0F8CDFB96B1">
+	<DocumentID>B4B676CD-53D8-A1E7-A330-F0F8CDFB56B1</DocumentID>
+	<Name>runtimeQNR for project</Name>
+	<Description/>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-29T14:10:14.678</CreationDate>
+	<Notes/>
+</QualifiedNameRoot>

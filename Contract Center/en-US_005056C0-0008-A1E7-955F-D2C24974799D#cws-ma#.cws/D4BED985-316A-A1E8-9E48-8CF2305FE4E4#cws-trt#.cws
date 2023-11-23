@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="D4BED985-316A-A1E8-9E48-8CF2306024E4">
+	<DocumentID>D4BED985-316A-A1E8-9E48-8CF2305FE4E4</DocumentID>
+	<Name>D4BED985-316A-A1E8-9E48-8CF2305FE4E4</Name>
+	<Description>Activate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-26T09:22:54.804</CreationDate>
+	<Notes/>
+	<Text>Activate</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="D4BED985-316A-A1E8-9E48-8CF2305F64E4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

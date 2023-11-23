@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8695-47603D526BF1">
+	<DocumentID>50EB711A-AD5A-A1EE-8695-47603D522BF1</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8695-47603D522BF1</Name>
+	<Description>GetAllTilesByTab</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-04T10:30:45.329</CreationDate>
+	<Notes/>
+	<DefaultText>GetAllTilesByTab</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EE-8695-47603D52ABF1"
+		/>
+	</Translations>
+</TextIdentifier>

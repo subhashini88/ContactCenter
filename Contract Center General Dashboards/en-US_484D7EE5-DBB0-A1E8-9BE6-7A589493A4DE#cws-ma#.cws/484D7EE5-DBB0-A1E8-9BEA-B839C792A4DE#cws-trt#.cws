@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9BEA-B839C792E4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9BEA-B839C792A4DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9BEA-B839C792A4DE</Name>
+	<Description>Renewals and cancellations</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-14T08:15:36.899</CreationDate>
+	<Notes/>
+	<Text>Renewals and cancellations</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BEA-B839C79224DE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

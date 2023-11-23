@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B8C4-BF0D59EA088B">
+	<DocumentID>F8B156D6-337A-A1E8-B8C4-BF0D59E9C88B</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B8C4-BF0D59E9C88B</Name>
+	<Description>You cannot delete documents in the '{item.ContractRequestRelation.Lifecycle.CurrentState}' state.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-08T04:59:29.381</CreationDate>
+	<Notes/>
+	<DefaultText>You cannot delete documents in the '{item.ContractRequestRelation.Lifecycle.CurrentState}' state.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-337A-A1E8-B8C4-BF0D59EA488B"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EC-B56F-76495BC5C45B">
+	<DocumentID>98FA9B1A-7A8B-A1EC-B56F-76495BC5845B</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EC-B56F-76495BC5845B</Name>
+	<Description>getContractPONumbers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-17T10:20:00.088</CreationDate>
+	<Notes/>
+	<DefaultText>getContractPONumbers</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EC-B56F-76495BC6045B"
+		/>
+	</Translations>
+</TextIdentifier>

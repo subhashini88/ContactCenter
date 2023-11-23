@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-AE6B-116FF67B2DA9">
+	<DocumentID>1866DA2F-4C9E-A1E9-AE6B-116FF67AEDA9</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-AE6B-116FF67AEDA9</Name>
+	<Description>GetContractLinksByLinkType
+(Source Contract)</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-08T08:38:48.503</CreationDate>
+	<Notes/>
+	<DefaultText>GetContractLinksByLinkType
+(Source Contract)</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1E9-AE6B-116FF67B6DA9"
+		/>
+	</Translations>
+</TextIdentifier>

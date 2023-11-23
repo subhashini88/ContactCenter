@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EB-A447-CDB556426DC5">
+	<DocumentID>1866DA2F-4C9E-A1EB-A447-CDB556422DC5</DocumentID>
+	<Name>1866DA2F-4C9E-A1EB-A447-CDB556422DC5</Name>
+	<Description>Approved clauses</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-30T06:15:38.269</CreationDate>
+	<Notes/>
+	<Text>Approved clauses</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EB-A447-CDB55641ADC5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

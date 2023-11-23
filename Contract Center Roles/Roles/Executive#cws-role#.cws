@@ -1,0 +1,50 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A4E5-A4C6EBCD96B1">
+	<DocumentID>B4B676CD-53D8-A1E7-A4E5-A4C6EBCD56B1</DocumentID>
+	<Name>Executive</Name>
+	<Description>Executive</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-09-07T08:16:17.487</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles>
+		<uri
+			id="F8B156D5-AA46-A1E7-A641-4BD91B39A4BC"
+		/>
+		<uri
+			id="F8B156D5-AA46-A1E7-AA3A-897DF88AA4C2"
+		/>
+		<uri
+			id="005056C0-0008-A1E7-ACC6-88CB070192CE"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-B768-E1E59CFCC87B"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-B768-E1E59CF4887B"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-B769-B13E8608C87B"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A9BF-751096113079"
+		/>
+		<uri
+			id="3C6AA73A-0114-A1EC-844E-4A77980B671B"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A17D-DBB2051B7073"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-BB57-69359D0A487C"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

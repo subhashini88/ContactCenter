@@ -1,0 +1,79 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A08C-6DA2C90F2B27">
+	<DocumentID>98FA9BD4-E468-A1EB-A08C-6DA2C90EEB27</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-11T06:20:26.861</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="98FA9BD4-E468-A1EB-A08B-E1084292AB27"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1EB-A08C-6DA2C90E6B27">
+			<DocumentID>98FA9BD4-E468-A1EB-A08C-6DA2C90E2B27</DocumentID>
+			<Name>ReadRelatedCostCenter</Name>
+			<Description>Read RelatedCostCenter</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-03-11T06:20:26.859</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1EB-A08B-E1084292AB27"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1EB-A18F-E60333CDAB27">
+			<DocumentID>98FA9BD4-E468-A1EB-A18F-E60333CD6B27</DocumentID>
+			<Name>GetParentOwner</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-03-16T10:12:57.66</CreationDate>
+			<Notes/>
+			<OperationType>GetParent</OperationType>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1EB-A08B-E1084292AB27"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="98FA9BD4-E468-A1EB-A08C-6DA2C910AB27"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1EB-A08C-6DA2C90DEB27">
+			<DocumentID>98FA9BD4-E468-A1EB-A08C-6DA2C90DAB27</DocumentID>
+			<Name>UpdateRelatedCostCenter</Name>
+			<Description>Update RelatedCostCenter</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-03-11T06:20:26.859</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1EB-A08B-E1084292AB27"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

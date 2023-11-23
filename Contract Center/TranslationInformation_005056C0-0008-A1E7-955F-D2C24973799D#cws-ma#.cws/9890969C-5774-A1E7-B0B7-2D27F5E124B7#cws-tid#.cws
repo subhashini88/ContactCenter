@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E7-B0B7-2D27F5E164B7">
+	<DocumentID>9890969C-5774-A1E7-B0B7-2D27F5E124B7</DocumentID>
+	<Name>9890969C-5774-A1E7-B0B7-2D27F5E124B7</Name>
+	<Description>Competitor layout</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-11-06T10:31:46.916</CreationDate>
+	<Notes/>
+	<DefaultText>Competitor layout</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E7-B0B7-2D27F5E1A4B7"
+		/>
+	</Translations>
+</TextIdentifier>

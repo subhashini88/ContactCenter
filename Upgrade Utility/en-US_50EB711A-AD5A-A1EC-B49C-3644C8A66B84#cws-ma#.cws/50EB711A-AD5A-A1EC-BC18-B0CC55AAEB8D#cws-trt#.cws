@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BC18-B0CC55AB2B8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BC18-B0CC55AAEB8D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-BC18-B0CC55AAEB8D</Name>
+	<Description>ClearFirstParty</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-20T06:36:17.367</CreationDate>
+	<Notes/>
+	<Text>ClearFirstParty</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-BC18-B0CC55AA6B8D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

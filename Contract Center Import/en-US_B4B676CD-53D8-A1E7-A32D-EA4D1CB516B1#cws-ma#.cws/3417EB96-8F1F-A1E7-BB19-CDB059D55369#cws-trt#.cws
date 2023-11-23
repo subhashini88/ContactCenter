@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-BB19-CDB059D59369">
+	<DocumentID>3417EB96-8F1F-A1E7-BB19-CDB059D55369</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-BB19-CDB059D55369</Name>
+	<Description>Z_INT_ContractLinesImportStatusList</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2017-12-29T07:10:51.247</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ContractLinesImportStatusList</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-BB19-CDB059D4D369"
+		/>
+	</TextIdentifier>
+</TranslatedText>

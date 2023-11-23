@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-9AF0-CC8AACB5DA1E">
+	<DocumentID>005056C0-0008-A1E7-9AF0-CC8AACB59A1E</DocumentID>
+	<Name>005056C0-0008-A1E7-9AF0-CC8AACB59A1E</Name>
+	<Description>External system parameters</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-18T14:16:22.882</CreationDate>
+	<Notes/>
+	<Text>External system parameters</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-9AF0-CC8AACB51A1E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

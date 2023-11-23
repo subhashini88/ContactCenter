@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-A65C-F7A208300334">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-A65C-F7A2082FC334</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-A65C-F7A2082FC334</Name>
+	<Description>Update contract with new docid.</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-06-28T09:22:10.234</CreationDate>
+	<Notes/>
+	<DefaultText>Update contract with new docid.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-A65C-F7A208304334"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-AC9B-9A0626FAAFEE">
+	<DocumentID>F8B156BC-2CB7-A1E7-AC9B-9A0626FA6FEE</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-AC9B-9A0626FA6FEE</Name>
+	<Description>GetContractImportStatus</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-16T12:52:05.207</CreationDate>
+	<Notes/>
+	<DefaultText>GetContractImportStatus</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E7-AC9B-9A0626FAEFEE"
+		/>
+	</Translations>
+</TextIdentifier>

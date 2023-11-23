@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-9290-A60C602E4F6F">
+	<DocumentID>84A938BF-F78D-A1EE-9290-A60C602E0F6F</DocumentID>
+	<Name>84A938BF-F78D-A1EE-9290-A60C602E0F6F</Name>
+	<Description>Cycle Number</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-03T10:26:20.685</CreationDate>
+	<Notes/>
+	<Text>Cycle Number</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-9290-A60C602D8F6F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

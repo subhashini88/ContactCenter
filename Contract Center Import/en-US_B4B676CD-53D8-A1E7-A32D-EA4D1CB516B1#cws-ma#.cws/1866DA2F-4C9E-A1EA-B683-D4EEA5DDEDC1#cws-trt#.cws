@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-B683-D4EEA5DE2DC1">
+	<DocumentID>1866DA2F-4C9E-A1EA-B683-D4EEA5DDEDC1</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-B683-D4EEA5DDEDC1</Name>
+	<Description>UpdateGCOrganizationMembership</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-09T11:34:47.218</CreationDate>
+	<Notes/>
+	<Text>UpdateGCOrganizationMembership</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EA-B683-D4EEA5DD6DC1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

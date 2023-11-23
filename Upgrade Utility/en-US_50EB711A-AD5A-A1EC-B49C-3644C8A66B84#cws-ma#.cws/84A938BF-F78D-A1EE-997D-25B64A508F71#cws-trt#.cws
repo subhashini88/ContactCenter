@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-997D-25B64A50CF71">
+	<DocumentID>84A938BF-F78D-A1EE-997D-25B64A508F71</DocumentID>
+	<Name>84A938BF-F78D-A1EE-997D-25B64A508F71</Name>
+	<Description>CycleExists?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-08T16:20:32.115</CreationDate>
+	<Notes/>
+	<Text>CycleExists?</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-997D-25B64A500F71"
+		/>
+	</TextIdentifier>
+</TranslatedText>

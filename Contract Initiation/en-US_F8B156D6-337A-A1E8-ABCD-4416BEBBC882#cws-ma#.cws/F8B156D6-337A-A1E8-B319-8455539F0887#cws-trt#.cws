@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B319-8455539F4887">
+	<DocumentID>F8B156D6-337A-A1E8-B319-8455539F0887</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B319-8455539F0887</Name>
+	<Description>&quot;Can't upload documents in {item.ContractRequestRelation.Lifecycle.CurrentState} state&quot;</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-10T08:43:48.06</CreationDate>
+	<Notes/>
+	<Text>&quot;Can't upload documents in {item.ContractRequestRelation.Lifecycle.CurrentState} state&quot;</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B319-8455539E8887"
+		/>
+	</TextIdentifier>
+</TranslatedText>

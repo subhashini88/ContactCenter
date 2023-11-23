@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-84F9-7307A278E509">
+	<DocumentID>484D7EEB-71EF-A1E9-84F9-7307A278A509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-84F9-7307A278A509</Name>
+	<Description>Action alert before expiry (days)</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-09T08:13:06.545</CreationDate>
+	<Notes/>
+	<Text>Action alert before expiry (days)</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-84F9-7307A2782509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

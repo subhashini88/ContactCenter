@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-8AE3-FA3EACF664E9">
+	<DocumentID>F8B156D5-E69D-A1E9-8AE3-FA3EACF624E9</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-8AE3-FA3EACF624E9</Name>
+	<Description>getContactss</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-02-08T10:56:50.469</CreationDate>
+	<Notes/>
+	<Text>getContactss</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-8AE3-FA3EACF5A4E9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

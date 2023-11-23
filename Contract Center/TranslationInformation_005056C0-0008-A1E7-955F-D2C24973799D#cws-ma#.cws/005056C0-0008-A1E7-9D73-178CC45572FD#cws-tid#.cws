@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9D73-178CC455B2FD">
+	<DocumentID>005056C0-0008-A1E7-9D73-178CC45572FD</DocumentID>
+	<Name>005056C0-0008-A1E7-9D73-178CC45572FD</Name>
+	<Description>Create equivalent clause</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-08-01T04:29:31.046</CreationDate>
+	<Notes/>
+	<DefaultText>Create equivalent clause</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9D73-178CC455F2FD"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B215-EAB7160F7DE9">
+	<DocumentID>C4D98747-AA4E-A1E7-B215-EAB7160F3DE9</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-13T09:50:34.043</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-B215-EAB7160EBDE9">
+			<DocumentID>C4D98747-AA4E-A1E7-B215-EAB7160E7DE9</DocumentID>
+			<Name>CreateOutcome</Name>
+			<Description>Create Outcome</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-11-13T09:50:34.043</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-B214-E06F0FBDBDE9"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-B215-EAB7160D3DE9">
+			<DocumentID>C4D98747-AA4E-A1E7-B215-EAB7160CFDE9</DocumentID>
+			<Name>DeleteOutcome</Name>
+			<Description>Delete Outcome</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-11-13T09:50:34.042</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-B214-E06F0FBDBDE9"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="C4D98747-AA4E-A1E7-B214-E06F0FBDBDE9"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-B215-EAB7160E3DE9">
+			<DocumentID>C4D98747-AA4E-A1E7-B215-EAB7160DFDE9</DocumentID>
+			<Name>ReadOutcome</Name>
+			<Description>Read Outcome</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-11-13T09:50:34.042</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-B214-E06F0FBDBDE9"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-B215-EAB7160DBDE9">
+			<DocumentID>C4D98747-AA4E-A1E7-B215-EAB7160D7DE9</DocumentID>
+			<Name>UpdateOutcome</Name>
+			<Description>Update Outcome</Description>
+			<CreatedBy>kasim  basha</CreatedBy>
+			<CreationDate>2017-11-13T09:50:34.043</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-B214-E06F0FBDBDE9"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

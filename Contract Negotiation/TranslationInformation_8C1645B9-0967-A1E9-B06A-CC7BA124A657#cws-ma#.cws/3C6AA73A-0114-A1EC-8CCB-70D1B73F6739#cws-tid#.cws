@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-8CCB-70D1B73FA739">
+	<DocumentID>3C6AA73A-0114-A1EC-8CCB-70D1B73F6739</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-8CCB-70D1B73F6739</Name>
+	<Description>UpdateCustomAttributesInfo</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-22T11:47:34.939</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateCustomAttributesInfo</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1EC-8CCB-70D1B73FE739"
+		/>
+	</Translations>
+</TextIdentifier>

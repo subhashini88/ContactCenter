@@ -1,0 +1,53 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-BA34-80F3BC94E662">
+	<DocumentID>8C1645B9-0967-A1E9-BA34-80F3BC94A662</DocumentID>
+	<Name>CloseNegotiation</Name>
+	<Description>CloseNegotiation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-07T07:25:13.932</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>&amp;nbsp;Hi,&lt;br /&gt;
+&amp;nbsp;{User.Properties.FullName} has closed negotiation for the &lt;strong&gt;{item.Properties.ContractName}&lt;/strong&gt; contract.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}&lt;br /&gt;
+&amp;nbsp;</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Negotiation closed for {item.Properties.ContractName} contract.</Subject>
+	<To></To>
+	<BuildingBlock>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ADF7-CDD0458024F4"
+		/>
+	</BuildingBlock>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="8C1645B9-0967-A1E9-BA34-80F3BC92E662">
+			<DocumentID>8C1645B9-0967-A1E9-BA34-80F3BC92A662</DocumentID>
+			<Name>8C1645B9-0967-A1E9-BA34-80F3BC92A662</Name>
+			<Description>8C1645B9-0967-A1E9-BA34-80F3BC92A662</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-10-07T07:25:13.932</CreationDate>
+			<Notes/>
+			<DeveloperText>Close negotiation</DeveloperText>
+			<Identifier>
+				<uri
+					id="8C1645B9-0967-A1E9-BA34-80F3BC932662"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<TypeDefinition/>
+</EmailTemplate>

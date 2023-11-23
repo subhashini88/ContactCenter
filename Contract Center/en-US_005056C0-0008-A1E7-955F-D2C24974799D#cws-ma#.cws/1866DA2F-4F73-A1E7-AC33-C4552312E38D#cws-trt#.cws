@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4F73-A1E7-AC33-C4552313238D">
+	<DocumentID>1866DA2F-4F73-A1E7-AC33-C4552312E38D</DocumentID>
+	<Name>1866DA2F-4F73-A1E7-AC33-C4552312E38D</Name>
+	<Description>Revenue schedule rule</Description>
+	<CreatedBy>vsusmith</CreatedBy>
+	<CreationDate>2017-10-14T11:13:18.877</CreationDate>
+	<Notes/>
+	<Text>Revenue schedule rule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4F73-A1E7-AC33-C4552312638D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

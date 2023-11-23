@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    </link>
+    <link rel="stylesheet" href="../css/appscommon.css">
+    </link>
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $.cordys.json.defaults.removeNamespacePrefix = true;
+        var disableSaveButton = true;
+
+        var ValueRangeModel = function () {
+
+            // Observable Variables
+            var self = this;
+            self.Name = ko.observable('').extend({ required: "" });
+            self.MinValue = ko.observable().extend({ requiredAndnumeric: "" });
+            self.MaxValue = ko.observable().extend({ requiredAndnumeric: "" });
+            self.editableName = ko.observable(false);
+            self.editableMaxValue = ko.observable(false);
+            self.editableMinValue = ko.observable(false);
+            self.validateNow = ko.observable(false);
+
+            // Variables
+            self.ItemId = '';
+            self.Description = '';
+            self.Status = '';
+
+            // Behaviors
+            self.editName = function () { self.editableName(true) }
+            self.editMinValue = function () { self.editableMinValue(true) }
+            self.editMaxValue = function () { self.editableMaxValue(true) }
+            self.saveValueRange = function () {
+                if (!self.Name()) self.Name.hasError(true);
+                if (!self.MinValue()) self.MinValue.hasError(true);
+                if (!self.MaxValue()) self.MaxValue.hasError(true);
+                if (self.MaxValue.hasError() || self.MaxValue.hasError() || self.Name.hasError()) {
+                    return false;
+                }
+                createValueRange(self);
+                return true;
+            }
+
+        }
+        var ValueRangeListModel = function () {
+            var self = this;
+
+            // Observable Variables
+            self.entriesList = ko.observableArray([]);
+            self.selectedEntries = ko.observableArray([]);
+            self.valueRangeObj = new ValueRangeModel();
+
+            // Variables
+            self.selectAll = ko.observable(false);
+
+            // Computed observables.
+            self.selectedAll = ko.pureComputed({
+                read: function () {
+                    return self.entriesList().length > 0 && self.selectedEntries().length === self.entriesList().length;
+                },
+                write: function (value) {
+                    self.selectedEntries(value ? formStringArray(self.entriesList(), 'ItemId') : []);
+                },
+                owner: self
+            });
+
+            self.deleteRows = function () {
+                for (var i = 0; i < self.selectedEntries().length; i++) {
+                    deleteValueRange(self.selectedEntries()[i]);
+                }
+
+            }
+
+        }
+
+        // extenders
+        ko.extenders.required = function (target, overrideMessage) {
+            target.hasError = ko.observable();
+            target.validationMessage = ko.observable();
+            function validate(newValue) {
+                target.hasError(newValue ? false : true);
+                target.validationMessage(newValue ? "" : overrideMessage || "This field is required");
+            }
+
+            //initial validation
+            // validate(target());
+
+            //validate whenever the value changes
+            target.subscribe(validate);
+
+            //return the original observable
+            return target;
+        };
+
+        ko.extenders.requiredAndnumeric = function (target, overrideMessage) {
+            target.hasError = ko.observable();
+            target.validationMessage = ko.observable();
+            function validate(newValue) {
+                if (!newValue) {
+                    target.hasError(true);
+                    target.validationMessage(newValue ? "" : overrideMessage || "This field is required");
+                }
+                else if (isNaN(newValue)) {
+                    target.hasError(true);
+                    target.validationMessage(newValue ? "" : overrideMessage || "Wrong input");
+                } else {
+                    target.hasError(false);
+                }
+
+            }
+            target.subscribe(validate);
+            return target;
+        };
+
+
+
+
+        var value_range_list_model = new ValueRangeListModel();
+        $(document).ready(function () {
+            var i_locale = getlocale();
+            var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+            translateLabels("com/opentext/apps/contractcenter/CCGeneralDashboards/CCGeneralDashboards", i_locale, true);
+            loadRTLIfRequired(i_locale, rtl_css);
+
+            $('#add_category_button_id').click(function () {
+                $('#div_add_new_category').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+            });
+            $('#delete_category_button_id').click(function () {
+                $('#delete_section_model').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });
+            });
+            listAllValueRanges();
+
+
+            ko.applyBindings(value_range_list_model, document.getElementById("value_range_page_holder"));
+
+        });
+
+        function listAllValueRanges() {
+            ClauseListServiceModel = $.cordys.ajax({
+                namespace: "http://schemas/OpenTextBasicComponents/GCValueRange/operations",
+                method: "findAllValueRanges",
+                parameters: {
+                    "Cursor": {
+                        '@xmlns': 'http://schemas.opentext.com/bps/entity/core',
+                        '@offset': 0,
+                        '@limit': 100
+                    }
+                },
+                success: function (data) {
+                    addDataToView(data.GCValueRange, value_range_list_model);
+                }
+            });
+        }
+
+
+        function addDataToView(iElementList, iModel) {
+            iModel.entriesList.removeAll();
+            if (iElementList) {
+                if (iElementList.length) {
+                    for (var i = 0; i < iElementList.length; i++) {
+                        iModel.entriesList.push(formvalueObj(iElementList[i]));
+                    }
+                } else {
+                    iModel.entriesList.push(formvalueObj(iElementList));
+                }
+            }
+        }
+
+        function formvalueObj(iModel) {
+            var obj = new ValueRangeModel();
+            obj.ItemId = iModel['GCValueRange-id'].ItemId;
+            obj.MinValue((iModel.MinValue) ? Math.round(iModel.MinValue) : 0);
+            obj.MaxValue((iModel.MaxValue) ? Math.round(iModel.MaxValue) : 0);
+            obj.Name(iModel.Name);
+            obj.Description = iModel.Description;
+            obj.Status = iModel.Status;
+
+            // Subscribers
+            obj.Name.subscribe(function () { updateValueRange(obj) });
+            obj.MinValue.subscribe(function () { updateValueRange(obj) });
+            obj.MaxValue.subscribe(function () { updateValueRange(obj) });
+
+            return obj;
+        }
+
+        function updateValueRange(valueRangeObj) {
+            var obj = formValueRangeRequest(valueRangeObj);
+            UpdatedValuRange = $.cordys.ajax({
+                namespace: "http://schemas/OpenTextBasicComponents/GCValueRange/operations",
+                method: "UpdateGCValueRange",
+                parameters: obj
+            }).done(function (data) {
+            }).fail(function (error) {
+
+            });
+        }
+
+        function createValueRange(valueRangeObj) {
+            var obj = createValueRangeRequest(valueRangeObj);
+            UpdatedValuRange = $.cordys.ajax({
+                namespace: "http://schemas/OpenTextBasicComponents/GCValueRange/operations",
+                method: "CreateGCValueRange",
+                parameters: obj
+            }).done(function (data) {
+                if (data && data.GCValueRange) {
+                    value_range_list_model.entriesList.push(formvalueObj(data.GCValueRange));
+                    value_range_list_model.valueRangeObj.MaxValue('');
+                    value_range_list_model.valueRangeObj.MaxValue.hasError(false)
+                    value_range_list_model.valueRangeObj.MinValue('');
+                    value_range_list_model.valueRangeObj.MinValue.hasError(false)
+                    value_range_list_model.valueRangeObj.Name('');
+                    value_range_list_model.valueRangeObj.Name.hasError(false)
+                }
+            }).fail(function (error) {
+
+            });
+        }
+
+        function deleteValueRange(ItemId) {
+            DeletedValuRange = $.cordys.ajax({
+                namespace: "http://schemas/OpenTextBasicComponents/GCValueRange/operations",
+                method: "DeleteGCValueRange",
+                parameters: {
+                    'GCValueRange': {
+                        'GCValueRange-id': { ItemId: ItemId }
+                    }
+                }
+            }).done(function (data) {
+                if (data) {
+                    removeFromRow(ItemId);
+                }
+            }).fail(function (error) {
+
+            });
+        }
+
+        function removeFromRow(ItemId) {
+            var i = value_range_list_model.entriesList().length;
+            while (i--) {
+                if (value_range_list_model.entriesList()[i].ItemId == ItemId) {
+                    value_range_list_model.entriesList.splice(i, 1);
+                    break;
+                }
+            }
+            value_range_list_model.selectedEntries.remove(ItemId);
+        }
+
+        function formValueRangeRequest(valueRangeObj) {
+            var obj = {};
+            obj['GCValueRange-id'] = { ItemId: valueRangeObj.ItemId };
+            if (!valueRangeObj.MinValue()) {
+                valueRangeObj.MinValue(0);
+            }
+            if (!valueRangeObj.MaxValue()) {
+                valueRangeObj.MaxValue(0);
+            }
+            obj['GCValueRange-update'] = {
+                Name: valueRangeObj.Name(),
+                MinValue: valueRangeObj.MinValue(),
+                MaxValue: valueRangeObj.MaxValue()
+            }
+            return obj;
+        }
+
+        function createValueRangeRequest(valueRangeObj) {
+            var obj = {};
+            obj['GCValueRange-create'] = {
+                Name: valueRangeObj.Name(),
+                MinValue: valueRangeObj.MinValue(),
+                MaxValue: valueRangeObj.MaxValue()
+            }
+            return obj;
+        }
+
+        var formatCurrency = function (amount) {
+            if (!amount || isNaN(amount)) {
+                return "";
+            }
+            amount = Math.round(amount);
+            amount += '';
+            x = amount.split('.');
+            x1 = x[0];
+            x2 = x.length > 1 ? '.' + x[1] : '';
+            var rgx = /(\d+)(\d{3})/;
+            while (rgx.test(x1)) {
+                x1 = x1.replace(rgx, '$1' + ',' + '$2');
+            }
+            // return "$" + x1 + x2;
+            return x1 + x2;
+        }
+
+        // Generating a string array from given object array with specified property.
+        function formStringArray(array, properyName) {
+            var result = [];
+            if (array && array.length) {
+                for (var i = 0; i < array.length; i++) {
+                    result.push(array[i][properyName]);
+                }
+            }
+            return result;
+        }
+
+    </script>
+    <style>
+        #value_range_table>tbody>tr:hover {
+            color: #333333 !important;
+            background-color: #b2bec5;
+            cursor: pointer;
+        }
+
+        #value_range_table>tbody>tr:hover td:first-child {
+            text-decoration: underline;
+        }
+
+        #value_range_table>thead {
+            background-color: #efefef;
+        }
+
+        #value_range_table>th {
+            font-weight: normal;
+            vertical-align: top;
+            width: 10px;
+        }
+
+        .ClauseTable_DataRow>td>div,
+        #Table_HeaderRow>th>div {
+            margin-top: 0.5em;
+        }
+
+        #Table_HeaderRow>th>div {
+            white-space: nowrap;
+            width: 75%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .icon-add {
+            background-image: url(../img/add.svg);
+            background-size: cover;
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+        }
+
+        .cc-addbtn-btn {
+            border: none;
+            color: white;
+            padding: 12px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: transparent;
+            background: transparent;
+        }
+
+        .cc-addbtn-btn:active,
+        .cc-addbtn-btn:focus,
+        .cc-addbtn-btn:hover {
+            border: none;
+            background-color: transparent;
+            background: transparent;
+            outline: none !important;
+
+        }
+
+        #Table_HeaderRow>th {
+
+            text-align: left;
+            box-sizing: border-box;
+            margin-right: .3rem;
+            padding: .3rem .2rem .3rem .6rem;
+        }
+
+        #Table_HeaderRow>th>div>label {
+            font-family: Lato;
+            font-size: 14px;
+            line-height: 18px;
+            display: flex;
+            user-select: none;
+        }
+
+        #value_range_table input[type=checkbox] {
+            width: 14px;
+            height: 14px;
+            margin-left: 15px;
+        }
+
+        #value_range_table>tbody>tr>td {
+            padding: 5px 8px;
+        }
+
+        .cc-model-title {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+        }
+
+        .modal-header .close {
+            opacity: 1;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #f7f7f7;
+            color: black;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body class="cc-ltr">
+    <div class="version_tab" id="value_range_page_holder">
+        <div class="table-responsive" id="value_range_content_div">
+            <table id="value_range_table" class="table">
+                <div class="row" style="margin: 0px; background-color: #f7f7f7;">
+                    <button class="btn cc-addbtn-btn" id="add_category_button_id">
+                        <i class="icon-add"></i>
+                    </button>
+                    <button class="btn btn btn-link" id="delete_category_button_id" data-bind="visible:selectedEntries().length>0">
+                        <span data-translatable="true">Delete</span>
+                    </button>
+                </div>
+                <thead>
+                    <tr id="Table_HeaderRow">
+                        <th class="col-sm-1 col-md-1 col-lg-1" title="Change summary" scope="col">
+                            <div>
+                                <input input type="checkbox" data-bind="checked: selectedAll" />
+                            </div>
+                        </th>
+                        <th class="col-sm-4 col-md-4 col-lg-4" title="Clause ID" scope="col">
+                            <div>
+                                <label class="label-no-bold" data-translatable="true">Category</label>
+                            </div>
+                        </th>
+                        <th class="col-sm-3 col-md-3 col-lg-3" title="Version" scope="col">
+                            <div>
+                                <label class="label-no-bold" data-translatable="true">Minimum value</label>
+                            </div>
+                        </th>
+                        <th class="col-sm-3 col-md-3 col-lg-3" title="State" scope="col">
+                            <div>
+                                <label class="label-no-bold" data-translatable="true">Maximum value</label>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach:entriesList">
+                    <tr class="ClauseTable_DataRow">
+                        <td class="col-sm-1 col-md-1 col-lg-1" title="Select" scope="row">
+                            <div><input input type="checkbox"
+                                    data-bind="{checked: $parent.selectedEntries,checkedValue: $data.ItemId}" />
+                            </div>
+                        </td>
+                        <td class="col-sm-4 col-md-4 col-lg-4" scope="row">
+                            <div data-bind="visible: !editableName(), text: Name, event: { click: editName }"></div>
+                            <input type="text" tabindex="1"
+                                data-bind="visible: editableName, value: Name, hasFocus: editableName" />
+                        </td>
+                        <td class="col-sm-3 col-md-3 col-lg-3" scope="row">
+                            <div style="min-height: 20px;"
+                                data-bind="visible: !editableMinValue(), text: formatCurrency(MinValue()), event: { click: editMinValue }">
+                            </div>
+                            <input type="text" tabindex="2"
+                                data-bind="visible: editableMinValue, value: MinValue, hasFocus: editableMinValue" />
+                        </td>
+                        <td class="col-sm-3 col-md-3 col-lg-3" scope="row">
+                            <div style="min-height: 20px;"
+                                data-bind="visible: !editableMaxValue(), text: formatCurrency(MaxValue()), event: { click:editMaxValue }">
+                            </div>
+                            <input type="text" tabindex="3"
+                                data-bind="visible: editableMaxValue, value: MaxValue, hasFocus: editableMaxValue" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="footer">
+            <div class="apps-warning-msg rtl-float-right">
+                <p style="padding-top: 7px;" data-translatable="true">Make sure that value ranges defined for value categories do not overlap.</p>
+            </div>
+        </div>
+
+        <div id="div_add_new_category" class="modal fade" role="dialog">
+            <!-- ko if: valueRangeObj!=null -->
+            <div class="modal-content"
+                style="display: block; width:50%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <span class="cc-model-title" data-translatable="true">Add category</span>
+                </div>
+                <div class="modal-body" style="overflow: auto;" id="categoryDiv">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-12 col-md-12 col-lg-12" data-bind="css: { 'has-error': valueRangeObj.Name.hasError }">
+                                <label for="inputName" class="col-form-label col-form-label-sm" data-translatable="true">Category</label>
+                                <input type="text" class="form-control" id="inputName" data-bind='value:valueRangeObj.Name,valueUpdate: "afterkeydown"' />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-sm-6 col-md-6 col-lg-6" data-bind="css: { 'has-error': valueRangeObj.MinValue.hasError }">
+                                <label for="inputMinValue" class="col-form-label col-form-label-sm" data-translatable="true">Minimum value</label>
+                                <input type="text" class="form-control" id="inputMinValue" data-bind='value:valueRangeObj.MinValue,valueUpdate: "afterkeydown"'>
+                            </div>
+                            <div class="form-group col-sm-6 col-md-6 col-lg-6" data-bind="css: { 'has-error': valueRangeObj.MaxValue.hasError }">
+                                <label for="inputMaxValue" class="col-form-label col-form-label-sm" data-translatable="true">Maximum value</label>
+                                <input type="text" class="form-control" id="inputMaxValue" data-bind='value:valueRangeObj.MaxValue,valueUpdate: "afterkeydown"'>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="apps-btn apps-btn-primary" data-dismiss="modal" id="btn_save_add_category" data-bind="{click:valueRangeObj.saveValueRange}">
+                        <span data-translatable="true">Create</span>
+                    </button>
+                    <button type=" cancel" class="apps-btn apps-btn-secondary" data-dismiss="modal" id="btn_cancel_add_category">
+                        <span data-translatable="true">Cancel</span>
+                    </button>
+                </div>
+            </div>
+            <!-- /ko -->
+        </div>
+
+        <!-- Delete section warning modal form -->
+        <div class="modal fade" id="delete_section_model" role="dialog">
+            <div class="modal-content"
+                style="display: block; width:32%; margin: auto; overflow-y: hidden; z-index: 1070; margin-top: 5%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 data-translatable="true">Confirm</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="apps-warning-msg" data-translatable="true">Are you sure you want to delete ?</div>
+                </div>
+                <div class="modal-footer" style="height: 50px !important;">
+                    <button type="submit" class="apps-btn apps-btn-primary" data-dismiss="modal" id="deleteSection" data-bind="click:deleteRows">
+                        <span data-translatable="true">Yes</span>
+                    </button>
+                    <button type="cancel" class="apps-btn apps-btn-secondary" data-dismiss="modal" id="cancelSection">
+                        <span data-translatable="true">No</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

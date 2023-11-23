@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E7-B0B5-1927272AE4B7">
+	<DocumentID>9890969C-5774-A1E7-B0B5-1927272AA4B7</DocumentID>
+	<Name>9890969C-5774-A1E7-B0B5-1927272AA4B7</Name>
+	<Description>Cancel Reason Detail</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-11-06T09:32:02.304</CreationDate>
+	<Notes/>
+	<DefaultText>Cancel Reason Detail</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E7-B0B5-1927272B24B7"
+		/>
+	</Translations>
+</TextIdentifier>

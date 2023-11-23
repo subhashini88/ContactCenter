@@ -1,0 +1,5 @@
+
+.hide-transition {
+    display: none;
+    transition: opacity 1s ease-out;
+}

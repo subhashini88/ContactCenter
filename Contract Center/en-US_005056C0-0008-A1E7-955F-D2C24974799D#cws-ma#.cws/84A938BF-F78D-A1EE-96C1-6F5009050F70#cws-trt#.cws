@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-96C1-6F5009054F70">
+	<DocumentID>84A938BF-F78D-A1EE-96C1-6F5009050F70</DocumentID>
+	<Name>84A938BF-F78D-A1EE-96C1-6F5009050F70</Name>
+	<Description>ProcessComplianceStatus</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-24T18:11:45.97</CreationDate>
+	<Notes/>
+	<Text>ProcessComplianceStatus</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-96C1-6F5009048F70"
+		/>
+	</TextIdentifier>
+</TranslatedText>

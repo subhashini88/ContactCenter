@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-852E-39F7A341A509">
+	<DocumentID>484D7EEB-71EF-A1E9-852E-39F7A3416509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-852E-39F7A3416509</Name>
+	<Description>Send email about termination</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-10T09:20:43.555</CreationDate>
+	<Notes/>
+	<Text>Send email about termination</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-852E-39F7A340E509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

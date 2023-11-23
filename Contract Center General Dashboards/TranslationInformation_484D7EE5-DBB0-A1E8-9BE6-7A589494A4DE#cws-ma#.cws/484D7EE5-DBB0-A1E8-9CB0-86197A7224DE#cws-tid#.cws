@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CB0-86197A7264DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CB0-86197A7224DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CB0-86197A7224DE</Name>
+	<Description>Parties - Collection accounts</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-18T06:44:37.903</CreationDate>
+	<Notes/>
+	<DefaultText>Parties - Collection accounts</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CB0-86197A72A4DE"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-317D01F3B068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-317D01F23068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-317D01F0F068"
+		/>
+	</Translations>
+</TextIdentifier>

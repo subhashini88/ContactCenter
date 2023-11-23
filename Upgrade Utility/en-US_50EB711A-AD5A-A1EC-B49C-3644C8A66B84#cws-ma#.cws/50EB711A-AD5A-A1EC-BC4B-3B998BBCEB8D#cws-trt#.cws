@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BC4B-3B998BBD2B8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BC4B-3B998BBCEB8D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-BC4B-3B998BBCEB8D</Name>
+	<Description>CreateUpgradeRecord</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-21T06:48:32.241</CreationDate>
+	<Notes/>
+	<Text>CreateUpgradeRecord</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-BC4B-3B998BBC6B8D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

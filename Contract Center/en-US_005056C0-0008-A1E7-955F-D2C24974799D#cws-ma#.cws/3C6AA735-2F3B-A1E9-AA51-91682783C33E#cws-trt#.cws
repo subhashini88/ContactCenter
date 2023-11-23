@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-AA51-91682784033E">
+	<DocumentID>3C6AA735-2F3B-A1E9-AA51-91682783C33E</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-AA51-91682783C33E</Name>
+	<Description>Edit details on contract is performed.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-18T11:01:30.569</CreationDate>
+	<Notes/>
+	<Text>Edit details on contract is performed.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1E9-AA51-91682783433E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-BB67-8F81E5D0C87C">
+	<DocumentID>B4B676CD-53D8-A1E8-BB67-8F81E5D0887C</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-BB67-8F81E5D0887C</Name>
+	<Description>Is executed contract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-21T15:15:26.942</CreationDate>
+	<Notes/>
+	<DefaultText>Is executed contract</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-BB67-8F81E5D1087C"
+		/>
+	</Translations>
+</TextIdentifier>

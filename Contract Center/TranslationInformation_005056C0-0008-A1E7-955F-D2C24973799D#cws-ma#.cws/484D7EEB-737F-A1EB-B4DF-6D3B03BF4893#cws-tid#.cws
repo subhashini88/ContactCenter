@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-737F-A1EB-B4DF-6D3B03BF8893">
+	<DocumentID>484D7EEB-737F-A1EB-B4DF-6D3B03BF4893</DocumentID>
+	<Name>484D7EEB-737F-A1EB-B4DF-6D3B03BF4893</Name>
+	<Description>GetRenewalData</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-06-22T17:24:25.891</CreationDate>
+	<Notes/>
+	<DefaultText>GetRenewalData</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-737F-A1EB-B4DF-6D3B03BFC893"
+		/>
+	</Translations>
+</TextIdentifier>

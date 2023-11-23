@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9D45-EB1BE1253157">
+	<DocumentID>F8E4E399-CF40-A1ED-9D45-EB1BE124F157</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-9D45-EB1BE124F157</Name>
+	<Description>updateTempCount with batch size</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-06T03:40:46.514</CreationDate>
+	<Notes/>
+	<DefaultText>updateTempCount with batch size</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-9D45-EB1BE1257157"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AFEB-6567F118CB26">
+	<DocumentID>C4D98747-AA4E-A1E7-AFEB-6567F1188B26</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AFEB-6567F1188B26</Name>
+	<Description>Update_contract term</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-02T09:12:38.52</CreationDate>
+	<Notes/>
+	<Text>Update_contract term</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-AFEB-6567F1180B26"
+		/>
+	</TextIdentifier>
+</TranslatedText>

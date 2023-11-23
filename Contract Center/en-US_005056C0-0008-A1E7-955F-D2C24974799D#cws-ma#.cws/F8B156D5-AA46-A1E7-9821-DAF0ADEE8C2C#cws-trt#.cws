@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-9821-DAF0ADEECC2C">
+	<DocumentID>F8B156D5-AA46-A1E7-9821-DAF0ADEE8C2C</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-9821-DAF0ADEE8C2C</Name>
+	<Description>Registration city</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-07-04T07:55:21.622</CreationDate>
+	<Notes/>
+	<Text>Registration city</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-9821-DAF0ADEE0C2C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

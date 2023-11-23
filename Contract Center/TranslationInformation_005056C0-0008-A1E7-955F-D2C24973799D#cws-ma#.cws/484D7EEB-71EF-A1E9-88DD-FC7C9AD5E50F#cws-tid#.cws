@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-88DD-FC7C9AD6250F">
+	<DocumentID>484D7EEB-71EF-A1E9-88DD-FC7C9AD5E50F</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-88DD-FC7C9AD5E50F</Name>
+	<Description>Persist emails of contract Admin</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-29T03:46:45.392</CreationDate>
+	<Notes/>
+	<DefaultText>Persist emails of contract Admin</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-88DD-FC7C9AD6650F"
+		/>
+	</Translations>
+</TextIdentifier>

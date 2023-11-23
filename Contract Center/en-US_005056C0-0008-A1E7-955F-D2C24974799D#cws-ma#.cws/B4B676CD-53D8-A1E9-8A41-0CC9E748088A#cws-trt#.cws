@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-8A41-0CC9E748488A">
+	<DocumentID>B4B676CD-53D8-A1E9-8A41-0CC9E748088A</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-8A41-0CC9E748088A</Name>
+	<Description>GetOwner</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-02-05T05:33:45.354</CreationDate>
+	<Notes/>
+	<Text>GetOwner</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-8A41-0CC9E747888A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

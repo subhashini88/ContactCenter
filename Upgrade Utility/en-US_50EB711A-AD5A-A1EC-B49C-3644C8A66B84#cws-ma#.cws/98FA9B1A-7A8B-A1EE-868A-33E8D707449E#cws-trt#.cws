@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-868A-33E8D707849E">
+	<DocumentID>98FA9B1A-7A8B-A1EE-868A-33E8D707449E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-868A-33E8D707449E</Name>
+	<Description>ReadActivityList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-04T05:14:23.346</CreationDate>
+	<Notes/>
+	<Text>ReadActivityList</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-868A-33E8D706C49E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

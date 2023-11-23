@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A21E-817F18022FE5">
+	<DocumentID>F8B156BC-2CB7-A1E7-A21E-817F1801EFE5</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A21E-817F1801EFE5</Name>
+	<Description>UpdateCCTerm</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-08-24T04:36:36.878</CreationDate>
+	<Notes/>
+	<Text>UpdateCCTerm</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A21E-817F18016FE5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

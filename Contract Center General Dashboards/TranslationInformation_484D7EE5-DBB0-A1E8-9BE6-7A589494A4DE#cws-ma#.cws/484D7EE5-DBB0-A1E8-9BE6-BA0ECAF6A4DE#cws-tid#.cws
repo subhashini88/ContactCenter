@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9BE6-BA0ECAF6E4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9BE6-BA0ECAF6A4DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9BE6-BA0ECAF6A4DE</Name>
+	<Description>Account m nagement</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-14T06:20:05.379</CreationDate>
+	<Notes/>
+	<DefaultText>Account m nagement</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-BA0ECAF724DE"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-1063CDA23068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-1063CDA0B068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-1063CD9F7068"
+		/>
+	</Translations>
+</TextIdentifier>

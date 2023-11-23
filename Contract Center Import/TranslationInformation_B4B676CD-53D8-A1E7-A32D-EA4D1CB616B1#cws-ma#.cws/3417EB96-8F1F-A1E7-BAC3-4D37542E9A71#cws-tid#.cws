@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-BAC3-4D37542EDA71">
+	<DocumentID>3417EB96-8F1F-A1E7-BAC3-4D37542E9A71</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-BAC3-4D37542E9A71</Name>
+	<Description>Generate error report</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-28T05:50:08.228</CreationDate>
+	<Notes/>
+	<DefaultText>Generate error report</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E7-BAC3-4D37542F1A71"
+		/>
+	</Translations>
+</TextIdentifier>

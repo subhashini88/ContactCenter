@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-8958-278703B14344">
+	<DocumentID>FC7774E8-DA63-A1EA-8958-278703B10344</DocumentID>
+	<Name>FC7774E8-DA63-A1EA-8958-278703B10344</Name>
+	<Description>EnvolopeStatusHistoryLog</Description>
+	<CreatedBy>varshakabilan</CreatedBy>
+	<CreationDate>2019-12-23T08:50:39.885</CreationDate>
+	<Notes/>
+	<DefaultText>EnvolopeStatusHistoryLog</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912464DF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E8-DA63-A1EA-8958-278703B18344"
+		/>
+	</Translations>
+</TextIdentifier>

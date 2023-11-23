@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B599-889100D2AB84">
+	<DocumentID>50EB711A-AD5A-A1EC-B599-889100D26B84</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B599-889100D26B84</Name>
+	<Description>getversionsforcontract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-18T06:47:52.785</CreationDate>
+	<Notes/>
+	<Text>getversionsforcontract</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B599-889100D1EB84"
+		/>
+	</TextIdentifier>
+</TranslatedText>

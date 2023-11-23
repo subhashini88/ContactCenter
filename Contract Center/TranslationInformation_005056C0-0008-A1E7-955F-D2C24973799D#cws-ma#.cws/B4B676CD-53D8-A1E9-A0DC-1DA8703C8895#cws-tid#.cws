@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-A0DC-1DA8703CC895">
+	<DocumentID>B4B676CD-53D8-A1E9-A0DC-1DA8703C8895</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-A0DC-1DA8703C8895</Name>
+	<Description>Z_INT_IsLatest</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-05-31T09:18:02.775</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_IsLatest</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E9-A0DC-1DA8703D0895"
+		/>
+	</Translations>
+</TextIdentifier>

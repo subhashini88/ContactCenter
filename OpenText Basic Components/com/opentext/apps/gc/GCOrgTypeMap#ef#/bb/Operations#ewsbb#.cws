@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-959D-E7D45EDFF14F">
+	<DocumentID>F8E4E399-CF40-A1ED-959D-E7D45EDFB14F</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-10-28T04:32:10.524</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8E4E399-CF40-A1ED-959D-E7D45EDE314F">
+			<DocumentID>F8E4E399-CF40-A1ED-959D-E7D45EDDF14F</DocumentID>
+			<Name>CreateGCOrgTypeMap</Name>
+			<Description>Create GCOrgTypeMap</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-10-28T04:32:10.518</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8E4E399-CF40-A1ED-9578-9FC5C7E0314F"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8E4E399-CF40-A1ED-959D-E7D45EDCB14F">
+			<DocumentID>F8E4E399-CF40-A1ED-959D-E7D45EDC714F</DocumentID>
+			<Name>DeleteGCOrgTypeMap</Name>
+			<Description>Delete GCOrgTypeMap</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-10-28T04:32:10.53</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8E4E399-CF40-A1ED-9578-9FC5C7E0314F"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8E4E399-CF40-A1ED-9578-9FC5C7E0314F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8E4E399-CF40-A1ED-959D-E7D45EDDB14F">
+			<DocumentID>F8E4E399-CF40-A1ED-959D-E7D45EDD714F</DocumentID>
+			<Name>ReadGCOrgTypeMap</Name>
+			<Description>Read GCOrgTypeMap</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-10-28T04:32:10.518</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8E4E399-CF40-A1ED-9578-9FC5C7E0314F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8E4E399-CF40-A1ED-959D-E7D45EDD314F">
+			<DocumentID>F8E4E399-CF40-A1ED-959D-E7D45EDCF14F</DocumentID>
+			<Name>UpdateGCOrgTypeMap</Name>
+			<Description>Update GCOrgTypeMap</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-10-28T04:32:10.529</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8E4E399-CF40-A1ED-9578-9FC5C7E0314F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

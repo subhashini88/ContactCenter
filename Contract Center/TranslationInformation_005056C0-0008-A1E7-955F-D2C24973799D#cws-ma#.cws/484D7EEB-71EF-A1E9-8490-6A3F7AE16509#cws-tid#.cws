@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-848F-994657796509">
+	<DocumentID>484D7EEB-71EF-A1E9-8490-6A3F7AE16509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-8490-6A3F7AE16509</Name>
+	<Description>ExpirationOnNotifDate</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-07T06:02:09.759</CreationDate>
+	<Notes/>
+	<DefaultText>ExpirationOnNotifDate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-848F-99465779A509"
+		/>
+	</Translations>
+</TextIdentifier>

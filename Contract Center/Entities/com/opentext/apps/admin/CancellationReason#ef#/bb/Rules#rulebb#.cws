@@ -1,0 +1,45 @@
+
+<RuleBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.rule.RuleBuildingBlock"
+	typeVersion="97F537DA-34AE-40AD-AFC4-48BC832037C3"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A4E5-2402BCBC24BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A4E5-2402BCBBE4BC</DocumentID>
+	<Name>Rules</Name>
+	<Description>Rules</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-07T06:20:36.611</CreationDate>
+	<Notes/>
+	<Entity>
+		<uri
+			id="80000B02-52A5-A1E7-A458-9F60CFCBFF07"
+		/>
+	</Entity>
+	<OwnedActions>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="005056C0-0008-A1E7-AB5E-262D998E9C4A">
+			<DocumentID>005056C0-0008-A1E7-AB5E-262D998E5C4A</DocumentID>
+			<Name>Untitled Rule Action Button</Name>
+			<Description>Untitled Rule Action Button</Description>
+			<CreatedBy>batman batman</CreatedBy>
+			<CreationDate>2017-10-10T05:15:42.875</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Unique code rule</ActionDisplayName>
+			<ActionId>005056C0-0008-A1E7-AB2A-C06A8B1C1C4A</ActionId>
+		</RuleActionButton>
+		<RuleActionButton
+			type="com.cordys.entity.buildingblocks.rule.RuleActionButton"
+			RuntimeDocumentID="005056C0-0008-A1E7-AB5E-262D998CDC4A">
+			<DocumentID>005056C0-0008-A1E7-AB5E-262D998C9C4A</DocumentID>
+			<Name>Untitled Rule Action Button (1)</Name>
+			<Description>Untitled Rule Action Button (1)</Description>
+			<CreatedBy>batman batman</CreatedBy>
+			<CreationDate>2017-10-10T05:15:42.876</CreationDate>
+			<Notes/>
+			<ActionDisplayName>Unique code rule</ActionDisplayName>
+			<ActionId>005056C0-0008-A1E7-AB2A-C06A8B1C1C4A</ActionId>
+		</RuleActionButton>
+	</OwnedActions>
+	<Rules/>
+</RuleBuildingBlock>

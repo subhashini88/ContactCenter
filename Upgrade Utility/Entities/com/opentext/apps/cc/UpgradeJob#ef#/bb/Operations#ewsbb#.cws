@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B533-0F9C303AAB84">
+	<DocumentID>50EB711A-AD5A-A1EC-B533-0F9C303A6B84</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-16T04:00:59.892</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EC-B533-2D7656B8EB84">
+			<DocumentID>50EB711A-AD5A-A1EC-B533-2D7656B8AB84</DocumentID>
+			<Name>CreateUpgradeJob</Name>
+			<Description>Create UpgradeJob</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-16T04:01:46.848</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EC-B532-A4249CFAAB84"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EC-B6A1-81E38676AB87">
+			<DocumentID>50EB711A-AD5A-A1EC-B6A1-81E386766B87</DocumentID>
+			<Name>DeleteUpgradeJob</Name>
+			<Description>Delete UpgradeJob</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-23T10:50:08.831</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EC-B532-A4249CFAAB84"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="50EB711A-AD5A-A1EC-B532-A4249CFAAB84"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EC-B533-2D7656B86B84">
+			<DocumentID>50EB711A-AD5A-A1EC-B533-2D7656B82B84</DocumentID>
+			<Name>ReadUpgradeJob</Name>
+			<Description>Read UpgradeJob</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-16T04:01:46.848</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EC-B532-A4249CFAAB84"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="50EB711A-AD5A-A1EC-B533-2D7656B7EB84">
+			<DocumentID>50EB711A-AD5A-A1EC-B533-2D7656B7AB84</DocumentID>
+			<Name>UpdateUpgradeJob</Name>
+			<Description>Update UpgradeJob</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-16T04:01:46.848</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="50EB711A-AD5A-A1EC-B532-A4249CFAAB84"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,96 @@
+
+<Worklist
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.worklist.Worklist"
+	RuntimeDocumentID="90B11C8A-3947-11E5-F7F0-56DFE990BFCB">
+	<DocumentID>90B11C8A-3947-11E5-F7F0-56DFE9909FCB</DocumentID>
+	<Name>AllTasks</Name>
+	<Description/>
+	<CreatedBy>cn=SYSTEM,cn=organizational users,o=system,cn=cordys,o=vanenburg.com</CreatedBy>
+	<CreationDate>2017-06-14T20:27:29.435</CreationDate>
+	<Notes/>
+	<ActionBarId></ActionBarId>
+	<CardViewDefinition></CardViewDefinition>
+	<ColumnWidth>0</ColumnWidth>
+	<DefaultCategory>My Inbox</DefaultCategory>
+	<DefaultViewType>0</DefaultViewType>
+	<DisplayCount>1</DisplayCount>
+	<ExpressionFilter></ExpressionFilter>
+	<Filters>{&quot;criteria&quot;:{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;2C222A94DE16E5C0EB43BFFF18E131C6&quot;,&quot;terms&quot;:[{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;6D20C9DEFA41E87A1578060D138E4621&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74F83FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;6ECEEE0306C9E6CA4B07134BDC7BD0FD&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;ne&quot;,&quot;value&quot;:&quot;5&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]}}]},{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;CA5471061AEA5265677552C68C8DE759&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74F57FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F0447165029FCB&quot;,&quot;propertyId&quot;:&quot;90B11C8A394711E5F7F0447164FDFFCB&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F0447165029FCB&quot;,&quot;propertyId&quot;:&quot;90B11C8A394711E5F7F0447164FDFFCB&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;D495FD4284179A224B420FC49C19597D&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;InList&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:&quot;targetAll()&quot;,&quot;isValueExpression&quot;:true}},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74F77FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;562CA5775EF649CDE92BD62063E7F381&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;targetUser()&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[],&quot;isValueExpression&quot;:true}},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F1-6373A5223FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;DD162F60A35D4E68B0078C2F9B3C6B38&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;DD162F60A35D4E68B0078C2F9B3C6B38&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;581164C6820787E8D8D77A6B720DFD39&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;targetUser()&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[],&quot;isValueExpression&quot;:true}}]}]}}</Filters>
+	<HideIfNoResults>false</HideIfNoResults>
+	<IsCardViewEnabled>false</IsCardViewEnabled>
+	<IsChartViewEnabled>false</IsChartViewEnabled>
+	<IsReadOnlyView>false</IsReadOnlyView>
+	<ItemOpenMode>0</ItemOpenMode>
+	<LayoutId></LayoutId>
+	<MaxCount>200</MaxCount>
+	<SecuredByEntity>false</SecuredByEntity>
+	<ShowConditionalCountInList>false</ShowConditionalCountInList>
+	<ShowCreateButton></ShowCreateButton>
+	<ShowTotalCountInList>false</ShowTotalCountInList>
+	<UserVisible>true</UserVisible>
+	<ActionBar/>
+	<AssignedFilterCriteria/>
+	<BuildingBlock>
+		<uri
+			id="90B11C8A-3947-11E5-F7F0-56DFE9981FCB"
+		/>
+	</BuildingBlock>
+	<CardViewConfiguration/>
+	<ChartViewConfigurations/>
+	<ConditionalCountCriteria/>
+	<CreatableAssociations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="90B11C8A-3947-11E5-F7F0-56DFE98F5FCB">
+			<DocumentID>90B11C8A-3947-11E5-F7F0-56DFE98F3FCB</DocumentID>
+			<Name>90B11C8A-3947-11E5-F7F0-56DFE98F3FCB</Name>
+			<Description/>
+			<CreatedBy>cn=SYSTEM,cn=organizational users,o=system,cn=cordys,o=vanenburg.com</CreatedBy>
+			<CreationDate>2017-06-14T20:27:29.435</CreationDate>
+			<Notes/>
+			<DeveloperText>All Tasks</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+	<FilterCriteria>
+		<EntityExpression
+			type="com.cordys.entity.services.entityexpression.EntityExpression"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-B75F-6927A35BF07C">
+			<DocumentID>F8B156BC-2CB7-A1EA-B75F-6927A35BB07C</DocumentID>
+			<Name>F8B156BC-2CB7-A1EA-B75F-6927A35BB07C</Name>
+			<Description/>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-08-13T16:02:28.809</CreationDate>
+			<Notes/>
+			<EncodedExpression>(!=&quot;5&quot;) &amp;&amp; ( in targetAll() || ==targetUser() || ==targetUser())</EncodedExpression>
+			<ErrorMessage></ErrorMessage>
+			<HumanExpression>(!=&quot;5&quot;) &amp;&amp; ( in targetAll() || ==targetUser() || ==targetUser())</HumanExpression>
+			<IsAdvancedOnly>0</IsAdvancedOnly>
+			<IsPropertyNameOnly>0</IsPropertyNameOnly>
+			<IsValid>1</IsValid>
+			<QueryCriteria>{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;2C222A94DE16E5C0EB43BFFF18E131C6&quot;,&quot;terms&quot;:[{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;6D20C9DEFA41E87A1578060D138E4621&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74F83FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;6ECEEE0306C9E6CA4B07134BDC7BD0FD&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;ne&quot;,&quot;value&quot;:&quot;5&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]}}]},{&quot;type&quot;:&quot;OR&quot;,&quot;id&quot;:&quot;CA5471061AEA5265677552C68C8DE759&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74F57FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F0447165029FCB&quot;,&quot;propertyId&quot;:&quot;90B11C8A394711E5F7F0447164FDFFCB&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F0447165029FCB&quot;,&quot;propertyId&quot;:&quot;90B11C8A394711E5F7F0447164FDFFCB&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;D495FD4284179A224B420FC49C19597D&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;InList&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:&quot;targetAll()&quot;,&quot;isValueExpression&quot;:true}},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74F77FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;58311DD6EEF643C0B3DA540F29B2CB93&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;562CA5775EF649CDE92BD62063E7F381&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;targetUser()&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[],&quot;isValueExpression&quot;:true}},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F1-6373A5223FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;DD162F60A35D4E68B0078C2F9B3C6B38&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;DD162F60A35D4E68B0078C2F9B3C6B38&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;581164C6820787E8D8D77A6B720DFD39&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;eq&quot;,&quot;value&quot;:&quot;targetUser()&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[],&quot;isValueExpression&quot;:true}}]}]}</QueryCriteria>
+			<DisplayName/>
+			<Entity>
+				<uri
+					id="90B11C8A-3947-11E5-F7F0-44716502DFCB"
+				/>
+			</Entity>
+			<ExpressionOwner>
+				<uri
+					id="90B11C8A-3947-11E5-F7F0-56DFE9909FCB"
+				/>
+			</ExpressionOwner>
+			<ParameterOwner/>
+			<UsedProperties/>
+		</EntityExpression>
+	</FilterCriteria>
+	<Layout/>
+	<LocalizableCategoryLabel/>
+	<Original/>
+	<UsesAssociation/>
+	<WorklistColumns/>
+</Worklist>

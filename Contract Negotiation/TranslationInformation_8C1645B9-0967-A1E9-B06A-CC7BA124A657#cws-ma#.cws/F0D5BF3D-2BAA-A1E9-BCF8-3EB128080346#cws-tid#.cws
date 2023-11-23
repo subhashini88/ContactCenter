@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-BCF8-3EB128084346">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-BCF8-3EB128080346</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-BCF8-3EB128080346</Name>
+	<Description>Reject closure</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-10-21T09:00:15.341</CreationDate>
+	<Notes/>
+	<DefaultText>Reject closure</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-BCF8-3EB128088346"
+		/>
+	</Translations>
+</TextIdentifier>

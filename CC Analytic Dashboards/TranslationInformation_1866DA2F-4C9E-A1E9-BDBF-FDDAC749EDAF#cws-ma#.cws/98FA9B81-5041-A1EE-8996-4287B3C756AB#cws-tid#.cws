@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-8996-4287B3C796AB">
+	<DocumentID>98FA9B81-5041-A1EE-8996-4287B3C756AB</DocumentID>
+	<Name>98FA9B81-5041-A1EE-8996-4287B3C756AB</Name>
+	<Description>While</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-07-19T17:50:02.72</CreationDate>
+	<Notes/>
+	<DefaultText>While</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EE-8996-4287B3C7D6AB"
+		/>
+	</Translations>
+</TextIdentifier>

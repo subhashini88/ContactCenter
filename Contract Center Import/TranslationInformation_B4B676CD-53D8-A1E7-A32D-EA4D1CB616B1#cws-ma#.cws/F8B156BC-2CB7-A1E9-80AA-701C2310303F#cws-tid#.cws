@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-80AA-701C2310703F">
+	<DocumentID>F8B156BC-2CB7-A1E9-80AA-701C2310303F</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-80AA-701C2310303F</Name>
+	<Description>UpdateImportedCLATargetState</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-12-18T09:46:51.341</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateImportedCLATargetState</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E9-80AA-701C2310B03F"
+		/>
+	</Translations>
+</TextIdentifier>

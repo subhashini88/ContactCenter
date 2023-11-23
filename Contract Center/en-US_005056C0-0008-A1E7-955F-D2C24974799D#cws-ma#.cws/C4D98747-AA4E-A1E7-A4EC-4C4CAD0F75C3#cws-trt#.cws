@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A4EC-4C4CAD0FB5C3">
+	<DocumentID>C4D98747-AA4E-A1E7-A4EC-4C4CAD0F75C3</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A4EC-4C4CAD0F75C3</Name>
+	<Description>Maintainence adjustment commencement date</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-07T09:47:28.305</CreationDate>
+	<Notes/>
+	<Text>Maintainence adjustment commencement date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4EC-4C4CAD0EF5C3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

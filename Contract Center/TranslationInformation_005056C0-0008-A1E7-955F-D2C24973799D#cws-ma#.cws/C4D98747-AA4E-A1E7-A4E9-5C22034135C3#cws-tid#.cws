@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A4E9-5C22034175C3">
+	<DocumentID>C4D98747-AA4E-A1E7-A4E9-5C22034135C3</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A4E9-5C22034135C3</Name>
+	<Description>Trial period_5</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-07T08:26:30.523</CreationDate>
+	<Notes/>
+	<DefaultText>Trial period_5</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4E9-5C220341B5C3"
+		/>
+	</Translations>
+</TextIdentifier>

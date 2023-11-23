@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="80000B02-52A5-A1E7-A45B-EDFFA3FEFF07">
+	<DocumentID>80000B02-52A5-A1E7-A45B-EDFFA3FEBF07</DocumentID>
+	<Name>80000B02-52A5-A1E7-A45B-EDFFA3FEBF07</Name>
+	<Description>Cancellation reason</Description>
+	<CreatedBy>anilt</CreatedBy>
+	<CreationDate>2017-09-04T12:53:05.546</CreationDate>
+	<Notes/>
+	<Text>Cancellation reason</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="80000B02-52A5-A1E7-A45B-EDFFA3FE3F07"
+		/>
+	</TextIdentifier>
+</TranslatedText>

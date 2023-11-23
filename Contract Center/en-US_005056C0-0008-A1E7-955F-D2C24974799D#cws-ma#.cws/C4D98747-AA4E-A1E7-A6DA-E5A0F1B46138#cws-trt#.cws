@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A6DA-E5A0F1B4A138">
+	<DocumentID>C4D98747-AA4E-A1E7-A6DA-E5A0F1B46138</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A6DA-E5A0F1B46138</Name>
+	<Description>Distribution list email temaplate</Description>
+	<CreatedBy>kasim basha</CreatedBy>
+	<CreationDate>2017-09-17T05:59:28.779</CreationDate>
+	<Notes/>
+	<Text>Distribution list email temaplate</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A6DA-E5A0F1B3E138"
+		/>
+	</TextIdentifier>
+</TranslatedText>

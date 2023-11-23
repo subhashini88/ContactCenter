@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 		
+        <script src="../../../../../documentation/othhUrlBuilder-min.js"></script>
+        <script src="../../../../../documentation/crypto-js.min.js"></script>
+		<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+		<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+		<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+        <style>
+		.redirectedTextStyle{
+			font-family: 'Lato', 'Helvetica', 'Segoe UI', 'Tahoma', 'Arial', 'sans-serif';
+			font-size: 18px;
+			font-weight: 600;
+			color: #333333;
+		}
+	</style>
+	<script type="text/javascript">
+	
+	$(function() {
+        var i_locale = getlocale();
+		translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale, true);
+		var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+		loadRTLIfRequired(i_locale,rtl_css);
+	});
+
+    function translatePlaceHolders(){
+        var msg = getTranslationMessage("Redirected to the help URL. If not redirected, click {{0}}.", getTranslationMessage("here"));
+            
+        var replaced = msg.replace(/\{(.*)\}/, function(text, grp) {
+			            return '<span onclick="openDocumentation()" style="cursor:pointer;color:blue;text-decoration: underline;padding-left: 5px;">'.concat(grp, '</span>');
+			    });
+		$(".redirectedTextStyle").html(replaced);
+    }
+
+	function openDocumentation(){
+
+		var l_docuServer = getUrlParameterValue("DocuServerURL","",true);
+		var l_product = getUrlParameterValue("RegdProductName","",true);
+		var l_version = getUrlParameterValue("RegdProductVersion","",true);
+		if(!l_product)
+		{
+			l_product = 'otcc';
+			l_version = '23.4';
+		}
+		var othh = new OTHHUrlBuilder({urlRoot: (l_docuServer?l_docuServer:"")});
+		var newURL = othh.buildHelpUrl("en_US", "top-of-doc", {product: l_product, version: l_version});
+		window.open(newURL,"_new");
+							
+	}
+	function getUrlParameterValue(iParameter, iURL, bDecode) {
+		var l_paramValue = "";
+		if (iParameter) {
+			var l_curLocation = (iURL && iURL.length) ? iURL : window.location.search;
+			if (l_curLocation && l_curLocation.length) {
+				var l_parArray = l_curLocation.split("?")[1];
+				if (l_parArray && l_parArray.length) {
+					var l_parameters = l_parArray.split("&");
+					for (var i = 0; i < l_parameters.length; i++) {
+						l_parameter = l_parameters[i].split("=");
+						if (l_parameter[0] && l_parameter[0].toLowerCase() == iParameter.toLowerCase()) {
+							return (bDecode ? decodeURIComponent(l_parameter[1]) : l_parameter[1]);
+						}
+					}
+				}
+			}
+		}
+		return l_paramValue;
+	}
+	</script>
+</head>
+<body onload="openDocumentation()" class="cc-ltr"> 
+	<div style=" position: absolute; top: calc(50% - 180px); left: calc(50% - 100px);">
+		<div>
+			<span>
+				<img align="center" style="margin-bottom: -10%;" src="../img/helpDocumentation.svg"></img>
+			</span>
+		</div>
+			<div>
+				<p class="redirectedTextStyle" style="margin-left: -17%;"></p>
+
+		</div>
+	</div>
+</body>		
+</html>

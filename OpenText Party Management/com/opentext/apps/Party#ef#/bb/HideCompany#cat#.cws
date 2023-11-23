@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A610-3D9F234EA4BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A610-3D9F234E64BC</DocumentID>
+	<Name>HideCompany</Name>
+	<Description>HideCompany</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-13T05:22:13.629</CreationDate>
+	<Notes/>
+	<referenceCount>4</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D5-AA46-A1E7-A610-3D9F234F24BC"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

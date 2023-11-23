@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8914-54007F30AB99">
+	<DocumentID>98FA9BD4-E468-A1ED-8914-54007F306B99</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8914-54007F306B99</Name>
+	<Description>ClauseUpgrade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-25T08:38:53.135</CreationDate>
+	<Notes/>
+	<Text>ClauseUpgrade</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8914-54007F2FEB99"
+		/>
+	</TextIdentifier>
+</TranslatedText>

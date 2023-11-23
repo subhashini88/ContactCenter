@@ -1,0 +1,30 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-B4A6-804DE62FA167">
+	<DocumentID>E86A64E0-AE43-A1EC-B4A6-804DE62F6167</DocumentID>
+	<Name>GCTag_HistoryLog</Name>
+	<Description>GCTag_HistoryLog</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-13T09:11:33.082</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="E86A64E0-AE43-A1EC-B4A6-804DE62D2167">
+			<DocumentID>E86A64E0-AE43-A1EC-B4A6-804DE62CE167</DocumentID>
+			<Name>E86A64E0-AE43-A1EC-B4A6-804DE62CE167</Name>
+			<Description>E86A64E0-AE43-A1EC-B4A6-804DE62CE167</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-13T09:11:33.082</CreationDate>
+			<Notes/>
+			<DeveloperText>GCTag history logs</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

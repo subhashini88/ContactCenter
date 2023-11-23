@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A4ED-7AAB653724BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A4ED-7AAB6536E4BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A4ED-7AAB6536E4BC</Name>
+	<Description>Countries and Regions</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-07T10:24:30.1</CreationDate>
+	<Notes/>
+	<Text>Countries and Regions</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A4ED-7AAB653664BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

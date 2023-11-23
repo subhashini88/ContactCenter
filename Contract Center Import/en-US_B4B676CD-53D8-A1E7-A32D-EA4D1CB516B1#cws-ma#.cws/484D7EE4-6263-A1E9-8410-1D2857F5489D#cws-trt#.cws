@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-8410-1D2857F5889D">
+	<DocumentID>484D7EE4-6263-A1E9-8410-1D2857F5489D</DocumentID>
+	<Name>484D7EE4-6263-A1E9-8410-1D2857F5489D</Name>
+	<Description>UpdateAddressImportStatus</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-04T16:58:09.423</CreationDate>
+	<Notes/>
+	<Text>UpdateAddressImportStatus</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE4-6263-A1E9-8410-1D2857F4C89D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

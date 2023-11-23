@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-9256-0FD997ED6516">
+	<DocumentID>484D7EEB-71EF-A1E9-9256-0FD997ED2516</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-9256-0FD997ED2516</Name>
+	<Description>Read ParentContract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-18T08:55:53.172</CreationDate>
+	<Notes/>
+	<Text>Read ParentContract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-9256-0FD997ECA516"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A709-503713876906">
+	<DocumentID>C4D98747-AA4E-A1E7-A709-503713872906</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A709-503713872906</Name>
+	<Description>Send Email</Description>
+	<CreatedBy>kasim basha</CreatedBy>
+	<CreationDate>2017-09-18T04:31:33.826</CreationDate>
+	<Notes/>
+	<DefaultText>Send Email</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A709-50371387A906"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1EC-AAFD-9669A035AB79">
+	<DocumentID>98FA9BD4-E468-A1EC-AAFD-9669A0356B79</DocumentID>
+	<Name>98FA9BD4-E468-A1EC-AAFD-9669A0356B79</Name>
+	<Description>Terms web</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-25T08:18:14.991</CreationDate>
+	<Notes/>
+	<Text>Terms web</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1EC-AAFD-9669A034EB79"
+		/>
+	</TextIdentifier>
+</TranslatedText>

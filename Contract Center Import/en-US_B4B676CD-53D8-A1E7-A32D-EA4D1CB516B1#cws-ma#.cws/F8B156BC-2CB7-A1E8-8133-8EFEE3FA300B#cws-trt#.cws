@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-8133-8EFEE3FA700B">
+	<DocumentID>F8B156BC-2CB7-A1E8-8133-8EFEE3FA300B</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-8133-8EFEE3FA300B</Name>
+	<Description>NotStarted/Failed/InvalidData</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-01-29T14:18:26.653</CreationDate>
+	<Notes/>
+	<Text>NotStarted/Failed/InvalidData</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-8133-8EFEE3F9B00B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

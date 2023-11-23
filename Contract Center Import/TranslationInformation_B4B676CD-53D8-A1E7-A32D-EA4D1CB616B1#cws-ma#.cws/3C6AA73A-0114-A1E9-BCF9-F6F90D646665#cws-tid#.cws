@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BCF9-F6F90D64A665">
+	<DocumentID>3C6AA73A-0114-A1E9-BCF9-F6F90D646665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BCF9-F6F90D646665</Name>
+	<Description>ReadDataManager</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-21T09:52:04.087</CreationDate>
+	<Notes/>
+	<DefaultText>ReadDataManager</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-BCF9-F6F90D64E665"
+		/>
+	</Translations>
+</TextIdentifier>

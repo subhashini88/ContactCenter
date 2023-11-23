@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-AA3E-7E344E50AC50">
+	<DocumentID>18DBF20F-3D64-A1E7-AA3E-7E344E506C50</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-AA3E-7E344E506C50</Name>
+	<Description>None</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-10-04T11:50:08.695</CreationDate>
+	<Notes/>
+	<Text>None</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="18DBF20F-3D64-A1E7-AA3E-7E344E4FEC50"
+		/>
+	</TextIdentifier>
+</TranslatedText>

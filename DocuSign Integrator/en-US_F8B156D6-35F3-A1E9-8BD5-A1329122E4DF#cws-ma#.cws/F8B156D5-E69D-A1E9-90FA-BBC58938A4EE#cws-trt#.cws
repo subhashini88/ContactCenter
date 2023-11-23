@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-90FA-BBC58938E4EE">
+	<DocumentID>F8B156D5-E69D-A1E9-90FA-BBC58938A4EE</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-90FA-BBC58938A4EE</Name>
+	<Description>Update status</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-11T10:54:16.034</CreationDate>
+	<Notes/>
+	<Text>Update status</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-90FA-BBC5893824EE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

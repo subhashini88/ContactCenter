@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-3B8A-A1E8-B863-22D12583C877">
+	<DocumentID>1866DA2F-3B8A-A1E8-B863-22D125838877</DocumentID>
+	<Name>1866DA2F-3B8A-A1E8-B863-22D125838877</Name>
+	<Description>Unit action bar list</Description>
+	<CreatedBy>Bhagwan</CreatedBy>
+	<CreationDate>2018-11-06T06:24:35.934</CreationDate>
+	<Notes/>
+	<Text>Unit action bar list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-3B8A-A1E8-B863-22D125830877"
+		/>
+	</TextIdentifier>
+</TranslatedText>

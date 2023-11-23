@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4F73-A1E7-AB6C-BF39DDC9A31C">
+	<DocumentID>1866DA2F-4F73-A1E7-AB6C-BF39DDC9631C</DocumentID>
+	<Name>1866DA2F-4F73-A1E7-AB6C-BF39DDC9631C</Name>
+	<Description>ReadCollectionAccount</Description>
+	<CreatedBy>vsusmith</CreatedBy>
+	<CreationDate>2017-10-10T12:07:42.647</CreationDate>
+	<Notes/>
+	<Text>ReadCollectionAccount</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4F73-A1E7-AB6C-BF39DDC8E31C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

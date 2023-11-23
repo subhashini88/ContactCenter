@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-B576-CCD80BDB0347">
+	<DocumentID>3C6AA735-2F3B-A1E9-B576-CCD80BDAC347</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-B576-CCD80BDAC347</Name>
+	<Description>Enter a valid contract name. The supported special characters are ` ! @ $ ^ ( ) _ + , . ; ' } {</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-09-13T04:15:29.248</CreationDate>
+	<Notes/>
+	<Text>Enter a valid contract name. The supported special characters are ` ! @ $ ^ ( ) _ + , . ; ' } {</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1E9-B576-CCD80BDA4347"
+		/>
+	</TextIdentifier>
+</TranslatedText>

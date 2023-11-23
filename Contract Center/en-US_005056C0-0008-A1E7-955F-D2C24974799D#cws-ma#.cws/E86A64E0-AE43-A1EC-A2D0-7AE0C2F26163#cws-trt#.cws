@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-A2D0-7AE0C2F2A163">
+	<DocumentID>E86A64E0-AE43-A1EC-A2D0-7AE0C2F26163</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-A2D0-7AE0C2F26163</Name>
+	<Description>SESC assignment type</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-02-11T13:56:31.385</CreationDate>
+	<Notes/>
+	<Text>SESC assignment type</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A64E0-AE43-A1EC-A2D0-7AE0C2F1E163"
+		/>
+	</TextIdentifier>
+</TranslatedText>

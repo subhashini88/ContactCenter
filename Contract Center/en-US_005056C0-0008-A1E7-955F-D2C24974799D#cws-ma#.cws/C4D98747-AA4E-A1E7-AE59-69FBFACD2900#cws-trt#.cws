@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AE59-69FBFACD6900">
+	<DocumentID>C4D98747-AA4E-A1E7-AE59-69FBFACD2900</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AE59-69FBFACD2900</Name>
+	<Description>Early termination right</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-25T10:07:00.291</CreationDate>
+	<Notes/>
+	<Text>Early termination right</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-AE59-69FBFACCA900"
+		/>
+	</TextIdentifier>
+</TranslatedText>

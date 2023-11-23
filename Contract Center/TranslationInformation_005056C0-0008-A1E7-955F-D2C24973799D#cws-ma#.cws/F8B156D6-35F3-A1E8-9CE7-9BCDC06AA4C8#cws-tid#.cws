@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9CE7-9BCDC06AE4C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9CE7-9BCDC06AA4C8</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9CE7-9BCDC06AA4C8</Name>
+	<Description>Units of Measurement_2</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-19T09:01:02.705</CreationDate>
+	<Notes/>
+	<DefaultText>Units of Measurement_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-9CE7-9BCDC06B24C8"
+		/>
+	</Translations>
+</TextIdentifier>

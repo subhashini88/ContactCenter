@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B0F5-7E097D97A658">
+	<DocumentID>8C1645B9-0967-A1E9-B0F5-7E097D976658</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-21T05:42:17.857</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="8C1645B9-0967-A1E9-B092-FC7B43BBE658"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="8C1645B9-0967-A1E9-B0F5-7E097D96E658">
+			<DocumentID>8C1645B9-0967-A1E9-B0F5-7E097D96A658</DocumentID>
+			<Name>ReadRelatedComments</Name>
+			<Description>Read RelatedComments</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-08-21T05:42:17.856</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="8C1645B9-0967-A1E9-B092-FC7B43BBE658"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="8C1645B9-0967-A1E9-B0F5-7E097D966658">
+			<DocumentID>8C1645B9-0967-A1E9-B0F5-7E097D962658</DocumentID>
+			<Name>UpdateRelatedComments</Name>
+			<Description>Update RelatedComments</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-08-21T05:42:17.856</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="8C1645B9-0967-A1E9-B092-FC7B43BBE658"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

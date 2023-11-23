@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-B03D-3C4E2CCC0376">
+	<DocumentID>98FA9B1A-7A8B-A1EA-B03D-3C4E2CCBC376</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-B03D-3C4E2CCBC376</Name>
+	<Description>You do not have permissions to create the item.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-07-08T08:39:49.029</CreationDate>
+	<Notes/>
+	<Text>You do not have permissions to create the item.</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-B03D-3C4E2CCB4376"
+		/>
+	</TextIdentifier>
+</TranslatedText>

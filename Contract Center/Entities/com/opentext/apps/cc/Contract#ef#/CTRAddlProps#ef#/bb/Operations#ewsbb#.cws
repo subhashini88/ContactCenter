@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="DC215C73-F252-A1EC-B95D-E389A8FACF28">
+	<DocumentID>DC215C73-F252-A1EC-B95D-E389A8FA8F28</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-06T09:05:29.225</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="DC215C73-F252-A1EC-B95D-9460F0578F28"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="DC215C73-F252-A1EC-B95F-5EEFE80C4F28">
+			<DocumentID>DC215C73-F252-A1EC-B95F-5EEFE80C0F28</DocumentID>
+			<Name>ReadCTRAddlProps</Name>
+			<Description>Read CTRAddlProps</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-06-06T10:52:38.25</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="DC215C73-F252-A1EC-B95D-9460F0578F28"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="DC215C73-F252-A1EC-B95F-5EEFE80BCF28">
+			<DocumentID>DC215C73-F252-A1EC-B95F-5EEFE80B8F28</DocumentID>
+			<Name>UpdateCTRAddlProps</Name>
+			<Description>Update CTRAddlProps</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-06-06T10:52:38.249</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="DC215C73-F252-A1EC-B95D-9460F0578F28"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

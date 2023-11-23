@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-BC88-FF1864BA703C">
+	<DocumentID>F8B156BC-2CB7-A1E8-BC88-FF1864BA303C</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-BC88-FF1864BA303C</Name>
+	<Description>Disable extenal contract</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-11-27T09:09:46.56</CreationDate>
+	<Notes/>
+	<DefaultText>Disable extenal contract</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-BC88-FF1864BAB03C"
+		/>
+	</Translations>
+</TextIdentifier>

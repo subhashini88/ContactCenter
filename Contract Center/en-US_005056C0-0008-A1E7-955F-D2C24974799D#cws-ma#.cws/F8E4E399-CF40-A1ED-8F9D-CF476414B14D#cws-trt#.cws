@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-8F9D-CF476414F14D">
+	<DocumentID>F8E4E399-CF40-A1ED-8F9D-CF476414B14D</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-8F9D-CF476414B14D</Name>
+	<Description>GetContractsList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-27T15:46:09.06</CreationDate>
+	<Notes/>
+	<Text>GetContractsList</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-8F9D-CF476414314D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

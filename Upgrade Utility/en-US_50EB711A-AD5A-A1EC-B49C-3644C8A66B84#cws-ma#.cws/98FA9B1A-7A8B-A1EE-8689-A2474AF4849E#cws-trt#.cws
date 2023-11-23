@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-8689-A2474AF4C49E">
+	<DocumentID>98FA9B1A-7A8B-A1EE-8689-A2474AF4849E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-8689-A2474AF4849E</Name>
+	<Description>UpdateRule</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-04T04:53:58.834</CreationDate>
+	<Notes/>
+	<Text>UpdateRule</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-8689-A2474AF4049E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

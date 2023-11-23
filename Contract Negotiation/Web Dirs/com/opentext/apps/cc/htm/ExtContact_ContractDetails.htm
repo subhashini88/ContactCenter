@@ -1,0 +1,308 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/appscommon.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/ckeditor/ckeditor.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../js/ExtContact_ContractDetails.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var i_locale = getlocale();
+            translateLabels("com/opentext/apps/contractcenter/ContractNegotiation/ContractNegotiation", i_locale);
+            var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+            loadRTLIfRequired(i_locale, rtl_css);
+        });
+    </script>
+    <style>
+        .col-lg-6 {
+            padding: 0;
+        }
+
+        .group-heading {
+            white-space: pre-wrap;
+            color: rgb(51, 51, 51);
+            font-weight: bold;
+            font-size: 16px;
+            text-decoration: none solid rgb(85, 85, 85);
+            font-style: normal;
+            font-family: Lato, Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+            text-align: left;
+            background-color: rgba(242, 242, 242, 1);
+        }
+
+        label {
+            font-weight: 200;
+            font-family: 'Aktiv grotesk', Helvetica, 'Segoe UI', Tahoma, Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body class="cc-ltr">
+    <div class="col-lg-12" id="id_contractDetails" style="padding-top: 30px;">
+        <div class="col-lg-6">
+            <div class="form-group col-lg-12">
+                <div style="margin-bottom: 15px;height: 30px;">
+                    <div class="group-heading" data-translatable="true">General</div>
+                </div>
+                <div class="form-group col-lg-12">
+                    <label data-translatable="true">Contract ID</label>
+                    <div>
+                        <input data-bind="value:GeneratedContractId" class="form-control" type="text">
+                    </div>
+                </div>
+                <div class="form-group col-lg-12">
+                    <label data-translatable="true">Contract name</label>
+                    <div>
+                        <input data-bind="value:ContractName" class="form-control" type="text">
+                    </div>
+                </div>
+                <div class="form-group col-lg-12">
+                    <label data-translatable="true">Contract description</label>
+                    <div>
+						<textarea data-bind="textInput:Description" class="form-control" type="text" disabled
+                            style="height: 108px;background-color: white;border: none;box-shadow: none;padding: 0px;resize: none;"></textarea>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Priority</label>
+                        <div>
+                            <input data-bind="value:Priority" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Is executed?</label>
+                        <div>
+                            <input data-bind="checked:IsExecuted" value="true" class="radio-inline" type="radio">
+                            <span data-translatable="true">Yes</span>
+                            <input data-bind="checked:IsExecuted" value="false" class="radio-inline" type="radio">
+                            <span data-translatable="true">No</span>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Contract type</label>
+                        <div>
+                            <input data-bind="value:ContractTypeName" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Internal party</label>
+                        <div>
+                            <input data-bind="value:FirstPartyRegisteredName" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">External party</label>
+                        <div>
+                            <input data-bind="value:SecondPartyRegisteredName" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Account manager</label>
+                        <div>
+                            <input data-bind="value:SecondPartyZ_INT_ManagerName" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Country</label>
+                        <div>
+                            <input data-bind="value:Country" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Contract number</label>
+                        <div>
+                            <input data-bind="value:ContractNumber" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Is external?</label>
+                        <div>
+                            <input data-bind="checked:ContractDocumentType" value="EXTERNALDOCUMENT" class="radio-inline" type="radio">
+                            <span data-translatable="true">Yes</span>
+                            <input data-bind="checked:ContractDocumentType" value="INTERNALTEMPLATE" class="radio-inline" type="radio">
+                            <span data-translatable="true">No</span>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Template</label>
+                        <div>
+                            <input data-bind="value:RelatedTemplateName" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Internal contact</label>
+                        <div>
+                            <input data-bind="value:FirstPartyContactName" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">External contact</label>
+                        <div>
+                            <input data-bind="value:SecondPartyContactName" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Account number</label>
+                        <div>
+                            <input data-bind="value:SecondPartyZ_Int_CollectionAccount" class="form-control"
+                                type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Region</label>
+                        <div>
+                            <input data-bind="value:Region" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group col-lg-12">
+                <div style="margin-bottom: 15px;height: 30px;">
+                    <div class="group-heading" data-translatable="true">Duration</div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Contract term</label>
+                        <div>
+                            <input data-bind="value:InitialContractTenure" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Planned start date</label>
+                        <div>
+                            <input data-bind="value:StartDate" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Current term start date</label>
+                        <div>
+                            <input data-bind="value:CurrentStartDate" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Initial expiration date</label>
+                        <div>
+                            <input data-bind="value:InitialExpiryDate" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Signature date</label>
+                        <div>
+                            <input data-bind="value:SignatureDate" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group col-lg-12" style="padding-top: 34px;">
+                        <label><input data-bind="checked:Perpetual" class="checkbox-inline" type="checkbox"><span
+                                data-translatable="true">Perpetual</span></label>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Actual start date</label>
+                        <div>
+                            <input data-bind="value:MinStartdate" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Current term expiration date</label>
+                        <div>
+                            <input data-bind="value:CurrentEndDate" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Next expiration date</label>
+                        <div>
+                            <input data-bind="value:NextExpirationDate" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group col-lg-12">
+                <div style="margin-bottom: 15px;height: 30px;">
+                    <div class="group-heading" data-translatable="true">Value</div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Currency</label>
+                        <div>
+                            <input data-bind="value:CurrencyName" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Contract value in USD</label>
+                        <div>
+                            <input data-bind="value:ContractValueUSD" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Contract value</label>
+                        <div>
+                            <input data-bind="value:ContractValue" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group col-lg-12">
+                <div style="margin-bottom: 24px;height: 30px;margin-top: 5px;">
+                    <div class="group-heading" data-translatable="true">Renewal</div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Auto renew</label>
+                        <div style="padding-bottom: 14px;">
+                            <input data-bind="checked:AutoRenew" value="true" class="radio-inline" type="radio"><span
+                                data-translatable="true">Yes</span>
+                            <input data-bind="checked:AutoRenew" value="false" class="radio-inline" type="radio"><span
+                                data-translatable="true">No</span>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Discount on renewal (%)</label>
+                        <div>
+                            <input data-bind="value:RenewalDiscount" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Auto renew duration (in months)</label>
+                        <div>
+                            <input data-bind="value:AutoRenewDuration" class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label data-translatable="true">Renewal flag</label>
+                        <div>
+                            <input data-bind="value:ContractNumber" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group col-lg-12">
+                    <label data-translatable="true">Renewal comments</label>
+                    <div>
+                        <textarea data-bind="textInput:RenewalComments" class="form-control" type="text" disabled
+                            style="height: 108px;background-color: white;border: none;box-shadow: none;padding: 0px;resize: none;"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

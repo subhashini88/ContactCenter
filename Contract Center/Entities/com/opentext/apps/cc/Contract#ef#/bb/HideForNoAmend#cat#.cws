@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9CE0-271B32C8E4C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9CE0-271B32C8A4C8</DocumentID>
+	<Name>HideForNoAmend</Name>
+	<Description>HideForNoAmend</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-19T05:26:43.897</CreationDate>
+	<Notes/>
+	<referenceCount>2</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-9C89-2539C17F108A">
+	<DocumentID>3417EB96-8F1F-A1E7-9C89-2539C17ED08A</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-9C89-2539C17ED08A</Name>
+	<Description>UpdateChecklistTask</Description>
+	<CreatedBy>Naresh Pagadapu</CreatedBy>
+	<CreationDate>2017-07-26T17:09:10.113</CreationDate>
+	<Notes/>
+	<Text>UpdateChecklistTask</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-9C89-2539C17E508A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

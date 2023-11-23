@@ -1,0 +1,57 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-8651-4363A8E4E509">
+	<DocumentID>484D7EEB-71EF-A1E9-8651-4363A8E4A509</DocumentID>
+	<Name>ExpirationOnActionDateForExternalContacts</Name>
+	<Description>ExpirationOnActionDateForExternalContacts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-16T04:45:40.18</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>The contract&amp;nbsp; {item.Properties.ContractName}&amp;nbsp; with&amp;nbsp; {item.RelatedCTRProps.Properties.AllExternalParties}&amp;nbsp; expires on&amp;nbsp; {item.Properties.NextExpirationDate} .
+&lt;table&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;The contract number is {item.Properties.GeneratedContractId}.&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Contract {item.Properties.ContractName} expires on  {item.Properties.NextExpirationDate}</Subject>
+	<To></To>
+	<BuildingBlock>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ADF7-CDD0458024F4"
+		/>
+	</BuildingBlock>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="484D7EEB-71EF-A1E9-88B7-2511388A250F">
+			<DocumentID>484D7EEB-71EF-A1E9-88B7-25113889E50F</DocumentID>
+			<Name>484D7EEB-71EF-A1E9-88B7-25113889E50F</Name>
+			<Description>484D7EEB-71EF-A1E9-88B7-25113889E50F</Description>
+			<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+			<CreationDate>2019-01-28T09:19:16.05</CreationDate>
+			<Notes/>
+			<DeveloperText>On action date to external contact about expiry</DeveloperText>
+			<Identifier>
+				<uri
+					id="484D7EEB-71EF-A1E9-88B7-2511388A650F"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<TypeDefinition/>
+</EmailTemplate>

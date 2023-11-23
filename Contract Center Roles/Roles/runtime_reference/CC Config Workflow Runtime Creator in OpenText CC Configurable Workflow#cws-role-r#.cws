@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="00505601-6E6B-A1EA-AABB-10363703510E">
+	<DocumentID>00505601-6E6B-A1EA-AABB-10363703110E</DocumentID>
+	<Name>CC Config Workflow Runtime Creator in OpenText CC Configurable Workflow</Name>
+	<Description>CC Config Workflow Runtime Creator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-10T07:40:24.408</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>CC Config Workflow Runtime Creator</CommonName>
+	<DistinguishedName>cn=CC Config Workflow Runtime Creator,cn=OpenText CC Configurable Workflow,cn=cordys,cn=defaultInst,o=lab.opentext.com</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Internal</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="00505601-6E6B-A1EA-AABB-10363702D10E">
+			<DocumentID>00505601-6E6B-A1EA-AABB-10363702910E</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2020-06-10T07:40:24.407</CreationDate>
+			<Notes/>
+			<ArtifactID>F8B156BC-2CB7-A1EA-AAB0-6E61B5CF707A</ArtifactID>
+			<CAPID>f8b156bc-2cb7-a1ea-9e25-9a91c630706d</CAPID>
+			<CAPName>OpenText CC Configurable Workflow</CAPName>
+			<CAPVersion>ver20.2.0build252</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

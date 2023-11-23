@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E7-B69D-2ABC6F3FA4BA">
+	<DocumentID>9890969C-5774-A1E7-B69D-2ABC6F3F64BA</DocumentID>
+	<Name>9890969C-5774-A1E7-B69D-2ABC6F3F64BA</Name>
+	<Description>PS fees_3</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-12-06T11:05:06.535</CreationDate>
+	<Notes/>
+	<DefaultText>PS fees_3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E7-B69D-2ABC6F3FE4BA"
+		/>
+	</Translations>
+</TextIdentifier>

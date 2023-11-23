@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-B02E-25DAF02264D7">
+	<DocumentID>9890969C-5774-A1E8-B02E-25DAF02224D7</DocumentID>
+	<Name>9890969C-5774-A1E8-B02E-25DAF02224D7</Name>
+	<Description>Execution to active</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-09-25T11:48:02.512</CreationDate>
+	<Notes/>
+	<Text>Execution to active</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-B02E-25DAF021A4D7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

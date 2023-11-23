@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B4E6-F93D5F03A65B">
+	<DocumentID>8C1645B9-0967-A1E9-B4E6-F93D5F03665B</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B4E6-F93D5F03665B</Name>
+	<Description>Absolute</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-10T08:41:22.273</CreationDate>
+	<Notes/>
+	<Text>Absolute</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-B4E6-F93D5F02E65B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

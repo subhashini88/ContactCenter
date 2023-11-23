@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8C0C-A1E7-AB75-9B05AD1F862B">
+	<DocumentID>3417EB96-8C0C-A1E7-AB75-9B05AD1F462B</DocumentID>
+	<Name>3417EB96-8C0C-A1E7-AB75-9B05AD1F462B</Name>
+	<Description>UpdateReadStatus Failed</Description>
+	<CreatedBy>yballepa</CreatedBy>
+	<CreationDate>2017-10-10T16:24:05.579</CreationDate>
+	<Notes/>
+	<Text>UpdateReadStatus Failed</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8C0C-A1E7-AB75-9B05AD1EC62B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

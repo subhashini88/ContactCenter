@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-BF34-CA3EB9917009">
+	<DocumentID>F8B156BC-2CB7-A1E7-BF34-CA3EB9913009</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-BF34-CA3EB9913009</Name>
+	<Description>On action performed notification template</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-01-19T05:43:13.248</CreationDate>
+	<Notes/>
+	<Text>On action performed notification template</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-BF34-CA3EB990B009"
+		/>
+	</TextIdentifier>
+</TranslatedText>

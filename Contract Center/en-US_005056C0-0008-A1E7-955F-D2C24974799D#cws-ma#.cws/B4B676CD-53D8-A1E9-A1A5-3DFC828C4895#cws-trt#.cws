@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-A1A5-3DFC828C8895">
+	<DocumentID>B4B676CD-53D8-A1E9-A1A5-3DFC828C4895</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-A1A5-3DFC828C4895</Name>
+	<Description>Fail</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-06-04T06:53:27.987</CreationDate>
+	<Notes/>
+	<Text>Fail</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-A1A5-3DFC828BC895"
+		/>
+	</TextIdentifier>
+</TranslatedText>

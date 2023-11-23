@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9D26-91EAFAC5E516">
+	<DocumentID>484D7EE5-DBB0-A1E9-9D26-91EAFAC5A516</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-9D26-91EAFAC5A516</Name>
+	<Description>Pending reviews</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-05-12T09:48:58.983</CreationDate>
+	<Notes/>
+	<DefaultText>Pending reviews</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E9-9D26-91EAFAC62516"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-9741-6121CA4E2517">
+	<DocumentID>484D7EEB-71EF-A1E9-9741-6121CA4DE517</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-9741-6121CA4DE517</Name>
+	<Description>CreateGCClause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-12T09:36:48.65</CreationDate>
+	<Notes/>
+	<Text>CreateGCClause</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-9741-6121CA4D6517"
+		/>
+	</TextIdentifier>
+</TranslatedText>

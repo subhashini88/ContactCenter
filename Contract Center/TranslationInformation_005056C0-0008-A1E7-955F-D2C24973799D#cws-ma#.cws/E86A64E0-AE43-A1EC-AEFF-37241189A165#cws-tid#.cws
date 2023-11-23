@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-AEFF-37241189E165">
+	<DocumentID>E86A64E0-AE43-A1EC-AEFF-37241189A165</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-AEFF-37241189A165</Name>
+	<Description>ReadContents</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-04-14T15:10:24.6</CreationDate>
+	<Notes/>
+	<DefaultText>ReadContents</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="E86A64E0-AE43-A1EC-AEFF-3724118A2165"
+		/>
+	</Translations>
+</TextIdentifier>

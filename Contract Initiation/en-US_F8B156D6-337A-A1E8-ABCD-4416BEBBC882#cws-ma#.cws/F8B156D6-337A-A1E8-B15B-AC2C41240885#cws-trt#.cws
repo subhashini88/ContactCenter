@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B15B-AC2C41244885">
+	<DocumentID>F8B156D6-337A-A1E8-B15B-AC2C41240885</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B15B-AC2C41240885</Name>
+	<Description>Please required fields</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-01T11:44:19.539</CreationDate>
+	<Notes/>
+	<Text>Please required fields</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B15B-AC2C41238885"
+		/>
+	</TextIdentifier>
+</TranslatedText>

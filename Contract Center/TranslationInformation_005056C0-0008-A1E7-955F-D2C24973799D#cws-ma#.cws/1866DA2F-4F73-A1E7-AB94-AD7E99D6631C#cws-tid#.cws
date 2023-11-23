@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4F73-A1E7-AB94-AD7E99D6A31C">
+	<DocumentID>1866DA2F-4F73-A1E7-AB94-AD7E99D6631C</DocumentID>
+	<Name>1866DA2F-4F73-A1E7-AB94-AD7E99D6631C</Name>
+	<Description>cancel_1</Description>
+	<CreatedBy>vsusmith</CreatedBy>
+	<CreationDate>2017-10-11T07:07:58.374</CreationDate>
+	<Notes/>
+	<DefaultText>cancel_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4F73-A1E7-AB94-AD7E99D6E31C"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A352-F603084D2FE5">
+	<DocumentID>F8B156BC-2CB7-A1E7-A352-F603084CEFE5</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A352-F603084CEFE5</Name>
+	<Description>Months</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-08-30T06:25:10.542</CreationDate>
+	<Notes/>
+	<DefaultText>Months</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A352-F603084D6FE5"
+		/>
+	</Translations>
+</TextIdentifier>

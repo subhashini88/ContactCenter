@@ -1,0 +1,174 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A64E-2BD04627E4BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A64E-2BD04627A4BC</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-14T10:42:09.102</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A8A8-A23FC33324BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A8A8-A23FC332E4BE</DocumentID>
+			<Name>CreateManager</Name>
+			<Description>Create Manager</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T10:09:10.386</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A64D-922D1D10E4BC"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A8A8-A23FC33164BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A8A8-A23FC33124BE</DocumentID>
+			<Name>DeleteManager</Name>
+			<Description>Delete Manager</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T10:09:10.387</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A64D-922D1D10E4BC"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156D5-AA46-A1E7-A64D-922D1D10E4BC"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A8A8-A23FC33264BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A8A8-A23FC33224BE</DocumentID>
+			<Name>ReadManager</Name>
+			<Description>Read Manager</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T10:09:10.387</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A64D-922D1D10E4BC"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B39F-4B231A71E4B8">
+			<DocumentID>9890969C-5774-A1E7-B39F-4B231A71A4B8</DocumentID>
+			<Name>SetContainingPerson</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>Aakriti Dhir</CreatedBy>
+			<CreationDate>2017-11-21T05:41:22.101</CreationDate>
+			<Notes/>
+			<OperationType>SetOne</OperationType>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A64D-922D1D10E4BC"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="005056C0-0008-A1E7-AC98-492F50AB52CE"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B39F-4B231A7124B8">
+			<DocumentID>9890969C-5774-A1E7-B39F-4B231A70E4B8</DocumentID>
+			<Name>ClearContainingPerson</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>Aakriti Dhir</CreatedBy>
+			<CreationDate>2017-11-21T05:41:22.103</CreationDate>
+			<Notes/>
+			<OperationType>ClearOne</OperationType>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A64D-922D1D10E4BC"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="005056C0-0008-A1E7-AC98-492F50AB52CE"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="3417EB96-8F1F-A1E8-845A-15C63EC645FF">
+			<DocumentID>3417EB96-8F1F-A1E8-845A-15C63EC605FF</DocumentID>
+			<Name>SetReplacementManager</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>nareshp nareshp</CreatedBy>
+			<CreationDate>2018-02-14T11:47:10.998</CreationDate>
+			<Notes/>
+			<OperationType>SetOne</OperationType>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A64D-922D1D10E4BC"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="3417EB96-8F1F-A1E8-8062-C3F9325B0E45"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="3417EB96-8F1F-A1E8-845A-15C63EC585FF">
+			<DocumentID>3417EB96-8F1F-A1E8-845A-15C63EC545FF</DocumentID>
+			<Name>ClearReplacementManager</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>nareshp nareshp</CreatedBy>
+			<CreationDate>2018-02-14T11:47:10.997</CreationDate>
+			<Notes/>
+			<OperationType>ClearOne</OperationType>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A64D-922D1D10E4BC"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="3417EB96-8F1F-A1E8-8062-C3F9325B0E45"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A8A8-A23FC331E4BE">
+			<DocumentID>F8B156D5-AA46-A1E7-A8A8-A23FC331A4BE</DocumentID>
+			<Name>UpdateManager</Name>
+			<Description>Update Manager</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-26T10:09:10.386</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A64D-922D1D10E4BC"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

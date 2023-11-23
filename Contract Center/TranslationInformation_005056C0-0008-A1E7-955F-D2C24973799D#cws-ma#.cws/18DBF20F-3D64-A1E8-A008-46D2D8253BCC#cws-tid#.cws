@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="18DBF20F-3D64-A1E8-A008-46D2D8257BCC">
+	<DocumentID>18DBF20F-3D64-A1E8-A008-46D2D8253BCC</DocumentID>
+	<Name>18DBF20F-3D64-A1E8-A008-46D2D8253BCC</Name>
+	<Description>BN_Currency layout</Description>
+	<CreatedBy>pradeep</CreatedBy>
+	<CreationDate>2018-07-05T07:06:04.428</CreationDate>
+	<Notes/>
+	<DefaultText>BN_Currency layout</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="18DBF20F-3D64-A1E8-A008-46D2D825BBCC"
+		/>
+	</Translations>
+</TextIdentifier>

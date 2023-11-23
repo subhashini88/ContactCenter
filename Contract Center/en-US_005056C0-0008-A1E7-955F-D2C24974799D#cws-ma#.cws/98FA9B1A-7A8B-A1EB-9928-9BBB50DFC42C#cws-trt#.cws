@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9928-9BBB50E0042C">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9928-9BBB50DFC42C</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9928-9BBB50DFC42C</Name>
+	<Description>Auto Renew</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-01T15:32:18.752</CreationDate>
+	<Notes/>
+	<Text>Auto Renew</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9928-9BBB50DF442C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

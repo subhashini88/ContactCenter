@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A518-CA4FFB91A4C4">
+	<DocumentID>F8B156B5-069B-A1E7-A518-CA4FFB9164C4</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A518-CA4FFB9164C4</Name>
+	<Description>Renewal Discount</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-08T07:01:03.641</CreationDate>
+	<Notes/>
+	<Text>Renewal Discount</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A518-CA4FFB90E4C4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

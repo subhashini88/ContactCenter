@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9FB7-50808FA8F026">
+	<DocumentID>F8B156BC-2CB7-A1E8-9FB7-50808FA8B026</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9FB7-50808FA8B026</Name>
+	<Description>Disable for no price protection</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-07-03T17:05:51.836</CreationDate>
+	<Notes/>
+	<Text>Disable for no price protection</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9FB7-50808FA83026"
+		/>
+	</TextIdentifier>
+</TranslatedText>

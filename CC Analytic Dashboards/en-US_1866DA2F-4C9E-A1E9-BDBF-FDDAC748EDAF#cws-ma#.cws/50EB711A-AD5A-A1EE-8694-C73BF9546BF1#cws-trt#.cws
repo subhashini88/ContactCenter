@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8694-C73BF954ABF1">
+	<DocumentID>50EB711A-AD5A-A1EE-8694-C73BF9546BF1</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8694-C73BF9546BF1</Name>
+	<Description>isTab</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-04T10:15:34.416</CreationDate>
+	<Notes/>
+	<Text>isTab</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-8694-C73BF953EBF1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-B574-9A18650F2BCE">
+	<DocumentID>50EB711A-AD5A-A1ED-B574-9A18650EEBCE</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-B574-9A18650EEBCE</Name>
+	<Description>TerminationReview</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-08T06:28:49.358</CreationDate>
+	<Notes/>
+	<Text>TerminationReview</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1ED-B574-9A18650E6BCE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-7DE6-A1EB-B2A6-311E7DE0B030">
+	<DocumentID>00505601-7DE6-A1EB-B2A6-311E7DE07030</DocumentID>
+	<Name>00505601-7DE6-A1EB-B2A6-311E7DE07030</Name>
+	<Description>appendFolderstoTem1</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2021-06-11T09:39:29.083</CreationDate>
+	<Notes/>
+	<Text>appendFolderstoTem1</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-7DE6-A1EB-B2A6-311E7DDFF030"
+		/>
+	</TextIdentifier>
+</TranslatedText>

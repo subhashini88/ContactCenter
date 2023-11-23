@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B681-EB3229A4C33E">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B681-EB3229A4833E</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B681-EB3229A4833E</Name>
+	<Description>NegotiationClosureActionReject</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-18T11:30:15.05</CreationDate>
+	<Notes/>
+	<Text>NegotiationClosureActionReject</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B681-EB3229A4033E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-B647-FE3D4E2E64D5">
+	<DocumentID>F8B156D6-35F3-A1E8-B647-FE3D4E2E24D5</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-B647-FE3D4E2E24D5</Name>
+	<Description>DeleteGenerateddocFromFS</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-10-26T13:24:01.81</CreationDate>
+	<Notes/>
+	<Text>DeleteGenerateddocFromFS</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-B647-FE3D4E2DA4D5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

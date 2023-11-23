@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B708-66A48C3A6503">
+	<DocumentID>484D7EE5-DBB0-A1E8-B708-66A48C3A2503</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B708-66A48C3A2503</Name>
+	<Description>On redraft email template</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-10-30T09:05:51.352</CreationDate>
+	<Notes/>
+	<Text>On redraft email template</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B708-66A48C39A503"
+		/>
+	</TextIdentifier>
+</TranslatedText>

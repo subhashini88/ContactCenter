@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-AFFA-33163FCE24D7">
+	<DocumentID>9890969C-5774-A1E8-AFFA-33163FCDE4D7</DocumentID>
+	<Name>9890969C-5774-A1E8-AFFA-33163FCDE4D7</Name>
+	<Description>Skip</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-09-24T10:59:24.579</CreationDate>
+	<Notes/>
+	<Text>Skip</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-AFFA-33163FCD64D7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

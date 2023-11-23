@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-ADF5-FA63FB262FF1">
+	<DocumentID>F8B156BC-2CB7-A1E7-ADF5-FA63FB25EFF1</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-ADF5-FA63FB25EFF1</Name>
+	<Description>UpdateRevenueStatus</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-23T11:25:55.479</CreationDate>
+	<Notes/>
+	<Text>UpdateRevenueStatus</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-ADF5-FA63FB256FF1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

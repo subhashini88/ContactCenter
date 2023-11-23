@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-A615-B71C0D052B2B">
+	<DocumentID>50EB711A-AD5A-A1EB-A615-B71C0D04EB2B</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-A615-B71C0D04EB2B</Name>
+	<Description>Renewed</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-08T10:47:01.687</CreationDate>
+	<Notes/>
+	<DefaultText>Renewed</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EB-A615-B71C0D056B2B"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-972E-0D145BFC8C2C">
+	<DocumentID>F8B156D5-AA46-A1E7-972E-0D145BFC4C2C</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-972E-0D145BFC4C2C</Name>
+	<Description>Billing state</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-06-29T10:47:32.834</CreationDate>
+	<Notes/>
+	<Text>Billing state</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-972E-0D145BFBCC2C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

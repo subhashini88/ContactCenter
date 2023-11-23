@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-A516-ADF43A0BDD65">
+	<DocumentID>005056C0-0008-A1E7-A516-ADF43A0B9D65</DocumentID>
+	<Name>005056C0-0008-A1E7-A516-ADF43A0B9D65</Name>
+	<Description>Home | Account Manager</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-09-08T06:03:00.932</CreationDate>
+	<Notes/>
+	<Text>Home | Account Manager</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-A516-ADF43A0B1D65"
+		/>
+	</TextIdentifier>
+</TranslatedText>

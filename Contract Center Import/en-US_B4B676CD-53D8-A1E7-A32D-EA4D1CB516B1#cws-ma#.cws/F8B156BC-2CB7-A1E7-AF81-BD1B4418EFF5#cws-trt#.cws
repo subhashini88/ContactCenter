@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-AF81-BD1B44192FF5">
+	<DocumentID>F8B156BC-2CB7-A1E7-AF81-BD1B4418EFF5</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-AF81-BD1B4418EFF5</Name>
+	<Description>Status dump count</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-31T08:13:00.216</CreationDate>
+	<Notes/>
+	<Text>Status dump count</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-AF81-BD1B44186FF5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

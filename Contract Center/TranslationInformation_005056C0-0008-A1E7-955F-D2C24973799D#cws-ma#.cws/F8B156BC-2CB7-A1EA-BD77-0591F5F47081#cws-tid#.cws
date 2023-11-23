@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-BD77-0591F5F4B081">
+	<DocumentID>F8B156BC-2CB7-A1EA-BD77-0591F5F47081</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-BD77-0591F5F47081</Name>
+	<Description>condition_182</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-09-13T16:17:06.874</CreationDate>
+	<Notes/>
+	<DefaultText>condition_182</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EA-BD77-0591F5F4F081"
+		/>
+	</Translations>
+</TextIdentifier>

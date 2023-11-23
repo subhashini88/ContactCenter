@@ -1,0 +1,104 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A32D-EA4D1CB896B1">
+	<DocumentID>B4B676CD-53D8-A1E7-A32D-EA4D1CB856B1</DocumentID>
+	<Name>Contract Center Import</Name>
+	<Description>Contract Center Import</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-29T14:10:14.677</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<Configurations/>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-A32D-EA4D1CB756B1">
+			<DocumentID>B4B676CD-53D8-A1E7-A32D-EA4D1CB716B1</DocumentID>
+			<Name>OpenText Contract Center Import</Name>
+			<Description>OpenText Contract Center Import</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-08-29T14:10:14.676</CreationDate>
+			<Notes/>
+			<BuildNumber>1</BuildNumber>
+			<GenerateModelPackage>true</GenerateModelPackage>
+			<ISVPackageFileName>OpenText Contract Center Import</ISVPackageFileName>
+			<ISVPackageOwner>OpenText</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Contract Center Import</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+				<cws:item>ORGANIZATION</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>23.4.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB7D6B1"
+			path="Contract Center Import"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-A32D-EA4D1CB6D6B1">
+			<DocumentID>B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description>TranslationInformation</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-08-29T14:10:14.677</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="B4B676CD-53D8-A1E7-A32D-EA4D1CB5D6B1">
+					<DocumentID>B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1</DocumentID>
+					<Name>en-US</Name>
+					<Description>en-US</Description>
+					<CreatedBy>skanamat</CreatedBy>
+					<CreationDate>2017-08-29T14:10:14.678</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="B4B676CD-53D8-A1E7-A32D-EA4D1CB516B1"
+							path="Contract Center Import/en-US_B4B676CD-53D8-A1E7-A32D-EA4D1CB516B1"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="B4B676CD-53D8-A1E7-A32D-EA4D1CB616B1"
+					path="Contract Center Import/TranslationInformation_B4B676CD-53D8-A1E7-A32D-EA4D1CB616B1"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

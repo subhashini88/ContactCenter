@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A058-046FDCAEAB27">
+	<DocumentID>98FA9BD4-E468-A1EB-A058-046FDCAE6B27</DocumentID>
+	<Name>98FA9BD4-E468-A1EB-A058-046FDCAE6B27</Name>
+	<Description>UpdateZ_INT_RelatedDepartments</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-10T06:10:39.491</CreationDate>
+	<Notes/>
+	<Text>UpdateZ_INT_RelatedDepartments</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1EB-A058-046FDCADEB27"
+		/>
+	</TextIdentifier>
+</TranslatedText>

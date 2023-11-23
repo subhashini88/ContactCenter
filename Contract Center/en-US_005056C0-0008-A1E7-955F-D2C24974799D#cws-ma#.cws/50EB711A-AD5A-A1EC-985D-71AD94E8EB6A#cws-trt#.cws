@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-985D-71AD94E92B6A">
+	<DocumentID>50EB711A-AD5A-A1EC-985D-71AD94E8EB6A</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-985D-71AD94E8EB6A</Name>
+	<Description>Remove watcher</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-20T09:19:05.744</CreationDate>
+	<Notes/>
+	<Text>Remove watcher</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-985D-71AD94E86B6A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

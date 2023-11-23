@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A6D6-1D619CEFA138">
+	<DocumentID>C4D98747-AA4E-A1E7-A6D6-1D619CEF6138</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A6D6-1D619CEF6138</Name>
+	<Description>prepareemails</Description>
+	<CreatedBy>kasim basha</CreatedBy>
+	<CreationDate>2017-09-17T03:37:15.062</CreationDate>
+	<Notes/>
+	<Text>prepareemails</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A6D6-1D619CEEE138"
+		/>
+	</TextIdentifier>
+</TranslatedText>

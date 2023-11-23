@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD92-D672F3D3E665">
+	<DocumentID>3C6AA73A-0114-A1E9-BD92-D672F3D3A665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD92-D672F3D3A665</Name>
+	<Description>Pending activation &amp;&amp; Active contract.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-24T10:54:02.898</CreationDate>
+	<Notes/>
+	<Text>Pending activation &amp;&amp; Active contract.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD92-D672F3D32665"
+		/>
+	</TextIdentifier>
+</TranslatedText>

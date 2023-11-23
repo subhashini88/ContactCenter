@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B7DB-A18F4FF23168">
+	<DocumentID>F8E4E399-CF40-A1ED-B7DB-A18F4FF1F168</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B7DB-A18F4FF1F168</Name>
+	<Description>You do not have access to this contract. Contact administrator.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-20T11:31:49.304</CreationDate>
+	<Notes/>
+	<Text>You do not have access to this contract. Contact administrator.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B7DB-A18F4FF17168"
+		/>
+	</TextIdentifier>
+</TranslatedText>

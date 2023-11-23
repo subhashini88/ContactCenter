@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="1866DA2F-4F73-A1E7-AFBC-6E6C692AD275">
+	<DocumentID>1866DA2F-4F73-A1E7-AFBC-6E6C692A9275</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>vsusmith</CreatedBy>
+	<CreationDate>2017-11-01T10:56:43.167</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="1866DA2F-4F73-A1E7-AFBC-6E6C69289275">
+			<DocumentID>1866DA2F-4F73-A1E7-AFBC-6E6C69285275</DocumentID>
+			<Name>CreateRenewalFlagStatus</Name>
+			<Description>Create RenewalFlagStatus</Description>
+			<CreatedBy>vsusmith</CreatedBy>
+			<CreationDate>2017-11-01T10:56:43.167</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-A4BA-6E705F52B1BF"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="1866DA2F-4F73-A1E7-AFBC-6E6C692A1275">
+			<DocumentID>1866DA2F-4F73-A1E7-AFBC-6E6C6929D275</DocumentID>
+			<Name>DeleteRenewalFlagStatus</Name>
+			<Description>Delete RenewalFlagStatus</Description>
+			<CreatedBy>vsusmith</CreatedBy>
+			<CreationDate>2017-11-01T10:56:43.168</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-A4BA-6E705F52B1BF"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4BA-6E705F52B1BF"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="1866DA2F-4F73-A1E7-AFBC-6E6C69291275">
+			<DocumentID>1866DA2F-4F73-A1E7-AFBC-6E6C6928D275</DocumentID>
+			<Name>ReadRenewalFlagStatus</Name>
+			<Description>Read RenewalFlagStatus</Description>
+			<CreatedBy>vsusmith</CreatedBy>
+			<CreationDate>2017-11-01T10:56:43.168</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-A4BA-6E705F52B1BF"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="1866DA2F-4F73-A1E7-AFBC-6E6C69299275">
+			<DocumentID>1866DA2F-4F73-A1E7-AFBC-6E6C69295275</DocumentID>
+			<Name>UpdateRenewalFlagStatus</Name>
+			<Description>Update RenewalFlagStatus</Description>
+			<CreatedBy>vsusmith</CreatedBy>
+			<CreationDate>2017-11-01T10:56:43.168</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="C4D98747-AA4E-A1E7-A4BA-6E705F52B1BF"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

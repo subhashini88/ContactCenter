@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-B24C-60EE22A187C1">
+	<DocumentID>3417EB96-8F1F-A1E7-B24C-60EE22A147C1</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-B24C-60EE22A147C1</Name>
+	<Description>Basic action bar</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-11-14T12:11:21.763</CreationDate>
+	<Notes/>
+	<Text>Basic action bar</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-B24C-60EE22A0C7C1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

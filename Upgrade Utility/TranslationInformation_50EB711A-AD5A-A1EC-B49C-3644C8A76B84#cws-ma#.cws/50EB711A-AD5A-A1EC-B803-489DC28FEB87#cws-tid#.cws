@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B803-489DC2902B87">
+	<DocumentID>50EB711A-AD5A-A1EC-B803-489DC28FEB87</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B803-489DC28FEB87</Name>
+	<Description>status Error</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-30T11:39:22.592</CreationDate>
+	<Notes/>
+	<DefaultText>status Error</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-B803-489DC2906B87"
+		/>
+	</Translations>
+</TextIdentifier>

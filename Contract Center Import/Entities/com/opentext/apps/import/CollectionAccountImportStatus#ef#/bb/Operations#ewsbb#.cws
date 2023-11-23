@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-8E5A-CCBAD1723018">
+	<DocumentID>F8B156BC-2CB7-A1E8-8E5A-CCBAD171F018</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-04-06T07:24:44.929</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-8E5E-F322A1C8F018">
+			<DocumentID>F8B156BC-2CB7-A1E8-8E5E-F322A1C8B018</DocumentID>
+			<Name>CreateCollectionAccountImportStatus</Name>
+			<Description>Create CollectionAccountImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-04-06T09:25:32.41</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-8580-6F64A434B00F"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-8E5E-F322A1C73018">
+			<DocumentID>F8B156BC-2CB7-A1E8-8E5E-F322A1C6F018</DocumentID>
+			<Name>DeleteCollectionAccountImportStatus</Name>
+			<Description>Delete CollectionAccountImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-04-06T09:25:32.411</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-8580-6F64A434B00F"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156BC-2CB7-A1E8-8580-6F64A434B00F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-8E5E-F322A1C83018">
+			<DocumentID>F8B156BC-2CB7-A1E8-8E5E-F322A1C7F018</DocumentID>
+			<Name>ReadCollectionAccountImportStatus</Name>
+			<Description>Read CollectionAccountImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-04-06T09:25:32.411</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-8580-6F64A434B00F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-8E5E-F322A1C7B018">
+			<DocumentID>F8B156BC-2CB7-A1E8-8E5E-F322A1C77018</DocumentID>
+			<Name>UpdateCollectionAccountImportStatus</Name>
+			<Description>Update CollectionAccountImportStatus</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-04-06T09:25:32.41</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-8580-6F64A434B00F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

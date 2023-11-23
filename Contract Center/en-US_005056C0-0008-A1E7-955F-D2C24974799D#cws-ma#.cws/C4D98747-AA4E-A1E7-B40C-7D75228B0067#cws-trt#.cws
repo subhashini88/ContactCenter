@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B40C-7D75228B4067">
+	<DocumentID>C4D98747-AA4E-A1E7-B40C-7D75228B0067</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B40C-7D75228B0067</Name>
+	<Description>AutoRenewContractSchedullar</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-11-23T09:37:49.355</CreationDate>
+	<Notes/>
+	<Text>AutoRenewContractSchedullar</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-B40C-7D75228A8067"
+		/>
+	</TextIdentifier>
+</TranslatedText>

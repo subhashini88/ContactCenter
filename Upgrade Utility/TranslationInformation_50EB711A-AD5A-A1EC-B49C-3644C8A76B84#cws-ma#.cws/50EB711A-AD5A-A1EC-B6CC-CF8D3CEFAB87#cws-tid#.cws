@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B6CC-CF8D3CEFEB87">
+	<DocumentID>50EB711A-AD5A-A1EC-B6CC-CF8D3CEFAB87</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B6CC-CF8D3CEFAB87</Name>
+	<Description>TempateUpgade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-24T07:30:05.301</CreationDate>
+	<Notes/>
+	<DefaultText>TempateUpgade</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-B6CC-CF8D3CF02B87"
+		/>
+	</Translations>
+</TextIdentifier>

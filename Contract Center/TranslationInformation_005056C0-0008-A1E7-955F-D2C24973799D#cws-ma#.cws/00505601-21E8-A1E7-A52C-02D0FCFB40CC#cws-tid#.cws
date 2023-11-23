@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-21E8-A1E7-A52C-02D0FCFB80CC">
+	<DocumentID>00505601-21E8-A1E7-A52C-02D0FCFB40CC</DocumentID>
+	<Name>00505601-21E8-A1E7-A52C-02D0FCFB40CC</Name>
+	<Description>Deal margin (%)</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-09-08T16:31:27.01</CreationDate>
+	<Notes/>
+	<DefaultText>Deal margin (%)</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-21E8-A1E7-A52C-02D0FCFBC0CC"
+		/>
+	</Translations>
+</TextIdentifier>

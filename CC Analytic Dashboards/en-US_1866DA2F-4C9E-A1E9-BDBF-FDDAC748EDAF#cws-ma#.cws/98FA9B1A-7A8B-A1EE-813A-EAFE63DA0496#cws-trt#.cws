@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-813A-EAFE63DA4496">
+	<DocumentID>98FA9B1A-7A8B-A1EE-813A-EAFE63DA0496</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-813A-EAFE63DA0496</Name>
+	<Description>Get tiles</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-07T04:40:32.854</CreationDate>
+	<Notes/>
+	<Text>Get tiles</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-813A-EAFE63D98496"
+		/>
+	</TextIdentifier>
+</TranslatedText>

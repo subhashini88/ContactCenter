@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A489-4FACD7D7EFE6">
+	<DocumentID>F8B156BC-2CB7-A1E7-A489-4FACD7D7AFE6</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A489-4FACD7D7AFE6</Name>
+	<Description>Proceed to adhoc contract state_2</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-09-05T10:34:12.165</CreationDate>
+	<Notes/>
+	<DefaultText>Proceed to adhoc contract state_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A489-4FACD7D82FE6"
+		/>
+	</Translations>
+</TextIdentifier>

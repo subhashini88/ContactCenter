@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-9C45-B6DC61BF6B1E">
+	<DocumentID>50EB711A-AD5A-A1EB-9C45-B6DC61BF2B1E</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-9C45-B6DC61BF2B1E</Name>
+	<Description>RelatedDepartment_Log</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-17T11:54:58.575</CreationDate>
+	<Notes/>
+	<DefaultText>RelatedDepartment_Log</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EB-9C45-B6DC61BFAB1E"
+		/>
+	</Translations>
+</TextIdentifier>

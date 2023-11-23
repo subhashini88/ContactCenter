@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-8D39-B3681F257045">
+	<DocumentID>F8B156BC-2CB7-A1E9-8D39-B3681F253045</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-8D39-B3681F253045</Name>
+	<Description>Clone contract</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-02-20T08:10:08.934</CreationDate>
+	<Notes/>
+	<DefaultText>Clone contract</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E9-8D34-D19C5EBA7045"
+		/>
+	</Translations>
+</TextIdentifier>

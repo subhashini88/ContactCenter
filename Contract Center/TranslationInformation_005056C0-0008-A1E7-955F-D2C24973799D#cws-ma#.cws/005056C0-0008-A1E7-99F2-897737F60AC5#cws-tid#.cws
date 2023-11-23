@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-99F2-897737F64AC5">
+	<DocumentID>005056C0-0008-A1E7-99F2-897737F60AC5</DocumentID>
+	<Name>005056C0-0008-A1E7-99F2-897737F60AC5</Name>
+	<Description>Z_INT_TypesList</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-13T12:53:22.076</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_TypesList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-99F2-897737F68AC5"
+		/>
+	</Translations>
+</TextIdentifier>

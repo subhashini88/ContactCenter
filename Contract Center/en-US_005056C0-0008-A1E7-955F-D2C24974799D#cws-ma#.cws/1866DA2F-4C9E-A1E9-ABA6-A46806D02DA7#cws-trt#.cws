@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-ABA6-A46806D06DA7">
+	<DocumentID>1866DA2F-4C9E-A1E9-ABA6-A46806D02DA7</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-ABA6-A46806D02DA7</Name>
+	<Description>Errorrr</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-25T05:13:13.073</CreationDate>
+	<Notes/>
+	<Text>Errorrr</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1E9-ABA6-A46806CFADA7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9EC0-BEF2011A843E">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9EC0-BEF2011A443E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9EC0-BEF2011A443E</Name>
+	<Description>Read status complete</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-02T03:08:52.821</CreationDate>
+	<Notes/>
+	<Text>Read status complete</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9EC0-BEF20119C43E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

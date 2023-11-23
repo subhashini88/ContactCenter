@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-BD61-2E687126C346">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-BD61-2E6871268346</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-BD61-2E6871268346</Name>
+	<Description>ExtCloseNegotiation</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-10-23T11:08:21.485</CreationDate>
+	<Notes/>
+	<DefaultText>ExtCloseNegotiation</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-BD61-2E6871270346"
+		/>
+	</Translations>
+</TextIdentifier>

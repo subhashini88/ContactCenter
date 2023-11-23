@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1ED-AC64-D3197615CF5A">
+	<DocumentID>84A938BF-F78D-A1ED-AC64-D31976158F5A</DocumentID>
+	<Name>84A938BF-F78D-A1ED-AC64-D31976158F5A</Name>
+	<Description>E-Signature administration</Description>
+	<CreatedBy>prasad</CreatedBy>
+	<CreationDate>2023-02-21T10:05:56.834</CreationDate>
+	<Notes/>
+	<Text>E-Signature administration</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1ED-AC64-D31976150F5A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-82FE-098DEB6285FF">
+	<DocumentID>3417EB96-8F1F-A1E8-82FE-098DEB6245FF</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-82FE-098DEB6245FF</Name>
+	<Description>Find manager import status</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-02-07T11:17:27.306</CreationDate>
+	<Notes/>
+	<DefaultText>Find manager import status</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E8-82FE-098DEB62C5FF"
+		/>
+	</Translations>
+</TextIdentifier>

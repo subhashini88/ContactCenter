@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1EA-8C10-A4DC02CC8351">
+	<DocumentID>F0D5BF3D-2BAA-A1EA-8C10-A4DC02CC4351</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1EA-8C10-A4DC02CC4351</Name>
+	<Description>LatestRenewal</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-01-06T09:46:36.293</CreationDate>
+	<Notes/>
+	<DefaultText>LatestRenewal</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1EA-8C10-A4DC02CCC351"
+		/>
+	</Translations>
+</TextIdentifier>

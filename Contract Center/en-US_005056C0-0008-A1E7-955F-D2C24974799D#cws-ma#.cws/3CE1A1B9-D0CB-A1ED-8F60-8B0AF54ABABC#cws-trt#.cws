@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3CE1A1B9-D0CB-A1ED-8F60-8B0AF54AFABC">
+	<DocumentID>3CE1A1B9-D0CB-A1ED-8F60-8B0AF54ABABC</DocumentID>
+	<Name>3CE1A1B9-D0CB-A1ED-8F60-8B0AF54ABABC</Name>
+	<Description>Z_INT_BWIdsList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-09-26T11:29:57.012</CreationDate>
+	<Notes/>
+	<Text>Z_INT_BWIdsList</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3CE1A1B9-D0CB-A1ED-8F60-8B0AF54A3ABC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

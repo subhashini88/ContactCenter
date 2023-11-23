@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-BFDD-BDFAB04C303F">
+	<DocumentID>F8B156BC-2CB7-A1E8-BFDD-BDFAB04BF03F</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-BFDD-BDFAB04BF03F</Name>
+	<Description>Z_INT_ClauseImportStatusFailedList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-12-14T08:11:06.907</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ClauseImportStatusFailedList</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-BFDD-BDFAB04B703F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

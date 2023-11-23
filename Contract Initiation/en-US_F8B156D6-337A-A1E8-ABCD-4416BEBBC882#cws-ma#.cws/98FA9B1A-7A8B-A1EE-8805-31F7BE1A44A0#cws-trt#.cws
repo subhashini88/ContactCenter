@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-8805-31F7BE1A84A0">
+	<DocumentID>98FA9B1A-7A8B-A1EE-8805-31F7BE1A44A0</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-8805-31F7BE1A44A0</Name>
+	<Description>Z_INT_OrgBasedContractReq</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-11T18:31:08.295</CreationDate>
+	<Notes/>
+	<Text>Z_INT_OrgBasedContractReq</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-8805-31F7BE19C4A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

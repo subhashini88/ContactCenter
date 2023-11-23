@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B2E8-F0E602B04876">
+	<DocumentID>B4B676CD-53D8-A1E8-B2E8-F0E602B00876</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B2E8-F0E602B00876</Name>
+	<Description>ReferedSCMapping</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-09T09:17:34.245</CreationDate>
+	<Notes/>
+	<Text>ReferedSCMapping</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-B2E8-F0E602AF8876"
+		/>
+	</TextIdentifier>
+</TranslatedText>

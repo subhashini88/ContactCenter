@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A40D-B1EBBBF9E4CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A40D-B1EBBBF9A4CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A40D-B1EBBBF9A4CB</Name>
+	<Description>Is less than current date ?</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-25T18:17:15.7</CreationDate>
+	<Notes/>
+	<Text>Is less than current date ?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A40D-B1EBBBF924CB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

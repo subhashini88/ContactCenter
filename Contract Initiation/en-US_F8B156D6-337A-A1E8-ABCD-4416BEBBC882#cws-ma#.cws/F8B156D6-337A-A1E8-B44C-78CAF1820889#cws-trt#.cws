@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B44C-78CAF1824889">
+	<DocumentID>F8B156D6-337A-A1E8-B44C-78CAF1820889</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B44C-78CAF1820889</Name>
+	<Description>Received Unread</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-16T11:07:15.045</CreationDate>
+	<Notes/>
+	<Text>Received Unread</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B44C-78CAF1818889"
+		/>
+	</TextIdentifier>
+</TranslatedText>

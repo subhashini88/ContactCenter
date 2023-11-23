@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-AC89-A362B531373D">
+	<DocumentID>B4B676CD-53D8-A1E7-AC89-A362B530F73D</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-10-16T04:02:16.709</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-AC89-A362B530773D">
+			<DocumentID>B4B676CD-53D8-A1E7-AC89-A362B530373D</DocumentID>
+			<Name>CreateBillerPeriodsStatus</Name>
+			<Description>Create BillerPeriodsStatus</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-10-16T04:02:16.709</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="B4B676CD-53D8-A1E7-AC02-779CB292F73D"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-AC89-A362B52EF73D">
+			<DocumentID>B4B676CD-53D8-A1E7-AC89-A362B52EB73D</DocumentID>
+			<Name>DeleteBillerPeriodsStatus</Name>
+			<Description>Delete BillerPeriodsStatus</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-10-16T04:02:16.686</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="B4B676CD-53D8-A1E7-AC02-779CB292F73D"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="B4B676CD-53D8-A1E7-AC02-779CB292F73D"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-AC89-A362B52FF73D">
+			<DocumentID>B4B676CD-53D8-A1E7-AC89-A362B52FB73D</DocumentID>
+			<Name>ReadBillerPeriodsStatus</Name>
+			<Description>Read BillerPeriodsStatus</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-10-16T04:02:16.673</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="B4B676CD-53D8-A1E7-AC02-779CB292F73D"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-AC89-A362B52F773D">
+			<DocumentID>B4B676CD-53D8-A1E7-AC89-A362B52F373D</DocumentID>
+			<Name>UpdateBillerPeriodsStatus</Name>
+			<Description>Update BillerPeriodsStatus</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-10-16T04:02:16.708</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="B4B676CD-53D8-A1E7-AC02-779CB292F73D"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

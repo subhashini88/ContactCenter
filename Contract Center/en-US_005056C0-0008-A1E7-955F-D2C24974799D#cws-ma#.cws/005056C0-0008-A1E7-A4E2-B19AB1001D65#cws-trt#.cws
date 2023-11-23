@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-A4E2-B19AB1005D65">
+	<DocumentID>005056C0-0008-A1E7-A4E2-B19AB1001D65</DocumentID>
+	<Name>005056C0-0008-A1E7-A4E2-B19AB1001D65</Name>
+	<Description>Top revenue generating contracts</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-09-07T05:12:23.279</CreationDate>
+	<Notes/>
+	<Text>Top revenue generating contracts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-A4E2-B19AB0FF9D65"
+		/>
+	</TextIdentifier>
+</TranslatedText>

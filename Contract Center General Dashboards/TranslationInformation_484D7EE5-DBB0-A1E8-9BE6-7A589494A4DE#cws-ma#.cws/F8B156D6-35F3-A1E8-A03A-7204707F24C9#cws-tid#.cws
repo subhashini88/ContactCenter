@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A03A-7204707F64C9">
+	<DocumentID>F8B156D6-35F3-A1E8-A03A-7204707F24C9</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A03A-7204707F24C9</Name>
+	<Description>Data - Currencies</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-06T08:01:45.216</CreationDate>
+	<Notes/>
+	<DefaultText>Data - Currencies</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-A03A-7204707FA4C9"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-BD0CCF88F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-BD0CCF877068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-BD0CCF863068"
+		/>
+	</Translations>
+</TextIdentifier>

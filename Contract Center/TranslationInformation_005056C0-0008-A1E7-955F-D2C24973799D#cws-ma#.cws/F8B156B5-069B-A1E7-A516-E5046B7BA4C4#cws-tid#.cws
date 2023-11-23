@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A516-E5046B7BE4C4">
+	<DocumentID>F8B156B5-069B-A1E7-A516-E5046B7BA4C4</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A516-E5046B7BA4C4</Name>
+	<Description>Volume Allowance Unit_3</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-08T06:06:29.744</CreationDate>
+	<Notes/>
+	<DefaultText>Volume Allowance Unit_3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156B5-069B-A1E7-A516-E5046B7C24C4"
+		/>
+	</Translations>
+</TextIdentifier>

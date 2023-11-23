@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-BCE7-46FEA7FCEBE2">
+	<DocumentID>50EB711A-AD5A-A1ED-BCE7-46FEA7FCABE2</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-BCE7-46FEA7FCABE2</Name>
+	<Description>Saved reports</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-16T03:56:08.839</CreationDate>
+	<Notes/>
+	<DefaultText>Saved reports</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1ED-BCE7-46FEA7FD2BE2"
+		/>
+	</Translations>
+</TextIdentifier>

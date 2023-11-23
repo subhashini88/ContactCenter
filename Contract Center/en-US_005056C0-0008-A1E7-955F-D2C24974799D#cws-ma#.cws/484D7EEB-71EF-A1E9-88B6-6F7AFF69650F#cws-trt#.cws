@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-88B6-6F7AFF69A50F">
+	<DocumentID>484D7EEB-71EF-A1E9-88B6-6F7AFF69650F</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-88B6-6F7AFF69650F</Name>
+	<Description>Renew on notification date for external contacts</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-28T08:51:11.725</CreationDate>
+	<Notes/>
+	<Text>Renew on notification date for external contacts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-88B6-6F7AFF68E50F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

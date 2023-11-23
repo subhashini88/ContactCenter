@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="80000B02-52A5-A1E7-A336-DCA55E78FF07">
+	<DocumentID>80000B02-52A5-A1E7-A336-DCA55E78BF07</DocumentID>
+	<Name>80000B02-52A5-A1E7-A336-DCA55E78BF07</Name>
+	<Description>Upfront fees</Description>
+	<CreatedBy>anilt</CreatedBy>
+	<CreationDate>2017-08-29T17:05:37.403</CreationDate>
+	<Notes/>
+	<Text>Upfront fees</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="80000B02-52A5-A1E7-A336-DCA55E783F07"
+		/>
+	</TextIdentifier>
+</TranslatedText>

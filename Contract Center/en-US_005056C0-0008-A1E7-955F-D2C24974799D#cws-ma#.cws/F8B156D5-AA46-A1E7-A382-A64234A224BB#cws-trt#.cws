@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A382-A64234A264BB">
+	<DocumentID>F8B156D5-AA46-A1E7-A382-A64234A224BB</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A382-A64234A224BB</Name>
+	<Description>Shipping address form</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-08-31T05:14:40.612</CreationDate>
+	<Notes/>
+	<Text>Shipping address form</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A382-A64234A1A4BB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B85C-E150C4AAEB89">
+	<DocumentID>50EB711A-AD5A-A1EC-B85C-E150C4AAAB89</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B85C-E150C4AAAB89</Name>
+	<Description>DeleteAllUpgradeJobs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-01T06:26:52.022</CreationDate>
+	<Notes/>
+	<Text>DeleteAllUpgradeJobs</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B85C-E150C4AA2B89"
+		/>
+	</TextIdentifier>
+</TranslatedText>

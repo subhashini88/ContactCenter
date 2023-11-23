@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9FB3-CC2761FEF026">
+	<DocumentID>F8B156BC-2CB7-A1E8-9FB3-CC2761FEB026</DocumentID>
+	<Name>HideforNoAutoRenew</Name>
+	<Description>HideforNoAutoRenew</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-07-03T15:08:36.085</CreationDate>
+	<Notes/>
+	<referenceCount>1</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

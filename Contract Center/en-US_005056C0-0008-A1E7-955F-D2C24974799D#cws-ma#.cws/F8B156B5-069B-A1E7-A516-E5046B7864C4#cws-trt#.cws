@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A516-E5046B78A4C4">
+	<DocumentID>F8B156B5-069B-A1E7-A516-E5046B7864C4</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A516-E5046B7864C4</Name>
+	<Description>Maintenance fees adjustment during current term</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-08T06:06:59.622</CreationDate>
+	<Notes/>
+	<Text>Maintenance fees adjustment during current term</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A516-E5046B77E4C4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

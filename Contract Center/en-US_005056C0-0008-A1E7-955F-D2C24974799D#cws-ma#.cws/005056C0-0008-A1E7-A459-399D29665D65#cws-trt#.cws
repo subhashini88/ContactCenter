@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-A459-399D29669D65">
+	<DocumentID>005056C0-0008-A1E7-A459-399D29665D65</DocumentID>
+	<Name>005056C0-0008-A1E7-A459-399D29665D65</Name>
+	<Description>ExpiringContractWithin6Months</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-09-04T11:38:38.844</CreationDate>
+	<Notes/>
+	<Text>ExpiringContractWithin6Months</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-A459-399D2965DD65"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A715-3A73AD5724C6">
+	<DocumentID>F8B156B5-069B-A1E7-A715-3A73AD56E4C6</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A715-3A73AD56E4C6</Name>
+	<Description>Needs Translation - German</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-18T09:44:42.555</CreationDate>
+	<Notes/>
+	<Text>Needs Translation - German</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A715-3A73AD5664C6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

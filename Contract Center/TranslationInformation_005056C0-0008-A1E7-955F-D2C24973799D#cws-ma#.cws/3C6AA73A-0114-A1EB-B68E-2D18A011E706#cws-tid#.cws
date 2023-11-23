@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1EB-B68E-2D18A0122706">
+	<DocumentID>3C6AA73A-0114-A1EB-B68E-2D18A011E706</DocumentID>
+	<Name>3C6AA73A-0114-A1EB-B68E-2D18A011E706</Name>
+	<Description>Check status ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-07-01T07:00:38.516</CreationDate>
+	<Notes/>
+	<DefaultText>Check status ?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1EB-B68E-2D18A0126706"
+		/>
+	</Translations>
+</TextIdentifier>

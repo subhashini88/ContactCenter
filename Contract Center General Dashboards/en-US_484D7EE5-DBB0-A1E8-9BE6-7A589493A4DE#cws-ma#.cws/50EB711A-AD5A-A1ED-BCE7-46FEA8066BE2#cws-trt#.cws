@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-BCE7-46FEA806ABE2">
+	<DocumentID>50EB711A-AD5A-A1ED-BCE7-46FEA8066BE2</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-BCE7-46FEA8066BE2</Name>
+	<Description>Contract Analytics</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-16T03:53:48.784</CreationDate>
+	<Notes/>
+	<Text>Contract Analytics</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1ED-BCE7-46FEA805EBE2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-98C6-41ADADA22D6A">
+	<DocumentID>00505601-79C2-A1EC-98C6-41ADADA1ED6A</DocumentID>
+	<Name>00505601-79C2-A1EC-98C6-41ADADA1ED6A</Name>
+	<Description>Org unassigned tasks</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-22T11:56:17.518</CreationDate>
+	<Notes/>
+	<Text>Org unassigned tasks</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-98C6-41ADADA16D6A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

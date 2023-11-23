@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-B317-AEE8528824D5">
+	<DocumentID>F8B156D6-35F3-A1E8-B317-AEE85287E4D5</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-B317-AEE85287E4D5</Name>
+	<Description>is Template present?</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-10-10T07:41:18.25</CreationDate>
+	<Notes/>
+	<Text>is Template present?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-B317-AEE8528764D5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

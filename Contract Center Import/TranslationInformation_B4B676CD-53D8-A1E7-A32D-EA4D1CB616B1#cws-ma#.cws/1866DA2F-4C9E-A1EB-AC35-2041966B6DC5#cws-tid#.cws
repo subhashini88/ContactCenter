@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EB-AC35-2041966BADC5">
+	<DocumentID>1866DA2F-4C9E-A1EB-AC35-2041966B6DC5</DocumentID>
+	<Name>1866DA2F-4C9E-A1EB-AC35-2041966B6DC5</Name>
+	<Description>Z_INT_RelDepMembersStatusList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-05-09T16:13:11.793</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_RelDepMembersStatusList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EB-AC35-2041966BEDC5"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC94-D1578EB20882">
+	<DocumentID>F8B156D6-337A-A1E8-AC94-D1578EB1C882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC94-D1578EB1C882</Name>
+	<Description>Ctr hide</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-07T04:12:41.375</CreationDate>
+	<Notes/>
+	<Text>Ctr hide</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC94-D1578EB14882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

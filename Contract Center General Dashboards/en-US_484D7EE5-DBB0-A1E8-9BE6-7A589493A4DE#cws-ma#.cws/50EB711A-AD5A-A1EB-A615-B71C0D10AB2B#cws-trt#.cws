@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-A615-B71C0D10EB2B">
+	<DocumentID>50EB711A-AD5A-A1EB-A615-B71C0D10AB2B</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-A615-B71C0D10AB2B</Name>
+	<Description>Access control</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-08T10:41:55.515</CreationDate>
+	<Notes/>
+	<Text>Access control</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EB-A615-B71C0D102B2B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

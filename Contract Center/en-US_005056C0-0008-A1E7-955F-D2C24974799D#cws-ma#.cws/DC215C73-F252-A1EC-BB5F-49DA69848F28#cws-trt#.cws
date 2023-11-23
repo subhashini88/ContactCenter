@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="DC215C73-F252-A1EC-BB5F-49DA6984CF28">
+	<DocumentID>DC215C73-F252-A1EC-BB5F-49DA69848F28</DocumentID>
+	<Name>DC215C73-F252-A1EC-BB5F-49DA69848F28</Name>
+	<Description>Contract related tasg list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-16T14:38:19.662</CreationDate>
+	<Notes/>
+	<Text>Contract related tasg list</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="DC215C73-F252-A1EC-BB5F-49DA69840F28"
+		/>
+	</TextIdentifier>
+</TranslatedText>

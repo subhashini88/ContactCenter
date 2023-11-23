@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="04ED339D-4D0A-A1ED-9D49-17F7A1BC7ADE">
+	<DocumentID>04ED339D-4D0A-A1ED-9D49-17F7A1BC3ADE</DocumentID>
+	<Name>04ED339D-4D0A-A1ED-9D49-17F7A1BC3ADE</Name>
+	<Description>Get POs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-06T05:15:35.6</CreationDate>
+	<Notes/>
+	<DefaultText>Get POs</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="04ED339D-4D0A-A1ED-9D49-17F7A1BCBADE"
+		/>
+	</Translations>
+</TextIdentifier>

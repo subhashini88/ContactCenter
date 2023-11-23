@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="E86A6495-8267-A1EA-B555-850C85838355">
+	<DocumentID>E86A6495-8267-A1EA-B555-850C85834355</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2020-08-03T06:56:37.304</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="E86A6495-8267-A1EA-B555-850C8582C355">
+			<DocumentID>E86A6495-8267-A1EA-B555-850C85828355</DocumentID>
+			<Name>CreateOrganizationImportStatus</Name>
+			<Description>Create OrganizationImportStatus</Description>
+			<CreatedBy>sk</CreatedBy>
+			<CreationDate>2020-08-03T06:56:37.303</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A6495-8267-A1EA-B553-8F31EDB68355"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="E86A6495-8267-A1EA-B555-850C85814355">
+			<DocumentID>E86A6495-8267-A1EA-B555-850C85810355</DocumentID>
+			<Name>DeleteOrganizationImportStatus</Name>
+			<Description>Delete OrganizationImportStatus</Description>
+			<CreatedBy>sk</CreatedBy>
+			<CreationDate>2020-08-03T06:56:37.302</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A6495-8267-A1EA-B553-8F31EDB68355"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="E86A6495-8267-A1EA-B553-8F31EDB68355"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="E86A6495-8267-A1EA-B555-850C85824355">
+			<DocumentID>E86A6495-8267-A1EA-B555-850C85820355</DocumentID>
+			<Name>ReadOrganizationImportStatus</Name>
+			<Description>Read OrganizationImportStatus</Description>
+			<CreatedBy>sk</CreatedBy>
+			<CreationDate>2020-08-03T06:56:37.305</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A6495-8267-A1EA-B553-8F31EDB68355"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="E86A6495-8267-A1EA-B555-850C8581C355">
+			<DocumentID>E86A6495-8267-A1EA-B555-850C85818355</DocumentID>
+			<Name>UpdateOrganizationImportStatus</Name>
+			<Description>Update OrganizationImportStatus</Description>
+			<CreatedBy>sk</CreatedBy>
+			<CreationDate>2020-08-03T06:56:37.306</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="E86A6495-8267-A1EA-B553-8F31EDB68355"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

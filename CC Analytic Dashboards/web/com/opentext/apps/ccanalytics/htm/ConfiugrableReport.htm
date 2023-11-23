@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Saved reports</title>
+  <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+  <link rel="stylesheet" type="text/css" href="../../../../../app/start/web/thirdpartylibs/pivot.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/configSavedReport.css">
+  <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+  <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+  <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+  <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+  <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+  <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+  <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js"
+    type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/plotly.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/pivot.min.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/pivot.cs.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/pivot.de.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/pivot.es.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/pivot.fr.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/pivot.jp.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/pivot.nl.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/pivot.pt.js" type="text/javascript"></script>
+  <script src="../../../../../app/start/web/thirdpartylibs/plotly_renderers.js" type="text/javascript"></script>
+  <script src="../js/configurableReport.js" type="text/javascript"></script>
+</head>
+
+<body class="cc-ltr">
+  <div id="chartContainer">
+    <div class="col-md-2 no-padding">
+      <div class="form-group " style="width: 100%;" id="div_savedsearches" apps-toggle="expanded">
+        <div class="cc-header cc-border " style="justify-content: space-between;">
+          <div class="cc-tab--header-title" data-translatable="true" style="padding-left: 7px;">Saved reports</div>
+          <button class="btn btn-default cc-button" title="New search">
+            <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/add.svg"
+              id="id_createActivityListIcon">
+          </button>
+        </div>
+        <div class="no-padding table-container rtl-float-right" data-bind="foreach:savedReports">
+          <div style="display:flex;flex-direction:column" data-bind="click:displayReport">
+            <div style="display:flex;flex-direction:row;position:relative" class="row-container "
+              data-bind="css:{'tableshadow':display()}">
+              <div class="row-box" style="width:85%">
+                <span style="word-break: break-all" data-bind="text:name"></span>
+              </div>
+              <div class="row-box" style="width:10%;position:relative">
+                <button class="btn btn-default cc-button" data-bind="click:toggleOptions">
+                  <img class="au-target" au-target-id="73"
+                    src="../../../../../com/opentext/apps/utils/img/three-dots.svg" alt="Options"
+                    style="height: 16px;transform:rotate(90deg);">
+                </button>
+                <ul class="cc-drop-button-action-container hidden" style="transform:translate3d(-119px, 30px, 0px);
+                  z-index:78;will-change:transform;position:absolute" data-bind="css:{'hidden':!showOptions()}">
+                  <li id="EditReportName" class="cc-drop-button-action" data-bind="click:editReportName">
+                    <span style="cursor: pointer;" data-translatable="true">Edit</span>
+                  </li>
+                  <li id="DeleteReport" class="cc-drop-button-action" data-bind="click:deleteReport">
+                    <span style="cursor: pointer;" data-translatable="true">Delete</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-10 no-padding" data-bind="with:selectedReport">
+      <div class="form-group col-md-3 rtl-float-right">
+        <label data-translatable="true" for="Priority">Data set </label>
+        <select class="cc-select" id="select_Priority" data-bind="value : listSelected">
+          <option value="">-Select-</option>
+          <option value="Contract">All Contracts</option>
+          <option value="RenewalContract">Renewal contracts</option>
+          <option value="Obligation">Obligations</option>
+        </select>
+      </div>
+      <div class="form-group col-md-3 rtl-float-right">
+        <label data-translatable="true" for="Priority">X-axis </label>
+        <select class="cc-select" id="select_Priority" data-bind="value : xAxisSelected">
+          <!-- ko foreach:contractColumns -->
+          <option data-bind="value:$data, text:$data"></option>
+          <!--/ko-->
+        </select>
+      </div>
+      <div class="form-group col-md-3 rtl-float-right">
+        <label data-translatable="true" for="Priority">Y-axis </label>
+        <select class=" cc-select" id="select_Priority" data-bind="value : yAxisSelected">
+          <!-- ko foreach:contractColumns -->
+          <option data-bind="value:$data, text:$data"></option>
+          <!--/ko-->
+        </select>
+      </div>
+      <div class="form-group col-md-3 rtl-float-right">
+        <label data-translatable="true" for="Priority">Chart </label>
+        <select class=" cc-select" id="select_Priority" data-bind="value : chartSelected">
+          <option value="">-Select-</option>
+          <option value="Table">Table</option>
+          <option value="Table Barchart">Table Barchart</option>
+          <option value="Horizontal Bar Chart">Horizontal Bar Chart</option>
+          <option value="Bar Chart">Bar Chart</option>
+          <option value="Stacked Bar Chart">Stacked Bar Chart</option>
+          <option value="Line Chart">Line Chart</option>
+          <option value="Area Chart">Area Chart</option>
+          <option value="Multiple Pie Chart">Multiple Pie Chart</option>
+
+          <option value="Heatmap">Heatmap</option>
+          <option value="Row Heatmap">Row Heatmap</option>
+          <option value="Col Heatmap">Col Heatmap</option>
+          <option value="Horizontal Stacked Bar Chart">Horizontal Stacked Bar Chart</option>
+          <option value="Scatter Chart">Scatter Chart</option>
+        </select>
+      </div>
+      <div class="form-group col-md-3 rtl-float-right">
+        <label data-translatable="true" for="Priority">Aggregator </label>
+        <select class=" cc-select" id="select_Priority" data-bind="value : aggregSelected">
+          <option value="">-Select-</option>
+          <option value="count">count</option>
+          <option value="countunique">countunique</option>
+          <option value="listunique">listunique</option>
+          <option value="sum">sum</option>
+          <option value="integersum">integersum</option>
+          <option value="average">average</option>
+          <option value="median">median</option>
+          <option value="simplevariance">simplevariance</option>
+          <option value="simplestandarddeviation">simplestandarddeviation</option>
+          <option value="minimum">minimum</option>
+          <option value="first">first</option>
+          <option value="last">last</option>
+          <option value="sumasfractionoftotal">sumasfractionoftotal</option>
+          <option value="sumasfractionofrows">sumasfractionofrows</option>
+          <option value="sumasfractionofcols">sumasfractionofcols</option>
+          <option value="countasfractionoftotal">countasfractionoftotal</option>
+          <option value="countasfractionofrows">countasfractionofrows</option>
+          <option value="countasfractionofcols">countasfractionofcols</option>
+          <option value="span">span</option>
+        </select>
+      </div>
+      <!--ko if:showAggCol()-->
+      <div class="form-group col-md-3 rtl-float-right">
+        <label data-translatable="true" for="Priority">Aggregator column </label>
+        <select class=" cc-select" id="select_Priority" data-bind="value : aggregatorColSelected">
+          <option value="">-Select-</option>
+          <option value="Region">Region</option>
+          <option value="Currency">Currency</option>
+          <option value="Priority">Priority</option>
+          <option value="DisplayName">DisplayName</option>
+          <option value="ContractValueUSD">ContractValueUSD</option>
+          <option value="DisplayName">DisplayName</option>
+          <option value="ContractValue">ContractValue</option>
+          <option value="MinStartdate">MinStartdate</option>
+          <option value="ActionDuration">ActionDuration</option>
+          <option value="AutoRenewDuration">AutoRenewDuration</option>
+        </select>
+      </div>
+      <!--/ko-->
+      <div class="col-md-12" style="display:flex;align-items:center;margin:20px">
+        <div style="margin-left:auto;margin-right:auto">
+          <button type="button" class="cc-btn cc-btn-primary" data-bind="click:renderChart" style="height: 28px;">Render
+            chart</button>
+          <button type="button" class="cc-btn cc-btn-primary" style="height: 28px;" data-bind="click:saveChart">Save
+            chart</button>
+        </div>
+      </div>
+
+      <div class="modal fade" id="id_changeReportName" role="dialog" style="z-index: 3999;">
+        <!--ko if:true -->
+        <div class="modal-content" id="watchersDiv"
+          style="display: block; width:40%; margin: auto; overflow-y: auto; z-index: 3999; margin-top: 5%;">
+          <div class="modal-header">
+            <div class="modal-title" data-translatable="true">Change report name</div>
+          </div>
+          <div class="modal-body" style="overflow: auto;">
+            <div class="col-lg-12 table-responsive" style="height: 100px; overflow-y: auto;">
+              <div id="orgDetail2" class="col-md-12 no-padding">
+                <label for="subOrgCode">
+                  <span data-translatable="true">Report name</span>
+                </label>
+                <input type="text" class="form-control" id="subOrgCode" data-bind="value:modalReportName">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer text-align-left" style="height: 50px !important;">
+            <button id="confirmYes" type="button" class="apps-btn apps-btn-primary" data-dismiss="modal"
+              style="outline:none;" data-translatable="true">
+              <span data-translatable="true">Ok</span>
+            </button>
+            <button id="confirmNo" type="button" class="apps-btn apps-btn-secondary" data-dismiss="modal"
+              style="outline:none;" data-translatable="true">
+              <span data-translatable="true">Close</span>
+            </button>
+          </div>
+        </div>
+        <!--/ko-->
+      </div>
+
+      <div class="modal fade" id="id_DeleteReport" role="dialog" style="z-index: 3999;">
+        <!--ko if:true -->
+        <div class="modal-content" id="watchersDiv"
+          style="display: block; width:40%; margin: auto; overflow-y: auto; z-index: 3999; margin-top: 5%;">
+          <div class="modal-header">
+            <div class="modal-title" data-translatable="true">Confirm Delete</div>
+          </div>
+          <div class="modal-body" style="overflow: auto;">
+            <div class="col-lg-12 table-responsive" style="height: 100px; overflow-y: auto;">
+              <div id="orgDetail2" class="col-md-12 no-padding">
+                <label for="subOrgCode">
+                  <span data-translatable="true">Report name</span>
+                </label>
+                <label type="text" class="form-control" id="subOrgCode" data-bind="text:modalReportName">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer text-align-left" style="height: 50px !important;">
+            <button id="confirmYes" type="button" class="apps-btn apps-btn-primary" data-dismiss="modal"
+              style="outline:none;" data-translatable="true">
+              <span data-translatable="true">Ok</span>
+            </button>
+            <button id="confirmNo" type="button" class="apps-btn apps-btn-secondary" data-dismiss="modal"
+              style="outline:none;" data-translatable="true">
+              <span data-translatable="true">Close</span>
+            </button>
+          </div>
+        </div>
+        <!--/ko-->
+      </div>
+
+      <div class="modal fade" id="id_contractListDialog" role="dialog" style="z-index: 3999;">
+        <div class="modal-content" id="watchersDiv"
+          style="display: block; width:60%; margin: auto; overflow-y: auto; z-index: 3999; margin-top: 5%;">
+          <div class="modal-header">
+            <div class="modal-title" data-translatable="true">Contract data</div>
+          </div>
+          <div class="modal-body" style="overflow: auto;">
+            <div class="col-lg-12 table-responsive" style="height: 300px; overflow-y: auto;">
+              <table id="id_contractsTable" class="table" data-bind="css:{'list-style':contractsList().length==0}">
+                <thead>
+                  <tr>
+                    <th style="width: 15%;" data-translatable="true">Contract ID</th>
+                    <th style="width: 15%;" data-translatable="true">Contract name</th>
+                    <th style="width: 15%;" data-translatable="true">Contract type</th>
+                    <th style="width: 15%;" data-translatable="true">Contract term</th>
+                    <th style="width: 15%;" data-translatable="true">Actual start date</th>
+                    <th style="width: 15%;" data-translatable="true">Organization</th>
+                    <th style="width: 15%;" data-translatable="true">Is executed</th>
+                    <th style="width: 10%;" data-translatable="true">Is external</th>
+                  </tr>
+                </thead>
+                <tbody data-bind="foreach:contractsList">
+                  <tr class="accordion-toggle collapsed" data-toggle="collapse" style="cursor: pointer;">
+
+                    <td>
+                      <div data-bind="text:genContractId"></div>
+                    </td>
+                    <td>
+                      <div data-bind="text:contractName"></div>
+                    </td>
+                    <td>
+                      <div data-bind="text:contractType"></div>
+                    </td>
+                    <td>
+                      <div data-bind="text:contractterm"></div>
+                    </td>
+                    <td>
+                      <div data-bind="text:startDate"></div>
+                    </td>
+                    <td>
+                      <div data-bind="text:organization"></div>
+                    </td>
+                    <td>
+                      <div data-bind="text:isexecuted"></div>
+                    </td>
+                    <td>
+                      <div data-bind="text:isexternal"></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer text-align-left" style="height: 50px !important;">
+            <button type="button" class="apps-btn apps-btn-secondary" data-dismiss="modal" style="outline:none;"
+              data-translatable="true"><span data-translatable="true">Close</span></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div id="output"></div>
+</body>
+
+</html>

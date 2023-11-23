@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="D4BED985-316A-A1E8-9BBA-398B8185E4E2">
+	<DocumentID>D4BED985-316A-A1E8-9BBA-398B8185A4E2</DocumentID>
+	<Name>D4BED985-316A-A1E8-9BBA-398B8185A4E2</Name>
+	<Description>Parent Folder</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-13T09:17:54.206</CreationDate>
+	<Notes/>
+	<DefaultText>Parent Folder</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="D4BED985-316A-A1E8-9BBA-398B818524E2"
+		/>
+	</Translations>
+</TextIdentifier>

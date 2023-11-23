@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="1866DA2F-4F73-A1E7-AC01-04212543A38D">
+	<DocumentID>1866DA2F-4F73-A1E7-AC01-04212543638D</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>vsusmith</CreatedBy>
+	<CreationDate>2017-10-13T11:10:40.529</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="80000B02-52A5-A1E7-A336-767BE7CA3F07"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="1866DA2F-4F73-A1E7-AC01-04212542E38D">
+			<DocumentID>1866DA2F-4F73-A1E7-AC01-04212542A38D</DocumentID>
+			<Name>ReadRevenueSchedule</Name>
+			<Description>Read RevenueSchedule</Description>
+			<CreatedBy>vsusmith</CreatedBy>
+			<CreationDate>2017-10-13T11:10:40.528</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="80000B02-52A5-A1E7-A336-767BE7CA3F07"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="1866DA2F-4F73-A1E7-AC01-04212542638D">
+			<DocumentID>1866DA2F-4F73-A1E7-AC01-04212542238D</DocumentID>
+			<Name>UpdateRevenueSchedule</Name>
+			<Description>Update RevenueSchedule</Description>
+			<CreatedBy>vsusmith</CreatedBy>
+			<CreationDate>2017-10-13T11:10:40.528</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="80000B02-52A5-A1E7-A336-767BE7CA3F07"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

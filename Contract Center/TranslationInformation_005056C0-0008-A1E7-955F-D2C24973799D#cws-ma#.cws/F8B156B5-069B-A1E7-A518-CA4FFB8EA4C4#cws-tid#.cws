@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A518-CA4FFB8EE4C4">
+	<DocumentID>F8B156B5-069B-A1E7-A518-CA4FFB8EA4C4</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A518-CA4FFB8EA4C4</Name>
+	<Description>Renewal flag status_4</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-08T07:02:06.462</CreationDate>
+	<Notes/>
+	<DefaultText>Renewal flag status_4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156B5-069B-A1E7-A518-CA4FFB8F24C4"
+		/>
+	</Translations>
+</TextIdentifier>

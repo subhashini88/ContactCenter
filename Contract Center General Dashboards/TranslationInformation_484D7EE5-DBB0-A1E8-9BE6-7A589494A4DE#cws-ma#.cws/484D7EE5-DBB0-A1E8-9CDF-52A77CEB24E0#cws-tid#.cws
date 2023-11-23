@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CDF-52A77CEB64E0">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CDF-52A77CEB24E0</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CDF-52A77CEB24E0</Name>
+	<Description>Product and services</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-19T04:59:37.751</CreationDate>
+	<Notes/>
+	<DefaultText>Product and services</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CDF-52A77CEBA4E0"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-557DD648B068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-557DD6473068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-557DD645F068"
+		/>
+	</Translations>
+</TextIdentifier>

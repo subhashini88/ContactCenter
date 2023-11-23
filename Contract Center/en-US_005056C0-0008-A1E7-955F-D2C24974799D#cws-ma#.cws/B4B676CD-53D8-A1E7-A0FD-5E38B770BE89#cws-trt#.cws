@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A0FD-5E38B770FE89">
+	<DocumentID>B4B676CD-53D8-A1E7-A0FD-5E38B770BE89</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A0FD-5E38B770BE89</Name>
+	<Description>US Dollar</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-18T11:13:32.83</CreationDate>
+	<Notes/>
+	<Text>US Dollar</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A0FD-5E38B7703E89"
+		/>
+	</TextIdentifier>
+</TranslatedText>

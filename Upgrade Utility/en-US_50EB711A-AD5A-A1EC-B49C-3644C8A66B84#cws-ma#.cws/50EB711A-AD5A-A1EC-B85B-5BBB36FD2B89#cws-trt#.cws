@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B85B-5BBB36FD6B89">
+	<DocumentID>50EB711A-AD5A-A1EC-B85B-5BBB36FD2B89</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B85B-5BBB36FD2B89</Name>
+	<Description>retrigger</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-01T05:41:59.905</CreationDate>
+	<Notes/>
+	<Text>retrigger</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B85B-5BBB36FCAB89"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9371-4D1693AE64D6">
+	<DocumentID>484D7EE5-DBB0-A1E8-9371-4D1693AE24D6</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9371-4D1693AE24D6</Name>
+	<Description>ClearContractAction</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-05-02T05:26:24.218</CreationDate>
+	<Notes/>
+	<Text>ClearContractAction</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9371-4D1693ADA4D6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AF2C-A8ABE10AC883">
+	<DocumentID>F8B156D6-337A-A1E8-AF2C-A8ABE10A8883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AF2C-A8ABE10A8883</Name>
+	<Description>Can't delete documents in {item.ContractRequestRelation.Lifecycle.CurrentState} state</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-20T09:48:30.918</CreationDate>
+	<Notes/>
+	<Text>Can't delete documents in {item.ContractRequestRelation.Lifecycle.CurrentState} state</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AF2C-A8ABE10A0883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

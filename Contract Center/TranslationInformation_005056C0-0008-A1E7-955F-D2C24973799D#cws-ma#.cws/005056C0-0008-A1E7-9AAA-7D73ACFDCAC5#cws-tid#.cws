@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9AAA-7D73ACFE0AC5">
+	<DocumentID>005056C0-0008-A1E7-9AAA-7D73ACFDCAC5</DocumentID>
+	<Name>005056C0-0008-A1E7-9AAA-7D73ACFDCAC5</Name>
+	<Description>TypeRoleMapping</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-17T04:41:16.006</CreationDate>
+	<Notes/>
+	<DefaultText>TypeRoleMapping</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9AAA-7D73ACFE4AC5"
+		/>
+	</Translations>
+</TextIdentifier>

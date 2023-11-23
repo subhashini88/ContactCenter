@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A35C-94E31E8B5626">
+	<DocumentID>C4D98747-AA4E-A1E7-A35C-94E31E8B1626</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A35C-94E31E8B1626</Name>
+	<Description>Breach</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-08-30T11:05:32.283</CreationDate>
+	<Notes/>
+	<Text>Breach</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A35C-94E31E8A9626"
+		/>
+	</TextIdentifier>
+</TranslatedText>

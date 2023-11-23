@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-80AA-7C6BE61B303F">
+	<DocumentID>F8B156BC-2CB7-A1E9-80AA-7C6BE61AF03F</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-80AA-7C6BE61AF03F</Name>
+	<Description>Lifecycle status</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-12-18T10:00:34.965</CreationDate>
+	<Notes/>
+	<Text>Lifecycle status</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E9-80AA-7C6BE61A703F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

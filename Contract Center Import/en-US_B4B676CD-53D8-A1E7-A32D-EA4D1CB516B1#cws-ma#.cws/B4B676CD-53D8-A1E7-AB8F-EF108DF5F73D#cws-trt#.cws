@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-AB8F-EF108DF6373D">
+	<DocumentID>B4B676CD-53D8-A1E7-AB8F-EF108DF5F73D</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-AB8F-EF108DF5F73D</Name>
+	<Description>Get Product groups and Services</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-10-11T05:41:27.294</CreationDate>
+	<Notes/>
+	<Text>Get Product groups and Services</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-AB8F-EF108DF5773D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

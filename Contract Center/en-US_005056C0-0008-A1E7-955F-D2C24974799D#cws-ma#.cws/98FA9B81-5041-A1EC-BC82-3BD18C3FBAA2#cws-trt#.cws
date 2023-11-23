@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BC82-3BD18C3FFAA2">
+	<DocumentID>98FA9B81-5041-A1EC-BC82-3BD18C3FBAA2</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BC82-3BD18C3FBAA2</Name>
+	<Description>DelCTRParties</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-22T08:59:35.726</CreationDate>
+	<Notes/>
+	<Text>DelCTRParties</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-BC82-3BD18C3F3AA2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

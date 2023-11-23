@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-8B72-968449BEA50D">
+	<DocumentID>484D7EE5-DBB0-A1E9-8B72-968449BE650D</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-8B72-968449BE650D</Name>
+	<Description>getAllTerminationReasons</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-02-11T06:59:28.62</CreationDate>
+	<Notes/>
+	<Text>getAllTerminationReasons</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E9-8B72-968449BDE50D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

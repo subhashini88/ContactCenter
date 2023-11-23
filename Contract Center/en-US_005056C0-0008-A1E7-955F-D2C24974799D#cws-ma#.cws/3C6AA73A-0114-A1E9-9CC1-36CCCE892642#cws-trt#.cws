@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-9CC1-36CCCE896642">
+	<DocumentID>3C6AA73A-0114-A1E9-9CC1-36CCCE892642</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-9CC1-36CCCE892642</Name>
+	<Description>DeleteTermInstance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-05-10T09:23:52.123</CreationDate>
+	<Notes/>
+	<Text>DeleteTermInstance</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-9CC1-36CCCE88A642"
+		/>
+	</TextIdentifier>
+</TranslatedText>

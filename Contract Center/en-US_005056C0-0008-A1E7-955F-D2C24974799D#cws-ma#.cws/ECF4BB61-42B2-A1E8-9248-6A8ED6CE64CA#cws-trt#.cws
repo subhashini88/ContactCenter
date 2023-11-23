@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-9248-6A8ED6CEA4CA">
+	<DocumentID>ECF4BB61-42B2-A1E8-9248-6A8ED6CE64CA</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-9248-6A8ED6CE64CA</Name>
+	<Description>update current dates and values</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-26T08:14:54.45</CreationDate>
+	<Notes/>
+	<Text>update current dates and values</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-9248-6A8ED6CDE4CA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

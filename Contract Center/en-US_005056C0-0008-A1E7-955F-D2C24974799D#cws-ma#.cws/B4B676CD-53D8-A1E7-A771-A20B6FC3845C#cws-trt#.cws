@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A771-A20B6FC3C45C">
+	<DocumentID>B4B676CD-53D8-A1E7-A771-A20B6FC3845C</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A771-A20B6FC3845C</Name>
+	<Description>Parent contract</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-09-20T05:55:28.512</CreationDate>
+	<Notes/>
+	<Text>Parent contract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A771-A20B6FC3045C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

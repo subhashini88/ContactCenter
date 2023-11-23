@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-8E22-669B947BE4C6">
+	<DocumentID>ECF4BB61-42B2-A1E8-8E22-669B947BA4C6</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-8E22-669B947BA4C6</Name>
+	<Description>condition_82</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-05T04:29:30.079</CreationDate>
+	<Notes/>
+	<DefaultText>condition_82</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="ECF4BB61-42B2-A1E8-8E22-669B947C24C6"
+		/>
+	</Translations>
+</TextIdentifier>

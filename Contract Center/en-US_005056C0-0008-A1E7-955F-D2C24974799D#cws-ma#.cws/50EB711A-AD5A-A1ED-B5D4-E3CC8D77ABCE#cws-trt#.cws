@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-B5D4-E3CC8D77EBCE">
+	<DocumentID>50EB711A-AD5A-A1ED-B5D4-E3CC8D77ABCE</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-B5D4-E3CC8D77ABCE</Name>
+	<Description>TerminateActivityFlow</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-10T03:56:06.809</CreationDate>
+	<Notes/>
+	<Text>TerminateActivityFlow</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1ED-B5D4-E3CC8D772BCE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

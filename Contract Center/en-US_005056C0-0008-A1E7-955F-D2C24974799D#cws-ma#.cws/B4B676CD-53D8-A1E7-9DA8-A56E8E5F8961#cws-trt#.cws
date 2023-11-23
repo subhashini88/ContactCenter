@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-9DA8-A56E8E5FC961">
+	<DocumentID>B4B676CD-53D8-A1E7-9DA8-A56E8E5F8961</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-9DA8-A56E8E5F8961</Name>
+	<Description>GetOTDSTicket</Description>
+	<CreatedBy>don</CreatedBy>
+	<CreationDate>2017-08-01T10:36:31.741</CreationDate>
+	<Notes/>
+	<Text>GetOTDSTicket</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-9DA8-A56E8E5F0961"
+		/>
+	</TextIdentifier>
+</TranslatedText>

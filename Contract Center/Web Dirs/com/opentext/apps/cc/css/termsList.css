@@ -1,0 +1,237 @@
+/** Create / update page CSS **/
+
+.top-padding {
+    padding: 5px 0px;
+}
+
+.bottom-padding {
+    padding-bottom: 2px;
+}
+
+.left-padding {
+    padding-left: 15px;
+}
+
+.right-padding {
+    padding-right: 15px;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+/** Modal properties. **/
+
+.form-group>label {
+    min-width: 50%;
+}
+
+.caretdown-icon {
+    background-image: url(../../../../../com/opentext/apps/utils/img/caret_down.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+
+.caretup-icon {
+    background-image: url(../../../../../com/opentext/apps/utils/img/caret_down.svg);
+    transform: rotate(270deg);
+    background-size: cover;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+}
+
+.table-container {
+    background-color: #EDF0F2;
+}
+
+.tableshadow {
+    background-color: #CBD3D9;
+}
+
+.tableshadow-light {
+    background-color: #F2F2F2;
+}
+
+.tableshadowdepth {
+    background-color: #DCE4E8;
+    color: #333333;
+}
+
+.row-container {
+    padding: 10px 2px;
+}
+
+.row-box {
+    margin: 0px 0px;
+}
+
+.row-box * {
+    vertical-align: middle;
+}
+
+.title-padding {
+    padding: 14px 16px;
+}
+
+.bottomBorder {
+    border-bottom: 4px solid #232E72;
+    padding-bottom: 12px;
+}
+
+.hide-transition {
+    display: none;
+    transition: opacity 1s ease-out;
+}
+
+.side-padding {
+    padding: 0px 5px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.table-container-body {
+    height: 401px;
+    overflow: auto;
+}
+
+.cc-icon {
+    min-height: 20px;
+}
+
+/* Pagination Start */
+
+.cc-container {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+/* Pagination END */
+
+/* Drop Down Button Start */
+
+.button-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.drop-button {
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+}
+
+.cc-drop-button-split {
+    border: 1px solid #ccc;
+    border-width: 0 0 0 1px;
+    margin: -5px 5px;
+}
+
+.cc-drop-button {
+    width: 25px;
+    height: 25px;
+    background: url(../../../../../com/opentext/apps/utils/img/caret_down10_white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -5px -8px -5px -5px;
+    transform: rotate(180deg);
+}
+
+.cc-drop-button-action-container {
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    padding: 5px 0;
+    margin: 1px 0 0;
+    border: 0;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .7);
+    max-width: 1639px;
+    max-height: 266px;
+    min-width: 160px;
+    top: 0px;
+    left: 0px;
+}
+
+.cc-drop-button-action-container li.cc-drop-button-action {
+    text-align: left;
+    padding: 4px 16px;
+    white-space: nowrap;
+    margin: 2px 0;
+    height: 2em;
+    color: #333;
+}
+
+.cc-drop-button-action-container .cc-drop-button-action:hover {
+    background-color: #bac9ce;
+    color: #000;
+}
+
+/* Drop Down Button End */
+
+.cc-footer-sub {
+    background-color: #f2f2f2;
+    margin: 0px;
+}
+
+/*chicklet functionality start*/
+
+.chicklet-cancel {
+    background-image: url(../../../../../com/opentext/apps/utils/img/closemark.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+}
+
+.chicklets-div {
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.chicklet-text {
+    font-family: OpenText Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+}
+
+.chicklet {
+    background: #E7F8F8;
+    border: 1px solid #33C6C8;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 2px 0px 2px 8px;
+    margin-left: 2px;
+    margin-top: 2px;
+    /* height: 18px; */
+}
+
+/*chicklet functionality end*/
+
+.org-row-selected {
+    background: #CBD3D9;
+}
+
+.cursor-disable {
+    cursor: no-drop;
+}
+
+.disabled-color{
+    color : #666666;
+}

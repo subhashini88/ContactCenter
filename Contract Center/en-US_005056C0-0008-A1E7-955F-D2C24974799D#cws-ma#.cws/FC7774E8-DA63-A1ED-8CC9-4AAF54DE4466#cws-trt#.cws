@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1ED-8CC9-4AAF54DE8466">
+	<DocumentID>FC7774E8-DA63-A1ED-8CC9-4AAF54DE4466</DocumentID>
+	<Name>FC7774E8-DA63-A1ED-8CC9-4AAF54DE4466</Name>
+	<Description>getCountriesForRegion</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-13T05:32:17.733</CreationDate>
+	<Notes/>
+	<Text>getCountriesForRegion</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1ED-8CC9-4AAF54DDC466"
+		/>
+	</TextIdentifier>
+</TranslatedText>

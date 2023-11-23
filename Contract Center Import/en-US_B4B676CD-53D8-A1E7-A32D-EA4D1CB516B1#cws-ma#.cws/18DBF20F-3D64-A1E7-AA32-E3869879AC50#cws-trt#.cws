@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-AA32-E3869879EC50">
+	<DocumentID>18DBF20F-3D64-A1E7-AA32-E3869879AC50</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-AA32-E3869879AC50</Name>
+	<Description>Is PartyExists</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-10-04T06:16:48.296</CreationDate>
+	<Notes/>
+	<Text>Is PartyExists</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="18DBF20F-3D64-A1E7-AA32-E38698792C50"
+		/>
+	</TextIdentifier>
+</TranslatedText>

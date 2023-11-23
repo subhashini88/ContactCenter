@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-AA50-BA1085C9A653">
+	<DocumentID>8C1645B9-0967-A1E9-AA50-BA1085C96653</DocumentID>
+	<Name>8C1645B9-0967-A1E9-AA50-BA1085C96653</Name>
+	<Description>Receive Message</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-18T10:16:37.801</CreationDate>
+	<Notes/>
+	<Text>Receive Message</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-AA50-BA1085C8E653"
+		/>
+	</TextIdentifier>
+</TranslatedText>

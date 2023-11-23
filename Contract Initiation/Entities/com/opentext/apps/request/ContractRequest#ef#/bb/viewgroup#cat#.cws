@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC3C-1189BA720882">
+	<DocumentID>F8B156D6-337A-A1E8-AC3C-1189BA71C882</DocumentID>
+	<Name>viewgroup</Name>
+	<Description>viewgroup</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T09:57:57.351</CreationDate>
+	<Notes/>
+	<referenceCount>9</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3C-1189BA724882"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

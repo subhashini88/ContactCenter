@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-21E8-A1E7-A54F-063A818300CC">
+	<DocumentID>00505601-21E8-A1E7-A54F-063A8182C0CC</DocumentID>
+	<Name>00505601-21E8-A1E7-A54F-063A8182C0CC</Name>
+	<Description>PendingContracts</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-09-09T09:43:45.442</CreationDate>
+	<Notes/>
+	<Text>PendingContracts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-21E8-A1E7-A54F-063A818240CC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

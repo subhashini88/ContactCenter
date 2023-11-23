@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-A8F9-8725C9177A9C">
+	<DocumentID>98FA9B81-5041-A1EC-A8F9-8725C9173A9C</DocumentID>
+	<Name>98FA9B81-5041-A1EC-A8F9-8725C9173A9C</Name>
+	<Description>Assignee Esc Duration</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-03-14T22:47:47.827</CreationDate>
+	<Notes/>
+	<Text>Assignee Esc Duration</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-A8F9-8725C916BA9C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

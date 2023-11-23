@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="04ED339D-4D0A-A1ED-9C68-787FD4DDFADB">
+	<DocumentID>04ED339D-4D0A-A1ED-9C68-787FD4DDBADB</DocumentID>
+	<Name>04ED339D-4D0A-A1ED-9C68-787FD4DDBADB</Name>
+	<Description>get contract lines</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-12-01T17:59:56.947</CreationDate>
+	<Notes/>
+	<DefaultText>get contract lines</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="04ED339D-4D0A-A1ED-9C68-787FD4DE3ADB"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-99AB-A0CBCEC94F71">
+	<DocumentID>84A938BF-F78D-A1EE-99AB-A0CBCEC90F71</DocumentID>
+	<Name>84A938BF-F78D-A1EE-99AB-A0CBCEC90F71</Name>
+	<Description>In progress - Escalated</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-09T14:24:35.138</CreationDate>
+	<Notes/>
+	<Text>In progress - Escalated</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-99AB-A0CBCEC88F71"
+		/>
+	</TextIdentifier>
+</TranslatedText>

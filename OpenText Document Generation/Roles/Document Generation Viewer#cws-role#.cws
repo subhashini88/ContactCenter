@@ -1,0 +1,19 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-B2B5-54019812A4D4">
+	<DocumentID>F8B156D6-35F3-A1E8-B2B5-5401981264D4</DocumentID>
+	<Name>Document Generation Viewer</Name>
+	<Description>Document Generation Viewer</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-10-08T09:16:50.215</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

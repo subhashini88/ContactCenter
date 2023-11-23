@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-868E-A593D4B86509">
+	<DocumentID>484D7EEB-71EF-A1E9-868E-A593D4B82509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-868E-A593D4B82509</Name>
+	<Description>GetAllEmailIdsByRole Contract Author</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-17T09:53:40.905</CreationDate>
+	<Notes/>
+	<Text>GetAllEmailIdsByRole Contract Author</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-868E-A593D4B7A509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

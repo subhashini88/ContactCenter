@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-A7C4-82E54EACEDA6">
+	<DocumentID>1866DA2F-4C9E-A1E9-A7C4-82E54EACADA6</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-A7C4-82E54EACADA6</Name>
+	<Description>Renew with amendments</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-05T10:51:18.457</CreationDate>
+	<Notes/>
+	<Text>Renew with amendments</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1E9-A7C4-82E54EAC2DA6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

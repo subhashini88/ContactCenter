@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B6B4-1A656810033E">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B6B4-1A65680FC33E</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B6B4-1A65680FC33E</Name>
+	<Description>Close</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-19T11:44:38.999</CreationDate>
+	<Notes/>
+	<DefaultText>Close</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B6B4-1A656810433E"
+		/>
+	</Translations>
+</TextIdentifier>

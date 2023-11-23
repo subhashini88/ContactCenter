@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-931A-44179DC4F01C">
+	<DocumentID>F8B156BC-2CB7-A1E8-931A-44179DC4B01C</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-931A-44179DC4B01C</Name>
+	<Description>Set region rule</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-04-30T11:33:14.083</CreationDate>
+	<Notes/>
+	<Text>Set region rule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-931A-44179DC4301C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

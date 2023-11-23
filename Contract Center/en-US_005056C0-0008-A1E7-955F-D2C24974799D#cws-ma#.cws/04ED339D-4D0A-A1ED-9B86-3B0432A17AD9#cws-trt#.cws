@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="04ED339D-4D0A-A1ED-9B86-3B0432A1BAD9">
+	<DocumentID>04ED339D-4D0A-A1ED-9B86-3B0432A17AD9</DocumentID>
+	<Name>04ED339D-4D0A-A1ED-9B86-3B0432A17AD9</Name>
+	<Description>UpdateCTRAttrValues</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-11-27T07:10:11.046</CreationDate>
+	<Notes/>
+	<Text>UpdateCTRAttrValues</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="04ED339D-4D0A-A1ED-9B86-3B0432A0FAD9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

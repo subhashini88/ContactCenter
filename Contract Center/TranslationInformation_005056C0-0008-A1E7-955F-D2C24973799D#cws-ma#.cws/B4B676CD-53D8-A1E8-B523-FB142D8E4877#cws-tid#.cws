@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B523-FB142D8E8877">
+	<DocumentID>B4B676CD-53D8-A1E8-B523-FB142D8E4877</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B523-FB142D8E4877</Name>
+	<Description>Notify ?</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2018-10-20T17:47:26.785</CreationDate>
+	<Notes/>
+	<DefaultText>Notify ?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-B523-FB142D8EC877"
+		/>
+	</Translations>
+</TextIdentifier>

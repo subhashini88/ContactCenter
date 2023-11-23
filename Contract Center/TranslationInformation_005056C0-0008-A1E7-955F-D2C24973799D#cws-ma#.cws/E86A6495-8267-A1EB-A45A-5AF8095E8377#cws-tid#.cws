@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="E86A6495-8267-A1EB-A45A-5AF8095EC377">
+	<DocumentID>E86A6495-8267-A1EB-A45A-5AF8095E8377</DocumentID>
+	<Name>E86A6495-8267-A1EB-A45A-5AF8095E8377</Name>
+	<Description>New111</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2021-03-30T15:17:23.231</CreationDate>
+	<Notes/>
+	<DefaultText>New111</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="E86A6495-8267-A1EB-A45A-5AF8095F0377"
+		/>
+	</Translations>
+</TextIdentifier>

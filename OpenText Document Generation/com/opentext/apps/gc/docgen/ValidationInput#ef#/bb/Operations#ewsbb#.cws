@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-931C-CE3C9808651A">
+	<DocumentID>484D7EEB-7112-A1E9-931C-CE3C9808251A</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2019-03-22T07:33:47.305</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-931C-CE3C9807251A">
+			<DocumentID>484D7EEB-7112-A1E9-931C-CE3C9806E51A</DocumentID>
+			<Name>CreateValidationInput</Name>
+			<Description>Create ValidationInput</Description>
+			<CreatedBy>dsrivard</CreatedBy>
+			<CreationDate>2019-03-22T07:33:47.305</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-737F-A1E9-8FFD-CB69B3B3086E"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-931C-CE3C9806251A">
+			<DocumentID>484D7EEB-7112-A1E9-931C-CE3C9805E51A</DocumentID>
+			<Name>DeleteValidationInput</Name>
+			<Description>Delete ValidationInput</Description>
+			<CreatedBy>dsrivard</CreatedBy>
+			<CreationDate>2019-03-22T07:33:47.304</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-737F-A1E9-8FFD-CB69B3B3086E"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="484D7EEB-737F-A1E9-8FFD-CB69B3B3086E"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-931C-CE3C9807A51A">
+			<DocumentID>484D7EEB-7112-A1E9-931C-CE3C9807651A</DocumentID>
+			<Name>ReadValidationInput</Name>
+			<Description>Read ValidationInput</Description>
+			<CreatedBy>dsrivard</CreatedBy>
+			<CreationDate>2019-03-22T07:33:47.304</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-737F-A1E9-8FFD-CB69B3B3086E"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-931C-CE3C9806A51A">
+			<DocumentID>484D7EEB-7112-A1E9-931C-CE3C9806651A</DocumentID>
+			<Name>UpdateValidationInput</Name>
+			<Description>Update ValidationInput</Description>
+			<CreatedBy>dsrivard</CreatedBy>
+			<CreationDate>2019-03-22T07:33:47.305</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-737F-A1E9-8FFD-CB69B3B3086E"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

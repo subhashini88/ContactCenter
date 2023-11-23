@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-AF8C-EF79F6B75910">
+	<DocumentID>3417EB96-8F1F-A1E7-AF8C-EF79F6B71910</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-AF8C-EF79F6B71910</Name>
+	<Description>ReTrigger</Description>
+	<CreatedBy>tntadmin@strs.role</CreatedBy>
+	<CreationDate>2017-10-31T12:12:43.838</CreationDate>
+	<Notes/>
+	<Text>ReTrigger</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-AF8C-EF79F6B69910"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-85EB-2BDDBCA9F00F">
+	<DocumentID>F8B156BC-2CB7-A1E8-85EB-2BDDBCA9B00F</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-85EB-2BDDBCA9B00F</Name>
+	<Description>CalculateUpdated Values</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-02-22T08:56:40.451</CreationDate>
+	<Notes/>
+	<Text>CalculateUpdated Values</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-85EB-2BDDBCA9300F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

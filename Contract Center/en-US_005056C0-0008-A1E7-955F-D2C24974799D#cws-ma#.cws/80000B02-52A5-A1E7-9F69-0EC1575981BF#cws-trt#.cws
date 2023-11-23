@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="80000B02-52A5-A1E7-9F69-0EC15759C1BF">
+	<DocumentID>80000B02-52A5-A1E7-9F69-0EC1575981BF</DocumentID>
+	<Name>80000B02-52A5-A1E7-9F69-0EC1575981BF</Name>
+	<Description>Previous version</Description>
+	<CreatedBy>anilt</CreatedBy>
+	<CreationDate>2017-08-10T08:50:19.339</CreationDate>
+	<Notes/>
+	<Text>Previous version</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="80000B02-52A5-A1E7-9F69-0EC1575901BF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

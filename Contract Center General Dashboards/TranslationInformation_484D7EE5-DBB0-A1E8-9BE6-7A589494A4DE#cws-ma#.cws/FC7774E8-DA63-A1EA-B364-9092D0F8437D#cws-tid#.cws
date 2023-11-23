@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-B364-9092D0F8837D">
+	<DocumentID>FC7774E8-DA63-A1EA-B364-9092D0F8437D</DocumentID>
+	<Name>FC7774E8-DA63-A1EA-B364-9092D0F8437D</Name>
+	<Description>Organization management</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-07-24T10:44:18.904</CreationDate>
+	<Notes/>
+	<DefaultText>Organization management</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E8-DA63-A1EA-B364-9092D0F8C37D"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-38DC-A1E8-A291-23DC923300CA">
+	<DocumentID>00505601-38DC-A1E8-A291-23DC9232C0CA</DocumentID>
+	<Name>00505601-38DC-A1E8-A291-23DC9232C0CA</Name>
+	<Description>Reports for account manager</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-07-18T05:53:01.293</CreationDate>
+	<Notes/>
+	<DefaultText>Reports for account manager</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-38DC-A1E8-A291-23DC923340CA"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-B4446389F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-B44463887068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-B44463873068"
+		/>
+	</Translations>
+</TextIdentifier>

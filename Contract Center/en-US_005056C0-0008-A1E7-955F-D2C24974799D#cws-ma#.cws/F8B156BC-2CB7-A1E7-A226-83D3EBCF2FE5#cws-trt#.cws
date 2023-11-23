@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A226-83D3EBCF6FE5">
+	<DocumentID>F8B156BC-2CB7-A1E7-A226-83D3EBCF2FE5</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A226-83D3EBCF2FE5</Name>
+	<Description>DeleteCCTemplate</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-08-24T08:24:27.319</CreationDate>
+	<Notes/>
+	<Text>DeleteCCTemplate</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A226-83D3EBCEAFE5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B9B6-0C481F02E4B9">
+	<DocumentID>484D7EE5-DBB0-A1E7-B9B6-0C481F02A4B9</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B9B6-0C481F02A4B9</Name>
+	<Description>Edit term and fees</Description>
+	<CreatedBy>CC Contract Admin</CreatedBy>
+	<CreationDate>2017-12-22T05:50:45.139</CreationDate>
+	<Notes/>
+	<Text>Edit term and fees</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B9B6-0C481F0224B9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

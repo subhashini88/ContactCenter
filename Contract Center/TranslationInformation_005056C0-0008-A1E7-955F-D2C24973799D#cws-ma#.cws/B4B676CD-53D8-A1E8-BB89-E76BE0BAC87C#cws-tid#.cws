@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-BB89-E76BE0BB087C">
+	<DocumentID>B4B676CD-53D8-A1E8-BB89-E76BE0BAC87C</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-BB89-E76BE0BAC87C</Name>
+	<Description>Total contract term</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-22T07:29:39.101</CreationDate>
+	<Notes/>
+	<DefaultText>Total contract term</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-BB89-E76BE0BB487C"
+		/>
+	</Translations>
+</TextIdentifier>

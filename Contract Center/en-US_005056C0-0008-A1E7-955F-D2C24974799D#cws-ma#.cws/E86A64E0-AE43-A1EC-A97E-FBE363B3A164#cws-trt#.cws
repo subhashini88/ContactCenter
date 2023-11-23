@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-A97E-FBE363B3E164">
+	<DocumentID>E86A64E0-AE43-A1EC-A97E-FBE363B3A164</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-A97E-FBE363B3A164</Name>
+	<Description>Recurrence cycle</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-17T14:14:36.908</CreationDate>
+	<Notes/>
+	<Text>Recurrence cycle</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A64E0-AE43-A1EC-A97E-FBE363B32164"
+		/>
+	</TextIdentifier>
+</TranslatedText>

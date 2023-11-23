@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156D6-35F3-A1E9-8BE0-0AB7E2A724DF">
+	<DocumentID>F8B156D6-35F3-A1E9-8BE0-0AB7E2A6E4DF</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2019-02-13T11:30:40.062</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156D6-35F3-A1E9-8BE0-0AB7E2A664DF">
+			<DocumentID>F8B156D6-35F3-A1E9-8BE0-0AB7E2A624DF</DocumentID>
+			<Name>CreateDocuSignConfiguration</Name>
+			<Description>Create DocuSignConfiguration</Description>
+			<CreatedBy>ychaube</CreatedBy>
+			<CreationDate>2019-02-13T11:30:40.062</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D6-35F3-A1E9-8BD5-A132911B64DF"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156D6-35F3-A1E9-8BE0-0AB7E2A4E4DF">
+			<DocumentID>F8B156D6-35F3-A1E9-8BE0-0AB7E2A4A4DF</DocumentID>
+			<Name>DeleteDocuSignConfiguration</Name>
+			<Description>Delete DocuSignConfiguration</Description>
+			<CreatedBy>ychaube</CreatedBy>
+			<CreationDate>2019-02-13T11:30:40.062</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D6-35F3-A1E9-8BD5-A132911B64DF"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132911B64DF"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156D6-35F3-A1E9-8BE0-0AB7E2A5E4DF">
+			<DocumentID>F8B156D6-35F3-A1E9-8BE0-0AB7E2A5A4DF</DocumentID>
+			<Name>ReadDocuSignConfiguration</Name>
+			<Description>Read DocuSignConfiguration</Description>
+			<CreatedBy>ychaube</CreatedBy>
+			<CreationDate>2019-02-13T11:30:40.062</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D6-35F3-A1E9-8BD5-A132911B64DF"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156D6-35F3-A1E9-8BE0-0AB7E2A564DF">
+			<DocumentID>F8B156D6-35F3-A1E9-8BE0-0AB7E2A524DF</DocumentID>
+			<Name>UpdateDocuSignConfiguration</Name>
+			<Description>Update DocuSignConfiguration</Description>
+			<CreatedBy>ychaube</CreatedBy>
+			<CreationDate>2019-02-13T11:30:40.062</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D6-35F3-A1E9-8BD5-A132911B64DF"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

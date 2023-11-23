@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BDAD-1064754EEB8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BDAD-1064754EAB8D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-BDAD-1064754EAB8D</Name>
+	<Description>Batch jobs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-28T07:32:18.7</CreationDate>
+	<Notes/>
+	<Text>Batch jobs</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-BDAD-1064754E2B8D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A31D-30BD060F64BB">
+	<DocumentID>F8B156D5-AA46-A1E7-A31D-30BD060F24BB</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A31D-30BD060F24BB</Name>
+	<Description>Related vendors form</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-08-29T04:49:31.546</CreationDate>
+	<Notes/>
+	<Text>Related vendors form</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A31D-30BD060EA4BB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

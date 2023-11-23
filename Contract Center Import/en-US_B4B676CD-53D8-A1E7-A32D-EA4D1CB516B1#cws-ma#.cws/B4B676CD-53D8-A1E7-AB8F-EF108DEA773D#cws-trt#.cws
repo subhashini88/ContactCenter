@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-AB8F-EF108DEAB73D">
+	<DocumentID>B4B676CD-53D8-A1E7-AB8F-EF108DEA773D</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-AB8F-EF108DEA773D</Name>
+	<Description>getAllRenewalFlagStatus</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-10-11T05:50:38.322</CreationDate>
+	<Notes/>
+	<Text>getAllRenewalFlagStatus</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-AB8F-EF108DE9F73D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

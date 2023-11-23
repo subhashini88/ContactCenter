@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A09-F77FBF782B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A09-F77FBF77EB9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A09-F77FBF77EB9A</Name>
+	<Description>Notification process</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-30T06:09:28.306</CreationDate>
+	<Notes/>
+	<Text>Notification process</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A09-F77FBF776B9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

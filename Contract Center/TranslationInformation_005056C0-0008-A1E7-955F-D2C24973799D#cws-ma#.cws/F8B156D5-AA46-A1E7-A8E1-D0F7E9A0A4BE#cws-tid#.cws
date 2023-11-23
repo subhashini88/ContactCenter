@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A8E1-D0F7E9A0E4BE">
+	<DocumentID>F8B156D5-AA46-A1E7-A8E1-D0F7E9A0A4BE</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A8E1-D0F7E9A0A4BE</Name>
+	<Description>My contracts</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-27T13:27:44.653</CreationDate>
+	<Notes/>
+	<DefaultText>My contracts</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-A8E1-D0F7E9A124BE"
+		/>
+	</Translations>
+</TextIdentifier>

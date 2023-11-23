@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A5EC-606FB74064C5">
+	<DocumentID>F8B156B5-069B-A1E7-A5EC-606FB74024C5</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A5EC-606FB74024C5</Name>
+	<Description>Reference contracts</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-12T11:57:43.524</CreationDate>
+	<Notes/>
+	<Text>Reference contracts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A5EC-606FB73FA4C5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

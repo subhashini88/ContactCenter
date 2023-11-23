@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-BAE9-D2A36D6AE4BA">
+	<DocumentID>484D7EE5-DBB0-A1E7-BAE9-D2A36D6AA4BA</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-BAE9-D2A36D6AA4BA</Name>
+	<Description>Product groups and services</Description>
+	<CreatedBy>CC Contract Admin</CreatedBy>
+	<CreationDate>2017-12-28T08:37:06.592</CreationDate>
+	<Notes/>
+	<Text>Product groups and services</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-BAE9-D2A36D6A24BA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

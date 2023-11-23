@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-BC88-91483815B03C">
+	<DocumentID>F8B156BC-2CB7-A1E8-BC88-91483815703C</DocumentID>
+	<Name>DisableExternal</Name>
+	<Description>DisableExternal</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-11-27T09:07:48.132</CreationDate>
+	<Notes/>
+	<referenceCount>1</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

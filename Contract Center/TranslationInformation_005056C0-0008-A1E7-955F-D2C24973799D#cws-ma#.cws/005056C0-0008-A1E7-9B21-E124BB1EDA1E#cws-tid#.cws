@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9B21-E124BB1F1A1E">
+	<DocumentID>005056C0-0008-A1E7-9B21-E124BB1EDA1E</DocumentID>
+	<Name>005056C0-0008-A1E7-9B21-E124BB1EDA1E</Name>
+	<Description>GetCCTermReference</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-19T15:23:52.417</CreationDate>
+	<Notes/>
+	<DefaultText>GetCCTermReference</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9B21-E124BB1F5A1E"
+		/>
+	</Translations>
+</TextIdentifier>

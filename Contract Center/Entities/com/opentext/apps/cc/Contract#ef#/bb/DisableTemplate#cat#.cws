@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-BB70-7AA75970487C">
+	<DocumentID>B4B676CD-53D8-A1E8-BB70-7AA75970087C</DocumentID>
+	<Name>DisableTemplate</Name>
+	<Description>DisableTemplate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-21T19:22:08.154</CreationDate>
+	<Notes/>
+	<referenceCount>1</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

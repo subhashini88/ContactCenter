@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Amend</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+   <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+   <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+   <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+   <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+   <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+   <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+   <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+   <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+   <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+   <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js"
+      type="text/javascript"></script>
+   <script src="../js/amendContract.js" type="text/javascript"></script>
+   <style>
+   .DurationPreview{
+		position:relative;
+	}
+	.DurationPreview .DurationDiv p{
+		padding: 12px 0px 4px 0px;
+		overflow-wrap:break-word;
+		white-space: pre-wrap;
+		color: rgb(85, 85, 85);
+		font-weight: bold;
+		text-decoration: none solid rgb(85, 85, 85);
+		font-style: normal;
+		font-family: Lato, Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+		text-align: left;
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.DurationPreview .DurationDiv div{
+		padding: 10px 0px;
+	}
+	
+	.cc-ltr .DurationPreview .DurationDiv {
+		position: absolute;
+		height: auto;
+		width: 210px;
+		left: -130px;
+		top: 14px;
+		background: #FFFFFF;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+		overflow-wrap: break-word;
+		overflow: auto;
+		padding: 10px;
+	}
+	
+	.cc-ltr .DurationPreview:before{
+	  position: absolute;
+		content: "";
+		height: 15px;
+		width: 15px; 
+		left: -22px;
+		top: 6px;
+		transform: translateX(-50%) rotate(45deg);
+		background: linear-gradient(-135deg, #fff 78%, #fff 22%);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	}
+	
+	.cc-rtl .DurationPreview .DurationDiv {
+		position: absolute;
+		height: auto;
+		width: 210px;
+		left: -89px;
+		top: 14px;
+		background: #FFFFFF;
+		box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+		overflow-wrap: break-word;
+		overflow: auto;
+		padding: 10px;
+	}
+	
+	.cc-rtl .DurationPreview:before{
+	  position: absolute;
+		content: "";
+		height: 15px;
+		width: 15px; 
+		left: 21px;
+		top: 6px;
+		transform: translateX(-50%) rotate(45deg);
+		background: linear-gradient(-135deg, #fff 78%, #fff 22%);
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	}
+	
+	.hide-arrow_Number::-webkit-outer-spin-button,
+	.hide-arrow_Number::-webkit-inner-spin-button {
+	  -webkit-appearance: none;
+	  margin: 0;
+	}
+	#ui-datepicker-div{
+		z-index : 3 !important;
+	}
+   </style>
+</head>
+
+<body class="cc-ltr">
+   <!-- <div id="div_amendSuccessMessg" class="col-xs-12 cc-info-message" style="display: none;padding-top: 15% !important;">
+      <span><span data-translatable="true">The contract has been amended with the specified values. The amended contract ID is</span>&nbsp;<a id="amendedContractURL"style="cursor: pointer;" onclick="openClonedContract();return false;"></a>.</span>
+   </div> -->
+   <div class="cc-error-info-area" id="div_formErrorInfoArea">
+      <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;" />
+      <span id="span_errorInfoMessage" style="position: relative;"></span>
+   </div>
+   <div id="div_amendContractForm" style="padding-top: 10px;">
+      <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+         <label class="col-md-12 col-sm-12 col-xs-12" data-translatable="true"><b>Duration</b></label>
+         <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+			<div class="form-group col-md-8 col-sm-8 rtl-float-right" style="margin: 0px;padding: 0px;">
+            <label class="cc-required" data-translatable="true" style="width: 100%;">Contract term (in months)</label>
+					<div class="input-group">
+						<input type="text" class="form-control" id="input_contractTerm" data-bind="textInput:contractTerm" autocomplete="off" onchange="removeErrorClass(this)" data-translatable="true" style="float: left;" readonly>
+						<span class="input-group-addon cc-input-browse-icon" style="cursor: pointer;padding: 0px 8px 0px 8px;border: none !important;background: transparent !important;">
+								<img class="" style="height: 1.7em;width: 1.7em;min-width: 2em;background-repeat: no-repeat;background-position: center center;background-color: #f7f7f7;background-size: 20px 20px;" alt="Search" src="../../../../../com/opentext/apps/utils/img/duration.svg" onclick="openContractTermModal(this)">
+						</span>
+						<div class="preview_Wrapper" style="float:left">							
+							<div id="ContractTermPreviewModel" style="display:none;position: absolute;z-index:3;">
+								<div class="DurationPreview">
+									<div class="DurationDiv">
+										<div class="input-group col-md-12" style="display: flex;">
+											<span class="col-md-7" style="top: 6px;color: #757575;width: 82px;">Months:</span>
+											<span class="col-md-7">
+											<input type="number" class="form-control hide-arrow_Number" data-translatable="true" id="input_contractTermMonths" style="width: 60px;;" onkeypress="return event.charCode >= 48 && event.charCode <= 57 && this.value.length < 3">
+											</span>
+										</div>
+										
+										<div class="input-group col-md-12" style="margin-bottom: 10px;display: flex;">
+											<span class="col-md-7" style="top: 6px;color: #757575;width: 82px;">Days:</span>
+											<span class="col-md-7">
+											<input type="number" class="form-control hide-arrow_Number" data-translatable="true" id="input_contractTermDays" style="width: 60px;" onkeypress="return event.charCode >= 48 && event.charCode <= 57 && this.value.length < 3">
+											</span>
+										</div>
+										<div style="height: .1em;background-color: #ddd;padding: 0px;margin: 1em;"></div>
+										<div style="padding: 0;">
+											<button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_contractTermNo" data-translatable="true" style="margin-right: 3%;" onclick="closeContractTermModal()"><span data-translatable="true">Cancel</span></button>
+											<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_contractTermYes" data-translatable="true" style="margin: 0;"><span data-translatable="true">Done</span></button>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+																
+						</div>
+					 </div>
+			</div>
+			<div class="form-group col-md-4 col-sm-4 rtl-float-right" style="margin: 0px;padding: 0px;padding-top: 25px;">
+				<span class="cc-select-column" style="width: 20px;"
+					  data-bind="event:{click:$root.onPerpetualCheckboxChanged}, css:{'cc-checkbox-off' : isPerpetual() == 'false', 'cc-checkbox-on' : isPerpetual() == 'true'}"></span>
+				<span data-translatable="true">Perpetual</span>
+			 </div>
+         </div>
+         <div class="form-group col-md-6 col-sm-6 col-xs-6">
+            <label class="cc-required" data-translatable="true">Actual start date</label>
+            <div>
+               <input type="text" id="input_actualStartDate"
+                  class="form-control dropdown-select-calender rtl-input-inline-img" onchange="removeErrorClass(this)"
+                  data-bind="textInput:actualStartDatetoLocale" autocomplete="off" data-translatable="true">
+            </div>
+         </div>
+      </div>
+      <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+         <label class="col-md-12 col-sm-12 col-xs-12" data-translatable="true"><b>Renewal</b></label>
+         <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+            <label data-translatable="true">Auto renew</label>
+            <div id="div_autoRenewInputs">
+               <!--ko if:isPerpetual() == 'false'-->
+               <div data-bind="event:{click:$root.onAutoRenewRadioButtonChanged}" style="float: left;width: 50%">
+                  <div class="cc-select-column" style="width: 20px;"
+                     data-bind="css:{'cc-radio-off' : autoRenewal() == 'false', 'cc-radio-on' : autoRenewal() == 'true'}">
+                  </div>
+                  <span data-translatable="true">Yes</span>
+               </div>
+               <div data-bind="event:{click:$root.onAutoRenewRadioButtonChanged}" style="float: left;width: 50%">
+                  <div class="cc-select-column" style="width: 20px;"
+                     data-bind="css:{'cc-radio-on' : autoRenewal() == 'false', 'cc-radio-off' : autoRenewal() == 'true'}">
+                  </div>
+                  <span data-translatable="true">No</span>
+               </div>
+               <!--/ko-->
+               <!--ko if:isPerpetual() == 'true'-->
+               <div style="float: left;width: 50%">
+                  <div class="cc-select-column cc-radio-off-disabled" style="width: 20px;"></div>
+                  <span data-translatable="true">Yes</span>
+               </div>
+               <div style="float: left;width: 50%">
+                  <div class="cc-select-column cc-radio-on-disabled" style="width: 20px;"></div>
+                  <span data-translatable="true">No</span>
+               </div>
+               <!--/ko-->
+            </div>
+         </div>
+         <div class="form-group col-md-6 col-sm-6 col-xs-6">
+            <label data-translatable="true">Auto renew duration (in months)</label>
+            <!--ko if:isPerpetual() == 'false' && autoRenewal() == 'true'-->
+            <div class="input-group" style="width: 70%;">
+						<input type="text" id="input_autoRenewDuration" autocomplete="off"
+						onchange="removeErrorClass(this)" data-bind="textInput:autoRenewDuration" data-translatable="true"
+						class="form-control" readonly>
+						<span class="input-group-addon cc-input-browse-icon" style="cursor: pointer;padding: 0px 8px 0px 8px;border: none !important;background: transparent !important;">
+								<img class="" style="height: 1.7em;width: 1.7em;min-width: 2em;background-repeat: no-repeat;background-position: center center;background-color: #f7f7f7;background-size: 20px 20px;" alt="Search" src="../../../../../com/opentext/apps/utils/img/duration.svg" onclick="openAutoRenewDurModal(this)">
+						</span>
+						<div class="preview_Wrapper" style="float:left">							
+							<div id="AutoRenewDurPreviewModel" style="display:none;position: absolute;z-index:3;">
+								<div class="DurationPreview">
+									<div class="DurationDiv">
+										<div class="input-group col-md-12" style="display: flex;">
+												<span class="col-md-7" style="top: 6px;color: #757575;width: 82px;">Months:</span>
+												<span class="col-md-7">
+												<input type="number" class="form-control hide-arrow_Number" data-translatable="true" id="input_autoRenewDurMonths" style="width: 60px;" onkeypress="return event.charCode >= 48 && event.charCode <= 57 && this.value.length < 3">
+												</span>
+											</div>
+											
+											<div class="input-group col-md-12" style="margin-bottom: 10px;display: flex;">
+												<span class="col-md-7" style="top: 6px;color: #757575;width: 82px;">Days:</span>
+												<span class="col-md-7">
+												<input type="number" class="form-control hide-arrow_Number" data-translatable="true" id="input_autoRenewDurDays" style="width: 60px;" onkeypress="return event.charCode >= 48 && event.charCode <= 57 && this.value.length < 3">
+												</span>
+											</div>
+											<div style="height: .1em;background-color: #ddd;padding: 0px;margin: 1em;"></div>
+											<div style="padding: 0;">
+												<button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_contractTermNo" data-translatable="true" style="margin-right: 3%;" onclick="closeAutoRenewDurModal()"><span data-translatable="true">Cancel</span></button>
+												<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_autoRenewDurYes" data-translatable="true" style="margin: 0;"><span data-translatable="true">Done</span></button>
+											</div>
+									</div>
+								</div>
+							</div>
+																
+						</div>
+					 </div>
+            <!--/ko-->
+            <!--ko if:isPerpetual() == 'true' || autoRenewal() == 'false'-->
+            <div class="input-group" style="width: 70%;">
+						<input type="text" id="input_autoRenewDuration_disabled" onchange="removeErrorClass(this)" autocomplete="off"
+						data-translatable="true" class="form-control" style="background-color : #EEEEEE !important; cursor : not-allowed" readonly="readonly">
+						<span class="input-group-addon cc-input-browse-icon" style="cursor: pointer;padding: 0px 8px 0px 8px;border: none !important;background: transparent !important;">
+								<img class="" style="height: 1.7em;width: 1.7em;min-width: 2em;background-repeat: no-repeat;background-position: center center;background-color: #f7f7f7;background-size: 20px 20px;" alt="Search" src="../../../../../com/opentext/apps/utils/img/duration.svg" >
+						</span>
+					 </div>
+            <!--/ko-->
+         </div>
+      </div>
+	  
+	  
+	<div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+	    <div class="form-group col-md-6 col-sm-6 col-xs-6 rtl-float-right">
+            <label data-translatable="true" for="ContractType">Amendment type</label>
+			<div id="div_amendTypes">
+				<select class="form-control cc-select" id="select_amendType" style="height:30px !important;" data-bind="foreach :AmendTypestoAdd , value :selectedAmendTypeID">
+				<option data-bind="text:AmendType ,value:amendTypeId"></option> 
+				</select>
+			</div>
+         </div>
+    </div>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+         <span class="cc-select-column" style="width: 20px;"
+         data-bind="event:{click:$root.onCloneDocCheckboxChanged}, css:{'cc-checkbox-off' : cloneDocument() == 'false', 'cc-checkbox-on' : cloneDocument() == 'true'}"></span>
+      <span data-translatable="true">Copy contract documents</span>
+      </div>
+	  <div class="col-md-12 col-sm-12 col-xs-12" style="padding-top: 15px;">
+		<span class="cc-select-column" style="width: 20px;"
+		data-bind="event:{click:$root.onCreateWSShortcutsCheckboxChanged}, css:{'cc-checkbox-off' : createWSShortcuts() == 'false', 'cc-checkbox-on' : createWSShortcuts() == 'true'}"></span>
+	 <span data-translatable="true">Create shortcuts of previous workspaces</span>
+	 </div>
+   </div>
+</body>
+</html>

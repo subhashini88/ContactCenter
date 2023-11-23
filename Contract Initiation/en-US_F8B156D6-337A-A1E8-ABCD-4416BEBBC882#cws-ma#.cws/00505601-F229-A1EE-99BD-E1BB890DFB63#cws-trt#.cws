@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-F229-A1EE-99BD-E1BB890E3B63">
+	<DocumentID>00505601-F229-A1EE-99BD-E1BB890DFB63</DocumentID>
+	<Name>00505601-F229-A1EE-99BD-E1BB890DFB63</Name>
+	<Description>Task skipped</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-09T23:04:12.172</CreationDate>
+	<Notes/>
+	<Text>Task skipped</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-F229-A1EE-99BD-E1BB890D7B63"
+		/>
+	</TextIdentifier>
+</TranslatedText>

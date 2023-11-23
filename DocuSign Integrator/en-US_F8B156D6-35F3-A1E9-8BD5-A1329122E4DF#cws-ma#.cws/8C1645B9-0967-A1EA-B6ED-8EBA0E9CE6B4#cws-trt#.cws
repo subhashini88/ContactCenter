@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-B6ED-8EBA0E9D26B4">
+	<DocumentID>8C1645B9-0967-A1EA-B6ED-8EBA0E9CE6B4</DocumentID>
+	<Name>8C1645B9-0967-A1EA-B6ED-8EBA0E9CE6B4</Name>
+	<Description>End point URL</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-11T09:39:12.83</CreationDate>
+	<Notes/>
+	<Text>End point URL</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-B6ED-8EBA0E9C66B4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

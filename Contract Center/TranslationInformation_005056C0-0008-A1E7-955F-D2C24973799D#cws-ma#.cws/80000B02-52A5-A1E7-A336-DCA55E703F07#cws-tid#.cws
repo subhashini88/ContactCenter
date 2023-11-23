@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="80000B02-52A5-A1E7-A336-DCA55E707F07">
+	<DocumentID>80000B02-52A5-A1E7-A336-DCA55E703F07</DocumentID>
+	<Name>80000B02-52A5-A1E7-A336-DCA55E703F07</Name>
+	<Description>SW maint fees during each renewal term_1</Description>
+	<CreatedBy>anilt</CreatedBy>
+	<CreationDate>2017-08-29T17:05:37.409</CreationDate>
+	<Notes/>
+	<DefaultText>SW maint fees during each renewal term_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="80000B02-52A5-A1E7-A336-DCA55E70BF07"
+		/>
+	</Translations>
+</TextIdentifier>

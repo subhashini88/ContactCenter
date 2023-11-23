@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A3C0-E872D425A4C4">
+	<DocumentID>F8B156B5-069B-A1E7-A3C0-E872D42564C4</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A3C0-E872D42564C4</Name>
+	<Description>Business Operations</Description>
+	<CreatedBy>srajanal</CreatedBy>
+	<CreationDate>2017-09-01T11:09:35.921</CreationDate>
+	<Notes/>
+	<Text>Business Operations</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A3C0-E872D424E4C4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

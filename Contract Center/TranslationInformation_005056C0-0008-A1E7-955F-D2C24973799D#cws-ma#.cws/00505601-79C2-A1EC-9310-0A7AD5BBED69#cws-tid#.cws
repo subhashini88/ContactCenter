@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-79C2-A1EC-9310-0A7AD5BC2D69">
+	<DocumentID>00505601-79C2-A1EC-9310-0A7AD5BBED69</DocumentID>
+	<Name>00505601-79C2-A1EC-9310-0A7AD5BBED69</Name>
+	<Description>RelatedActivityListInstances</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-23T10:52:08.287</CreationDate>
+	<Notes/>
+	<DefaultText>RelatedActivityListInstances</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-79C2-A1EC-9310-0A7AD5BC6D69"
+		/>
+	</Translations>
+</TextIdentifier>

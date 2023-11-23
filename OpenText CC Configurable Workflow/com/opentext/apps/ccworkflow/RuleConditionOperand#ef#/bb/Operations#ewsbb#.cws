@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-9E5E-6B8C6A00F06F">
+	<DocumentID>F8B156BC-2CB7-A1EA-9E5E-6B8C6A00B06F</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-08T09:20:34.706</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-9E5E-6B8C6A00306F">
+			<DocumentID>F8B156BC-2CB7-A1EA-9E5E-6B8C69FFF06F</DocumentID>
+			<Name>CreateRuleConditionOperand</Name>
+			<Description>Create RuleConditionOperand</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-04-08T09:20:34.708</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1EA-9E5E-28DF59D3306F"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-9E5E-811E0920F06F">
+			<DocumentID>F8B156BC-2CB7-A1EA-9E5E-811E0920B06F</DocumentID>
+			<Name>DeleteRuleConditionOperand</Name>
+			<Description>Delete RuleConditionOperand</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-04-08T09:20:34.704</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1EA-9E5E-28DF59D3306F"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E5E-28DF59D3306F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-9E5E-6B8C69FFB06F">
+			<DocumentID>F8B156BC-2CB7-A1EA-9E5E-6B8C69FF706F</DocumentID>
+			<Name>ReadRuleConditionOperand</Name>
+			<Description>Read RuleConditionOperand</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-04-08T09:20:34.703</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1EA-9E5E-28DF59D3306F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-9E5E-811E0921706F">
+			<DocumentID>F8B156BC-2CB7-A1EA-9E5E-811E0921306F</DocumentID>
+			<Name>UpdateRuleConditionOperand</Name>
+			<Description>Update RuleConditionOperand</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-04-08T09:20:34.711</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1EA-9E5E-28DF59D3306F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

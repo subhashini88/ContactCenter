@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-9ED8-ED4D22E4AFE2">
+	<DocumentID>F8B156BC-2CB7-A1E7-9ED8-ED4D22E46FE2</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-9ED8-ED4D22E46FE2</Name>
+	<Description>VendorList</Description>
+	<CreatedBy>sboddire</CreatedBy>
+	<CreationDate>2017-08-07T11:50:49.704</CreationDate>
+	<Notes/>
+	<Text>VendorList</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-9ED9-A2BD35B5AFE2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

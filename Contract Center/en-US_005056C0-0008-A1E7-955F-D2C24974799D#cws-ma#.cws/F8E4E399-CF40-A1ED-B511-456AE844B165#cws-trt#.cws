@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B511-456AE844F165">
+	<DocumentID>F8E4E399-CF40-A1ED-B511-456AE844B165</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B511-456AE844B165</Name>
+	<Description>RemAssignedGroup</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-06T09:10:50.208</CreationDate>
+	<Notes/>
+	<Text>RemAssignedGroup</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B511-456AE8443165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

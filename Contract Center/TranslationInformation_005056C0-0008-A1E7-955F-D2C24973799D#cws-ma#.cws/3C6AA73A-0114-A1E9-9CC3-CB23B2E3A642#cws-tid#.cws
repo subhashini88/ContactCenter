@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-9CC3-CB23B2E3E642">
+	<DocumentID>3C6AA73A-0114-A1E9-9CC3-CB23B2E3A642</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-9CC3-CB23B2E3A642</Name>
+	<Description>GetContainingSections</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-05-10T11:03:32.8</CreationDate>
+	<Notes/>
+	<DefaultText>GetContainingSections</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-9CC3-CB23B2E42642"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-79C2-A1EC-9480-8AE97096AD6A">
+	<DocumentID>00505601-79C2-A1EC-9480-8AE970966D6A</DocumentID>
+	<Name>00505601-79C2-A1EC-9480-8AE970966D6A</Name>
+	<Description>CloneContractObligations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-30T17:37:49.276</CreationDate>
+	<Notes/>
+	<DefaultText>CloneContractObligations</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-79C2-A1EC-9480-8AE97096ED6A"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A140-AD1C0259E4C9">
+	<DocumentID>F8B156D6-35F3-A1E8-A140-AD1C0259A4C9</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A140-AD1C0259A4C9</Name>
+	<Description>Clause category</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-11T12:19:04.694</CreationDate>
+	<Notes/>
+	<Text>Clause category</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A140-AD1C025924C9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

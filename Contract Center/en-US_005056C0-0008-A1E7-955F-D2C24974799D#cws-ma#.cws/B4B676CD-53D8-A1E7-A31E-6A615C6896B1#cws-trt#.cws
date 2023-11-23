@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A31E-6A615C68D6B1">
+	<DocumentID>B4B676CD-53D8-A1E7-A31E-6A615C6896B1</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A31E-6A615C6896B1</Name>
+	<Description>View adhoc contract</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-29T05:49:51.635</CreationDate>
+	<Notes/>
+	<Text>View adhoc contract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A31E-6A615C6816B1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B44A-14FA5DBF0889">
+	<DocumentID>F8B156D6-337A-A1E8-B44A-14FA5DBEC889</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B44A-14FA5DBEC889</Name>
+	<Description>NotificationForActions</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-16T09:49:27.416</CreationDate>
+	<Notes/>
+	<Text>NotificationForActions</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-B44A-14FA5DBE4889"
+		/>
+	</TextIdentifier>
+</TranslatedText>

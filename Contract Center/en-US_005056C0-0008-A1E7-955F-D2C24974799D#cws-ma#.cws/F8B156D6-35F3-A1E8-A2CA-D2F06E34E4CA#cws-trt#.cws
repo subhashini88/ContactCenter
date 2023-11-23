@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A2CA-D2F06E3524CA">
+	<DocumentID>F8B156D6-35F3-A1E8-A2CA-D2F06E34E4CA</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A2CA-D2F06E34E4CA</Name>
+	<Description>PAToActive</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-19T08:18:51.331</CreationDate>
+	<Notes/>
+	<Text>PAToActive</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A2CA-D2F06E3464CA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

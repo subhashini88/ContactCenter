@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-BFA5-311936772D6B">
+	<DocumentID>00505601-79C2-A1EC-BFA5-31193676ED6B</DocumentID>
+	<Name>00505601-79C2-A1EC-BFA5-31193676ED6B</Name>
+	<Description>AccountsExists?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-08T08:10:17.36</CreationDate>
+	<Notes/>
+	<Text>AccountsExists?</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-BFA5-311936766D6B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

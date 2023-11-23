@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-BCE7-46FEA7FA6BE2">
+	<DocumentID>50EB711A-AD5A-A1ED-BCE7-46FEA7FA2BE2</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-BCE7-46FEA7FA2BE2</Name>
+	<Description>User reports</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-16T03:56:25.289</CreationDate>
+	<Notes/>
+	<DefaultText>User reports</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1ED-BCE7-46FEA7FAABE2"
+		/>
+	</Translations>
+</TextIdentifier>

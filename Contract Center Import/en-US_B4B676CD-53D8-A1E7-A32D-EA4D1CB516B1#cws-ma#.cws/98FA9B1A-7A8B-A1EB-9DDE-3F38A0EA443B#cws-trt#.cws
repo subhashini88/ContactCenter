@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9DDE-3F38A0EA843B">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9DDE-3F38A0EA443B</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9DDE-3F38A0EA443B</Name>
+	<Description>linked and unlinked countries</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-25T14:55:53.977</CreationDate>
+	<Notes/>
+	<Text>linked and unlinked countries</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9DDE-3F38A0E9C43B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

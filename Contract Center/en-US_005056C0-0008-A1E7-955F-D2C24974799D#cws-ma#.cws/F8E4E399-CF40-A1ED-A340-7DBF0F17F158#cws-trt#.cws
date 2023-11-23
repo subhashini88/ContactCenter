@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-A340-7DBF0F183158">
+	<DocumentID>F8E4E399-CF40-A1ED-A340-7DBF0F17F158</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-A340-7DBF0F17F158</Name>
+	<Description>GetOrgTypeMapByOrgandTypeName</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-05T14:27:28.588</CreationDate>
+	<Notes/>
+	<Text>GetOrgTypeMapByOrgandTypeName</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-A340-7DBF0F177158"
+		/>
+	</TextIdentifier>
+</TranslatedText>

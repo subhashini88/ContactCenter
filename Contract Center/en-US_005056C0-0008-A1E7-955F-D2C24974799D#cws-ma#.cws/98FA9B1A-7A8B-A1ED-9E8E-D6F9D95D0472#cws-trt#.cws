@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-9E8E-D6F9D95D4472">
+	<DocumentID>98FA9B1A-7A8B-A1ED-9E8E-D6F9D95D0472</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-9E8E-D6F9D95D0472</Name>
+	<Description>ReadRenewalFlagStatus</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-12T16:46:07.491</CreationDate>
+	<Notes/>
+	<Text>ReadRenewalFlagStatus</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-9E8E-D6F9D95C8472"
+		/>
+	</TextIdentifier>
+</TranslatedText>

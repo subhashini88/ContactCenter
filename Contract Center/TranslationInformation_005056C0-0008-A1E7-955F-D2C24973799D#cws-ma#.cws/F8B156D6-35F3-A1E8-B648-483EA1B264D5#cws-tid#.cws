@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-B648-483EA1B2A4D5">
+	<DocumentID>F8B156D6-35F3-A1E8-B648-483EA1B264D5</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-B648-483EA1B264D5</Name>
+	<Description>File or Content BB?</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-10-26T13:24:01.815</CreationDate>
+	<Notes/>
+	<DefaultText>File or Content BB?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-B648-483EA1B2E4D5"
+		/>
+	</Translations>
+</TextIdentifier>

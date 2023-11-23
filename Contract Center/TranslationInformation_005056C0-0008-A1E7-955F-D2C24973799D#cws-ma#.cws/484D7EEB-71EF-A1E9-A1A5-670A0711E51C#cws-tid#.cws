@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-A1A5-670A0712251C">
+	<DocumentID>484D7EEB-71EF-A1E9-A1A5-670A0711E51C</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-A1A5-670A0711E51C</Name>
+	<Description>Work around for CONCEN-8398. Since rule is not triggering while generating the contract document, so updating the default document of contract manually, if empty.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-06-04T07:17:30.845</CreationDate>
+	<Notes/>
+	<DefaultText>Work around for CONCEN-8398. Since rule is not triggering while generating the contract document, so updating the default document of contract manually, if empty.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-A1A5-670A0712651C"
+		/>
+	</Translations>
+</TextIdentifier>

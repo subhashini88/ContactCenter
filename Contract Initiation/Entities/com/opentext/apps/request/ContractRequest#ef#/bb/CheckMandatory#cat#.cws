@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-BA15-13F400D5F09C">
+	<DocumentID>F8B156BC-2CB7-A1EB-BA15-13F400D5B09C</DocumentID>
+	<Name>CheckMandatory</Name>
+	<Description>CheckMandatory</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2021-07-19T05:49:56.623</CreationDate>
+	<Notes/>
+	<referenceCount>1</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3C-1189BA724882"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

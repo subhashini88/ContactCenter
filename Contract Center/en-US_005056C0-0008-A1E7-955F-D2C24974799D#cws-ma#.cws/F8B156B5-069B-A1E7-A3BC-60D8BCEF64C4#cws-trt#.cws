@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A3BC-60D8BCEFA4C4">
+	<DocumentID>F8B156B5-069B-A1E7-A3BC-60D8BCEF64C4</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A3BC-60D8BCEF64C4</Name>
+	<Description>Hungary</Description>
+	<CreatedBy>srajanal</CreatedBy>
+	<CreationDate>2017-09-01T08:52:06.042</CreationDate>
+	<Notes/>
+	<Text>Hungary</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A3BC-60D8BCEEE4C4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

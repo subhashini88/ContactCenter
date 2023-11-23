@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A0FD-5E38B76D7E89">
+	<DocumentID>B4B676CD-53D8-A1E7-A0FD-5E38B76D3E89</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A0FD-5E38B76D3E89</Name>
+	<Description>Canada Dollar</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-18T11:13:32.831</CreationDate>
+	<Notes/>
+	<DefaultText>Canada Dollar</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E7-A0FD-5E38B76DBE89"
+		/>
+	</Translations>
+</TextIdentifier>

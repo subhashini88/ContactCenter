@@ -1,0 +1,57 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-8620-79040407F00F">
+	<DocumentID>F8B156BC-2CB7-A1E8-8620-79040407B00F</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-02-23T10:22:02.258</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="F8B156BC-2CB7-A1E8-85EB-BEA054E7F00F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-8620-79040407300F">
+			<DocumentID>F8B156BC-2CB7-A1E8-8620-79040406F00F</DocumentID>
+			<Name>ReadSyncCurrencyUpdates</Name>
+			<Description>Read SyncCurrencyUpdates</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-02-23T10:22:02.258</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-85EB-BEA054E7F00F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-8620-79040406B00F">
+			<DocumentID>F8B156BC-2CB7-A1E8-8620-79040406700F</DocumentID>
+			<Name>UpdateSyncCurrencyUpdates</Name>
+			<Description>Update SyncCurrencyUpdates</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-02-23T10:22:02.258</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156BC-2CB7-A1E8-85EB-BEA054E7F00F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

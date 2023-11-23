@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1EE-9984-552AE55F04BA">
+	<DocumentID>FC7774E8-DA63-A1EE-9984-552AE55EC4BA</DocumentID>
+	<Name>FC7774E8-DA63-A1EE-9984-552AE55EC4BA</Name>
+	<Description>SetComplianceState</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-08T19:33:31.91</CreationDate>
+	<Notes/>
+	<Text>SetComplianceState</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1EE-9984-552AE55E44BA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

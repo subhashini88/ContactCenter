@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A1B8-07D545B98C2C">
+	<DocumentID>C4D98747-AA4E-A1E7-A1B8-07D545B94C2C</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A1B8-07D545B94C2C</Name>
+	<Description>StateChangeNotificationEmailTemplate</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-08-22T02:23:38.141</CreationDate>
+	<Notes/>
+	<Text>StateChangeNotificationEmailTemplate</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A1B8-07D545B8CC2C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

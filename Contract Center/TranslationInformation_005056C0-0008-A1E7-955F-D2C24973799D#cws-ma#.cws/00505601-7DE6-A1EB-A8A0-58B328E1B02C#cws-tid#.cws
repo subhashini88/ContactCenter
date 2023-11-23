@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-7DE6-A1EB-A8A0-58B328E1F02C">
+	<DocumentID>00505601-7DE6-A1EB-A8A0-58B328E1B02C</DocumentID>
+	<Name>00505601-7DE6-A1EB-A8A0-58B328E1B02C</Name>
+	<Description>deleted_1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-21T09:56:37.434</CreationDate>
+	<Notes/>
+	<DefaultText>deleted_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-7DE6-A1EB-A8A0-58B328E2302C"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-A45A-8C04C2BEDD65">
+	<DocumentID>005056C0-0008-A1E7-A45A-8C04C2BE9D65</DocumentID>
+	<Name>005056C0-0008-A1E7-A45A-8C04C2BE9D65</Name>
+	<Description>Terminated</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-09-04T12:16:16.803</CreationDate>
+	<Notes/>
+	<DefaultText>Terminated</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-A45A-8C04C2BF1D65"
+		/>
+	</Translations>
+</TextIdentifier>

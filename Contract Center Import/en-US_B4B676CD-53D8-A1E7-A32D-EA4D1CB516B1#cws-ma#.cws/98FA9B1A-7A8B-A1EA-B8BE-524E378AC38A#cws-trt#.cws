@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-B8BE-524E378B038A">
+	<DocumentID>98FA9B1A-7A8B-A1EA-B8BE-524E378AC38A</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-B8BE-524E378AC38A</Name>
+	<Description>ActivityListsImportStatusList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-20T15:28:11.279</CreationDate>
+	<Notes/>
+	<Text>ActivityListsImportStatusList</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-B8BE-524E378A438A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

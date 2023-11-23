@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-84D1-B1AE09182509">
+	<DocumentID>484D7EEB-71EF-A1E9-84D1-B1AE0917E509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-84D1-B1AE0917E509</Name>
+	<Description>Renewal reminder before expiration (in days)</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-09T04:38:55.761</CreationDate>
+	<Notes/>
+	<Text>Renewal reminder before expiration (in days)</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-84D1-B1AE09176509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="3C6AA73A-0114-A1EB-B49E-45852B7BE702">
+	<DocumentID>3C6AA73A-0114-A1EB-B49E-45852B7BA702</DocumentID>
+	<Name>DisablePostDraft</Name>
+	<Description>DisablePostDraft</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-06-21T10:18:56.736</CreationDate>
+	<Notes/>
+	<referenceCount>4</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-AE2B-6FC538A6E137">
+	<DocumentID>B4B676CD-53D8-A1E7-AE2B-6FC538A6A137</DocumentID>
+	<Name>Process User in Cordys Business Process Engine</Name>
+	<Description>Process User</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-10-24T11:37:40.928</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>Process User</CommonName>
+	<DistinguishedName>cn=Process User,cn=Cordys Business Process Engine,cn=cordys,cn=CC163Inst,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Internal</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="B4B676CD-53D8-A1E7-AE2B-6FC538A66137">
+			<DocumentID>B4B676CD-53D8-A1E7-AE2B-6FC538A62137</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>skanamat</CreatedBy>
+			<CreationDate>2017-10-24T11:37:40.928</CreationDate>
+			<Notes/>
+			<ArtifactID>005056C0-0008-11DF-F7FF-C593DFCDD6E4</ArtifactID>
+			<CAPID>005056c0-0008-71df-984b-63db9b039007</CAPID>
+			<CAPName>Cordys Business Process Engine</CAPName>
+			<CAPVersion>ver16.2.1build44.323123</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A4E1-B8454625D247">
+	<DocumentID>C4D98747-AA4E-A1E7-A4E1-B84546259247</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A4E1-B84546259247</Name>
+	<Description>Revenue schedule list</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-07T04:43:02.983</CreationDate>
+	<Notes/>
+	<DefaultText>Revenue schedule list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4E1-B84546261247"
+		/>
+	</Translations>
+</TextIdentifier>

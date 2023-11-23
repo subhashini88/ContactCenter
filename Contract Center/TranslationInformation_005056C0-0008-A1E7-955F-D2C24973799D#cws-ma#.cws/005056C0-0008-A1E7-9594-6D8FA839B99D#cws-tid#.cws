@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9594-6D8FA839F99D">
+	<DocumentID>005056C0-0008-A1E7-9594-6D8FA839B99D</DocumentID>
+	<Name>005056C0-0008-A1E7-9594-6D8FA839B99D</Name>
+	<Description>Contract Center life cycle</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-21T08:08:12.456</CreationDate>
+	<Notes/>
+	<DefaultText>Contract Center life cycle</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9594-6D8FA83A399D"
+		/>
+	</Translations>
+</TextIdentifier>

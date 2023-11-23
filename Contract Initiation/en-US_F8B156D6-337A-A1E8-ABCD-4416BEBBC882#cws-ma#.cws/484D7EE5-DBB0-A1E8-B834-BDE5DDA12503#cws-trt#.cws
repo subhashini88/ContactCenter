@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B834-BDE5DDA16503">
+	<DocumentID>484D7EE5-DBB0-A1E8-B834-BDE5DDA12503</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B834-BDE5DDA12503</Name>
+	<Description>You cannot upload documents in the '{item.ContractRequestRelation.Lifecycle.CurrentState}' state</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-11-05T08:19:55.98</CreationDate>
+	<Notes/>
+	<Text>You cannot upload documents in the '{item.ContractRequestRelation.Lifecycle.CurrentState}' state</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B834-BDE5DDA0A503"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B9B9-4D0DD5D4E4B9">
+	<DocumentID>484D7EE5-DBB0-A1E7-B9B9-4D0DD5D4A4B9</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B9B9-4D0DD5D4A4B9</Name>
+	<Description>SW maint fees during each renewal term</Description>
+	<CreatedBy>CC Contract Admin</CreatedBy>
+	<CreationDate>2017-12-22T06:59:41.866</CreationDate>
+	<Notes/>
+	<Text>SW maint fees during each renewal term</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B9B9-4D0DD5D424B9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

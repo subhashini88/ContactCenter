@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B86C-B43E484EA502">
+	<DocumentID>484D7EEB-71EF-A1E8-B86C-B43E484E6502</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B86C-B43E484E6502</Name>
+	<Description>CreateTwoColumnForm</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-08T04:28:09.053</CreationDate>
+	<Notes/>
+	<Text>CreateTwoColumnForm</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-B86C-B43E484DE502"
+		/>
+	</TextIdentifier>
+</TranslatedText>

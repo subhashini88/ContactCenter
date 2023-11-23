@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-A1A8-8F1C3979A4E2">
+	<DocumentID>484D7EE5-DBB0-A1E8-A1A8-8F1C397964E2</DocumentID>
+	<Name>DisableOnPerpetual</Name>
+	<Description>DisableOnPerpetual</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-07-13T14:08:35.397</CreationDate>
+	<Notes/>
+	<referenceCount>9</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

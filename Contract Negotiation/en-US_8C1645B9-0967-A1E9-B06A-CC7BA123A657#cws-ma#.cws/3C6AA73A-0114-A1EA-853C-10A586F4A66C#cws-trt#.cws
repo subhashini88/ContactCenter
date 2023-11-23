@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EA-853C-10A586F4E66C">
+	<DocumentID>3C6AA73A-0114-A1EA-853C-10A586F4A66C</DocumentID>
+	<Name>3C6AA73A-0114-A1EA-853C-10A586F4A66C</Name>
+	<Description>Z_INT_ALLContractContentList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-12-02T10:41:54.568</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ALLContractContentList</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EA-853C-10A586F4266C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

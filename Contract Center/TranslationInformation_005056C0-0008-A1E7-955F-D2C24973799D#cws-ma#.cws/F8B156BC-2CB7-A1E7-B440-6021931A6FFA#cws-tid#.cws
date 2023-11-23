@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-B440-6021931AAFFA">
+	<DocumentID>F8B156BC-2CB7-A1E7-B440-6021931A6FFA</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-B440-6021931A6FFA</Name>
+	<Description>Z_INT_BatchUploadList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-11-24T11:21:44.437</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_BatchUploadList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E7-B440-6021931AEFFA"
+		/>
+	</Translations>
+</TextIdentifier>

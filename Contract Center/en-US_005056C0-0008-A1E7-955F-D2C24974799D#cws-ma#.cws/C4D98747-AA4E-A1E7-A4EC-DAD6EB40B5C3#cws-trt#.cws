@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A4EC-DAD6EB40F5C3">
+	<DocumentID>C4D98747-AA4E-A1E7-A4EC-DAD6EB40B5C3</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A4EC-DAD6EB40B5C3</Name>
+	<Description>Client early term right</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-07T10:05:25.313</CreationDate>
+	<Notes/>
+	<Text>Client early term right</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4EC-DAD6EB4035C3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

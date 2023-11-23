@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-915D-E6A324AFA516">
+	<DocumentID>484D7EEB-71EF-A1E9-915D-E6A324AF6516</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-915D-E6A324AF6516</Name>
+	<Description>amendment</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-13T10:09:06.521</CreationDate>
+	<Notes/>
+	<Text>amendment</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-915D-FF0AB71D2516"
+		/>
+	</TextIdentifier>
+</TranslatedText>

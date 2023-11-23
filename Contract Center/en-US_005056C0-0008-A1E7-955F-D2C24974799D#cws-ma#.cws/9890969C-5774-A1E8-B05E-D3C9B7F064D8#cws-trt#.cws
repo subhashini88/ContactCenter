@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-B05E-D3C9B7F0A4D8">
+	<DocumentID>9890969C-5774-A1E8-B05E-D3C9B7F064D8</DocumentID>
+	<Name>9890969C-5774-A1E8-B05E-D3C9B7F064D8</Name>
+	<Description>DraftActions</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-09-26T11:03:18.076</CreationDate>
+	<Notes/>
+	<Text>DraftActions</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-B05E-D3C9B7EFE4D8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

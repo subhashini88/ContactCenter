@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-B68E-D8FEA0BCADC1">
+	<DocumentID>1866DA2F-4C9E-A1EA-B68E-D8FEA0BC6DC1</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-B68E-D8FEA0BC6DC1</Name>
+	<Description>Organization members import status list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-09T12:27:26.286</CreationDate>
+	<Notes/>
+	<Text>Organization members import status list</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EA-B68E-D8FEA0BBEDC1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

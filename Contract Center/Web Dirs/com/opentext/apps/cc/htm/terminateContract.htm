@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Clone</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+   <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+   <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+   <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+   <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+   <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+   <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+   <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+   <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+   <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+   <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js"
+      type="text/javascript"></script>
+   <script src="../js/terminateContract.js" type="text/javascript"></script>
+   <style>
+      .DurationPreview {
+         position: relative;
+      }
+
+      .DurationPreview .DurationDiv {
+         position: absolute;
+         height: auto;
+         width: 210px;
+         left: -130px;
+         top: 14px;
+         background: #FFFFFF;
+         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+         overflow-wrap: break-word;
+         overflow: auto;
+         padding: 10px;
+      }
+
+      .DurationPreview .DurationDiv p {
+         padding: 12px 0px 4px 0px;
+         overflow-wrap: break-word;
+         white-space: pre-wrap;
+         color: rgb(85, 85, 85);
+         font-weight: bold;
+         text-decoration: none solid rgb(85, 85, 85);
+         font-style: normal;
+         font-family: Lato, Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+         text-align: left;
+         background-color: rgba(0, 0, 0, 0);
+      }
+
+      .DurationPreview .DurationDiv div {
+         padding: 10px 0px;
+      }
+
+      .DurationPreview:before {
+         position: absolute;
+         content: "";
+         height: 15px;
+         width: 15px;
+         left: -22px;
+         top: 6px;
+         transform: translateX(-50%) rotate(45deg);
+         background: linear-gradient(-135deg, #fff 78%, #fff 22%);
+         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .hide-arrow_Number::-webkit-outer-spin-button,
+      .hide-arrow_Number::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+         margin: 0;
+      }
+   </style>
+</head>
+
+<body class="cc-ltr">
+   <div id="errorToast">
+      <div id="toastHeading">
+         <div id="headingContent" style="padding: 0px; font-size: 18px; color: rgba(33, 30, 30, 0.92);">
+            <h4 style="float: left;padding-left: 1em;"><img src="../img/notification_error.svg" width="25px"
+                  height="25px" align="middle" style="margin-right:5px;"></h4>
+         </div> <span style="position: absolute; cursor: pointer; right: 1em; top: 1.3em; display: block;" id="arrowBtn"
+            class="down" onclick="toggleErrorToastContent()"></span>
+      </div>
+      <div id="toastContent" style="display: none; clear: both;">
+         <div class="horizontal-rule"></div>
+         <div id="contentText" style="margin-top: 6px;padding-left: 6px" align="left"></div>
+      </div>
+   </div>
+   <div class="cc-error-info-area" id="div_formErrorInfoArea">
+      <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;" />
+      <span id="span_errorInfoMessage" style="position: relative;"></span>
+   </div>
+   <div id="div_cloneContractForm" style="padding-top: 10px;">
+      <div class="col-md-12 col-sm-12 no-padding">
+         <div class="col-md-12 col-sm-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 rtl-float-right">
+               <label data-translatable="true" class="cc-required" for="CancellationDate">Termination date</label>
+               <input type="text" class="form-control dropdown-select-calender" readonly="readonly"
+                  id="input_ProductGoLiveDate"
+                  data-bind="datepicker:CancellationDate,datepickerOptions: { dateFormat: DATE_FORMAT_YYYY_MM_DD.value }">
+            </div>
+            <div class="form-group col-md-6 col-sm-6 rtl-float-right">
+               <label data-translatable="true" for="TerminationFees">Termination fees</label>
+               <input type="number" class="form-control hide-arrow_Number" id="input_TerminationFees"
+                  data-bind="textInput:TerminationFees" min="0" onkeypress="return (event.charCode >= 48 && event.charCode <= 57) || event.charCode == 46">
+            </div>
+         </div>
+         <div class="col-md-12 col-sm-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 rtl-float-right">
+               <label data-translatable="true" for="TerminationFees">Termination notice period(in days)</label>
+               <input type="number" class="form-control hide-arrow_Number" id="input_TerminationNoticePeriod"
+                  data-bind="textInput:TerminationNoticePeriod" min="0" step="1"
+                  onkeypress="return event.charCode >= 48 && event.charCode <= 57 && this.value.length < 3">
+            </div>
+            <div class="form-group col-md-6 col-sm-6 rtl-float-right">
+               <label data-translatable="true" for="TerminationFees">Termination reason</label>
+               <div class="input-group">
+                  <input type="text" class="form-control" id="input_TerminationReason"
+                     data-bind="textInput:TerminationReason" readonly="">
+                  <span class="input-group-addon cc-input-browse-icon"
+                     style="cursor: pointer;padding: 5px 8px;border: none !important;background: transparent !important;">
+                     <img class="" style="margin: 0px;height: 18px;width: 18px;" alt="Search"
+                        src="../../../../../com/opentext/apps/utils/img/search.svg"
+                        onclick="openTermiReasonSelModal(this)">
+                  </span>
+               </div>
+            </div>
+         </div>
+         <div class="form-group col-md-12 col-sm-12 rtl-float-right">
+            <label data-translatable="true" for="CancellationComments">Termination conditions</label>
+            <textarea type="text" class="form-control" id="input_CancellationComments"
+               data-bind="textInput:EarlyTerminationConditions"
+               style="resize: none; height: 96px !important;"></textarea>
+         </div>
+         <div class="form-group col-md-12 col-sm-12 rtl-float-right">
+            <label data-translatable="true" for="CancellationComments">Termination comments</label>
+            <textarea type="text" class="form-control" id="input_CancellationComments"
+               data-bind="textInput:CancellationComments" style="resize: none; height: 96px !important;"></textarea>
+         </div>
+         <div class="col-md-12 col-sm-12 no-padding">
+            <div class="form-group col-md-6 col-sm-6 rtl-float-right" style="display: flex;">
+               <div class="cc-select-column cc-checkbox-off" style="margin-right: 10px;margin-left: 0px;width: 20px;"
+                  data-bind="click:OnClickTerminateObligations,css:{'cc-checkbox-off':!terminateObligations(),'cc-checkbox-on':terminateObligations()}">
+               </div>
+               <label data-translatable="true" for="TerminationFees">Disable all obligations</label>
+            </div>
+         </div>
+      </div>
+
+   </div>
+   <!-- Termination reason lookup -->
+   <div class="modal fade" id="div_termiReasonLookupModal" role="dialog" style="z-index: 2999;">
+      <div class="modal-content cc-modal-content" style="margin-top: 5%; width:50%; height: 75%;">
+         <div class="modal-header cc-modal-header">
+            <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+               <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                  style="width: 11px; height: 11px;" />
+            </button>
+            <h3 data-translatable="true">Select a termination reason</h3>
+         </div>
+         <div class="modal-body cc-modal-body">
+            <div class="col-md-12 cc-list" id="div_terminationReasons">
+               <div class="input-group" style="margin-bottom: 10px;">
+                  <input type="text" class="form-control cc-input-browse rtl-input-browse" data-translatable="true"
+                     id="input_terminationReasonSearchFilter" placeholder="Search by termination reason name"
+                     style="background-color: white;border-right: 0;">
+                  <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                     style="cursor: pointer;background-color: white;">
+                     <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg"
+                        onclick="ListAllTerminationReasons()">
+                  </span>
+               </div>
+               <table class="table cc-border">
+                  <thead>
+                     <tr>
+                        <th style="width: 10%;"></th>
+                        <th style="width: 40%;" data-translatable="true" scope="col">Name</th>
+                     </tr>
+                  </thead>
+                  <tbody data-bind="foreach:TerminationReasons">
+                     <tr data-bind="click:$root.onSelectTerminationReasonRow">
+                        <td>
+                           <div class="cc-select-column cc-radio-off"
+                              data-bind="event:{click:$root.onSelectTerminationReasonRadioButton}"></div>
+                        </td>
+                        <td data-bind="text:getTextValue(Reason)"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+         <div class="cc-modal-footer modal-footer text-align-left">
+            <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_selectTerminationReasonYes"
+               data-translatable="true"><span data-translatable="true">Select</span></button>
+            <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+               id="btn_selectTerminationReasonNo" data-translatable="true"><span
+                  data-translatable="true">Cancel</span></button>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>

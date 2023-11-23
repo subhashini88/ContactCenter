@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-BD7D-7773B8B9E6BA">
+	<DocumentID>8C1645B9-0967-A1EA-BD7D-7773B8B9A6BA</DocumentID>
+	<Name>8C1645B9-0967-A1EA-BD7D-7773B8B9A6BA</Name>
+	<Description>No contend id or contract id</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-13T19:21:21.882</CreationDate>
+	<Notes/>
+	<DefaultText>No contend id or contract id</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1EA-BD7D-7773B8BA26BA"
+		/>
+	</Translations>
+</TextIdentifier>

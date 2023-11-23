@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EA-8538-8368884C666C">
+	<DocumentID>3C6AA73A-0114-A1EA-8538-8368884C266C</DocumentID>
+	<Name>3C6AA73A-0114-A1EA-8538-8368884C266C</Name>
+	<Description>UpgradeNegotiationID</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-12-02T10:37:00.586</CreationDate>
+	<Notes/>
+	<Text>UpgradeNegotiationID</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EA-8538-8368884BA66C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

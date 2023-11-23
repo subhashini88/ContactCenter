@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-96A6-CB29A97524F5">
+	<DocumentID>F8B156D5-E69D-A1E9-96A6-CB29A974E4F5</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-96A6-CB29A974E4F5</Name>
+	<Description>ContractRenewalWithinWeek</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-09T07:45:35.294</CreationDate>
+	<Notes/>
+	<Text>ContractRenewalWithinWeek</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-96A6-CB29A97464F5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

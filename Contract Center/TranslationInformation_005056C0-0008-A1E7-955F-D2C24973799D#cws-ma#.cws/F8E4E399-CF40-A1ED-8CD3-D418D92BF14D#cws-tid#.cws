@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-8CD3-D418D92C314D">
+	<DocumentID>F8E4E399-CF40-A1ED-8CD3-D418D92BF14D</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-8CD3-D418D92BF14D</Name>
+	<Description>UpdateAccounts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-13T10:32:48.974</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateAccounts</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-8CD3-D418D92C714D"
+		/>
+	</Translations>
+</TextIdentifier>

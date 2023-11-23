@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9635-161B8F9F314F">
+	<DocumentID>F8E4E399-CF40-A1ED-9635-161B8F9EF14F</DocumentID>
+	<Name>DisableConType</Name>
+	<Description>DisableConType</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-10-31T06:04:31.52</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D6-337A-A1E8-AC3C-1189BA724882"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

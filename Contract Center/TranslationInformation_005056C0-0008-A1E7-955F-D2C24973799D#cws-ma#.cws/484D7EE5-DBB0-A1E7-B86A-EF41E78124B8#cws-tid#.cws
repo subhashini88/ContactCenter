@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B86A-EF41E78164B8">
+	<DocumentID>484D7EE5-DBB0-A1E7-B86A-EF41E78124B8</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B86A-EF41E78124B8</Name>
+	<Description>Renewal action bar</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-15T15:45:04.771</CreationDate>
+	<Notes/>
+	<DefaultText>Renewal action bar</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B86A-EF41E781A4B8"
+		/>
+	</Translations>
+</TextIdentifier>

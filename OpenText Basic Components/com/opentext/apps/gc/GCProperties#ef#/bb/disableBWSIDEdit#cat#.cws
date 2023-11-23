@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9991-45A8EE3C7152">
+	<DocumentID>F8E4E399-CF40-A1ED-9991-45A8EE3C3152</DocumentID>
+	<Name>disableBWSIDEdit</Name>
+	<Description>disableBWSIDEdit</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-11-17T07:41:45.215</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9C03-AA16322BF06B"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-3B8A-A1E8-B86A-6530BD658877">
+	<DocumentID>1866DA2F-3B8A-A1E8-B86A-6530BD654877</DocumentID>
+	<Name>1866DA2F-3B8A-A1E8-B86A-6530BD654877</Name>
+	<Description>BN_Document origination list action bar</Description>
+	<CreatedBy>Bhagwan</CreatedBy>
+	<CreationDate>2018-11-06T09:54:26.343</CreationDate>
+	<Notes/>
+	<DefaultText>BN_Document origination list action bar</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-3B8A-A1E8-B86A-6530BD65C877"
+		/>
+	</Translations>
+</TextIdentifier>

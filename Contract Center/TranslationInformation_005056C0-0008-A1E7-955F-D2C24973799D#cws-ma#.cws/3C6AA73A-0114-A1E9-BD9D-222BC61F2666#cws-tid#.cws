@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD9D-222BC61F6666">
+	<DocumentID>3C6AA73A-0114-A1E9-BD9D-222BC61F2666</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD9D-222BC61F2666</Name>
+	<Description>Expire Contract._1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-24T15:44:54.328</CreationDate>
+	<Notes/>
+	<DefaultText>Expire Contract._1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD9D-222BC61FA666"
+		/>
+	</Translations>
+</TextIdentifier>

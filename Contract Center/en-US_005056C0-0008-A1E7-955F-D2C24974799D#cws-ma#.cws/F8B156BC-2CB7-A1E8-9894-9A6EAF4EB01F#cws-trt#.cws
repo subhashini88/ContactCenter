@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9894-9A6EAF4EF01F">
+	<DocumentID>F8B156BC-2CB7-A1E8-9894-9A6EAF4EB01F</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9894-9A6EAF4EB01F</Name>
+	<Description>UpdateFlagZ_INT_isContractVisible</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-05-28T08:40:47.696</CreationDate>
+	<Notes/>
+	<Text>UpdateFlagZ_INT_isContractVisible</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9894-9A6EAF4E301F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A43E-0BE4B81524CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A43E-0BE4B814E4CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A43E-0BE4B814E4CB</Name>
+	<Description>GenericExpiryContract</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-26T17:25:52.774</CreationDate>
+	<Notes/>
+	<Text>GenericExpiryContract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A43E-0BE4B81464CB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9EAE-62D3D8A9A4C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9EAE-62D3D8A964C8</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9EAE-62D3D8A964C8</Name>
+	<Description>Redraft</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-28T10:23:48.512</CreationDate>
+	<Notes/>
+	<Text>Redraft</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-9EAE-62D3D8A8E4C8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

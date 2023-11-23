@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="DC215C73-F252-A1ED-810A-B6876E700F28">
+	<DocumentID>DC215C73-F252-A1ED-810A-B6876E6FCF28</DocumentID>
+	<Name>DC215C73-F252-A1ED-810A-B6876E6FCF28</Name>
+	<Description>CreateCTRContacts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-15T10:44:26.584</CreationDate>
+	<Notes/>
+	<DefaultText>CreateCTRContacts</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="DC215C73-F252-A1ED-810A-B6876E704F28"
+		/>
+	</Translations>
+</TextIdentifier>

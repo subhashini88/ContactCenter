@@ -1,0 +1,1438 @@
+<html>
+<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+<link rel="stylesheet" href="../css/LandingPage.css">
+<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+<script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+<script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+<script src="../../../../../app/start/web/thirdpartylibs/plotly.js" type="text/javascript"></script>
+<script src="../../../../../com/opentext/apps/gc/js/contractEnhancedSearch_services.js" type="text/javascript"></script>
+<script src="../js/LandingPageServices.js"></script>
+<script src="../js/CC_ChartRenderers.js"></script>
+<script src="../js/LandingPage.js"></script>
+<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+
+<body class="blue-gradient cc-ltr">
+  <div id="id_expandedView" style="position: relative;">
+    <div style="height: 40px;background-color: #FFF;" class="list-header">
+      <span style="width:50%;font-size: 20px;" data-bind="text:title"></span>
+      <div style="display: inline;float:right">
+        <span class="expand_icon" style="display: inline;" aria-label="Toolbar with button groups" title="Collapse"
+          onclick="toggleExpandedView()">
+          <img class="cc-icon" alt="Collapse" src="../../../../../com/opentext/apps/utils/img/minimize.svg"
+            style="height: 28px; width: 28px;"
+            onmousedown="this.src='../../../../../com/opentext/apps/utils/img/minimize_hover.svg'"
+            onmouseup="this.src='../../../../../com/opentext/apps/utils/img/minimize.svg'">
+        </span>
+
+        <!-- ko if:viewType()==='CHART'-->
+        <span class="btn-group setting-div" role="group" aria-label="Third group"
+          style="float: right;right: 45px;display: none;">
+          <button class="btn-settings" id="btn_card1Settings" style="border: none;background-color: white;"
+            data-bind="click:refreshUserReport" title="Update report"><i class="refresh-db-icon"></i></button>
+        </span>
+        <!-- /ko -->
+      </div>
+    </div>
+    <!-- ko if: !viewType() || viewType() == 'LIST' -->
+    <iframe id="id_layoutObj" data-bind="attr:{src:layoutURL}" style="height: calc(100% - 48px);width: 100%;"></iframe>
+    <!-- /ko -->
+    <!-- ko if: viewType() == 'SAVEDSEARCH' -->
+    <div id="div_ContractSearchResults" class="col-md-12">
+      <div class="col-md-12">
+        <div>
+          <div id="div_contractsList" class="cc-header">
+            <button class="btn btn-default cc-text-button" id="btn_openContract" data-translatable="true"
+              data-bind="click:openContractFromActionBar" disabled>
+              <span data-translatable="true">Open</span>
+            </button>
+            <div class="cc-vertical-line-separator" style="height: 65%;position: relative;"></div>
+            <button class="btn btn-default cc-text-button export-button" data-bind="click:exportSelectedContracts"
+              id="btn_exportContracts" data-translatable="true" disabled>
+              <span data-translatable="true">Export</span>
+            </button>
+            <div class="cc-vertical-line-separator" style="height: 65%;position: relative;"></div>
+            <button class="btn btn-default cc-text-button export-button" data-bind="click:exportAllContracts"
+              id="btn_exportAllContracts" data-translatable="true"
+              data-bind="attr:{disabled:contractsList().length < 1}">
+              <span data-translatable="true">Export all</span>
+            </button>
+            <div class="cc-vertical-line-separator" style="height: 65%;position: relative;"></div>
+            <button class="btn btn-default cc-text-button" data-bind="click:showPreview" id="btn_previewContracts"
+              data-translatable="true" disabled>
+              <span data-translatable="true">Preview</span>
+            </button>
+          </div>
+          <div class="table-responsive"
+            style="overflow-y: auto;border-right: 1px solid #e8e8e8;border-left: 1px solid #e8e8e8;"
+            data-bind="css:{'list-style':contractsList().length>0}">
+            <table id="id_contractsTable" class="table" data-bind="css:{'list-style':contractsList().length==0}">
+              <thead>
+                <tr>
+                  <th style="width: 5%;">
+                    <div id="id_selectAllContracts" class="cc-select-column"
+                      data-bind="event:{click:$root.onAllContractsCheckboxValueChanged}, css:{'cc-checkbox-select-all-off': !isAllChecked(), 'cc-checkbox-select-all-on': isAllChecked(), 'cc-checkbox-select-all-partial' : (!isAllChecked() && selectedContracts().length > 0)}">
+                    </div>
+                  </th>
+                  <th style="width: 15%;" data-translatable="true">Contract ID</th>
+                  <th style="width: 15%;" data-translatable="true">Contract name</th>
+                  <th style="width: 15%;" data-translatable="true">Contract type</th>
+                  <th style="width: 15%;" data-translatable="true">Contract term</th>
+                  <th style="width: 15%;" data-translatable="true">Actual start date</th>
+                  <th style="width: 15%;" data-translatable="true">Organization</th>
+                  <th style="width: 15%;" data-translatable="true">Is executed</th>
+                  <th style="width: 10%;" data-translatable="true">Is external</th>
+                </tr>
+              </thead>
+              <tbody style="height: 100%;" data-bind="visible:totalContractsCount()==0">
+                <tr style="border: none;">
+                  <td colspan="9" class="no-pointer-events" style="text-align: center; border: none;">No results found
+                  </td>
+                </tr>
+              </tbody>
+              <div class="busy box" data-bind="visible:totalContractsCount()<0">
+                <div class="inner load">
+                  <div class="outside-loader">
+                    <div class="awp-default-loader">
+                      <div class="inside-loader">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <tbody data-bind="foreach:contractsList">
+                <tr class="accordion-toggle collapsed" data-toggle="collapse" style="cursor: pointer;"
+                  data-bind="click:$root.openContract, css:{'list-row-select':isChecked()}">
+                  <td>
+                    <div class="cc-select-column"
+                      data-bind="event:{click:$root.onContractRowCheckboxValueChanged}, css:{'cc-checkbox-off':!isChecked(), 'cc-checkbox-on':isChecked()}">
+                    </div>
+                  </td>
+                  <td>
+                    <div data-bind="text:$data.contractDetails.properties.generalProps.GeneratedContractId"></div>
+                  </td>
+                  <td>
+                    <div data-bind="text:$data.contractDetails.properties.generalProps.ContractName"></div>
+                  </td>
+                  <td>
+                    <div data-bind="text:$data.contractDetails.properties.generalProps.ContractType"></div>
+                  </td>
+                  <td>
+                    <div data-bind="text:$data.contractDetails.properties.generalProps.InitialContractTenure"></div>
+                  </td>
+                  <td>
+                    <div data-bind="text:$data.contractDetails.properties.generalProps.MinStartdate"></div>
+                  </td>
+                  <td>
+                    <div data-bind="text:$data.contractDetails.properties.generalProps.RelatedOrganization"></div>
+                  </td>
+                  <td>
+                    <div data-bind="text:$data.contractDetails.properties.generalProps.IsExecuted"></div>
+                  </td>
+                  <td>
+                    <div data-bind="text:$data.contractDetails.properties.generalProps.ContractDocumentType"></div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="cc-footer col-lg-12"
+              style="text-align: center;padding: 0px;position:absolute;background-color: #f2f2f2;">
+              <ul class="pull-left pagination" style="margin: 0;">
+                <li class="li-pagination">
+                  <select class="form-control cc-select" data-bind="
+                  options:paginationPerPage,
+                  value:limitValue,
+                  optionsText: 'name',
+                  optionsValue:'value', event:{change:onPerPageCountChange}"
+                    style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;width: 110px;">
+                  </select>
+                </li>
+              </ul>
+              <ul class="pagination" style="margin: 0;">
+                <li class="li-pagination">
+                  <a id="a_itemsCount"
+                    style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                    <span data-bind="text:totalContractsCount()>=0?totalContractsCount():0"></span>
+                    <span data-translatable="true">result(s)</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="pagination pull-right" style="margin: 0;">
+                <li class="li-pagination" id="li_conListLeftNavigation" style="cursor: pointer;"
+                  data-bind="visible:currentPage() > 1">
+                  <a data-bind="click:goToFirstPage">
+                    <img class="cc-pagination-icon" alt="FirstPage"
+                      style="margin-right: -14px;transform: rotate(90deg);"
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToFirstPage">
+                    <img class="cc-pagination-icon" alt="FirstPage" style="transform: rotate(90deg);"
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                  </a>
+                  <a data-bind="click:goToPreviousPage">
+                    <img class="cc-pagination-icon" alt="PreviousPage" style="transform: rotate(90deg);"
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToPreviousPage">
+                  </a>
+                </li>
+                <li class="li-pagination">
+                  <span>
+                    <input class="cc-pagination-pageInput" id="input_pageNumInputParameter"
+                      data-bind="value:currentPage" disabled
+                      style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;padding-bottom: 7px;"></input>
+                    <span data-translatable="true"> of </span>
+                    <span style="margin-left: .5em;" data-bind="text:numOfPages"></span>
+                  </span>
+                </li>
+                <li class="li-pagination" id="li_conListRightNavigation" style="cursor: pointer;"
+                  data-bind="visible: numOfPages() > currentPage()">
+                  <a data-bind="click:goToNextPage">
+                    <img class="cc-pagination-icon" alt="NextPage" style="transform: rotate(270deg);"
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToNextPage">
+                  </a>
+                  <a data-bind="click:goToLastPage">
+                    <img class="cc-pagination-icon" alt="LastPage" style="transform: rotate(270deg);"
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToLastPage">
+                    <img class="cc-pagination-icon" alt="LastPage" style="margin-left: -14px;transform: rotate(270deg);"
+                      src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- //CHANGE  -->
+        </div>
+      </div>
+    </div>
+    <div id="div_ContractDetails" class="cc-border col-md-4">
+      <div id="div_contractpreview" class="form-group" style="width: 100%;" apps-toggle="expanded">
+        <div id="div_previewType" class="cc-header">
+          <div id="div_ctrPreview" onclick="changePreviewType()">
+            <div class="cc-select-column" style="width: 20px;"
+              data-bind="visible:(docRepoType() === 'CONTENT' || docRepoType() === 'BOTH'),css:{'cc-radio-off' : !isContractPreviewActive() == true, 'cc-radio-on' : isContractPreviewActive()}">
+            </div>
+            <strong data-translatable="true">Contract preview</strong>
+          </div>
+          <div id="div_docpreview" onclick="changePreviewType()" style="margin-inline: auto;"
+            data-bind="css:{'visibility-hidden':!(docRepoType() === 'CONTENT' || docRepoType() === 'BOTH')}">
+            <div class="cc-select-column " style=" width: 20px;"
+              data-bind="css:{'cc-radio-off' : isContractPreviewActive() == true, 'cc-radio-on' : !isContractPreviewActive()}">
+            </div>
+            <strong data-translatable="true">Document preview</strong>
+          </div>
+          <button type="button" data-dismiss="modal" style="border: none;background-color: transparent;"
+            data-bind="click:dismissPreview">
+            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 9px; height: 9px;" />
+          </button>
+        </div>
+        <!-- ko if: contractFieldsList().length == 0-->
+        <div class="form-control-static table-container">
+          <div id="savedSearchesEmpty" class="defaultInfo" style="display: block; font-size: 2em;">
+            <p data-translatable="true">Select contract to preview</p>
+          </div>
+        </div>
+        <!--/ko-->
+        <!-- ko if: contractFieldsList().length > 0-->
+        <ul class="nav nav-tabs" data-bind="foreach:contractFieldsList" role="tablist">
+          <li
+            data-bind="attr:{id:$data.contractIdAttr, class:$data.liClass, title:$data.contractName}, click:$root.loadPreview">
+            <a class="nav-link" data-toggle="tab" data-bind="attr:{href:$data.contractIdAttr}">
+              <span data-translatable="true" data-bind="text:contractName"></span>
+            </a>
+          </li>
+        </ul>
+        <!--/ko-->
+        <!--ko if: isContractPreviewActive() == true-->
+        <div data-bind="foreach:contractFieldsList" class="tab-content">
+          <div data-bind="attr:{id:contractId, class:tabPaneClass}">
+            <div id="div_contractDetailsPreview">
+              <div style="padding-top:15px;overflow: auto;height: 65vh;">
+                <div class="form-group col-md-12 rtl-float-right" style="display: flex;">
+                  <span class="cc-tab-header-title" style="display: initial;" data-translatable="true">Contract
+                    details</span>
+                </div>
+                <!-- ko foreach: Object.keys(contractProperties) -->
+                <div class="form-group col-md-12 rtl-float-right" style="display: flex;">
+                  <label data-translatable="true" class="label-text" data-bind="text:contractProperties[$data]"></label>
+                  <!-- ko if:  ($parent.contractDetails.properties.generalProps[$data] === null || $parent.contractDetails.properties.generalProps[$data] === undefined || $parent.contractDetails.properties.generalProps[$data].length == 0)-->
+                  <p class="form-control-static cc-form-value" data-translatable="true">No value specified</p>
+                  <!-- /ko -->
+
+                  <!-- ko ifnot:  ($parent.contractDetails.properties.generalProps[$data] === null || $parent.contractDetails.properties.generalProps[$data] === undefined || $parent.contractDetails.properties.generalProps[$data].length == 0)-->
+                  <p class="form-control-static cc-form-value"
+                    data-bind="text:truncateString($parent.contractDetails.properties.generalProps[$data]), attr:{title:$parent.contractDetails.properties.generalProps[$data]}"
+                    style="word-break: break-word;"></p>
+                  <!-- /ko -->
+                </div>
+                <!--/ko-->
+
+                <div class="form-group col-md-12 rtl-float-right" style="display: flex;">
+                  <label data-translatable="true" class="label-text" data-bind="text:InternalParties"></label>
+                  <!-- ko if:  (contractDetails.properties.otherProps[InternalParties] === null || contractDetails.properties.otherProps[InternalParties] === undefined || contractDetails.properties.otherProps[InternalParties].length == 0)-->
+                  <p class="form-control-static cc-form-value" data-translatable="true">No value specified</p>
+                  <!-- /ko -->
+
+                  <!-- ko ifnot:  (contractDetails.properties.otherProps[InternalParties] === null || contractDetails.properties.otherProps[InternalParties] === undefined || contractDetails.properties.otherProps[InternalParties].length == 0)-->
+                  <p class="form-control-static cc-form-value"
+                    data-bind="text:truncateString(contractDetails.properties.otherProps[InternalParties]), attr:{title:contractDetails.properties.otherProps[InternalParties]}"
+                    style="word-break: break-word;"></p>
+                  <!-- /ko -->
+                </div>
+                <div class="form-group col-md-12 rtl-float-right" style="display: flex;">
+                  <label data-translatable="true" class="label-text" data-bind="text:ExternalParties"></label>
+                  <!-- ko if:  (contractDetails.properties.otherProps[ExternalParties] === null || contractDetails.properties.otherProps[ExternalParties] === undefined || contractDetails.properties.otherProps[ExternalParties].length == 0)-->
+                  <p class="form-control-static cc-form-value" data-translatable="true">No value specified</p>
+                  <!-- /ko -->
+
+                  <!-- ko ifnot:  (contractDetails.properties.otherProps[ExternalParties] === null || contractDetails.properties.otherProps[ExternalParties] === undefined || contractDetails.properties.otherProps[ExternalParties].length == 0)-->
+                  <p class="form-control-static cc-form-value"
+                    data-bind="text:truncateString(contractDetails.properties.otherProps[ExternalParties]), attr:{title:contractDetails.properties.otherProps[ExternalParties]}"
+                    style="word-break: break-word;"></p>
+                  <!-- /ko -->
+                </div>
+
+
+                <!-- ko foreach: Object.keys(contractDetails.properties.customProps) -->
+                <div class="form-group col-md-12 rtl-float-right" style="display: flex;">
+                  <label data-translatable="true" class="label-text" data-bind="text:$data"></label>
+                  <!-- ko if:  ($parent.contractDetails.properties.customProps[$data] === null || $parent.contractDetails.properties.customProps[$data] === undefined || $parent.contractDetails.properties.customProps[$data].length == 0)-->
+                  <p class="form-control-static cc-form-value" data-translatable="true">No value specified</p>
+                  <!-- /ko -->
+                  <!-- ko ifnot:  ($parent.contractDetails.properties.customProps[$data] === null || $parent.contractDetails.properties.customProps[$data] === undefined || $parent.contractDetails.properties.customProps[$data].length == 0)-->
+                  <p class="form-control-static cc-form-value"
+                    data-bind="text:truncateString($parent.contractDetails.properties.customProps[$data]), attr:{title:$parent.contractDetails.properties.customProps[$data]}"
+                    style="word-break: break-word;"></p>
+                  <!-- /ko -->
+                </div>
+                <!--/ko-->
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/ko-->
+        <!--ko if: isContractPreviewActive() == false-->
+        <div data-bind="foreach:contractFieldsList" class="tab-content">
+          <div data-bind="attr:{id:contractId, class:tabPaneClass}">
+            <div id="div_defaultDocPreview" style="height: 68vh;">
+              <iframe style="width: 100%; height:100%" data-bind="attr:{src:previewDocUrl}"></iframe>
+            </div>
+          </div>
+        </div>
+        <!--/ko-->
+      </div>
+    </div>
+    <!-- /ko -->
+    <!-- ko if:viewType()==='CHART'-->
+    <div class="col-md-12 cc-card-header" id="header1" style="display:flex;justify-content: space-between;">
+      <div class="cc-card-header-params">
+        <div class="cc-cardReport-header card-1-report" id="card1ReportHeader" style=" visibility: visible !important;">
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 without-padding cc-card-body" id="cardbody1">
+      <div id="tile_id_max"></div>
+
+    </div>
+    <span style="position: absolute;left:0;bottom: 0;">
+      <label for="" class="detailsText" style="padding-right: 0px;">Last updated on:</label>
+      <label for="" class="detailsText" style="padding-left: 0px;" data-bind="text:lastUpdatedDate"></label>
+    </span>
+    <!-- /ko -->
+
+  </div>
+
+  <div id="id_dashboard" style="overflow:auto">
+
+    <div id="div_dashboardError" class="cc-error-info-area" style="background-color: #FFF;z-index: 1;">
+      <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;" />
+      <span style="position: relative;" data-bind="text:errorMsg"></span>
+    </div>
+
+    <div class="modal fade" id="div_selectView" role="dialog" style="z-index: 1999;">
+      <div id="id_selectView" class="modal-content cc-modal-content">
+        <div class="modal-header cc-modal-header">
+          <button type="button" class="close-button close-button-lookup" data-dismiss="modal">
+            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+          </button>
+          <h3 data-translatable="true">Select a view</h3>
+        </div>
+        <div class="cc-modal-tab">
+          <div data-translatable="true" class="cc-tab" data-tabtype="LIST"
+            data-bind="click:selectViewType, css:{'cc-tab-active':activeViewType() == 'LIST'}">Lists</div>
+          <div data-translatable="true" class="cc-tab" data-tabtype="SAVEDSEARCH"
+            data-bind="click:selectViewType, css:{'cc-tab-active':activeViewType() == 'SAVEDSEARCH'}, hidden:hiddenTabs().includes('SAVEDSEARCH')">
+            Saved searches</div>
+          <div data-translatable="true" data-translatable="true" class="cc-tab" data-tabtype="CHART"
+            data-bind="click:selectViewType, css:{'cc-tab-active':activeViewType() == 'CHART'}, hidden:hiddenTabs().includes('CHART')">
+            Reports</div>
+        </div>
+        <div class="modal-body cc-modal-body">
+          <div class="col-md-12 cc-list">
+            <!-- ko ifnot:activeViewType()==='CHART'-->
+            <div class="input-group" style="margin-bottom: 10px;">
+              <input type="text" data-translatable="true" class="form-control cc-input-browse rtl-input-browse"
+                placeholder="Search by Name" data-bind="textInput:searchText">
+              <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+                style="cursor: pointer; padding-top: 5px;" data-bind="click:searchResults" title="Search">
+                <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg">
+              </span>
+            </div>
+
+            <table class="table cc-border" style="font-size: 14px;" data-bind="visible:activeViewType() == 'LIST'">
+              <thead>
+                <tr>
+                  <th style="width: 3%;"></th>
+                  <th style="width: 35%;" data-translatable="true" scope="col">Name</th>
+                  <th style="width: 62%;" data-translatable="true" scope="col">Description</th>
+                </tr>
+              </thead>
+              <tbody class="lookup-list" data-bind="foreach:filteredList">
+                <tr data-bind="click:$parent.selectViewRadioButton">
+                  <td>
+                    <div class="cc-select-column cc-radio-off"></div>
+                  </td>
+                  <td data-translatable="true"
+                    data-bind="text:getTextValue(DisplayName), attr:{title:getTextValue(DisplayName)}"></td>
+                  <td data-translatable="true"
+                    data-bind="text:getTextValue(Description), attr:{title:getTextValue(Description)}"></td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table cc-border" style="font-size: 14px;"
+              data-bind="visible:activeViewType() == 'SAVEDSEARCH'">
+              <thead>
+                <tr>
+                  <th style="width: 3%;"></th>
+                  <th style="width: 97%;" data-translatable="true" scope="col">Name</th>
+                </tr>
+              </thead>
+              <tbody class="lookup-list" data-bind="foreach:savedSearchesList">
+                <tr data-bind="click:$parent.selectViewRadioButton">
+                  <td>
+                    <div class="cc-select-column cc-radio-off"></div>
+                  </td>
+                  <td data-translatable="true"
+                    data-bind="text:getTextValue(SearchName), attr:{title:getTextValue(SearchName)}"></td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- /ko -->
+            <!-- ko if:activeViewType()==='CHART'-->
+            <div data-bind="with:selectReportModal">
+              <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+                <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg"
+                  style="width: 11px; height: 11px;" />
+                <span id="span_errorInfoMessage" style="position: relative;"></span>
+              </div>
+              <div id="div_configSummary">
+                <div class="col-md-12 no-padding">
+                  <div class="col-md-12 no-padding tableshadow-light" style="display:flex;padding-left:5px;height:48px">
+                    <div class="" data-bind="click:function(){
+                                                    selectSubPage('MYREPORTS'); }">
+                      <div class="modal-title title-padding" style="text-align:center">
+                        <span style="font-size: 14px;" data-translatable="true"
+                          data-bind="css:{bottomBorder:activeTab()==='MYREPORTS'}" class="bottomBorder">My
+                          reports</span>
+                      </div>
+                    </div>
+                    <div data-bind="click:function(){
+                                                    selectSubPage('SHAREDREPORTS'); }">
+                      <div class="modal-title title-padding" style="text-align:center">
+                        <span style="font-size: 14px;" data-translatable="true"
+                          data-bind="css:{bottomBorder:activeTab()==='SHAREDREPORTS'}">Shared
+                          reports</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--ko if:activeTab()==='MYREPORTS' -->
+                <div class="col-md-12 no-padding">
+                  <div class="col-md-3 no-padding" style="height: 65vh;overflow-y: hidden;">
+                    <div class="form-group " style="width: 100%;" id="div_savedsearches" apps-toggle="expanded">
+                      <div class="no-padding table-container table-container-sm rtl-float-right tableshadowdepth">
+                        <div class="cc-header cc-border " style="justify-content: space-between;">
+                          <div class="cc-tab--header-title" data-translatable="true" style="padding-left: 7px;">
+                          </div>
+                          <button class="btn btn-default cc-button" title="Create new report"
+                            data-bind="click:createNewReport">
+                            <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/add.svg"
+                              id="id_createActivityListIcon">
+                          </button>
+                        </div>
+                        <div style="height: 60vh;overflow-y: auto;">
+                          <!-- ko foreach:myReports -->
+                          <div style="display:flex;flex-direction:column"
+                            data-bind="event:{click:$parent.selectSavedReport}">
+                            <div style="display:flex;flex-direction:row;position:relative" class="row-container"
+                              data-bind="css:{'tableshadow':selected()}">
+                              <div class="row-box" style="width:15%">
+                                <div class="cc-select-column"
+                                  data-bind="css:{'cc-radio-off':!selected(),'cc-radio-on':selected()}">
+                                </div>
+                              </div>
+                              <div class="row-box" style="width:85%">
+                                <span style="word-break: break-all" data-bind="text:name">
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <!--/ko-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9" data-bind="with:selectedReport">
+
+                    <div class="col-md-12 no-padding">
+                      <div class="form-group col-md-5 rtl-float-right">
+                        <label class="cc-required" data-translatable="true" for="Priority">Report
+                          name</label>
+                        <input class="form-control" style="width: 100%;" data-translatable="false" maxlength="64"
+                          data-bind="value:name">
+                      </div>
+                      <div class="form-group col-md-3 rtl-float-right">
+                        <label data-translatable="true" class="cc-required">Data set
+                        </label>
+                        <select class="form-control cc-select" data-bind="value : dataSet">
+                          <option value="">-Select-</option>
+                          <option value="Contract">All contracts</option>
+                          <option value="ActiveContract">Active contracts</option>
+                          <option value="DraftContract">Draft contracts</option>
+                          <option value="TerminatedContract">Terminated contracts</option>
+                          <option value="ExecutedContract">Executed contracts</option>
+                          <option value="ExpiredContract">Expired contracts</option>
+                          <option value="ContractObligations">Contract-Obligations
+                          </option>
+                        </select>
+                      </div>
+
+                      <div class="form-group col-md-4 rtl-float-right">
+                        <label data-translatable="true" class="cc-required">Chart
+                          type</label>
+                        <select class="form-control  cc-select" data-bind="value : reportType">
+                          <option value="">-Select-</option>
+                          <option value="BARSINGLE">Bar chart</option>
+                          <option value="BARSINGLEHORIZONTAL">Horizontal bar chart
+                          </option>
+                          <option value="BAR">Grouped bar chart</option>
+                          <option value="STACKEDBAR">Stacked bar chart</option>
+                          <option value="HORIZONTALSTACKEDBAR">Horizontal grouped bar
+                            chart</option>
+                          <option value="PIE">Pie chart</option>
+                          <option value="AREA">Area chart</option>
+                          <option value="LINE">Line chart</option>
+                          <option value="SUNBURST">Sunburst chart</option>
+                        </select>
+                      </div>
+
+                      <div class="form-group col-md-3 rtl-float-right">
+                        <label data-translatable="true" class="cc-required" data-bind="text:xLabel">X-axis </label>
+                        <select class="form-control cc-select" data-bind="value : xColumn">
+                          <!--ko if:dataSet()!=='ContractObligations' -->
+                          <!-- ko foreach:$parent.contractColumns -->
+                          <option
+                            data-bind="value:$data.name, text:$data.label,
+                                                                  attr:{disabled:$data.disabled},
+                                                                  style:{'font-weight':($data.disabled?'bold':'normal')} ">
+                          </option>
+                          <!--/ko-->
+                          <!--/ko-->
+                          <!--ko if:dataSet()==='ContractObligations' -->
+                          <!-- ko foreach:oblColumns -->
+                          <option data-bind="value:$data.name, text:$data.label,
+                                                            attr:{disabled:$data.disabled},
+                                                            style:{'font-weight':($data.disabled?'bold':'normal')} ">
+                          </option>
+                          <!--/ko-->
+                          <!--/ko-->
+                        </select>
+                      </div>
+                      <!--ko if:reportType()!=='PIE' && reportType()!=='BARSINGLE' && reportType()!=='BARSINGLEHORIZONTAL'-->
+                      <div class="form-group col-md-3 rtl-float-right">
+                        <label data-translatable="true" class="cc-required" data-bind="text:yLabel">Y-axis </label>
+                        <select class="form-control  cc-select" data-bind="value : yColumn">
+                          <!-- ko foreach:$parent.contractColumns -->
+                          <option data-bind="value:$data.name, text:$data.label,
+                                                            attr:{disabled:$data.disabled},
+                                                            style:{'font-weight':($data.disabled?'bold':'normal')} ">
+                          </option>
+                          <!--/ko-->
+                        </select>
+                      </div>
+                      <!--/ko-->
+                      <div class="form-group col-md-3 rtl-float-right">
+                        <label data-translatable="true" class="cc-required">Aggregator
+                          function
+                        </label>
+                        <select class="form-control  cc-select" data-bind="value : aggregator">
+                          <option value="">-Select-</option>
+                          <option value="count">Count</option>
+                          <option value="sum">Sum</option>
+                          <option value="countunique">Count unique</option>
+                          <option value="min">Minimum</option>
+                          <option value="max">Maximum</option>
+                          <option value="avg">Average</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-3 rtl-float-right">
+                        <label data-translatable="true" class="cc-required">Aggregator
+                          column
+                        </label>
+                        <select class="form-control  cc-select" data-bind="value : aggregatorColumn">
+                          <!-- ko foreach:$data.aggColumns -->
+                          <option data-bind="value:$data.name, text:$data.label,
+                                                            attr:{disabled:$data.disabled},
+                                                            style:{'font-weight':($data.disabled?'bold':'normal')} ">
+                          </option>
+                          <!--/ko-->
+                        </select>
+                      </div>
+                    </div>
+                    <!--ko if:true || isNew() -->
+                    <div class="col-md-12 no-padding">
+                      <div style="display:flex;align-items:center;margin:20px">
+                        <div style="margin-left:auto;margin-right:auto">
+                          <button type="button" class="cc-btn cc-btn-primary" style="height: 28px;"
+                            data-bind="text:$data.isEdit?'Update changes':'Save changes', click:$parent.saveChart"></button>
+                          <button type="button" class="cc-btn cc-btn-primary" style="height: 28px;"
+                            data-bind="text:'Delete chart', click:$parent.deleteChart"></button>
+                          <button type="button" class="cc-btn cc-btn-secondary" style="outline:none;"
+                            data-translatable="true" data-bind="click:$parent.cancelNewChart">
+                            <span data-translatable="true">Cancel</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/ko-->
+                    <div class="col-md-12 no-padding">
+                      <div id="output_preview"></div>
+                    </div>
+                    <div class="col-md-12 no-padding">
+
+                      <div id="model_root_layout11"></div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <!--/ko-->
+                <!--ko ifnot:activeTab()==='MYREPORTS' -->
+                <div class="col-md-12 no-padding">
+                  <div class="col-md-3 no-padding">
+                    <div class="form-group " style="width: 100%;" id="div_savedsearches" apps-toggle="expanded">
+                      <div class="no-padding table-container table-container-sm rtl-float-right tableshadowdepth">
+                        <!-- ko foreach:sharedReports -->
+                        <div style="display:flex;flex-direction:column">
+                          <div style="display:flex;flex-direction:row;position:relative" class="row-container "
+                            data-bind="css:{'tableshadow':selected()}">
+                            <div class="row-box" style="width:15%">
+                              <div class="cc-select-column"
+                                data-bind="event:{click:$parent.selectSharedReport},css:{'cc-radio-off':!selected(),'cc-radio-on':selected()}">
+                              </div>
+                            </div>
+                            <div class="row-box" style="width:85%">
+                              <span style="word-break: break-all" data-bind="text:name">
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <!--/ko-->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9" data-bind="with:selectedReport">
+                    <div class="col-md-12 no-padding">
+                      <div class="form-group col-md-5 rtl-float-right">
+                        <label class="cc-required" data-translatable="true" for="Priority">Report
+                          name</label>
+                        <input class="form-control" style="width: 100%;" maxlength="64" data-translatable="false"
+                          data-bind="value:shrdChartName">
+                      </div>
+                      <div class="form-group col-md-3 rtl-float-right">
+                        <label data-translatable="true">Group by
+                        </label>
+                        <select class="form-control  cc-select" data-bind="value : yColumn">
+                          <!-- ko foreach:$parent.contractDefChartColumns -->
+                          <option data-bind="value:$data.name, text:$data.label,
+                                                            attr:{disabled:$data.disabled},
+                                                            style:{'font-weight':($data.disabled?'bold':'normal')} ">
+                          </option>
+                          <!--/ko-->
+                        </select>
+                      </div>
+                      <div class="form-group col-md-3 rtl-float-right">
+                        <label data-translatable="true" class="cc-required">Duration</label>
+                        <select class="form-control  cc-select" data-bind="value : defaultDuration">
+                          <option value="WEEK">1 week
+                          </option>
+                          <option value="ONEMONTH">1 month
+                          </option>
+                          <option value="THREEMONTH">3 month
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--/ko-->
+              </div>
+            </div>
+            <!-- /ko -->
+          </div>
+          <div style="text-align: center"
+            data-bind="visible:(activeViewType()=='SAVEDSEARCH' && !savedSearchesList().length>0)">No saved searches
+            found</div>
+          <div data-bind="visible:savedSearchesList().length==200">
+            <img class="cc-icon" src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+            <span data-translatable="true">Showing the top 200 results. If the desired result is not listed, use the
+              search bar</span>
+          </div>
+
+        </div>
+        <div class="cc-modal-footer modal-footer rtl-text-align-left">
+          <button type="submit" class="cc-btn cc-btn-primary" id="btn_selectYes">
+            <span data-translatable="true">Select</span>
+          </button>
+          <button type="submit" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectNo">
+            <span data-translatable="true">Cancel</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="div_ConfirmModal" role="dialog" style="z-index: 2000;">
+      <div class="modal-content cc-modal-content" style="margin-top: 5%; width:34%;">
+        <div class="modal-header cc-modal-header">
+          <button type="button" class="close-button" data-dismiss="modal">
+            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+          </button>
+          <h3 data-translatable="true">Reset</h3>
+        </div>
+        <div class="modal-body">
+          <div class="cc-warning-msg" data-translatable="true">This action will reset the dashboard. Do you want to
+            continue?</div>
+        </div>
+        <div class="cc-modal-footer modal-footer rtl-text-align-left">
+          <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_resetChanges">
+            <span data-translatable="true">Yes</span>
+          </button>
+          <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal">
+            <span data-translatable="true">Cancel</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="div_discardModal" role="dialog" style="z-index: 2000;">
+      <div class="modal-content cc-modal-content" style="margin-top: 5%; width:34%;">
+        <div class="modal-header cc-modal-header">
+          <button type="button" class="close-button" data-dismiss="modal">
+            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+          </button>
+          <h3 data-translatable="true">Discard</h3>
+        </div>
+        <div class="modal-body">
+          <div class="cc-warning-msg" data-translatable="true">This action will discard all the changes. Do you want to
+            continue?</div>
+        </div>
+        <div class="cc-modal-footer modal-footer rtl-text-align-left">
+          <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_cancelChanges">
+            <span data-translatable="true">Yes</span>
+          </button>
+          <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal">
+            <span data-translatable="true">Cancel</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="div_ConfirmAddModal" role="dialog" style="z-index: 2000;">
+      <div class="modal-content cc-modal-content" style="margin-top: 10%; width:34%;">
+        <div class="modal-header cc-modal-header">
+          <button type="button" class="close-button" data-dismiss="modal">
+            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+          </button>
+          <h3 data-translatable="true">Confirm</h3>
+        </div>
+        <div class="modal-body">
+          <div class="cc-warning-msg" data-translatable="true">The selected tile has already been added. Do you want to
+            continue?</div>
+        </div>
+        <div class="cc-modal-footer modal-footer rtl-text-align-left">
+          <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_confirmAdd">
+            <span data-translatable="true">Yes</span>
+          </button>
+          <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal">
+            <span data-translatable="true">Cancel</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="div_ConfirmDelModal" role="dialog" style="z-index: 2000;">
+      <div class="modal-content cc-modal-content" style="margin-top: 10%; width:34%;">
+        <div class="modal-header cc-modal-header">
+          <button type="button" class="close-button" data-dismiss="modal">
+            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+          </button>
+          <h3 data-translatable="true">Remove</h3>
+        </div>
+        <div class="modal-body">
+          <div class="cc-warning-msg" data-translatable="true">The tile will be removed from the dashboard. Do you want
+            to continue?</div>
+        </div>
+        <div class="cc-modal-footer modal-footer rtl-text-align-left">
+          <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_confirmDel">
+            <span data-translatable="true">Remove</span>
+          </button>
+          <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal">
+            <span data-translatable="true">Cancel</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-12 cc-parent-container">
+      <div id="id_allViews">
+        <!-- ko ifnot: isEditMode()  -->
+        <div style="display: flex;height:40px;justify-content: flex-end;">
+          <div class="dropdown">
+            <button type="submit" class="cc-btn cc-btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+              style="height: 32px;margin-top: 7px;" data-bind="click:showAllLists">
+              <span data-translatable="true">All lists</span>
+            </button>
+            <ul id="id_all_lists" class="dropdown-menu" data-bind="foreach:listItems">
+              <li data-bind="text:getTextValue(DisplayName), click:$parent.expandList"></li>
+            </ul>
+          </div>
+          <img id="id_settingsIcon" src="../../../../../com/opentext/apps/utils/img/settings.svg" title="Configure"
+            data-bind="click:configureViews" />
+        </div>
+        <!-- /ko -->
+
+        <!-- ko if: isEditMode()  -->
+        <div class="edit-header-backdrop navbar-fixed-top">
+          <div style="padding: 8px 0px 8px 0px;display: flex;">
+            <div>
+              <button type="submit" class="cc-btn cc-btn-primary action-button" id="save_config"
+                data-bind="click:saveConfigChanges, attr:{disabled:isDirty() == false}">
+                <span data-translatable="true">Save</span>
+              </button>
+            </div>
+
+            <div>
+              <button type="cancel" class="cc-btn cc-btn-secondary action-button" id="cancel_config"
+                data-bind="click:cancelConfigChanges">
+                <span data-translatable="true">Cancel</span>
+              </button>
+            </div>
+
+            <div>
+              <button type="submit" class="cc-btn cc-btn-secondary action-button" id="reset_config"
+                data-bind="click:resetConfigChanges" style="margin-left: 20px;">
+                <span data-translatable="true">Reset</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- /ko -->
+        <div data-bind="style:{'margin-top':isEditMode()?63:16}" style="margin-left: 16px;">
+          <div class="col-md-4 tile-padding rtl-float-right">
+            <div id="id_heroTile" class="tile panel tile-edit" style="font-size: 30px;color: white;">
+              <h1 data-translatable="true">Good <span data-bind="text:timeOfDay"></span>,</h1>
+              <h1><span data-bind="text:username"></span></h1>
+              <h1 data-bind="text:todaysDate" style="font-size:24px;word-break: break-all;"></h1>
+            </div>
+          </div>
+
+          <div class="dashboardTile" data-bind="template:{name:displayMode, foreach:allViews}"></div>
+          <div id="id_addTile" class="col-md-4 tile-padding" data-bind="if:isEditMode()">
+            <div class="tile panel add-tile">
+              <button class="cc-button" style="margin-left: auto; margin-right: auto; " data-bind="click:newView">
+                <img class="cc-icon add-icon" alt="Add list tile" title="Add list tile" src="../img/cc_add_list.svg">
+              </button>
+              <button class="cc-button" style="margin-left: auto; margin-right: auto;display: none;"
+                data-bind="click:newReportView">
+                <img class="cc-icon add-icon" alt="Add report tile" title="Add report tile"
+                  src=" ../img/cc_add_report.svg">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div data-bind="template:{name:'report-select-modal'}"></div>
+      </div>
+    </div>
+  </div>
+  <!-- view drill down list details modal form -->
+  <div class="modal fade" id="div_viewDrillDownListModal" role="dialog" style="z-index: 2999;">
+    <div class="modal-content cc-modal-content" style="margin-top: 5%; width:75%; height: 75%;">
+      <div class="modal-header cc-modal-header">
+        <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+          <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+        </button>
+        <h3 data-translatable="true">Contract list</h3>
+      </div>
+
+      <div class="modal-body cc-modal-body" style="height: calc(100% - 65px) !important;">
+        <div id="div_contractsList" class="cc-header">
+          <button class="btn btn-default cc-text-button" id="btn_openContract" data-translatable="true" data-bind="click:openContractFromActionBar,css:{'disabled':ko.computed(function(){
+                        return !rows().find(ele=>ele.checked());
+                    })}" value="">
+            <span data-translatable="true">Open</span>
+          </button>
+          <div class="cc-vertical-line-separator" style="height: 65%;position: relative;"></div>
+          <button class="btn btn-default cc-text-button export-button" data-bind="click:exportSelectedContracts,css:{'disabled':ko.computed(function(){
+                        return !rows().find(ele=>ele.checked());
+                    })}" id="btn_exportContracts" data-translatable="true" value="">
+            <span data-translatable="true">Export</span>
+          </button>
+          <div class="cc-vertical-line-separator" style="height: 65%;position: relative;"></div>
+          <button class="btn btn-default cc-text-button export-button" data-bind="click:$root.exportAllContracts"
+            id="btn_exportAllContracts" data-translatable="true" value="">
+            <span data-translatable="true">Export all</span>
+          </button>
+        </div>
+        <div class="col-md-12 cc-list" style="min-height: calc(100% - 32px) !important;" id="div_activities">
+          <table class="table cc-border" id="">
+            <thead>
+              <tr>
+                <th style="width: 5%;">
+                  <div id="id_selectAllContracts" class="cc-select-column"
+                    data-bind="click:selectAllContracts,css:{'cc-checkbox-off':!checkedAllContracts(),'cc-checkbox-on':checkedAllContracts()}">
+                  </div>
+                </th>
+                <th style="width: 15%;" data-translatable="true">Contract ID</th>
+                <th style="width: 15%;" data-translatable="true">Contract name</th>
+                <th style="width: 15%;" data-translatable="true">Contract type</th>
+                <th style="width: 15%;" data-translatable="true">Contract term</th>
+                <th style="width: 15%;" data-translatable="true">Actual start date</th>
+                <th style="width: 15%;" data-translatable="true">Organization</th>
+                <th style="width: 15%;" data-translatable="true">Is executed</th>
+                <th style="width: 10%;" data-translatable="true">Is external</th>
+              </tr>
+            </thead>
+            <tbody data-bind="foreach:rows">
+              <tr class="accordion-toggle collapsed" data-bind="click:$parent.openContract" data-toggle="collapse"
+                style="cursor: pointer;">
+                <td>
+                  <div class="cc-select-column "
+                    data-bind="event:{click:$root.onContractRowCheckboxValueChanged}, css:{'cc-checkbox-off':!checked(),'cc-checkbox-on':checked()}">
+                  </div>
+                </td>
+                <td>
+                  <div data-bind="text:genContractId"></div>
+                </td>
+                <td>
+                  <div data-bind="text:contractName"></div>
+                </td>
+                <td>
+                  <div data-bind="text:contractType"></div>
+                </td>
+                <td>
+                  <div data-bind="text:contractterm"></div>
+                </td>
+                <td>
+                  <div data-bind="text:startDate"></div>
+                </td>
+                <td>
+                  <div data-bind="text:organization"></div>
+                </td>
+                <td>
+                  <div data-bind="text:isexecuted"></div>
+                </td>
+                <td>
+                  <div data-bind="text:isexternal"></div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="cc-footer col-lg-12"
+            style="text-align: center;padding: 0px;position:sticky;background-color: #f2f2f2;bottom: -15px;">
+            <ul class="pull-left pagination" style="margin: 0;">
+              <li class="li-pagination">
+                <select class="form-control cc-select" data-bind="
+                    options:paginationPerPage,
+                    value:limitValue,
+                    optionsText: 'name',
+                    optionsValue:'value', event:{change:onPerPageCountChange}"
+                  style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;width: 110px;">
+                </select>
+              </li>
+            </ul>
+            <ul class="pagination" style="margin: 0;">
+              <li class="li-pagination">
+                <a id="a_itemsCount"
+                  style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                  <span data-bind="text:totalContractsCount"></span>
+                  <span data-translatable="true">result(s)</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="pagination pull-right" style="margin: 0;">
+              <li class="li-pagination" id="li_conListLeftNavigation" style="cursor: pointer;"
+                data-bind="visible:currentPage() > 1">
+                <a data-bind="click:goToFirstPage">
+                  <img class="cc-pagination-icon" alt="FirstPage" style="margin-right: -14px;transform: rotate(90deg);"
+                    src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToFirstPage">
+                  <img class="cc-pagination-icon" alt="FirstPage" style="transform: rotate(90deg);"
+                    src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                </a>
+                <a data-bind="click:goToPreviousPage">
+                  <img class="cc-pagination-icon" alt="PreviousPage" style="transform: rotate(90deg);"
+                    src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToPreviousPage">
+                </a>
+              </li>
+              <li class="li-pagination">
+                <span>
+                  <input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="value:currentPage"
+                    disabled
+                    style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;padding-bottom: 7px;"></input>
+                  <span data-translatable="true"> of </span>
+                  <span style="margin-left: .5em;" data-bind="text:numOfPages"></span>
+                </span>
+              </li>
+              <li class="li-pagination" id="li_conListRightNavigation" style="cursor: pointer;"
+                data-bind="visible: numOfPages() > currentPage()">
+                <a data-bind="click:goToNextPage">
+                  <img class="cc-pagination-icon" alt="NextPage" style="transform: rotate(270deg);"
+                    src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToNextPage">
+                </a>
+                <a data-bind="click:goToLastPage">
+                  <img class="cc-pagination-icon" alt="LastPage" style="transform: rotate(270deg);"
+                    src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToLastPage">
+                  <img class="cc-pagination-icon" alt="LastPage" style="margin-left: -14px;transform: rotate(270deg);"
+                    src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+<script type="text/html" id="all-views-template-viewonly">
+    <div class="col-md-4 tile-padding" data-bind="visible:!isRemovedTile()">
+          <div class="tile panel">
+                <!-- ko ifnot:oViewType==='CHART'-->
+                <div class="cc-error-info-area" style="background-color: #FFF;" data-bind="style:{'display':errorMsg()?'block':'none'}">
+                  <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                  <span style="position: relative;" data-bind="text:errorMsg"></span>
+                </div>
+                <div style="height: 100%;">
+                  <div class="panel-heading">
+                    <span class="tile-title" data-bind="text:label, attr:{title:label}, style:{color:tileShades[$index()%5]}"></span>
+                    <span class="badge count-badge" data-bind="text:totalCount, visible:totalCount()>=0, style:{backgroundColor:tileShades[$index()%5]}" title="Total count"></span>
+                    <div class="refresh_icon" class="btn-toolbar" aria-label="Toolbar with button groups" title="Refresh" data-bind="click:refreshTile">
+                      <img class="cc-icon" alt="Refresh" src="../../../../../com/opentext/apps/utils/img/utility_refresh24_md.svg" style="margin-top: 2px;">
+                    </div>
+                    <div class="expand_icon" class="btn-toolbar" aria-label="Toolbar with button groups" title="Expand" data-bind="click:expandList">
+                      <img class="cc-icon" alt="Expand" src="../../../../../com/opentext/apps/utils/img/maximize.svg" style="height: 28px; width: 28px;" onmousedown="this.src='../../../../../com/opentext/apps/utils/img/maximize_hover.svg'" onmouseup="this.src='../../../../../com/opentext/apps/utils/img/maximize.svg'">
+                    </div>
+                  </div>
+                  <!-- ko if: ($data.viewType()==='LIST' || $data.viewType()==='SAVEDSEARCH') && viewListData-->
+                  <div class="detailsText" data-translatable="true">Showing top 25 results</div>
+                  <div class="table-responsive" data-bind="template:{name:'list-template', data:viewListData}, css:{'list-table': listRecordsCount()>1}"></div>
+                  <div class="tile_infoError" data-bind="visible:listRecordsCount()==0">
+                    <div data-translatable="true">No results found</div>
+                  </div>
+                  <div class="tile_infoError" data-bind="visible:errorMsg()">
+                    <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 14px; height: 14px;margin: 5px;" />
+                    <div data-translatable="true" data-bind="text:errorMsg"></div>
+                  </div>
+                  <!-- /ko -->
+                  <!-- ko ifnot:isLoaded()-->
+                  <div class="loadingIndicator"></div>
+                  <!-- /ko -->
+                </div>
+                <!-- /ko -->
+                <!-- ko if:oViewType==='CHART'-->
+                <div  id="header1">
+                <div class="panel-heading" style="position: relative;">
+                  <span class="tile-title" data-bind="text:label, attr:{title:label}, style:{color:tileShades[$index()%5]}" 
+                  ></span>
+                  <div class="refresh_icon" class="btn-toolbar" aria-label="Update reports" title="Refresh" data-bind="click:refreshUserReport">
+                    <i  class="refresh-db-icon"></i>
+                  </div>
+                  <div class="expand_icon" class="btn-toolbar" aria-label="Toolbar with button groups" title="Expand" data-bind="click:expandChart">
+                    <img class="cc-icon" alt="Expand" src="../../../../../com/opentext/apps/utils/img/maximize.svg" style="height: 28px; width: 28px;" onmousedown="this.src='../../../../../com/opentext/apps/utils/img/maximize_hover.svg'" onmouseup="this.src='../../../../../com/opentext/apps/utils/img/maximize.svg'">
+                  </div>
+                </div>
+                </div>
+                <div class="col-md-12 without-padding cc-card-body" id="cardbody1">
+                    <div data-bind="attr:{id:'tile_id'+oViewIndex}"></div>
+                </div>
+                <span style="position: absolute;left:0;bottom: 0;">
+                  <label for="" class="detailsText" style="padding-right: 0px;">Last updated on:</label>
+                  <label for="" class="detailsText" style="padding-left: 0px;" data-bind="text:lastUpdatedDate"></label>
+                </span>
+                <!-- /ko -->
+          </div>
+    </div>
+    <!-- </div>
+  </div> -->
+
+  </script>
+
+<script type="text/html" id="all-views-template-editable">
+    <div class="col-md-4 view-tile tile-padding" data-bind="visible:!isRemovedTile()">
+          <div class="tile panel tile-edit" data-bind="style:{'background-color' : tileShades[$index()%5]}">
+            <div class="tile-options">
+              <div data-bind="click:removeView" title="Remove tile">
+                <img class="tile-options-icon" src="../../../../../com/opentext/apps/utils/img/clear.svg" data-bind="event:{mouseover:isLastTile}, style:{cursor:singleTile()?'not-allowed':'pointer'}"></div>
+            </div>
+            <div style="margin-top: 50px;">
+                  <div style="display: flex;justify-content: center;">
+                    <div class="panel-body">
+                      <input class="tile-label" data-bind="textInput:label,event:{change:onLabelChange}, attr:{title:label}"/>
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: space-evenly;flex-direction: column;padding-left: 10px;">
+                    <!-- ko ifnot:viewType()==='CHART'-->
+                    <div class="form-group" style="width:95%">
+                      <label data-translatable="true" style="color: #fff;" data-bind="text:viewType() == 'SAVEDSEARCH' ? 'Saved search' : 'List'"></label>
+                      <div class="input-group">
+                        
+                        <input id="input_browseview" type="text" class="form-control cc-input-browse rtl-input-browse" readonly data-bind="textInput:viewDisplayName" placeholder="-Select-">
+                        <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;" data-bind="click:openSelectViewModal" title="Browse">
+                          <img class="cc-input-icon" alt="Search" src="../img/toolbar_edit.svg">
+                        </span>
+                        
+                      </div>
+                  </div>
+                   <!-- /ko -->
+                     <!-- ko if:viewType()==='CHART'-->
+                    <div class="form-group" style="width:95%">
+                      <label data-translatable="true" style="color: #fff;" data-bind="text:'Reports'"></label>
+                      <div class="input-group">
+                        <input id="input_browseview" type="text" class="form-control cc-input-browse rtl-input-browse" readonly data-bind="textInput:viewDisplayName" placeholder="-Select-">
+                        <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;" data-bind="click:openSelectViewModal" title="Browse">
+                          <img class="cc-input-icon" alt="Search" src="../img/toolbar_edit.svg">
+                        </span>
+                        
+                      </div>
+                  </div>
+                    <!-- /ko -->
+              </div>
+            </div>
+
+        </div>
+      
+    </div>
+    </script>
+
+<script type="text/html" id="report-select-modal">
+        <div class="modal fade" id="div_editLayoutTileModal" data-bind="with:selectReportModal" role="dialog"
+        style="z-index: 1999;">
+        <div class="modal-content cc-modal-content" style="width:80%; height: 95%;">
+          <div id="successToast" style="font-size: 18px; color: #211e1eeb;"></div>
+          <div class="modal-header cc-modal-header">
+            <button type="button" data-dismiss="modal" style="float: right; border: none; background-color: transparent;">
+              <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+            </button>
+            <div class="modal-title">
+              <span id="span_createOrEditModalHeading" style="font-size: 2rem;"></span>
+              <span style="font-size: 2rem;" data-translatable="true">Select report</span>
+            </div>
+          </div>
+          <div class="modal-body cc-modal-body" style="overflow-y: hidden !important;">
+            <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+              <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg"
+                style="width: 11px; height: 11px;" />
+              <span id="span_errorInfoMessage" style="position: relative;"></span>
+            </div>
+            <div id="div_configSummary">
+              <div class="col-md-12 no-padding">
+                <div class="col-md-12 no-padding tableshadow-light" style="display:flex;padding-left:5px;height:48px">
+                  <div class="" data-bind="click:function(){
+                                                  selectSubPage('MYREPORTS'); }">
+                    <div class="modal-title title-padding" style="text-align:center">
+                      <span style="font-size: 14px;" data-translatable="true"
+                        data-bind="css:{bottomBorder:activeTab()==='MYREPORTS'}" class="bottomBorder">My reports</span>
+                    </div>
+                  </div>
+                  <div data-bind="click:function(){
+                                                  selectSubPage('SHAREDREPORTS'); }">
+                    <div class="modal-title title-padding" style="text-align:center">
+                      <span style="font-size: 14px;" data-translatable="true"
+                        data-bind="css:{bottomBorder:activeTab()==='SHAREDREPORTS'}">Shared
+                        reports</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--ko if:activeTab()==='MYREPORTS' -->
+              <div class="col-md-12 no-padding">
+                <div class="col-md-3 no-padding" style="height: 65vh;overflow-y: hidden;">
+                  <div class="form-group " style="width: 100%;" id="div_savedsearches" apps-toggle="expanded">
+                    <div class="no-padding table-container table-container-sm rtl-float-right tableshadowdepth">
+                      <div class="cc-header cc-border " style="justify-content: space-between;">
+                        <div class="cc-tab--header-title" data-translatable="true" style="padding-left: 7px;">
+                        </div>
+                        <button class="btn btn-default cc-button" title="Create new report"
+                          data-bind="click:createNewReport">
+                          <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/add.svg"
+                            id="id_createActivityListIcon">
+                        </button>
+                      </div>
+                      <div style="height: 60vh;overflow-y: auto;">
+                        <!-- ko foreach:myReports -->
+                        <div style="display:flex;flex-direction:column" data-bind="event:{click:$parent.selectSavedReport}">
+                          <div style="display:flex;flex-direction:row;position:relative" class="row-container"
+                            data-bind="css:{'tableshadow':selected()}">
+                            <div class="row-box" style="width:15%">
+                              <div class="cc-select-column"
+                                data-bind="css:{'cc-radio-off':!selected(),'cc-radio-on':selected()}">
+                              </div>
+                            </div>
+                            <div class="row-box" style="width:85%">
+                              <span style="word-break: break-all" data-bind="text:name">
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <!--/ko-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-bind="with:selectedReport">
+
+                  <div class="col-md-12 no-padding">
+                    <div class="form-group col-md-5 rtl-float-right">
+                      <label class="cc-required" data-translatable="true" for="Priority">Report
+                        name</label>
+                      <input class="form-control" style="width: 100%;" data-translatable="false" maxlength="64"
+                        data-bind="value:name">
+                    </div>
+                    <div class="form-group col-md-3 rtl-float-right">
+                      <label data-translatable="true" class="cc-required">Data set
+                      </label>
+                      <select class="form-control cc-select" data-bind="value : dataSet">
+                        <option value="">-Select-</option>
+                        <option value="Contract">All contracts</option>
+                        <option value="ActiveContract">Active contracts</option>
+                        <option value="DraftContract">Draft contracts</option>
+                        <option value="TerminatedContract">Terminated contracts</option>
+                        <option value="ExecutedContract">Executed contracts</option>
+                        <option value="ExpiredContract">Expired contracts</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group col-md-4 rtl-float-right">
+                      <label data-translatable="true" class="cc-required">Chart
+                        type</label>
+                      <select class="form-control  cc-select" data-bind="value : reportType">
+                        <option value="">-Select-</option>
+                        <option value="BARSINGLE">Bar chart</option>
+                        <option value="BARSINGLEHORIZONTAL">Horizontal bar chart
+                        </option>
+                        <option value="BAR">Grouped bar chart</option>
+                        <option value="STACKEDBAR">Stacked bar chart</option>
+                        <option value="HORIZONTALSTACKEDBAR">Horizontal grouped bar
+                          chart</option>
+                        <option value="PIE">Pie chart</option>
+                        <option value="AREA">Area chart</option>
+                        <option value="LINE">Line chart</option>
+                        <option value="SUNBURST">Sunburst chart</option>
+                      </select>
+                    </div>
+
+                    <div class="form-group col-md-3 rtl-float-right">
+                      <label data-translatable="true" class="cc-required" data-bind="text:xLabel">X-axis </label>
+                      <select class="form-control cc-select" data-bind="value : xColumn">
+                        <!-- ko foreach:$parent.contractColumns -->
+                        <option data-bind="value:$data.name, text:$data.label,
+                                                                attr:{disabled:$data.disabled},
+                                                                style:{'font-weight':($data.disabled?'bold':'normal')} ">
+                        </option>
+                        <!--/ko-->
+                      </select>
+                    </div>
+                    <!--ko if:reportType()!=='PIE' && reportType()!=='BARSINGLE' && reportType()!=='BARSINGLEHORIZONTAL'-->
+                    <div class="form-group col-md-3 rtl-float-right">
+                      <label data-translatable="true" class="cc-required" data-bind="text:yLabel">Y-axis </label>
+                      <select class="form-control  cc-select" data-bind="value : yColumn">
+                        <!-- ko foreach:$parent.contractColumns -->
+                        <option data-bind="value:$data.name, text:$data.label,
+                                                          attr:{disabled:$data.disabled},
+                                                          style:{'font-weight':($data.disabled?'bold':'normal')} ">
+                        </option>
+                        <!--/ko-->
+                      </select>
+                    </div>
+                    <!--/ko-->
+                    <div class="form-group col-md-3 rtl-float-right">
+                      <label data-translatable="true" class="cc-required">Aggregator
+                        function
+                      </label>
+                      <select class="form-control  cc-select" data-bind="value : aggregator">
+                        <option value="">-Select-</option>
+                        <option value="count">Count</option>
+                        <option value="sum">Sum</option>
+                        <option value="countunique">Count unique</option>
+                        <option value="min">Minimum</option>
+                        <option value="max">Maximum</option>
+                        <option value="avg">Average</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-3 rtl-float-right">
+                      <label data-translatable="true" class="cc-required">Aggregator
+                        column
+                      </label>
+                      <select class="form-control  cc-select" data-bind="value : aggregatorColumn">
+                        <!-- ko foreach:$data.aggColumns -->
+                        <option data-bind="value:$data.name, text:$data.label,
+                                                          attr:{disabled:$data.disabled},
+                                                          style:{'font-weight':($data.disabled?'bold':'normal')} ">
+                        </option>
+                        <!--/ko-->
+                      </select>
+                    </div>
+                  </div>
+                  <!--ko if:true || isNew() -->
+                  <div class="col-md-12 no-padding">
+                    <div style="display:flex;align-items:center;margin:20px">
+                      <div style="margin-left:auto;margin-right:auto">
+                        <button type="button" class="cc-btn cc-btn-primary" style="height: 28px;"
+                          data-bind="text:$data.isEdit?'Update changes':'Save changes', click:$parent.saveChart"></button>
+                        <button type="button" class="cc-btn cc-btn-primary" style="height: 28px;"
+                          data-bind="text:'Delete chart', click:$parent.deleteChart"></button>
+                        <button type="button" class="cc-btn cc-btn-secondary" style="outline:none;" data-translatable="true"
+                          data-bind="click:$parent.cancelNewChart">
+                          <span data-translatable="true">Cancel</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!--/ko-->
+                  <div class="col-md-12 no-padding">
+                    <div id="output_preview"></div>
+                  </div>
+                  <div class="col-md-12 no-padding">
+
+                    <div id="model_root_layout11"></div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!--/ko-->
+              <!--ko ifnot:activeTab()==='MYREPORTS' -->
+              <div class="col-md-12 no-padding">
+                <div class="col-md-3 no-padding">
+                  <div class="form-group " style="width: 100%;" id="div_savedsearches" apps-toggle="expanded">
+                    <div class="no-padding table-container table-container-sm rtl-float-right tableshadowdepth">
+                      <!-- ko foreach:sharedReports -->
+                      <div style="display:flex;flex-direction:column">
+                        <div style="display:flex;flex-direction:row;position:relative" class="row-container "
+                          data-bind="css:{'tableshadow':selected()}">
+                          <div class="row-box" style="width:15%">
+                            <div class="cc-select-column"
+                              data-bind="event:{click:$parent.selectSharedReport},css:{'cc-radio-off':!selected(),'cc-radio-on':selected()}">
+                            </div>
+                          </div>
+                          <div class="row-box" style="width:85%">
+                            <span style="word-break: break-all" data-bind="text:name">
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <!--/ko-->
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-9" data-bind="with:selectedReport">
+                  <div class="col-md-12 no-padding">
+                    <div class="form-group col-md-5 rtl-float-right">
+                      <label class="cc-required" data-translatable="true" for="Priority">Report
+                        name</label>
+                      <input class="form-control" style="width: 100%;" maxlength="64" data-translatable="false"
+                        data-bind="value:shrdChartName">
+                    </div>
+                    <div class="form-group col-md-3 rtl-float-right">
+                      <label data-translatable="true">Group by
+                      </label>
+                      <select class="form-control  cc-select" data-bind="value : yColumn">
+                        <!-- ko foreach:$parent.contractDefChartColumns -->
+                        <option data-bind="value:$data.name, text:$data.label,
+                                                          attr:{disabled:$data.disabled},
+                                                          style:{'font-weight':($data.disabled?'bold':'normal')} ">
+                        </option>
+                        <!--/ko-->
+                      </select>
+                    </div>
+                    <div class="form-group col-md-3 rtl-float-right">
+                      <label data-translatable="true" class="cc-required">Duration</label>
+                      <select class="form-control  cc-select" data-bind="value : defaultDuration">
+                        <option value="WEEK">1 week
+                        </option>
+                        <option value="ONEMONTH">1 month
+                        </option>
+                        <option value="THREEMONTH">3 month
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/ko-->
+            </div>
+          </div>
+          <div class="cc-modal-footer modal-footer rtl-text-align-left">
+            <button class="cc-btn cc-btn-primary" 
+            id="btn_createOrUpdateConfig"
+              data-bind="attr:{disabled:!isSavedChart()},css:{'hidden':(isNewReport() && activeTab()==='MYREPORTS')}"
+               style="outline:none;"
+              data-translatable="true">
+              <span data-translatable="true">Add report</span>
+            </button>
+            <!--ko if:activeTab()==='MYREPORTS' && !isNewReport()  -->
+            <!-- <button class="cc-btn cc-btn-primary" style="outline:none;" data-translatable="true"
+                                        data-bind="click:createNewReport">
+                                        <span data-translatable="true">Create report</span>
+                                    </button> -->
+            <!--/ko-->
+            <button type="button" class="cc-btn cc-btn-secondary" data-dismiss="modal" style="outline:none;"
+              data-translatable="true">
+              <span data-translatable="true">Cancel</span>
+            </button>
+          </div>
+        </div>
+      </div>
+</script>
+
+
+
+<script type="text/html" id="list-template">
+        <table class="table view-list">
+          <thead>
+            <tr data-bind="foreach:listHeaders">
+              <th style="width: 35%;" data-translatable="true" data-bind="text:$data, visible:$index()==0"></th>
+              <th style="width: 65%;" data-translatable="true" data-bind="text:$data, visible:$index()==1"></th>
+            </tr>
+          </thead>
+          <tbody data-bind="foreach:listRecords">
+            <tr style="cursor: pointer;" data-bind="foreach:$parent.listProperties, click:$parent.openListRecord">
+              <td>
+                <div class="rowText" data-bind="text:$parent.properties.columnProps[$data], attr:{title:$parent.properties.columnProps[$data]}"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- <div style="text-align: center;" data-bind="visible:totalRecords()>24">Showing top 25 results</div> -->
+    </script>
+
+<script type="text/html" id="chart-template">
+    </script>
+
+</html>

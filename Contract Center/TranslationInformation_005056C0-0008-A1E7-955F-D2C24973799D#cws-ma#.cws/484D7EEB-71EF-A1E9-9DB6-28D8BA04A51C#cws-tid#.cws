@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-9DB6-28D8BA04E51C">
+	<DocumentID>484D7EEB-71EF-A1E9-9DB6-28D8BA04A51C</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-9DB6-28D8BA04A51C</Name>
+	<Description>Update Child Contract value</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-05-15T06:51:12.073</CreationDate>
+	<Notes/>
+	<DefaultText>Update Child Contract value</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-9DB6-28D8BA05251C"
+		/>
+	</Translations>
+</TextIdentifier>

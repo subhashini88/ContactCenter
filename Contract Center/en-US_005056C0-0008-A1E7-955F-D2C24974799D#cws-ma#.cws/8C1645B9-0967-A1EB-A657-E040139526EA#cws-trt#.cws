@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EB-A657-E040139566EA">
+	<DocumentID>8C1645B9-0967-A1EB-A657-E040139526EA</DocumentID>
+	<Name>8C1645B9-0967-A1EB-A657-E040139526EA</Name>
+	<Description>Horizontal Lane</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-09T18:15:53.242</CreationDate>
+	<Notes/>
+	<Text>Horizontal Lane</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EB-A657-E4BAB7AC66EA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B6CC-CF8D3CE66B87">
+	<DocumentID>50EB711A-AD5A-A1EC-B6CC-CF8D3CE62B87</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B6CC-CF8D3CE62B87</Name>
+	<Description>For Each - Features</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-24T07:42:31.574</CreationDate>
+	<Notes/>
+	<Text>For Each - Features</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B6CC-CF8D3CE5AB87"
+		/>
+	</TextIdentifier>
+</TranslatedText>

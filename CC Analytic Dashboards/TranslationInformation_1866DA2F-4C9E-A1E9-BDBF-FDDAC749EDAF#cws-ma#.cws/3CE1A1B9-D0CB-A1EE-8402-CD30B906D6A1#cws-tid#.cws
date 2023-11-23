@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3CE1A1B9-D0CB-A1EE-8402-CD30B90716A1">
+	<DocumentID>3CE1A1B9-D0CB-A1EE-8402-CD30B906D6A1</DocumentID>
+	<Name>3CE1A1B9-D0CB-A1EE-8402-CD30B906D6A1</Name>
+	<Description>CreateScheduleRecords</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-06-21T08:22:13.044</CreationDate>
+	<Notes/>
+	<DefaultText>CreateScheduleRecords</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3CE1A1B9-D0CB-A1EE-8402-CD30B90756A1"
+		/>
+	</Translations>
+</TextIdentifier>

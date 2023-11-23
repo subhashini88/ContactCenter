@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC6E-8E16964CC882">
+	<DocumentID>F8B156D6-337A-A1E8-AC6E-8E16964C8882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC6E-8E16964C8882</Name>
+	<Description>ReadIdentity</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-06T10:16:06.44</CreationDate>
+	<Notes/>
+	<Text>ReadIdentity</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC6F-6E0C8C674882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9AEC-219247527153">
+	<DocumentID>F8E4E399-CF40-A1ED-9AEC-219247523153</DocumentID>
+	<Name>HideIPDEPDTabs</Name>
+	<Description>HideIPDEPDTabs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-11-24T04:31:26.56</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="C4D98747-A6D9-A1E8-AC98-AF019F4B886E"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

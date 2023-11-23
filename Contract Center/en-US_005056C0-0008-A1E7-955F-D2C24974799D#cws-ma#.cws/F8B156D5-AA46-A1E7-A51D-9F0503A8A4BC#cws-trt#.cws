@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A51D-9F0503A8E4BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A51D-9F0503A8A4BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A51D-9F0503A8A4BC</Name>
+	<Description>Renewals and terminations</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-08T09:19:23.767</CreationDate>
+	<Notes/>
+	<Text>Renewals and terminations</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A51D-9F0503A824BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B2E8-F0E602B48876">
+	<DocumentID>B4B676CD-53D8-A1E8-B2E8-F0E602B44876</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B2E8-F0E602B44876</Name>
+	<Description>Cross application object ID</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-09T09:16:48.059</CreationDate>
+	<Notes/>
+	<Text>Cross application object ID</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-B2E8-F0E602B3C876"
+		/>
+	</TextIdentifier>
+</TranslatedText>

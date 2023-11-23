@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B69D-2ABC6F4824BA">
+	<DocumentID>9890969C-5774-A1E7-B69D-2ABC6F47E4BA</DocumentID>
+	<Name>9890969C-5774-A1E7-B69D-2ABC6F47E4BA</Name>
+	<Description>Cancellation reason code</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-12-06T11:01:55.144</CreationDate>
+	<Notes/>
+	<Text>Cancellation reason code</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B69D-2ABC6F4764BA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

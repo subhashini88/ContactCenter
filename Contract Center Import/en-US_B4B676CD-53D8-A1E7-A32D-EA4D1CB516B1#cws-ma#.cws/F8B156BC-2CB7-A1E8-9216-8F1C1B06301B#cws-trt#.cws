@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9216-8F1C1B06701B">
+	<DocumentID>F8B156BC-2CB7-A1E8-9216-8F1C1B06301B</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9216-8F1C1B06301B</Name>
+	<Description>getAllStatusesNotCompleted</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-04-25T08:20:18.884</CreationDate>
+	<Notes/>
+	<Text>getAllStatusesNotCompleted</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9216-8F1C1B05B01B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

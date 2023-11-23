@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E8-AC30-D21E1DAFA4D9">
+	<DocumentID>F8B156D5-E69D-A1E8-AC30-D21E1DAF64D9</DocumentID>
+	<Name>F8B156D5-E69D-A1E8-AC30-D21E1DAF64D9</Name>
+	<Description>Import status</Description>
+	<CreatedBy>vardhan</CreatedBy>
+	<CreationDate>2018-09-05T05:45:45.165</CreationDate>
+	<Notes/>
+	<Text>Import status</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E8-AC30-D21E1DAEE4D9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

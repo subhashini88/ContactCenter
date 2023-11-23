@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E9-8BD9-7A95CF3B24DF">
+	<DocumentID>F8B156D6-35F3-A1E9-8BD9-7A95CF3AE4DF</DocumentID>
+	<Name>F8B156D6-35F3-A1E9-8BD9-7A95CF3AE4DF</Name>
+	<Description>Password</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2019-02-13T08:38:11.945</CreationDate>
+	<Notes/>
+	<Text>Password</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD9-7A95CF3A64DF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC6C-0C99F18CC882">
+	<DocumentID>F8B156D6-337A-A1E8-AC6C-0C99F18C8882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC6C-0C99F18C8882</Name>
+	<Description>CTR</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-06T09:02:55.782</CreationDate>
+	<Notes/>
+	<Text>CTR</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC6C-0C99F18C0882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

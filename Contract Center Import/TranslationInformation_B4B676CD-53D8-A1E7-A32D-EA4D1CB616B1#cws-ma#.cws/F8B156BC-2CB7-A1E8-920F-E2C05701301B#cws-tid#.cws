@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-920F-E2C05701701B">
+	<DocumentID>F8B156BC-2CB7-A1E8-920F-E2C05701301B</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-920F-E2C05701301B</Name>
+	<Description>GetAllMetadataLifecycleNotCompleted</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-04-25T04:20:58.908</CreationDate>
+	<Notes/>
+	<DefaultText>GetAllMetadataLifecycleNotCompleted</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-920F-E2C05701B01B"
+		/>
+	</Translations>
+</TextIdentifier>

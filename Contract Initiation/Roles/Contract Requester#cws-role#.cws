@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC3C-94CC5D250882">
+	<DocumentID>F8B156D6-337A-A1E8-AC3C-94CC5D24C882</DocumentID>
+	<Name>Contract Requester</Name>
+	<Description>Contract Requester</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T10:04:54.832</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles>
+		<uri
+			id="F8B156D6-337A-A1E8-AFF9-EE5727540883"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-B768-E1E59CFCC87B"
+		/>
+		<uri
+			id="005056C0-0008-A1E7-ACC6-88CB070192CE"
+		/>
+		<uri
+			id="00505601-6E6B-A1EA-AABB-10363703110E"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A9BF-751096113079"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

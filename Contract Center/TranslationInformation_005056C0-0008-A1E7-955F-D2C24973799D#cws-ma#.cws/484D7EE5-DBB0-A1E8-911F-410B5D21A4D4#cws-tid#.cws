@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-911A-66C8357EE4D4">
+	<DocumentID>484D7EE5-DBB0-A1E8-911F-410B5D21A4D4</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-911F-410B5D21A4D4</Name>
+	<Description>Active cancelled outcome list</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-04-20T09:28:20.385</CreationDate>
+	<Notes/>
+	<DefaultText>Active cancelled outcome list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-911A-66C8357F24D4"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B149-6DB55253AEF0">
+	<DocumentID>C4D98747-AA4E-A1E7-B149-6DB552536EF0</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B149-6DB552536EF0</Name>
+	<Description>Choose</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-09T08:14:22.645</CreationDate>
+	<Notes/>
+	<DefaultText>Choose</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B149-6DB55253EEF0"
+		/>
+	</Translations>
+</TextIdentifier>

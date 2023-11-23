@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-88B7-2511388EA50F">
+	<DocumentID>484D7EEB-71EF-A1E9-88B7-2511388E650F</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-88B7-2511388E650F</Name>
+	<Description>On action date to external contact about renewal</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-28T09:19:16.049</CreationDate>
+	<Notes/>
+	<Text>On action date to external contact about renewal</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-88B7-2511388DE50F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

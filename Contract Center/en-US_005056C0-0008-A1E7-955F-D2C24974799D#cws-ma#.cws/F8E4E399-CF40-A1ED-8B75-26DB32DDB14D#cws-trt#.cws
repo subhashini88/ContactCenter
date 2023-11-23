@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-8B75-26DB32DDF14D">
+	<DocumentID>F8E4E399-CF40-A1ED-8B75-26DB32DDB14D</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-8B75-26DB32DDB14D</Name>
+	<Description>Update Concatenation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-06T12:51:22.691</CreationDate>
+	<Notes/>
+	<Text>Update Concatenation</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-8B75-26DB32DD314D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

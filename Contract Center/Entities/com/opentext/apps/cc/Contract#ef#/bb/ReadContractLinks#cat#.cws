@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-BAA3-13D88CF4E663">
+	<DocumentID>8C1645B9-0967-A1E9-BAA3-13D88CF4A663</DocumentID>
+	<Name>ReadContractLinks</Name>
+	<Description>ReadContractLinks</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-09T12:08:13.52</CreationDate>
+	<Notes/>
+	<referenceCount>1</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

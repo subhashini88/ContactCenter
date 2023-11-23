@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B767-86F32F69E503">
+	<DocumentID>484D7EE5-DBB0-A1E8-B767-86F32F69A503</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B767-86F32F69A503</Name>
+	<Description>Is tifications on</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-11-01T06:19:49.136</CreationDate>
+	<Notes/>
+	<DefaultText>Is tifications on</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B767-86F32F6A2503"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title data-translatable="true">Generate document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+  <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css" />
+  <link rel="stylesheet" href="../css/termsList.css" />
+  <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+  <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+  <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+  <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+  <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+  <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+  <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+  <script src="../js/conditionalAuthoringUtil.js" type="text/javascript"></script>
+  <script src="../js/termsDocGen.js" type="text/javascript"></script>
+</head>
+
+<body class="cc-ltr">
+  <div id="terms_list_form_container" class="col-md-12 cc-parent-container">
+    <div class="col-md-12 no-padding">
+      <div id="value_range_table" class="table ">
+        <!-- <span style="word-break: break-all">Terms</span> -->
+        <div class="row-container " style="background-color: #F2F2F2;height: 30px;">
+          <div class="row-box" style="width:85%">
+            <span style="word-break: break-all"></span>
+          </div>
+        </div>
+        <div data-bind="template:{name:'TermsList_TableDataRow',foreach:termsList}">
+        </div>
+      </div>
+    </div>
+    <script type="text/html" id="TermsList_TableDataRow">
+            <div style="display:flex;flex-direction:column" >
+              <div style="display:flex;flex-direction:row;position:relative" class="row-container"
+               data-bind="css:{tableshadow:expand()}" >
+                <div class="row-box" style="width:5%" data-bind="style:{'margin-left':ko.pureComputed(function(){
+                  return ($data.depth()*15 +4)+'px';
+                })}">
+                  <span class="caretdown-icon"  data-bind="css:{hidden:!expand()},click:function(){
+                    $root.expandTerm($data,event);
+                  }" ></span>
+                  <span class="caretup-icon rtl-caretup-icon" data-bind="css:{hidden:expand()},click:function(){
+                    $root.expandTerm($data,event);
+                  }" ></span>
+                </div>
+                <div class="row-box"  style="width:85%">
+                  <span data-bind="text:termName" style="word-break: break-all"></span>
+                </div>
+              </div>
+              <div data-bind="css:{hidden:!expand()}">
+                  <div class="row">
+                    <form>
+                      <div class="col-sm-12">
+                        <div class="col-sm-4 hidden">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Term name</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:termName"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4" style="margin-top: 10px;">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Clause</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:clauseName"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Parent clause</span></label>
+                                <p class="form-control-static cc-form-value" data-bind="text:parentClause"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12" style="margin:5px 0px 5px 0px;">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Parent section</span></label>
+                                <p class="form-control-static cc-form-value cc-form-value-long" data-bind="text:parentSection"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="cc-form-label"><span data-translatable="true">Value</span></label>
+                                <input type="text" class="form-control" id="position" data-bind="value:value,event:{blur:$root.updateTermValue}">
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                  </div>
+              </div>
+            </div>
+      </script>
+  </div>
+</body>
+
+</html>

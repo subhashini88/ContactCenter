@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2D-A8DF-A1E7-AE19-E2388FE4A4C2">
+	<DocumentID>1866DA2D-A8DF-A1E7-AE19-E2388FE464C2</DocumentID>
+	<Name>1866DA2D-A8DF-A1E7-AE19-E2388FE464C2</Name>
+	<Description>Cancellation reason</Description>
+	<CreatedBy>kshinde kshinde</CreatedBy>
+	<CreationDate>2017-10-24T03:21:16.026</CreationDate>
+	<Notes/>
+	<Text>Cancellation reason</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2D-A8DF-A1E7-AE19-E2388FE3E4C2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-BCD2-5CF247797081">
+	<DocumentID>F8B156BC-2CB7-A1EA-BCD2-5CF247793081</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-BCD2-5CF247793081</Name>
+	<Description>Update parent and order</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-09-10T16:48:34.868</CreationDate>
+	<Notes/>
+	<Text>Update parent and order</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-BCD2-5CF24778B081"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-96A3-C8583B80E4F5">
+	<DocumentID>F8B156D5-E69D-A1E9-96A3-C8583B80A4F5</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-96A3-C8583B80A4F5</Name>
+	<Description>WeeklyPendingRequest</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-09T06:32:54.465</CreationDate>
+	<Notes/>
+	<Text>WeeklyPendingRequest</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-96A3-C8583B8024F5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-AA6D-C8CD1F062DBF">
+	<DocumentID>1866DA2F-4C9E-A1EA-AA6D-C8CD1F05EDBF</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-AA6D-C8CD1F05EDBF</Name>
+	<Description>ReadGCOrganization</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-08T19:04:34.632</CreationDate>
+	<Notes/>
+	<DefaultText>ReadGCOrganization</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EA-AA6D-C8CD1F066DBF"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,104 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B49C-3644C8A9EB84">
+	<DocumentID>50EB711A-AD5A-A1EC-B49C-3644C8A9AB84</DocumentID>
+	<Name>Upgrade Utility</Name>
+	<Description>Upgrade Utility</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-13T05:56:03.489</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<Configurations/>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="50EB711A-AD5A-A1EC-B49C-3644C8A8AB84">
+			<DocumentID>50EB711A-AD5A-A1EC-B49C-3644C8A86B84</DocumentID>
+			<Name>Opentext Upgrade Utility</Name>
+			<Description>Opentext Upgrade Utility</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-13T05:56:03.49</CreationDate>
+			<Notes/>
+			<BuildNumber>1</BuildNumber>
+			<GenerateModelPackage>true</GenerateModelPackage>
+			<ISVPackageFileName>Opentext Upgrade Utility</ISVPackageFileName>
+			<ISVPackageOwner>Opentext</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Upgrade Utility</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+				<cws:item>ORGANIZATION</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>23.4.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A92B84"
+			path="Upgrade Utility"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="50EB711A-AD5A-A1EC-B49C-3644C8A82B84">
+			<DocumentID>50EB711A-AD5A-A1EC-B49C-3644C8A7EB84</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description>TranslationInformation</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-05-13T05:56:03.488</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="50EB711A-AD5A-A1EC-B49C-3644C8A72B84">
+					<DocumentID>50EB711A-AD5A-A1EC-B49C-3644C8A6EB84</DocumentID>
+					<Name>en-US</Name>
+					<Description>en-US</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2022-05-13T05:56:03.487</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="50EB711A-AD5A-A1EC-B49C-3644C8A66B84"
+							path="Upgrade Utility/en-US_50EB711A-AD5A-A1EC-B49C-3644C8A66B84"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="50EB711A-AD5A-A1EC-B49C-3644C8A7EB84"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="50EB711A-AD5A-A1EC-B49C-3644C8A76B84"
+					path="Upgrade Utility/TranslationInformation_50EB711A-AD5A-A1EC-B49C-3644C8A76B84"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

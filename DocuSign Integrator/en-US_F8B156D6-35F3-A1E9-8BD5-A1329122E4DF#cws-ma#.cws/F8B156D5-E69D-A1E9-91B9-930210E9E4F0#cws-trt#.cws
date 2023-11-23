@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-91B9-930210EA24F0">
+	<DocumentID>F8B156D5-E69D-A1E9-91B9-930210E9E4F0</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-91B9-930210E9E4F0</Name>
+	<Description>Is docusign configuration 
+available?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-15T05:55:02.255</CreationDate>
+	<Notes/>
+	<Text>Is docusign configuration 
+available?</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-91B9-930210E964F0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

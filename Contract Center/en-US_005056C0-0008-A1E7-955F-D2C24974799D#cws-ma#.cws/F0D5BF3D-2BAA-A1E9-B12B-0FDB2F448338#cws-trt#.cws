@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B12B-0FDB2F44C338">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B12B-0FDB2F448338</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B12B-0FDB2F448338</Name>
+	<Description>GetExternalContactsbyPartyItemID</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-08-22T07:13:23.176</CreationDate>
+	<Notes/>
+	<Text>GetExternalContactsbyPartyItemID</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B12B-0FDB2F440338"
+		/>
+	</TextIdentifier>
+</TranslatedText>

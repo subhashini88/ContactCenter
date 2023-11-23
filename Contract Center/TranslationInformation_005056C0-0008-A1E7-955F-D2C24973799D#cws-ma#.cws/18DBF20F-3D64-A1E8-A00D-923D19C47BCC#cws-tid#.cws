@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="18DBF20F-3D64-A1E8-A00D-923D19C4BBCC">
+	<DocumentID>18DBF20F-3D64-A1E8-A00D-923D19C47BCC</DocumentID>
+	<Name>18DBF20F-3D64-A1E8-A00D-923D19C47BCC</Name>
+	<Description>BN_Product list</Description>
+	<CreatedBy>pradeep</CreatedBy>
+	<CreationDate>2018-07-05T09:34:27.759</CreationDate>
+	<Notes/>
+	<DefaultText>BN_Product list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="18DBF20F-3D64-A1E8-A00D-923D19C4FBCC"
+		/>
+	</Translations>
+</TextIdentifier>

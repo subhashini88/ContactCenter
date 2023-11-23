@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B15B-48D2B9B7C338">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B15B-48D2B9B78338</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B15B-48D2B9B78338</Name>
+	<Description>GetContractDataforNegotiation</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-08-23T06:13:38.341</CreationDate>
+	<Notes/>
+	<DefaultText>GetContractDataforNegotiation</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B15B-48D2B9B80338"
+		/>
+	</Translations>
+</TextIdentifier>

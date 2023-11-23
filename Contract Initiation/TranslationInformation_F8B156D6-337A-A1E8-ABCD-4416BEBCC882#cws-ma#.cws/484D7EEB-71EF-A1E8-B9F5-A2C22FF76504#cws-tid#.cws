@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B9F5-A2C22FF7A504">
+	<DocumentID>484D7EEB-71EF-A1E8-B9F5-A2C22FF76504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B9F5-A2C22FF76504</Name>
+	<Description>Contract requester home</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-14T06:31:48.988</CreationDate>
+	<Notes/>
+	<DefaultText>Contract requester home</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E8-B9F5-A2C22FF7E504"
+		/>
+	</Translations>
+</TextIdentifier>

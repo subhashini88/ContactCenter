@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EB-AB97-907931BC6DC5">
+	<DocumentID>1866DA2F-4C9E-A1EB-AB97-907931BC2DC5</DocumentID>
+	<Name>1866DA2F-4C9E-A1EB-AB97-907931BC2DC5</Name>
+	<Description>Log details</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-05-06T11:41:13.545</CreationDate>
+	<Notes/>
+	<Text>Log details</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EB-AB97-907931BBADC5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

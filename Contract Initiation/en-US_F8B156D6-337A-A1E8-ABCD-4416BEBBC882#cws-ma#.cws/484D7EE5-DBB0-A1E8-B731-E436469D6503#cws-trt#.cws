@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B731-E436469DA503">
+	<DocumentID>484D7EE5-DBB0-A1E8-B731-E436469D6503</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B731-E436469D6503</Name>
+	<Description>Re-draft</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-10-31T04:47:20.946</CreationDate>
+	<Notes/>
+	<Text>Re-draft</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B731-E436469CE503"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A0F-1B33B6D16B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A0F-1B33B6D12B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A0F-1B33B6D12B9A</Name>
+	<Description>Z_INT_AllEnvolopeStatusList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-30T08:22:34.378</CreationDate>
+	<Notes/>
+	<Text>Z_INT_AllEnvolopeStatusList</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A0F-1B33B6D0AB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

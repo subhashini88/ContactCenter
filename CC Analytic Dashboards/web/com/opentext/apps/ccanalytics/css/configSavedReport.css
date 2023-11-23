@@ -1,0 +1,111 @@
+#chartContainer {
+    overflow-x: hidden;
+}
+
+.row-container {
+    padding: 10px 2px;
+}
+
+.table-container {
+    background-color: #EDF0F2;
+    min-height: 88vh;
+}
+
+.tableshadow {
+    background-color: #CBD3D9;
+}
+
+.c3-line,
+.c3-focused {
+    stroke-width: 3px !important;
+}
+
+.c3-bar {
+    stroke: white !important;
+    stroke-width: 1;
+}
+
+.c3 text {
+    font-size: 12px;
+    color: grey;
+}
+
+.tick line {
+    stroke: white;
+}
+
+.c3-axis path {
+    stroke: grey;
+}
+
+.c3-circle {
+    opacity: 1 !important;
+}
+
+.c3-xgrid-focus {
+    visibility: hidden !important;
+}
+
+
+/* Drop Down Button Start */
+
+.button-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.drop-button {
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+}
+
+.cc-drop-button-split {
+    border: 1px solid #ccc;
+    border-width: 0 0 0 1px;
+    margin: -5px 5px;
+}
+
+.cc-drop-button {
+    width: 25px;
+    height: 25px;
+    background: url(../../../../../com/opentext/apps/utils/img/caret_down10_white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -5px -8px -5px -5px;
+    transform: rotate(180deg);
+}
+
+.cc-drop-button-action-container {
+    position: absolute;
+    list-style: none;
+    padding: 5px 0;
+    margin: 1px 0 0;
+    border: 0;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .7);
+    max-width: 1639px;
+    max-height: 266px;
+    min-width: 160px;
+    top: 0px;
+    left: 0px;
+}
+
+.cc-drop-button-action-container li.cc-drop-button-action {
+    text-align: left;
+    padding: 4px 16px;
+    white-space: nowrap;
+    margin: 2px 0;
+    height: 2em;
+    color: #333;
+}
+
+.cc-drop-button-action-container .cc-drop-button-action:hover {
+    background-color: #bac9ce;
+    color: #000;
+}

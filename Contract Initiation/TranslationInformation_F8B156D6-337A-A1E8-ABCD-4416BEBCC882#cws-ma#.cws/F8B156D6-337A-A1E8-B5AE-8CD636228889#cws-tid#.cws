@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B5AE-8CD63622C889">
+	<DocumentID>F8B156D6-337A-A1E8-B5AE-8CD636228889</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B5AE-8CD636228889</Name>
+	<Description>Dashboard for contract request approver_1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-23T12:34:41.167</CreationDate>
+	<Notes/>
+	<DefaultText>Dashboard for contract request approver_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-337A-A1E8-B5AE-8CD636230889"
+		/>
+	</Translations>
+</TextIdentifier>

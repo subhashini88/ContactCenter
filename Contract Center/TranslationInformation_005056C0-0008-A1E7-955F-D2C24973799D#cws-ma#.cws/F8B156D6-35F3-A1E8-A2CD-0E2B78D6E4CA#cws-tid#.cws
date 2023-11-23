@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A2CD-0E2B78D724CA">
+	<DocumentID>F8B156D6-35F3-A1E8-A2CD-0E2B78D6E4CA</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A2CD-0E2B78D6E4CA</Name>
+	<Description>GenericTerminateOrExpire_1</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-19T09:25:36.53</CreationDate>
+	<Notes/>
+	<DefaultText>GenericTerminateOrExpire_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-A2CD-0E2B78D764CA"
+		/>
+	</Translations>
+</TextIdentifier>

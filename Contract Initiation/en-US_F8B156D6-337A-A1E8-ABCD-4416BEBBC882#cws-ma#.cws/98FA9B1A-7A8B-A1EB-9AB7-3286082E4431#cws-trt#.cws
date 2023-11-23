@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9AB7-3286082E8431">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9AB7-3286082E4431</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9AB7-3286082E4431</Name>
+	<Description>activitylisttasklist</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-09T13:51:46.776</CreationDate>
+	<Notes/>
+	<Text>activitylisttasklist</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9AB7-3286082DC431"
+		/>
+	</TextIdentifier>
+</TranslatedText>

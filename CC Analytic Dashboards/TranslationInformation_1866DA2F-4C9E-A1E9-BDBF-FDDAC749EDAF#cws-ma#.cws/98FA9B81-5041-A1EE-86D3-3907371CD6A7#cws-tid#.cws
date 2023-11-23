@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-86D3-3907371D16A7">
+	<DocumentID>98FA9B81-5041-A1EE-86D3-3907371CD6A7</DocumentID>
+	<Name>98FA9B81-5041-A1EE-86D3-3907371CD6A7</Name>
+	<Description>&quot;Trigger time&quot; is less tham current time</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-07-05T16:05:43.468</CreationDate>
+	<Notes/>
+	<DefaultText>&quot;Trigger time&quot; is less tham current time</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EE-86D3-3907371D56A7"
+		/>
+	</Translations>
+</TextIdentifier>

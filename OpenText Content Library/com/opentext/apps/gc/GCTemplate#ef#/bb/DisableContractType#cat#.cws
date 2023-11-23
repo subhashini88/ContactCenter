@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B633-AC76C62DA502">
+	<DocumentID>484D7EEB-71EF-A1E8-B633-AC76C62D6502</DocumentID>
+	<Name>DisableContractType</Name>
+	<Description>DisableContractType</Description>
+	<CreatedBy>nareshp</CreatedBy>
+	<CreationDate>2018-10-26T04:27:12.37</CreationDate>
+	<Notes/>
+	<referenceCount>2</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="C4D98747-A6D9-A1E8-AC98-AF019F4B886E"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

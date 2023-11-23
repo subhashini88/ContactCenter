@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Custom attributes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <link rel="stylesheet" href="../css/customattributes.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>    
+    <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+    <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../js/ExtContact_Customattributes.js" type="text/javascript"></script>
+</head>
+
+<body class="cc-ltr">
+    <div id="list_form_container" class="col-md-12 cc-parent-container" style="padding-top: 15px;">
+        <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+            <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg"
+                style="width: 11px; height: 11px;" />
+            <span id="span_errorInfoMessage" style="position: relative;"></span>
+        </div>
+        <div id="loadingMsg" class="col-xs-12 defaultInfo" style="display: block; padding-top: 10%;">
+            <img src="../img/custom-loader.gif" id="loader">
+            <p data-translatable="true">Loading custom attributes...</p>
+        </div>
+        <div class="" id="id_customAttributesData">
+            <!--ko if: CustomAttributes().length>0-->
+            <div>
+                <div class="col-md-9" data-bind="foreach:CustomAttributes">
+                    <div class="col-md-6">
+                        <div class="col-md-11" style="padding: 0 !important;margin: 0px !important;">
+                            <div class="form-group col-md-12" 
+                                data-bind="css: { 'max-height-52': (dataType=='BOOLEAN' && $index()%2==0),'max-height-54': (dataType=='BOOLEAN' && $index()%2==1)}">
+                                <label class="" data-translatable="true" data-bind="text:label"></label>
+                                <!--ko if: dataType=="BOOLEAN"--> 
+                                    <div>
+                                        <div class="col-md-6 no-padding">
+                                            <div class="cc-select-column" style="width: 20px;" data-bind="css:{'cc-radio-off' : value() == false, 'cc-radio-on' : value() == true}"></div>
+                                            <span data-translatable="true">Yes</span>
+                                        </div>
+                                        <div class="col-md-6 no-padding">
+                                            <div class="cc-select-column" style="width: 20px;" data-bind="css:{'cc-radio-on' : value() == false, 'cc-radio-off' : value() == true}"></div>
+                                            <span data-translatable="true">No</span>
+                                        </div>
+                                    </div>                                    
+                                <!--/ko-->
+                                <!--ko if: dataType=="TEXT"-->
+                                <input type="text" data-bind="value:value,enable:$root.isEditable(),attr:{id:name}"
+                                    class="form-control" maxlength="64"/>
+                                <!--/ko-->
+                                <!--ko if: dataType=="NUMBER"-->
+                                <input type="text" data-bind="value:value,enable:$root.isEditable(),attr:{id:name}"
+                                    class="form-control" maxlength="64"/>
+                                <!--/ko-->
+                                <!--ko if: dataType=="ENUM"-->                           
+                                <select class="form-control cc-select"
+                                    data-bind="value: value,options:selectOptions,optionsText: 'name', optionsValue: 'value',optionsCaption: 'Select an option',enable:$root.isEditable(),attr:{id:name}">
+                                </select>
+                                <!--/ko-->
+                                <!--ko if: dataType=="DATE"-->
+                                 <input type="text" class="form-control dropdown-select-calender"
+                                 data-bind="datepicker:value,datepickerOptions: { dateFormat: dateFormat },enable:$root.isEditable()"/>
+                                <!--/ko-->
+                            </div>
+                    </div>
+                    <div class="col-md-1" style="padding: 0 !important;margin: 0px !important;"></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+            <!--/ko-->
+            <!--ko if: (dataLoaded() && CustomAttributes().length==0)-->
+            <div class="defaultInfo" style="padding-top: 10%;">
+                <p data-translatable="true">No custom attributes are mapped to this contract.</p>
+            </div>
+            <!--/ko-->
+        </div>
+    </div>           
+</body>
+
+</html>

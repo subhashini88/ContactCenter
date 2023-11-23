@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-941C-5B215C076516">
+	<DocumentID>484D7EEB-71EF-A1E9-941C-5B215C072516</DocumentID>
+	<Name>Service Access in OpenText Docusign Services</Name>
+	<Description>Service Access</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-27T09:32:40.12</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>Service Access</CommonName>
+	<DistinguishedName>cn=Service Access,cn=OpenText Docusign Services,cn=cordys,cn=defaultInst,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Internal</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="484D7EEB-71EF-A1E9-941C-5B215C06E516">
+			<DocumentID>484D7EEB-71EF-A1E9-941C-5B215C06A516</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-03-27T09:32:40.12</CreationDate>
+			<Notes/>
+			<ArtifactID>484D7EEB-71EF-A1E9-928D-5BAE0228A516</ArtifactID>
+			<CAPID>f8b156d5-e69d-a1e9-8bd3-3810e7f6e4e9</CAPID>
+			<CAPName>OpenText Docusign Services</CAPName>
+			<CAPVersion>ver19.2build1</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

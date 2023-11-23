@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-9598-37809B12EB67">
+	<DocumentID>50EB711A-AD5A-A1EC-9598-37809B12AB67</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-9598-37809B12AB67</Name>
+	<Description>On_TaskCreationObligation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-06T07:29:01.211</CreationDate>
+	<Notes/>
+	<Text>On_TaskCreationObligation</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-9598-37809B122B67"
+		/>
+	</TextIdentifier>
+</TranslatedText>

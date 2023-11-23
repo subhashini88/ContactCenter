@@ -1,0 +1,79 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-9291-D4F85BB74F6F">
+	<DocumentID>84A938BF-F78D-A1EE-9291-D4F85BB70F6F</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-03T10:48:51.788</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="84A938BF-F78D-A1EE-9291-2CC86C9E8F6F"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="84A938BF-F78D-A1EE-9291-D4F85BB68F6F">
+			<DocumentID>84A938BF-F78D-A1EE-9291-D4F85BB64F6F</DocumentID>
+			<Name>ReadOBLComplianceData</Name>
+			<Description>Read OBLComplianceData</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-09-03T10:48:51.789</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="84A938BF-F78D-A1EE-9291-2CC86C9E8F6F"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="84A938BF-F78D-A1EE-92D3-14CAAC4E4F6F">
+			<DocumentID>84A938BF-F78D-A1EE-92D3-14CAAC4E0F6F</DocumentID>
+			<Name>GetParentOwner</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-09-04T18:06:20.126</CreationDate>
+			<Notes/>
+			<OperationType>GetParent</OperationType>
+			<Entity>
+				<uri
+					id="84A938BF-F78D-A1EE-9291-2CC86C9E8F6F"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="84A938BF-F78D-A1EE-9291-D4F85BB44F6F"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="84A938BF-F78D-A1EE-9291-D4F85BB60F6F">
+			<DocumentID>84A938BF-F78D-A1EE-9291-D4F85BB5CF6F</DocumentID>
+			<Name>UpdateOBLComplianceData</Name>
+			<Description>Update OBLComplianceData</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-09-03T10:48:51.789</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="84A938BF-F78D-A1EE-9291-2CC86C9E8F6F"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

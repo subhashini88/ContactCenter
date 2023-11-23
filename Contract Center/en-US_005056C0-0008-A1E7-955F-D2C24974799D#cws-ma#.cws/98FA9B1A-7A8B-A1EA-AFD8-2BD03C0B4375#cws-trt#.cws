@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-AFD8-2BD03C0B8375">
+	<DocumentID>98FA9B1A-7A8B-A1EA-AFD8-2BD03C0B4375</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-AFD8-2BD03C0B4375</Name>
+	<Description>Orgnaization creation incorrect.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-07-06T08:32:46.334</CreationDate>
+	<Notes/>
+	<Text>Orgnaization creation incorrect.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-AFD8-2BD03C0AC375"
+		/>
+	</TextIdentifier>
+</TranslatedText>

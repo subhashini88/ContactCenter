@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E7-BFCB-3CA0F8D424F3">
+	<DocumentID>C4D98747-A6D9-A1E7-BFCB-3CA0F8D3E4F3</DocumentID>
+	<Name>C4D98747-A6D9-A1E7-BFCB-3CA0F8D3E4F3</Name>
+	<Description>Disable type subtype relationships</Description>
+	<CreatedBy>setup</CreatedBy>
+	<CreationDate>2018-01-22T04:36:49.058</CreationDate>
+	<Notes/>
+	<Text>Disable type subtype relationships</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E7-BFCB-3CA0F8D364F3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

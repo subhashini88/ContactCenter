@@ -1,0 +1,32 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BFA8-D911CC9DBAA3">
+	<DocumentID>98FA9B81-5041-A1EC-BFA8-D911CC9D7AA3</DocumentID>
+	<Name>CC System Manager</Name>
+	<Description>CC System Manager</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-07-08T10:26:46.208</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles>
+		<uri
+			id="F8B156B4-FF8F-11E6-E707-9FA82E5DF319"
+		/>
+		<uri
+			id="98FA9B81-5041-A1ED-80CC-4F8D0374FAA3"
+		/>
+		<uri
+			id="98FA9B81-5041-A1ED-80CC-4F8D03733AA3"
+		/>
+		<uri
+			id="98FA9B81-5041-A1ED-80CC-4F8D03773AA3"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

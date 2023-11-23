@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-959C-A92EBE4F399D">
+	<DocumentID>005056C0-0008-A1E7-959C-A92EBE4EF99D</DocumentID>
+	<Name>005056C0-0008-A1E7-959C-A92EBE4EF99D</Name>
+	<Description>Section list</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-21T11:15:36.344</CreationDate>
+	<Notes/>
+	<DefaultText>Section list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-959C-A92EBE4F799D"
+		/>
+	</Translations>
+</TextIdentifier>

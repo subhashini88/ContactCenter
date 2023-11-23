@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-7DE6-A1EB-B49E-181B64C1F031">
+	<DocumentID>00505601-7DE6-A1EB-B49E-181B64C1B031</DocumentID>
+	<Name>00505601-7DE6-A1EB-B49E-181B64C1B031</Name>
+	<Description>Append Documents</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-06-21T10:14:52.776</CreationDate>
+	<Notes/>
+	<DefaultText>Append Documents</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912464DF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-7DE6-A1EB-B49E-181B64C23031"
+		/>
+	</Translations>
+</TextIdentifier>

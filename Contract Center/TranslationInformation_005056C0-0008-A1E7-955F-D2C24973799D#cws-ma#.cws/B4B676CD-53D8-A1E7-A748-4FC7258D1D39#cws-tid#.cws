@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A747-CEA21E689D39">
+	<DocumentID>B4B676CD-53D8-A1E7-A748-4FC7258D1D39</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A748-4FC7258D1D39</Name>
+	<Description>Termination reasons_2</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-09-19T09:59:50.443</CreationDate>
+	<Notes/>
+	<DefaultText>Termination reasons_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E7-A747-CEA21E68DD39"
+		/>
+	</Translations>
+</TextIdentifier>

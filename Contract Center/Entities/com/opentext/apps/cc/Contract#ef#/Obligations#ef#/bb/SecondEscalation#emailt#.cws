@@ -1,0 +1,50 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="00505601-79C2-A1EC-9934-B45B76D2AD6A">
+	<DocumentID>00505601-79C2-A1EC-9934-B45B76D26D6A</DocumentID>
+	<Name>SecondEscalation</Name>
+	<Description>SecondEscalation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-24T16:26:07.617</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>For contract &lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Owner.Identity.ItemId}/F8B156D635F3A1E89CB08DDB9883E4C8&quot;&gt;{item.Owner.Properties.ContractName}&lt;/a&gt;&lt;/strong&gt;, the obligation {item.Properties.Name} has a second escalation.&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Second escalation for {item.Properties.Name} obligation</Subject>
+	<To></To>
+	<BuildingBlock>
+		<uri
+			id="00505601-79C2-A1EC-8EB7-93EDC44AED69"
+		/>
+	</BuildingBlock>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="00505601-79C2-A1EC-9934-B45B76D0AD6A">
+			<DocumentID>00505601-79C2-A1EC-9934-B45B76D06D6A</DocumentID>
+			<Name>00505601-79C2-A1EC-9934-B45B76D06D6A</Name>
+			<Description>00505601-79C2-A1EC-9934-B45B76D06D6A</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-12-24T16:26:07.616</CreationDate>
+			<Notes/>
+			<DeveloperText>Second escalation template</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-79C2-A1EC-9934-B45B76D0ED6A"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<TypeDefinition/>
+</EmailTemplate>

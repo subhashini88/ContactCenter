@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B565-AB47E0E42C48">
+	<DocumentID>C4D98747-AA4E-A1E7-B565-AB47E0E3EC48</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B565-AB47E0E3EC48</Name>
+	<Description>GetTCVandRCV</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-11-30T06:28:13.413</CreationDate>
+	<Notes/>
+	<Text>GetTCVandRCV</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-B565-AB47E0E36C48"
+		/>
+	</TextIdentifier>
+</TranslatedText>

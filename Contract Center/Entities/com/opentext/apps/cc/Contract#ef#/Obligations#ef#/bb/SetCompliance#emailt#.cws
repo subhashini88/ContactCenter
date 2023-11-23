@@ -1,0 +1,53 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-98A0-7D8D291C04B9">
+	<DocumentID>98FA9B1A-7A8B-A1EE-98A0-7D8D291BC4B9</DocumentID>
+	<Name>SetCompliance</Name>
+	<Description>SetCompliance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-04T09:31:01.755</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>For contract &lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Owner.Identity.ItemId}/F8B156D635F3A1E89CB08DDB9883E4C8&quot;&gt;{item.Owner.Properties.ContractName}&lt;/a&gt;&lt;/strong&gt;, the obligation {item.Properties.Name} has been set to {item.Properties.ComplianceLevel} by&amp;nbsp;{User.Properties.FullName}.&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Obligation {item.Properties.Name} has been set to {item.Properties.ComplianceLevel} </Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="00505601-79C2-A1EC-8EB7-93EDC44AED69"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="98FA9B1A-7A8B-A1EE-98CB-0A4FFAD784B9">
+			<DocumentID>98FA9B1A-7A8B-A1EE-98CB-0A4FFAD744B9</DocumentID>
+			<Name>98FA9B1A-7A8B-A1EE-98CB-0A4FFAD744B9</Name>
+			<Description>98FA9B1A-7A8B-A1EE-98CB-0A4FFAD744B9</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-10-05T03:11:29.928</CreationDate>
+			<Notes/>
+			<DeveloperText>Set compliance</DeveloperText>
+			<Identifier>
+				<uri
+					id="98FA9B1A-7A8B-A1EE-98CB-0A4FFAD7C4B9"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole/>
+	<TypeDefinition/>
+</EmailTemplate>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-AB64-968CFA2892CE">
+	<DocumentID>005056C0-0008-A1E7-AB64-968CFA2852CE</DocumentID>
+	<Name>005056C0-0008-A1E7-AB64-968CFA2852CE</Name>
+	<Description>Cancellation list</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-10T08:11:21.008</CreationDate>
+	<Notes/>
+	<DefaultText>Cancellation list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-AB64-968CFA28D2CE"
+		/>
+	</Translations>
+</TextIdentifier>

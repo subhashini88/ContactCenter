@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A6D6-1D619CE5E138">
+	<DocumentID>C4D98747-AA4E-A1E7-A6D6-1D619CE5A138</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>kasim basha</CreatedBy>
+	<CreationDate>2017-09-17T03:37:01.973</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-A6D6-1D619CE52138">
+			<DocumentID>C4D98747-AA4E-A1E7-A6D6-1D619CE4E138</DocumentID>
+			<Name>CreateDistributionList</Name>
+			<Description>Create DistributionList</Description>
+			<CreatedBy>kasim basha</CreatedBy>
+			<CreationDate>2017-09-17T03:37:01.973</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A4AF-42E6BAE624BC"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-A6D6-1D619CE3A138">
+			<DocumentID>C4D98747-AA4E-A1E7-A6D6-1D619CE36138</DocumentID>
+			<Name>DeleteDistributionList</Name>
+			<Description>Delete DistributionList</Description>
+			<CreatedBy>kasim basha</CreatedBy>
+			<CreationDate>2017-09-17T03:37:01.973</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A4AF-42E6BAE624BC"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="F8B156D5-AA46-A1E7-A4AF-42E6BAE624BC"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-A6D6-1D619CE4A138">
+			<DocumentID>C4D98747-AA4E-A1E7-A6D6-1D619CE46138</DocumentID>
+			<Name>ReadDistributionList</Name>
+			<Description>Read DistributionList</Description>
+			<CreatedBy>kasim basha</CreatedBy>
+			<CreationDate>2017-09-17T03:37:01.972</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A4AF-42E6BAE624BC"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="C4D98747-AA4E-A1E7-A6D6-1D619CE42138">
+			<DocumentID>C4D98747-AA4E-A1E7-A6D6-1D619CE3E138</DocumentID>
+			<Name>UpdateDistributionList</Name>
+			<Description>Update DistributionList</Description>
+			<CreatedBy>kasim basha</CreatedBy>
+			<CreationDate>2017-09-17T03:37:01.972</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="F8B156D5-AA46-A1E7-A4AF-42E6BAE624BC"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

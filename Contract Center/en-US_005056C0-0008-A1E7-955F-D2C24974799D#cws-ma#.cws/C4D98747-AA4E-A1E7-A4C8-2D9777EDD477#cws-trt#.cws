@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A4C8-2D9777EE1477">
+	<DocumentID>C4D98747-AA4E-A1E7-A4C8-2D9777EDD477</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A4C8-2D9777EDD477</Name>
+	<Description>Amendment2</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-06T16:30:38.903</CreationDate>
+	<Notes/>
+	<Text>Amendment2</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4C8-2D9777ED5477"
+		/>
+	</TextIdentifier>
+</TranslatedText>

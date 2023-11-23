@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9BE6-BA0ECAE2E4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9BE6-BA0ECAE2A4DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9BE6-BA0ECAE2A4DE</Name>
+	<Description>Geographies</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-14T08:14:03.547</CreationDate>
+	<Notes/>
+	<Text>Geographies</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-BA0ECAE224DE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

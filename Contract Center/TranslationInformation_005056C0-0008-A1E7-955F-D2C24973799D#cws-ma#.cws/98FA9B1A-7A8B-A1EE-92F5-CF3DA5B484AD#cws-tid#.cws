@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-92F5-CF3DA5B4C4AD">
+	<DocumentID>98FA9B1A-7A8B-A1EE-92F5-CF3DA5B484AD</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-92F5-CF3DA5B484AD</Name>
+	<Description>Obligation reminder</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-05T10:34:13.894</CreationDate>
+	<Notes/>
+	<DefaultText>Obligation reminder</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-92F5-CF3DA5B504AD"
+		/>
+	</Translations>
+</TextIdentifier>

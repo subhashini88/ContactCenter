@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B834-BDE5DD9E2503">
+	<DocumentID>484D7EE5-DBB0-A1E8-B834-BDE5DD9DE503</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B834-BDE5DD9DE503</Name>
+	<Description>Are you sure you want to archive this contract?</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-11-05T08:20:46.815</CreationDate>
+	<Notes/>
+	<DefaultText>Are you sure you want to archive this contract?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B834-BDE5DD9E6503"
+		/>
+	</Translations>
+</TextIdentifier>

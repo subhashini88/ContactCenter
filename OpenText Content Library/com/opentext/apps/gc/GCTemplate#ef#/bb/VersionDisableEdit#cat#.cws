@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9548-BD13DF98E513">
+	<DocumentID>484D7EE5-DBB0-A1E9-9548-BD13DF98A513</DocumentID>
+	<Name>VersionDisableEdit</Name>
+	<Description>VersionDisableEdit</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-04-02T08:55:45.112</CreationDate>
+	<Notes/>
+	<referenceCount>2</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="C4D98747-A6D9-A1E8-AC98-AF019F4B886E"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

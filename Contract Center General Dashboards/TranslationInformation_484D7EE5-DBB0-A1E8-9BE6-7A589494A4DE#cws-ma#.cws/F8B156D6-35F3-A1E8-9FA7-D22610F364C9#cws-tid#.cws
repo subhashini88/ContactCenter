@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9FA7-D22610F3A4C9">
+	<DocumentID>F8B156D6-35F3-A1E8-9FA7-D22610F364C9</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9FA7-D22610F364C9</Name>
+	<Description>Dashboard for contract administrator</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-03T08:59:29.006</CreationDate>
+	<Notes/>
+	<DefaultText>Dashboard for contract administrator</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-9FA7-D22610F3E4C9"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-4E7A3F2FB068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-4E7A3F2E3068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-4E7A3F2CF068"
+		/>
+	</Translations>
+</TextIdentifier>

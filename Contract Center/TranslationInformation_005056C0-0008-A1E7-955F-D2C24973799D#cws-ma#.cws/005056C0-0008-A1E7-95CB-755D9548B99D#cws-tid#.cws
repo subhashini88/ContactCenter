@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-95CB-755D9548F99D">
+	<DocumentID>005056C0-0008-A1E7-95CB-755D9548B99D</DocumentID>
+	<Name>005056C0-0008-A1E7-95CB-755D9548B99D</Name>
+	<Description>Template life cycle</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-22T09:34:06.682</CreationDate>
+	<Notes/>
+	<DefaultText>Template life cycle</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-95CB-755D9549399D"
+		/>
+	</Translations>
+</TextIdentifier>

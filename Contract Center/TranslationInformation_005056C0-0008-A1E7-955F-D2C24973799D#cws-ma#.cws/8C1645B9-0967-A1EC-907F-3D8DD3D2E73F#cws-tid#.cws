@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1EC-907F-3D8DD3D3273F">
+	<DocumentID>8C1645B9-0967-A1EC-907F-3D8DD3D2E73F</DocumentID>
+	<Name>8C1645B9-0967-A1EC-907F-3D8DD3D2E73F</Name>
+	<Description>Get contract relations.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-10T08:59:48.969</CreationDate>
+	<Notes/>
+	<DefaultText>Get contract relations.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1EC-907F-3D8DD3D3673F"
+		/>
+	</Translations>
+</TextIdentifier>

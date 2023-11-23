@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-ABF7-0738DD192FED">
+	<DocumentID>F8B156BC-2CB7-A1E7-ABF7-0738DD18EFED</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-ABF7-0738DD18EFED</Name>
+	<Description>CreateRevenueScheduleBPM</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-13T06:57:08.302</CreationDate>
+	<Notes/>
+	<DefaultText>CreateRevenueScheduleBPM</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E7-ABF7-0738DD196FED"
+		/>
+	</Translations>
+</TextIdentifier>

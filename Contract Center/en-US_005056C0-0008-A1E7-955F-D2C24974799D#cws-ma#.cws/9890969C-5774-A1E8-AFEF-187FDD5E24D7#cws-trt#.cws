@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-AFEF-187FDD5E64D7">
+	<DocumentID>9890969C-5774-A1E8-AFEF-187FDD5E24D7</DocumentID>
+	<Name>9890969C-5774-A1E8-AFEF-187FDD5E24D7</Name>
+	<Description>Z_INT_Status</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-09-24T06:01:54.69</CreationDate>
+	<Notes/>
+	<Text>Z_INT_Status</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-AFEF-187FDD5DA4D7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

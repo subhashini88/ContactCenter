@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-971F-0F430F73CF70">
+	<DocumentID>84A938BF-F78D-A1EE-971F-0F430F738F70</DocumentID>
+	<Name>84A938BF-F78D-A1EE-971F-0F430F738F70</Name>
+	<Description>Unsettled</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-26T18:05:19.827</CreationDate>
+	<Notes/>
+	<Text>Unsettled</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-971F-0F430F730F70"
+		/>
+	</TextIdentifier>
+</TranslatedText>

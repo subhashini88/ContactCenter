@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-8DF7-B245D672FB2E">
+	<DocumentID>3417EB96-8F1F-A1E8-8DF7-B245D672BB2E</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-8DF7-B245D672BB2E</Name>
+	<Description>Opportunity ID_16</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2018-04-04T08:25:56.078</CreationDate>
+	<Notes/>
+	<DefaultText>Opportunity ID_16</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E8-8DF7-B245D6733B2E"
+		/>
+	</Translations>
+</TextIdentifier>

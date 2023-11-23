@@ -1,0 +1,96 @@
+
+<Worklist
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.worklist.Worklist"
+	RuntimeDocumentID="90B11C8A-3947-11E5-F7F0-759D74F33FCB">
+	<DocumentID>90B11C8A-3947-11E5-F7F0-759D74F31FCB</DocumentID>
+	<Name>TeamsTasks</Name>
+	<Description/>
+	<CreatedBy>cn=SYSTEM,cn=organizational users,o=system,cn=cordys,o=vanenburg.com</CreatedBy>
+	<CreationDate>2017-06-14T20:27:29.436</CreationDate>
+	<Notes/>
+	<ActionBarId></ActionBarId>
+	<CardViewDefinition></CardViewDefinition>
+	<ColumnWidth>0</ColumnWidth>
+	<DefaultCategory>My Inbox</DefaultCategory>
+	<DefaultViewType>0</DefaultViewType>
+	<DisplayCount>1</DisplayCount>
+	<ExpressionFilter></ExpressionFilter>
+	<Filters>{&quot;criteria&quot;:{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;A1513E6C3A81ED9A9F8F9F5F342EFF7D&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74EDFFCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F0447165029FCB&quot;,&quot;propertyId&quot;:&quot;90B11C8A394711E5F7F0447164FDFFCB&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F0447165029FCB&quot;,&quot;propertyId&quot;:&quot;90B11C8A394711E5F7F0447164FDFFCB&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;4AEDAFD3D8034EA0994A41BB89DB4F37&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;InList&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:&quot;targetTeams()&quot;,&quot;isValueExpression&quot;:true}},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74F03FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;9E2949A8ADA0B8CC99EEE15D4AF77F9E&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;ne&quot;,&quot;value&quot;:&quot;5&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]}}]}}</Filters>
+	<HideIfNoResults>false</HideIfNoResults>
+	<IsCardViewEnabled>false</IsCardViewEnabled>
+	<IsChartViewEnabled>false</IsChartViewEnabled>
+	<IsReadOnlyView>false</IsReadOnlyView>
+	<ItemOpenMode>0</ItemOpenMode>
+	<LayoutId></LayoutId>
+	<MaxCount>200</MaxCount>
+	<SecuredByEntity>false</SecuredByEntity>
+	<ShowConditionalCountInList>false</ShowConditionalCountInList>
+	<ShowCreateButton></ShowCreateButton>
+	<ShowTotalCountInList>false</ShowTotalCountInList>
+	<UserVisible>true</UserVisible>
+	<ActionBar/>
+	<AssignedFilterCriteria/>
+	<BuildingBlock>
+		<uri
+			id="90B11C8A-3947-11E5-F7F0-56DFE9981FCB"
+		/>
+	</BuildingBlock>
+	<CardViewConfiguration/>
+	<ChartViewConfigurations/>
+	<ConditionalCountCriteria/>
+	<CreatableAssociations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="90B11C8A-3947-11E5-F7F0-759D74F1DFCB">
+			<DocumentID>90B11C8A-3947-11E5-F7F0-759D74F1BFCB</DocumentID>
+			<Name>90B11C8A-3947-11E5-F7F0-759D74F1BFCB</Name>
+			<Description/>
+			<CreatedBy>cn=SYSTEM,cn=organizational users,o=system,cn=cordys,o=vanenburg.com</CreatedBy>
+			<CreationDate>2017-06-14T20:27:29.436</CreationDate>
+			<Notes/>
+			<DeveloperText>Teams Tasks</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+	<FilterCriteria>
+		<EntityExpression
+			type="com.cordys.entity.services.entityexpression.EntityExpression"
+			typeVersion="0928EA4A-EDAC-431C-991B-48F29BCEF3C2"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EA-B75F-6927A35A707C">
+			<DocumentID>F8B156BC-2CB7-A1EA-B75F-6927A35A307C</DocumentID>
+			<Name>F8B156BC-2CB7-A1EA-B75F-6927A35A307C</Name>
+			<Description/>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-08-13T16:28:53.803</CreationDate>
+			<Notes/>
+			<EncodedExpression> in targetTeams() &amp;&amp; !=&quot;5&quot;</EncodedExpression>
+			<ErrorMessage></ErrorMessage>
+			<HumanExpression> in targetTeams() &amp;&amp; !=&quot;5&quot;</HumanExpression>
+			<IsAdvancedOnly>0</IsAdvancedOnly>
+			<IsPropertyNameOnly>0</IsPropertyNameOnly>
+			<IsValid>1</IsValid>
+			<QueryCriteria>{&quot;type&quot;:&quot;AND&quot;,&quot;id&quot;:&quot;A1513E6C3A81ED9A9F8F9F5F342EFF7D&quot;,&quot;terms&quot;:[{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74EDFFCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F0447165029FCB&quot;,&quot;propertyId&quot;:&quot;90B11C8A394711E5F7F0447164FDFFCB&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F0447165029FCB&quot;,&quot;propertyId&quot;:&quot;90B11C8A394711E5F7F0447164FDFFCB&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;4AEDAFD3D8034EA0994A41BB89DB4F37&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;InList&quot;,&quot;value&quot;:null,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:&quot;targetTeams()&quot;,&quot;isValueExpression&quot;:true}},{&quot;isNew&quot;:false,&quot;dataType&quot;:&quot;Text&quot;,&quot;documentId&quot;:&quot;90B11C8A-3947-11E5-F7F0-759D74F03FCB&quot;,&quot;itemMemberPropertyId&quot;:{&quot;itemMemberPath&quot;:[],&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;},&quot;itemMemberId&quot;:&quot;90B11C8A394711E5F7F05406E6CE7FCB&quot;,&quot;propertyId&quot;:&quot;2B58796CCFD4487EAB78E076F34CD990&quot;,&quot;type&quot;:&quot;PropertyTerm&quot;,&quot;id&quot;:&quot;9E2949A8ADA0B8CC99EEE15D4AF77F9E&quot;,&quot;comparison&quot;:{&quot;operator&quot;:&quot;ne&quot;,&quot;value&quot;:&quot;5&quot;,&quot;from&quot;:null,&quot;to&quot;:null,&quot;values&quot;:[]}}]}</QueryCriteria>
+			<DisplayName/>
+			<Entity>
+				<uri
+					id="90B11C8A-3947-11E5-F7F0-44716502DFCB"
+				/>
+			</Entity>
+			<ExpressionOwner>
+				<uri
+					id="90B11C8A-3947-11E5-F7F0-759D74F31FCB"
+				/>
+			</ExpressionOwner>
+			<ParameterOwner/>
+			<UsedProperties/>
+		</EntityExpression>
+	</FilterCriteria>
+	<Layout/>
+	<LocalizableCategoryLabel/>
+	<Original/>
+	<UsesAssociation/>
+	<WorklistColumns/>
+</Worklist>

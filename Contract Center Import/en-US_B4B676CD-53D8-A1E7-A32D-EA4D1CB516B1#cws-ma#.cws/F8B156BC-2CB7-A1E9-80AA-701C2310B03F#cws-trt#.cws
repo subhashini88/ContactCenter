@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-80AA-701C2310F03F">
+	<DocumentID>F8B156BC-2CB7-A1E9-80AA-701C2310B03F</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-80AA-701C2310B03F</Name>
+	<Description>UpdateImportedCLATargetState</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-12-18T09:46:51.339</CreationDate>
+	<Notes/>
+	<Text>UpdateImportedCLATargetState</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E9-80AA-701C2310303F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD5F-564C7567A665">
+	<DocumentID>3C6AA73A-0114-A1E9-BD5F-564C75676665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD5F-564C75676665</Name>
+	<Description>UpdateTerminationDL</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-23T10:10:37.81</CreationDate>
+	<Notes/>
+	<Text>UpdateTerminationDL</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD5F-564C7566E665"
+		/>
+	</TextIdentifier>
+</TranslatedText>

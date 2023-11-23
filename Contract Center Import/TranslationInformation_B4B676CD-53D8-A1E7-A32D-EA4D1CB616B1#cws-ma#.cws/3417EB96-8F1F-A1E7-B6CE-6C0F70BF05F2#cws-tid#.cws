@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-B6CE-6C0F70BF45F2">
+	<DocumentID>3417EB96-8F1F-A1E7-B6CE-6C0F70BF05F2</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-B6CE-6C0F70BF05F2</Name>
+	<Description>ConcatenatePartyIds</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-07T14:58:55.702</CreationDate>
+	<Notes/>
+	<DefaultText>ConcatenatePartyIds</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E7-B6CE-6C0F70BF85F2"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BA9C-3EB799396B8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BA9C-3EB799392B8D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-BA9C-3EB799392B8D</Name>
+	<Description>CreateRelatedPOs</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-12T17:03:42.356</CreationDate>
+	<Notes/>
+	<Text>CreateRelatedPOs</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-BA9C-3EB79938AB8D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

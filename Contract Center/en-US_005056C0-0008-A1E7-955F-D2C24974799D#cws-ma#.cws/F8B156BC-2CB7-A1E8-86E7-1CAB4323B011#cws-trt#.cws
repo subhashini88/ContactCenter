@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-86E7-1CAB4323F011">
+	<DocumentID>F8B156BC-2CB7-A1E8-86E7-1CAB4323B011</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-86E7-1CAB4323B011</Name>
+	<Description>ReadSyncCurrencyUpdates</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-02-27T09:08:15.393</CreationDate>
+	<Notes/>
+	<Text>ReadSyncCurrencyUpdates</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-86E7-1CAB43233011"
+		/>
+	</TextIdentifier>
+</TranslatedText>

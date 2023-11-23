@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B541-19CD2A52AB84">
+	<DocumentID>50EB711A-AD5A-A1EC-B541-19CD2A526B84</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B541-19CD2A526B84</Name>
+	<Description>Independent Sub-Process</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-16T10:51:49.879</CreationDate>
+	<Notes/>
+	<Text>Independent Sub-Process</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B541-19CD2A51EB84"
+		/>
+	</TextIdentifier>
+</TranslatedText>

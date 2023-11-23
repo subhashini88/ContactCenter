@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-AB91-162D103F0369">
+	<DocumentID>98FA9B1A-7A8B-A1EA-AB91-162D103EC369</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-AB91-162D103EC369</Name>
+	<Description>Mandatory fields cannot be empty.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-14T13:39:14.919</CreationDate>
+	<Notes/>
+	<DefaultText>Mandatory fields cannot be empty.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-AB91-162D103F4369"
+		/>
+	</Translations>
+</TextIdentifier>

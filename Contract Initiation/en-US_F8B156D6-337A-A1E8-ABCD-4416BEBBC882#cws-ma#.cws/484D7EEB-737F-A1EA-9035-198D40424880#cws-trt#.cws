@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-737F-A1EA-9035-198D40428880">
+	<DocumentID>484D7EEB-737F-A1EA-9035-198D40424880</DocumentID>
+	<Name>484D7EEB-737F-A1EA-9035-198D40424880</Name>
+	<Description>Contract request assignments list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-01-27T09:04:03.616</CreationDate>
+	<Notes/>
+	<Text>Contract request assignments list</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-737F-A1EA-9035-198D4041C880"
+		/>
+	</TextIdentifier>
+</TranslatedText>

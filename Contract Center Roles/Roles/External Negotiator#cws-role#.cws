@@ -1,0 +1,35 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B098-8EF3825B2658">
+	<DocumentID>8C1645B9-0967-A1E9-B098-8EF3825AE658</DocumentID>
+	<Name>External Negotiator</Name>
+	<Description>External Negotiator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-19T10:28:30.249</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles>
+		<uri
+			id="B4B676CD-53D8-A1E7-AE2B-6FC538A6A137"
+		/>
+		<uri
+			id="005056C0-0008-A1E7-ACC6-88CB070192CE"
+		/>
+		<uri
+			id="E86A6495-8267-A1EA-BCD8-53C43F48835B"
+		/>
+		<uri
+			id="3C6AA73A-0114-A1EC-844E-4A77980B671B"
+		/>
+		<uri
+			id="B4B676CD-53D8-A1E8-BB57-69359D0A487C"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

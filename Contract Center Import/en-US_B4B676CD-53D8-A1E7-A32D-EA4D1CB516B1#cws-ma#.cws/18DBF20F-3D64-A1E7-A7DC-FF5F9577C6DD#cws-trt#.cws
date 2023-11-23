@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-A7DC-FF5F957806DD">
+	<DocumentID>18DBF20F-3D64-A1E7-A7DC-FF5F9577C6DD</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-A7DC-FF5F9577C6DD</Name>
+	<Description>CollectionAccountImport</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-09-22T11:19:24.473</CreationDate>
+	<Notes/>
+	<Text>CollectionAccountImport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="18DBF20F-3D64-A1E7-A7DC-FF5F957746DD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

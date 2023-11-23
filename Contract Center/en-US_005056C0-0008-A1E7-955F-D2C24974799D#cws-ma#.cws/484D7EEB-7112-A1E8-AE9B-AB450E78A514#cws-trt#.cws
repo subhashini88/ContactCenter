@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E8-AE9B-AB450E78E514">
+	<DocumentID>484D7EEB-7112-A1E8-AE9B-AB450E78A514</DocumentID>
+	<Name>484D7EEB-7112-A1E8-AE9B-AB450E78A514</Name>
+	<Description>Previous contract ID</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2018-09-18T03:14:53.5</CreationDate>
+	<Notes/>
+	<Text>Previous contract ID</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E8-AE9B-AB450E782514"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-737F-A1EB-B211-0D84C4C64893">
+	<DocumentID>484D7EEB-737F-A1EB-B211-0D84C4C60893</DocumentID>
+	<Name>484D7EEB-737F-A1EB-B211-0D84C4C60893</Name>
+	<Description>UpdateTermInstances</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-06-08T15:31:04.879</CreationDate>
+	<Notes/>
+	<Text>UpdateTermInstances</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-737F-A1EB-B211-0D84C4C58893"
+		/>
+	</TextIdentifier>
+</TranslatedText>

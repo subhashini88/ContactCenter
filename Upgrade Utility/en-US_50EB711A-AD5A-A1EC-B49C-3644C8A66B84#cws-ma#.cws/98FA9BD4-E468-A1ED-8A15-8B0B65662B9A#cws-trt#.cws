@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A15-8B0B65666B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A15-8B0B65662B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A15-8B0B65662B9A</Name>
+	<Description>UpdateConfigurator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-30T11:24:22.836</CreationDate>
+	<Notes/>
+	<Text>UpdateConfigurator</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A15-8B0B6565AB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

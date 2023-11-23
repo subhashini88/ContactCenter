@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="80000B02-52A5-A1E7-A45A-AECD6E19BF07">
+	<DocumentID>80000B02-52A5-A1E7-A45A-AECD6E197F07</DocumentID>
+	<Name>80000B02-52A5-A1E7-A45A-AECD6E197F07</Name>
+	<Description>Unit of measurement</Description>
+	<CreatedBy>anilt</CreatedBy>
+	<CreationDate>2017-09-04T12:16:21.139</CreationDate>
+	<Notes/>
+	<Text>Unit of measurement</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="80000B02-52A5-A1E7-A45A-AECD6E18FF07"
+		/>
+	</TextIdentifier>
+</TranslatedText>

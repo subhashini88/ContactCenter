@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A3BC-05AC5D0064C4">
+	<DocumentID>F8B156B5-069B-A1E7-A3BC-05AC5D0024C4</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A3BC-05AC5D0024C4</Name>
+	<Description>NOK</Description>
+	<CreatedBy>srajanal</CreatedBy>
+	<CreationDate>2017-09-01T08:34:45.5</CreationDate>
+	<Notes/>
+	<Text>NOK</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A3BC-05AC5CFFA4C4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

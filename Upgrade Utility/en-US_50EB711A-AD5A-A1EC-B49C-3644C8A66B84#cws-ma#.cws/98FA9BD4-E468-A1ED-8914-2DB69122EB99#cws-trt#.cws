@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8914-2DB691232B99">
+	<DocumentID>98FA9BD4-E468-A1ED-8914-2DB69122EB99</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8914-2DB69122EB99</Name>
+	<Description>NotificationsProcessUpgrade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-25T08:35:25.467</CreationDate>
+	<Notes/>
+	<Text>NotificationsProcessUpgrade</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8914-2DB691226B99"
+		/>
+	</TextIdentifier>
+</TranslatedText>

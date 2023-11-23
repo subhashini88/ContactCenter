@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A029-A90786CFBA2E">
+	<DocumentID>B4B676CD-53D8-A1E7-A029-A90786CF7A2E</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A029-A90786CF7A2E</Name>
+	<Description>ReadCCTemplate</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-14T04:12:16.769</CreationDate>
+	<Notes/>
+	<DefaultText>ReadCCTemplate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E7-A029-A90786CFFA2E"
+		/>
+	</Translations>
+</TextIdentifier>

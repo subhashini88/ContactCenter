@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-95A5-9707D23BC88F">
+	<DocumentID>B4B676CD-53D8-A1E9-95A5-9707D23B888F</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-95A5-9707D23B888F</Name>
+	<Description>PAToRenewed</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-04T05:01:53.183</CreationDate>
+	<Notes/>
+	<Text>PAToRenewed</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-95A5-9707D23B088F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

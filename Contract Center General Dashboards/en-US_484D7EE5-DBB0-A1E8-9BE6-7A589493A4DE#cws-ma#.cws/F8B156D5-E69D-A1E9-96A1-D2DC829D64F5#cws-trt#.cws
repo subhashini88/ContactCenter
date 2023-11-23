@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-96A1-D2DC829DA4F5">
+	<DocumentID>F8B156D5-E69D-A1E9-96A1-D2DC829D64F5</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-96A1-D2DC829D64F5</Name>
+	<Description>Dashboards</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-09T05:51:14.281</CreationDate>
+	<Notes/>
+	<Text>Dashboards</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-96A1-D2DC829CE4F5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

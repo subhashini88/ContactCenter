@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A2C0-DFB7DD570440">
+	<DocumentID>98FA9B1A-7A8B-A1EB-A2C0-DFB7DD56C440</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-A2C0-DFB7DD56C440</Name>
+	<Description>Import notifications configuration</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-22T12:34:36.895</CreationDate>
+	<Notes/>
+	<Text>Import notifications configuration</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-A2C0-DFB7DD564440"
+		/>
+	</TextIdentifier>
+</TranslatedText>

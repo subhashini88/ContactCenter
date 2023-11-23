@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-A47B-7A099BFE6FE6">
+	<DocumentID>F8B156BC-2CB7-A1E7-A47B-7A099BFE2FE6</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-A47B-7A099BFE2FE6</Name>
+	<Description>Z_INT_Is adhoc contract</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-09-05T03:58:36.032</CreationDate>
+	<Notes/>
+	<Text>Z_INT_Is adhoc contract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-A47B-7A099BFDAFE6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

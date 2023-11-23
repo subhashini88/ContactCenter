@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="002B6743-E6B0-A1EE-86EA-2B44DD877171">
+	<DocumentID>002B6743-E6B0-A1EE-86EA-2B44DD873171</DocumentID>
+	<Name>002B6743-E6B0-A1EE-86EA-2B44DD873171</Name>
+	<Description>Assignments (Default)</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-06T04:07:26.174</CreationDate>
+	<Notes/>
+	<DefaultText>Assignments (Default)</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="002B6743-E6B0-A1EE-86EA-2B44DD87B171"
+		/>
+	</Translations>
+</TextIdentifier>

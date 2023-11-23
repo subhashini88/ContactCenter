@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B5A9-7C1592984878">
+	<DocumentID>B4B676CD-53D8-A1E8-B5A9-7C1592980878</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B5A9-7C1592980878</Name>
+	<Description>RemainingContractValueCalculation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-23T09:28:07.782</CreationDate>
+	<Notes/>
+	<Text>RemainingContractValueCalculation</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-B5A9-7C1592978878"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A934-0A34DEBE4FCD">
+	<DocumentID>C4D98747-AA4E-A1E7-A934-0A34DEBE0FCD</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A934-0A34DEBE0FCD</Name>
+	<Description>Price protection rule</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-09-29T05:00:14.467</CreationDate>
+	<Notes/>
+	<DefaultText>Price protection rule</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A934-0A34DEBE8FCD"
+		/>
+	</Translations>
+</TextIdentifier>

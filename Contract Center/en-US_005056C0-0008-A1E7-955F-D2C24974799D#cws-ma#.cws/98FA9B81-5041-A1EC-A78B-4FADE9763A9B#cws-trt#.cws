@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-A78B-4FADE9767A9B">
+	<DocumentID>98FA9B81-5041-A1EC-A78B-4FADE9763A9B</DocumentID>
+	<Name>98FA9B81-5041-A1EC-A78B-4FADE9763A9B</Name>
+	<Description>Recur days of week</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-03-07T16:10:30.866</CreationDate>
+	<Notes/>
+	<Text>Recur days of week</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-A78B-4FADE975BA9B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

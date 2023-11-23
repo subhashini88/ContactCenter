@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-8F66-4E2BCF2824C7">
+	<DocumentID>ECF4BB61-42B2-A1E8-8F66-4E2BCF27E4C7</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-8F66-4E2BCF27E4C7</Name>
+	<Description>Clear contracts date on InitialContractTenure null</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-11T15:07:26.023</CreationDate>
+	<Notes/>
+	<Text>Clear contracts date on InitialContractTenure null</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-8F66-4E2BCF2764C7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

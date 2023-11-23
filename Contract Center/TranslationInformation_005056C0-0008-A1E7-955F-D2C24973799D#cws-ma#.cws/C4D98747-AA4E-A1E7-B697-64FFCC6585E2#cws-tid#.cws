@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B697-64FFCC65C5E2">
+	<DocumentID>C4D98747-AA4E-A1E7-B697-64FFCC6585E2</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B697-64FFCC6585E2</Name>
+	<Description>UpdateContractDates</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-12-06T08:15:22.528</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateContractDates</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B697-64FFCC6605E2"
+		/>
+	</Translations>
+</TextIdentifier>

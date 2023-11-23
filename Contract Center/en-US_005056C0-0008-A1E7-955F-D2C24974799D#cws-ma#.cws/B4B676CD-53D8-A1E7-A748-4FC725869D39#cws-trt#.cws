@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A748-4FC72586DD39">
+	<DocumentID>B4B676CD-53D8-A1E7-A748-4FC725869D39</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A748-4FC725869D39</Name>
+	<Description>Termination deadline</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-09-19T10:03:21.237</CreationDate>
+	<Notes/>
+	<Text>Termination deadline</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A748-4FC725861D39"
+		/>
+	</TextIdentifier>
+</TranslatedText>

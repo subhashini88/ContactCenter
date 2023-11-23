@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A8A2-703B1B677078">
+	<DocumentID>F8B156BC-2CB7-A1EA-A8A2-703B1B673078</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A8A2-703B1B673078</Name>
+	<Description>UpdateContractZ_INT_Status</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-30T15:25:15.392</CreationDate>
+	<Notes/>
+	<Text>UpdateContractZ_INT_Status</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A8A2-703B1B66B078"
+		/>
+	</TextIdentifier>
+</TranslatedText>

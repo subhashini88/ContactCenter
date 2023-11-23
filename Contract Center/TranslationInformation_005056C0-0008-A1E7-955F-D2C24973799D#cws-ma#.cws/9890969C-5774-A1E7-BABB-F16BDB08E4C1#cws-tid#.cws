@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E7-BABB-F16BDB0924C1">
+	<DocumentID>9890969C-5774-A1E7-BABB-F16BDB08E4C1</DocumentID>
+	<Name>9890969C-5774-A1E7-BABB-F16BDB08E4C1</Name>
+	<Description>InvalidateAction</Description>
+	<CreatedBy>adhir@ContractCenter</CreatedBy>
+	<CreationDate>2017-12-27T11:04:37.402</CreationDate>
+	<Notes/>
+	<DefaultText>InvalidateAction</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E7-BABB-F16BDB0964C1"
+		/>
+	</Translations>
+</TextIdentifier>

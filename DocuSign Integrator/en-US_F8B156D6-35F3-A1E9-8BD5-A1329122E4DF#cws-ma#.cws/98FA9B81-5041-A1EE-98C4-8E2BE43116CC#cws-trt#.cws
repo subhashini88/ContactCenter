@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-98C4-8E2BE43156CC">
+	<DocumentID>98FA9B81-5041-A1EE-98C4-8E2BE43116CC</DocumentID>
+	<Name>98FA9B81-5041-A1EE-98C4-8E2BE43116CC</Name>
+	<Description>GenerateDocuSignAccessToken</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-10-05T00:06:56.186</CreationDate>
+	<Notes/>
+	<Text>GenerateDocuSignAccessToken</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EE-98C4-8E2BE43096CC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

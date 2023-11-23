@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-9707-A409B41C44B8">
+	<DocumentID>98FA9B1A-7A8B-A1EE-9707-A409B41C04B8</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-9707-A409B41C04B8</Name>
+	<Description>GetCycleByActListIns</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-26T06:56:35.716</CreationDate>
+	<Notes/>
+	<Text>GetCycleByActListIns</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-9707-A409B41B84B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

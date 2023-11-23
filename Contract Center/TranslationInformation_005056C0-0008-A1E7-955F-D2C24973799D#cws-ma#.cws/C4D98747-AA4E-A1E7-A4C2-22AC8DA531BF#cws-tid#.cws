@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A4C2-22AC8DA571BF">
+	<DocumentID>C4D98747-AA4E-A1E7-A4C2-22AC8DA531BF</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A4C2-22AC8DA531BF</Name>
+	<Description>GetDistributionList</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-06T13:49:39.908</CreationDate>
+	<Notes/>
+	<DefaultText>GetDistributionList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4C2-22AC8DA5B1BF"
+		/>
+	</Translations>
+</TextIdentifier>

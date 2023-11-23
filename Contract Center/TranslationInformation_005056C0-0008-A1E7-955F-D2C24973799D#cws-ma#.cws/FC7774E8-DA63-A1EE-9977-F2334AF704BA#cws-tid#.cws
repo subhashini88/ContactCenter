@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E8-DA63-A1EE-9977-F2334AF744BA">
+	<DocumentID>FC7774E8-DA63-A1EE-9977-F2334AF704BA</DocumentID>
+	<Name>FC7774E8-DA63-A1EE-9977-F2334AF704BA</Name>
+	<Description>TriggerInactivateObl</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-08T14:11:26.758</CreationDate>
+	<Notes/>
+	<DefaultText>TriggerInactivateObl</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E8-DA63-A1EE-9977-F2334AF784BA"
+		/>
+	</Translations>
+</TextIdentifier>

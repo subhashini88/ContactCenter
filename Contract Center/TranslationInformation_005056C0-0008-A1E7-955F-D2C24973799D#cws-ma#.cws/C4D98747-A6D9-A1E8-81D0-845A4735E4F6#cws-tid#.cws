@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-A6D9-A1E8-81D0-845A473624F6">
+	<DocumentID>C4D98747-A6D9-A1E8-81D0-845A4735E4F6</DocumentID>
+	<Name>C4D98747-A6D9-A1E8-81D0-845A4735E4F6</Name>
+	<Description>Generate template</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-02-01T11:27:37.04</CreationDate>
+	<Notes/>
+	<DefaultText>Generate template</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-A6D9-A1E8-81D0-845A473664F6"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-911F-BD2A98ADB01B">
+	<DocumentID>F8B156BC-2CB7-A1E8-911F-BD2A98AD701B</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-911F-BD2A98AD701B</Name>
+	<Description>ClearCancellationProcess</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-04-20T09:45:24.741</CreationDate>
+	<Notes/>
+	<Text>ClearCancellationProcess</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-911F-BD2A98ACF01B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-AEFD-E35533FBA165">
+	<DocumentID>E86A64E0-AE43-A1EC-AEFD-E35533FB6165</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-AEFD-E35533FB6165</Name>
+	<Description>Contract Center</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-04-14T13:45:22.179</CreationDate>
+	<Notes/>
+	<Text>Contract Center</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A64E0-AE43-A1EC-AEFD-E35533FAE165"
+		/>
+	</TextIdentifier>
+</TranslatedText>

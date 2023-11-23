@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4F73-A1E7-ABF2-D7E328A1A38D">
+	<DocumentID>1866DA2F-4F73-A1E7-ABF2-D7E328A1638D</DocumentID>
+	<Name>1866DA2F-4F73-A1E7-ABF2-D7E328A1638D</Name>
+	<Description>Termination conditions_4</Description>
+	<CreatedBy>vsusmith</CreatedBy>
+	<CreationDate>2017-10-13T04:27:10.785</CreationDate>
+	<Notes/>
+	<DefaultText>Termination conditions_4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4F73-A1E7-ABF2-D7E328A1E38D"
+		/>
+	</Translations>
+</TextIdentifier>

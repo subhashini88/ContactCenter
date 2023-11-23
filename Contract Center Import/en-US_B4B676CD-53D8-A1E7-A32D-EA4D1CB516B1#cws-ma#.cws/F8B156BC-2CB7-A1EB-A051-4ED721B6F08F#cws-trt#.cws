@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-A051-4ED721B7308F">
+	<DocumentID>F8B156BC-2CB7-A1EB-A051-4ED721B6F08F</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-A051-4ED721B6F08F</Name>
+	<Description>Demo data org mem import status</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2021-03-10T02:07:59.922</CreationDate>
+	<Notes/>
+	<Text>Demo data org mem import status</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EB-A051-4ED721B6708F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

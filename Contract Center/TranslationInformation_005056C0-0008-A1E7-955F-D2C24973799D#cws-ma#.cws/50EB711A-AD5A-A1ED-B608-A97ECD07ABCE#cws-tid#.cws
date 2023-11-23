@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-B608-A97ECD07EBCE">
+	<DocumentID>50EB711A-AD5A-A1ED-B608-A97ECD07ABCE</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-B608-A97ECD07ABCE</Name>
+	<Description>TerminationCancelReview</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-11T06:20:13.314</CreationDate>
+	<Notes/>
+	<DefaultText>TerminationCancelReview</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1ED-B608-A97ECD082BCE"
+		/>
+	</Translations>
+</TextIdentifier>

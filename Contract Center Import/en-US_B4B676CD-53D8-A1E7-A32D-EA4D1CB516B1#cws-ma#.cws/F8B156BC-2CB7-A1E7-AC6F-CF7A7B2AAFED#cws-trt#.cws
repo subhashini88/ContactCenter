@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-AC6F-CF7A7B2AEFED">
+	<DocumentID>F8B156BC-2CB7-A1E7-AC6F-CF7A7B2AAFED</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-AC6F-CF7A7B2AAFED</Name>
+	<Description>Create Schedule</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-15T15:53:51.73</CreationDate>
+	<Notes/>
+	<Text>Create Schedule</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-AC6F-CF7A7B2A2FED"
+		/>
+	</TextIdentifier>
+</TranslatedText>

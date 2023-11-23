@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-83FA-58B4BE5EC89D">
+	<DocumentID>484D7EE4-6263-A1E9-83FA-58B4BE5E889D</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-04T06:30:55.9</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="484D7EE4-6263-A1E9-83FA-58B4BE5E089D">
+			<DocumentID>484D7EE4-6263-A1E9-83FA-58B4BE5DC89D</DocumentID>
+			<Name>CreateAddressImportStatus</Name>
+			<Description>Create AddressImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-01-04T06:30:55.9</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE4-6263-A1E9-83F7-A447A3F7C89D"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="484D7EE4-6263-A1E9-83FA-58B4BE5C889D">
+			<DocumentID>484D7EE4-6263-A1E9-83FA-58B4BE5C489D</DocumentID>
+			<Name>DeleteAddressImportStatus</Name>
+			<Description>Delete AddressImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-01-04T06:30:55.9</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE4-6263-A1E9-83F7-A447A3F7C89D"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="484D7EE4-6263-A1E9-83F7-A447A3F7C89D"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="484D7EE4-6263-A1E9-83FA-58B4BE5D889D">
+			<DocumentID>484D7EE4-6263-A1E9-83FA-58B4BE5D489D</DocumentID>
+			<Name>ReadAddressImportStatus</Name>
+			<Description>Read AddressImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-01-04T06:30:55.899</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE4-6263-A1E9-83F7-A447A3F7C89D"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="484D7EE4-6263-A1E9-83FA-58B4BE5D089D">
+			<DocumentID>484D7EE4-6263-A1E9-83FA-58B4BE5CC89D</DocumentID>
+			<Name>UpdateAddressImportStatus</Name>
+			<Description>Update AddressImportStatus</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-01-04T06:30:55.9</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EE4-6263-A1E9-83F7-A447A3F7C89D"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="80000B02-C91A-A1E8-85E2-F669DE4EE4BE">
+	<DocumentID>80000B02-C91A-A1E8-85E2-F669DE4EA4BE</DocumentID>
+	<Name>80000B02-C91A-A1E8-85E2-F669DE4EA4BE</Name>
+	<Description>Update Client termination notice date</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-02-22T05:26:12.287</CreationDate>
+	<Notes/>
+	<Text>Update Client termination notice date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="80000B02-C91A-A1E8-85E2-F669DE4E24BE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

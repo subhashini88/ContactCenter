@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="3CE1A14E-AD95-A1ED-8875-0F06D1FFAB96">
+	<DocumentID>3CE1A14E-AD95-A1ED-8875-0F06D1FF6B96</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-22T05:18:35.283</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="3CE1A14E-AD95-A1ED-8875-0F06D1FEEB96">
+			<DocumentID>3CE1A14E-AD95-A1ED-8875-0F06D1FEAB96</DocumentID>
+			<Name>CreateContractJsonNew</Name>
+			<Description>Create ContractJsonNew</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-08-22T05:18:35.284</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="3CE1A14E-AD95-A1ED-8873-46D32D922B96"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="3CE1A14E-AD95-A1ED-8875-0F06D1FD6B96">
+			<DocumentID>3CE1A14E-AD95-A1ED-8875-0F06D1FD2B96</DocumentID>
+			<Name>DeleteContractJsonNew</Name>
+			<Description>Delete ContractJsonNew</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-08-22T05:18:35.283</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="3CE1A14E-AD95-A1ED-8873-46D32D922B96"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="3CE1A14E-AD95-A1ED-8873-46D32D922B96"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="3CE1A14E-AD95-A1ED-8875-0F06D1FE6B96">
+			<DocumentID>3CE1A14E-AD95-A1ED-8875-0F06D1FE2B96</DocumentID>
+			<Name>ReadContractJsonNew</Name>
+			<Description>Read ContractJsonNew</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-08-22T05:18:35.285</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="3CE1A14E-AD95-A1ED-8873-46D32D922B96"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="3CE1A14E-AD95-A1ED-8875-0F06D1FDEB96">
+			<DocumentID>3CE1A14E-AD95-A1ED-8875-0F06D1FDAB96</DocumentID>
+			<Name>UpdateContractJsonNew</Name>
+			<Description>Update ContractJsonNew</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-08-22T05:18:35.285</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="3CE1A14E-AD95-A1ED-8873-46D32D922B96"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-959B-673D06CDF99D">
+	<DocumentID>005056C0-0008-A1E7-959B-673D06CDB99D</DocumentID>
+	<Name>005056C0-0008-A1E7-959B-673D06CDB99D</Name>
+	<Description>Term instance</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-21T10:45:42.916</CreationDate>
+	<Notes/>
+	<Text>Term instance</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-959B-673D06CD399D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

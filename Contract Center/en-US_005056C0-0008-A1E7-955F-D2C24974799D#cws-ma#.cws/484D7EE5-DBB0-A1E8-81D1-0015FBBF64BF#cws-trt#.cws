@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-81D1-0015FBBFA4BF">
+	<DocumentID>484D7EE5-DBB0-A1E8-81D1-0015FBBF64BF</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-81D1-0015FBBF64BF</Name>
+	<Description>SAP sold to account</Description>
+	<CreatedBy>CC Contract Admin</CreatedBy>
+	<CreationDate>2018-02-01T11:37:15.143</CreationDate>
+	<Notes/>
+	<Text>SAP sold to account</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-81D1-0015FBBEE4BF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

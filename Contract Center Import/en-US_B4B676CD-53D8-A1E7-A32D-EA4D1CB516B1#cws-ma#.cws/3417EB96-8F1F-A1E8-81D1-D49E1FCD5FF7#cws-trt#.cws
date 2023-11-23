@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-81D1-D49E1FCD9FF7">
+	<DocumentID>3417EB96-8F1F-A1E8-81D1-D49E1FCD5FF7</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-81D1-D49E1FCD5FF7</Name>
+	<Description>Fill Destination Manager Details</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-02-01T12:00:22.73</CreationDate>
+	<Notes/>
+	<Text>Fill Destination Manager Details</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-81D1-D49E1FCCDFF7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

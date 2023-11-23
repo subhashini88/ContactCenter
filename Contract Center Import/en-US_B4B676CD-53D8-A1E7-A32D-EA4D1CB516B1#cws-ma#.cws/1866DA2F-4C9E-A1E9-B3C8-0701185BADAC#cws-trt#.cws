@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-B3C8-0701185BEDAC">
+	<DocumentID>1866DA2F-4C9E-A1E9-B3C8-0701185BADAC</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-B3C8-0701185BADAC</Name>
+	<Description>Data manager</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-04T14:27:47.241</CreationDate>
+	<Notes/>
+	<Text>Data manager</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1E9-B3C8-0701185B2DAC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

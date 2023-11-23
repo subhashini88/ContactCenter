@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-9DE0-0268F30DB2FD">
+	<DocumentID>005056C0-0008-A1E7-9DE0-0268F30D72FD</DocumentID>
+	<Name>005056C0-0008-A1E7-9DE0-0268F30D72FD</Name>
+	<Description>validateclause</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-08-03T05:29:45.903</CreationDate>
+	<Notes/>
+	<Text>validateclause</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-9DE0-0268F30CF2FD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

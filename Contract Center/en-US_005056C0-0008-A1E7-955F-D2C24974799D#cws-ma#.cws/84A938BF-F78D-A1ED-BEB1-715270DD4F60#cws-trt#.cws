@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1ED-BEB1-715270DD8F60">
+	<DocumentID>84A938BF-F78D-A1ED-BEB1-715270DD4F60</DocumentID>
+	<Name>84A938BF-F78D-A1ED-BEB1-715270DD4F60</Name>
+	<Description>&quot;Rule triggered&quot;</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-25T06:32:40.612</CreationDate>
+	<Notes/>
+	<Text>&quot;Rule triggered&quot;</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1ED-BEB1-715270DCCF60"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="D4BED985-316A-A1E8-9E47-C605BB26A4E4">
+	<DocumentID>D4BED985-316A-A1E8-9E47-C605BB2664E4</DocumentID>
+	<Name>D4BED985-316A-A1E8-9E47-C605BB2664E4</Name>
+	<Description>Negotiate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-26T09:20:48.102</CreationDate>
+	<Notes/>
+	<DefaultText>Negotiate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="D4BED985-316A-A1E8-9E47-C605BB26E4E4"
+		/>
+	</Translations>
+</TextIdentifier>

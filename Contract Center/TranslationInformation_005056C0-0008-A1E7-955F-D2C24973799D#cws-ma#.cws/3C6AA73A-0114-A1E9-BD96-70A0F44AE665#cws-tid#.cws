@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD96-70A0F44B2665">
+	<DocumentID>3C6AA73A-0114-A1E9-BD96-70A0F44AE665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD96-70A0F44AE665</Name>
+	<Description>Pending activation_3</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-24T12:32:55.222</CreationDate>
+	<Notes/>
+	<DefaultText>Pending activation_3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD96-70A0F44B6665"
+		/>
+	</Translations>
+</TextIdentifier>

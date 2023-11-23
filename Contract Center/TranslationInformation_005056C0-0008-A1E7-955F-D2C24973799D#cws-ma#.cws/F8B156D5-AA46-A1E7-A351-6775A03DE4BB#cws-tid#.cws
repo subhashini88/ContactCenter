@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A351-6775A03E24BB">
+	<DocumentID>F8B156D5-AA46-A1E7-A351-6775A03DE4BB</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A351-6775A03DE4BB</Name>
+	<Description>Inception date_1</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-08-30T05:40:00.681</CreationDate>
+	<Notes/>
+	<DefaultText>Inception date_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-A351-6775A03E64BB"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-86EA-87FA34D8F011">
+	<DocumentID>F8B156BC-2CB7-A1E8-86EA-87FA34D8B011</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-86EA-87FA34D8B011</Name>
+	<Description>Z_INT_BillerPeriodImportStatusFailureList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-02-27T11:15:24.911</CreationDate>
+	<Notes/>
+	<Text>Z_INT_BillerPeriodImportStatusFailureList</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-86EA-87FA34D83011"
+		/>
+	</TextIdentifier>
+</TranslatedText>

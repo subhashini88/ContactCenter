@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B177-FB5166582EF0">
+	<DocumentID>C4D98747-AA4E-A1E7-B177-FB516657EEF0</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B177-FB516657EEF0</Name>
+	<Description>PO reqd</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-10T06:31:00.546</CreationDate>
+	<Notes/>
+	<Text>PO reqd</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-B177-FB5166576EF0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

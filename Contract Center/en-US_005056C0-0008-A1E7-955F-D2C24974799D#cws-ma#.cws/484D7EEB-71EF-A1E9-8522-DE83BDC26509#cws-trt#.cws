@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-8522-DE83BDC2A509">
+	<DocumentID>484D7EEB-71EF-A1E9-8522-DE83BDC26509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-8522-DE83BDC26509</Name>
+	<Description>RenewalNotificationRemainder</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-10T04:12:13.187</CreationDate>
+	<Notes/>
+	<Text>RenewalNotificationRemainder</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-8522-DE83BDC1E509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

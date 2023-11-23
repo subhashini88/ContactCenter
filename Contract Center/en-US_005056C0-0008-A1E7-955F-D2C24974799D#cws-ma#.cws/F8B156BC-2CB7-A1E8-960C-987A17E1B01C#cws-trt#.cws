@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-960C-987A17E1F01C">
+	<DocumentID>F8B156BC-2CB7-A1E8-960C-987A17E1B01C</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-960C-987A17E1B01C</Name>
+	<Description>Copy and create a new record</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-05-15T11:26:28.234</CreationDate>
+	<Notes/>
+	<Text>Copy and create a new record</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-960C-987A17E1301C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

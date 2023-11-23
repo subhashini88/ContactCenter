@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A70-97170E2DAB9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A70-97170E2D6B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A70-97170E2D6B9A</Name>
+	<Description>DataManagementUpgrade</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-01T06:51:01.809</CreationDate>
+	<Notes/>
+	<Text>DataManagementUpgrade</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A70-97170E2CEB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

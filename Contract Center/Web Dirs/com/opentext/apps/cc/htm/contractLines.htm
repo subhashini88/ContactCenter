@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contract lines</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../js/contractLines.js" type="text/javascript"></script>
+</head>
+
+<body class="cc-ltr">
+    <div id="div_contractLines">
+        <div id="div_contractLinesFilter" apps-toggle="expanded" class="col-md-3 cc-filter">
+            <div id="div_filterPanel" class="panel panel-default">
+                <div class="panel-heading">
+                    <button class="btn btn-primary cc-text-button-primary" onclick="ApplyFilterOnContractLines(this)" id="btn_applyFilter" data-translatable="true"><span data-translatable="true">Apply</span></button>
+                    <button class="btn btn-default cc-text-button" onclick="ClearContractLinesFilter()" id="btn_clearFilter" data-translatable="true"><span data-translatable="true">Clear</span></button>
+                </div>
+                <div id="div_filterPanelBody" class="panel-body" style="padding: 0px;">
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_productOrServiceFilter" aria-expanded="false" aria-controls="name_Filter">
+                            <label data-translatable="true">Product or service</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_productOrServiceFilter">
+                            <div class="form-group">
+                                <select id="select_productOrServiceFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_productOrServiceFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_productOrServiceGrpFilter" aria-expanded="false" aria-controls="name_Filter">
+                            <label data-translatable="true">Product or service group</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_productOrServiceGrpFilter">
+                            <div class="form-group">
+                                <select id="select_productOrServiceGrpFilterOperator" class="form-control cc-select"
+                                    disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_productOrServiceGrpFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_skuOrServiceIDFilter" aria-expanded="false" aria-controls="name_Filter">
+                            <label data-translatable="true">SKU or Service ID</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_skuOrServiceIDFilter">
+                            <div class="form-group">
+                                <select id="select_skuOrServiceIDFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_skuOrServiceIDFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_priceFilter" aria-expanded="false" aria-controls="name_Filter">
+                            <label data-translatable="true">Price</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_priceFilter">
+                            <div class="form-group">
+                                <select id="select_priceFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_priceFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_quantityFilter" aria-expanded="false" aria-controls="name_Filter">
+                            <label data-translatable="true">Quantity</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_quantityFilter">
+                            <div class="form-group">
+                                <select id="select_quantityFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_quantityFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_unitsFilter" aria-expanded="false" aria-controls="name_Filter">
+                            <label data-translatable="true">Units</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_unitsFilter">
+                            <div class="form-group">
+                                <select id="select_unitsFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_unitsFilter"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <span class="cc-filter-header" apps-toggle="expanded" data-target="#div_poNumberFilter" aria-expanded="false" aria-controls="name_Filter">
+                            <label data-translatable="true">PO number</label>
+                            <img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                        </span>
+                        <div class="cc-filter-body" id="div_poNumberFilter">
+                            <div class="form-group">
+                                <select id="select_poNumberFilterOperator" class="form-control cc-select" disabled>
+                                    <option value="" data-translatable="true">--Select--</option>
+                                    <option value="EQUALTO">Equal to</option>
+                                    <option value="RANGE">Range</option>
+                                    <option value="NOTEQUALTO">Not equal to</option>
+                                    <option value="CONTAINS" selected data-translatable="true">Contains</option>
+                                    <option value="EMPTY">Empty</option>
+                                    <option value="NOTEMPTY">Not empty</option>
+                                    <option value="ANYOF">Any of(;)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="input_poNumberFilter"></input>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div id="div_contractLinesData" class="col-md-9 cc-list">
+            <div class="cc-error-info-area" id="div_listErrorInfoArea">
+                <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                <span id="span_errorInfoMessage" style="position: relative;"></span>
+            </div>
+            <div class="cc-header"
+                style="background-color: white;height: 45px;position: fixed;width: 100%;z-index: 1;top: 0;">
+                <button class="btn btn-default cc-button" id="btn_filterContractLines">
+                    <img class="cc-icon" alt="Filter" src="../../../../../com/opentext/apps/utils/img/filter.svg">
+                </button>
+                <button class="btn btn-default cc-button" id="btn_createContractLineButton" onclick="callOpenCTRLineCreateForm()">
+                    <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/add.svg">
+                </button>
+                <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                <button class="btn btn-default cc-text-button" onclick="callOpenCTRLineSummaryForm()" id="btn_editContractLineFromActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Edit</span></button>
+                <button class="btn btn-default cc-text-button" onclick="deleteContractLineFromActionBar()" id="btn_deleteContractLinesFromActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Delete</span></button>
+                <button class="btn btn-default cc-text-button" onclick="ClearContractLinesFilter()" id="btn_clearFilterActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Clear filters</span></button>
+            </div>
+            <div class="table-responsive" style="padding-top: 45px;padding-bottom: 12px;">
+                <table id="table_ContractLinesTable" class="table">
+                    <thead>
+                        <tr>
+                            <th style="width: 3%; min-width: 10px;">
+                                <div class="cc-select-column cc-checkbox-select-all-off" id="div_selectAllContractLines" data-bind="event:{click:$root.onSelectAllCTRLinesCheckboxValueChanged}"></div>
+                            </th>
+                            <th style="width: 21%;" data-translatable="true">Product or service</th>
+                            <th style="width: 21%;" data-translatable="true">Product or service group</th>
+                            <th style="width: 10%;" data-translatable="true">SKU or Service ID</th>
+                            <th style="width: 10%;" data-translatable="true">Price</th>
+                            <th style="width: 10%;" data-translatable="true">Quantity</th>
+                            <th style="width: 10%;" data-translatable="true">Units</th>
+                            <th style="width: 15%;" data-translatable="true">PO number</th>
+                        </tr>
+                    </thead>
+                    <tbody data-bind="foreach:ContractLines">
+                        <tr style="cursor: pointer;" class="ContractLine_row">
+                            <td>
+                                <div class="cc-select-column cc-checkbox-off" data-bind="event:{click:$root.onCTRLineRowCheckboxValueChanged}"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:getTextValue(Services.Name)"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:getTextValue(Services.Owner.Name)"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:getTextValue(SKUOrServiceId)"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:getTextValue(Price)"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:getTextValue(Quantity)"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:getTextValue(ToUnitOfMeasurement.Unit)"></div>
+                            </td>
+                            <td>
+                                <div data-bind="text:getTextValue(RelatedPONumber.PONumber)"></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="cc-footer col-lg-12" style="text-align: center;padding: 0px;">
+                <ul class="pull-left pagination" style="margin: 0;">
+                    <li class="li-pagination">
+                        <select class="form-control cc-select" id="select_itemsCountPerPageParameter" onchange="updateLimitValue(this)" style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;">
+                            <option value="1" data-translatable="true">1 per page</option>
+                            <option value="10" data-translatable="true">10 per page</option>
+                            <option value="25" selected data-translatable="true">25 per page</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="pagination" style="margin: 0;">
+                    <li class="li-pagination">
+                        <a id="a_itemsCount" style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                            <span data-bind="text:numOfContractLines"></span>
+                            <span data-translatable="true">result(s)</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="pagination pull-right" style="margin: 0;">
+                    <li class="li-pagination li_ListLeftNavigation" id="li_contractLinesLeftNavigation" style="cursor: pointer;">
+                        <a data-bind="click:goToFirstPage.bind()">
+                            <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToFirstPage">
+                            <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                        </a>
+                        <a data-bind="click:goToPreviousPage.bind()">
+                            <img class="cc-pagination-icon rotated-90" alt="PreviousPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToPreviousPage">
+                        </a>
+                    </li>
+                    <li class="li-pagination">
+                        <span>
+                            <input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="textInput:currentPage" disabled style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;"></input>
+                            <span data-translatable="true"> of </span>
+                            <span style="margin-left: .5em;margin-right: .5em;" data-bind="text:numOfPages"></span>
+                        </span>
+                    </li>
+                    <li class="li-pagination li_ListRightNavigation" id="li_contractLinesRightNavigation" style="cursor: pointer;">
+                        <a data-bind="click:goToNextPage.bind()">
+                            <img class="cc-pagination-icon rotated-270" alt="NextPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToNextPage">
+                        </a>
+                        <a data-bind="click:goToLastPage.bind()">
+                            <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToLastPage">
+                            <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Create or Edit Contract line modal form -->
+        <div class="modal fade" id="div_createOrUpdateContractLineModal" role="dialog" style="z-index: 1999;">
+            <div class="modal-content cc-modal-content" style="width:60%; height: 51%;">
+                <div class="modal-header cc-modal-header">
+                    <button type="button" data-dismiss="modal" style="float: right; border: none; background-color: transparent;">
+                        <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                    </button>
+                    <div class="modal-title">
+                        <span id="span_createOrEditModalHeading" style="font-size: 2rem;"></span>
+                        <span style="font-size: 2rem;" data-translatable="true">contract line</span>
+                    </div>
+                </div>
+                <div class="modal-body cc-modal-body">
+                    <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+                        <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                        <span id="span_errorInfoMessage" style="position: relative;"></span>
+                    </div>
+                    <div id="div_ctrLineDetails">
+                        <div class="col-md-12 no-padding">
+                            <div class="form-group col-md-4">
+                                <label class="cc-required" data-translatable="true" for="Service">Product or service</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" onchange="removeErrorClass(this)" id="input_serviceName" data-translatable="true" data-bind="textInput:serviceName" readonly style="background-color: transparent;">
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;padding: 5px 8px;border: none !important;background: transparent !important;">
+                                        <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="openServiceSelectionModal(this)">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4 rtl-float-right">
+                                <label data-translatable="true" for="ServiceGroup">Product or service group</label>
+                                <input type="text" class="form-control" id="input_serviceGroupName" disabled data-bind="textInput:serviceGroupName">
+                            </div>
+                        </div>
+                        <div class="col-md-12 no-padding">
+                            <div class="form-group col-md-4">
+                                <label data-translatable="true" for="SKUID">SKU or Service ID</label>
+                                <input type="text" class="form-control" id="input_skuOrServiceId" data-bind="textInput:skuOrServiceId">
+                            </div>
+                            <div class="form-group col-md-4 rtl-float-right">
+                                <label data-translatable="true" for="Price">Price</label>
+                                <input type="text" class="form-control" id="input_price" data-bind="textInput:price">
+                            </div>
+                            <div class="form-group col-md-4 rtl-float-right">
+                                <label data-translatable="true" for="Quantity">Quantity</label>
+                                <input type="text" class="form-control" id="input_quantity" data-bind="textInput:quantity">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 no-padding">
+                        <div class="form-group col-md-4">
+                            <label data-translatable="true" for="Units">Units</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="input_units" data-translatable="true" data-bind="textInput:units" readonly>
+                                <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;padding: 5px 8px;border: none !important;background: transparent !important;">
+                                    <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="openUOMSelectionModal(this)">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-4 rtl-float-right">
+                            <label data-translatable="true" for="POnumbers">PO number</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="input_poNumber" data-translatable="true" data-bind="textInput:poNumber" readonly>
+                                <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;padding: 5px 8px;border: none !important;background: transparent !important;">
+                                    <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="openPOsSelectionModal(this)">
+                                </span>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="cc-modal-footer modal-footer text-align-left">
+                        <button class="cc-btn cc-btn-primary" id="btn_createOrUpdateContractLine" type="submit" data-bind="click:createOrUpdateContractLine" style="outline:none;" data-translatable="true">
+                            <span data-translatable="true">Ok</span>
+                        </button>
+                        <button type="button" class="cc-btn cc-btn-secondary" data-dismiss="modal" data-bind="click:clearCTRLineDetailsModelData" style="outline:none;" data-translatable="true">
+                            <span data-translatable="true">Cancel</span>
+                        </button>
+                </div>
+            </div>
+        </div>
+        <!-- Delete contract line warning modal form -->
+        <div class="modal fade" id="div_deleteCTRLineModal" role="dialog" style="z-index: 1999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+                <div class="modal-header cc-modal-header">
+                    <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                        <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                    </button>
+                    <h3 data-translatable="true">Delete <span id="span_NumOfCTRLinesToDelete"></span></h3>
+                </div>
+                <div class="modal-body cc-modal-body">
+                    <div class="cc-warning-msg rtl-notifquestion" data-translatable="true">Delete the selected items?</div>
+                </div>
+                <div class="cc-modal-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_deleteCTRLineYes" data-translatable="true"><span data-translatable="true">Delete</span></button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_deleteCTRLineCancel" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                </div>
+            </div>
+        </div>
+        <!-- Services and groups  lookup -->
+        <div class="modal fade" id="div_serviceLookupModal" role="dialog" style="z-index: 2999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:52%; height: 75%;">
+                <div class="modal-header cc-modal-header">
+                    <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                        <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                    </button>
+                    <h3 data-translatable="true">Select a service</h3>
+                </div>
+                <div class="modal-body cc-modal-body">
+                    <div class="col-md-12 cc-list" id="div_services">
+                        <div class="input-group" style="margin-bottom: 10px;">
+                            <input type="text" class="form-control cc-input-browse rtl-input-browse" data-translatable="true" id="input_serviceSearchFilter" placeholder="Search by service name" style="background-color: white;border-right: 0;">
+                            <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;background-color: white;">
+                                <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListAllServices()">
+                            </span>
+                        </div>
+                        <table class="table cc-border">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10%;"></th>
+                                    <th style="width: 40%;" data-translatable="true" scope="col">Product or service</th>
+                                    <th style="width: 40%;" data-translatable="true" scope="col">Product or service group</th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach:Services">
+                                <tr data-bind="click:$root.onSelectServiceRow">
+                                    <td>
+                                        <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onSelectServiceRadioButton}"></div>
+                                    </td>
+                                    <td data-bind="text:getTextValue(Name)"></td>
+                                    <td data-bind="text:getTextValue(Owner.Name)"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cc-modal-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_selectServiceYes" data-translatable="true"><span data-translatable="true">Select</span></button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectServiceNo" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                </div>
+            </div>
+        </div>
+        <!-- UOM lookup -->
+        <div class="modal fade" id="div_UOMLookupModal" role="dialog" style="z-index: 2999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:52%; height: 75%;">
+                <div class="modal-header cc-modal-header">
+                    <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                        <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                    </button>
+                    <h3 data-translatable="true">Select a unit of measurement</h3>
+                </div>
+                <div class="modal-body cc-modal-body">
+                    <div class="col-md-12 cc-list" id="div_services">
+                        <div class="input-group" style="margin-bottom: 10px;">
+                            <input type="text" class="form-control cc-input-browse rtl-input-browse" data-translatable="true" id="input_serviceSearchFilter" placeholder="Search by unit of measurement" style="background-color: white;border-right: 0;">
+                            <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;background-color: white;">
+                                <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListAllUOMs()">
+                            </span>
+                        </div>
+                        <table class="table cc-border">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10%;"></th>
+                                    <th style="width: 40%;" data-translatable="true" scope="col">Units of measurement</th>
+                                    <th style="width: 40%;" data-translatable="true" scope="col">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach:UOMs">
+                                <tr data-bind="click:$root.onSelectUOMRow">
+                                    <td>
+                                        <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onSelectUOMRadioButton}"></div>
+                                    </td>
+                                    <td data-bind="text:getTextValue(Unit)"></td>
+                                    <td data-bind="text:getTextValue(Description)"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cc-modal-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_selectUOMYes" data-translatable="true"><span data-translatable="true">Select</span></button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectUOMNo" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                </div>
+            </div>
+        </div> 
+        <!-- PO numbers lookup -->
+        <div class="modal fade" id="div_POsLookupModal" role="dialog" style="z-index: 2999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:52%; height: 75%;">
+                <div class="modal-header cc-modal-header">
+                    <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                        <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                    </button>
+                    <h3 data-translatable="true">Select a PO number</h3>
+                </div>
+                <div class="modal-body cc-modal-body">
+                    <div class="col-md-12 cc-list" id="div_services">
+                        <div class="input-group" style="margin-bottom: 10px;">
+                            <input type="text" class="form-control cc-input-browse rtl-input-browse" data-translatable="true" id="input_serviceSearchFilter" placeholder="Search by PO number" style="background-color: white;border-right: 0;">
+                            <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;background-color: white;">
+                                <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListAllPOs()">
+                            </span>
+                        </div>
+                        <table class="table cc-border">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10%;"></th>
+                                    <th style="width: 40%;" data-translatable="true" scope="col">PO number</th>
+                                </tr>
+                            </thead>
+                            <tbody data-bind="foreach:POs">
+                                <tr data-bind="click:$root.onSelectPORow">
+                                    <td>
+                                        <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onSelectPORadioButton}"></div>
+                                    </td>
+                                    <td data-bind="text:getTextValue(PONumber)"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cc-modal-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_selectPOYes" data-translatable="true"><span data-translatable="true">Select</span></button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectPONo" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                </div>
+            </div>
+        </div>                 
+    </div>
+</body>

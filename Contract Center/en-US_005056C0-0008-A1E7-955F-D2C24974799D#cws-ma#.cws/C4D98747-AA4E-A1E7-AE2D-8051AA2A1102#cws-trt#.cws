@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-AE2D-8051AA2A5102">
+	<DocumentID>C4D98747-AA4E-A1E7-AE2D-8051AA2A1102</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-AE2D-8051AA2A1102</Name>
+	<Description>Dedicated support</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-10-24T12:31:33.173</CreationDate>
+	<Notes/>
+	<Text>Dedicated support</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-AE2D-8051AA299102"
+		/>
+	</TextIdentifier>
+</TranslatedText>

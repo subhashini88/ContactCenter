@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B8F5-05FFE1646504">
+	<DocumentID>484D7EEB-71EF-A1E8-B8F5-05FFE1642504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B8F5-05FFE1642504</Name>
+	<Description>DisableContractProperty</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-09T04:10:53.645</CreationDate>
+	<Notes/>
+	<Text>DisableContractProperty</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-B8F5-05FFE163A504"
+		/>
+	</TextIdentifier>
+</TranslatedText>

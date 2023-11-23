@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title data-translatable="true">Generate document</title>
+    <meta charset="utf-8">
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $.cordys.json.defaults.removeNamespacePrefix = true;
+        var i_locale, cInstanceId, defaultContainingSectionId, relatedTemplateId,termRelatedStatus,templateType;
+        $(function () {
+            i_locale = getlocale();
+            translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale);
+            var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+            loadRTLIfRequired(i_locale, rtl_css);
+            $('[src*="generateDocument.htm"]', window.parent.parent.document).parent().css('padding-left', '0px');
+            cInstanceId = getUrlParameterValue("instanceId", null, true);
+            defaultContainingSectionId = getUrlParameterValue("defaultContSectionId", null, true);
+            relatedTemplateId = getUrlParameterValue("relatedTemplateId", null, true);
+            termRelatedStatus = getUrlParameterValue("Z_INT_CTRInfo", null, true);
+			templateType = getUrlParameterValue("templateType", null, true);
+            if (termRelatedStatus && (termRelatedStatus.includes("TERMS:NOTSTARTED")
+                || termRelatedStatus.includes("TERMS:FAILED"))) {
+                triggerCreateTerms(cInstanceId);
+            } else {
+                loadDocPreviewLayout();
+            }
+        });
+
+        function loadDocPreviewLayout() {
+			if(templateType == "Internal party document" || templateType == "External party document"){
+				var redirection_URL = "../../../../../app/start/web/#/item/" + cInstanceId + "/0050560179C2A1ECBCE712501D866D6B?openContentInParentWindow=true";
+				if (window.navigator.language !== i_locale) {
+					redirection_URL = setUrlParameter(redirection_URL, 'language', i_locale);
+				}
+				window.location = redirection_URL;
+			}
+			else if(templateType == "Internal template"){
+				if (defaultContainingSectionId != "undefined") {
+					var redirection_URL = "../../../../../app/start/web/#/item/" + cInstanceId + "/F8B156BC2CB7A1EB8344E81EBA5DB084?openContentInParentWindow=true";
+					if (window.navigator.language !== i_locale) {
+						redirection_URL = setUrlParameter(redirection_URL, 'language', i_locale);
+					}
+					window.location = redirection_URL;
+				}
+				else {
+					var redirection_URL = "../../../../../app/start/web/#/item/" + cInstanceId + "/B4B676CD53D8A1E8B5A005E2043AC878?openContentInParentWindow=true";
+					if (window.navigator.language !== i_locale) {
+						redirection_URL = setUrlParameter(redirection_URL, 'language', i_locale);
+					}
+					window.location = redirection_URL;
+				}
+			}
+        }
+        function triggerCreateTerms(cInstanceId) {
+            $.cordys.ajax(
+                {
+                    method: "ExecuteProcess",
+                    namespace: "http://schemas.cordys.com/bpm/execution/1.0",
+                    parameters:
+                    {
+                        "type": "definition",
+                        "receiver": "com/opentext/apps/cc/contract/TermInstanceGeneration",
+                        "rootEntityInstanceId": cInstanceId
+
+                    },
+                }).done(function (data) {
+                    loadDocPreviewLayout();
+
+                }).fail(function (error) {
+                    loadDocPreviewLayout();
+                })
+        }
+    </script>
+</head>
+
+</html>

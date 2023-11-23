@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-AB2A-C06A8B1EDC4A">
+	<DocumentID>005056C0-0008-A1E7-AB2A-C06A8B1E9C4A</DocumentID>
+	<Name>005056C0-0008-A1E7-AB2A-C06A8B1E9C4A</Name>
+	<Description>Code</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-09T04:35:02.355</CreationDate>
+	<Notes/>
+	<Text>Code</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-AB2A-C06A8B1E1C4A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

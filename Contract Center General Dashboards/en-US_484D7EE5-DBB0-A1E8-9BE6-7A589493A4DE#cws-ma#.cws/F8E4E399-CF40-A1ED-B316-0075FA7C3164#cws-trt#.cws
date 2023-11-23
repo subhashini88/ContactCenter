@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B316-0075FA7C7164">
+	<DocumentID>F8E4E399-CF40-A1ED-B316-0075FA7C3164</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B316-0075FA7C3164</Name>
+	<Description>All States User Clause Asgmts List</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-27T04:31:58.751</CreationDate>
+	<Notes/>
+	<Text>All States User Clause Asgmts List</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B316-0075FA7BB164"
+		/>
+	</TextIdentifier>
+</TranslatedText>

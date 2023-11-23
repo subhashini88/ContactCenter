@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9CEA-37D2CD0824C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9CEA-37D2CD07E4C8</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9CEA-37D2CD07E4C8</Name>
+	<Description>Termination conditions</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-19T10:59:58.631</CreationDate>
+	<Notes/>
+	<Text>Termination conditions</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-9CEA-37D2CD0764C8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

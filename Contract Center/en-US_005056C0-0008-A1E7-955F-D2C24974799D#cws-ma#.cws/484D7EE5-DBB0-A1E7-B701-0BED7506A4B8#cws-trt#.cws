@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B701-0BED7506E4B8">
+	<DocumentID>484D7EE5-DBB0-A1E7-B701-0BED7506A4B8</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B701-0BED7506A4B8</Name>
+	<Description>UpdateRevenueSchedule</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-08T10:57:37.649</CreationDate>
+	<Notes/>
+	<Text>UpdateRevenueSchedule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B701-0BED750624B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

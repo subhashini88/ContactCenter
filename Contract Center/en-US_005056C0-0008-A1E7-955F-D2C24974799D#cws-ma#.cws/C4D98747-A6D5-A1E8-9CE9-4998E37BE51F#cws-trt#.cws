@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D5-A1E8-9CE9-4998E37C251F">
+	<DocumentID>C4D98747-A6D5-A1E8-9CE9-4998E37BE51F</DocumentID>
+	<Name>C4D98747-A6D5-A1E8-9CE9-4998E37BE51F</Name>
+	<Description>Send email</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-19T09:45:14.261</CreationDate>
+	<Notes/>
+	<Text>Send email</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D5-A1E8-9CE9-4998E37B651F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

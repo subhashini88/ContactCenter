@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B534-65DE9906689A">
+	<DocumentID>C4D98747-AA4E-A1E7-B534-65DE9906289A</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B534-65DE9906289A</Name>
+	<Description>Prepare all contract value</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-11-29T06:55:07.929</CreationDate>
+	<Notes/>
+	<Text>Prepare all contract value</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-B534-65DE9905A89A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

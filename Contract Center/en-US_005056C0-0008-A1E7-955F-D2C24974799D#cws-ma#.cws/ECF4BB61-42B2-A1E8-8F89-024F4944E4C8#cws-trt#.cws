@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-8F89-024F494524C8">
+	<DocumentID>ECF4BB61-42B2-A1E8-8F89-024F4944E4C8</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-8F89-024F4944E4C8</Name>
+	<Description>Auto renew clear rule  before create</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-12T08:52:49.892</CreationDate>
+	<Notes/>
+	<Text>Auto renew clear rule  before create</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-8F89-024F494464C8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

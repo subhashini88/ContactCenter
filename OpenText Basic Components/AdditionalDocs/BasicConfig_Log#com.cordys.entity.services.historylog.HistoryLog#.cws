@@ -1,0 +1,30 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-8642-49911B297086">
+	<DocumentID>F8B156BC-2CB7-A1EB-8642-49911B293086</DocumentID>
+	<Name>BasicConfig_Log</Name>
+	<Description>BasicConfig_Log</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-10-28T10:35:45.392</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EB-8642-49911B263086">
+			<DocumentID>F8B156BC-2CB7-A1EB-8642-49911B25F086</DocumentID>
+			<Name>F8B156BC-2CB7-A1EB-8642-49911B25F086</Name>
+			<Description>F8B156BC-2CB7-A1EB-8642-49911B25F086</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-10-28T10:35:45.392</CreationDate>
+			<Notes/>
+			<DeveloperText>BasicConfig_Log</DeveloperText>
+			<Identifier/>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

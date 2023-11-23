@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-B573-731C7A60BA9F">
+	<DocumentID>98FA9B81-5041-A1EC-B573-731C7A607A9F</DocumentID>
+	<Name>98FA9B81-5041-A1EC-B573-731C7A607A9F</Name>
+	<Description>Related to contract</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-05-17T10:50:51.248</CreationDate>
+	<Notes/>
+	<Text>Related to contract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-B573-731C7A5FFA9F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

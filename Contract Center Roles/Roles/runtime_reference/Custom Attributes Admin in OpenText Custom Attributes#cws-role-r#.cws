@@ -1,0 +1,37 @@
+
+<RoleRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-844E-4A779811A71B">
+	<DocumentID>3C6AA73A-0114-A1EC-844E-4A779811671B</DocumentID>
+	<Name>Custom Attributes Admin in OpenText Custom Attributes</Name>
+	<Description>Custom Attributes Admin</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-09T06:44:12.606</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<CommonName>Custom Attributes Admin</CommonName>
+	<DistinguishedName>cn=Custom Attributes Admin,cn=OpenText Custom Attributes,cn=cordys,cn=defaultInst,o=opentext.net</DistinguishedName>
+	<ISVPName></ISVPName>
+	<type>Internal</type>
+	<PackageInformation>
+		<CordysBinaryReferenceCAPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceCAPInfo"
+			RuntimeDocumentID="3C6AA73A-0114-A1EC-844E-4A779810E71B">
+			<DocumentID>3C6AA73A-0114-A1EC-844E-4A779810A71B</DocumentID>
+			<Name>Untitled CordysBinaryReferenceCAPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceCAPInfo</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-09-09T06:44:12.606</CreationDate>
+			<Notes/>
+			<ArtifactID>00505601-A0EE-A1EB-BED5-370F64E7FB6E</ArtifactID>
+			<CAPID>3c6aa73a-0114-a1eb-bead-a6bea2326714</CAPID>
+			<CAPName>OpenText Custom Attributes</CAPName>
+			<CAPVersion>ver21.4.0build1</CAPVersion>
+		</CordysBinaryReferenceCAPInfo>
+	</PackageInformation>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleRuntime>

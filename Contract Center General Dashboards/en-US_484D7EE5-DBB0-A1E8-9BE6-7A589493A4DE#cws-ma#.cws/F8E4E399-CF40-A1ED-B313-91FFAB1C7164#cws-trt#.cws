@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B313-91FFAB1CB164">
+	<DocumentID>F8E4E399-CF40-A1ED-B313-91FFAB1C7164</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B313-91FFAB1C7164</Name>
+	<Description>All States Individual ConfigWorkflow Tasks</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-27T03:39:53.062</CreationDate>
+	<Notes/>
+	<Text>All States Individual ConfigWorkflow Tasks</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B314-3E9E821B7164"
+		/>
+	</TextIdentifier>
+</TranslatedText>

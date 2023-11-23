@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8B11-FB828E49AB9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8B11-FB828E496B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8B11-FB828E496B9A</Name>
+	<Description>CreateOrganizationMembers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-04T11:52:43.802</CreationDate>
+	<Notes/>
+	<Text>CreateOrganizationMembers</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8B11-FB828E48EB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

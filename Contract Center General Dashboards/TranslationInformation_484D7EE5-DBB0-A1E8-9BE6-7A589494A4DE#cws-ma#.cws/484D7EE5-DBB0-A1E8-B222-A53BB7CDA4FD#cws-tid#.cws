@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B222-A53BB7CDE4FD">
+	<DocumentID>484D7EE5-DBB0-A1E8-B222-A53BB7CDA4FD</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B222-A53BB7CDA4FD</Name>
+	<Description>Assignments</Description>
+	<CreatedBy>joker</CreatedBy>
+	<CreationDate>2018-10-05T11:15:42.094</CreationDate>
+	<Notes/>
+	<DefaultText>Assignments</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B222-A53BB7CE24FD"
+		/>
+	</Translations>
+</TextIdentifier>

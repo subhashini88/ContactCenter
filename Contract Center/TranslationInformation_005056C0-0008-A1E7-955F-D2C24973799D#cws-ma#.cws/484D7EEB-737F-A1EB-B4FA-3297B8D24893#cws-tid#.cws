@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-737F-A1EB-B4FA-3297B8D28893">
+	<DocumentID>484D7EEB-737F-A1EB-B4FA-3297B8D24893</DocumentID>
+	<Name>484D7EEB-737F-A1EB-B4FA-3297B8D24893</Name>
+	<Description>Reactivate2</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-06-23T06:04:02.315</CreationDate>
+	<Notes/>
+	<DefaultText>Reactivate2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-737F-A1EB-B4FA-3297B8D2C893"
+		/>
+	</Translations>
+</TextIdentifier>

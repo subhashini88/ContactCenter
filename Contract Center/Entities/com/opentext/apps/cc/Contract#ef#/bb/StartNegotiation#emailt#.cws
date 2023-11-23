@@ -1,0 +1,55 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-BA2E-45DCF46C2662">
+	<DocumentID>8C1645B9-0967-A1E9-BA2E-45DCF46BE662</DocumentID>
+	<Name>StartNegotiation</Name>
+	<Description>StartNegotiation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-07T07:18:25.24</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>Hi,&lt;br /&gt;
+{User.Properties.FullName} has shared the &lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/item/{item.Identity.ItemId}/F8B156D635F3A1E89CB08DDB9883E4C8&quot;&gt;&lt;strong&gt;{item.Properties.ContractName}&lt;/strong&gt;&lt;/a&gt; contract for negotiation.&lt;br /&gt;
+&lt;br /&gt;
+{User.Properties.FullName} comments:&lt;br /&gt;
+{item.Properties.NegotiationComments}&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>Negotiation initiated for {item.Properties.ContractName}  contract.</Subject>
+	<To></To>
+	<BuildingBlock>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ADF7-CDD0458024F4"
+		/>
+	</BuildingBlock>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="8C1645B9-0967-A1E9-BA34-80F3BC97A662">
+			<DocumentID>8C1645B9-0967-A1E9-BA34-80F3BC976662</DocumentID>
+			<Name>8C1645B9-0967-A1E9-BA34-80F3BC976662</Name>
+			<Description>8C1645B9-0967-A1E9-BA34-80F3BC976662</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-10-07T07:20:51.14</CreationDate>
+			<Notes/>
+			<DeveloperText>Start negotiation</DeveloperText>
+			<Identifier>
+				<uri
+					id="F0D5BF3D-2BAA-A1E9-B0FC-C01C96298338"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<TypeDefinition/>
+</EmailTemplate>

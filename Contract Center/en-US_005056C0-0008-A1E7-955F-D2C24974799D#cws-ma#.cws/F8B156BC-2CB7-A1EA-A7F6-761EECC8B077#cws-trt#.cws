@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A7F6-761EECC8F077">
+	<DocumentID>F8B156BC-2CB7-A1EA-A7F6-761EECC8B077</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A7F6-761EECC8B077</Name>
+	<Description>Rule evaluated to true</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-27T05:33:34.216</CreationDate>
+	<Notes/>
+	<Text>Rule evaluated to true</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A7F6-761EECC83077"
+		/>
+	</TextIdentifier>
+</TranslatedText>

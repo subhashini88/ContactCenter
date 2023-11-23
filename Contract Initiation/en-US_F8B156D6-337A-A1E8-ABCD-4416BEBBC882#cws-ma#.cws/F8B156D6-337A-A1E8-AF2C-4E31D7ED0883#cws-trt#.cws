@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AF2C-4E31D7ED4883">
+	<DocumentID>F8B156D6-337A-A1E8-AF2C-4E31D7ED0883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AF2C-4E31D7ED0883</Name>
+	<Description>Delete rule</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-20T08:44:32.515</CreationDate>
+	<Notes/>
+	<Text>Delete rule</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AF2C-4E31D7EC8883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9AB5-C7F0375A0431">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9AB5-C7F03759C431</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9AB5-C7F03759C431</Name>
+	<Description>Aborted</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-09T13:03:03.483</CreationDate>
+	<Notes/>
+	<Text>Aborted</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9AB5-C7F037594431"
+		/>
+	</TextIdentifier>
+</TranslatedText>

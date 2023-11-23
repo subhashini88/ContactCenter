@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1EB-A2B9-35FE4E12AB29">
+	<DocumentID>98FA9BD4-E468-A1EB-A2B9-35FE4E126B29</DocumentID>
+	<Name>98FA9BD4-E468-A1EB-A2B9-35FE4E126B29</Name>
+	<Description>AllAmendContracts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-22T08:24:06.28</CreationDate>
+	<Notes/>
+	<Text>AllAmendContracts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1EB-A2B9-35FE4E11EB29"
+		/>
+	</TextIdentifier>
+</TranslatedText>

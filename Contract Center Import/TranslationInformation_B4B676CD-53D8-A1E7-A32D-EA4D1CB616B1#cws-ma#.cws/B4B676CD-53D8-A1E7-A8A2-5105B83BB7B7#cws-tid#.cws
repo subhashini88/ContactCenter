@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A8A2-5105B83BF7B7">
+	<DocumentID>B4B676CD-53D8-A1E7-A8A2-5105B83BB7B7</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A8A2-5105B83BB7B7</Name>
+	<Description>ReTriggerFailedImport</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-09-26T07:07:13.901</CreationDate>
+	<Notes/>
+	<DefaultText>ReTriggerFailedImport</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E7-A8A2-5105B83C37B7"
+		/>
+	</Translations>
+</TextIdentifier>

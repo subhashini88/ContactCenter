@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BECF-3C0A74DAFAA3">
+	<DocumentID>98FA9B81-5041-A1EC-BECF-3C0A74DABAA3</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BECF-3C0A74DABAA3</Name>
+	<Description>Get contacts</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-07-04T02:05:49.434</CreationDate>
+	<Notes/>
+	<Text>Get contacts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-BECF-3C0A74DA3AA3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

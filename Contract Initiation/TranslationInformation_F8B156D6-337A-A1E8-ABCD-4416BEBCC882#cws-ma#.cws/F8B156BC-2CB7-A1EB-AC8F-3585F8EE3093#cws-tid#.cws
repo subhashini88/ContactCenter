@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-AC8F-3585F8EE7093">
+	<DocumentID>F8B156BC-2CB7-A1EB-AC8F-3585F8EE3093</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-AC8F-3585F8EE3093</Name>
+	<Description>Plannned start date</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-05-11T09:46:35.55</CreationDate>
+	<Notes/>
+	<DefaultText>Plannned start date</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EB-AC8F-3585F8EEB093"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-A51F-37A03875A92F">
+	<DocumentID>18DBF20F-3D64-A1E7-A51F-37A03875692F</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-A51F-37A03875692F</Name>
+	<Description>condition</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-09-08T10:07:29.891</CreationDate>
+	<Notes/>
+	<Text>condition</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="18DBF20F-3D64-A1E7-A51F-37A03874E92F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

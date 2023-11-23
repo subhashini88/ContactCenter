@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-ADF6-36AB843DB937">
+	<DocumentID>005056C0-0008-A1E7-ADF6-36AB843D7937</DocumentID>
+	<Name>005056C0-0008-A1E7-ADF6-36AB843D7937</Name>
+	<Description>Display name_21</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-23T10:08:17.585</CreationDate>
+	<Notes/>
+	<DefaultText>Display name_21</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-ADF6-36AB843DF937"
+		/>
+	</Translations>
+</TextIdentifier>

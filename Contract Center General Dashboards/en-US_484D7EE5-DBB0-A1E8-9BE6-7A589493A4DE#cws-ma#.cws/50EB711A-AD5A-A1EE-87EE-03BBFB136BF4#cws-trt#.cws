@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-87EE-03BBFB13ABF4">
+	<DocumentID>50EB711A-AD5A-A1EE-87EE-03BBFB136BF4</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-87EE-03BBFB136BF4</Name>
+	<Description>Magellan reports</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-11T07:07:39.48</CreationDate>
+	<Notes/>
+	<Text>Magellan reports</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-87EE-61AF58192BF4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

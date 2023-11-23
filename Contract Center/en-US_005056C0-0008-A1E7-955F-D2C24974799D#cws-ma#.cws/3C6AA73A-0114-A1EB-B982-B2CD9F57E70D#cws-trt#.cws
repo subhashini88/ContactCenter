@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EB-B982-B2CD9F58270D">
+	<DocumentID>3C6AA73A-0114-A1EB-B982-B2CD9F57E70D</DocumentID>
+	<Name>3C6AA73A-0114-A1EB-B982-B2CD9F57E70D</Name>
+	<Description>ABCDToTest</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-07-16T12:24:19.383</CreationDate>
+	<Notes/>
+	<Text>ABCDToTest</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EB-B982-B2CD9F57670D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

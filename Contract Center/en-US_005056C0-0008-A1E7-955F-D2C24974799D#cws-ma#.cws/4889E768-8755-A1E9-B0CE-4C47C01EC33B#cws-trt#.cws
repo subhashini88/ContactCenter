@@ -1,0 +1,57 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="4889E768-8755-A1E9-B0CE-4C47C01F033B">
+	<DocumentID>4889E768-8755-A1E9-B0CE-4C47C01EC33B</DocumentID>
+	<Name>4889E768-8755-A1E9-B0CE-4C47C01EC33B</Name>
+	<Description>|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-20T11:00:53.55</CreationDate>
+	<Notes/>
+	<Text>|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="4889E768-8755-A1E9-B0CE-4C47C01E433B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

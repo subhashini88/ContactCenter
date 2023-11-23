@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-84FE-CB67A44C0F63">
+	<DocumentID>84A938BF-F78D-A1EE-84FE-CB67A44BCF63</DocumentID>
+	<Name>84A938BF-F78D-A1EE-84FE-CB67A44BCF63</Name>
+	<Description>ContractJsonUpdate2</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-26T08:26:45.576</CreationDate>
+	<Notes/>
+	<Text>ContractJsonUpdate2</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-84FE-CB67A44B4F63"
+		/>
+	</TextIdentifier>
+</TranslatedText>

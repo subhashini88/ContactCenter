@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-85C1-3B1D2A7FA509">
+	<DocumentID>484D7EEB-71EF-A1E9-85C1-49F97B83A509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-85C1-49F97B83A509</Name>
+	<Description>Persist Email Ids of Roles</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-13T07:34:46.265</CreationDate>
+	<Notes/>
+	<Text>Persist Email Ids of Roles</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-85C1-49F97B832509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

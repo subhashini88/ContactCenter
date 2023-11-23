@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="005056C0-0008-A1E7-ACFA-E35AF8A112CE">
+	<DocumentID>005056C0-0008-A1E7-ACFA-E35AF8A0D2CE</DocumentID>
+	<Name>InternalContacts</Name>
+	<Description>InternalContacts</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-18T10:26:34.489</CreationDate>
+	<Notes/>
+	<referenceCount>7</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="F8B156D5-AA46-A1E7-A610-3D9F234F24BC"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

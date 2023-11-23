@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-B96A-EB7843EB6661">
+	<DocumentID>8C1645B9-0967-A1E9-B96A-EB7843EB2661</DocumentID>
+	<Name>8C1645B9-0967-A1E9-B96A-EB7843EB2661</Name>
+	<Description>Revoked</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-03T07:07:12.627</CreationDate>
+	<Notes/>
+	<DefaultText>Revoked</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-B96A-EB7843EBA661"
+		/>
+	</Translations>
+</TextIdentifier>

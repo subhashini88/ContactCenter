@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A03C-BFD9C766A4C9">
+	<DocumentID>F8B156D6-35F3-A1E8-A03C-BFD9C76664C9</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A03C-BFD9C76664C9</Name>
+	<Description>Data - Types and subtypes</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-06T08:03:08.431</CreationDate>
+	<Notes/>
+	<DefaultText>Data - Types and subtypes</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-A03C-BFD9C766E4C9"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-9B5627977068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-AABBF507B068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AD-AABBF5067068"
+		/>
+	</Translations>
+</TextIdentifier>

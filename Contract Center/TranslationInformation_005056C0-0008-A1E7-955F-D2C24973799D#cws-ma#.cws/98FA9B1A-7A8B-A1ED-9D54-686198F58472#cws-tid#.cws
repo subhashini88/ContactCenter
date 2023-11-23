@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-9D54-686198F5C472">
+	<DocumentID>98FA9B1A-7A8B-A1ED-9D54-686198F58472</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-9D54-686198F58472</Name>
+	<Description>testcontractread</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-06T10:51:59.756</CreationDate>
+	<Notes/>
+	<DefaultText>testcontractread</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-9D54-686198F60472"
+		/>
+	</Translations>
+</TextIdentifier>

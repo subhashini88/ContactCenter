@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title data-translatable="true">Document panel</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+		<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+		<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+		<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+		<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+		<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$.cordys.json.defaults.removeNamespacePrefix = true;
+			var cInstanceId,baseURL,finalCopyDocumentStatus,retryNumberOfTimes;
+			var i_locale;
+			var contentPanelName = "DOCUMENT_REPOSITORY";
+			$(function ()
+			{
+				i_locale = getlocale();
+				translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale);
+				var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+				loadRTLIfRequired(i_locale,rtl_css);
+				$('[src*="taskdocumentPanel.htm"]', window.parent.parent.document).parent().css('padding-left', '0px');
+				cInstanceId = getUrlParameterValue("instanceId",null,true);	
+				continueToDocuments();
+				
+			});	
+
+			
+			function continueToDocuments(){
+				$.cordys.ajax
+				({
+					namespace: "http://schemas/OpenTextBasicComponents/GCProperties/operations",
+					method: "GetPropertyByName",
+					parameters:
+					{
+						"Name": contentPanelName
+					},
+					success: function (data)
+					{
+						if (data.GCProperties)
+						{
+							if (data.GCProperties.length)
+							{
+								if(data.GCProperties[0].value == 'CONTENT')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/DC215C73F252A1ECB86EC8ECFB85CF28?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								else if(data.GCProperties[0].value == 'BUSINESS_WORKSPACE')
+								{
+									var redirection_URL =  "../../../../../app/start/web/perform/item/"+cInstanceId+"/DC215C73F252A1ECB86EC8ECFB838F28?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								else if(data.GCProperties[0].value == 'BOTH')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/DC215C73F252A1ECB9568B0467780F28?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								
+							}
+							else
+							{
+								if(data.GCProperties.value == 'CONTENT')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/DC215C73F252A1ECB86EC8ECFB85CF28?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								else if(data.GCProperties.value == 'BUSINESS_WORKSPACE')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/DC215C73F252A1ECB86EC8ECFB838F28?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								else if(data.GCProperties.value == 'BOTH')
+								{
+									var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/DC215C73F252A1ECB9568B0467780F28?openContentInParentWindow=true";
+									if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+								}
+								
+							}
+						}
+						else
+						{
+							var redirection_URL = "../../../../../app/start/web/perform/item/"+cInstanceId+"/DC215C73F252A1ECB86EC8ECFB85CF28?openContentInParentWindow=true";
+							if(window.navigator.language!==i_locale){
+										redirection_URL = setUrlParameter(redirection_URL,'language',i_locale);
+									}
+								window.location = redirection_URL;
+						}						
+					}
+				});
+			}
+
+		</script>
+	</head>
+</html>

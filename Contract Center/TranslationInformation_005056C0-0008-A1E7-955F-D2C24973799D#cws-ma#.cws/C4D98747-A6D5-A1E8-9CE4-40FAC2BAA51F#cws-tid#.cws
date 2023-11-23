@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-A6D5-A1E8-9CE4-40FAC2BAE51F">
+	<DocumentID>C4D98747-A6D5-A1E8-9CE4-40FAC2BAA51F</DocumentID>
+	<Name>C4D98747-A6D5-A1E8-9CE4-40FAC2BAA51F</Name>
+	<Description>&quot;Upload at least one document related to party template&quot;</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-19T08:24:29.486</CreationDate>
+	<Notes/>
+	<DefaultText>&quot;Upload at least one document related to party template&quot;</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-A6D5-A1E8-9CE4-40FAC2BB251F"
+		/>
+	</Translations>
+</TextIdentifier>

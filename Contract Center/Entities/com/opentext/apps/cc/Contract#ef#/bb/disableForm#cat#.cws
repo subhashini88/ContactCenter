@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="1866DA2D-A8DF-A1E7-AE1E-6F8DBCD124C2">
+	<DocumentID>1866DA2D-A8DF-A1E7-AE1E-6F8DBCD0E4C2</DocumentID>
+	<Name>disableForm</Name>
+	<Description>disableForm</Description>
+	<CreatedBy>kshinde kshinde</CreatedBy>
+	<CreationDate>2017-10-24T05:26:28.362</CreationDate>
+	<Notes/>
+	<referenceCount>2</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

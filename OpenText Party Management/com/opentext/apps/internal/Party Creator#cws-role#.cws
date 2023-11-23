@@ -1,0 +1,23 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-8B31-1140404C90F3">
+	<DocumentID>3417EB96-8F1F-A1E8-8B31-1140404C50F3</DocumentID>
+	<Name>Party Creator</Name>
+	<Description>Party Creator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-03-21T05:50:03.387</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Internal</type>
+	<Subroles>
+		<uri
+			id="F8B156B4-FF8F-11E6-E707-9FA82E5DF319"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

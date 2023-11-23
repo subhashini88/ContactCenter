@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-8996-C44DDE6516AB">
+	<DocumentID>98FA9B81-5041-A1EE-8996-C44DDE64D6AB</DocumentID>
+	<Name>98FA9B81-5041-A1EE-8996-C44DDE64D6AB</Name>
+	<Description>Update offset iteration flag</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-07-19T17:50:02.716</CreationDate>
+	<Notes/>
+	<Text>Update offset iteration flag</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EE-8996-C44DDE6456AB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

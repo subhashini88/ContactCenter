@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A8A7-1E1A1902183A">
+	<DocumentID>C4D98747-AA4E-A1E7-A8A7-1E1A1901D83A</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A8A7-1E1A1901D83A</Name>
+	<Description>Contract line number</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-09-26T09:35:22.192</CreationDate>
+	<Notes/>
+	<Text>Contract line number</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A8A7-1E1A1901583A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

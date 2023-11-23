@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-9CC1-E9B9B6F02642">
+	<DocumentID>3C6AA73A-0114-A1E9-9CC1-E9B9B6EFE642</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-9CC1-E9B9B6EFE642</Name>
+	<Description>SaveSCMappingsWithTermInstances</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-05-10T10:27:51.143</CreationDate>
+	<Notes/>
+	<Text>SaveSCMappingsWithTermInstances</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-9CC1-E9B9B6EF6642"
+		/>
+	</TextIdentifier>
+</TranslatedText>

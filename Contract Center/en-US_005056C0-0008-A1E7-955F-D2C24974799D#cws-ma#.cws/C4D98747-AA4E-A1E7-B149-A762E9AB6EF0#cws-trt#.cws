@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B149-A762E9ABAEF0">
+	<DocumentID>C4D98747-AA4E-A1E7-B149-A762E9AB6EF0</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B149-A762E9AB6EF0</Name>
+	<Description>Revenue impacting</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-09T08:49:11.712</CreationDate>
+	<Notes/>
+	<Text>Revenue impacting</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-B149-A762E9AAEEF0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD6A-9C16BC93E665">
+	<DocumentID>3C6AA73A-0114-A1E9-BD6A-9C16BC93A665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD6A-9C16BC93A665</Name>
+	<Description>Update Contract Activation DL in Pending activation State</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-23T15:56:36.645</CreationDate>
+	<Notes/>
+	<Text>Update Contract Activation DL in Pending activation State</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD6A-9C16BC932665"
+		/>
+	</TextIdentifier>
+</TranslatedText>

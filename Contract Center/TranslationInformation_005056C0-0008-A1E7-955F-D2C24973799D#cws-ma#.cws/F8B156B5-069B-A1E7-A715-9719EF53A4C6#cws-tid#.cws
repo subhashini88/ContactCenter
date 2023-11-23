@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A715-9719EF53E4C6">
+	<DocumentID>F8B156B5-069B-A1E7-A715-9719EF53A4C6</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A715-9719EF53A4C6</Name>
+	<Description>Software license term</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-18T09:58:48.275</CreationDate>
+	<Notes/>
+	<DefaultText>Software license term</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156B5-069B-A1E7-A715-9719EF5424C6"
+		/>
+	</Translations>
+</TextIdentifier>

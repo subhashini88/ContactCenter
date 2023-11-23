@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-9123-80D4F2B76516">
+	<DocumentID>484D7EEB-71EF-A1E9-9123-80D4F2B72516</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-9123-80D4F2B72516</Name>
+	<Description>Read Child Contract</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-12T06:29:15.326</CreationDate>
+	<Notes/>
+	<DefaultText>Read Child Contract</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E9-9123-80D4F2B7A516"
+		/>
+	</Translations>
+</TextIdentifier>

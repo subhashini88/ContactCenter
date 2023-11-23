@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A1F8-E36171B324BF">
+	<DocumentID>B4B676CD-53D8-A1E7-A1F8-E36171B2E4BF</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A1F8-E36171B2E4BF</Name>
+	<Description>Renewal and termination</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-08-23T09:41:27.979</CreationDate>
+	<Notes/>
+	<Text>Renewal and termination</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A1F8-E36171B264BF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

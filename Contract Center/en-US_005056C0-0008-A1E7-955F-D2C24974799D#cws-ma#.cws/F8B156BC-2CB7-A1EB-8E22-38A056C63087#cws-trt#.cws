@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-8E22-38A056C67087">
+	<DocumentID>F8B156BC-2CB7-A1EB-8E22-38A056C63087</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-8E22-38A056C63087</Name>
+	<Description>ParentContract</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-12-07T12:37:08.904</CreationDate>
+	<Notes/>
+	<Text>ParentContract</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EB-8E22-38A056C5B087"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E8-ABFE-405EC8E6A50B">
+	<DocumentID>484D7EEB-7112-A1E8-ABFE-405EC8E6650B</DocumentID>
+	<Name>484D7EEB-7112-A1E8-ABFE-405EC8E6650B</Name>
+	<Description>Initial expiration date</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2018-09-04T07:10:03.465</CreationDate>
+	<Notes/>
+	<Text>Initial expiration date</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E8-ABFE-405EC8E5E50B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

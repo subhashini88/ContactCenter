@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B181-97C260946EF0">
+	<DocumentID>C4D98747-AA4E-A1E7-B181-97C260942EF0</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B181-97C260942EF0</Name>
+	<Description>Cancellation product adopted</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-11-10T11:05:53.194</CreationDate>
+	<Notes/>
+	<Text>Cancellation product adopted</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-B181-97C26093AEF0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-84F9-E59629F7889E">
+	<DocumentID>484D7EE4-6263-A1E9-84F9-E59629F7489E</DocumentID>
+	<Name>484D7EE4-6263-A1E9-84F9-E59629F7489E</Name>
+	<Description>Is Empty?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-09T08:26:03.47</CreationDate>
+	<Notes/>
+	<Text>Is Empty?</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE4-6263-A1E9-84F9-E59629F6C89E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E7-AC6F-62EBCD4B2FED">
+	<DocumentID>F8B156BC-2CB7-A1E7-AC6F-62EBCD4AEFED</DocumentID>
+	<Name>F8B156BC-2CB7-A1E7-AC6F-62EBCD4AEFED</Name>
+	<Description>UpdateRevenueScheduleImportStatus</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2017-10-15T15:39:26.534</CreationDate>
+	<Notes/>
+	<Text>UpdateRevenueScheduleImportStatus</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E7-AC6F-62EBCD4A6FED"
+		/>
+	</TextIdentifier>
+</TranslatedText>

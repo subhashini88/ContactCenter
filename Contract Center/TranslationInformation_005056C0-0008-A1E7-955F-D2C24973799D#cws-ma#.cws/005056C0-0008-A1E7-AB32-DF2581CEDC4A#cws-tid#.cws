@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-AB32-DF2581CF1C4A">
+	<DocumentID>005056C0-0008-A1E7-AB32-DF2581CEDC4A</DocumentID>
+	<Name>005056C0-0008-A1E7-AB32-DF2581CEDC4A</Name>
+	<Description>GetRegionCode</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-09T08:27:23.517</CreationDate>
+	<Notes/>
+	<DefaultText>GetRegionCode</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-AB32-DF2581CF5C4A"
+		/>
+	</Translations>
+</TextIdentifier>

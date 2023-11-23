@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-AFD0-9A6D02920375">
+	<DocumentID>98FA9B1A-7A8B-A1EA-AFD0-9A6D0291C375</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-AFD0-9A6D0291C375</Name>
+	<Description>varshaerror</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-07-06T04:56:49.883</CreationDate>
+	<Notes/>
+	<DefaultText>varshaerror</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-AFD0-9A6D02924375"
+		/>
+	</Translations>
+</TextIdentifier>

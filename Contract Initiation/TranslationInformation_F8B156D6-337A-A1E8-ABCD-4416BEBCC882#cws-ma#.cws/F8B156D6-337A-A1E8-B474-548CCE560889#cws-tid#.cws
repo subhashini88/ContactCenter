@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-B474-548CCE564889">
+	<DocumentID>F8B156D6-337A-A1E8-B474-548CCE560889</DocumentID>
+	<Name>F8B156D6-337A-A1E8-B474-548CCE560889</Name>
+	<Description>On contract created</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-17T06:04:13.658</CreationDate>
+	<Notes/>
+	<DefaultText>On contract created</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-337A-A1E8-B474-548CCE568889"
+		/>
+	</Translations>
+</TextIdentifier>

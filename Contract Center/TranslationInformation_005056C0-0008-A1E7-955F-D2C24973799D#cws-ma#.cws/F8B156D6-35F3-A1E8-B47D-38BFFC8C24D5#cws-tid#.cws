@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-B47D-38BFFC8C64D5">
+	<DocumentID>F8B156D6-35F3-A1E8-B47D-38BFFC8C24D5</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-B47D-38BFFC8C24D5</Name>
+	<Description>is Template 
+exists?</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-10-17T10:12:43.954</CreationDate>
+	<Notes/>
+	<DefaultText>is Template 
+exists?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-B47D-38BFFC8CA4D5"
+		/>
+	</Translations>
+</TextIdentifier>

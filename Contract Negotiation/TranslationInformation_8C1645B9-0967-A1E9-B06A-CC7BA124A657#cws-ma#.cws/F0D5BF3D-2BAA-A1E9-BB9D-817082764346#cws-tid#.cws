@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-BB9D-817082768346">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-BB9D-817082764346</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-BB9D-817082764346</Name>
+	<Description>Negotiation status</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-10-14T13:19:23.096</CreationDate>
+	<Notes/>
+	<DefaultText>Negotiation status</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-BB9D-81708276C346"
+		/>
+	</Translations>
+</TextIdentifier>

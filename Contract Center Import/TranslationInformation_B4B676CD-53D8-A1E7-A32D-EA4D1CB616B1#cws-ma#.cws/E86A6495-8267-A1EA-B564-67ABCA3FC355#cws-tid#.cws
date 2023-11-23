@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="E86A6495-8267-A1EA-B564-67ABCA400355">
+	<DocumentID>E86A6495-8267-A1EA-B564-67ABCA3FC355</DocumentID>
+	<Name>E86A6495-8267-A1EA-B564-67ABCA3FC355</Name>
+	<Description>getFailedOrganizationImportItemsByJobID</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2020-08-03T14:09:14.685</CreationDate>
+	<Notes/>
+	<DefaultText>getFailedOrganizationImportItemsByJobID</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="E86A6495-8267-A1EA-B564-67ABCA404355"
+		/>
+	</Translations>
+</TextIdentifier>

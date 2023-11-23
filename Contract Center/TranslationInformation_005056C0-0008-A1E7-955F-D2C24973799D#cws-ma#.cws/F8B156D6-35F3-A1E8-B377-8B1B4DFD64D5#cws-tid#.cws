@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-B377-8B1B4DFDA4D5">
+	<DocumentID>F8B156D6-35F3-A1E8-B377-8B1B4DFD64D5</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-B377-8B1B4DFD64D5</Name>
+	<Description>Build XML Request for DocGen</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-10-12T05:20:32.084</CreationDate>
+	<Notes/>
+	<DefaultText>Build XML Request for DocGen</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-B377-8B1B4DFDE4D5"
+		/>
+	</Translations>
+</TextIdentifier>

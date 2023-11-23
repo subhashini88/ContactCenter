@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-7DE6-A1EB-B3AA-CB03796C3030">
+	<DocumentID>00505601-7DE6-A1EB-B3AA-CB03796BF030</DocumentID>
+	<Name>00505601-7DE6-A1EB-B3AA-CB03796BF030</Name>
+	<Description>isBWSId Exists</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2021-06-16T14:02:23.006</CreationDate>
+	<Notes/>
+	<DefaultText>isBWSId Exists</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-7DE6-A1EB-B3A5-1106C3D3B030"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-79C2-A1EC-9B9F-C2459249AD6B">
+	<DocumentID>00505601-79C2-A1EC-9B9F-C24592496D6B</DocumentID>
+	<Name>00505601-79C2-A1EC-9B9F-C24592496D6B</Name>
+	<Description>DatesCheck</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-01-05T23:29:05.458</CreationDate>
+	<Notes/>
+	<DefaultText>DatesCheck</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-79C2-A1EC-9B9F-C2459249ED6B"
+		/>
+	</Translations>
+</TextIdentifier>

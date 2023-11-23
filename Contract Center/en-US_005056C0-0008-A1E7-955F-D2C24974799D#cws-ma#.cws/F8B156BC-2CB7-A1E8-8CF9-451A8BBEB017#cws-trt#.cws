@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-8CF9-451A8BBEF017">
+	<DocumentID>F8B156BC-2CB7-A1E8-8CF9-451A8BBEB017</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-8CF9-451A8BBEB017</Name>
+	<Description>* Please press OK to update the Total Contract Value and other calculations.</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-03-30T06:41:24.274</CreationDate>
+	<Notes/>
+	<Text>* Please press OK to update the Total Contract Value and other calculations.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-8CF9-451A8BBE3017"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="484D7EE4-6263-A1E8-AC6E-799CE8B74893">
+	<DocumentID>484D7EE4-6263-A1E8-AC6E-799CE8B70893</DocumentID>
+	<Name>DisableClauseDetails</Name>
+	<Description>DisableClauseDetails</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-06T09:55:22.303</CreationDate>
+	<Notes/>
+	<referenceCount>4</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="484D7EE4-6263-A1E8-AC6E-799CE8B78893"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

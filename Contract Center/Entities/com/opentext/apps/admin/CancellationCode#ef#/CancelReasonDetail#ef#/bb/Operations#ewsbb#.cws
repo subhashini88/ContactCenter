@@ -1,0 +1,79 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="9890969C-5774-A1E7-B0B7-0EBFB385E4B7">
+	<DocumentID>9890969C-5774-A1E7-B0B7-0EBFB385A4B7</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-11-06T10:24:59.152</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="9890969C-5774-A1E7-B0B5-1927273564B7"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B0B7-0EBFB38524B7">
+			<DocumentID>9890969C-5774-A1E7-B0B7-0EBFB384E4B7</DocumentID>
+			<Name>ReadCancelReasonDetail</Name>
+			<Description>Read CancelReasonDetail</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-11-06T10:24:59.152</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="9890969C-5774-A1E7-B0B5-1927273564B7"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations>
+		<EntityWebServiceRelationshipOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceRelationshipOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B0B7-2D27F5F1E4B7">
+			<DocumentID>9890969C-5774-A1E7-B0B7-2D27F5F1A4B7</DocumentID>
+			<Name>GetParentOwner</Name>
+			<Description>Untitled Entity Web Service Relationship Operation</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-11-06T10:27:15.698</CreationDate>
+			<Notes/>
+			<OperationType>GetParent</OperationType>
+			<Entity>
+				<uri
+					id="9890969C-5774-A1E7-B0B5-1927273564B7"
+				/>
+			</Entity>
+			<Relationship>
+				<uri
+					id="9890969C-5774-A1E7-B0B7-2D27F5F364B7"
+				/>
+			</Relationship>
+		</EntityWebServiceRelationshipOperation>
+	</RelationshipOperations>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="9890969C-5774-A1E7-B0B7-0EBFB384A4B7">
+			<DocumentID>9890969C-5774-A1E7-B0B7-0EBFB38464B7</DocumentID>
+			<Name>UpdateCancelReasonDetail</Name>
+			<Description>Update CancelReasonDetail</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-11-06T10:24:59.152</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="9890969C-5774-A1E7-B0B5-1927273564B7"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

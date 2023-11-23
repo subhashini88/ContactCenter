@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AEBF-C54555028883">
+	<DocumentID>F8B156D6-337A-A1E8-AEBF-C54555024883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AEBF-C54555024883</Name>
+	<Description>Create contract rule</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-18T04:57:01.964</CreationDate>
+	<Notes/>
+	<DefaultText>Create contract rule</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBD4882"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-337A-A1E8-AEBF-C5455502C883"
+		/>
+	</Translations>
+</TextIdentifier>

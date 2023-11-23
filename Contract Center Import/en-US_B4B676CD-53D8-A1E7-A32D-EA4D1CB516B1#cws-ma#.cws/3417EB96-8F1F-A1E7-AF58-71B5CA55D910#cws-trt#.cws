@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-AF58-71B5CA561910">
+	<DocumentID>3417EB96-8F1F-A1E7-AF58-71B5CA55D910</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-AF58-71B5CA55D910</Name>
+	<Description>Replace Result with false</Description>
+	<CreatedBy>tntadmin@strs.role</CreatedBy>
+	<CreationDate>2017-10-30T11:03:14.942</CreationDate>
+	<Notes/>
+	<Text>Replace Result with false</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-AF58-71B5CA555910"
+		/>
+	</TextIdentifier>
+</TranslatedText>

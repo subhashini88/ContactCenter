@@ -1,0 +1,40 @@
+
+<WSAppServerJavaArchiveSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="F8B156D6-35F3-A1E9-8ECE-F6F29B75E4DF">
+	<DocumentID>F8B156D6-35F3-A1E9-8ECE-F6F29B75A4DF</DocumentID>
+	<Name>DocuSignIntegrator</Name>
+	<Description>DocuSignIntegrator</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2019-02-28T09:36:58.735</CreationDate>
+	<Notes/>
+	<JarFileName>DocuSignIntegrator</JarFileName>
+	<NamespacePrefix></NamespacePrefix>
+	<Dependencies>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="F8B156D6-35F3-A1E9-8ECE-F6F29B7564DF">
+			<DocumentID>F8B156D6-35F3-A1E9-8ECE-F6F29B7524DF</DocumentID>
+			<Name>DocuSignIntegrator_Dependency</Name>
+			<Description>DocuSignIntegrator_Dependency</Description>
+			<CreatedBy>ychaube</CreatedBy>
+			<CreationDate>2019-02-28T09:36:58.563</CreationDate>
+			<Notes/>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+			<ISVPName></ISVPName>
+		</JavaArchiveReferenceDependency>
+	</Dependencies>
+	<SourceFolder>
+		<uri
+			id="F8B156D6-35F3-A1E9-8ECE-F6F29B7864DF"
+			path="DocuSign Integrator/Java/Java Sources/DocuSign"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="F8B156D6-35F3-A1E9-8ECE-F6F29B77A4DF"
+		/>
+	</WSAppServerPackage>
+</WSAppServerJavaArchiveSource>

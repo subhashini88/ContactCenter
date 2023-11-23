@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-AA01-E901ABC2AB30">
+	<DocumentID>50EB711A-AD5A-A1EB-AA01-E901ABC26B30</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-AA01-E901ABC26B30</Name>
+	<Description>ContractRelatedDepartmentImport</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-28T09:57:17.248</CreationDate>
+	<Notes/>
+	<Text>ContractRelatedDepartmentImport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EB-AA01-E901ABC1EB30"
+		/>
+	</TextIdentifier>
+</TranslatedText>

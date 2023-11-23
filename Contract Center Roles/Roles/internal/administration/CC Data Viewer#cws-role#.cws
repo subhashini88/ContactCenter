@@ -1,0 +1,22 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A641-4BD91B39E4BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A641-4BD91B39A4BC</DocumentID>
+	<Name>CC Data Viewer</Name>
+	<Description>CC Data Viewer</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2017-09-14T04:34:04.639</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Internal</type>
+	<Subroles>
+		<uri
+			id="F8B156B4-FF8F-11E6-EE0D-3C57E07E771A"
+		/>
+	</Subroles>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

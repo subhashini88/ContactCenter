@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD9A-0F908E392665">
+	<DocumentID>3C6AA73A-0114-A1E9-BD9A-0F908E38E665</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD9A-0F908E38E665</Name>
+	<Description>Update due date.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-24T14:14:48.57</CreationDate>
+	<Notes/>
+	<Text>Update due date.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD9A-0F908E386665"
+		/>
+	</TextIdentifier>
+</TranslatedText>

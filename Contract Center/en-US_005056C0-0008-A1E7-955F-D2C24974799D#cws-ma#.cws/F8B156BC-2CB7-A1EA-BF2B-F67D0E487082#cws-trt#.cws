@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-BF2B-F67D0E48B082">
+	<DocumentID>F8B156BC-2CB7-A1EA-BF2B-F67D0E487082</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-BF2B-F67D0E487082</Name>
+	<Description>DELETE</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-09-22T08:48:10.361</CreationDate>
+	<Notes/>
+	<Text>DELETE</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-BF2B-F67D0E47F082"
+		/>
+	</TextIdentifier>
+</TranslatedText>

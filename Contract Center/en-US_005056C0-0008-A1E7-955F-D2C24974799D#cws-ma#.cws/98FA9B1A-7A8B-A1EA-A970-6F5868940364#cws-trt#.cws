@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-A970-6F5868944364">
+	<DocumentID>98FA9B1A-7A8B-A1EA-A970-6F5868940364</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-A970-6F5868940364</Name>
+	<Description>Invalid contract link</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-03T17:44:11.855</CreationDate>
+	<Notes/>
+	<Text>Invalid contract link</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-A970-6F5868938364"
+		/>
+	</TextIdentifier>
+</TranslatedText>

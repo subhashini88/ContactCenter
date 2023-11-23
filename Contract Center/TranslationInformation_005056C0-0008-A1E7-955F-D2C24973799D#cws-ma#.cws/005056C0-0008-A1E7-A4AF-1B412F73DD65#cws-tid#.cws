@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-A4AF-1B412F741D65">
+	<DocumentID>005056C0-0008-A1E7-A4AF-1B412F73DD65</DocumentID>
+	<Name>005056C0-0008-A1E7-A4AF-1B412F73DD65</Name>
+	<Description>Contract Center Reports</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-09-06T04:42:13.977</CreationDate>
+	<Notes/>
+	<DefaultText>Contract Center Reports</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-A4AF-1B412F745D65"
+		/>
+	</Translations>
+</TextIdentifier>

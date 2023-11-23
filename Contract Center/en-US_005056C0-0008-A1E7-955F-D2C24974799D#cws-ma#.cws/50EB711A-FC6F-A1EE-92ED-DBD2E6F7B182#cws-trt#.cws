@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-92ED-DBD2E6F7F182">
+	<DocumentID>50EB711A-FC6F-A1EE-92ED-DBD2E6F7B182</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-92ED-DBD2E6F7B182</Name>
+	<Description>UpdateObligationStatusandRAL</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-05T06:43:05.217</CreationDate>
+	<Notes/>
+	<Text>UpdateObligationStatusandRAL</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-92ED-DBD2E6F73182"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-80E7-067AF80D4495">
+	<DocumentID>98FA9B1A-7A8B-A1EE-80E7-067AF80D0495</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-80E7-067AF80D0495</Name>
+	<Description>Get user based saved charts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-05T12:31:04.715</CreationDate>
+	<Notes/>
+	<DefaultText>Get user based saved charts</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-80E7-067AF80D8495"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-9857-725E96B2EB6A">
+	<DocumentID>50EB711A-AD5A-A1EC-9857-725E96B2AB6A</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-9857-725E96B2AB6A</Name>
+	<Description>DeleteWatchers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-20T06:31:05.556</CreationDate>
+	<Notes/>
+	<DefaultText>DeleteWatchers</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-9857-725E96B32B6A"
+		/>
+	</Translations>
+</TextIdentifier>

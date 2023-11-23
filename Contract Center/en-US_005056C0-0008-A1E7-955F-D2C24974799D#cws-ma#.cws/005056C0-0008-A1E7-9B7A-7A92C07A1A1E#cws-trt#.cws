@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-9B7A-7A92C07A5A1E">
+	<DocumentID>005056C0-0008-A1E7-9B7A-7A92C07A1A1E</DocumentID>
+	<Name>005056C0-0008-A1E7-9B7A-7A92C07A1A1E</Name>
+	<Description>GetSelectedTerms</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-21T09:25:24.03</CreationDate>
+	<Notes/>
+	<Text>GetSelectedTerms</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-9B7A-7A92C0799A1E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

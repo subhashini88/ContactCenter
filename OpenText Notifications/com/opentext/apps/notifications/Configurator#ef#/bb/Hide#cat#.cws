@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B1BB-CECB943464FC">
+	<DocumentID>484D7EEB-71EF-A1E8-B1BB-CECB943424FC</DocumentID>
+	<Name>Hide</Name>
+	<Description>Hide</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-03T09:59:13.378</CreationDate>
+	<Notes/>
+	<referenceCount>9</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF5-DD7B350DA4FA"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

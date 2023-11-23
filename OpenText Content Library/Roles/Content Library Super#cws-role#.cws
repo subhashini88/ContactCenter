@@ -1,0 +1,19 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-B028-5067DF88B033">
+	<DocumentID>F8B156BC-2CB7-A1E8-B028-5067DF887033</DocumentID>
+	<Name>Content Library Super</Name>
+	<Description>Content Library Super</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-25T10:39:25.7</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Internal</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

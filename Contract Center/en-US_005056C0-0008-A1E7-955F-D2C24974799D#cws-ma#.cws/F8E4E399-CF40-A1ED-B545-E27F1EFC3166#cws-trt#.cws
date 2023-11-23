@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B545-E27F1EFC7166">
+	<DocumentID>F8E4E399-CF40-A1ED-B545-E27F1EFC3166</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B545-E27F1EFC3166</Name>
+	<Description>GetAllEmailIdsByGroup</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-07T07:47:01.107</CreationDate>
+	<Notes/>
+	<Text>GetAllEmailIdsByGroup</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B545-E27F1EFBB166"
+		/>
+	</TextIdentifier>
+</TranslatedText>

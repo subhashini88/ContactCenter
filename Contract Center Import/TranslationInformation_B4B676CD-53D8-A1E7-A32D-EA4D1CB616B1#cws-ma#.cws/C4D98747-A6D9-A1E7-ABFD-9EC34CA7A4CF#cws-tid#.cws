@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-A6D9-A1E7-ABFD-9EC34CA7E4CF">
+	<DocumentID>C4D98747-A6D9-A1E7-ABFD-9EC34CA7A4CF</DocumentID>
+	<Name>C4D98747-A6D9-A1E7-ABFD-9EC34CA7A4CF</Name>
+	<Description>ImportConfigList</Description>
+	<CreatedBy>setup</CreatedBy>
+	<CreationDate>2017-10-13T09:17:22.406</CreationDate>
+	<Notes/>
+	<DefaultText>ImportConfigList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-A6D9-A1E7-ABFD-9EC34CA824CF"
+		/>
+	</Translations>
+</TextIdentifier>

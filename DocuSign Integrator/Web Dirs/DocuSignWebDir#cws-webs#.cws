@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="F8B156D6-35F3-A1E9-8BDF-95F07C73E4DF">
+	<DocumentID>F8B156D6-35F3-A1E9-8BDF-95F07C73A4DF</DocumentID>
+	<Name>DocuSignWebDir</Name>
+	<Description>DocuSignWebDir</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2019-02-13T11:03:45.625</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BDC-E6A0833BA4DF"
+			path="DocuSign Integrator/Web Dirs"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>

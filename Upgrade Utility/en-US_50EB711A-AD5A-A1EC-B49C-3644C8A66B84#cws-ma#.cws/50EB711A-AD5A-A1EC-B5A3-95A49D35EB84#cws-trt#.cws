@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B5A3-95A49D362B84">
+	<DocumentID>50EB711A-AD5A-A1EC-B5A3-95A49D35EB84</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B5A3-95A49D35EB84</Name>
+	<Description>createAllBatchers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-18T09:39:22.384</CreationDate>
+	<Notes/>
+	<Text>createAllBatchers</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-B5A3-95A49D356B84"
+		/>
+	</TextIdentifier>
+</TranslatedText>

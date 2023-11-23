@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="00505601-79C2-A1EC-9B53-E309FA81ED6B">
+	<DocumentID>00505601-79C2-A1EC-9B53-E309FA81AD6B</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-01-04T11:22:12.492</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="00505601-79C2-A1EC-9B53-E309FA812D6B">
+			<DocumentID>00505601-79C2-A1EC-9B53-E309FA80ED6B</DocumentID>
+			<Name>CreateCCScheduler</Name>
+			<Description>Create CCScheduler</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-01-04T11:22:12.496</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="00505601-79C2-A1EC-9B52-32A3B1832D6B"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="00505601-79C2-A1EC-9B54-1FDB07392D6B">
+			<DocumentID>00505601-79C2-A1EC-9B54-1FDB0738ED6B</DocumentID>
+			<Name>DeleteCCScheduler</Name>
+			<Description>Delete CCScheduler</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-01-04T11:22:12.494</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="00505601-79C2-A1EC-9B52-32A3B1832D6B"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="00505601-79C2-A1EC-9B52-32A3B1832D6B"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="00505601-79C2-A1EC-9B54-1FDB073A2D6B">
+			<DocumentID>00505601-79C2-A1EC-9B54-1FDB0739ED6B</DocumentID>
+			<Name>ReadCCScheduler</Name>
+			<Description>Read CCScheduler</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-01-04T11:22:12.495</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="00505601-79C2-A1EC-9B52-32A3B1832D6B"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="00505601-79C2-A1EC-9B54-1FDB0739AD6B">
+			<DocumentID>00505601-79C2-A1EC-9B54-1FDB07396D6B</DocumentID>
+			<Name>UpdateCCScheduler</Name>
+			<Description>Update CCScheduler</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-01-04T11:22:12.493</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="00505601-79C2-A1EC-9B52-32A3B1832D6B"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

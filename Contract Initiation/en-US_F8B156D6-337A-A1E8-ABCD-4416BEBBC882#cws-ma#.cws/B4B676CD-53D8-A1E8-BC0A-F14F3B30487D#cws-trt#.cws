@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-BC0A-F14F3B30887D">
+	<DocumentID>B4B676CD-53D8-A1E8-BC0A-F14F3B30487D</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-BC0A-F14F3B30487D</Name>
+	<Description>Documents available ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-24T21:02:00.945</CreationDate>
+	<Notes/>
+	<Text>Documents available ?</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-BC0A-F14F3B2FC87D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

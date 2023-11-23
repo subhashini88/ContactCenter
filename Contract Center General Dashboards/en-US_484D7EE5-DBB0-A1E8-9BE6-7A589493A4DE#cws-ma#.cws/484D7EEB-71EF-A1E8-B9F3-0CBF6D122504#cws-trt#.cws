@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B9F3-0CBF6D126504">
+	<DocumentID>484D7EEB-71EF-A1E8-B9F3-0CBF6D122504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B9F3-0CBF6D122504</Name>
+	<Description>Contract administrator home</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-14T06:27:54.82</CreationDate>
+	<Notes/>
+	<Text>Contract administrator home</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-B9F3-0CBF6D11A504"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1EE-897E-09ED458A04A5">
+	<DocumentID>FC7774E8-DA63-A1EE-897E-09ED4589C4A5</DocumentID>
+	<Name>FC7774E8-DA63-A1EE-897E-09ED4589C4A5</Name>
+	<Description>Pending</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-19T05:51:03.331</CreationDate>
+	<Notes/>
+	<Text>Pending</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1EE-897E-09ED458944A5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

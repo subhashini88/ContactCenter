@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-AF86-443CC7DC04F2">
+	<DocumentID>005056C0-0008-A1E7-AF86-443CC7DBC4F2</DocumentID>
+	<Name>005056C0-0008-A1E7-AF86-443CC7DBC4F2</Name>
+	<Description>Opportunity ID_12</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-31T09:15:27.601</CreationDate>
+	<Notes/>
+	<DefaultText>Opportunity ID_12</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-AF86-443CC7DC44F2"
+		/>
+	</Translations>
+</TextIdentifier>

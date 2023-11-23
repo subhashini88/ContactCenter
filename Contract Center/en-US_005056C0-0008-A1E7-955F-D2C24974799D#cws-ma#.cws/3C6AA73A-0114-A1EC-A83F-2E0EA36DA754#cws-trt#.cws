@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-A83F-2E0EA36DE754">
+	<DocumentID>3C6AA73A-0114-A1EC-A83F-2E0EA36DA754</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-A83F-2E0EA36DA754</Name>
+	<Description>UpdateAuthoringRuleResults</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-11T05:33:58.308</CreationDate>
+	<Notes/>
+	<Text>UpdateAuthoringRuleResults</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-A83F-2E0EA36D2754"
+		/>
+	</TextIdentifier>
+</TranslatedText>

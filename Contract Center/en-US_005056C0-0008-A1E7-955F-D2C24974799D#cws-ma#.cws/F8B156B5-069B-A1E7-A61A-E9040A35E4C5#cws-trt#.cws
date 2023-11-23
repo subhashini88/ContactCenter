@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A61A-E9040A3624C5">
+	<DocumentID>F8B156B5-069B-A1E7-A61A-E9040A35E4C5</DocumentID>
+	<Name>F8B156B5-069B-A1E7-A61A-E9040A35E4C5</Name>
+	<Description>DistributionList</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-13T10:10:40.674</CreationDate>
+	<Notes/>
+	<Text>DistributionList</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156B5-069B-A1E7-A61A-E9040A3564C5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

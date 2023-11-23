@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="80000B02-52A5-A1E7-9F6C-82EF869901BF">
+	<DocumentID>80000B02-52A5-A1E7-9F6C-82EF8698C1BF</DocumentID>
+	<Name>80000B02-52A5-A1E7-9F6C-82EF8698C1BF</Name>
+	<Description>CurrentClausesList</Description>
+	<CreatedBy>anilt</CreatedBy>
+	<CreationDate>2017-08-10T09:56:32.977</CreationDate>
+	<Notes/>
+	<DefaultText>CurrentClausesList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="80000B02-52A5-A1E7-9F6C-82EF869941BF"
+		/>
+	</Translations>
+</TextIdentifier>

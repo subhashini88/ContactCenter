@@ -1,0 +1,32 @@
+
+<XMLSchemaDefinitionRuntime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.xmlschema.XMLSchemaDefinitionRuntime"
+	typeVersion="005056C0-0008-11E1-E573-8D7E5F0533DB 115056C0-0008-71DF-BA44-1FBB9814E83B 0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-AA74-529023F9A165">
+	<DocumentID>E86A64E0-AE43-A1EC-AA74-529023F96165</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-AA74-529023F96165</Name>
+	<Description/>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-22T11:15:51.397</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<ExternalURL></ExternalURL>
+	<ISVPName></ISVPName>
+	<Location></Location>
+	<NamespaceReferencePrefix>tns</NamespaceReferencePrefix>
+	<RuntimeKey>http://schemas.opentext.com/bps/entity/core/EntityCore.xsd</RuntimeKey>
+	<TargetNamespace>http://schemas.cordys.com/</TargetNamespace>
+	<WebserviceDefinitionSetID></WebserviceDefinitionSetID>
+	<XmlNode>
+		<xsd:schema
+			xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			xmlns=""
+			elementFormDefault="qualified"
+		/>
+	</XmlNode>
+	<DefinitionSet/>
+	<PackageInformation/>
+	<SchemaFragments/>
+	<SchemaReferences/>
+</XMLSchemaDefinitionRuntime>

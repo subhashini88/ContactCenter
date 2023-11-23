@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E8-DA63-A1ED-97CB-7F04855C446E">
+	<DocumentID>FC7774E8-DA63-A1ED-97CB-7F04855C046E</DocumentID>
+	<Name>FC7774E8-DA63-A1ED-97CB-7F04855C046E</Name>
+	<Description>UpdateCTRDataAsJSON</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-11-08T06:27:00.567</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateCTRDataAsJSON</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E8-DA63-A1ED-97CB-7F04855C846E"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A4E3-C89BBDC824BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A4E3-C89BBDC7E4BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A4E3-C89BBDC7E4BC</Name>
+	<Description>Cancellation reason action bar</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-07T05:49:13.323</CreationDate>
+	<Notes/>
+	<Text>Cancellation reason action bar</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A4E3-C89BBDC764BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CEC-B60D81E2E4E0">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CEC-B60D81E2A4E0</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CEC-B60D81E2A4E0</Name>
+	<Description>Currencies</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-19T11:34:29.291</CreationDate>
+	<Notes/>
+	<Text>Currencies</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CEC-B60D81E224E0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

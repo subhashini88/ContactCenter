@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B47A-DE7F187A8877">
+	<DocumentID>B4B676CD-53D8-A1E8-B47A-DE7F187A4877</DocumentID>
+	<Name>disableEdit</Name>
+	<Description>disableEdit</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-17T09:15:09.923</CreationDate>
+	<Notes/>
+	<referenceCount>5</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="C4D98747-A6D9-A1E8-AC98-AF019F4B886E"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

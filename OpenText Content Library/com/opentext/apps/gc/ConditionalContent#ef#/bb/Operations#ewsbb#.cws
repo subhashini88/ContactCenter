@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="98FA9BD4-E468-A1EC-A67B-86A0DAE4EB73">
+	<DocumentID>98FA9BD4-E468-A1EC-A67B-86A0DAE4AB73</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-02T06:43:43.476</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1EC-A67B-86A0DAE42B73">
+			<DocumentID>98FA9BD4-E468-A1EC-A67B-86A0DAE3EB73</DocumentID>
+			<Name>CreateConditionalContent</Name>
+			<Description>Create ConditionalContent</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-03-02T06:43:43.475</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1EC-A4BE-B3CBBE4A6B73"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1EC-A67B-86A0DAE2AB73">
+			<DocumentID>98FA9BD4-E468-A1EC-A67B-86A0DAE26B73</DocumentID>
+			<Name>DeleteConditionalContent</Name>
+			<Description>Delete ConditionalContent</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-03-02T06:43:43.477</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1EC-A4BE-B3CBBE4A6B73"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="98FA9BD4-E468-A1EC-A4BE-B3CBBE4A6B73"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1EC-A67B-86A0DAE3AB73">
+			<DocumentID>98FA9BD4-E468-A1EC-A67B-86A0DAE36B73</DocumentID>
+			<Name>ReadConditionalContent</Name>
+			<Description>Read ConditionalContent</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-03-02T06:43:43.475</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1EC-A4BE-B3CBBE4A6B73"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="98FA9BD4-E468-A1EC-A67B-86A0DAE32B73">
+			<DocumentID>98FA9BD4-E468-A1EC-A67B-86A0DAE2EB73</DocumentID>
+			<Name>UpdateConditionalContent</Name>
+			<Description>Update ConditionalContent</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2022-03-02T06:43:43.478</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="98FA9BD4-E468-A1EC-A4BE-B3CBBE4A6B73"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

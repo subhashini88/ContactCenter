@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AD5E-AA6E70938883">
+	<DocumentID>F8B156D6-337A-A1E8-AD5E-AA6E70934883</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AD5E-AA6E70934883</Name>
+	<Description>Comment form</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-11T04:29:20.968</CreationDate>
+	<Notes/>
+	<Text>Comment form</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AD5E-AA6E7092C883"
+		/>
+	</TextIdentifier>
+</TranslatedText>

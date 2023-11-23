@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-848E-56322D9A24C5">
+	<DocumentID>9890969C-5774-A1E8-848E-56322D99E4C5</DocumentID>
+	<Name>9890969C-5774-A1E8-848E-56322D99E4C5</Name>
+	<Description>Volume allowance value</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-02-15T10:17:08.101</CreationDate>
+	<Notes/>
+	<Text>Volume allowance value</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-848E-56322D9964C5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-848B-A2EC45EF85FF">
+	<DocumentID>3417EB96-8F1F-A1E8-848B-A2EC45EF45FF</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-848B-A2EC45EF45FF</Name>
+	<Description>Mapping input parameters</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2018-02-15T09:29:23.004</CreationDate>
+	<Notes/>
+	<Text>Mapping input parameters</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-848B-A2EC45EEC5FF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

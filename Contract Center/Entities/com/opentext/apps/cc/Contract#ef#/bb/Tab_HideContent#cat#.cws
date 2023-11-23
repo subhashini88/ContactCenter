@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="00505601-B970-A1ED-A43A-86808629BB85">
+	<DocumentID>00505601-B970-A1ED-A43A-868086297B85</DocumentID>
+	<Name>Tab_HideContent</Name>
+	<Description>Tab_HideContent</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-10T13:40:01.757</CreationDate>
+	<Notes/>
+	<referenceCount>0</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

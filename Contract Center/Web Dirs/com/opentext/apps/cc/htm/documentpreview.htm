@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    </link>
+    <link rel="stylesheet" href="../css/appscommon.css" />
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <style>
+        .cc-frame-area {
+            height: 100vh;
+            padding: 0;
+            border-left: 1px solid #efefef;
+        }
+
+        .cc-frame {
+            height: 99%;
+            width: 100%;
+            border: 0;
+        }
+
+        #cc-doc-preview-loadmsg {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #_Cordys_Ajax_LoadingIndicator {
+            left: auto !important;
+            top: 30% !important;
+            right: 45% !important;
+        }
+    </style>
+    <script type="text/javascript">
+        var l_ExceptionMsg = "An error occurred while generating the contract document. Contact the administrator.";
+        var g_parentWindow = window.parent.parent;
+        var INSTANCEID, BASEURL, TemplateType;
+        // On document ready
+        $(function () {
+            var i_locale = getlocale();
+            translateLabels("com/opentext/apps/contractcenter/ContractCenter/ContractCenter", i_locale, true);
+            var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+            loadRTLIfRequired(i_locale, rtl_css);
+
+            $.cordys.json.defaults.removeNamespacePrefix = true;
+            $('ai-dialog', window.parent.parent.document).fadeIn();
+
+            //Fetching URL parameters
+            INSTANCEID = getUrlParameterValue("instanceId", null, true);
+            BASEURL = getUrlParameterValue("baseURL", null, true);
+			TemplateType = getUrlParameterValue("templateType", null, true);
+
+            //Platform dialog enhancements
+            platformDialogModifications("Save document", "Update changes", updateChangesAction);
+            createDocPreviewInstanceIfNotCreated();            
+            document.getElementById("cc-doc-preview-frame").onload = removeBackground();
+
+        });
+
+        function translatePlaceHolders(){
+                var elems = window.parent.parent.document.getElementsByClassName("btn-translate");
+                if(elems)
+                    for(var ind = 0; ind < elems.length; ind++){
+                        elems[ind].innerHTML = getTranslationMessage(elems[ind].innerHTML);
+                    }
+        }
+
+        function platformDialogModifications(okBtnName, saveChangesBtnName, saveChangesBtnActionEvent) {
+            //Changing OK to new name
+            var OkElem = getOKButton();
+            OkElem.innerHTML = getTranslationMessage(okBtnName);
+            //$('ai-dialog-footer .btn-primary:contains("OK")', window.parent.parent.document).text(getTranslationMessage(okBtnName));
+            // $('.btn-ok', window.parent.document).addClass('btn-primary');
+            OkElem.classList.add("btn-translate")
+
+            //$('ai-dialog-footer .btn-primary[type="submit"][aria-label != ""]', window.parent.parent.document).addClass(className + " btn-translate")
+
+            $('ai-dialog', window.parent.parent.document).animate({
+                'max-height': '80vh',
+                'max-width': '80vw',
+                'width': '80vw',
+                'height': '80vh'
+            }, 500);
+
+            //Dialog content style enhancements				
+            $('ai-dialog-body iframe', window.parent.parent.document).css({
+                'width': '100%',
+                'height': 'calc(100% - 6px)'
+            });
+
+            $('ai-dialog-body', window.parent.parent.document).css({
+                'max-height': 'calc(80vh - 103px)',
+                'height': '75vh',
+            });
+
+            $('.layout-panel .panel-container', window.parent.document).css({
+                'padding-left': '0px'
+            });
+
+            $('panel-container iframe', window.parent.document).css({
+                'height': 'calc(100% - 6px)',
+                'width': '100%',
+                'border': '0px'
+            });
+
+            //Save changes action in footer for internal template
+			if(!(TemplateType == "Internal party document" || TemplateType == "External party document")){
+				var newBtn = document.createElement("Button");
+				newBtn.innerHTML = getTranslationMessage(saveChangesBtnName);
+				newBtn.className = "btn btn-primary btn-translate";
+				newBtn.onclick = saveChangesBtnActionEvent;
+				$('ai-dialog-footer .btn-primary', window.parent.parent.document).before(newBtn);
+			}
+        }
+
+        function updateChangesAction() {
+            $.cordys.ajax({
+                method: "UpdateContractPreview",
+                namespace: "http://schemas.opentext.com/apps/contractcenter/18.4",
+                parameters: {
+                    "ItemId": INSTANCEID
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess) {
+                        reloadPreview();
+                    } else {
+                        window.showOrHideInfo(true, responseSuccess, "Error", 10000);
+                    }
+                },
+                error: function (responseFailure) {
+                    window.showOrHideInfo(true, responseFailure, "Error", 10000);
+                    return false;
+                }
+            });
+        }
+
+        function createDocPreviewInstanceIfNotCreated(){
+            $.cordys.ajax({
+                method: "CreateCCDocPreview",
+                namespace: "http://schemas.opentext.com/apps/contractcenter/18.4",
+                parameters: {
+                    "ContractItemID": INSTANCEID
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess) {
+                        loadPreview();
+                    } else {
+                        window.showOrHideInfo(true, responseSuccess, "Error", 10000);
+                    }
+                },
+                error: function (responseFailure) {
+                    window.showOrHideInfo(true, responseFailure, "Error", 10000);
+                    return false;
+                }
+            });
+        }
+
+        function reloadPreview() {
+            var frameElem = $('#cc-doc-preview-frame');
+            var srcFrame = frameElem.attr('src');
+            frameElem.attr('src', srcFrame);
+        }
+
+        function loadPreview() {
+            $.cordys.ajax({
+                method: "GenerateContractPreview",
+                namespace: "http://schemas.opentext.com/apps/contractcenter/18.4",
+                parameters: {
+                    "ItemId": INSTANCEID
+                },
+                success: function (responseSuccess) {
+                    if (responseSuccess.ItemId) {
+                        var prevId = getTextValue(responseSuccess.ItemId);
+						if(window.top.publicAPIProvider)
+						{
+							window.top.publicAPIProvider.getItemData(prevId);
+						}
+                        var bravaURL = buildBravaPreviewURL(BASEURL, prevId);
+                        $('#cc-doc-preview-loadmsg').hide();
+                        $('#cc-doc-preview-frame').attr('src', bravaURL);
+
+                    } else {
+                        window.showOrHideInfo(true, responseSuccess, "Error", 10000);
+                    }
+                },
+                error: function (responseFailure) {
+                    window.showOrHideInfo(true, responseFailure, "Error", 10000);
+                    return false;
+                }
+            });
+        }
+
+        function buildBravaPreviewURL(BASEURL, PREVID) {
+            return BASEURL + "app/start/web/perform/item/" + PREVID + "/8C1645B90967A1EBA84A22B71A1D66EC";
+        }
+
+        function removeBackground() {
+            return function () {
+                var frameElem = $('#cc-doc-preview-frame')[0];
+                if (frameElem) {
+                    window.addStylesToPlatformLayout(frameElem.contentWindow.document);
+                }
+            }
+        }
+
+        $(window).on("unload", function(e) {
+            g_parentWindow.location.reload();
+        });
+
+        function addStylesToPlatformLayout(iDocument) {
+            var l_Style = iDocument.createElement("style");
+            l_Style.innerHTML = ".root-container {background: none !important;} \n .layout-panel {border: none !important;}";
+            iDocument.head.appendChild(l_Style);
+        }
+
+        function showOrHideInfo(iShow, iResponse, iType, iVisibleTime) {
+
+            var l_infoArea = document.getElementById("InfoArea");
+
+            if (iShow) {
+                var fault = iResponse.responseJSON;
+                var iMessage = null;
+                var _FaultCode = null;
+
+                if (fault != undefined) {
+                    _FaultCode = fault.faultcode.hasOwnProperty('text') ? fault.faultcode.text : fault.faultcode;
+                    iMessage = _FaultCode.includes('DocGen') ? getTranslationMessage(fault.faultstring.text) : getTranslationMessage(l_ExceptionMsg);
+                } else {
+                    iMessage = getTranslationMessage(l_ExceptionMsg);
+                }
+
+                l_infoArea.style.display = "inline";
+                l_infoArea.lastElementChild.innerText = iMessage;
+                if (iVisibleTime) {
+                    setTimeout(showOrHideInfo, iVisibleTime);
+                }
+            }
+            else {
+                l_infoArea.style.display = "none";
+                l_infoArea.lastElementChild.innerText = "";
+            }
+        }
+    </script>
+</head>
+
+<body class="cc-ltr">
+    <span
+        style="display: none;text-align: center;padding: 5px;border-bottom: 3px solid rgb(223, 51, 36);position: absolute;top: 5px;left: 5%;width: 90%;box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.09);"
+        id="InfoArea">
+        <img src="../img/notification_error.svg" width="25px" height="25px" align="middle" style="margin-right:5px;">
+        <span id="InfoText" style="position: relative;"></span>
+    </span>
+    <div class="col-xs-12 cc-frame-area">
+        <h3 id="cc-doc-preview-loadmsg" data-translatable="true">Generating document...</h3>
+        <iframe id="cc-doc-preview-frame" class="cc-frame"></iframe>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-A090-7F648E52C43E">
+	<DocumentID>98FA9B1A-7A8B-A1EB-A090-7F648E52843E</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-A090-7F648E52843E</Name>
+	<Description>CreateGCClauseCategory</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-11T08:32:31.825</CreationDate>
+	<Notes/>
+	<Text>CreateGCClauseCategory</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-A090-7F648E52043E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

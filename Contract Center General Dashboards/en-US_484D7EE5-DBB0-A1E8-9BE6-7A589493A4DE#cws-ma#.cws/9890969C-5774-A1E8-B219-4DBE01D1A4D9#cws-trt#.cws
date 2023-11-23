@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-B219-4DBE01D1E4D9">
+	<DocumentID>9890969C-5774-A1E8-B219-4DBE01D1A4D9</DocumentID>
+	<Name>9890969C-5774-A1E8-B219-4DBE01D1A4D9</Name>
+	<Description>Terms</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-10-05T06:18:30.271</CreationDate>
+	<Notes/>
+	<Text>Terms</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-B219-4DBE01D124D9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

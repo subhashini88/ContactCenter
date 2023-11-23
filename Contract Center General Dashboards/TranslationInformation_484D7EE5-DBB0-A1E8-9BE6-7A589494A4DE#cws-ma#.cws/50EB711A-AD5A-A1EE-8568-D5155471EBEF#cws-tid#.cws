@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8568-D51554722BEF">
+	<DocumentID>50EB711A-AD5A-A1EE-8568-D5155471EBEF</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8568-D5155471EBEF</Name>
+	<Description>Report administration</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-28T11:11:55.155</CreationDate>
+	<Notes/>
+	<DefaultText>Report administration</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EE-8568-D51554726BEF"
+		/>
+	</Translations>
+</TextIdentifier>

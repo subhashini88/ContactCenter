@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E7-BF0D-70331E4A24C2">
+	<DocumentID>9890969C-5774-A1E7-BF0D-70331E49E4C2</DocumentID>
+	<Name>9890969C-5774-A1E7-BF0D-70331E49E4C2</Name>
+	<Description>Renewal date_12</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-01-18T09:58:08.405</CreationDate>
+	<Notes/>
+	<DefaultText>Renewal date_12</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E7-BF0D-70331E4A64C2"
+		/>
+	</Translations>
+</TextIdentifier>

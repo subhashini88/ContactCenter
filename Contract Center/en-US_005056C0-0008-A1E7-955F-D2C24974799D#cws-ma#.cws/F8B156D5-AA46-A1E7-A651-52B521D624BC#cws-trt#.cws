@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A651-52B521D664BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A651-52B521D624BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A651-52B521D624BC</Name>
+	<Description>Z_INT_MergeContractValueWithCurrency</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2017-09-14T12:12:55.011</CreationDate>
+	<Notes/>
+	<Text>Z_INT_MergeContractValueWithCurrency</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A651-52B521D5A4BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

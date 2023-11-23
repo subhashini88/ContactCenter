@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-A38B-4BA72967EDBD">
+	<DocumentID>1866DA2F-4C9E-A1EA-A38B-4BA72967ADBD</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-A38B-4BA72967ADBD</Name>
+	<Description>Add comment not allowed after request negotiation closure.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-05-04T17:32:49.541</CreationDate>
+	<Notes/>
+	<DefaultText>Add comment not allowed after request negotiation closure.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1252657"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EA-A38B-4BA729682DBD"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="484D7EEB-737F-A1EB-B7C1-63E3F2730893">
+	<DocumentID>484D7EEB-737F-A1EB-B7C1-63E3F272C893</DocumentID>
+	<Name>HideBasicValidation</Name>
+	<Description>HideBasicValidation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-07-07T09:53:42.897</CreationDate>
+	<Notes/>
+	<referenceCount>2</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

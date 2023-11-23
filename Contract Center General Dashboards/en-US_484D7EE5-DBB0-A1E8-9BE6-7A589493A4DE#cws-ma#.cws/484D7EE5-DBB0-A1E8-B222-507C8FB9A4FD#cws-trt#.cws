@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B222-507C8FB9E4FD">
+	<DocumentID>484D7EE5-DBB0-A1E8-B222-507C8FB9A4FD</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B222-507C8FB9A4FD</Name>
+	<Description>Clauses</Description>
+	<CreatedBy>joker</CreatedBy>
+	<CreationDate>2018-10-05T10:31:43.757</CreationDate>
+	<Notes/>
+	<Text>Clauses</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B222-507C8FB924FD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

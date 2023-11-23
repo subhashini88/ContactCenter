@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-3B8A-A1E8-B862-802921228877">
+	<DocumentID>1866DA2F-3B8A-A1E8-B862-802921224877</DocumentID>
+	<Name>1866DA2F-3B8A-A1E8-B862-802921224877</Name>
+	<Description>Language action bar list</Description>
+	<CreatedBy>Bhagwan</CreatedBy>
+	<CreationDate>2018-11-06T06:09:20.383</CreationDate>
+	<Notes/>
+	<DefaultText>Language action bar list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-3B8A-A1E8-B862-80292122C877"
+		/>
+	</Translations>
+</TextIdentifier>

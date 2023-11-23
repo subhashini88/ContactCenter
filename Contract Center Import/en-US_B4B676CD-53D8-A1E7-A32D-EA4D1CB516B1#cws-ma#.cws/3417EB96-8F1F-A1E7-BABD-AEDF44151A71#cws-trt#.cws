@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E7-BABD-AEDF44155A71">
+	<DocumentID>3417EB96-8F1F-A1E7-BABD-AEDF44151A71</DocumentID>
+	<Name>3417EB96-8F1F-A1E7-BABD-AEDF44151A71</Name>
+	<Description>getFailedItemsByJobId</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-27T11:13:13.027</CreationDate>
+	<Notes/>
+	<Text>getFailedItemsByJobId</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E7-BABD-AEDF44149A71"
+		/>
+	</TextIdentifier>
+</TranslatedText>

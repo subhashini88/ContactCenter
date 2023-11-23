@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-8138-4C360EEA8496">
+	<DocumentID>98FA9B1A-7A8B-A1EE-8138-4C360EEA4496</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-8138-4C360EEA4496</Name>
+	<Description>Z_INT_Tiles</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-07T04:15:20.878</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_Tiles</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC74A6DAF"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-8138-4C360EEAC496"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-A209-74BB9ACC664C">
+	<DocumentID>8C1645B9-0967-A1E9-A209-74BB9ACC264C</DocumentID>
+	<Name>8C1645B9-0967-A1E9-A209-74BB9ACC264C</Name>
+	<Description>OnContractDeleteNotification</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-06-06T09:33:57.692</CreationDate>
+	<Notes/>
+	<Text>OnContractDeleteNotification</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-A209-74BB9ACBA64C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

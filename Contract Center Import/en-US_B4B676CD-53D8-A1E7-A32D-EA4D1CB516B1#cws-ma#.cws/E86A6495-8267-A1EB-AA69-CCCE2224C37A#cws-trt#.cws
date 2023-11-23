@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A6495-8267-A1EB-AA69-CCCE2225037A">
+	<DocumentID>E86A6495-8267-A1EB-AA69-CCCE2224C37A</DocumentID>
+	<Name>E86A6495-8267-A1EB-AA69-CCCE2224C37A</Name>
+	<Description>RelatedCostCenterImport</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2021-04-30T11:47:51.809</CreationDate>
+	<Notes/>
+	<Text>RelatedCostCenterImport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A6495-8267-A1EB-AA69-CCCE2224437A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

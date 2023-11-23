@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B7A5-05F5AA67A502">
+	<DocumentID>484D7EEB-71EF-A1E8-B7A5-05F5AA676502</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B7A5-05F5AA676502</Name>
+	<Description>Disable template on is executed</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-02T11:55:31.461</CreationDate>
+	<Notes/>
+	<DefaultText>Disable template on is executed</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E8-B7A5-05F5AA67E502"
+		/>
+	</Translations>
+</TextIdentifier>

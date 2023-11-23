@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1ED-9FF0-3F83C2320473">
+	<DocumentID>FC7774E8-DA63-A1ED-9FF0-3F83C231C473</DocumentID>
+	<Name>FC7774E8-DA63-A1ED-9FF0-3F83C231C473</Name>
+	<Description>DownloadExcel1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-19T17:18:49.247</CreationDate>
+	<Notes/>
+	<Text>DownloadExcel1</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1ED-9FF0-3F83C2314473"
+		/>
+	</TextIdentifier>
+</TranslatedText>

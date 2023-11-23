@@ -1,0 +1,88 @@
+.secandcls-ol, .m_secandcls-ol {
+    counter-reset: item 
+}
+
+ol[class*="m_secandcls-ol"] {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+}
+ol[class*="m_secandcls-ol"] {
+    counter-reset: item1;
+}
+
+ol[class*="m_secandcls-ol"]  > li:not(.no-numbering) {
+    counter-increment: item1;
+    margin-bottom: 0.6em;
+}
+ol[class*="m_secandcls-ol"] > li:before {
+    padding-right: 0.6em;    
+}
+/* li ol[class*="m_secandcls-ol"] > li { */
+    /*margin: 5px 0 0 0 !important;*/
+/* } */
+
+/**------- Numbring style.--------------------------**/
+
+/** Decimal **/
+.decimal-numbering:not(.no-numbering):before {
+    content: counters(item1, ".", decimal) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+.decimal-simple-numbering:not(.no-numbering):before {
+    content: counter(item1,decimal) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/** lower-roman **/
+.lower-roman-numbering:not(.no-numbering):before {
+    content: counters(item1, ".", lower-roman) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+.lower-roman-simple-numbering:not(.no-numbering):before {
+    content: counter(item1,lower-roman) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/** upper roman. **/
+.upper-roman-numbering:not(.no-numbering):before {
+    content: counters(item1, ".", upper-roman) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+.upper-roman-simple-numbering:not(.no-numbering):before {
+    content: counter(item1,upper-roman) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/** lower alpha. **/
+.lower-alpha-numbering:not(.no-numbering):before {
+    content: counters(item1, ".", lower-alpha) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+.lower-alpha-simple-numbering:not(.no-numbering):before {
+    content: counter(item1,lower-alpha) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/** upper alpha. **/
+.upper-alpha-numbering:not(.no-numbering):before {
+    content: counters(item1, ".", upper-alpha) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+.upper-alpha-simple-numbering:not(.no-numbering):before {
+    content: counter(item1,upper-alpha) ". ";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/**------- Numbring style end.----------------------**/

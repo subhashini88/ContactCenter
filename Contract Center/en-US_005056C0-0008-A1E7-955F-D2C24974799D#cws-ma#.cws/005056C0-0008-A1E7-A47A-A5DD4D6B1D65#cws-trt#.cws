@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-A47A-A5DD4D6B5D65">
+	<DocumentID>005056C0-0008-A1E7-A47A-A5DD4D6B1D65</DocumentID>
+	<Name>005056C0-0008-A1E7-A47A-A5DD4D6B1D65</Name>
+	<Description>Contract subtype</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-09-05T03:53:54.695</CreationDate>
+	<Notes/>
+	<Text>Contract subtype</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-A47A-A5DD4D6A9D65"
+		/>
+	</TextIdentifier>
+</TranslatedText>

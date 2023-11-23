@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-B695-112642702B86">
+	<DocumentID>50EB711A-AD5A-A1EC-B695-1126426FEB86</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-B695-1126426FEB86</Name>
+	<Description>Z_INT_ContractTotalCount</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-23T04:55:47.827</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_ContractTotalCount</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-B695-112642706B86"
+		/>
+	</Translations>
+</TextIdentifier>

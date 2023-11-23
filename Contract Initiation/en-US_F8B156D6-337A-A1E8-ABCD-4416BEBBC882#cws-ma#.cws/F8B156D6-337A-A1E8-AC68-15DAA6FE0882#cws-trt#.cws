@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-337A-A1E8-AC68-15DAA6FE4882">
+	<DocumentID>F8B156D6-337A-A1E8-AC68-15DAA6FE0882</DocumentID>
+	<Name>F8B156D6-337A-A1E8-AC68-15DAA6FE0882</Name>
+	<Description>Review form</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-06T06:49:26.686</CreationDate>
+	<Notes/>
+	<Text>Review form</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-337A-A1E8-AC68-15DAA6FD8882"
+		/>
+	</TextIdentifier>
+</TranslatedText>

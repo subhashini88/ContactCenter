@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B476-D7E2A290A500">
+	<DocumentID>484D7EE5-DBB0-A1E8-B476-D7E2A2906500</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B476-D7E2A2906500</Name>
+	<Description>Commom library_1</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-10-17T07:09:55.253</CreationDate>
+	<Notes/>
+	<DefaultText>Commom library_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B476-D7E2A290E500"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-35B963767068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-35B96374F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-35B96373B068"
+		/>
+	</Translations>
+</TextIdentifier>

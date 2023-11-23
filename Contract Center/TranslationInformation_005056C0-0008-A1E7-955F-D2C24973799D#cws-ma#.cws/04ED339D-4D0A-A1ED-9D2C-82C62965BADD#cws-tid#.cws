@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="04ED339D-4D0A-A1ED-9D2C-82C62965FADD">
+	<DocumentID>04ED339D-4D0A-A1ED-9D2C-82C62965BADD</DocumentID>
+	<Name>04ED339D-4D0A-A1ED-9D2C-82C62965BADD</Name>
+	<Description>Get services</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-12-05T15:52:08.944</CreationDate>
+	<Notes/>
+	<DefaultText>Get services</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="04ED339D-4D0A-A1ED-9D2C-82C629663ADD"
+		/>
+	</Translations>
+</TextIdentifier>

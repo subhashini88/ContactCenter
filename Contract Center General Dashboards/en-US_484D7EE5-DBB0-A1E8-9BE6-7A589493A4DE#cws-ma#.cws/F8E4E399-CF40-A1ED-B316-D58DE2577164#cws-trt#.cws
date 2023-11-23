@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B316-D58DE257B164">
+	<DocumentID>F8E4E399-CF40-A1ED-B316-D58DE2577164</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B316-D58DE2577164</Name>
+	<Description>Inactive Document Layouts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-27T04:55:27.563</CreationDate>
+	<Notes/>
+	<Text>Inactive Document Layouts</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B316-D58DE256F164"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-8562-2AD0E0F46509">
+	<DocumentID>484D7EEB-71EF-A1E9-8562-2AD0E0F42509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-8562-2AD0E0F42509</Name>
+	<Description>Read Second Party</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-11T10:10:17.511</CreationDate>
+	<Notes/>
+	<Text>Read Second Party</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-8562-2AD0E0F3A509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-A8BD-0ED95FEAEDA6">
+	<DocumentID>1866DA2F-4C9E-A1E9-A8BD-0ED95FEAADA6</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-A8BD-0ED95FEAADA6</Name>
+	<Description>Are you sure to renew contract with amendments ? This operation cannot be undone. Click close to abort.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-10T09:24:19.904</CreationDate>
+	<Notes/>
+	<DefaultText>Are you sure to renew contract with amendments ? This operation cannot be undone. Click close to abort.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1E9-A8BD-0ED95FEB2DA6"
+		/>
+	</Translations>
+</TextIdentifier>

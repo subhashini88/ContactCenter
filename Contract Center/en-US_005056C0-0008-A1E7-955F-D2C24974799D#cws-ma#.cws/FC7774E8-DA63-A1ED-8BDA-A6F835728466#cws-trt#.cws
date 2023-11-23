@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1ED-8BDA-A6F83572C466">
+	<DocumentID>FC7774E8-DA63-A1ED-8BDA-A6F835728466</DocumentID>
+	<Name>FC7774E8-DA63-A1ED-8BDA-A6F835728466</Name>
+	<Description>duchdi</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-08T11:37:53.872</CreationDate>
+	<Notes/>
+	<Text>duchdi</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1ED-8BDA-A6F835720466"
+		/>
+	</TextIdentifier>
+</TranslatedText>

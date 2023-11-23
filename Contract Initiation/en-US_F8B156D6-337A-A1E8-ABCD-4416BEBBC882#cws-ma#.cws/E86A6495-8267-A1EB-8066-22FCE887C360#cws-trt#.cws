@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A6495-8267-A1EB-8066-22FCE8880360">
+	<DocumentID>E86A6495-8267-A1EB-8066-22FCE887C360</DocumentID>
+	<Name>E86A6495-8267-A1EB-8066-22FCE887C360</Name>
+	<Description>Tasklist Tasks</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2020-09-28T14:42:57.895</CreationDate>
+	<Notes/>
+	<Text>Tasklist Tasks</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A6495-8267-A1EB-8066-22FCE8874360"
+		/>
+	</TextIdentifier>
+</TranslatedText>

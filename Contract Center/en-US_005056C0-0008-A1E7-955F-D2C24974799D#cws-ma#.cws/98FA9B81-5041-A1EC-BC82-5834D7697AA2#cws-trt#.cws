@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BC82-5834D769BAA2">
+	<DocumentID>98FA9B81-5041-A1EC-BC82-5834D7697AA2</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BC82-5834D7697AA2</Name>
+	<Description>DeleteCTRParties</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-22T08:59:35.731</CreationDate>
+	<Notes/>
+	<Text>DeleteCTRParties</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-BC82-5834D768FAA2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

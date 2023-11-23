@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EA-AA80-0F1A71E2EAC1">
+	<DocumentID>50EB711A-AD5A-A1EA-AA80-0F1A71E2AAC1</DocumentID>
+	<Name>50EB711A-AD5A-A1EA-AA80-0F1A71E2AAC1</Name>
+	<Description>ContractTerm: A value is required</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-09T03:33:32.327</CreationDate>
+	<Notes/>
+	<Text>ContractTerm: A value is required</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EA-AA80-0F1A71E22AC1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

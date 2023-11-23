@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-8DE2-D032AF04714D">
+	<DocumentID>F8E4E399-CF40-A1ED-8DE2-D032AF04314D</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-8DE2-D032AF04314D</Name>
+	<Description>Concat External Parties</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-18T20:03:19.133</CreationDate>
+	<Notes/>
+	<Text>Concat External Parties</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-8DE2-D032AF03B14D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

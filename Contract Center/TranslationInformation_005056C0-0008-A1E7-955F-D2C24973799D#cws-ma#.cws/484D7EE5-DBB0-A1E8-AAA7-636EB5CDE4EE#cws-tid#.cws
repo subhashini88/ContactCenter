@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-AAA7-636EB5CE24EE">
+	<DocumentID>484D7EE5-DBB0-A1E8-AAA7-636EB5CDE4EE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-AAA7-636EB5CDE4EE</Name>
+	<Description>Edit conversion rate</Description>
+	<CreatedBy>Harley</CreatedBy>
+	<CreationDate>2018-08-28T09:32:48.232</CreationDate>
+	<Notes/>
+	<DefaultText>Edit conversion rate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-AAA7-636EB5CE64EE"
+		/>
+	</Translations>
+</TextIdentifier>

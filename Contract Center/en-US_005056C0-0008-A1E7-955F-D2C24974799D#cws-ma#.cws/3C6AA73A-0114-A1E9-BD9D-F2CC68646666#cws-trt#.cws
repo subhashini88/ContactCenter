@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-BD9D-F2CC6864A666">
+	<DocumentID>3C6AA73A-0114-A1E9-BD9D-F2CC68646666</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-BD9D-F2CC68646666</Name>
+	<Description>Terminate.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-24T16:05:16.311</CreationDate>
+	<Notes/>
+	<Text>Terminate.</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-BD9D-F2CC6863E666"
+		/>
+	</TextIdentifier>
+</TranslatedText>

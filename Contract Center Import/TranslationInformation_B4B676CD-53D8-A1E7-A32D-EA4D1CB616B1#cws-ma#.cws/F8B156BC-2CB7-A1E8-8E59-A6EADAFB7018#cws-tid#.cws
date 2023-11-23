@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-8E59-A6EADAFBB018">
+	<DocumentID>F8B156BC-2CB7-A1E8-8E59-A6EADAFB7018</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-8E59-A6EADAFB7018</Name>
+	<Description>Z_INT_CollectionAccountImportFailedList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-04-06T07:01:39.284</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_CollectionAccountImportFailedList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB696B1"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-8E59-A6EADAFBF018"
+		/>
+	</Translations>
+</TextIdentifier>

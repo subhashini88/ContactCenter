@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-7DE6-A1EB-B37C-D3511E0FB030">
+	<DocumentID>00505601-7DE6-A1EB-B37C-D3511E0F7030</DocumentID>
+	<Name>00505601-7DE6-A1EB-B37C-D3511E0F7030</Name>
+	<Description>IsBWS?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-06-15T16:28:08.491</CreationDate>
+	<Notes/>
+	<Text>IsBWS?</Text>
+	<Language>
+		<uri
+			id="F8B156D6-337A-A1E8-ABCD-4416BEBC4882"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-7DE6-A1EB-B37C-D3511E0EF030"
+		/>
+	</TextIdentifier>
+</TranslatedText>

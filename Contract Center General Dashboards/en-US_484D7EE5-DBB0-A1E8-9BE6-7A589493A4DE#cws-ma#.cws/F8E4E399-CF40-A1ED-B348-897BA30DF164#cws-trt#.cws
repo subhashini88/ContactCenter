@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B348-897BA30E3164">
+	<DocumentID>F8E4E399-CF40-A1ED-B348-897BA30DF164</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B348-897BA30DF164</Name>
+	<Description>Upcoming Terminations Within A Month</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-28T04:37:49.695</CreationDate>
+	<Notes/>
+	<Text>Upcoming Terminations Within A Month</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949424DE"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B348-897BA30D7164"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B6C3-FF55AAF3894F">
+	<DocumentID>C4D98747-AA4E-A1E7-B6C3-FF55AAF3494F</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B6C3-FF55AAF3494F</Name>
+	<Description>condition_73</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-12-07T06:19:07.817</CreationDate>
+	<Notes/>
+	<DefaultText>condition_73</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B6C3-FF55AAF3C94F"
+		/>
+	</Translations>
+</TextIdentifier>

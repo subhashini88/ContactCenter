@@ -1,0 +1,15 @@
+
+<CMEventType
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.casemgmt.event.CMEventType"
+	RuntimeDocumentID="005056C0-0008-A1E7-9565-A0498186399D">
+	<DocumentID>{3D160E2B-12C5-409A-BD89-C590ED1C6D4F}</DocumentID>
+	<Name>document.received</Name>
+	<Description>document.received</Description>
+	<CreatedBy>batman@ychaubehp9td02-system</CreatedBy>
+	<CreationDate>2017-06-20T08:57:36.9</CreationDate>
+	<Notes/>
+	<Custom>false</Custom>
+	<FormAssociation/>
+	<TranslatableName/>
+</CMEventType>

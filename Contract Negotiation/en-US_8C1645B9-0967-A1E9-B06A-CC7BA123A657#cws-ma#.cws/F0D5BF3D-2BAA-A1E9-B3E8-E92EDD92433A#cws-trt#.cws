@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F0D5BF3D-2BAA-A1E9-B3E8-E92EDD92833A">
+	<DocumentID>F0D5BF3D-2BAA-A1E9-B3E8-E92EDD92433A</DocumentID>
+	<Name>F0D5BF3D-2BAA-A1E9-B3E8-E92EDD92433A</Name>
+	<Description>Is Existed ?</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-09-05T06:16:29.065</CreationDate>
+	<Notes/>
+	<Text>Is Existed ?</Text>
+	<Language>
+		<uri
+			id="8C1645B9-0967-A1E9-B06A-CC7BA1242657"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F0D5BF3D-2BAA-A1E9-B3E8-E92EDD91C33A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A8A9-405D104ED83A">
+	<DocumentID>C4D98747-AA4E-A1E7-A8A9-405D104E983A</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A8A9-405D104E983A</Name>
+	<Description>Next contract</Description>
+	<CreatedBy>kasim  basha</CreatedBy>
+	<CreationDate>2017-09-26T10:28:54.563</CreationDate>
+	<Notes/>
+	<DefaultText>Next contract</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A8A9-405D104F183A"
+		/>
+	</Translations>
+</TextIdentifier>

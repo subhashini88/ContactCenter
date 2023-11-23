@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-988E-D905390106C1">
+	<DocumentID>F8B156D5-AA46-A1E7-988E-D9053900C6C1</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-988E-D9053900C6C1</Name>
+	<Description>Clause relation list</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-07-06T11:17:08.677</CreationDate>
+	<Notes/>
+	<DefaultText>Clause relation list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-988E-D905390146C1"
+		/>
+	</Translations>
+</TextIdentifier>

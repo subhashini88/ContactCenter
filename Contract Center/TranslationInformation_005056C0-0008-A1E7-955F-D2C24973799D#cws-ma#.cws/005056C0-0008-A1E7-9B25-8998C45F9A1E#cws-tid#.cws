@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="005056C0-0008-A1E7-9B25-8998C45FDA1E">
+	<DocumentID>005056C0-0008-A1E7-9B25-8998C45F9A1E</DocumentID>
+	<Name>005056C0-0008-A1E7-9B25-8998C45F9A1E</Name>
+	<Description>condition_13</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2017-07-19T15:23:52.419</CreationDate>
+	<Notes/>
+	<DefaultText>condition_13</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="005056C0-0008-A1E7-9B25-8998C4601A1E"
+		/>
+	</Translations>
+</TextIdentifier>

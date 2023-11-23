@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EE-83F2-83AAF57456A0">
+	<DocumentID>98FA9B81-5041-A1EE-83F2-83AAF57416A0</DocumentID>
+	<Name>98FA9B81-5041-A1EE-83F2-83AAF57416A0</Name>
+	<Description>Last successful schedule</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2023-06-21T00:35:09.323</CreationDate>
+	<Notes/>
+	<Text>Last successful schedule</Text>
+	<Language>
+		<uri
+			id="1866DA2F-4C9E-A1E9-BDBF-FDDAC7496DAF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EE-83F2-83AAF57396A0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

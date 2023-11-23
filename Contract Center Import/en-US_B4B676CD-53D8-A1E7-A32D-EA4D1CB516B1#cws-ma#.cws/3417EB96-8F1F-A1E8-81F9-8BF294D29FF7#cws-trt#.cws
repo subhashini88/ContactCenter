@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-81F9-8BF294D2DFF7">
+	<DocumentID>3417EB96-8F1F-A1E8-81F9-8BF294D29FF7</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-81F9-8BF294D29FF7</Name>
+	<Description>Import status</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-02-02T07:09:30.856</CreationDate>
+	<Notes/>
+	<Text>Import status</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-81F9-8BF294D21FF7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

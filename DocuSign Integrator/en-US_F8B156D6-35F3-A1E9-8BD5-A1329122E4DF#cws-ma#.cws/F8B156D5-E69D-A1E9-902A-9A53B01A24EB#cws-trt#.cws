@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-E69D-A1E9-902A-9A53B01A64EB">
+	<DocumentID>F8B156D5-E69D-A1E9-902A-9A53B01A24EB</DocumentID>
+	<Name>F8B156D5-E69D-A1E9-902A-9A53B01A24EB</Name>
+	<Description>Is envelope id available?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-07T07:42:30.039</CreationDate>
+	<Notes/>
+	<Text>Is envelope id available?</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-E69D-A1E9-902A-9A53B019A4EB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

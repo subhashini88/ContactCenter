@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-B6CA-3E09CA4A894F">
+	<DocumentID>C4D98747-AA4E-A1E7-B6CA-533F66DB494F</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-B6CA-533F66DB494F</Name>
+	<Description>mark value to zero if negative</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-12-07T08:41:54.077</CreationDate>
+	<Notes/>
+	<DefaultText>mark value to zero if negative</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-B6CA-3E09CA4AC94F"
+		/>
+	</Translations>
+</TextIdentifier>

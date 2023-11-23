@@ -1,0 +1,25 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1E9-AB7C-2FCB93356DA7">
+	<DocumentID>1866DA2F-4C9E-A1E9-AB7C-2FCB93352DA7</DocumentID>
+	<Name>1866DA2F-4C9E-A1E9-AB7C-2FCB93352DA7</Name>
+	<Description>UpdateContractRelationships
+(foreward)</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-24T08:57:21.041</CreationDate>
+	<Notes/>
+	<Text>UpdateContractRelationships
+(foreward)</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1E9-AB7C-2FCB9334ADA7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

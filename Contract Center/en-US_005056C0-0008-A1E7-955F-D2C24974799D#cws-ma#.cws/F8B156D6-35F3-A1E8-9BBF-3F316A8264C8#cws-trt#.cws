@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-9BBF-3F316A82A4C8">
+	<DocumentID>F8B156D6-35F3-A1E8-9BBF-3F316A8264C8</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-9BBF-3F316A8264C8</Name>
+	<Description>Set related document IDMonthsFromToRule</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-06-13T11:45:17.108</CreationDate>
+	<Notes/>
+	<Text>Set related document IDMonthsFromToRule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-9BBF-3F316A81E4C8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-857C-63F7D82FE71E">
+	<DocumentID>3C6AA73A-0114-A1EC-857C-63F7D82FA71E</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-857C-63F7D82FA71E</Name>
+	<Description>For each new mapped attribute</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-15T06:57:24.081</CreationDate>
+	<Notes/>
+	<Text>For each new mapped attribute</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-857C-63F7D82F271E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

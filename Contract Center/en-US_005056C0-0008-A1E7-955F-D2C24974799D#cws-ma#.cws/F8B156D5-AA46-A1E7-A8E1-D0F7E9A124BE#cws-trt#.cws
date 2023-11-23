@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A8E1-D0F7E9A164BE">
+	<DocumentID>F8B156D5-AA46-A1E7-A8E1-D0F7E9A124BE</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A8E1-D0F7E9A124BE</Name>
+	<Description>My contracts</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-27T13:27:44.653</CreationDate>
+	<Notes/>
+	<Text>My contracts</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A8E1-D0F7E9A0A4BE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-85C1-49F97B6CA509">
+	<DocumentID>484D7EEB-71EF-A1E9-85C1-49F97B6C6509</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-85C1-49F97B6C6509</Name>
+	<Description>Send email about renewal for first party and roles</Description>
+	<CreatedBy>cn=cat@New,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-13T11:17:23.535</CreationDate>
+	<Notes/>
+	<Text>Send email about renewal for first party and roles</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-85C1-49F97B6BE509"
+		/>
+	</TextIdentifier>
+</TranslatedText>

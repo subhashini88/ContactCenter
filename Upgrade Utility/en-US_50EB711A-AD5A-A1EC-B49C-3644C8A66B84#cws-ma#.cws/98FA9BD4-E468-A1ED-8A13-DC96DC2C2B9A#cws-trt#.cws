@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8A13-DC96DC2C6B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-8A13-DC96DC2C2B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8A13-DC96DC2C2B9A</Name>
+	<Description>UpdateGCTemplate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-30T10:36:33.939</CreationDate>
+	<Notes/>
+	<Text>UpdateGCTemplate</Text>
+	<Language>
+		<uri
+			id="50EB711A-AD5A-A1EC-B49C-3644C8A6EB84"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8A13-DC96DC2BAB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

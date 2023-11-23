@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E9-8BD6-FAD13E2364DF">
+	<DocumentID>F8B156D6-35F3-A1E9-8BD6-FAD13E2324DF</DocumentID>
+	<Name>F8B156D6-35F3-A1E9-8BD6-FAD13E2324DF</Name>
+	<Description>DocuSignConfiguration</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2019-02-13T06:54:01.347</CreationDate>
+	<Notes/>
+	<Text>DocuSignConfiguration</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD5-A132912364DF"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E9-8BD6-FAD13E22A4DF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

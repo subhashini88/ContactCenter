@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE4-6263-A1E9-81D0-FF47D86D489A">
+	<DocumentID>484D7EE4-6263-A1E9-81D0-FF47D86D089A</DocumentID>
+	<Name>484D7EE4-6263-A1E9-81D0-FF47D86D089A</Name>
+	<Description>ExternalContactImport</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-12-24T06:42:02.591</CreationDate>
+	<Notes/>
+	<Text>ExternalContactImport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE4-6263-A1E9-81D0-FF47D86C889A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,19 @@
+
+<Category
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.category.Category"
+	RuntimeDocumentID="F8B156B5-069B-A1E7-A783-37772D70E4C7">
+	<DocumentID>F8B156B5-069B-A1E7-A783-37772D70A4C7</DocumentID>
+	<Name>RenewalRule</Name>
+	<Description>RenewalRule</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-20T14:09:34.089</CreationDate>
+	<Notes/>
+	<referenceCount>4</referenceCount>
+	<BuildingBlock>
+		<uri
+			id="B4B676CD-53D8-A1E7-A224-E12CC49224BF"
+		/>
+	</BuildingBlock>
+	<Original/>
+</Category>

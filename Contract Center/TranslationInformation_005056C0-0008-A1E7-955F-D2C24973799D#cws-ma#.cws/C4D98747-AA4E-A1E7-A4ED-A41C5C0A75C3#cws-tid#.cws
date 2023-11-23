@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A4ED-A41C5C0AB5C3">
+	<DocumentID>C4D98747-AA4E-A1E7-A4ED-A41C5C0A75C3</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A4ED-A41C5C0A75C3</Name>
+	<Description>Executed contract</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-07T10:32:54.384</CreationDate>
+	<Notes/>
+	<DefaultText>Executed contract</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-AA4E-A1E7-A4ED-A41C5C0AF5C3"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-AEFC-AE4C0963A165">
+	<DocumentID>E86A64E0-AE43-A1EC-AEFC-AE4C09636165</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-AEFC-AE4C09636165</Name>
+	<Description>Contract doc previewInternal</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-04-14T13:32:51.428</CreationDate>
+	<Notes/>
+	<DefaultText>Contract doc previewInternal</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="E86A64E0-AE43-A1EC-AEFC-AE4C0963E165"
+		/>
+	</Translations>
+</TextIdentifier>

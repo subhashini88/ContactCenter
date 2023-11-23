@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9BE6-BA0ECAF3E4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9BE6-BA0ECAF3A4DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9BE6-BA0ECAF3A4DE</Name>
+	<Description>Account management</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-14T06:20:13.058</CreationDate>
+	<Notes/>
+	<DefaultText>Account management</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-7A58949524DE"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9BE6-BA0ECAF424DE"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-557DD6403068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-557DD63EB068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95AA-557DD63D7068"
+		/>
+	</Translations>
+</TextIdentifier>

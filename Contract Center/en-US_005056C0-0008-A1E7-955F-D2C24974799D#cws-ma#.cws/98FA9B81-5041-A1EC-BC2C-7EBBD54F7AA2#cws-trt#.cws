@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-BC2C-7EBBD54FBAA2">
+	<DocumentID>98FA9B81-5041-A1EC-BC2C-7EBBD54F7AA2</DocumentID>
+	<Name>98FA9B81-5041-A1EC-BC2C-7EBBD54F7AA2</Name>
+	<Description>Auro renew</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-06-20T16:13:53.387</CreationDate>
+	<Notes/>
+	<Text>Auro renew</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-BC2C-7EBBD54EFAA2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

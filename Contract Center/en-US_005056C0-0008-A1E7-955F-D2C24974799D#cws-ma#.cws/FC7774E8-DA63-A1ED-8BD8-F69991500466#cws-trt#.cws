@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1ED-8BD8-F69991504466">
+	<DocumentID>FC7774E8-DA63-A1ED-8BD8-F69991500466</DocumentID>
+	<Name>FC7774E8-DA63-A1ED-8BD8-F69991500466</Name>
+	<Description>Duplicate country cannot be added</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-08T10:50:36.925</CreationDate>
+	<Notes/>
+	<Text>Duplicate country cannot be added</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1ED-8BD8-F699914F8466"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E72-E921D65DB025">
+	<DocumentID>F8B156BC-2CB7-A1E8-9E72-E921D65D7025</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9E72-E921D65D7025</Name>
+	<Description>AccountManagersImport</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-06-27T05:33:43.146</CreationDate>
+	<Notes/>
+	<Text>AccountManagersImport</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9E72-E921D65CF025"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1ED-BE7E-000323FF8F60">
+	<DocumentID>84A938BF-F78D-A1ED-BE7E-000323FF4F60</DocumentID>
+	<Name>84A938BF-F78D-A1ED-BE7E-000323FF4F60</Name>
+	<Description>UpdateCTRInternalAttrValues</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-24T06:28:06.86</CreationDate>
+	<Notes/>
+	<Text>UpdateCTRInternalAttrValues</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1ED-BE7E-000323FECF60"
+		/>
+	</TextIdentifier>
+</TranslatedText>

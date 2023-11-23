@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-7DE6-A1EB-B36D-4D5693EE7030">
+	<DocumentID>00505601-7DE6-A1EB-B36D-C4F6B515B030</DocumentID>
+	<Name>00505601-7DE6-A1EB-B36D-C4F6B515B030</Name>
+	<Description>ReadContract - created</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2021-06-15T08:54:24.723</CreationDate>
+	<Notes/>
+	<Text>ReadContract - created</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-7DE6-A1EB-B36D-C4F6B5153030"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-973E-A8F1E1F88F70">
+	<DocumentID>84A938BF-F78D-A1EE-973E-A8F1E1F84F70</DocumentID>
+	<Name>84A938BF-F78D-A1EE-973E-A8F1E1F84F70</Name>
+	<Description>Not-Met - Unsettled</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-27T05:57:09.637</CreationDate>
+	<Notes/>
+	<DefaultText>Not-Met - Unsettled</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24972F99D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="84A938BF-F78D-A1EE-973E-A8F1E1F8CF70"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="005056C0-0008-A1E7-AB2A-C06A8B199C4A">
+	<DocumentID>005056C0-0008-A1E7-AB2A-C06A8B195C4A</DocumentID>
+	<Name>005056C0-0008-A1E7-AB2A-C06A8B195C4A</Name>
+	<Description>Unique code rule</Description>
+	<CreatedBy>batman batman</CreatedBy>
+	<CreationDate>2017-10-09T04:37:40.65</CreationDate>
+	<Notes/>
+	<Text>Unique code rule</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="005056C0-0008-A1E7-AB2A-C06A8B18DC4A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

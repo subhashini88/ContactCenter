@@ -1,0 +1,19 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B221-578D278D24FD">
+	<DocumentID>484D7EE5-DBB0-A1E8-B221-578D278CE4FD</DocumentID>
+	<Name>Basic Component Viewer</Name>
+	<Description>Basic Component Viewer</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-10-05T10:44:42.773</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-AA4E-A1E7-A517-11020F37997B">
+	<DocumentID>C4D98747-AA4E-A1E7-A517-11020F69597B</DocumentID>
+	<Name>C4D98747-AA4E-A1E7-A517-11020F69597B</Name>
+	<Description>AmendmentUpdateChildDetails</Description>
+	<CreatedBy>super</CreatedBy>
+	<CreationDate>2017-09-08T06:09:27.846</CreationDate>
+	<Notes/>
+	<Text>AmendmentUpdateChildDetails</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-AA4E-A1E7-A517-11020F68D97B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

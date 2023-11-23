@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B91E-63E3B75E64B8">
+	<DocumentID>484D7EE5-DBB0-A1E7-B91E-63E3B75E24B8</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B91E-63E3B75E24B8</Name>
+	<Description>Add cancellation details</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-19T05:50:34.739</CreationDate>
+	<Notes/>
+	<Text>Add cancellation details</Text>
+	<Language>
+		<uri
+			id="005056C0-0008-A1E7-955F-D2C24973F99D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B91E-63E3B75DA4B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

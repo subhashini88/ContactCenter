@@ -1,0 +1,41 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="3417EB96-8C0C-A1E7-ABD5-9575E1C2C62B">
+	<DocumentID>3417EB96-8C0C-A1E7-ABD5-9575E1C2862B</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>yballepa</CreatedBy>
+	<CreationDate>2017-10-12T14:11:06.171</CreationDate>
+	<Notes/>
+	<CreateOperation/>
+	<DeleteOperation/>
+	<Entity>
+		<uri
+			id="3417EB96-8C0C-A1E7-ABD3-AAE760B2462B"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation/>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="3417EB96-8C0C-A1E7-ABD5-9575E1C2062B">
+			<DocumentID>3417EB96-8C0C-A1E7-ABD5-9575E1C1C62B</DocumentID>
+			<Name>UpdateCTRDocStatus</Name>
+			<Description>Update CTRDocStatus</Description>
+			<CreatedBy>yballepa</CreatedBy>
+			<CreationDate>2017-10-12T14:11:06.171</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="3417EB96-8C0C-A1E7-ABD3-AAE760B2462B"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E8-877E-30D75D05E507">
+	<DocumentID>C4D98747-A6D9-A1E8-877E-30D75D05A507</DocumentID>
+	<Name>C4D98747-A6D9-A1E8-877E-30D75D05A507</Name>
+	<Description>party exists</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-03-02T09:09:59.698</CreationDate>
+	<Notes/>
+	<Text>party exists</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E7-A32D-EA4D1CB596B1"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E8-877E-30D75D052507"
+		/>
+	</TextIdentifier>
+</TranslatedText>
